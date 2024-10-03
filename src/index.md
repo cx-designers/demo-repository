@@ -1,4 +1,4 @@
 ---
 layout: layouts/homepage.njk
-title: home page contnet here.
+title: Welcome to GSAP
 ---
