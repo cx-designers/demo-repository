@@ -49,3 +49,20 @@ color: #fff;
   flex: unset;
   border-radius: 5px !important;
 }
+/* secondSection css start */
+.cursor {
+  background-color: black; /* Default cursor color */
+  /* Other cursor styles */
+}
+
+.white-cursor {
+  background-color: white; /* Color change when in the black background section */
+}
+
+.secondSection {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+/* secondSection css end */
