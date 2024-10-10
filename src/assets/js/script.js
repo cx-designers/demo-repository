@@ -14,13 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
       gsap.to(cursor, 0.5, { x: mouseX, y: mouseY });
   });
-
-  secondSection.addEventListener('mouseenter', e => {
-    console.log("mouse enter in second section");
-    gsap.to(cursor , {
-        backgroundColor : blue,
-    });
-  })
   // Button hover effects
   buttons.forEach(button => {
     button.addEventListener('mouseenter', () => {
