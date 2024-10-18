@@ -1,0 +1,21 @@
+<section class="result-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <span class="spanTitle">{{rSpanTitle}}</span>
+                <h2 class="section-title">{{ rSectionTitle }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            {% for item in ritems %}
+                <div class="col-lg col-xs-12 col-md-6">
+                    <div class="result-card">
+                        <img src="{{ item.image }}" alt="{{ item.title }}" class="img-fluid">
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

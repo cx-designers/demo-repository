@@ -1,0 +1,20 @@
+<section class="home-hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-7">
+                <span class="spanTitle">{{ heroSpanTitle }}</span>
+                <h2 class="heroTitle">{{ heroTitle }}</h2>
+                <p>{{ heroDescription }}</p>
+                <ul>
+                    {% for item in list %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+                <a href="{{ herobuttonLink }}" class="btn btn-primary">{{ herobuttonText }}</a>
+            </div>
+            <div class="col-12 col-lg-5">
+                <img  src="{{ heroTeamimg }}" alt="heroTeam" class="img-fluid" title="hero-team">
+            </div>
+        </div>
+    </div>
+</section>
