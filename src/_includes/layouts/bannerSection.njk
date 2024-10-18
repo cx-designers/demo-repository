@@ -1,8 +1,12 @@
 <section class="banner-section">  
-  <h1>{{title}}</h1>
-<div class="cursor"></div>
-<div class="btn-group">
-  <button class="btn">Button 1</button>
-  <button class="btn">Button 2</button>
+<div class="d-flex flex-wrap align-items-center">
+<div class="left-box col-6 px-4">
+  <h1 class="mb-4">{{title}}</h1>
+  <p>{{BannerDesc}}</p>
 </div>
+<div class="Right-box col-6 px-4">
+  <img src="{{bannerImage.src}}" alt="{{bannerImage.alt}}" class="w-100" />
+</div>
+</div>
+<div class="cursor"></div>
 </section>

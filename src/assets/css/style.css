@@ -4,37 +4,42 @@ body {
 }
 
 h1 {
-  font-size: 13em;
+  font-size:80px;
+  line-height: 95px;
   cursor: pointer;
   line-height: 1;
-  text-align: center;
 }
 .cursor{
   position: fixed;
   left: 0;
   border-radius: 50%;
   pointer-events: none;
-  transition: transform 0.1s;
-}
-.cursor {
   background: black;
   top: 0;
   width: 20px;
   height: 20px;
   z-index: 999;
+  transition: transform 0.1s;
+}
+.hovered{
+  background: #d3d3d3;
+  mix-blend-mode: difference;
 }
 .btn{
-border: 1px solid #000;
+border: 1px solid #fff;
 border-radius: 5px;
 font-size: 16px;
 line-height: 20px;
 padding: 10px 20px;
 margin: 0px 10px;
+color: #000;
+background: #fff;
 }
 
 .btn:hover{
-background: #000;
+background: #d3d3d3;
 color: #fff;
+border: 1px solid #d3d3d3;
 }
 
 .btn-group {
@@ -49,6 +54,58 @@ color: #fff;
   flex: unset;
   border-radius: 5px !important;
 }
+/* header css start */
+header.cust-header {
+  padding: 15px 20px;
+  background: #cfcfff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header.cust-header .cust-menu {
+  display: flex;
+  align-items: center;
+}
+
+header.cust-header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header.cust-header ul li.menu-item {
+  margin: 0px 20px;
+}
+
+header.cust-header ul li.menu-item a.menu-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+}
+
+a.CAT-button {
+  display: flex;
+  background: #000;
+  color: #cfcfff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+}
+a.CAT-button:hover{
+  background: transparent;
+  border: 1px solid #000;
+  color: #000;
+  transition: 0.3s ease;
+}
+/* header css end */
 /* secondSection css start */
 .cursor {
   background-color: black; /* Default cursor color */
@@ -60,9 +117,34 @@ color: #fff;
 }
 
 .secondSection {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: #000;
   color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+.info-box{
+  font-size: 40px;
+  line-height: 50px;
+  width: 70%;
+  margin: 0px auto 0 auto;
+  text-align: center;
+  background: #d3d3d3;
+  color: #000;
+  padding: 20px;
+}
+
+section.banner-section {
+  width: 100%;
+  height: 100vh;
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* secondSection css end */
