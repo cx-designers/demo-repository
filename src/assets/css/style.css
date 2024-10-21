@@ -148,3 +148,45 @@ section.banner-section {
 }
 
 /* secondSection css end */
+
+/* Footer section start */
+footer {
+  background: #3d3da3;
+  color: #fff;
+  padding: 80px;
+}
+footer .container {
+  max-width: none;
+}
+.logo-left-col{
+  padding-right: 60px;
+}
+.logo-left-col a.left-link {
+  margin-bottom: 24px;
+  display: block;
+}
+.logo-left-col p{
+  font-size: 16px;
+  line-height: 20px;
+}
+/* Footer section start */
+footer ul{
+  list-style: none;
+  padding: 0;
+}
+footer ul li a{
+font-size: 16px;
+color: #fff;
+text-decoration: none;
+}
+
+.right-col .cust-row.row h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.right-col .cust-row.row ul {
+  margin: 0;
+}
+/* Footer section end */
