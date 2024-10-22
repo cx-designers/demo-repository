@@ -1,7 +1,12 @@
 <div class="secondSection">
-<p class="info-box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo suscipit voluptatem quisquam tempora aut dolorum totam debitis odio laboriosam quia qui, tempore omnis molestiae sequi error nesciunt quae animi deleniti!</p>
-<div class="btn-group">
-  <button class="btn">Button 1</button>
-  <button class="btn">Button 2</button>
+<h2 class="text-center">{{secTitle}}</h2>
+<p class="info-box">{{secDesc}}</p>
+<div class="info-box-group d-flex flex-wrap mt-4">
+{% for listitem in secondlist %}
+  <div class="list-box col-4 bg-white d-flex flex-column align-items-center justify-content-between pt-2 pb-4">
+    <h3>{{listitem.title}}</h3>
+    <p class="mt-1 mb-auto">{{listitem.desc}}</p>
+  </div>
+{%endfor%}
 </div>
 </div>

@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let cursor = document.querySelector('.cursor');
   let buttons = document.querySelectorAll('header.cust-header ul li.menu-item a.menu-link');
-  let secondSection = document.querySelector('.banner-section'); // Verify this selector
+  let bannerSection = document.querySelector('.banner-section'); 
+  let secondSection = document.querySelector('.secondSection');
   let headerButton = document.querySelector('.CAT-button');
 
   let mouseX, mouseY;
@@ -29,12 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  secondSection.addEventListener('mouseenter', () => {
+  bannerSection.addEventListener('mouseenter', () => {
     gsap.to(cursor, { duration: 0.5, backgroundColor: '#fff', scale: 5 });
     $(cursor).addClass("hovered");
   });
 
-  secondSection.addEventListener('mouseleave', () => {
+  bannerSection.addEventListener('mouseleave', () => {
     gsap.to(cursor, { duration: 0.5, backgroundColor: '#000', scale: 1 });
     $(cursor).removeClass("hovered");
   });
@@ -47,5 +48,13 @@ document.addEventListener("DOMContentLoaded", function () {
   headerButton.addEventListener('mouseleave', () => {
     gsap.to(cursor, { duration: 0.5 , backgroundColor: '#000', scale: 1 });
     $(cursor).addClass("hovered");
+  });
+  secondSection.addEventListener('mouseenter', () => {
+    gsap.to(cursor, { duration: 0.5, backgroundColor: '#fff', scale: 3 });
+    $(cursor).addClass("hovered");
+  });
+  secondSection.addEventListener('mouseleave', () => {
+    gsap.to(cursor, { duration: 0.5, backgroundColor: '#000', scale: 1 });
+    $(cursor).removeClass("hovered");
   });
 });

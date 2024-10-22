@@ -118,9 +118,8 @@ a.CAT-button:hover{
 
 .secondSection {
   width: 100%;
-  height: 100vh;
-  background-color: #000;
-  color: #fff;
+  background-color: #f8f2f6;
+  color: #000;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -128,13 +127,11 @@ a.CAT-button:hover{
   justify-content: center;
 }
 .info-box{
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 20px;
+  line-height: 30px;
   width: 70%;
   margin: 0px auto 0 auto;
   text-align: center;
-  background: #d3d3d3;
-  color: #000;
   padding: 20px;
 }
 
@@ -147,6 +144,18 @@ section.banner-section {
   justify-content: center;
 }
 
+.info-box-group .list-box {
+  margin: 0px 10px;
+  width: calc(33.33% - 20px);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.info-box-group {
+  margin-left: -10px;
+  margin-right: -10px;
+  gap: 20px 0px;
+}
 /* secondSection css end */
 
 /* Footer section start */
