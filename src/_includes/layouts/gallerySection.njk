@@ -1,0 +1,11 @@
+<section class="gallerySection">
+<div class="galleryWrapper masonry-grid">
+{% for imgbox in imagesList %}
+<div class="gallery-inner-item grid-item">
+  <img src="{{imgbox.src}}" alt="{{imgbox.alt}}" class="gallery-img"/>
+  <p>{{imgbox.title}}</p>
+</div>
+{%endfor%}
+</div>
+
+</section>

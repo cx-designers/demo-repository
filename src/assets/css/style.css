@@ -158,6 +158,115 @@ section.banner-section {
 }
 /* secondSection css end */
 
+/* img section css start */
+section.imagesSection {
+  background: #cfcfff;
+  overflow: hidden;
+  padding: 100px 0px;
+}
+
+section.imagesSection .imgWrapper {
+  display: flex;
+  flex-wrap: wrap;
+   will-change: transform;
+  gap: 100px;
+}
+
+.img-inner-item {
+  width: 100vw;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  max-height: 600px;
+}
+.img-inner-item::before {
+content: '';
+position: absolute;
+inset: 0;
+background: #000;
+opacity: 0.7;
+}
+.img-inner-item img.cust-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-inner-item p {
+  position: absolute;
+  font-size: 60px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f6f800;
+}
+/* img section css end */
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 50px;
+  width: 100vw;
+  max-width: 90vw;
+  margin: 50px auto;
+}
+
+.grid-item {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item:nth-child(odd) {
+  grid-row: span 2;
+}
+.grid-item img.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-item p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 30px;
+  line-height: 1;
+  padding: 20px;
+  font-weight: 500;
+  color: #fff;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  transition: 0.3s ease;
+}
+
+/* On hover, change background opacity to 0.3 */
+.grid-item:hover p {
+  background: rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+.grid-item img{
+  filter: blur(10px);
+  box-shadow: unset;
+  transition: 0.3s;
+}
+
+.grid-item:hover img{
+  filter: blur(0);
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+/* When hovering any grid-item, all other p elements should have 0.7 opacity */
+.grid-item:hover ~ .grid-item p, 
+.grid-item:not(:hover) p {
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.3s ease;
+}
+
 /* Footer section start */
 footer {
   background: #3d3da3;
@@ -178,6 +287,21 @@ footer .container {
   font-size: 16px;
   line-height: 20px;
 }
+
+section.serviceSection{
+background: #F6F8FF;
+padding: 110px 0px;
+}
+.cust-rows {
+  gap: 20px;
+}
+section.serviceSection .cust-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width:calc(25% - 15px);
+  box-shadow: 0px 0px 5px 1px #ddd;
+}
 /* Footer section start */
 footer ul{
   list-style: none;
@@ -197,5 +321,24 @@ text-decoration: none;
 
 .right-col .cust-row.row ul {
   margin: 0;
+}
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 2px #ddd;
+  margin-bottom: 20px;
+}
+p.service-para {
+  margin: 0px;
+}
+.icon-wrapper img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 /* Footer section end */

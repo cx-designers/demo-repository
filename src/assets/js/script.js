@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let bannerSection = document.querySelector('.banner-section'); 
   let secondSection = document.querySelector('.secondSection');
   let headerButton = document.querySelector('.CAT-button');
+  let galleryItems = document.querySelectorAll('.gallerySection .grid-item');
+  let body = document.querySelector('body');
 
   let mouseX, mouseY;
 
@@ -18,20 +20,19 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Button hover effects
-  buttons.forEach(button => {
-    button.addEventListener('mouseenter', () => {
-      gsap.to(cursor, { duration: 0.5, backgroundColor: '#cfcfff', scale: 1 });
+    body.addEventListener('mouseenter', () => {
+      gsap.to(cursor, { duration: 0.5, backgroundColor: '#fff', scale: 5 });
       $(cursor).addClass("hovered");
     });
 
-    button.addEventListener('mouseleave', () => {
+    body.addEventListener('mouseleave', () => {
       gsap.to(cursor, { duration: 0.5, backgroundColor: '#000', scale: 1 });
       $(cursor).removeClass("hovered");
     });
-  });
+
 
   bannerSection.addEventListener('mouseenter', () => {
-    gsap.to(cursor, { duration: 0.5, backgroundColor: '#fff', scale: 5 });
+    gsap.to(cursor, { duration: 0.5, backgroundColor: '#fff', scale: 10 });
     $(cursor).addClass("hovered");
   });
 
@@ -56,5 +57,40 @@ document.addEventListener("DOMContentLoaded", function () {
   secondSection.addEventListener('mouseleave', () => {
     gsap.to(cursor, { duration: 0.5, backgroundColor: '#000', scale: 1 });
     $(cursor).removeClass("hovered");
+  });
+
+  galleryItems.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      gsap.to(cursor, { duration: 0.5, backgroundColor: '#fff', scale: 0 });
+      $(cursor).addClass("hovered");
+    });
+    
+    item.addEventListener('mouseleave', () => {
+      gsap.to(cursor, { duration: 0.5, backgroundColor: '#000', scale: 1 });
+      $(cursor).removeClass("hovered");
+    });
+  });
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Animate each image from right to left sequentially
+  const images = gsap.utils.toArray('.imagesSection .img-inner-item');
+  
+  images.forEach((image, i) => {
+    gsap.fromTo(image, 
+      { x: '100vw', opacity: 0 },  // Start off-screen to the right
+      {
+        x: '0vw', 
+        opacity: 1, 
+        duration: 1.5, 
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: image,
+          start: "top center", // When the top of the image reaches the center of the viewport
+          end: "bottom center",
+          scrub: true
+        }
+      }
+    )
   });
 });

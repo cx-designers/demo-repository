@@ -1,0 +1,24 @@
+<section class="serviceSection">
+<div class="container">
+  <div class="row">
+    <div class="col col-lg-6">
+      <span class="top-sec-heading">{{ourServices}}</span>
+      <h4>{{ourServiceTitle}}</h4>
+    </div>
+    <div class="col col-lg-6">
+      <p>{{ourServicePara}}</p>
+    </div>
+  </div>
+  <div class="row cust-rows mt-4">
+    {% for serviceItem in ourServiceList %}
+    <div class="col col-lg-3 cust-item">
+      <div class="icon-wrapper">
+        <img src="{{serviceItem.serviceIocn}}" alt="icon">
+      </div>
+      <h3 class="service-title">{{serviceItem.serviceTitle}}</h3>
+      <p class="service-para">{{serviceItem.serviceDesc}}</p>
+    </div>
+    {% endfor%}
+  </div>
+</div>  
+</section>

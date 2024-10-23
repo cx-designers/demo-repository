@@ -1,0 +1,11 @@
+<section class="imagesSection">
+<div class="imgWrapper">
+{% for imgbox in imagesList %}
+<div class="img-inner-item">
+  <img src="{{imgbox.src}}" alt="{{imgbox.alt}}" class="cust-img"/>
+  <p>{{imgbox.title}}</p>
+</div>
+{%endfor%}
+</div>
+
+</section>
