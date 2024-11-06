@@ -1,46 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eleventy Demo</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eleventy Demo</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hind&family=Poppins:wght@400;500;600;700;800;900&display=swap">
+  <link rel="stylesheet" type="text/css" href="css/et-line.css" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand font-weight-bold" href="#"><img src="img/logo-demo.svg" height="24"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About Us</a>
-              <a class="nav-link" href="#">Products</a>
-              <a class="nav-link" href="#">Contact Us</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <div class="container">
+      <a class="navbar-brand font-weight-bold" href="#"><img src="img/logo.svg" height="24"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="#" role="button"
+              data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home </a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="dropdown-item"><span>Home 1</span></a></li>
+              <li><a href="#" class="dropdown-item"><span>Home 2</span></a></li>
+              <li><a href="#" class="dropdown-item"><span>Home 3</span></a></li>
+              <li><a href="#" class="dropdown-item"><span>Home 4</span></a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
+              data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Blog </a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="dropdown-item"><span>Blog Grid</span></a></li>
+              <li><a href="#" class="dropdown-item"><span>Blog Grid 2</span></a></li>
+              <li><a href="#" class="dropdown-item"><span>Blog Standard</span></a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <section class="parallax-hero ">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 mt-60 text-center">
+          <h1><span>Creative</span><br>Solutions</h1>
+          <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#" class="btn btn-primary mt-5"> Getting Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services section py-5">
+    <div class="container">
+      <div class="row mb-30">
+        <div class="col-md-12 text-center hgroup mb-5">
+          <h6 class="text-primary">What We Do</h6>
+          <h1 class="text-dark">Our Services</h1>
+          <div class="line-hr-section center"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="item active">
+            <div class="wrap">
+              <div class="icon-1 text-primary"> <i class="icon et-strategy"></i> </div>
+              <div class="con">
+                <h4>Digital Strategy</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                <div class="icon-2"> <a href="#"><span
+                      class="fa-light fa-arrow-right text-white"></span></a> </div>
+              </div>
+              <div class="numb">01</div>
             </div>
           </div>
         </div>
-      </nav>
-    <section class="bg-light py-5">
-        <div class="container">
-            <h1>My First Eleventy Site</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat augue, pretium quis dapibus ut, gravida quis mauris. Aliquam in ante id purus dapibus sodales. Sed iaculis urna pretium purus sollicitudin condimentum. Fusce condimentum elit purus, eu mollis dui tristique nec. Etiam molestie tristique ipsum. Integer egestas tincidunt ipsum, vitae consectetur ipsum elementum fringilla. Etiam et ipsum congue, dapibus felis sed, viverra leo. In eu fringilla massa. Mauris bibendum dignissim pellentesque. Fusce tempor feugiat porta.
-            <br><br>
-            Vestibulum velit augue, congue at sem eu, aliquet placerat urna. Sed mattis orci magna, at porttitor nulla tempus tristique. Curabitur sodales finibus orci eget egestas. Nulla sed turpis elit. Donec venenatis felis ut iaculis elementum. Suspendisse ut nulla aliquet, interdum erat sit amet, convallis magna. In maximus scelerisque risus sed elementum.
-            <br><br>
-            Nulla consectetur metus eu pellentesque gravida. Maecenas accumsan odio eu nulla tempus suscipit. Sed vel mi lobortis, suscipit augue vitae, semper nisi. Quisque in pharetra risus. Curabitur nec magna vitae lorem venenatis sodales in sit amet ipsum. Curabitur congue risus sit amet venenatis consequat. Quisque faucibus fermentum dolor sed fringilla. Morbi quis neque et nibh mollis semper. Curabitur in quam vitae est elementum tempor.
-            <br><br>
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi vel eros et ipsum pharetra facilisis at in lorem. Curabitur leo orci, posuere eu lacus quis, fringilla tincidunt dui. Integer elementum sed sem ut mollis. Pellentesque blandit lorem in elit auctor pharetra ut eu tellus. Maecenas id pellentesque risus, nec luctus risus. Aliquam eu justo nec quam consequat posuere. Donec ultrices ipsum ipsum, fermentum aliquet augue ultrices dignissim. Suspendisse scelerisque aliquam urna, sed congue risus interdum sed. Aliquam rutrum urna sit amet imperdiet scelerisque. Duis ullamcorper porta massa, sit amet aliquam metus consectetur id. Duis porta tortor eu luctus vehicula. Cras hendrerit sapien eget arcu vulputate efficitur. Quisque at urna et metus rutrum gravida semper eu ex. Aliquam erat volutpat.
-            <br><br>
-            Aenean ornare neque quis placerat dictum. Aliquam suscipit, lacus eget ultrices porta, ante magna dignissim quam, ut ullamcorper velit augue sit amet tortor. Morbi erat sem, faucibus sit amet rhoncus ut, condimentum eget turpis. Aenean sit amet vulputate nunc. Aenean eu convallis odio. Aenean interdum augue vitae mauris tincidunt tempor. Vestibulum vel nisi dolor. Sed felis urna, fringilla semper urna sit amet, tincidunt gravida diam. Vivamus faucibus, augue sit amet dapibus condimentum, urna metus scelerisque metus, vitae tristique nisi magna nec velit. Duis laoreet, justo hendrerit dictum tincidunt, turpis ante placerat ligula, sit amet venenatis enim massa non enim. Curabitur sodales augue enim, id vestibulum nisi sodales in. Vivamus at feugiat quam, eget dapibus justo. Maecenas sem mi, dapibus at orci et, cursus feugiat lectus. </p>
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="item">
+            <div class="wrap">
+              <div class="icon-1 text-primary"> <i class="icon et-browser"></i> </div>
+              <div class="con">
+                <h4>Web Development</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                <div class="icon-2"> <a href="#"><span
+                      class="fa-light fa-arrow-right text-white"></span></a> </div>
+              </div>
+              <div class="numb">02</div>
+            </div>
+          </div>
         </div>
-    </section>
-<script src="js/jquery.min.js"></script> 
-<script src="js/popper.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="item">
+            <div class="wrap">
+              <div class="icon-1 text-primary"> <i class="icon et-chat"></i> </div>
+              <div class="con">
+                <h4>Social Media</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                <div class="icon-2"> <a href="#"><span
+                      class="fa-light fa-arrow-right text-white"></span></a> </div>
+              </div>
+              <div class="numb">03</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="item">
+            <div class="wrap">
+              <div class="icon-1 text-primary"> <i class="icon et-basket"></i> </div>
+              <div class="con">
+                <h4>Ecommerce</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                <div class="icon-2"> <a href="#"><span
+                      class="fa-light fa-arrow-right text-white"></span></a> </div>
+              </div>
+              <div class="numb">04</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="item">
+            <div class="wrap">
+              <div class="icon-1 text-primary"> <i class="icon et-clipboard"></i> </div>
+              <div class="con">
+                <h4>Content Strategy</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                <div class="icon-2"> <a href="#"><span
+                      class="fa-light fa-arrow-right text-white"></span></a> </div>
+              </div>
+              <div class="numb">05</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="item">
+            <div class="wrap">
+              <div class="icon-1 text-primary"> <i class="icon et-target"></i> </div>
+              <div class="con">
+                <h4>Digital Marketing</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                <div class="icon-2"> <a href="#"><span
+                      class="fa-light fa-arrow-right text-white"></span></a> </div>
+              </div>
+              <div class="numb">06</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="works section py-5 bg-light">
+    <div class="container-fluid">
+      <div class="row mb-30">
+        <div class="col-md-12 text-center hgroup mb-5">
+          <h6 class="text-primary">Portfolio & Project</h6>
+          <h1 class="text-dark">Our Works</h1>
+          <div class="line-hr-section center"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item">
+            <div class="wrap img-grayscale">
+              <div class="img img-grayscale"> <img src="img/work01.jpg" class="img-fluid"> </div>
+              <div class="text"> <a href="#">
+                <h4 class="text-white">Lorem Ipsum dollar aset</h4>
+                <p class="text-primary">Lorem Ipsum</p>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item">
+            <div class="wrap img-grayscale">
+              <div class="img img-grayscale"> <img src="img/work02.jpg" class="img-fluid"> </div>
+              <div class="text"> <a href="#">
+                <h4 class="text-white">Lorem Ipsum dollar aset</h4>
+                <p class="text-primary">Lorem Ipsum</p>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item">
+            <div class="wrap img-grayscale">
+              <div class="img img-grayscale"> <img src="img/work03.jpg" class="img-fluid"> </div>
+              <div class="text"> <a href="#">
+                <h4 class="text-white">Lorem Ipsum dollar aset</h4>
+                <p class="text-primary">Lorem Ipsum</p>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item">
+            <div class="wrap img-grayscale">
+              <div class="img img-grayscale"> <img src="img/work03.jpg" class="img-fluid"> </div>
+              <div class="text"> <a href="#">
+                <h4 class="text-white">Lorem Ipsum dollar aset</h4>
+                <p class="text-primary">Lorem Ipsum</p>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item">
+            <div class="wrap img-grayscale">
+              <div class="img img-grayscale"> <img src="img/work01.jpg" class="img-fluid"> </div>
+              <div class="text"> <a href="#">
+                <h4 class="text-white">Lorem Ipsum dollar aset</h4>
+                <p class="text-primary">Lorem Ipsum</p>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item">
+            <div class="wrap img-grayscale">
+              <div class="img img-grayscale"> <img src="img/work02.jpg" class="img-fluid"> </div>
+              <div class="text"> <a href="#">
+                <h4 class="text-white">Lorem Ipsum dollar aset</h4>
+                <p class="text-primary">Lorem Ipsum</p>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
