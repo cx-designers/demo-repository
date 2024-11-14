@@ -1,4 +1,5 @@
 ---
 layout: layouts/homepage.njk
 title: CX demo site
+bodyClass: "homepage"
 ---
