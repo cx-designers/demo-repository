@@ -15,6 +15,12 @@ drarLine1.style.strokeDashoffset = pathLength;
 drarLine2.style.strokeDasharray = pathLength;
 drarLine2.style.strokeDashoffset = pathLength;
 moveX.style.opacity = 0;
+
+const flyingObjects = document.querySelectorAll('.flying');
+
+// Set flying objects to initial opacity 0
+gsap.set(flyingObjects, { opacity: 0 });
+
 setTimeout(() => {
     const tl = gsap.timeline();
     tl.fromTo(glowRotate, { 
@@ -79,7 +85,12 @@ setTimeout(() => {
         duration: 0.5,      // Duration of the animation (in seconds)
         x: "120%",          // Start 100 pixels to the left
         ease: "power2.inOut" // Easing function for a smoother transition
-      });
+      })
+      .to(flyingObjects, {
+        opacity: 1,       // Reveal the flying objects
+        duration: 1,      // Fade-in duration
+        ease: "power1.inOut"
+    }); // This step will execute after the left and right animations.
 
 }, 100);
 
@@ -159,3 +170,121 @@ document.querySelector('.toggle-btn').addEventListener('click', function() {
     }
     isPlayingForward = !isPlayingForward;
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    gsap.set('.cursor', { xPercent: -50, yPercent: -50, scale: 1, opacity: 1 });
+
+    let cursor = document.querySelector('.cursor');
+    let buttons = document.querySelectorAll('a');
+    let body = document.querySelector('body');
+    let mouseX, mouseY;
+
+    // Track mouse movement and move cursor
+    window.addEventListener('mousemove', e => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+
+        gsap.to(cursor, { duration: 0.5, x: mouseX, y: mouseY });
+    });
+
+    buttons.forEach(button => {
+        button.addEventListener('mouseenter', () => {
+            gsap.to(cursor, { duration: 0.5, backgroundColor: '#F26E65', scale: 0 });
+        });
+
+        button.addEventListener('mouseleave', () => {
+            gsap.to(cursor, { duration: 0.5, backgroundColor: '#F26E65', scale: 1 });
+        });
+    });
+
+    // Button hover effects
+    body.addEventListener('mouseenter', () => {
+        gsap.to(cursor, { duration: 0.5, backgroundColor: '#F26E65', scale: 1 });
+    });
+
+    body.addEventListener('mouseleave', () => {
+        gsap.to(cursor, { duration: 0.5, backgroundColor: '#F26E65', scale: 0 });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Function to randomly fade out and fade in images
+    function fadeImagesRandomly() {
+      const wrappers = document.querySelectorAll('.img-wrapper'); // Select all image wrappers
+  
+      // Iterate over each wrapper to ensure at least one image remains visible
+      wrappers.forEach((wrapper) => {
+        const images = Array.from(wrapper.querySelectorAll('img'));
+        if (images.length === 0) return;
+  
+        // Get visible and hidden images
+        const visibleImages = images.filter(img => gsap.getProperty(img, 'opacity') !== 0);
+        const hiddenImages = images.filter(img => gsap.getProperty(img, 'opacity') === 0);
+  
+        // Ensure there's always at least one visible image
+        if (visibleImages.length > 1) {
+          // Randomly pick one visible image to fade out
+          const imageToFadeOut = visibleImages[Math.floor(Math.random() * visibleImages.length)];
+  
+          // Randomly pick a hidden image to fade in
+          const imageToFadeIn = hiddenImages.length > 0
+            ? hiddenImages[Math.floor(Math.random() * hiddenImages.length)]
+            : null;
+  
+          // Perform fade-out on the selected visible image
+          gsap.to(imageToFadeOut, {
+            opacity: 0,
+            duration: 1,
+            onComplete: () => {
+              // Perform fade-in on the selected hidden image (if available)
+              if (imageToFadeIn) {
+                gsap.to(imageToFadeIn, {
+                  opacity: 1,
+                  duration: 1
+                });
+              }
+            }
+          });
+        } else if (hiddenImages.length > 0) {
+          // If only one image is visible, pick a hidden image to fade in
+          const imageToFadeIn = hiddenImages[Math.floor(Math.random() * hiddenImages.length)];
+          gsap.to(imageToFadeIn, {
+            opacity: 1,
+            duration: 1
+          });
+        }
+      });
+    }
+  
+    // Set initial opacity for all images (make one random image visible in each wrapper)
+    document.querySelectorAll('.img-wrapper').forEach(wrapper => {
+      const images = Array.from(wrapper.querySelectorAll('img'));
+      images.forEach(img => gsap.set(img, { opacity: 0 })); // Hide all images
+      const randomImage = images[Math.floor(Math.random() * images.length)];
+      gsap.set(randomImage, { opacity: 1 }); // Show one random image
+    });
+  
+    setInterval(fadeImagesRandomly, 5000);
+  });
+  
+    // Track the mouse movement
+    const flyingSection = document.querySelector('.hero-wrapper h1');
+    // const objects = document.querySelectorAll('.flying');
+  
+    flyingSection.addEventListener('mousemove', (e) => {
+      const { clientX: mouseX, clientY: mouseY } = e;
+  
+      // Loop through each flying object
+      flyingObjects.forEach((object, index) => {
+        // Add slight delay based on index for a parallax effect
+        const delay = index * 0.05;
+  
+        gsap.to(object, {
+          x: (mouseX - window.innerWidth / 2) * 0.1 * (index + 1),  // Move horizontally
+          y: (mouseY - window.innerHeight / 2) * 0.1 * (index + 1), // Move vertically
+          duration: 0.3,
+          ease: "power1.out",
+          delay: delay
+        });
+      });
+    });

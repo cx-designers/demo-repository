@@ -2,8 +2,9 @@ $primaryFonts: 'QAEFQS+TTFirsNeue';
 $secondryFornts: "Poppins", serif;
 $primaryColor: #000000;
 $secondaryColor: #F26E65;
+$textBaseColor: #636363;
 $white: #fff;
-$borderColor: rgba(255, 255, 255, 25%);
+$borderColor: rgba(255, 255, 255, 0.25);
 $menuBoxShadow: 0px 0px 30px 0px rgba(242, 110, 101, 0.58);
 
 @font-face {
@@ -73,7 +74,18 @@ h1 {
   max-width: 1440px;
   margin: 0 auto;
 }
-
+.cursor{
+  position: fixed;
+  left: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  background: $secondaryColor;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  z-index: 999;
+  transition: transform 0.1s;
+}
 .primary-btn {
   font-size: 20px;
   line-height: 20px;
@@ -102,6 +114,10 @@ h1 {
     z-index: 1;
     width: calc(100% - 4px);
     height: calc(100% - 4px);
+    &.white-base{
+      background: $white;
+      color: $secondaryColor;
+    }
   }
 
   .stock {
@@ -112,7 +128,9 @@ h1 {
     left: 0;
     overflow: hidden;
     border-radius: 50px;
-
+    &.red-outline{
+      border: 2px solid rgba(242,110,101,.2);
+    }
     &:before {
       content: "";
       position: absolute;
@@ -323,7 +341,11 @@ header {
     border-bottom: 1px solid $borderColor;
     display: flex;
     justify-content: space-between;
-
+    .brandLogo {
+      a{
+        display: block;
+      }
+    }
     .brandMenu {
       display: flex;
       align-items: center;
@@ -372,6 +394,22 @@ header {
   .btn-wrapper {
     margin-top: 40px;
   }
+  h1{
+    position: relative;
+    .flying{
+      position: absolute;
+      &.left-center{
+        top: 50%;
+        left: 0;
+        transform: translateY("-50%");
+      }
+      &.right-center{
+        top: 50%;
+        right: 0;
+        transform: translateY("-50%");
+      }
+    }
+  }
 }
 
 .btn-wrapper {
@@ -385,7 +423,112 @@ header {
     margin-right: 10px;
   }
 }
-
+/*about us section css start */
+  .about-sec {
+    padding: 175px 0px 90px 0px;
+    position: relative;
+    img.cust-bg {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 0;
+    }
+    .container {
+      z-index: 9;
+      position: relative;
+      .row{
+        align-items: center;
+        .col-md-4{
+          width: 32%;
+          max-width: 450px;
+          p.sec-small-title {
+            font-size: 16px;
+            line-height: 1;
+            font-weight: 600;
+            display: inline-block;
+            color: $secondaryColor;
+            margin: 0;
+            text-shadow:5px 0px 15px rgba(242, 110, 101, 0.7);
+          }
+          &.left-col {
+            max-width: 440px;
+            margin-right: 55px;
+            h2 {
+              font-size: 60px;
+              line-height: 70px;
+              margin-top: 20px;
+              color: $primaryColor;
+              font-weight: 400;
+              margin-bottom: 80px;
+            }
+            .img-wrapper{
+              position: relative;
+              border-radius: 162px;
+              width: 325px;
+              height: 490px;
+              overflow: hidden;
+              transition: opacity 0.5s ease;
+              img{
+                position: absolute;
+                inset: 0;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+          &.right-col {
+            margin-right: 0;
+            margin-left: auto;
+            max-width: 325px;
+            .img-wrapper{
+              position: relative;
+              border-radius: 162px;
+              width: 325px;
+              height: 490px;
+              overflow: hidden;
+              transition: opacity 0.5s ease;
+              img{
+                position: absolute;
+                inset: 0;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                transition: opacity 1s ease-in-out;
+              }
+              
+            }
+          }
+          &.center-col {
+            p{
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            color: $textBaseColor;
+            margin: 50px 0 36px 0;
+            } 
+            .img-wrapper{
+              position: relative;
+              width: 450px;
+              height: 490px;
+              overflow: hidden;
+              transition: opacity 0.5s ease;
+              img{
+                position: absolute;
+                inset: 0;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+              }
+            } 
+          }
+        }
+      }
+    }
+  }
+/*about us section css start */
 /* footer css start */
 .pb-60 {
   padding-bottom: 60px;
