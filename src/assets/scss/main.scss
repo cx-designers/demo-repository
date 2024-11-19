@@ -6,6 +6,7 @@ $textBaseColor: #636363;
 $white: #fff;
 $borderColor: rgba(255, 255, 255, 0.25);
 $menuBoxShadow: 0px 0px 30px 0px rgba(242, 110, 101, 0.58);
+$footerlink:#868686;
 
 @font-face {
   font-family: 'QAEFQS+TTFirsNeue';
@@ -300,7 +301,7 @@ h1 {
     }
   }
 
-  h2 {
+  h4 {
     font-size: 60px;
     color: #fff;
     line-height: 70px;
@@ -632,25 +633,26 @@ header {
   position: fixed;
   top: 0;
   overflow: hidden;
-  width: 100px;
+  width: 54px;
+  left: 60px;
 
 
   .line-one {
     position: absolute;
     top: 60px;
-    left: 70px;
+    left: 0px;
   }
 
   .line-two {
     position: absolute;
     top: 60px;
-    left: 70px;
+    left: 16px;
   }
 
   .line-three {
     position: absolute;
     top: 200px;
-    left: 70px;
+    left: 12px;
   }
 }
 
@@ -659,7 +661,7 @@ header {
   position: fixed;
   top: 0;
   overflow: hidden;
-  right: 100px;
+  right: 60px;
 
   .line-two {
     position: absolute;
@@ -975,100 +977,439 @@ header {
         margin: 0;
       }
     }
+  }
 
-    .counter-slider {
-      .swiper-slide {
+  .counter-slider {
+    height: 800px;
+    width: 500px;
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+      height: 300px;
+      max-height: 300px;
+
+      &:nth-child(1n) {
+        background-color: rgb(206, 17, 17);
+      }
+
+      &:nth-child(2n) {
+        background-color: rgb(0, 140, 255);
+      }
+
+      &:nth-child(3n) {
+        background-color: rgb(10, 184, 111);
+      }
+
+      &:nth-child(4n) {
+        background-color: rgb(211, 122, 7);
+      }
+
+      &:nth-child(5n) {
+        background-color: rgb(118, 163, 12);
+      }
+
+      &:nth-child(6n) {
+        background-color: rgb(180, 10, 47);
+      }
+
+      &:nth-child(7n) {
+        background-color: rgb(35, 99, 19);
+      }
+
+      &:nth-child(8n) {
+        background-color: rgb(0, 68, 255);
+      }
+
+      &:nth-child(9n) {
+        background-color: rgb(218, 12, 218);
+      }
+
+      :nth-child(10n) {
+        background-color: rgb(54, 94, 77);
+      }
+
+      .counter-inner {
+        width: 100%;
+        height: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 18px;
-        font-size: 22px;
-        font-weight: bold;
-        color: #fff;
-        height: 300px;
+        flex-direction: column;
+        justify-content: space-between;
 
-        &:nth-child(1n) {
-          background-color: rgb(206, 17, 17);
+        .count {
+          h3 {
+            font-size: 120px;
+            line-height: 120px;
+            margin: 0;
+            font-weight: 700;
+            color: transparent;
+            -webkit-text-stroke: 1px #fff;
+            text-stroke: 1px #fff;
+          }
         }
 
-        &:nth-child(2n) {
-          background-color: rgb(0, 140, 255);
+        .count {
+          padding: 40px 40px 0 40px;
         }
 
-        &:nth-child(3n) {
-          background-color: rgb(10, 184, 111);
+        .title {
+          padding: 0 40px 40px 40px;
+
+          p {
+            font-size: 50px;
+            line-height: 50px;
+            color: #fff;
+            margin: 0;
+            font-weight: 400;
+          }
         }
+      }
 
-        &:nth-child(4n) {
-          background-color: rgb(211, 122, 7);
-        }
+      // &.swiper-slide-prev {
+      //   height: 300px !important;
+      // }
 
-        &:nth-child(5n) {
-          background-color: rgb(118, 163, 12);
-        }
+      // &.swiper-slide-next {
+      //   height: 300px !important;
+      // }
 
-        &:nth-child(6n) {
-          background-color: rgb(180, 10, 47);
-        }
+      // &.swiper-slide-active {
+      //   height: 500px !important;
+      // }
+    }
+  }
+}
 
-        &:nth-child(7n) {
-          background-color: rgb(35, 99, 19);
-        }
+/* Counter Section CSS End */
 
-        &:nth-child(8n) {
-          background-color: rgb(0, 68, 255);
-        }
+/* Industries Section CSS Start */
 
-        &:nth-child(9n) {
-          background-color: rgb(218, 12, 218);
-        }
+.industries-section {
+  padding: 150px 0;
+  position: relative;
 
-        :nth-child(10n) {
-          background-color: rgb(54, 94, 77);
-        }
+  &:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 325px;
+    background-image: url(../img/industries-bg-shap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+  }
 
-        .counter-inner {
-          width: 100%;
-          height: 100%;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
+  &:after {
+    position: absolute;
+    content: "";
+    width: 490px;
+    height: 696px;
+    background-image: url(../img/industries-shap.svg);
+    /* bottom: 0; */
+    top: 0;
+  }
 
-          .count {
-            h2 {
-              font-size: 120px;
-              line-height: 120px;
-              margin: 0;
-              font-weight: 700;
-              color: transparent;
-              -webkit-text-stroke: 2px #fff;
-              text-stroke: 2px #fff;
+  .heading-main-sec {
+    h3 {
+      text-align: left;
+    }
+
+    h4 {
+      font-size: 150px;
+      line-height: 150px;
+      text-align: left;
+
+      span {
+        padding-left: 18%;
+      }
+    }
+  }
+
+  .product-slider {
+    .slider {
+      display: flex;
+      // align-items: center;
+
+      .slider-item {
+        margin: 0 35px;
+        border: 1px solid #262626;
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+
+        .industries-item {
+          position: relative;
+
+          &:after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) -20%, rgb(0, 0, 0) 80%);
+            top: 0;
+            left: 0;
+          }
+
+          .image-sec {
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
             }
           }
 
-          .count {
-            padding: 40px 40px 0 40px;
-          }
-
-          .title {
-            padding: 0 40px 40px 40px;
+          .industries-title {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            z-index: 99;
 
             p {
-              font-size: 50px;
-              line-height: 50px;
+              font-size: 30px;
+              line-height: 40px;
               color: #fff;
-              margin: 0;
               font-weight: 400;
+              text-align: center;
+              margin: 0;
             }
           }
-        }
-
-        &.swiper-slide-active {
-          height: 500px !important;
         }
       }
     }
   }
 }
 
-/* Counter Section CSS End */
+/* Industries Section CSS End */
+
+/* footer css start */
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.cust-footer-sec {
+  padding: 100px 0 60px 0px;
+  overflow-x: hidden;
+
+  .black-logo {
+    filter: invert(1);
+    position: unset !important;
+  }
+
+  .border-bottom-cust {
+    border-bottom: 1px solid #DCDCDC;
+  }
+
+  .bgWhite-bordered {
+    position: relative;
+    background-color: #fff;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: calc(50% - 1px);
+      right: -40%;
+      width: 100%;
+      height: 2px;
+      background-color: $secondaryColor;
+
+    }
+  }
+
+  .button-group {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+    a.ft-button {
+      border: 2px solid $secondaryColor;
+      padding: 0 30px;
+      border-radius: 50px;
+      color: $secondaryColor;
+      font-size: 30px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      line-height: 1;
+      justify-content: center;
+      text-decoration: none;
+      margin-left: 50px;
+      background-color: $white;
+      position: relative;
+      z-index: 11;
+
+      img {
+        height: 60%;
+        margin-right: 15px;
+      }
+
+    }
+  }
+
+  .map-wrapper-address {
+    position: relative;
+
+    .topmap-nav {
+
+      .mapnav {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+
+        ul {
+          li {
+            a {
+              position: absolute;
+              width: 130px;
+              height: 90px;
+              background: url('data:image/svg+xml,<svg width="126" height="96" viewBox="0 0 126 96" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(%23filter0_d_463_3599)"><path fill-rule="evenodd" clip-rule="evenodd" d="M21 15C17.6863 15 15 17.6863 15 21V39C15 42.3137 17.6863 45 21 45H26L31 51L36 45H75C78.3137 45 81 42.3137 81 39V21C81 17.6863 78.3137 15 75 15H21Z" fill="white"/></g><defs><filter id="filter0_d_463_3599" x="0" y="0" width="126" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dx="15" dy="15"/><feGaussianBlur stdDeviation="15"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_463_3599"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_463_3599" result="shape"/></filter></defs></svg>');
+              background-size: contain;
+              background-repeat: no-repeat;
+              padding-top: 18px;
+              font-size: 10px;
+              font-weight: 700;
+              color: #000;
+              text-decoration: none;
+              padding-left: 19px;
+
+              img {
+                margin-right: 3px;
+              }
+
+              &[href="#india"] {
+                left: 430px;
+                top: 56px;
+              }
+
+              &[href="#US"] {
+                top: 47px;
+                left: 105px;
+              }
+
+              &[href="#UK"] {
+                top: -11px;
+                left: 279px;
+              }
+
+              &[href="#uae"] {
+                top: 91px;
+                left: 351px;
+                background: url('data:image/svg+xml,<svg width="126" height="96" viewBox="0 0 126 96" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(%23filter0_d_463_3582)"><path fill-rule="evenodd" clip-rule="evenodd" d="M60 21L65 15L70 21L60 21ZM70 21H75C78.3137 21 81 23.6863 81 27V45C81 48.3137 78.3137 51 75 51H21C17.6863 51 15 48.3137 15 45V27C15 23.6863 17.6863 21 21 21H70Z" fill="white"/></g><defs><filter id="filter0_d_463_3582" x="0" y="0" width="126" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dx="15" dy="15"/><feGaussianBlur stdDeviation="15"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_463_3582"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_463_3582" result="shape"/></filter></defs></svg>');
+                padding-top: 26px;
+                padding-left: 20px;
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+    .map-description {
+      display: flex;
+      width: 100%;
+      position: relative;
+      z-index: 11;
+      margin-top: 30px;
+
+      .map-item {
+        display: none;
+
+        &.active {
+          display: flex;
+          width: 100%;
+        }
+
+        .country-title {
+          color: $secondaryColor;
+          font-family: $secondryFornts;
+          font-weight: 600;
+          font-size: 16px;
+          text-shadow: 0 5px 15px rgba(242, 110, 101, .7);
+        }
+
+        address {
+          font-size: 18px;
+          color: $primaryColor;
+          font-weight: 400;
+          line-height: 1.3;
+        }
+      }
+    }
+  }
+
+  .footer-nav {
+    h4 {
+      color: $primaryColor;
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+
+      li {
+        padding: 0 0 25px;
+
+        a {
+          color: $footerlink;
+          font-size: 16px;
+          font-family: $secondryFornts;
+          text-decoration: none;
+          transition: all 0.3s color ease-in-out;
+
+          &:hover {
+            color: $secondaryColor;
+            transition: all 0.3s color ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright-area {
+    border-top: 1px solid #DCDCDC;
+    margin-top: 60px;
+    padding-top: 40px;
+    align-items: center;
+
+    ul {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-left: 10px;
+        transform: translateY(0);
+        transition: 0.6s ease-in-out;
+
+        &:hover {
+          transform: translateY(-15px);
+          transition: 0.6s ease-in-out;
+        }
+      }
+    }
+
+  }
+}
+
+/* footer css end */

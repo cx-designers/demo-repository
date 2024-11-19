@@ -17,6 +17,7 @@ drarLine2.style.strokeDashoffset = pathLength;
 moveX.style.opacity = 0;
 
 const flyingObjects = document.querySelectorAll('.flying');
+const cloudObjects = document.querySelectorAll('.cloud-img img');
 
 // Set flying objects to initial opacity 0
 gsap.set(flyingObjects, { opacity: 0 });
@@ -72,43 +73,45 @@ setTimeout(() => {
 
         /* Testimonial Section */
 
-          function createContinuousMarquee(columnSelector, direction, speedMultiplier = 1) {
-            const column = document.querySelector(columnSelector);
-            const items = Array.from(column.children);
+        function createContinuousMarquee(columnSelector, direction, speedMultiplier = 1) {
+          const column = document.querySelector(columnSelector);
+          const items = Array.from(column.children);
 
-            const clonedItems = items.map(item => item.cloneNode(true));
-            clonedItems.forEach(item => column.appendChild(item));
+          const clonedItems = items.map(item => item.cloneNode(true));
+          clonedItems.forEach(item => column.appendChild(item));
 
-            const itemHeight = items[0].offsetHeight;
-            const totalHeight = itemHeight * items.length;
+          const itemHeight = items[0].offsetHeight;
+          const totalHeight = itemHeight * items.length;
 
-            column.style.height = `${totalHeight * 2}px`;
+          column.style.height = `${totalHeight * 2}px`;
 
-            const marqueeAnimation = gsap.to(column, {
-              y: direction * totalHeight,
-              duration: (totalHeight / 50) * speedMultiplier,
-              ease: "none",
-              repeat: -1,
-              paused: false,
-              modifiers: {
-                y: gsap.utils.unitize((y) => {
-                  const position = parseFloat(y) % totalHeight;
-                  return direction === 1 ? position - totalHeight : position;
-                })  
-              }
-            });
+          const marqueeAnimation = gsap.to(column, {
+            y: direction * totalHeight,
+            duration: (totalHeight / 50) * speedMultiplier,
+            ease: "none",
+            repeat: -1,
+            paused: false,
+            modifiers: {
+              y: gsap.utils.unitize((y) => {
+                const position = parseFloat(y) % totalHeight;
+                return direction === 1 ? position - totalHeight : position;
+              })
+            }
+          });
 
-            column.addEventListener("mouseenter", () => marqueeAnimation.pause());
-            column.addEventListener("mouseleave", () => marqueeAnimation.resume());
-          }
+          column.addEventListener("mouseenter", () => marqueeAnimation.pause());
+          column.addEventListener("mouseleave", () => marqueeAnimation.resume());
+        }
 
-          createContinuousMarquee(".column-1", -1, 0.7); 
-          createContinuousMarquee(".column-2", 1, 1);    
-          createContinuousMarquee(".column-3", -1, 0.7); 
+        createContinuousMarquee(".column-1", -1, 0.7);
+        createContinuousMarquee(".column-2", 1, 1);
+        createContinuousMarquee(".column-3", -1, 0.7);
 
         /* Testimonial Section Complete */
 
         /* Counter Slider Section */
+
+        $(document).ready(function () {
 
           var swiper = new Swiper(".counter-slider", {
             direction: "vertical",
@@ -116,19 +119,73 @@ setTimeout(() => {
             grabCursor: true,
             centeredSlides: true,
             loop: true,
-            slidesPerView: "2.5",
-            mousewheel: true,
+            slidesPerView: "2",
+            autoplay: false,
+            autoplaySpeed: 1000,
+            mousewheel: false,
             coverflowEffect: {
               rotate: 0, // No rotation
-              stretch: 50, // Add space between the stacked cards
-              depth: 200, // Increase the depth of the stack
+              stretch: 100, // Add space between the stacked cards
+              depth: 300, // Increase the depth of the stack
               modifier: 1, // Controls the effect intensity
               slideShadows: false, // Disable shadows if needed
             },
           });
 
+        });
+
         /* Counter Slider Section Complete */
 
+        /* Industries Section Start */
+        gsap.registerPlugin(ScrollTrigger);
+
+        const sliderItems = document.querySelectorAll('.slider-item');
+        
+        gsap.set(".slider", {
+          xPercent: 100, // Position the slider offscreen to the right initially
+        });
+        
+        gsap.to(".slider", {
+          xPercent: -100 * (sliderItems.length - 1), // Move the slider from right to left
+          ease: "none",
+          scrollTrigger: {
+            trigger: ".industries-section",
+            pin: true, // Pin the section
+            start: "top top", // Pinning starts when the section hits the top
+            scrub: 1.5, // Smooth scrolling
+            end: "+=" + 100 * sliderItems.length + "vw", // Duration based on slider width
+          }
+        });
+        
+        
+        
+
+        
+
+
+        /* Industries Section Start */
+
+        /* Footer Section Start */
+
+        const anchors = document.querySelectorAll('.mapnav ul li a[href^="#"]');
+        const mapItems = document.querySelectorAll('.map-item');
+
+        anchors.forEach(anchor => {
+          anchor.addEventListener('click', (event) => {
+            event.preventDefault();
+            const hrefValue = anchor.getAttribute('href').substring(1);
+
+            mapItems.forEach(item => {
+              if (item.getAttribute('data-attr') === hrefValue) {
+                item.classList.add('active');
+              } else {
+                item.classList.remove('active');
+              }
+            });
+          });
+        });
+
+        /* Footer Section End */
 
 
       }
@@ -363,7 +420,8 @@ document.addEventListener('DOMContentLoaded', () => {
   setInterval(fadeImagesRandomly, 5000);
 
   // Track the mouse movement
-  const flyingSection = document.querySelector('.hero-wrapper h1');
+  const flyingSection = document.querySelector('.hero-wrapper');
+  const cloudFlying = document.querySelector('.awards-main-sec');
   // const objects = document.querySelectorAll('.flying');
 
   flyingSection.addEventListener('mousemove', (e) => {
@@ -371,6 +429,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Loop through each flying object
     flyingObjects.forEach((object, index) => {
+      // Add slight delay based on index for a parallax effect
+      const delay = index * 0.05;
+
+      gsap.to(object, {
+        x: (mouseX - window.innerWidth / 2) * 0.009 * (index + 1),  // Move horizontally
+        y: (mouseY - window.innerHeight / 2) * 0.009 * (index + 1), // Move vertically
+        duration: 0.3,
+        ease: "power1.out",
+        delay: delay
+      });
+    });
+  });
+
+  cloudFlying.addEventListener('mousemove', (e) => {
+    const { clientX: mouseX, clientY: mouseY } = e;
+
+    // Loop through each flying object
+    cloudObjects.forEach((object, index) => {
       // Add slight delay based on index for a parallax effect
       const delay = index * 0.05;
 
