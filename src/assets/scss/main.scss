@@ -6,7 +6,7 @@ $textBaseColor: #636363;
 $white: #fff;
 $borderColor: rgba(255, 255, 255, 0.25);
 $menuBoxShadow: 0px 0px 30px 0px rgba(242, 110, 101, 0.58);
-$footerlink:#868686;
+$footerlink: #868686;
 
 @font-face {
   font-family: 'QAEFQS+TTFirsNeue';
@@ -872,6 +872,10 @@ header {
       font-size: 80px;
       line-height: 90px;
     }
+
+    h4 {
+      margin: 0 0 40px 0;
+    }
   }
 
   .team-intro {
@@ -987,51 +991,31 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 18px;
+      border-radius: 30px;
       font-size: 22px;
       font-weight: bold;
       color: #fff;
-      height: 300px;
-      max-height: 300px;
+      height: 500px;
+      max-height: 500px;
 
       &:nth-child(1n) {
-        background-color: rgb(206, 17, 17);
+        background-color: #000000;
       }
 
       &:nth-child(2n) {
-        background-color: rgb(0, 140, 255);
+        background-color: #F2D165;
       }
 
       &:nth-child(3n) {
-        background-color: rgb(10, 184, 111);
+        background-color: #F06E65;
       }
 
       &:nth-child(4n) {
-        background-color: rgb(211, 122, 7);
+        background-color: #659DF2;
       }
 
       &:nth-child(5n) {
-        background-color: rgb(118, 163, 12);
-      }
-
-      &:nth-child(6n) {
-        background-color: rgb(180, 10, 47);
-      }
-
-      &:nth-child(7n) {
-        background-color: rgb(35, 99, 19);
-      }
-
-      &:nth-child(8n) {
-        background-color: rgb(0, 68, 255);
-      }
-
-      &:nth-child(9n) {
-        background-color: rgb(218, 12, 218);
-      }
-
-      :nth-child(10n) {
-        background-color: rgb(54, 94, 77);
+        background-color: #8865F2;
       }
 
       .counter-inner {
@@ -1050,6 +1034,7 @@ header {
             color: transparent;
             -webkit-text-stroke: 1px #fff;
             text-stroke: 1px #fff;
+            font-family: $secondryFornts;
           }
         }
 
@@ -1085,15 +1070,40 @@ header {
   }
 }
 
+
+.line-animation, .line-animation-right {
+  opacity: 0;
+  
+}
+
+
 /* Counter Section CSS End */
 
 /* Industries Section CSS Start */
+
+.pin-spacer {
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: "";
+    width: 490px;
+    height: 100%;
+    background-image: url(../img/industries-shap.svg);
+    bottom: 0;
+    top: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
 
 .industries-section {
   padding: 150px 0;
   position: relative;
   overflow: hidden;
   height: 150vh;
+  z-index: 9;
 
   &:before {
     position: absolute;
@@ -1103,16 +1113,6 @@ header {
     background-image: url(../img/industries-bg-shap.png);
     background-repeat: no-repeat;
     background-position: center;
-    top: 0;
-  }
-
-  &:after {
-    position: absolute;
-    content: "";
-    width: 490px;
-    height: 696px;
-    background-image: url(../img/industries-shap.svg);
-    /* bottom: 0; */
     top: 0;
   }
 
@@ -1133,6 +1133,10 @@ header {
   }
 
   .product-slider {
+    margin-top: -60px;
+    position: relative;
+    z-index: 99;
+
     .slider {
       display: flex;
       // align-items: center;
@@ -1143,6 +1147,7 @@ header {
         border-radius: 20px;
         position: relative;
         overflow: hidden;
+        min-width: 20%;
 
         .industries-item {
           position: relative;
@@ -1189,6 +1194,373 @@ header {
 }
 
 /* Industries Section CSS End */
+
+/* Technologies Section CSS Start */
+
+.section_integration {
+  background-color: $white;
+  position: relative;
+  padding-top: 60px;
+  overflow: hidden;
+
+  .heading-main-sec {
+    h4 {
+      color: $primaryColor;
+    }
+  }
+
+  .animated-img-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+.cutting-edge-line {
+  width: 39em;
+  max-width: none;
+  display: block;
+}
+
+.cutting-center-logo-wrap {
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.cutting_outer-circle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0%;
+}
+
+.cutting_inner-circle {
+  z-index: 1;
+  border-radius: 50%;
+  width: 12.5em;
+  height: 12.5em;
+  position: relative;
+  box-shadow: 0 12px 20px #a3a3a333, inset 0 14.21px 67px #e1e1e16e;
+
+  img {
+    width: 100%;
+  }
+}
+
+.cutting_icons {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 120px 0 360px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background-color: $white;
+}
+
+.hide {
+  display: none !important;
+}
+
+.cutting_icons {
+  font-size: 1.1111111111111112vw;
+}
+
+.cutting-edge {
+  width: 16em;
+  height: 16em;
+  position: relative;
+}
+
+.cutting-edge-line-left.cutting-wrap-1 {
+  top: -3.8em;
+}
+
+.cutting-tool-icon-wrap {
+  &.cutting-wrap-1 {
+    top: -1.5em;
+    left: 3em;
+  }
+
+  z-index: 3;
+  background-color: #fff;
+  /* background-image: radial-gradient(circle,#F26E65 51%,#fff0 85.23%); */
+  border-radius: 50%;
+  width: 3.5em;
+  height: 3.5em;
+  position: absolute;
+  box-shadow: 0 6px 8px #0000000d;
+  border: 2px solid #eaeaea;
+}
+
+.cutting-tool-icon {
+  z-index: 3;
+  box-shadow: none;
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  inset: 0%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.cutting-tool-icon-wrap.cutting-wrap-2 {
+  top: -1.3em;
+  left: 19.1em;
+}
+
+.cutting-tool-icon {
+
+  &.cutting-tool-icon-left.back,
+  &.cutting-tool-icon-right.back {
+    display: none;
+  }
+}
+
+.cutting-line-embed {
+  z-index: 2;
+  position: absolute;
+  inset: 0%;
+}
+
+.cutting-edge-line-left {
+  &.cutting-wrap-2 {
+    top: 3.6em;
+  }
+
+  z-index: 2;
+  position: absolute;
+  right: 14em;
+}
+
+.cutting-tool-icon-wrap.cutting-wrap-3 {
+  top: -1.5em;
+  left: 8em;
+}
+
+.cutting-edge-line-left {
+  &.left-mobile {
+    display: none;
+    top: 6.8em;
+  }
+
+  &.cutting-wrap-3 {
+    top: 6.8em;
+  }
+
+  &.cutting-wrap-4 {
+    bottom: -2.8em;
+  }
+
+  z-index: 2;
+  position: absolute;
+  right: 14em;
+}
+
+.cutting-edge-line-right {
+  z-index: 2;
+  position: absolute;
+  left: 14em;
+
+  &.cutting-wrap-2 {
+    top: 3.6em;
+  }
+
+  &.cutting-wrap-3 {
+    top: 6.8em;
+  }
+
+  &.cutting-wrap-4 {
+    bottom: -2.8em;
+  }
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.cutting-tool-icon-wrap {
+  &.cutting-wrap-4 {
+    top: 0;
+    right: 6.5em;
+  }
+
+  &.cutting-wrap-5 {
+    bottom: -1.6em;
+    left: 12em;
+  }
+
+  &._6 {
+    bottom: -1.6em;
+    left: 2rem;
+  }
+
+  &._7 {
+    bottom: 2.2em;
+    right: 8.5em;
+  }
+}
+
+.cutting-edge-line-right {
+  &.cutting-wrap-1 {
+    top: -3.8em;
+  }
+
+  &.cutting-wrap-2 {
+    top: 3.6em;
+  }
+
+  &.cutting-wrap-3 {
+    top: 6.8em;
+  }
+
+  &.cutting-wrap-4 {
+    bottom: -2.8em;
+  }
+}
+
+.cutting-tool-icon-wrap {
+  &.cutting-wrap-8 {
+    top: -1.6em;
+    right: 1.5em;
+  }
+
+  &.cutting-wrap-9 {
+    top: -1.6em;
+    right: 13em;
+  }
+
+  &.cutting-wrap-10 {
+    top: 0;
+    left: 7em;
+  }
+
+  &.cutting-wrap-11 {
+    top: -1.6em;
+    right: 5.5em;
+  }
+
+  &.cutting-wrap-12 {
+    bottom: -1.6em;
+    right: 12.5em;
+  }
+
+  &.cutting-wrap-13 {
+    bottom: -1.3em;
+    left: 13.3em;
+  }
+
+  &.cutting-wrap-14 {
+    bottom: -1.6em;
+    right: 4.5em;
+  }
+}
+
+.animated {
+  .mask-rect {
+    animation: slideMask 1s ease-in-out infinite;
+    transition: all ease 0.8s;
+  }
+
+  .mask-rect-right {
+    animation: slideMaskRight 1s ease-in-out infinite;
+    transition: all ease 0.8s;
+  }
+
+  .cutting-tool-icon-wrap {
+    animation: slaceUp 1s ease infinite;
+    transition: all ease-in-out 1s;
+  }
+}
+
+.cutting-line-embed {
+  opacity: 0;
+}
+
+.animated {
+  &.cutting-line-embed {
+    opacity: 1;
+  }
+
+  .cutting_inner-circle {
+    animation: slaceUpCenter 1s ease infinite;
+    transition: all ease-in-out 1s;
+  }
+}
+
+
+.hide {
+  display: none !important;
+}
+
+@keyframes slideMask {
+  from {
+    x: 100%;
+    opacity: 0;
+  }
+
+  to {
+    x: -100%;
+    opacity: 1;
+  }
+}
+
+@keyframes slideMaskRight {
+  from {
+    x: -100%;
+    opacity: 0;
+  }
+
+  to {
+    x: 100%;
+    opacity: 1;
+  }
+}
+
+
+@keyframes slaceUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slaceUpCenter {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Technologies Section CSS End */
 
 /* footer css start */
 .pb-60 {

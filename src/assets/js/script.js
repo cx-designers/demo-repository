@@ -114,55 +114,84 @@ setTimeout(() => {
         $(document).ready(function () {
 
           var swiper = new Swiper(".counter-slider", {
-            direction: "vertical",
-            effect: "coverflow",
+            scrollbar: '.swiper-scrollbar',
+            effect: 'coverflow',
+            direction: 'vertical',
+            loop: true,
+            slideToClickedSlide: true,
             grabCursor: true,
             centeredSlides: true,
-            loop: true,
-            slidesPerView: "2",
-            autoplay: false,
+            slidesPerView: "auto",
+            autoplay: true,
             autoplaySpeed: 1000,
-            mousewheel: false,
             coverflowEffect: {
-              rotate: 0, // No rotation
-              stretch: 100, // Add space between the stacked cards
-              depth: 300, // Increase the depth of the stack
-              modifier: 1, // Controls the effect intensity
-              slideShadows: false, // Disable shadows if needed
+              rotate: -5,
+              stretch: 490,
+              depth: 150,
+              modifier: 1.2,
+              slideShadows: false
             },
+            freeMode: false,
+            freeModeSticky: false
           });
 
         });
 
         /* Counter Slider Section Complete */
 
-        /* Industries Section Start */       
+        /* Industries Section Start */
         const sliderItems = document.querySelectorAll('.slider-item');
 
-// Calculate the width for 3.5 slider items
-const visibleWidth = 100 / sliderItems.length * 3.5;
+        // Calculate the width for 3.5 slider items
+        const visibleWidth = 100 / sliderItems.length * 1;
 
-// Set the initial position to show 3.5 slides
-gsap.set(".slider", {
-  xPercent: 100 - visibleWidth, // Start position to show 3.5 slides
-});
+        // Set the initial position to show 3.5 slides
+        gsap.set(".slider", {
+          xPercent: 100 - visibleWidth, // Start position to show 3.5 slides
+        });
 
-// GSAP animation for the slider
-gsap.to(".slider", {
-  xPercent: -(100 - visibleWidth), // Move to show the remaining slides
-  ease: "none", // Smooth, linear scrolling
-  scrollTrigger: {
-    trigger: ".industries-section",
-    pin: true, // Pin the section
-    start: "top top", // Start pinning when the section hits the top
-    scrub: 2, // Smooth and gradual scrolling
-    end: "+=" + (sliderItems.length * 50) + "vw", // Lengthen scroll duration
-    onUpdate: (self) => {
-      // Debugging or additional transformations can go here
-    },
-  },
-});
+        // GSAP animation for the slider
+        gsap.to(".slider", {
+          xPercent: -(100 - visibleWidth), // Move to show the remaining slides
+          ease: "none", // Smooth, linear scrolling
+          scrollTrigger: {
+            trigger: ".industries-section",
+            pin: true, // Pin the section
+            start: "top top", // Start pinning when the section hits the top
+            scrub: 2, // Smooth and gradual scrolling
+            end: "+=" + (sliderItems.length * 50) + "vw", // Lengthen scroll duration
+            onUpdate: (self) => {
+              // Debugging or additional transformations can go here
+            },
+          },
+        });
         /* Industries Section Start */
+
+        /* Technologies Section Start */
+
+        function toggleClassesInfinite() {
+          const classNames = ['my_section_main', 'cutting-line-embed', 'cutting-tool-icon-wrap']; // Add all class names here
+
+          classNames.forEach(className => {
+            const elements = document.querySelectorAll(`.${className}`);
+            elements.forEach(element => {
+              // Every 5 seconds, add the 'animated' class
+              setInterval(() => {
+                element.classList.add('animated');
+
+                // After 1 second, remove the 'animated' class
+                setTimeout(() => {
+                  element.classList.remove('animated');
+                }, 1000); // Remove class after 1 second
+              }, 5000); // Add class every 5 seconds
+            });
+          });
+        }
+
+        // Call the function
+        toggleClassesInfinite();
+
+        /* Technologies Section End */
 
         /* Footer Section Start */
 
@@ -290,6 +319,21 @@ document.querySelector('.toggle-btn').addEventListener('click', function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+
+  gsap.fromTo(
+    ['.line-animation', '.line-animation-right'], // Select the elements
+    { opacity: 0 }, // Starting opacity
+    { 
+        opacity: 1, // Ending opacity
+        scrollTrigger: {
+            trigger: document.querySelector(".about-sec"),
+            start: "top top", // Start animation after scrolling 100vh
+            toggleActions: "play none none reverse", // Play when scrolling down, reverse when scrolling up
+        },
+        duration: 0.1, // Animation duration (1 second)
+    }
+); 
+
   gsap.registerPlugin(ScrollTrigger);
 
   // Animation for the first SVG to move down faster
@@ -297,7 +341,7 @@ document.addEventListener("DOMContentLoaded", function () {
     y: 160, // Move down faster
     scrollTrigger: {
       trigger: ".site_wrapper",
-      start: "top top", // Start when the top of the container hits the top of the viewport
+      start: "top 100%", // Start when the section enters the viewport (below the fold initially)
       end: "bottom top", // End when the bottom of the container hits the top of the viewport
       scrub: true, // Smooth animation tied to scroll
     }
@@ -308,7 +352,7 @@ document.addEventListener("DOMContentLoaded", function () {
     y: 140, // Move down slower
     scrollTrigger: {
       trigger: ".site_wrapper",
-      start: "top top",
+      start: "top 100%",
       end: "bottom top",
       scrub: true,
     }
@@ -319,11 +363,12 @@ document.addEventListener("DOMContentLoaded", function () {
     y: 120, // Move down slowest
     scrollTrigger: {
       trigger: ".site_wrapper",
-      start: "top top",
+      start: "top 100%",
       end: "bottom top",
       scrub: true,
     }
   });
+
   gsap.set('.cursor', { xPercent: -50, yPercent: -50, scale: 1, opacity: 1 });
 
   let cursor = document.querySelector('.cursor');
