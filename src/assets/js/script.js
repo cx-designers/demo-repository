@@ -136,33 +136,32 @@ setTimeout(() => {
 
         /* Counter Slider Section Complete */
 
-        /* Industries Section Start */
-        gsap.registerPlugin(ScrollTrigger);
-
+        /* Industries Section Start */       
         const sliderItems = document.querySelectorAll('.slider-item');
-        
-        gsap.set(".slider", {
-          xPercent: 100, // Position the slider offscreen to the right initially
-        });
-        
-        gsap.to(".slider", {
-          xPercent: -100 * (sliderItems.length - 1), // Move the slider from right to left
-          ease: "none",
-          scrollTrigger: {
-            trigger: ".industries-section",
-            pin: true, // Pin the section
-            start: "top top", // Pinning starts when the section hits the top
-            scrub: 1.5, // Smooth scrolling
-            end: "+=" + 100 * sliderItems.length + "vw", // Duration based on slider width
-          }
-        });
-        
-        
-        
 
-        
+// Calculate the width for 3.5 slider items
+const visibleWidth = 100 / sliderItems.length * 3.5;
 
+// Set the initial position to show 3.5 slides
+gsap.set(".slider", {
+  xPercent: 100 - visibleWidth, // Start position to show 3.5 slides
+});
 
+// GSAP animation for the slider
+gsap.to(".slider", {
+  xPercent: -(100 - visibleWidth), // Move to show the remaining slides
+  ease: "none", // Smooth, linear scrolling
+  scrollTrigger: {
+    trigger: ".industries-section",
+    pin: true, // Pin the section
+    start: "top top", // Start pinning when the section hits the top
+    scrub: 2, // Smooth and gradual scrolling
+    end: "+=" + (sliderItems.length * 50) + "vw", // Lengthen scroll duration
+    onUpdate: (self) => {
+      // Debugging or additional transformations can go here
+    },
+  },
+});
         /* Industries Section Start */
 
         /* Footer Section Start */

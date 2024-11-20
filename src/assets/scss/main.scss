@@ -1092,6 +1092,8 @@ header {
 .industries-section {
   padding: 150px 0;
   position: relative;
+  overflow: hidden;
+  height: 150vh;
 
   &:before {
     position: absolute;
