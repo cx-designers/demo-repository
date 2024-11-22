@@ -18,7 +18,8 @@ moveX.style.opacity = 0;
 
 const flyingObjects = document.querySelectorAll('.flying');
 const cloudObjects = document.querySelectorAll('.cloud-img img');
-
+document.body.classList.remove('before_load');
+div.style.display = 'flex';
 // Set flying objects to initial opacity 0
 gsap.set(flyingObjects, { opacity: 0 });
 
@@ -37,12 +38,11 @@ gsap.set(flyingObjects, { opacity: 0 });
     x: 0,
     y: 0,
     rotation: 0,
-    duration: 1,
+    duration: 0.1,
     scale: 1,
     ease: "power1.inOut"
-  }, "-=0.1")    
-  document.body.classList.remove('before_load');
-    div.style.display = 'flex';
+  }, "-=0.01")    
+  
 
   
   tl.to(div, {
@@ -51,26 +51,22 @@ gsap.set(flyingObjects, { opacity: 0 });
     ease: "power1.inOut"
   }, "-=0.1")
   .from(".from-left", {
-    duration: 1.5,      // Duration of the animation (in seconds)
+    duration: 0.8,      // Duration of the animation (in seconds)
     x: "-120%",          // Start 100 pixels to the left
     ease: "power2.inOut" // Easing function for a smoother transition
   })
   .from(".from-right", {
-    duration: 1.5,      // Duration of the animation (in seconds)
+    duration: 0.8,      // Duration of the animation (in seconds)
     x: "120%",          // Start 100 pixels to the left
     ease: "power2.inOut" // Easing function for a smoother transition
   })
   .to(flyingObjects, {
     opacity: 1,       // Reveal the flying objects
-    duration: 1,      // Fade-in duration
+    duration: 0.1,      // Fade-in duration
     ease: "power1.inOut"
   });
   tl.add(() => {
-    gsap.to(moveX, {
-      opacity: 1,
-      duration: 1,
-      ease: "power1.inOut"
-    });
+    gsap;
     animateDot();
     
     
@@ -86,6 +82,7 @@ function runSeparatedAnimations() {
   const tl2 = gsap.timeline();
   tl2.to(drarLogo, {
     strokeDashoffset: 0,
+    opacity:1,
     duration: 6,
     ease: "power1.inOut"
   }, "-=0.1")
@@ -96,12 +93,17 @@ function runSeparatedAnimations() {
 
   }, {
     strokeDashoffset: 0,    
-    duration: 1,
+    duration: 0.5,
     ease: "power1.inOut"
   }, "+=0.5")
     .to([drarLine1, drarLine2], {
       strokeDashoffset: 0,
+      opacity:1,
       duration: 1,
+      ease: "power1.inOut"
+    }).to(moveX, {
+      opacity: 1,
+      duration: 0.5,
       ease: "power1.inOut"
     });
     const paths = document.querySelectorAll('.neon'); // Select multiple paths by class
@@ -257,7 +259,7 @@ function runSeparatedAnimations() {
         /* Footer Section End */
 function animateDot() {
   let progress = 0;
-  let totalDuration = 1;
+  let totalDuration = 0.1;
   gsap.to({}, {
     duration: totalDuration,
     repeat: -1,

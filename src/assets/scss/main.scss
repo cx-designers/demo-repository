@@ -356,6 +356,9 @@ h1 {
     stroke-dashoffset: 500; /* Fully hidden */
     opacity: 0; /* Hidden from view */
   }
+  .drawlogo , .drawline1 , .drawline2{
+    opacity: 0;
+  }
 }
 
 @keyframes blur {
