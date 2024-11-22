@@ -464,6 +464,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 .about-sec {
   padding: 175px 0px 90px 0px;
   position: relative;
+  z-index: 9;
 }
 .about-sec img.cust-bg {
   width: 100%;
@@ -567,6 +568,70 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 }
 
 /*about us section css start */
+/* Service Section CSS Start */
+.main-banner-sec {
+  height: 100vh;
+  background: #00619f;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Banner height */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff !important;
+}
+
+.letter-x {
+  font-size: 10vw; /* Initial size of X */
+  font-weight: bold;
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  transform-origin: center; /* Set the scale origin to center */
+}
+
+.content-inside-x {
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  text-align: center;
+  will-change: transform, opacity;
+}
+
+.content-inside-x h1 {
+  position: relative;
+  color: #000;
+  font-size: 2rem; /* Initial font size */
+  opacity: 0; /* Hidden initially */
+  z-index: 3;
+  margin: 0; /* Remove default margin */
+  will-change: transform, font-size, opacity;
+}
+
+.content-inside-x p {
+  position: relative;
+  color: #000;
+  font-size: 20px;
+  line-break: normal;
+}
+
+.second-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Service Section CSS End */
 /* footer css start */
 .pb-60 {
   padding-bottom: 60px;
@@ -753,6 +818,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 .awards-main-sec {
   padding: 150px 0;
   background-color: #F26E65;
+  z-index: 9;
 }
 .awards-main-sec .awards-col {
   width: 20%;
@@ -859,6 +925,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 .counter-main-sec {
   background-color: #fff;
   padding: 150px 0;
+  z-index: 9;
 }
 .counter-main-sec .content-col .counter-content h3 {
   font-size: 16px;
@@ -937,16 +1004,14 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   font-weight: 400;
 }
 
-.line-animation, .line-animation-right {
+.line-animation,
+.line-animation-right {
   opacity: 0;
 }
 
 /* Counter Section CSS End */
 /* Industries Section CSS Start */
-.pin-spacer {
-  position: relative;
-}
-.pin-spacer:after {
+.counter-main-sec + .pin-spacer:after {
   position: absolute;
   content: "";
   width: 490px;
@@ -1045,6 +1110,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   position: relative;
   padding-top: 60px;
   overflow: hidden;
+  z-index: 9;
 }
 .section_integration .heading-main-sec h4 {
   color: #000000;
@@ -1279,19 +1345,19 @@ svg:not(:root) {
 }
 
 .animated .mask-rect {
-  -webkit-animation: slideMask 1s ease-in-out infinite;
-          animation: slideMask 1s ease-in-out infinite;
+  -webkit-animation: slideMask 2s ease-in-out infinite;
+          animation: slideMask 2s ease-in-out infinite;
   transition: all ease 0.8s;
 }
 .animated .mask-rect-right {
-  -webkit-animation: slideMaskRight 1s ease-in-out infinite;
-          animation: slideMaskRight 1s ease-in-out infinite;
+  -webkit-animation: slideMaskRight 2s ease-in-out infinite;
+          animation: slideMaskRight 2s ease-in-out infinite;
   transition: all ease 0.8s;
 }
 .animated .cutting-tool-icon-wrap {
-  -webkit-animation: slaceUp 1s ease infinite;
-          animation: slaceUp 1s ease infinite;
-  transition: all ease-in-out 1s;
+  -webkit-animation: slaceUp 2s ease infinite;
+          animation: slaceUp 2s ease infinite;
+  transition: all ease-in-out 2s;
 }
 
 .cutting-line-embed {
@@ -1302,9 +1368,9 @@ svg:not(:root) {
   opacity: 1;
 }
 .animated .cutting_inner-circle {
-  -webkit-animation: slaceUpCenter 1s ease infinite;
-          animation: slaceUpCenter 1s ease infinite;
-  transition: all ease-in-out 1s;
+  -webkit-animation: slaceUpCenter 2s ease infinite;
+          animation: slaceUpCenter 2s ease infinite;
+  transition: all ease-in-out 2s;
 }
 
 .hide {

@@ -182,7 +182,7 @@ setTimeout(() => {
                 // After 1 second, remove the 'animated' class
                 setTimeout(() => {
                   element.classList.remove('animated');
-                }, 1000); // Remove class after 1 second
+                }, 2000); // Remove class after 1 second
               }, 5000); // Add class every 5 seconds
             });
           });
@@ -253,7 +253,7 @@ function animateDot() {
       const point = drarLogo.getPointAtLength(lengthAtProgress);
       movingDot.setAttribute('cx', point.x);
       movingDot.setAttribute('cy', point.y);
-      progress += 0.001 * gsap.utils.random(0.5, 1);
+      progress += 0.001 * gsap.utils.random(0.005, 1);
       if (progress >= 1) {
         progress = 0;
       }
@@ -263,6 +263,14 @@ function animateDot() {
     }
   });
 }
+
+/* Cursor Remove JS Start */
+
+window.onload = function () {
+  document.body.style.cursor = "none";
+};
+
+/* Cursor Remove JS Start */
 
 
 function neonFlicker(paths) {
@@ -323,16 +331,16 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.fromTo(
     ['.line-animation', '.line-animation-right'], // Select the elements
     { opacity: 0 }, // Starting opacity
-    { 
-        opacity: 1, // Ending opacity
-        scrollTrigger: {
-            trigger: document.querySelector(".about-sec"),
-            start: "top top", // Start animation after scrolling 100vh
-            toggleActions: "play none none reverse", // Play when scrolling down, reverse when scrolling up
-        },
-        duration: 0.1, // Animation duration (1 second)
+    {
+      opacity: 1, // Ending opacity
+      scrollTrigger: {
+        trigger: document.querySelector(".about-sec"),
+        start: "top top", // Start animation after scrolling 100vh
+        toggleActions: "play none none reverse", // Play when scrolling down, reverse when scrolling up
+      },
+      duration: 0.1, // Animation duration (1 second)
     }
-); 
+  );
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -505,3 +513,88 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+
+
+/* Service Section JS Start */
+
+gsap.registerPlugin(ScrollTrigger);
+
+// Initial styles for elements
+gsap.set([".content-inside-x", ".content-inside-x h1", ".content-inside-x p", ".first-svg", ".second-svg"], { opacity: 0 });
+gsap.set("#x-path", { fill: "black" }); // Initial fill color
+
+// Master timeline for pinned animations
+const bannerTimeline = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".banner",
+    start: "top top", // Pin starts when .banner reaches the top
+    end: "+=200%",    // Adjust scroll duration as needed
+    scrub: 1,
+    pin: true,
+  },
+});
+
+// Animation sequence
+bannerTimeline
+  // 1. Scale and reveal `.letter-x` and `#x-path`
+  .to([".letter-x"], {
+    scale: 14,        // Scale up `.letter-x`
+    opacity: 1,       // Make both elements fully visible
+    duration: 1,      // Duration of the scaling and fade-in
+    ease: "power1.inOut",
+  }, 0)
+
+  // 2. Change the fill of `#x-path` after opacity reaches 1
+  .to("#x-path", {
+    fill: "#F26E65",  // Change fill color
+    duration: 0.5,    // Smooth transition
+    ease: "power1.inOut",
+  }, 0.5) // Slight delay to match the fade-in
+
+  // 3. Show content inside `.letter-x` and `.content-inside-x h1`, `.content-inside-x p`
+  .to([".content-inside-x", ".content-inside-x h1", ".content-inside-x p"], {
+    opacity: 1,
+    duration: 0.5,
+  }, 0) // Start simultaneously with `.letter-x` scale animation
+
+  // 4. Animate the font size of h1
+  .to(".content-inside-x h1", {
+    fontSize: "8rem", // Increase the font size
+    duration: 1,
+  }, 1.5) // Start after content fade-in
+
+  .to(".content-inside-x h1", {
+    opacity: 0,       // Fade out h1
+    duration: 0.5,
+  }, 3) // Start fade-out after scaling animation
+
+  // 5. Animate and show the SVGs
+  .to(".first-svg", {
+    opacity: 1,
+    x: 200,           // Move from left to right
+    y: 200,           // Move from top to bottom
+    duration: 1,
+  }, 2.5)
+
+  .to(".second-svg", {
+    opacity: 1,
+    x: -200,          // Move from right to left
+    y: 200,           // Move from top to bottom
+    duration: 1,
+  }, 2.5)
+
+  // 6. Fade out the SVGs
+  .to([".first-svg", ".second-svg"], {
+    opacity: 0,
+    duration: 0.5,
+  }, 3.5)
+
+  // 7. Show paragraph after h1 animation
+  .to(".content-inside-x p", {
+    opacity: 1,
+    duration: 1,
+  }, 4);
+
+
+/* Service Section JS End */

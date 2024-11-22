@@ -487,6 +487,7 @@ header {
 .about-sec {
   padding: 175px 0px 90px 0px;
   position: relative;
+  z-index: 9;
 
   img.cust-bg {
     width: 100%;
@@ -605,6 +606,66 @@ header {
 }
 
 /*about us section css start */
+
+/* Service Section CSS Start */
+
+.main-banner-sec {
+  height: 100vh;
+  background: #00619f;
+}
+.banner {      
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Banner height */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff !important;
+}
+.letter-x {
+  font-size: 10vw; /* Initial size of X */
+  font-weight: bold;
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  transform-origin: center; /* Set the scale origin to center */
+}
+.content-inside-x {
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  text-align: center;
+  will-change: transform, opacity;
+}
+.content-inside-x h1 {
+  position: relative;
+  color: #000;
+  font-size: 2rem; /* Initial font size */
+  opacity: 0; /* Hidden initially */
+  z-index: 3;
+  margin: 0; /* Remove default margin */
+  will-change: transform, font-size, opacity;
+}
+.content-inside-x p {
+  position: relative;
+  color: #000;
+  font-size: 20px;
+  line-break: normal;
+}
+.second-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Service Section CSS End */
+
 /* footer css start */
 .pb-60 {
   padding-bottom: 60px;
@@ -824,6 +885,7 @@ header {
 .awards-main-sec {
   padding: 150px 0;
   background-color: #F26E65;
+  z-index: 9;
 
   .awards-col {
     width: 20%;
@@ -960,6 +1022,7 @@ header {
 .counter-main-sec {
   background-color: #fff;
   padding: 150px 0;
+  z-index: 9;
 
   .content-col {
     .counter-content {
@@ -1071,9 +1134,10 @@ header {
 }
 
 
-.line-animation, .line-animation-right {
+.line-animation,
+.line-animation-right {
   opacity: 0;
-  
+
 }
 
 
@@ -1081,22 +1145,23 @@ header {
 
 /* Industries Section CSS Start */
 
-.pin-spacer {
-  position: relative;
-
-  &:after {
-    position: absolute;
-    content: "";
-    width: 490px;
-    height: 100%;
-    background-image: url(../img/industries-shap.svg);
-    bottom: 0;
-    top: auto;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom;
+.counter-main-sec {
+  +.pin-spacer {
+    &:after {
+      position: absolute;
+      content: "";
+      width: 490px;
+      height: 100%;
+      background-image: url(../img/industries-shap.svg);
+      bottom: 0;
+      top: auto;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
   }
 }
+
 
 .industries-section {
   padding: 150px 0;
@@ -1202,6 +1267,7 @@ header {
   position: relative;
   padding-top: 60px;
   overflow: hidden;
+  z-index: 9;
 
   .heading-main-sec {
     h4 {
@@ -1472,18 +1538,18 @@ svg:not(:root) {
 
 .animated {
   .mask-rect {
-    animation: slideMask 1s ease-in-out infinite;
+    animation: slideMask 2s ease-in-out infinite;
     transition: all ease 0.8s;
   }
 
   .mask-rect-right {
-    animation: slideMaskRight 1s ease-in-out infinite;
+    animation: slideMaskRight 2s ease-in-out infinite;
     transition: all ease 0.8s;
   }
 
   .cutting-tool-icon-wrap {
-    animation: slaceUp 1s ease infinite;
-    transition: all ease-in-out 1s;
+    animation: slaceUp 2s ease infinite;
+    transition: all ease-in-out 2s;
   }
 }
 
@@ -1497,8 +1563,8 @@ svg:not(:root) {
   }
 
   .cutting_inner-circle {
-    animation: slaceUpCenter 1s ease infinite;
-    transition: all ease-in-out 1s;
+    animation: slaceUpCenter 2s ease infinite;
+    transition: all ease-in-out 2s;
   }
 }
 
