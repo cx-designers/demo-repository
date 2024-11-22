@@ -22,8 +22,10 @@ const cloudObjects = document.querySelectorAll('.cloud-img img');
 // Set flying objects to initial opacity 0
 gsap.set(flyingObjects, { opacity: 0 });
 
-setTimeout(() => {
+
   const tl = gsap.timeline();
+  
+  // Main Timeline
   tl.fromTo(glowRotate, {
     opacity: 0,
     x: -100,
@@ -38,38 +40,77 @@ setTimeout(() => {
     duration: 1,
     scale: 1,
     ease: "power1.inOut"
-  }, "-=0.5")
-    .to(drarLogo, {
-      strokeDashoffset: 0,
-      duration: 6,
-      ease: "power1.inOut"
-    }, "-=0.1")
-    .fromTo(".roundeO", {
-      strokeDasharray: 500,   // Adjust based on the roundeO path length
-      strokeDashoffset: 500,  // Start fully hidden
-    }, {
-      strokeDashoffset: 0,    // Animate to fully drawn
+  }, "-=0.1")    
+  document.body.classList.remove('before_load');
+    div.style.display = 'flex';
+
+  
+  tl.to(div, {
+    opacity: 1,
+    duration: 0.1,
+    ease: "power1.inOut"
+  }, "-=0.1")
+  .from(".from-left", {
+    duration: 1.5,      // Duration of the animation (in seconds)
+    x: "-120%",          // Start 100 pixels to the left
+    ease: "power2.inOut" // Easing function for a smoother transition
+  })
+  .from(".from-right", {
+    duration: 1.5,      // Duration of the animation (in seconds)
+    x: "120%",          // Start 100 pixels to the left
+    ease: "power2.inOut" // Easing function for a smoother transition
+  })
+  .to(flyingObjects, {
+    opacity: 1,       // Reveal the flying objects
+    duration: 1,      // Fade-in duration
+    ease: "power1.inOut"
+  });
+  tl.add(() => {
+    gsap.to(moveX, {
+      opacity: 1,
       duration: 1,
       ease: "power1.inOut"
-    }, "+=0.5")
+    });
+    animateDot();
+    
+    
+
+    // Run the separated animations after onComplete
+    runSeparatedAnimations();
+  });
+
+
+
+// Define a new function for the separated animations
+function runSeparatedAnimations() {
+  const tl2 = gsap.timeline();
+  tl2.to(drarLogo, {
+    strokeDashoffset: 0,
+    duration: 6,
+    ease: "power1.inOut"
+  }, "-=0.1")
+  .fromTo(".roundeO", {
+    strokeDasharray: 500,   
+    strokeDashoffset: 500,
+    opacity:1,
+
+  }, {
+    strokeDashoffset: 0,    
+    duration: 1,
+    ease: "power1.inOut"
+  }, "+=0.5")
     .to([drarLine1, drarLine2], {
       strokeDashoffset: 0,
       duration: 1,
       ease: "power1.inOut"
-    })
-    .add(() => {
-      gsap.to(moveX, {
-        opacity: 1,
-        duration: 1,
-        ease: "power1.inOut"
-      });
-      animateDot();
-      document.body.classList.remove('before_load');
-      const paths = document.querySelectorAll('.neon'); // Select multiple paths by class
-      neonFlicker(paths);
-    }).to(div, {
-      onComplete: () => {
-        div.style.display = 'flex';
+    });
+    const paths = document.querySelectorAll('.neon'); // Select multiple paths by class
+    neonFlicker(paths);
+}
+
+
+
+ 
 
         /* Testimonial Section */
 
@@ -214,33 +255,6 @@ setTimeout(() => {
         });
 
         /* Footer Section End */
-
-
-      }
-    })
-    .to(div, {
-      opacity: 1,
-      duration: 1,
-      ease: "power1.inOut"
-    }, "-=0.5")
-    .from(".from-left", {
-      duration: 0.5,      // Duration of the animation (in seconds)
-      x: "-120%",          // Start 100 pixels to the left
-      ease: "power2.inOut" // Easing function for a smoother transition
-    })
-    .from(".from-right", {
-      duration: 0.5,      // Duration of the animation (in seconds)
-      x: "120%",          // Start 100 pixels to the left
-      ease: "power2.inOut" // Easing function for a smoother transition
-    })
-    .to(flyingObjects, {
-      opacity: 1,       // Reveal the flying objects
-      duration: 1,      // Fade-in duration
-      ease: "power1.inOut"
-    }); // This step will execute after the left and right animations.
-
-}, 100);
-
 function animateDot() {
   let progress = 0;
   let totalDuration = 1;

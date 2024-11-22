@@ -351,6 +351,11 @@ h1 {
     top: 0;
     height: 100%;
   }
+  .roundeO {
+    stroke-dasharray: 500; /* Set to match the length of the path */
+    stroke-dashoffset: 500; /* Fully hidden */
+    opacity: 0; /* Hidden from view */
+  }
 }
 
 @keyframes blur {
