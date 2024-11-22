@@ -169,46 +169,19 @@ function runSeparatedAnimations() {
             autoplaySpeed: 1000,
             coverflowEffect: {
               rotate: -5,
-              stretch: 490,
+              stretch: 294.5,
               depth: 150,
               modifier: 1.2,
               slideShadows: false
             },
             freeMode: false,
-            freeModeSticky: false
+            freeModeSticky: true,
           });
 
         });
 
         /* Counter Slider Section Complete */
 
-        /* Industries Section Start */
-        const sliderItems = document.querySelectorAll('.slider-item');
-
-        // Calculate the width for 3.5 slider items
-        const visibleWidth = 100 / sliderItems.length * 1;
-
-        // Set the initial position to show 3.5 slides
-        gsap.set(".slider", {
-          xPercent: 100 - visibleWidth, // Start position to show 3.5 slides
-        });
-
-        // GSAP animation for the slider
-        gsap.to(".slider", {
-          xPercent: -(100 - visibleWidth), // Move to show the remaining slides
-          ease: "none", // Smooth, linear scrolling
-          scrollTrigger: {
-            trigger: ".industries-section",
-            pin: true, // Pin the section
-            start: "top top", // Start pinning when the section hits the top
-            scrub: 2, // Smooth and gradual scrolling
-            end: "+=" + (sliderItems.length * 50) + "vw", // Lengthen scroll duration
-            onUpdate: (self) => {
-              // Debugging or additional transformations can go here
-            },
-          },
-        });
-        /* Industries Section Start */
 
         /* Technologies Section Start */
 
@@ -545,72 +518,103 @@ const bannerTimeline = gsap.timeline({
   scrollTrigger: {
     trigger: ".banner",
     start: "top top", // Pin starts when .banner reaches the top
-    end: "+=200%",    // Adjust scroll duration as needed
+    end: "+=300%",    // Extend scroll duration for all animations
     scrub: 1,
     pin: true,
+    pinSpacing: true, // Prevent the next section from overlapping
   },
 });
 
 // Animation sequence
 bannerTimeline
-  // 1. Scale and reveal `.letter-x` and `#x-path`
+  // 1. Scale `.letter-x` and reveal `.content-inside-x`
   .to([".letter-x"], {
-    scale: 14,        // Scale up `.letter-x`
-    opacity: 1,       // Make both elements fully visible
-    duration: 1,      // Duration of the scaling and fade-in
+    scale: 14,              // Scale up `.letter-x`
+    opacity: 1,             // Reveal `.content-inside-x`
+    duration: 2,            // Duration for scaling and fading
     ease: "power1.inOut",
+  }, 0) // Starts everything together
+
+  .to([".content-inside-x"], {
+    opacity: 1,             // Reveal `.content-inside-x`
+    duration: 0.5,            // Duration for scaling and fading
   }, 0)
 
-  // 2. Change the fill of `#x-path` after opacity reaches 1
+  // 2. Change the fill of `#x-path` after scaling starts
   .to("#x-path", {
-    fill: "#F26E65",  // Change fill color
-    duration: 0.5,    // Smooth transition
+    fill: "#F26E65",        // Change fill color
+    duration: 0.5,          // Smooth transition
     ease: "power1.inOut",
-  }, 0.5) // Slight delay to match the fade-in
+  }, 0.5) // Slight delay after scaling begins
 
-  // 3. Show content inside `.letter-x` and `.content-inside-x h1`, `.content-inside-x p`
-  .to([".content-inside-x", ".content-inside-x h1", ".content-inside-x p"], {
-    opacity: 1,
-    duration: 0.5,
-  }, 0) // Start simultaneously with `.letter-x` scale animation
-
-  // 4. Animate the font size of h1
+  // 3. Show `.content-inside-x h1` with font size and opacity changes
   .to(".content-inside-x h1", {
-    fontSize: "8rem", // Increase the font size
-    duration: 1,
-  }, 1.5) // Start after content fade-in
+    fontSize: "8rem",       // Increase font size
+    opacity: 1,             // Make h1 visible
+    duration: 0.5,            // Sync with `.letter-x` scaling
+    ease: "power1.inOut",
+  }, 0.5)
+  // Sync with scaling
 
-  .to(".content-inside-x h1", {
-    opacity: 0,       // Fade out h1
-    duration: 0.5,
-  }, 3) // Start fade-out after scaling animation
-
-  // 5. Animate and show the SVGs
+  // 5. Animate and show the SVGs simultaneously with `.letter-x` scaling
   .to(".first-svg", {
     opacity: 1,
-    x: 200,           // Move from left to right
-    y: 200,           // Move from top to bottom
-    duration: 1,
-  }, 2.5)
+    x: 200,                 // Move from left to right
+    y: 200,                 // Move from top to bottom
+    duration: 1,            // Sync with `.letter-x` scaling duration
+    ease: "power1.inOut",
+  }, 0) // Sync with scaling
 
   .to(".second-svg", {
     opacity: 1,
-    x: -200,          // Move from right to left
-    y: 200,           // Move from top to bottom
-    duration: 1,
-  }, 2.5)
+    x: -200,                // Move from right to left
+    y: 200,                 // Move from top to bottom
+    duration: 1,            // Sync with `.letter-x` scaling duration
+    ease: "power1.inOut",
+  }, 0) // Sync with scaling
 
-  // 6. Fade out the SVGs
+  // 6. Fade out both SVGs
   .to([".first-svg", ".second-svg"], {
     opacity: 0,
     duration: 0.5,
-  }, 3.5)
+  }, 0.8) // Fade out after scaling finishes
 
-  // 7. Show paragraph after h1 animation
-  .to(".content-inside-x p", {
-    opacity: 1,
-    duration: 1,
-  }, 4);
+  .to(".content-inside-x h1", {
+    opacity: 0,             // Make h1 visible
+    duration: 0.8,            // Sync with `.letter-x` scaling
+    ease: "power1.inOut",
+  }, 1)
 
 
 /* Service Section JS End */
+
+
+
+
+        /* Industries Section Start */
+        const sliderItems = document.querySelectorAll('.slider-item');
+
+        // Calculate the width for 3.5 slider items
+        const visibleWidth = 100 / sliderItems.length * 1;
+
+        // Set the initial position to show 3.5 slides
+        gsap.set(".slider", {
+          xPercent: 100 - visibleWidth, // Start position to show 3.5 slides
+        });
+
+        // GSAP animation for the slider
+        gsap.to(".slider", {
+          xPercent: -(100 - visibleWidth), // Move to show the remaining slides
+          ease: "none", // Smooth, linear scrolling
+          scrollTrigger: {
+            trigger: ".industries-section",
+            pin: true, // Pin the section
+            start: "top top", // Start pinning when the section hits the top
+            scrub: 2, // Smooth and gradual scrolling
+            end: "+=" + (sliderItems.length * 50) + "vw", // Lengthen scroll duration
+            onUpdate: (self) => {
+              // Debugging or additional transformations can go here
+            },
+          },
+        });
+        /* Industries Section Start */
