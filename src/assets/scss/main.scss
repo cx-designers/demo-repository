@@ -351,12 +351,19 @@ h1 {
     top: 0;
     height: 100%;
   }
+
   .roundeO {
-    stroke-dasharray: 500; /* Set to match the length of the path */
-    stroke-dashoffset: 500; /* Fully hidden */
-    opacity: 0; /* Hidden from view */
+    stroke-dasharray: 500;
+    /* Set to match the length of the path */
+    stroke-dashoffset: 500;
+    /* Fully hidden */
+    opacity: 0;
+    /* Hidden from view */
   }
-  .drawlogo , .drawline1 , .drawline2{
+
+  .drawlogo,
+  .drawline1,
+  .drawline2 {
     opacity: 0;
   }
 }
@@ -617,63 +624,63 @@ header {
 
 /* Service Section CSS Start */
 
-.main-banner-sec {
-  height: 100vh;
-  background: #00619f;
-}
-.banner {      
+.main-service-sec {
   position: relative;
   overflow: hidden;
-  height: 100vh; /* Banner height */
+  height: 100vh;
   position: sticky;
   top: 0;
   z-index: 1;
   background-color: #fff !important;
-}
-.letter-x {
-  font-size: 10vw; /* Initial size of X */
-  font-weight: bold;
-  position: absolute;
-  color: #fff;
-  z-index: 2;
-  transform-origin: center; /* Set the scale origin to center */
-}
-.content-inside-x {
-  margin: 0;
-  opacity: 0;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center horizontally and vertically */
-  text-align: center;
-  will-change: transform, opacity;
+
+  .letter-x {
+    font-size: 10vw;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    transform-origin: center;
+  }
+
+  .content-inside-x {
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    will-change: transform, opacity;
+
+    h1 {
+      position: relative;
+      color: #000;
+      font-size: 2rem;
+      opacity: 0;
+      z-index: 3;
+      margin: 0;
+      will-change: transform, font-size, opacity;
+    }
+
+    p {
+      position: relative;
+      color: #000;
+      font-size: 20px;
+      line-break: normal;
+    }
+  }
+
+  .second-svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
 }
 
-.content-inside-x h1 {
-  position: relative;
-  color: #000;
-  font-size: 2rem; /* Initial font size */
-  opacity: 0; /* Hidden initially */
-  z-index: 3;
-  margin: 0; /* Remove default margin */
-  will-change: transform, font-size, opacity;
-}
-.content-inside-x p {
-  position: relative;
-  color: #000;
-  font-size: 20px;
-  line-break: normal;
-}
-.second-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-}
-
-section.services-title-sec {
+.services-title-sec {
   margin-top: -80vh;
   height: 100vh;
   align-items: center;
@@ -681,6 +688,7 @@ section.services-title-sec {
   flex-direction: column;
   justify-content: center;
   background-color: $white;
+  z-index: 9;
 
   .heading-main-sec {
     h4 {
@@ -702,6 +710,105 @@ section.services-title-sec {
     }
   }
 }
+
+
+.inner-service-wrapper {
+  position: relative;
+  overflow: hidden;
+
+  .inner-shap-1 {
+    position: absolute;
+    left: -40%;
+    top: -10%;
+  }
+  
+  .inner-shap-2 {
+    position: absolute;
+    right: -40%;
+    bottom: -10%;
+  }
+
+  .inner-service-sec {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+
+    &.reverse {
+      .row {
+        flex-direction: row-reverse;
+      }
+
+      .svg-draw-sec {
+        left: 0;
+        right: auto;
+      }
+    }
+
+    .content-col {
+
+      .heading-main-sec {
+        h3 {
+          text-align: left;
+        }
+
+        h4 {
+          font-size: 80px;
+          line-height: 90px;
+          text-align: left;
+          color: $white;
+          margin: 0 0 30px 0;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 30px;
+          text-align: left;
+          color: $white;
+          margin: 0 0 30px 0;
+        }
+
+        a {
+          &.service-btn {
+            padding: 20px 40px;
+            font-size: 22px;
+            color: $white;
+            background-color: $secondaryColor;
+            border-radius: 15px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            max-width: max-content;
+          }
+        }
+      }
+    }
+
+    .svg-draw-sec {
+      position: absolute;
+      left: auto;
+      right: 0;
+
+      svg {
+        path {
+          stroke: $secondaryColor;
+          opacity: 1;
+        }
+      }
+
+      &.chatbot-development {
+        svg {
+          margin: 0 auto;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
 
 /* Service Section CSS End */
 

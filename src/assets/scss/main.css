@@ -346,11 +346,16 @@ h1 span.from-right {
   height: 100%;
 }
 .loaderWrapper .roundeO {
-  stroke-dasharray: 500; /* Set to match the length of the path */
-  stroke-dashoffset: 500; /* Fully hidden */
-  opacity: 0; /* Hidden from view */
+  stroke-dasharray: 500;
+  /* Set to match the length of the path */
+  stroke-dashoffset: 500;
+  /* Fully hidden */
+  opacity: 0;
+  /* Hidden from view */
 }
-.loaderWrapper .drawlogo, .loaderWrapper .drawline1, .loaderWrapper .drawline2 {
+.loaderWrapper .drawlogo,
+.loaderWrapper .drawline1,
+.loaderWrapper .drawline2 {
   opacity: 0;
 }
 
@@ -577,61 +582,51 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 
 /*about us section css start */
 /* Service Section CSS Start */
-.main-banner-sec {
-  height: 100vh;
-  background: #00619f;
-}
-
-.banner {
+.main-service-sec {
   position: relative;
   overflow: hidden;
-  height: 100vh; /* Banner height */
+  height: 100vh;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
   background-color: #fff !important;
 }
-
-.letter-x {
-  font-size: 10vw; /* Initial size of X */
+.main-service-sec .letter-x {
+  font-size: 10vw;
   font-weight: bold;
   position: absolute;
   color: #fff;
   z-index: 2;
-  transform-origin: center; /* Set the scale origin to center */
+  transform-origin: center;
 }
-
-.content-inside-x {
+.main-service-sec .content-inside-x {
   margin: 0;
   opacity: 0;
   padding: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  transform: translate(-50%, -50%);
   text-align: center;
   will-change: transform, opacity;
 }
-
-.content-inside-x h1 {
+.main-service-sec .content-inside-x h1 {
   position: relative;
   color: #000;
-  font-size: 2rem; /* Initial font size */
-  opacity: 0; /* Hidden initially */
+  font-size: 2rem;
+  opacity: 0;
   z-index: 3;
-  margin: 0; /* Remove default margin */
+  margin: 0;
   will-change: transform, font-size, opacity;
 }
-
-.content-inside-x p {
+.main-service-sec .content-inside-x p {
   position: relative;
   color: #000;
   font-size: 20px;
   line-break: normal;
 }
-
-.second-svg {
+.main-service-sec .second-svg {
   position: absolute;
   left: 0;
   top: 0;
@@ -639,7 +634,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   width: 100%;
 }
 
-section.services-title-sec {
+.services-title-sec {
   margin-top: -80vh;
   height: 100vh;
   align-items: center;
@@ -647,21 +642,96 @@ section.services-title-sec {
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
+  z-index: 9;
 }
-section.services-title-sec .heading-main-sec h4 {
+.services-title-sec .heading-main-sec h4 {
   font-size: 80px;
   color: #000000;
   line-height: 1.3;
 }
-section.services-title-sec .heading-main-sec p {
+.services-title-sec .heading-main-sec p {
   max-width: 750px;
   color: #636363;
   font-size: 18px;
   line-height: 1.8;
   margin: 0 auto 30px auto;
 }
-section.services-title-sec .heading-main-sec p:last-child {
+.services-title-sec .heading-main-sec p:last-child {
   margin: 0 auto;
+}
+
+.inner-service-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.inner-service-wrapper .inner-shap-1 {
+  position: absolute;
+  left: -40%;
+  top: -10%;
+}
+.inner-service-wrapper .inner-shap-2 {
+  position: absolute;
+  right: -40%;
+  bottom: -10%;
+}
+.inner-service-wrapper .inner-service-sec {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 9;
+}
+.inner-service-wrapper .inner-service-sec.reverse .row {
+  flex-direction: row-reverse;
+}
+.inner-service-wrapper .inner-service-sec.reverse .svg-draw-sec {
+  left: 0;
+  right: auto;
+}
+.inner-service-wrapper .inner-service-sec .content-col .heading-main-sec h3 {
+  text-align: left;
+}
+.inner-service-wrapper .inner-service-sec .content-col .heading-main-sec h4 {
+  font-size: 80px;
+  line-height: 90px;
+  text-align: left;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+.inner-service-wrapper .inner-service-sec .content-col .heading-main-sec p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+.inner-service-wrapper .inner-service-sec .content-col .heading-main-sec a.service-btn {
+  padding: 20px 40px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #F26E65;
+  border-radius: 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+.inner-service-wrapper .inner-service-sec .svg-draw-sec {
+  position: absolute;
+  left: auto;
+  right: 0;
+}
+.inner-service-wrapper .inner-service-sec .svg-draw-sec svg path {
+  stroke: #F26E65;
+  opacity: 1;
+}
+.inner-service-wrapper .inner-service-sec .svg-draw-sec.chatbot-development svg {
+  margin: 0 auto;
+  display: block;
 }
 
 /* Service Section CSS End */

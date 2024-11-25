@@ -24,32 +24,32 @@ div.style.display = 'flex';
 gsap.set(flyingObjects, { opacity: 0 });
 
 
-  const tl = gsap.timeline();
-  
-  // Main Timeline
-  tl.fromTo(glowRotate, {
-    opacity: 0,
-    x: -100,
-    y: -100,
-    scale: 0,
-    rotation: -180
-  }, {
-    opacity: 1,
-    x: 0,
-    y: 0,
-    rotation: 0,
-    duration: 0.1,
-    scale: 1,
-    ease: "power1.inOut"
-  }, "-=0.01")    
-  
+const tl = gsap.timeline();
 
-  
-  tl.to(div, {
-    opacity: 1,
-    duration: 0.1,
-    ease: "power1.inOut"
-  }, "-=0.1")
+// Main Timeline
+tl.fromTo(glowRotate, {
+  opacity: 0,
+  x: -100,
+  y: -100,
+  scale: 0,
+  rotation: -180
+}, {
+  opacity: 1,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  duration: 0.1,
+  scale: 1,
+  ease: "power1.inOut"
+}, "-=0.01")
+
+
+
+tl.to(div, {
+  opacity: 1,
+  duration: 0.1,
+  ease: "power1.inOut"
+}, "-=0.1")
   .from(".from-left", {
     duration: 0.8,      // Duration of the animation (in seconds)
     x: "-120%",          // Start 100 pixels to the left
@@ -65,15 +65,15 @@ gsap.set(flyingObjects, { opacity: 0 });
     duration: 0.1,      // Fade-in duration
     ease: "power1.inOut"
   });
-  tl.add(() => {
-    gsap;
-    animateDot();
-    
-    
+tl.add(() => {
+  gsap;
+  animateDot();
 
-    // Run the separated animations after onComplete
-    runSeparatedAnimations();
-  });
+
+
+  // Run the separated animations after onComplete
+  runSeparatedAnimations();
+});
 
 
 
@@ -82,23 +82,23 @@ function runSeparatedAnimations() {
   const tl2 = gsap.timeline();
   tl2.to(drarLogo, {
     strokeDashoffset: 0,
-    opacity:1,
+    opacity: 1,
     duration: 6,
     ease: "power1.inOut"
   }, "-=0.1")
-  .fromTo(".roundeO", {
-    strokeDasharray: 500,   
-    strokeDashoffset: 500,
-    opacity:1,
+    .fromTo(".roundeO", {
+      strokeDasharray: 500,
+      strokeDashoffset: 500,
+      opacity: 1,
 
-  }, {
-    strokeDashoffset: 0,    
-    duration: 0.5,
-    ease: "power1.inOut"
-  }, "+=0.5")
+    }, {
+      strokeDashoffset: 0,
+      duration: 0.5,
+      ease: "power1.inOut"
+    }, "+=0.5")
     .to([drarLine1, drarLine2], {
       strokeDashoffset: 0,
-      opacity:1,
+      opacity: 1,
       duration: 1,
       ease: "power1.inOut"
     }).to(moveX, {
@@ -106,130 +106,130 @@ function runSeparatedAnimations() {
       duration: 0.5,
       ease: "power1.inOut"
     });
-    const paths = document.querySelectorAll('.neon'); // Select multiple paths by class
-    neonFlicker(paths);
+  const paths = document.querySelectorAll('.neon'); // Select multiple paths by class
+  neonFlicker(paths);
 }
 
 
 
- 
-
-        /* Testimonial Section */
-
-        function createContinuousMarquee(columnSelector, direction, speedMultiplier = 1) {
-          const column = document.querySelector(columnSelector);
-          const items = Array.from(column.children);
-
-          const clonedItems = items.map(item => item.cloneNode(true));
-          clonedItems.forEach(item => column.appendChild(item));
-
-          const itemHeight = items[0].offsetHeight;
-          const totalHeight = itemHeight * items.length;
-
-          column.style.height = `${totalHeight * 2}px`;
-
-          const marqueeAnimation = gsap.to(column, {
-            y: direction * totalHeight,
-            duration: (totalHeight / 50) * speedMultiplier,
-            ease: "none",
-            repeat: -1,
-            paused: false,
-            modifiers: {
-              y: gsap.utils.unitize((y) => {
-                const position = parseFloat(y) % totalHeight;
-                return direction === 1 ? position - totalHeight : position;
-              })
-            }
-          });
-
-          column.addEventListener("mouseenter", () => marqueeAnimation.pause());
-          column.addEventListener("mouseleave", () => marqueeAnimation.resume());
-        }
-
-        createContinuousMarquee(".column-1", -1, 0.7);
-        createContinuousMarquee(".column-2", 1, 1);
-        createContinuousMarquee(".column-3", -1, 0.7);
-
-        /* Testimonial Section Complete */
-
-        /* Counter Slider Section */
-
-        $(document).ready(function () {
-
-          var swiper = new Swiper(".counter-slider", {
-            scrollbar: '.swiper-scrollbar',
-            effect: 'coverflow',
-            direction: 'vertical',
-            loop: true,
-            slideToClickedSlide: true,
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            autoplay: true,
-            autoplaySpeed: 1000,
-            coverflowEffect: {
-              rotate: -5,
-              stretch: 294.5,
-              depth: 150,
-              modifier: 1.2,
-              slideShadows: false
-            },
-            freeMode: false,
-            freeModeSticky: true,
-          });
-
-        });
-
-        /* Counter Slider Section Complete */
 
 
-        /* Technologies Section Start */
+/* Testimonial Section */
 
-        function toggleClassesInfinite() {
-          const classNames = ['my_section_main', 'cutting-line-embed', 'cutting-tool-icon-wrap']; // Add all class names here
+function createContinuousMarquee(columnSelector, direction, speedMultiplier = 1) {
+  const column = document.querySelector(columnSelector);
+  const items = Array.from(column.children);
 
-          classNames.forEach(className => {
-            const elements = document.querySelectorAll(`.${className}`);
-            elements.forEach(element => {
-              // Every 5 seconds, add the 'animated' class
-              setInterval(() => {
-                element.classList.add('animated');
+  const clonedItems = items.map(item => item.cloneNode(true));
+  clonedItems.forEach(item => column.appendChild(item));
 
-                // After 1 second, remove the 'animated' class
-                setTimeout(() => {
-                  element.classList.remove('animated');
-                }, 2000); // Remove class after 1 second
-              }, 5000); // Add class every 5 seconds
-            });
-          });
-        }
+  const itemHeight = items[0].offsetHeight;
+  const totalHeight = itemHeight * items.length;
 
-        // Call the function
-        toggleClassesInfinite();
+  column.style.height = `${totalHeight * 2}px`;
 
-        /* Technologies Section End */
+  const marqueeAnimation = gsap.to(column, {
+    y: direction * totalHeight,
+    duration: (totalHeight / 50) * speedMultiplier,
+    ease: "none",
+    repeat: -1,
+    paused: false,
+    modifiers: {
+      y: gsap.utils.unitize((y) => {
+        const position = parseFloat(y) % totalHeight;
+        return direction === 1 ? position - totalHeight : position;
+      })
+    }
+  });
 
-        /* Footer Section Start */
+  column.addEventListener("mouseenter", () => marqueeAnimation.pause());
+  column.addEventListener("mouseleave", () => marqueeAnimation.resume());
+}
 
-        const anchors = document.querySelectorAll('.mapnav ul li a[href^="#"]');
-        const mapItems = document.querySelectorAll('.map-item');
+createContinuousMarquee(".column-1", -1, 0.7);
+createContinuousMarquee(".column-2", 1, 1);
+createContinuousMarquee(".column-3", -1, 0.7);
 
-        anchors.forEach(anchor => {
-          anchor.addEventListener('click', (event) => {
-            event.preventDefault();
-            const hrefValue = anchor.getAttribute('href').substring(1);
+/* Testimonial Section Complete */
 
-            mapItems.forEach(item => {
-              if (item.getAttribute('data-attr') === hrefValue) {
-                item.classList.add('active');
-              } else {
-                item.classList.remove('active');
-              }
-            });
-          });
-        });
+/* Counter Slider Section */
 
-        /* Footer Section End */
+$(document).ready(function () {
+
+  var swiper = new Swiper(".counter-slider", {
+    scrollbar: '.swiper-scrollbar',
+    effect: 'coverflow',
+    direction: 'vertical',
+    loop: true,
+    slideToClickedSlide: true,
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    autoplay: true,
+    autoplaySpeed: 1000,
+    coverflowEffect: {
+      rotate: -5,
+      stretch: 294.5,
+      depth: 150,
+      modifier: 1.2,
+      slideShadows: false
+    },
+    freeMode: false,
+    freeModeSticky: true,
+  });
+
+});
+
+/* Counter Slider Section Complete */
+
+
+/* Technologies Section Start */
+
+function toggleClassesInfinite() {
+  const classNames = ['my_section_main', 'cutting-line-embed', 'cutting-tool-icon-wrap']; // Add all class names here
+
+  classNames.forEach(className => {
+    const elements = document.querySelectorAll(`.${className}`);
+    elements.forEach(element => {
+      // Every 5 seconds, add the 'animated' class
+      setInterval(() => {
+        element.classList.add('animated');
+
+        // After 1 second, remove the 'animated' class
+        setTimeout(() => {
+          element.classList.remove('animated');
+        }, 2000); // Remove class after 1 second
+      }, 5000); // Add class every 5 seconds
+    });
+  });
+}
+
+// Call the function
+toggleClassesInfinite();
+
+/* Technologies Section End */
+
+/* Footer Section Start */
+
+const anchors = document.querySelectorAll('.mapnav ul li a[href^="#"]');
+const mapItems = document.querySelectorAll('.map-item');
+
+anchors.forEach(anchor => {
+  anchor.addEventListener('click', (event) => {
+    event.preventDefault();
+    const hrefValue = anchor.getAttribute('href').substring(1);
+
+    mapItems.forEach(item => {
+      if (item.getAttribute('data-attr') === hrefValue) {
+        item.classList.add('active');
+      } else {
+        item.classList.remove('active');
+      }
+    });
+  });
+});
+
+/* Footer Section End */
 function animateDot() {
   let progress = 0;
   let totalDuration = 0.1;
@@ -516,7 +516,7 @@ gsap.set("#x-path", { fill: "black" }); // Initial fill color
 // Master timeline for pinned animations
 const bannerTimeline = gsap.timeline({
   scrollTrigger: {
-    trigger: ".banner",
+    trigger: ".main-service-sec",
     start: "top top", // Pin starts when .banner reaches the top
     end: "+=300%",    // Extend scroll duration for all animations
     scrub: 1,
@@ -591,30 +591,64 @@ bannerTimeline
 
 
 
-        /* Industries Section Start */
-        const sliderItems = document.querySelectorAll('.slider-item');
+/* Industries Section Start */
 
-        // Calculate the width for 3.5 slider items
-        const visibleWidth = 100 / sliderItems.length * 1;
+const sliderItems = document.querySelectorAll('.slider-item');
 
-        // Set the initial position to show 3.5 slides
-        gsap.set(".slider", {
-          xPercent: 100 - visibleWidth, // Start position to show 3.5 slides
+const visibleWidth = 100 / sliderItems.length * 1;
+
+gsap.set(".slider", {
+  xPercent: 100 - visibleWidth,
+});
+
+gsap.to(".slider", {
+  xPercent: -(100 - visibleWidth),
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".industries-section",
+    pin: true,
+    start: "top top",
+    scrub: 2,
+    end: "+=" + (sliderItems.length * 50) + "vw",
+    onUpdate: (self) => {
+    },
+  },
+});
+
+/* Industries Section Start */
+
+
+/* SVG Draw JS Start */
+
+gsap.registerPlugin(ScrollTrigger);
+
+  // Select all sections with the class "inner-service-sec"
+  const sections = document.querySelectorAll(".inner-service-sec");
+
+  sections.forEach((section) => {
+    const paths = section.querySelectorAll(".svg-draw-sec svg path");
+
+    // ScrollTrigger to animate the paths only when the section enters the viewport
+    ScrollTrigger.create({
+      trigger: section,
+      start: "top 75%", // Animation starts when the section is 75% visible
+      onEnter: () => {
+        paths.forEach((path) => {
+          const length = path.getTotalLength();
+          gsap.set(path, {
+            strokeDasharray: length,
+            strokeDashoffset: length,
+          });
+
+          gsap.to(path, {
+            strokeDashoffset: 0,
+            duration: 8,
+            ease: "power1.inOut",
+            delay: 0.5,
+          });
         });
+      },
+    });
+  });
 
-        // GSAP animation for the slider
-        gsap.to(".slider", {
-          xPercent: -(100 - visibleWidth), // Move to show the remaining slides
-          ease: "none", // Smooth, linear scrolling
-          scrollTrigger: {
-            trigger: ".industries-section",
-            pin: true, // Pin the section
-            start: "top top", // Start pinning when the section hits the top
-            scrub: 2, // Smooth and gradual scrolling
-            end: "+=" + (sliderItems.length * 50) + "vw", // Lengthen scroll duration
-            onUpdate: (self) => {
-              // Debugging or additional transformations can go here
-            },
-          },
-        });
-        /* Industries Section Start */
+/* SVG Draw JS End */
