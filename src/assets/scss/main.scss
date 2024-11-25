@@ -716,16 +716,22 @@ header {
   position: relative;
   overflow: hidden;
 
-  .inner-shap-1 {
-    position: absolute;
-    left: -40%;
-    top: -10%;
-  }
-  
-  .inner-shap-2 {
-    position: absolute;
-    right: -40%;
-    bottom: -10%;
+  .inner-service-shap {
+    // position: relative;
+
+    .inner-shap-1 {
+      position: absolute;
+      left: -40%;
+      top: -10%;
+      bottom: auto;
+    }
+
+    .inner-shap-2 {
+      position: absolute;
+      right: -80%;
+      bottom: 0;
+      top: 0;
+    }
   }
 
   .inner-service-sec {
@@ -735,6 +741,7 @@ header {
     overflow: hidden;
     position: relative;
     z-index: 9;
+    transition: transform 1s ease-out;
 
     &.reverse {
       .row {
@@ -745,6 +752,12 @@ header {
         left: 0;
         right: auto;
       }
+    }
+
+    .sticky {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
 
     .content-col {
@@ -1999,3 +2012,9 @@ svg:not(:root) {
 }
 
 /* footer css end */
+
+/* Typing Effect CSS Start */
+
+
+
+/* Typing Effect CSS End */

@@ -75,6 +75,12 @@ tl.add(() => {
   runSeparatedAnimations();
 });
 
+/* Title Animation JS Start */
+
+
+
+/* Title Animation JS End */
+
 
 
 // Define a new function for the separated animations
@@ -622,33 +628,90 @@ gsap.to(".slider", {
 
 gsap.registerPlugin(ScrollTrigger);
 
-  // Select all sections with the class "inner-service-sec"
-  const sections = document.querySelectorAll(".inner-service-sec");
+// Select all sections with the class "inner-service-sec"
+const sections = document.querySelectorAll(".inner-service-sec");
 
-  sections.forEach((section) => {
-    const paths = section.querySelectorAll(".svg-draw-sec svg path");
+sections.forEach((section) => {
+  const paths = section.querySelectorAll(".svg-draw-sec svg path");
 
-    // ScrollTrigger to animate the paths only when the section enters the viewport
-    ScrollTrigger.create({
-      trigger: section,
-      start: "top 75%", // Animation starts when the section is 75% visible
-      onEnter: () => {
-        paths.forEach((path) => {
-          const length = path.getTotalLength();
-          gsap.set(path, {
-            strokeDasharray: length,
-            strokeDashoffset: length,
-          });
+  // ScrollTrigger to animate the paths only when the section enters the viewport
+  ScrollTrigger.create({
+    trigger: section,
+    start: "top 75%", // Animation starts when the section is 75% visible
+    onEnter: () => {
+      paths.forEach((path) => {
+        const length = path.getTotalLength();
+        gsap.set(path, {
+          strokeDasharray: length,
+          strokeDashoffset: length,
+        });
 
-          gsap.to(path, {
-            strokeDashoffset: 0,
-            duration: 8,
-            ease: "power1.inOut",
-            delay: 0.5,
-          });
+        gsap.to(path, {
+          strokeDashoffset: 0,
+          duration: 3,
+          ease: "power1.inOut",
+          delay: 0.5,
+        });
+      });
+    },
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const serviceSections = document.querySelectorAll(".inner-service-list .inner-service-sec");
+
+  if (serviceSections.length > 0) {
+    let activeSection = null;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            if (activeSection && activeSection !== entry.target) {
+              activeSection.classList.remove("sticky");
+            }
+
+            activeSection = entry.target;
+            activeSection.scrollIntoView({ behavior: "smooth", block: "start" });
+            activeSection.classList.add("sticky");
+          }
         });
       },
-    });
-  });
+      {
+        root: null, 
+        threshold: 0.1,
+      }
+    );
+
+    serviceSections.forEach((section) => observer.observe(section));
+  }
+});
 
 /* SVG Draw JS End */
+
+/* Typing Animation JS Start */
+
+// function typeEffect(element, text, speed) {
+//   let index = 0;
+
+//   function type() {
+//       if (index < text.length) {
+//           element.textContent += text.charAt(index);
+//           index++;
+//           setTimeout(type, speed);
+//       }
+//   }
+
+//   type();
+// }
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const animatedTitle = document.querySelector(".animated-title");
+//   const text = animatedTitle.textContent; 
+//   animatedTitle.textContent = ""; 
+//   typeEffect(animatedTitle, text, 10);
+// });
+
+
+/* Typing Animation JS End */

@@ -664,15 +664,17 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   position: relative;
   overflow: hidden;
 }
-.inner-service-wrapper .inner-shap-1 {
+.inner-service-wrapper .inner-service-shap .inner-shap-1 {
   position: absolute;
   left: -40%;
   top: -10%;
+  bottom: auto;
 }
-.inner-service-wrapper .inner-shap-2 {
+.inner-service-wrapper .inner-service-shap .inner-shap-2 {
   position: absolute;
-  right: -40%;
-  bottom: -10%;
+  right: -80%;
+  bottom: 0;
+  top: 0;
 }
 .inner-service-wrapper .inner-service-sec {
   height: 100vh;
@@ -681,6 +683,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   overflow: hidden;
   position: relative;
   z-index: 9;
+  transition: transform 1s ease-out;
 }
 .inner-service-wrapper .inner-service-sec.reverse .row {
   flex-direction: row-reverse;
@@ -688,6 +691,12 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 .inner-service-wrapper .inner-service-sec.reverse .svg-draw-sec {
   left: 0;
   right: auto;
+}
+.inner-service-wrapper .inner-service-sec .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .inner-service-wrapper .inner-service-sec .content-col .heading-main-sec h3 {
   text-align: left;
@@ -1749,4 +1758,6 @@ svg:not(:root) {
 }
 
 /* footer css end */
+/* Typing Effect CSS Start */
+/* Typing Effect CSS End */
 /*# sourceMappingURL=main.css.map */
