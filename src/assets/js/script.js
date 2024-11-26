@@ -679,7 +679,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       },
       {
-        root: null, 
+        root: null,
         threshold: 0.1,
       }
     );
@@ -691,6 +691,25 @@ document.addEventListener("DOMContentLoaded", function () {
 /* SVG Draw JS End */
 
 /* Typing Animation JS Start */
+var textWrappers = document.querySelectorAll('.letters');
+
+textWrappers.forEach((textWrapper) => {
+  // Spans create karo
+  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+  // Anime timeline banavo for each letters div
+  anime.timeline({ loop: false })
+    .add({
+      targets: textWrapper.querySelectorAll('.letter'), // Only spans inside the current .letters
+      opacity: [0, 1],
+      translateX: [40, 0],
+      translateZ: 0,
+      scaleX: [0.3, 1],
+      easing: "easeOutExpo",
+      duration: 800,
+      delay: (el, i) => 950 + 25 * i // Each letter's delay
+    });
+});
 
 
 

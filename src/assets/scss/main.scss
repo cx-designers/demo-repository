@@ -2015,17 +2015,6 @@ svg:not(:root) {
 
 /* Typing Effect CSS Start */
 
-.animated-title {
-  >div {
-    background: linear-gradient(to right,
-        $primaryColor 50%,
-        $white 50%);
-    background-size: 200% 100%;
-    background-position-x: 100%;
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-  }
-}
+
 
 /* Typing Effect CSS End */
