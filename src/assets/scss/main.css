@@ -205,14 +205,14 @@ h1 span.from-right {
   }
   25% {
     left: 0;
-    bottom: 50%;
+    bottom: 70%;
   }
   50% {
-    left: 85%;
-    bottom: 50%;
+    left: 65%;
+    bottom: 70%;
   }
   75% {
-    left: 85%;
+    left: 65%;
     bottom: 0%;
   }
 }
@@ -224,14 +224,14 @@ h1 span.from-right {
   }
   25% {
     left: 0;
-    bottom: 50%;
+    bottom: 70%;
   }
   50% {
-    left: 85%;
-    bottom: 50%;
+    left: 65%;
+    bottom: 70%;
   }
   75% {
-    left: 85%;
+    left: 65%;
     bottom: 0%;
   }
 }
@@ -319,6 +319,7 @@ h1 span.from-right {
   width: 100%;
   overflow: hidden !important;
   position: absolute;
+  min-height: 960px;
 }
 .loaderWrapper .drawLogowrapper {
   margin-top: auto;
@@ -422,6 +423,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  min-height: 960px;
 }
 .hero-wrapper p {
   color: #fff;
@@ -495,7 +497,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   align-items: center;
 }
 .about-sec .container .row .col-md-4 {
-  width: 32%;
+  width: 40%;
   max-width: 450px;
 }
 .about-sec .container .row .col-md-4 p.sec-small-title {
@@ -508,7 +510,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   text-shadow: 5px 0px 15px rgba(242, 110, 101, 0.7);
 }
 .about-sec .container .row .col-md-4.left-col {
-  max-width: 440px;
+  max-width: 580px;
   margin-right: 55px;
 }
 .about-sec .container .row .col-md-4.left-col h2 {
@@ -1759,5 +1761,14 @@ svg:not(:root) {
 
 /* footer css end */
 /* Typing Effect CSS Start */
+.animated-title > div {
+  background: linear-gradient(to right, #000000 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 /* Typing Effect CSS End */
 /*# sourceMappingURL=main.css.map */

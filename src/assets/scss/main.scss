@@ -234,16 +234,16 @@ h1 {
 
   25% {
     left: 0;
-    bottom: 50%;
+    bottom: 70%;
   }
 
   50% {
-    left: 85%;
-    bottom: 50%;
+    left: 65%;
+    bottom: 70%;
   }
 
   75% {
-    left: 85%;
+    left: 65%;
     bottom: 0%;
   }
 }
@@ -322,6 +322,7 @@ h1 {
   width: 100%;
   overflow: hidden !important;
   position: absolute;
+  min-height: 960px;
 
   .drawLogowrapper {
     margin-top: auto;
@@ -437,6 +438,7 @@ header {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  min-height: 960px;
 
   p {
     color: $white;
@@ -521,7 +523,7 @@ header {
       align-items: center;
 
       .col-md-4 {
-        width: 32%;
+        width: 40%;
         max-width: 450px;
 
         p.sec-small-title {
@@ -535,7 +537,7 @@ header {
         }
 
         &.left-col {
-          max-width: 440px;
+          max-width: 580px;
           margin-right: 55px;
 
           h2 {
@@ -2015,6 +2017,17 @@ svg:not(:root) {
 
 /* Typing Effect CSS Start */
 
-
+.animated-title {
+  >div {
+    background: linear-gradient(to right,
+        $primaryColor 50%,
+        $white 50%);
+    background-size: 200% 100%;
+    background-position-x: 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+}
 
 /* Typing Effect CSS End */

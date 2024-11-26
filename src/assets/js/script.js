@@ -692,26 +692,41 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* Typing Animation JS Start */
 
-// function typeEffect(element, text, speed) {
-//   let index = 0;
+gsap.config({ trialWarn: false });
+console.clear();
 
-//   function type() {
-//       if (index < text.length) {
-//           element.textContent += text.charAt(index);
-//           index++;
-//           setTimeout(type, speed);
-//       }
-//   }
+function animateElements(target) {
+  gsap.to(target, {
+    backgroundPositionX: 0, // Animate background position
+    ease: "none", // No easing for a smooth effect
+    duration: 1, // Animation duration
+  });
+}
 
-//   type();
-// }
+// Intersection Observer Setup
+const observerOptions = {
+  root: null, // Observe within the viewport
+  threshold: 0.1, // Trigger when 10% of the element is visible
+};
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const animatedTitle = document.querySelector(".animated-title");
-//   const text = animatedTitle.textContent; 
-//   animatedTitle.textContent = ""; 
-//   typeEffect(animatedTitle, text, 10);
-// });
+const observerCallback = (entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const target = entry.target;
+      animateElements(target); // Trigger animation
+      observer.unobserve(target); // Stop observing after animation
+    }
+  });
+};
+
+const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+// Select all h3, h4, h5, h6, p tags
+const elementsToAnimate = document.querySelectorAll("h3, h4, h5, h6, p");
+
+// Apply observer to each element
+elementsToAnimate.forEach((element) => observer.observe(element));
+
 
 
 /* Typing Animation JS End */
