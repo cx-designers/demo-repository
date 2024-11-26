@@ -692,41 +692,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* Typing Animation JS Start */
 
-gsap.config({ trialWarn: false });
-console.clear();
-
-function animateElements(target) {
-  gsap.to(target, {
-    backgroundPositionX: 0, // Animate background position
-    ease: "none", // No easing for a smooth effect
-    duration: 1, // Animation duration
-  });
-}
-
-// Intersection Observer Setup
-const observerOptions = {
-  root: null, // Observe within the viewport
-  threshold: 0.1, // Trigger when 10% of the element is visible
-};
-
-const observerCallback = (entries, observer) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      const target = entry.target;
-      animateElements(target); // Trigger animation
-      observer.unobserve(target); // Stop observing after animation
-    }
-  });
-};
-
-const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-// Select all h3, h4, h5, h6, p tags
-const elementsToAnimate = document.querySelectorAll("h3, h4, h5, h6, p");
-
-// Apply observer to each element
-elementsToAnimate.forEach((element) => observer.observe(element));
-
 
 
 /* Typing Animation JS End */

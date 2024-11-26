@@ -319,7 +319,6 @@ h1 span.from-right {
   width: 100%;
   overflow: hidden !important;
   position: absolute;
-  min-height: 960px;
 }
 .loaderWrapper .drawLogowrapper {
   margin-top: auto;
@@ -423,7 +422,6 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  min-height: 960px;
 }
 .hero-wrapper p {
   color: #fff;
