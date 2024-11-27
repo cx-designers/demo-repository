@@ -307,10 +307,6 @@ h1 span.from-right {
   color: #fff;
   line-height: 70px;
 }
-.heading-main-sec h4 span {
-  display: block;
-}
-
 /* Title Section CSS End */
 /* Site loader styling */
 .loaderWrapper {
@@ -511,13 +507,17 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   max-width: 580px;
   margin-right: 55px;
 }
-.about-sec .container .row .col-md-4.left-col h2 {
+.about-sec .container .row .col-md-4.left-col h3 {
+  text-align: left;
+}
+.about-sec .container .row .col-md-4.left-col h4 {
   font-size: 60px;
   line-height: 70px;
   margin-top: 20px;
   color: #000000;
   font-weight: 400;
   margin-bottom: 80px;
+  text-align: left;
 }
 .about-sec .container .row .col-md-4.left-col .img-wrapper {
   position: relative;
@@ -707,6 +707,8 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   text-align: left;
   color: #fff;
   margin: 0 0 30px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 .inner-service-wrapper .inner-service-sec .content-col .heading-main-sec p {
   font-size: 18px;
@@ -772,13 +774,13 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 }
 .line-animation .line-one {
   position: absolute;
-  top: 60px;
+  top: -100%;
   left: 0px;
 }
 .line-animation .line-two {
   position: absolute;
-  top: 60px;
-  left: 16px;
+  top: 20px;
+  left: 8px;
 }
 .line-animation .line-three {
   position: absolute;
@@ -792,11 +794,16 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   top: 0;
   overflow: hidden;
   right: 60px;
+  width: 54px;
+}
+.line-animation-right .line-one {
+  top: -100%;
+  position: absolute;
 }
 .line-animation-right .line-two {
   position: absolute;
-  top: 60px;
-  left: 20px;
+  top: 0px;
+  left: 8px;
 }
 .line-animation-right .line-three {
   position: absolute;
@@ -805,11 +812,361 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 }
 
 /* Line Animation CSS End */
+/* Blog Post Section CSS Start */
+.blog-post-sec {
+  position: relative;
+  padding: 150px 0;
+}
+.blog-post-sec .heading-main-sec h4 {
+  font-size: 80px;
+  line-height: 90px;
+}
+.blog-post-sec .swiper {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  position: relative;
+}
+.blog-post-sec .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.5s ease;
+  opacity: 0.2;
+}
+.blog-post-sec .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.blog-post-sec .swiper-slide .bottom-text {
+  padding: 30px 90px 60px 30px;
+  background-color: #000000;
+  margin-top: -10px;
+  border-radius: 0 0 10px 10px !important;
+}
+.blog-post-sec .swiper-slide .blog-post-slide {
+  position: relative;
+  z-index: 2;
+  background-color: #000000;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 1px;
+  border-radius: 10px;
+}
+.blog-post-sec .swiper-slide:hover .blog-post-slide::before {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  left: 0 !important;
+  bottom: 0 !important;
+  transition: all 1s ease;
+  width: 200%;
+  height: 200%;
+  bottom: -50% !important;
+  left: auto !important;
+  right: -50% !important;
+}
+.blog-post-sec .swiper-slide span.btn-text {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+}
+.blog-post-sec .swiper-button-prev::after {
+  content: "";
+  background-image: url(../img/post-right-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+  transform: rotate(180deg) translate(0px, 0px);
+  font-size: 0;
+}
+.blog-post-sec .swiper-button-prev:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  filter: blur(5px);
+  border-radius: 50%;
+  -webkit-animation: orbitstock 3s infinite linear;
+          animation: orbitstock 3s infinite linear;
+  transform-origin: bottom left;
+  left: 0;
+  bottom: 0;
+  transition: all 1s ease;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.blog-post-sec .swiper-button-next::after {
+  content: "";
+  background-image: url(../img/post-left-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 18px;
+  height: 14px;
+  transform: rotate(180deg);
+  left: 0;
+  position: absolute;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  font-size: 0;
+}
+
+.bottom-text p {
+  color: #F26E65;
+  text-transform: capitalize;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+}
+.bottom-text h3 {
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.swiper-slide.swiper-slide-active {
+  transform: translateY(-50px);
+}
+
+.blog-post-sec .swiper-slide.swiper-slide-prev,
+.blog-post-sec .swiper-slide.swiper-slide-active,
+.blog-post-sec .swiper-slide.swiper-slide-next {
+  opacity: 1;
+}
+
+.blog-post-sec .swiper-button-prev,
+.blog-post-sec .swiper-button-next {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: none;
+}
+
+.swiper-button-prev-main {
+  bottom: 75px;
+  top: auto;
+  right: 213px;
+  left: auto;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.swiper-button-prev-main .glow {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  filter: blur(10px);
+  border-radius: 50%;
+  background: unset;
+  -webkit-animation: orbitGlow 3s infinite linear;
+          animation: orbitGlow 3s infinite linear;
+  transform-origin: bottom left;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  transition: background 1s ease;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.swiper-button-prev-main:hover::before {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.swiper-button-prev-main:hover span.glow {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(242, 110, 101, 0.58), rgba(242, 110, 101, 0.58) 100%);
+}
+.swiper-button-prev-main span.btn-text {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  background: rgb(0, 0, 0);
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  z-index: 1;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+}
+
+.swiper-button-next-main {
+  bottom: 75px;
+  top: auto;
+  right: 120px;
+  left: auto;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.swiper-button-next-main .glow {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  filter: blur(10px);
+  border-radius: 50%;
+  background: unset;
+  -webkit-animation: orbitGlow 3s infinite linear;
+          animation: orbitGlow 3s infinite linear;
+  transform-origin: bottom left;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  transition: background 1s ease;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.swiper-button-next-main .swiper-button-next:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  filter: blur(5px);
+  border-radius: 50%;
+  -webkit-animation: orbitstock 3s infinite linear;
+          animation: orbitstock 3s infinite linear;
+  transform-origin: bottom left;
+  left: 0;
+  bottom: 0;
+  transition: all 1s ease;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.swiper-button-next-main:hover span.glow {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(242, 110, 101, 0.58), rgba(242, 110, 101, 0.58) 100%);
+}
+.swiper-button-next-main span.btn-text {
+  position: absolute;
+  top: 5px;
+  left: -9px;
+  background: rgb(0, 0, 0);
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  z-index: 1;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+}
+
+div#lottie-animation {
+  height: 30px;
+  width: 30px;
+}
+
+.blog-post-sec .swiper-slide .blog-post-slide:before {
+  content: "";
+  position: absolute;
+  width: 242px;
+  height: 150px;
+  filter: blur(5px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(242, 110, 101, 0.58), rgba(242, 110, 101, 0.58) 100%);
+  transform-origin: bottom left;
+  left: auto;
+  right: -47px;
+  bottom: -34px;
+  transition: all 1s ease;
+  z-index: -1;
+}
+
+.blog-swiper-bottom-arrow {
+  border: 1px solid #F26E65;
+  z-index: 999;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  right: 30px;
+  bottom: -20px;
+  background-color: #000000;
+}
+.blog-swiper-bottom-arrow img {
+  width: 21px !important;
+  height: 21px !important;
+}
+
+.autoplay-progress-bar {
+  position: relative;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  margin-top: 10px;
+  max-width: 1241px;
+  margin: 0 auto;
+  margin-top: 116px;
+}
+.autoplay-progress-bar .progress {
+  height: 100%;
+  width: 100%;
+  transition: width 0.3s linear;
+  background: rgb(242, 110, 101);
+  background: linear-gradient(260deg, rgb(242, 110, 101) 0%, rgba(242, 110, 101, 0) 100%);
+}
+
+.blog-post-slide .blog-img {
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+/* Blog Post Section CSS End */
 /* Testimonial Section CSS Start */
 .testimonial-main-sec {
   margin: 0px;
   padding: 150px 0;
   background: #000;
+}
+.testimonial-main-sec .heading-main-sec h4 {
+  max-width: 900px;
+  margin: 0 auto;
 }
 .testimonial-main-sec .container {
   margin-left: auto;
@@ -1012,7 +1369,6 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   color: #fff;
   font-weight: 400;
   margin: 0;
-  opacity: 0.7;
 }
 .team-main-sec .team-intro .team-col-inner .member-details .icon-sec {
   display: flex;
@@ -1160,9 +1516,10 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   font-size: 150px;
   line-height: 150px;
   text-align: left;
+  max-width: 1170px;
 }
-.industries-section .heading-main-sec h4 span {
-  padding-left: 18%;
+.industries-section .heading-main-sec h4 span.word:nth-child(2) {
+  padding-left: 21%;
 }
 .industries-section .product-slider {
   margin-top: -60px;
@@ -1226,6 +1583,8 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 }
 .section_integration .heading-main-sec h4 {
   color: #000000;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .section_integration .animated-img-sec {
   display: flex;
@@ -1305,7 +1664,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 .cutting-tool-icon-wrap {
   z-index: 3;
   background-color: #fff;
-  /* background-image: radial-gradient(circle,#F26E65 51%,#fff0 85.23%); */
+  /* background-image: radial-gradient(circle,#F26E65 51%,$white0 85.23%); */
   border-radius: 50%;
   width: 3.5em;
   height: 3.5em;
@@ -1587,6 +1946,7 @@ svg:not(:root) {
 .cust-footer-sec {
   padding: 100px 0 60px 0px;
   overflow-x: hidden;
+  z-index: 9;
 }
 .cust-footer-sec .black-logo {
   filter: invert(1);
@@ -1636,6 +1996,7 @@ svg:not(:root) {
 }
 .cust-footer-sec .map-wrapper-address {
   position: relative;
+  padding-right: 150px;
 }
 .cust-footer-sec .map-wrapper-address .topmap-nav .mapnav {
   position: absolute;
@@ -1759,5 +2120,39 @@ svg:not(:root) {
 
 /* footer css end */
 /* Typing Effect CSS Start */
+/* Default opacity only for p and a following h3, h4, h5, h6 */
+h3,
+h4,
+h5,
+h6,
+h3 + p,
+h3 + a,
+h4 + p,
+h4 + a,
+h5 + p,
+h5 + a,
+h6 + p,
+h6 + a,
+h3 + p,
+h3 + p + a,
+h4 + p,
+h4 + p + a,
+h5 + p,
+h5 + p + a,
+h6 + p,
+h6 + p + a,
+h3 + p,
+h3 + p + p,
+h4 + p,
+h4 + p + p,
+h5 + p,
+h5 + p + p,
+h6 + p,
+h6 + p + p {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  /* Smooth fade effect */
+}
+
 /* Typing Effect CSS End */
 /*# sourceMappingURL=main.css.map */

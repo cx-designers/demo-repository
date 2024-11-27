@@ -341,23 +341,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Animation for the first SVG to move down faster
   gsap.to(".line-one", {
-    y: 160, // Move down faster
+    y: 800, // Move down faster
     scrollTrigger: {
       trigger: ".site_wrapper",
-      start: "top 100%", // Start when the section enters the viewport (below the fold initially)
+      start: "top top", // Start when the section enters the viewport (below the fold initially)
       end: "bottom top", // End when the bottom of the container hits the top of the viewport
-      scrub: true, // Smooth animation tied to scroll
+      scrub: 0.1, // Smooth animation tied to scroll
     }
   });
 
   // Animation for the second SVG to move down slower
   gsap.to(".line-two", {
-    y: 140, // Move down slower
+    y: -800, // Move down slower
     scrollTrigger: {
       trigger: ".site_wrapper",
-      start: "top 100%",
+      start: "top top",
       end: "bottom top",
-      scrub: true,
+      scrub: 0.1,
     }
   });
 
@@ -688,29 +688,99 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+
 /* SVG Draw JS End */
 
 /* Typing Animation JS Start */
-var textWrappers = document.querySelectorAll('.letters');
+
+var textWrappers = document.querySelectorAll('h3, h4, h5, h6');
 
 textWrappers.forEach((textWrapper) => {
-  // Spans create karo
-  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-  // Anime timeline banavo for each letters div
-  anime.timeline({ loop: false })
-    .add({
-      targets: textWrapper.querySelectorAll('.letter'), // Only spans inside the current .letters
-      opacity: [0, 1],
-      translateX: [40, 0],
-      translateZ: 0,
-      scaleX: [0.3, 1],
-      easing: "easeOutExpo",
-      duration: 800,
-      delay: (el, i) => 950 + 25 * i // Each letter's delay
-    });
+  textWrapper.innerHTML = textWrapper.textContent
+    .split(/\s+/)
+    .map(word => {
+      let letters = word.split('').map(letter => `<span class='letter'>${letter}</span>`).join('');
+      return `<span class='word'>${letters}</span>`;
+    })
+    .join(' ');
 });
 
+var observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = 1;
+
+      anime.timeline({ loop: false })
+        .add({
+          targets: entry.target.querySelectorAll('.word .letter'),
+          opacity: [0, 1],
+          translateX: [40, 0],
+          translateZ: 0,
+          scaleX: [0.3, 1],
+          easing: "easeOutExpo",
+          duration: 800,
+          delay: (el, i) => 950 + 25 * i
+        })
+        .add({
+          targets: entry.target.nextElementSiblings('p, a'),
+          opacity: [0, 1],
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: (el, i) => 300 * i
+        });
+
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+Element.prototype.nextElementSiblings = function (selector) {
+  let siblings = [];
+  let nextSibling = this.nextElementSibling;
+  while (nextSibling) {
+    if (nextSibling.matches(selector)) {
+      siblings.push(nextSibling);
+    } else if (nextSibling.matches('h3, h4, h5, h6')) {
+      break;
+    }
+    nextSibling = nextSibling.nextElementSibling;
+  }
+  return siblings;
+};
+
+textWrappers.forEach(textWrapper => observer.observe(textWrapper));
 
 
 /* Typing Animation JS End */
+
+/* Blog Post JS Start */
+
+const progressBar = document.querySelector(".blog-post-sec .autoplay-progress-bar .progress");
+
+var swiper = new Swiper(".myblog-post", {
+  slidesPerView: 4,
+  spaceBetween: 50,
+  centeredSlides: true,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  on: {
+    autoplayTimeLeft(s, time, progress) {
+      if (progressBar) {
+        progressBar.style.width = `${(1 - progress) * 100}%`;
+      }
+    },
+  },
+});
+
+/* Blog Post JS Start */
