@@ -521,8 +521,6 @@ header {
       align-items: center;
 
       .col-md-4 {
-        width: 40%;
-        max-width: 450px;
 
         p.sec-small-title {
           font-size: 16px;
@@ -535,8 +533,6 @@ header {
         }
 
         &.left-col {
-          max-width: 580px;
-          margin-right: 55px;
 
           h3 {
             text-align: left;
@@ -573,15 +569,15 @@ header {
         &.right-col {
           margin-right: 0;
           margin-left: auto;
-          max-width: 325px;
 
           .img-wrapper {
             position: relative;
-            border-radius: 162px;
-            width: 325px;
-            height: 490px;
+            border-radius: 222px;
+            width: 380px;
+            height: 540px;
             overflow: hidden;
-            transition: opacity 0.5s ease;
+            transition: opacity .5s ease;
+            margin-left: auto;
 
             img {
               position: absolute;
@@ -645,6 +641,27 @@ header {
     color: $white;
     z-index: 2;
     transform-origin: center;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .svg-move-across {
+    .first-svg {
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .second-svg {
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 
   .content-inside-x {
@@ -700,6 +717,9 @@ header {
       font-size: 80px;
       color: $primaryColor;
       line-height: 1.3;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     p {
@@ -722,13 +742,22 @@ header {
   overflow: hidden;
 
   .inner-service-shap {
-    // position: relative;
+    position: relative;
+    // position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+
+    &.fixed {
+      position: fixed;
+    }
 
     .inner-shap-1 {
       position: absolute;
-      left: -40%;
-      top: -10%;
+      left: -45%;
+      top: -65%;
       bottom: auto;
+      transition: transform 1s ease-in-out;
     }
 
     .inner-shap-2 {
@@ -736,6 +765,7 @@ header {
       right: -80%;
       bottom: 0;
       top: 0;
+      transition: transform 1s ease-in-out;
     }
   }
 
@@ -756,6 +786,13 @@ header {
       .svg-draw-sec {
         left: 0;
         right: auto;
+        top: 0;
+        bottom: 0;
+
+        svg {
+          width: 100%;
+          height: 100%;
+        }
       }
     }
 
@@ -916,6 +953,7 @@ header {
 .blog-post-sec {
   position: relative;
   padding: 150px 0;
+  overflow: hidden;
 
   .heading-main-sec {
     h4 {
@@ -1743,15 +1781,21 @@ div#lottie-animation {
   height: 150vh;
   z-index: 9;
 
-  &:before {
+  .industries-shap {
     position: absolute;
-    content: "";
-    width: 100%;
-    height: 325px;
-    background-image: url(../img/industries-bg-shap.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    top: 0;
+    top: -30%;
+    left: 0;
+    right: 0;
+
+    .image-sec {
+      img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
   }
 
   .heading-main-sec {
@@ -1864,6 +1908,10 @@ div#lottie-animation {
     margin: 0 auto;
     left: 0;
     right: 0;
+
+    img {
+      position: relative;
+    }
   }
 }
 
@@ -2360,6 +2408,7 @@ svg:not(:root) {
           font-weight: 600;
           font-size: 16px;
           text-shadow: 0 5px 15px rgba(242, 110, 101, .7);
+          opacity: 1 !important;
         }
 
         address {

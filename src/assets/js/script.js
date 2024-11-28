@@ -213,6 +213,8 @@ function toggleClassesInfinite() {
 // Call the function
 toggleClassesInfinite();
 
+
+
 /* Technologies Section End */
 
 /* Footer Section Start */
@@ -628,17 +630,14 @@ gsap.to(".slider", {
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Select all sections with the class "inner-service-sec"
 const sections = document.querySelectorAll(".inner-service-sec");
 
 sections.forEach((section) => {
   const paths = section.querySelectorAll(".svg-draw-sec svg path");
 
-  // ScrollTrigger to animate the paths only when the section enters the viewport
   ScrollTrigger.create({
     trigger: section,
-    start: "top 75%", // Animation starts when the section is 75% visible
-    onEnter: () => {
+    start: "top 75%",    onEnter: () => {
       paths.forEach((path) => {
         const length = path.getTotalLength();
         gsap.set(path, {
@@ -719,7 +718,7 @@ var observer = new IntersectionObserver((entries, observer) => {
           scaleX: [0.3, 1],
           easing: "easeOutExpo",
           duration: 800,
-          delay: (el, i) => 950 + 25 * i
+          delay: (el, i) => 550 + 25 * i
         })
         .add({
           targets: entry.target.nextElementSiblings('p, a'),
@@ -784,3 +783,84 @@ var swiper = new Swiper(".myblog-post", {
 });
 
 /* Blog Post JS Start */
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.fromTo(
+  ".section_integration .animated-img-sec img",
+  { scale: 0 }, 
+  {
+    scale: 1, 
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".section_integration",
+      start: "top 10%",
+      end: "bottom 25%",
+      toggleActions: "play reverse play reverse",
+    },
+  }
+);
+
+/* Service SEction Shap Animation Start */
+
+gsap.to(".inner-shap-1", {
+  rotation: 360,
+  x: "100vw",
+  y: "100vh",             
+  repeat: -1,             
+  yoyo: true,             
+  paused: true,           
+  scrollTrigger: {
+    trigger: ".inner-service-wrapper",
+    start: "top bottom",  
+    end: "bottom top",    
+    scrub: true,          
+    toggleActions: "play none none reverse",  
+  }
+});
+
+gsap.to(".inner-shap-2", {
+  rotation: -360,         
+  x: "-100vw",            
+  y: "-100vh",            
+  repeat: -1,             
+  yoyo: true,             
+  paused: true,           
+  scrollTrigger: {
+    trigger: ".inner-service-wrapper",  
+    start: "top bottom",  
+    end: "bottom top",    
+    scrub: true,          
+    toggleActions: "play none none reverse",  
+  }
+});
+
+
+// Select the elements
+const serviceWrapper = document.querySelector('.inner-service-wrapper');
+const serviceShap = document.querySelector('.inner-service-shap');
+
+// Create an IntersectionObserver to detect when the .inner-service-wrapper enters or leaves the viewport
+const observerService = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    // Check if the .inner-service-wrapper is in the viewport
+    if (entry.isIntersecting) {
+      // Add the 'fixed' class to .inner-service-shap when the .inner-service-wrapper enters the viewport
+      serviceShap.classList.add('fixed');
+    } else {
+      // Remove the 'fixed' class from .inner-service-shap when the .inner-service-wrapper leaves the viewport
+      serviceShap.classList.remove('fixed');
+    }
+  });
+}, {
+  threshold: 0.1 // Adjust this threshold based on when you want the class to be added/removed
+});
+
+// Start observing the .inner-service-wrapper element
+observerService.observe(serviceWrapper);
+
+
+
+/* Service SEction Shap Animation End */
