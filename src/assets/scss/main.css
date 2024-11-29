@@ -591,9 +591,6 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   color: #fff;
   z-index: 2;
   transform-origin: center;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform-origin: center;
-  will-change: transform;
 }
 .main-service-sec .letter-x svg {
   width: 100vw;
