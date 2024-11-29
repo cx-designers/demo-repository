@@ -614,9 +614,9 @@ gsap.to(".slider", {
   ease: "none",
   scrollTrigger: {
     trigger: ".industries-section",
-    pin: true,
+    pin: true, 
     start: "top top",
-    scrub: 2,
+    scrub: 2, 
     end: "+=" + (sliderItems.length * 50) + "vw",
     onUpdate: (self) => {
     },
@@ -637,7 +637,7 @@ sections.forEach((section) => {
 
   ScrollTrigger.create({
     trigger: section,
-    start: "top 75%",    onEnter: () => {
+    start: "top 75%", onEnter: () => {
       paths.forEach((path) => {
         const length = path.getTotalLength();
         gsap.set(path, {
@@ -789,13 +789,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.fromTo(
   ".section_integration .animated-img-sec img",
-  { 
-    scale: 0, 
+  {
+    scale: 0,
     y: 1000,
-  }, 
-  { 
-    scale: 1, 
-    y: 0, 
+  },
+  {
+    scale: 1,
+    y: 0,
     rotation: 0,
     duration: 1,
     ease: "power2.out",
@@ -815,32 +815,32 @@ gsap.fromTo(
 gsap.to(".inner-shap-1", {
   rotation: 360,
   x: "100vw",
-  y: "100vh",             
-  repeat: -1,             
-  yoyo: true,             
-  paused: true,           
+  y: "100vh",
+  repeat: -1,
+  yoyo: true,
+  paused: true,
   scrollTrigger: {
     trigger: ".inner-service-wrapper",
-    start: "top bottom",  
-    end: "bottom top",    
-    scrub: true,          
-    toggleActions: "play none none reverse",  
+    start: "top bottom",
+    end: "bottom top",
+    scrub: true,
+    toggleActions: "play none none reverse",
   }
 });
 
 gsap.to(".inner-shap-2", {
-  rotation: -360,         
-  x: "-100vw",            
-  y: "-100vh",            
-  repeat: -1,             
-  yoyo: true,             
-  paused: true,           
+  rotation: -360,
+  x: "-100vw",
+  y: "-100vh",
+  repeat: -1,
+  yoyo: true,
+  paused: true,
   scrollTrigger: {
-    trigger: ".inner-service-wrapper",  
-    start: "top bottom",  
-    end: "bottom top",    
-    scrub: true,          
-    toggleActions: "play none none reverse",  
+    trigger: ".inner-service-wrapper",
+    start: "top bottom",
+    end: "bottom top",
+    scrub: true,
+    toggleActions: "play none none reverse",
   }
 });
 

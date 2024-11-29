@@ -641,6 +641,9 @@ header {
     color: $white;
     z-index: 2;
     transform-origin: center;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-origin: center;
+    will-change: transform;
 
     svg {
       width: 100vw;
