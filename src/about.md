@@ -1,5 +1,5 @@
 ---
-layout: layouts/homepage.njk
+layout: layouts/about.njk
 title: Website Design & Development Company - Cypherox Technologies
-bodyClass: "homepage"
+bodyClass: "about"
 ---
