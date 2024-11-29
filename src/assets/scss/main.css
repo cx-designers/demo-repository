@@ -714,7 +714,6 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 }
 .inner-service-wrapper .inner-service-sec.reverse .svg-draw-sec svg {
   width: 100%;
-  height: 100%;
 }
 .inner-service-wrapper .inner-service-sec .sticky {
   position: -webkit-sticky;
@@ -731,7 +730,6 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   text-align: left;
   color: #fff;
   margin: 0 0 30px 0;
-  display: flex;
   flex-wrap: wrap;
 }
 .inner-service-wrapper .inner-service-sec .content-col .heading-main-sec p {
@@ -767,6 +765,58 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 .inner-service-wrapper .inner-service-sec .svg-draw-sec.chatbot-development svg {
   margin: 0 auto;
   display: block;
+}
+.inner-service-wrapper .inner-service-sec.web-cloning .svg-draw-sec {
+  padding-left: 80px !important;
+}
+.inner-service-wrapper .inner-service-sec.web-cloning .svg-draw-sec svg {
+  width: 100%;
+  height: 100%;
+}
+.inner-service-wrapper .inner-service-sec.web-development .svg-draw-sec {
+  padding-right: 80px !important;
+}
+.inner-service-wrapper .inner-service-sec.web-development .svg-draw-sec svg {
+  width: 100%;
+  height: 100%;
+}
+.inner-service-wrapper .inner-service-sec.e-commerce .svg-draw-sec {
+  padding-left: 80px !important;
+}
+.inner-service-wrapper .inner-service-sec.e-commerce .svg-draw-sec svg {
+  width: 100%;
+  height: 100%;
+}
+.inner-service-wrapper .inner-service-sec.chatbot .svg-draw-sec {
+  padding-right: 80px !important;
+  display: flex;
+  align-items: flex-end;
+}
+.inner-service-wrapper .inner-service-sec.on-demand .svg-draw-sec {
+  padding-left: 80px !important;
+}
+.inner-service-wrapper .inner-service-sec.on-demand .svg-draw-sec svg {
+  width: 100%;
+}
+.inner-service-wrapper .inner-service-sec.search-engine .svg-draw-sec {
+  padding-right: 80px !important;
+}
+.inner-service-wrapper .inner-service-sec.search-engine .svg-draw-sec svg {
+  width: 100%;
+  height: 100%;
+}
+.inner-service-wrapper .inner-service-sec.digital-marketing .svg-draw-sec {
+  padding-left: 80px !important;
+}
+.inner-service-wrapper .inner-service-sec.digital-marketing .svg-draw-sec svg {
+  width: 100%;
+}
+.inner-service-wrapper .inner-service-sec.mobile-app .svg-draw-sec {
+  padding-right: 80px !important;
+}
+.inner-service-wrapper .inner-service-sec.mobile-app .svg-draw-sec svg {
+  width: 100%;
+  height: 100%;
 }
 
 /* Service Section CSS End */
@@ -968,6 +1018,11 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
+  opacity: 1 !important;
+}
+.bottom-text p .word .letter {
+  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+  opacity: 1 !important;
 }
 .bottom-text h3 {
   color: #ffffff;
@@ -977,6 +1032,11 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   font-size: 22px;
   font-weight: 400;
   line-height: 30px;
+  opacity: 1 !important;
+}
+.bottom-text h3 .word .letter {
+  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+  opacity: 1 !important;
 }
 
 .swiper-slide.swiper-slide-active {
@@ -1363,6 +1423,36 @@ div#lottie-animation {
   flex-direction: column;
   border: 1px solid #262626;
   border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: 1px;
+}
+.team-main-sec .team-intro .team-col-inner:before {
+  content: "";
+  position: absolute;
+  width: 72px;
+  height: 20px;
+  filter: blur(5px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(242, 110, 101, 0.58), rgba(242, 110, 101, 0.58) 100%);
+  transform-origin: bottom left;
+  left: auto;
+  right: -47px;
+  bottom: -34px;
+  transition: all 1s ease;
+  z-index: -1;
+}
+.team-main-sec .team-intro .team-col-inner:hover:before {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  left: 0 !important;
+  bottom: 0 !important;
+  transition: all 1s ease;
+  width: 200%;
+  height: 200%;
+  bottom: -50% !important;
+  left: auto !important;
+  right: -50% !important;
 }
 .team-main-sec .team-intro .team-col-inner .member-img {
   padding: 30px 30px 0 30px;
@@ -1370,6 +1460,8 @@ div#lottie-animation {
   background-image: url(../img/team-member-shap.png);
   overflow: hidden;
   background-size: 100%;
+  background-color: #000000;
+  border-radius: 20px;
 }
 .team-main-sec .team-intro .team-col-inner .member-img img {
   margin: 0 auto;
@@ -1380,6 +1472,10 @@ div#lottie-animation {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #000000;
+  border-radius: 0 0 20px 20px;
+  margin-top: -20px;
+  z-index: -1;
 }
 .team-main-sec .team-intro .team-col-inner .member-details .member-intro h3 {
   font-size: 26px;
@@ -1394,6 +1490,7 @@ div#lottie-animation {
   color: #fff;
   font-weight: 400;
   margin: 0;
+  opacity: 0.7;
 }
 .team-main-sec .team-intro .team-col-inner .member-details .icon-sec {
   display: flex;
@@ -1480,8 +1577,13 @@ div#lottie-animation {
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
-  text-stroke: 1px #fff;
+  text-stroke: 1px;
   font-family: "Poppins", serif;
+  opacity: 1 !important;
+}
+.counter-main-sec .counter-slider .swiper-slide .counter-inner .count h3 .word .letter {
+  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+  opacity: 1 !important;
 }
 .counter-main-sec .counter-slider .swiper-slide .counter-inner .count {
   padding: 40px 40px 0 40px;
@@ -1538,6 +1640,8 @@ div#lottie-animation {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  -webkit-animation: scaleTransform 8s infinite ease-in-out;
+          animation: scaleTransform 8s infinite ease-in-out;
 }
 .industries-section .heading-main-sec h3 {
   text-align: left;
@@ -1602,6 +1706,29 @@ div#lottie-animation {
   margin: 0;
 }
 
+@-webkit-keyframes scaleTransform {
+  0% {
+    transform: scale(1) translate(0%, 0%);
+  }
+  50% {
+    transform: scale(1.6) translate(0%, 20%);
+  }
+  100% {
+    transform: scale(1) translate(0%, 0%);
+  }
+}
+
+@keyframes scaleTransform {
+  0% {
+    transform: scale(1) translate(0%, 0%);
+  }
+  50% {
+    transform: scale(1.6) translate(0%, 20%);
+  }
+  100% {
+    transform: scale(1) translate(0%, 0%);
+  }
+}
 /* Industries Section CSS End */
 /* Technologies Section CSS Start */
 .section_integration {
@@ -2096,6 +2223,10 @@ svg:not(:root) {
   text-shadow: 0 5px 15px rgba(242, 110, 101, 0.7);
   opacity: 1 !important;
 }
+.cust-footer-sec .map-wrapper-address .map-description .map-item .country-title .word .letter {
+  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+  opacity: 1 !important;
+}
 .cust-footer-sec .map-wrapper-address .map-description .map-item address {
   font-size: 18px;
   color: #000000;
@@ -2107,6 +2238,11 @@ svg:not(:root) {
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 30px;
+  opacity: 1 !important;
+}
+.cust-footer-sec .footer-nav h4 .word .letter {
+  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+  opacity: 1 !important;
 }
 .cust-footer-sec .footer-nav ul {
   margin: 0;

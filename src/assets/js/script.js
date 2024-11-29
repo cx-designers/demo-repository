@@ -603,7 +603,7 @@ bannerTimeline
 
 const sliderItems = document.querySelectorAll('.slider-item');
 
-const visibleWidth = 100 / sliderItems.length * 1;
+const visibleWidth = 300 / sliderItems.length * 1;
 
 gsap.set(".slider", {
   xPercent: 100 - visibleWidth,
@@ -692,7 +692,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* Typing Animation JS Start */
 
-var textWrappers = document.querySelectorAll('h3, h4, h5, h6');
+var textWrappers = document.querySelectorAll('h3, h4, h5, h6, a.ft-button span');
 
 textWrappers.forEach((textWrapper) => {
   textWrapper.innerHTML = textWrapper.textContent
@@ -739,7 +739,7 @@ Element.prototype.nextElementSiblings = function (selector) {
   while (nextSibling) {
     if (nextSibling.matches(selector)) {
       siblings.push(nextSibling);
-    } else if (nextSibling.matches('h3, h4, h5, h6')) {
+    } else if (nextSibling.matches('h3, h4, h5, h6, a.ft-button span')) {
       break;
     }
     nextSibling = nextSibling.nextElementSibling;
@@ -789,22 +789,29 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.fromTo(
   ".section_integration .animated-img-sec img",
-  { scale: 0 }, 
-  {
+  { 
+    scale: 0, 
+    y: 1000,
+  }, 
+  { 
     scale: 1, 
+    y: 0, 
+    rotation: 0,
     duration: 1,
     ease: "power2.out",
     scrollTrigger: {
       trigger: ".section_integration",
-      start: "top 10%",
-      end: "bottom 25%",
+      start: "top 0%",
+      end: "bottom 0%",
       toggleActions: "play reverse play reverse",
     },
   }
 );
 
+
 /* Service SEction Shap Animation Start */
 
+// GSAP animations remain the same
 gsap.to(".inner-shap-1", {
   rotation: 360,
   x: "100vw",
@@ -837,29 +844,31 @@ gsap.to(".inner-shap-2", {
   }
 });
 
-
-// Select the elements
 const serviceWrapper = document.querySelector('.inner-service-wrapper');
 const serviceShap = document.querySelector('.inner-service-shap');
 
-// Create an IntersectionObserver to detect when the .inner-service-wrapper enters or leaves the viewport
 const observerService = new IntersectionObserver(entries => {
   entries.forEach(entry => {
-    // Check if the .inner-service-wrapper is in the viewport
     if (entry.isIntersecting) {
-      // Add the 'fixed' class to .inner-service-shap when the .inner-service-wrapper enters the viewport
       serviceShap.classList.add('fixed');
-    } else {
-      // Remove the 'fixed' class from .inner-service-shap when the .inner-service-wrapper leaves the viewport
+    }
+  });
+}, { threshold: 0.1 });
+
+observerService.observe(serviceWrapper);
+
+const serviceList = document.querySelector('.inner-service-list');
+
+const observerServiceList = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) {
       serviceShap.classList.remove('fixed');
     }
   });
-}, {
-  threshold: 0.1 // Adjust this threshold based on when you want the class to be added/removed
-});
+}, { threshold: 0 });
 
-// Start observing the .inner-service-wrapper element
-observerService.observe(serviceWrapper);
+observerServiceList.observe(serviceList);
+
 
 
 
