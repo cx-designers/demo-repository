@@ -322,6 +322,7 @@ h1 {
   width: 100%;
   overflow: hidden !important;
   position: absolute;
+  min-height: 900px;
 
   .drawLogowrapper {
     margin-top: auto;
@@ -437,6 +438,7 @@ header {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  min-height: 900px;
 
   p {
     color: $white;
@@ -641,6 +643,11 @@ header {
     color: $white;
     z-index: 2;
     transform-origin: center;
+    perspective: 1000000px;
+    // will-change: transform;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-origin: center;
+    will-change: transform;
 
     svg {
       width: 100vw;
