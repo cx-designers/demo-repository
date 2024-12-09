@@ -21,6 +21,8 @@ $footerlink: #868686;
   font-display: swap;
 }
 
+@import url(../scss/responsive.scss);
+
 body {
   font-family: $secondryFornts;
   background-color: $primaryColor;

@@ -1,3 +1,4 @@
+@import url(../scss/responsive.scss);
 @font-face {
   font-family: "QAEFQS+TTFirsNeue";
   src: url("/assets/fonts/QAEFQSTTFirsNeue-Regular.eot");
@@ -315,6 +316,7 @@ h1 span.from-right {
   width: 100%;
   overflow: hidden !important;
   position: absolute;
+  min-height: 900px;
 }
 .loaderWrapper .drawLogowrapper {
   margin-top: auto;
@@ -418,6 +420,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  min-height: 900px;
 }
 .hero-wrapper p {
   color: #fff;
@@ -591,6 +594,10 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   color: #fff;
   z-index: 2;
   transform-origin: center;
+  perspective: 1000000px;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-origin: center;
+  will-change: transform;
 }
 .main-service-sec .letter-x svg {
   width: 100vw;
