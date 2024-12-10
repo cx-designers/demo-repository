@@ -76,12 +76,84 @@ tl.add(() => {
 });
 
 /* Title Animation JS Start */
-
-
-
 /* Title Animation JS End */
 
+/* business practice js start */
 
+if (document.querySelector('.business-paragraph-second')) {
+  gsap.registerPlugin(ScrollTrigger);
+
+  const paragraphs = document.querySelectorAll('.business-paragraph-second');
+
+  // Function to set active paragraph
+  function setActiveParagraph(activeParagraph) {
+    paragraphs.forEach((p) => {
+      gsap.to(p, {
+        filter: p === activeParagraph ? "blur(0px)" : "blur(2px)",
+        duration: 0.3, // Adjust duration for smoother transitions
+        overwrite: "auto",
+        ease: "power1.out",
+      });
+    });
+  }
+
+  // Function to find the paragraph closest to the center of the viewport
+  function getClosestParagraph() {
+    const midPoint = window.innerHeight / 2;
+    let closest = null;
+    let closestDistance = Infinity;
+
+    paragraphs.forEach((p) => {
+      const rect = p.getBoundingClientRect();
+      const distance = Math.abs(rect.top + rect.height / 2 - midPoint);
+
+      if (distance < closestDistance) {
+        closest = p;
+        closestDistance = distance;
+      }
+    });
+
+    return closest;
+  }
+
+  // ScrollTrigger setup for blur effects
+  paragraphs.forEach((paragraph) => {
+    ScrollTrigger.create({
+      trigger: paragraph,
+      start: "top 85%",
+      end: "bottom 45%",
+      onEnter: () => setActiveParagraph(paragraph),
+      onEnterBack: () => setActiveParagraph(paragraph),
+      onLeave: () => setActiveParagraph(null),
+      onLeaveBack: () => setActiveParagraph(null),
+      fastScrollEnd: true, // Handles high-speed scrolling scenarios
+      // markers: true, // Remove in production
+    });
+  });
+
+  // Throttled function to handle fast scrolling
+  let scrollTimeout;
+  window.addEventListener("scroll", () => {
+    if (scrollTimeout) {
+      clearTimeout(scrollTimeout);
+    }
+
+    scrollTimeout = setTimeout(() => {
+      const closest = getClosestParagraph();
+      setActiveParagraph(closest);
+    }, 100); // Delay ensures smooth adjustments after scroll ends
+  });
+
+  // Highlight the closest paragraph on load
+  const initialClosest = getClosestParagraph();
+  setActiveParagraph(initialClosest);
+}
+
+
+
+
+
+/* businessPractice js end */ 
 
 // Define a new function for the separated animations
 function runSeparatedAnimations() {
@@ -116,9 +188,37 @@ function runSeparatedAnimations() {
   neonFlicker(paths);
 }
 
+/* mission-video' js start */
 
+document.addEventListener('DOMContentLoaded', () => {
+  const video = document.querySelector('.mission-video');
+  const videoImg = document.querySelector('.video-img');
+  const startVideo = document.querySelector('.start-video');
+  const pauseVideos = document.querySelector('.pouse-videos');
 
+  if (video && videoImg) {
+      // Initialize with `pauseVideos` hidden and startVideo visible
+      if (pauseVideos) pauseVideos.classList.add('hidden');
+      if (startVideo) startVideo.classList.remove('hidden');
 
+      videoImg.addEventListener('click', () => {
+          if (video.paused) {
+              video.play();
+          } else {
+              video.pause();
+          }
+
+          // Toggle visibility of start/pause indicators with transition effect
+          if (startVideo && pauseVideos) {
+              startVideo.classList.toggle('hidden');
+              pauseVideos.classList.toggle('hidden');
+          }
+      });
+  } else {
+      console.error("Required elements (.mission-video, .video-img) not found in the DOM.");
+  }
+});
+/* mission-video' js end */
 
 /* Testimonial Section */
 
@@ -212,7 +312,6 @@ function toggleClassesInfinite() {
 
 // Call the function
 toggleClassesInfinite();
-
 
 
 /* Technologies Section End */
@@ -614,9 +713,9 @@ gsap.to(".slider", {
   ease: "none",
   scrollTrigger: {
     trigger: ".industries-section",
-    pin: true, 
+    pin: true,
     start: "top top",
-    scrub: 2, 
+    scrub: 2,
     end: "+=" + (sliderItems.length * 50) + "vw",
     onUpdate: (self) => {
     },
@@ -630,31 +729,44 @@ gsap.to(".slider", {
 
 gsap.registerPlugin(ScrollTrigger);
 
-const sections = document.querySelectorAll(".inner-service-sec");
+const sections = document.querySelectorAll(".inner-service-sec, .about-hero, .work-culture");
 
 sections.forEach((section) => {
   const paths = section.querySelectorAll(".svg-draw-sec svg path");
+  const svgBanner = section.querySelector(".svg-about-banner");
 
   ScrollTrigger.create({
     trigger: section,
-    start: "top 75%", onEnter: () => {
+    start: "top 75%",
+    onEnter: () => {
       paths.forEach((path) => {
         const length = path.getTotalLength();
+        
+        // Set initial strokeDasharray and strokeDashoffset
         gsap.set(path, {
           strokeDasharray: length,
           strokeDashoffset: length,
         });
 
+        // Animate the path drawing
         gsap.to(path, {
           strokeDashoffset: 0,
           duration: 3,
           ease: "power1.inOut",
           delay: 0.5,
+          onComplete: () => {
+            // Change opacity of svg-about-banner after the path is drawn
+            if (svgBanner) {
+              gsap.to(svgBanner, { opacity: 1, duration: 0.5 });
+            }
+          },
         });
       });
     },
   });
 });
+ 
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -789,13 +901,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.fromTo(
   ".section_integration .animated-img-sec img",
-  {
-    scale: 0,
+  { 
+    scale: 0, 
     y: 1000,
-  },
-  {
-    scale: 1,
-    y: 0,
+  }, 
+  { 
+    scale: 1, 
+    y: 0, 
     rotation: 0,
     duration: 1,
     ease: "power2.out",
@@ -815,32 +927,32 @@ gsap.fromTo(
 gsap.to(".inner-shap-1", {
   rotation: 360,
   x: "100vw",
-  y: "100vh",
-  repeat: -1,
-  yoyo: true,
-  paused: true,
+  y: "100vh",             
+  repeat: -1,             
+  yoyo: true,             
+  paused: true,           
   scrollTrigger: {
     trigger: ".inner-service-wrapper",
-    start: "top bottom",
-    end: "bottom top",
-    scrub: true,
-    toggleActions: "play none none reverse",
+    start: "top bottom",  
+    end: "bottom top",    
+    scrub: true,          
+    toggleActions: "play none none reverse",  
   }
 });
 
 gsap.to(".inner-shap-2", {
-  rotation: -360,
-  x: "-100vw",
-  y: "-100vh",
-  repeat: -1,
-  yoyo: true,
-  paused: true,
+  rotation: -360,         
+  x: "-100vw",            
+  y: "-100vh",            
+  repeat: -1,             
+  yoyo: true,             
+  paused: true,           
   scrollTrigger: {
-    trigger: ".inner-service-wrapper",
-    start: "top bottom",
-    end: "bottom top",
-    scrub: true,
-    toggleActions: "play none none reverse",
+    trigger: ".inner-service-wrapper",  
+    start: "top bottom",  
+    end: "bottom top",    
+    scrub: true,          
+    toggleActions: "play none none reverse",  
   }
 });
 
@@ -868,8 +980,3 @@ const observerServiceList = new IntersectionObserver(entries => {
 }, { threshold: 0 });
 
 observerServiceList.observe(serviceList);
-
-
-
-
-/* Service SEction Shap Animation End */

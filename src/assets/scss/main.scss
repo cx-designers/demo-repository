@@ -7,6 +7,54 @@ $white: #fff;
 $borderColor: rgba(255, 255, 255, 0.25);
 $menuBoxShadow: 0px 0px 30px 0px rgba(242, 110, 101, 0.58);
 $footerlink: #868686;
+$screen-desktop-large : 1700px;
+$screen-desktop-small : 1440px;
+$screen-ipad-large : 991px;
+$screen-ipad-small : 768px;
+$screen-mobile-large : 767px;
+$screen-mobile-small : 480px;
+
+@mixin desktopLarge {
+  @media only screen and (min-width: #{$screen-desktop-large}) {
+    @content;
+  }
+}
+
+@mixin desktopSmall {
+  @media only screen and (max-width: #{$screen-desktop-small}) {
+    @content;
+  }
+}
+
+@mixin desktopSmallMin {
+  @media only screen and (min-width: #{$screen-desktop-small}) {
+    @content;
+  }
+}
+
+@mixin ipadLarge {
+  @media only screen and (max-width: #{$screen-ipad-large}) {
+    @content;
+  }
+}
+
+@mixin ipadSmall {
+  @media only screen and (min-width: #{$screen-ipad-small}) {
+    @content;
+  }
+}
+
+@mixin mobileLarge {
+  @media only screen and (max-width: #{$screen-mobile-large}) {
+    @content;
+  }
+}
+
+@mixin mobileSmall {
+  @media only screen and (max-width: #{$screen-mobile-small}) {
+    @content;
+  }
+}
 
 @font-face {
   font-family: 'QAEFQS+TTFirsNeue';
@@ -20,8 +68,6 @@ $footerlink: #868686;
   font-style: normal;
   font-display: swap;
 }
-
-@import url(../scss/responsive.scss);
 
 body {
   font-family: $secondryFornts;
@@ -45,8 +91,28 @@ h1 {
   font-weight: 400;
   line-height: 1.2;
 
+  @include desktopSmall {
+    font-size: 100px;
+  }
+
+  @include ipadLarge {
+    font-size: 80px;
+  }
+
+  @include mobileLarge {
+    font-size: 60px;
+  }
+
+  @include mobileSmall {
+    font-size: 40px;
+  }
+
   span {
     display: block;
+
+    @include mobileLarge {
+      display: none;
+    }
 
     &.from-right {
       text-align: right;
@@ -70,8 +136,15 @@ h1 {
 
 .container {
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
+
+  @include desktopSmallMin {
+    max-width: 1320px;
+  }
+
+  @include desktopLarge {
+    max-width: 1440px;
+  }
 }
 
 .cursor {
@@ -353,6 +426,10 @@ h1 {
     left: 1rem;
     top: 0;
     height: 100%;
+
+    @include desktopSmall {
+      left: -50px;
+    }
   }
 
   .roundeO {
@@ -397,9 +474,23 @@ header {
     display: flex;
     justify-content: space-between;
 
+    @include mobileLarge {
+      padding: 15px 0px;
+    }
+
     .brandLogo {
+      @include mobileLarge {
+        max-width: 150px;
+      }
+
       a {
         display: block;
+
+        svg {
+          @include mobileLarge {
+            width: 100%
+          }
+        }
       }
     }
 
@@ -416,6 +507,11 @@ header {
           width: 60px;
           height: 60px;
           margin: 0 0 0 30px;
+
+          @include mobileLarge {
+            width: 40px;
+            height: 40px;
+          }
 
           #lottie-animation {
             height: 30px;
@@ -451,6 +547,11 @@ header {
 
   .btn-wrapper {
     margin-top: 40px;
+
+    @include mobileLarge {
+      flex-direction: column;
+      gap: 40px;
+    }
   }
 
   h1 {
@@ -458,6 +559,10 @@ header {
 
     .flying {
       position: absolute;
+
+      @include mobileLarge {
+        display: none;
+      }
 
       &.left-center {
         top: 50%;
@@ -508,6 +613,14 @@ header {
   position: relative;
   z-index: 9;
 
+  @include desktopSmall {
+    padding-top: 95px;
+  }
+
+  @include mobileLarge {
+    padding-top: 55px;
+  }
+
   img.cust-bg {
     width: 100%;
     position: absolute;
@@ -515,6 +628,15 @@ header {
     left: 0;
     right: 0;
     z-index: 0;
+
+    @include mobileLarge {
+      height: 240px;
+      object-fit: cover;
+    }
+
+    @include mobileSmall {
+      height: 180px;
+    }
   }
 
   .container {
@@ -550,6 +672,16 @@ header {
             font-weight: 400;
             margin-bottom: 80px;
             text-align: left;
+
+            @include desktopSmall {
+              font-size: 50px;
+            }
+
+            @include mobileLarge {
+              font-size: 36px;
+              line-height: 50px;
+              margin-bottom: 30px;
+            }
           }
 
           .img-wrapper {
@@ -559,6 +691,15 @@ header {
             height: 490px;
             overflow: hidden;
             transition: opacity 0.5s ease;
+
+            @include desktopSmall {
+              width: 275px;
+              height: 420px;
+            }
+
+            @include mobileLarge {
+              margin: 0px auto 30px;
+            }
 
             img {
               position: absolute;
@@ -582,6 +723,17 @@ header {
             overflow: hidden;
             transition: opacity .5s ease;
             margin-left: auto;
+
+            @include desktopSmall {
+              width: 275px;
+              height: 420px;
+            }
+
+            @include mobileLarge {
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 40px;
+            }
 
             img {
               position: absolute;
@@ -610,6 +762,11 @@ header {
             height: 490px;
             overflow: hidden;
             transition: opacity 0.5s ease;
+
+            @include desktopSmall {
+              height: 420px;
+              width: 100%;
+            }
 
             img {
               position: absolute;
@@ -729,6 +886,14 @@ header {
       max-width: 850px;
       margin-left: auto;
       margin-right: auto;
+
+      @include desktopSmall {
+        font-size: 60px;
+      }
+
+      @include mobileLarge {
+        font-size: 40px;
+      }
     }
 
     p {
@@ -858,6 +1023,10 @@ header {
       left: auto;
       right: 0;
 
+      @include mobileLarge {
+        position: unset;
+      }
+
       svg {
         path {
           stroke: $secondaryColor;
@@ -877,6 +1046,10 @@ header {
       .svg-draw-sec {
         padding-left: 80px !important;
 
+        @include mobileLarge {
+          padding-left: 0px !important;
+        }
+
         svg {
           width: 100%;
           height: 100%;
@@ -888,6 +1061,10 @@ header {
       .svg-draw-sec {
         padding-right: 80px !important;
 
+        @include mobileLarge {
+          padding-right: 0px !important;
+        }
+
         svg {
           width: 100%;
           height: 100%;
@@ -898,6 +1075,10 @@ header {
     &.e-commerce {
       .svg-draw-sec {
         padding-left: 80px !important;
+
+        @include mobileLarge {
+          padding-left: 0px !important;
+        }
 
         svg {
           width: 100%;
@@ -911,12 +1092,20 @@ header {
         padding-right: 80px !important;
         display: flex;
         align-items: flex-end;
+
+        @include mobileLarge {
+          padding-right: 0px !important;
+        }
       }
     }
-    
+
     &.on-demand {
       .svg-draw-sec {
         padding-left: 80px !important;
+
+        @include mobileLarge {
+          padding-left: 0px !important;
+        }
 
         svg {
           width: 100%;
@@ -929,6 +1118,10 @@ header {
       .svg-draw-sec {
         padding-right: 80px !important;
 
+        @include mobileLarge {
+          padding-right: 0px !important;
+        }
+
         svg {
           width: 100%;
           height: 100%;
@@ -940,6 +1133,10 @@ header {
       .svg-draw-sec {
         padding-left: 80px !important;
 
+        @include mobileLarge {
+          padding-left: 0px !important;
+        }
+
         svg {
           width: 100%;
         }
@@ -949,6 +1146,10 @@ header {
     &.mobile-app {
       .svg-draw-sec {
         padding-right: 80px !important;
+
+        @include mobileLarge {
+          padding-right: 0px !important;
+        }
 
         svg {
           width: 100%;
@@ -2041,9 +2242,11 @@ div#lottie-animation {
   0% {
     transform: scale(1) translate(0%, 0%);
   }
+
   50% {
     transform: scale(1.6) translate(0%, 20%);
   }
+
   100% {
     transform: scale(1) translate(0%, 0%);
   }
@@ -2668,6 +2871,520 @@ svg:not(:root) {
 }
 
 /* footer css end */
+
+/* about page css start */
+
+/* about hero css start */
+
+.about-page {
+  .drawLogowrapper {
+    display: none;
+  }
+
+  .team-main-sec {
+    padding-top: 150px;
+  }
+
+}
+
+.about-hero {
+  .about-wrapper {
+    position: relative;
+    z-index: 111;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    .row {
+      align-items: center;
+      position: relative;
+
+      .content-col {
+        .heading-main-sec {
+          text-align: left;
+
+          p {
+            color: #ffffff;
+            text-align: left;
+            max-width: 490px;
+            margin-top: 30px;
+          }
+        }
+      }
+
+      .svg-draw-sec.about-banner-svg {
+        position: absolute;
+        right: 0;
+        top: auto;
+        bottom: -377px;
+        left: auto;
+
+        svg {
+          width: 100%;
+          height: 100%;
+
+          .svg-about-banner {
+            opacity: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* about hero css end */
+
+
+/* about-realtime-journey-sec css start */
+
+.about-realtime-journey-sec {
+  background-color: #fff;
+  position: relative;
+  padding: 200px 0 200px 0;
+  z-index: 1;
+
+  img.cust-bg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  .container {
+    .row {
+      .about-realtime-content {
+        .heading-main-sec {
+          h3 {
+            text-align: left;
+          }
+
+          h4 {
+            color: #000;
+            text-align: left;
+            max-width: 550px;
+            width: 100%;
+            margin-bottom: 40px;
+          }
+
+          p {
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #636363;
+            max-width: 550px;
+            width: 100%;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+/* about-realtime-journey-sec css end */
+
+/* aswesome-sec css start */
+.aswesome-sec {
+  padding: 150px 0;
+
+  .col-full {
+    .heading-main-sec {
+      h4 {
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .container {
+    .row {
+      .col-4 {
+        margin-bottom: 20px;
+      }
+
+      .creating-business-values-col {
+        transform: translateY(100px);
+      }
+
+      .experience-col {
+        transform: translateY(100px);
+      }
+    }
+
+    .unique-items-block {
+      border: 1px solid #262626;
+      border-radius: 40px;
+      padding: 40px;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .unique-cx {
+        border: 1.5px solid #F26E65;
+        width: 100px;
+        height: 100px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .unique-item-text {
+        h3 {
+          color: $white;
+          padding: 40px 0 30px 0;
+        }
+
+        p {
+          color: rgba(255, 255, 255, 0.7);
+          font-weight: 400;
+        }
+      }
+    }
+
+    .work-approach-bg {
+      background-image: url(../../assets/img/Work-approach.png);
+    }
+
+    .technology-bg {
+      background-image: url(../../assets/img/Technology.png);
+    }
+
+    .experience-bg {
+      background-image: url(../../assets/img/experience.png);
+    }
+
+    .commitment-bg {
+      background-image: url(../../assets/img/commitment-bg.png);
+    }
+
+    .creating-business-values-bg {
+      background-image: url(../../assets/img/creating-business.png);
+    }
+
+    .Oor-footprints {
+      background-image: url(../../assets/img/Oor-footprints.png);
+    }
+  }
+}
+
+/* aswesome-sec css end */
+
+
+/* workethics-sec css start */
+.workethics-sec {
+  background-color: #ffffff;
+  padding: 150px 0;
+  z-index: 1;
+
+  .row {
+    .workethics-img-col {
+      .workethics-img-main {
+        max-width: 1090px;
+        margin: 0 auto;
+      }
+    }
+
+    .col-full {
+      h4 {
+        color: #000000;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #636363;
+        margin: 40px 0 0px 0;
+        max-width: 925px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+/* workethics-sec css end */
+
+/* mission-sec css start */
+.mission-sec {
+  background-color: $white;
+  padding: 150px 0;
+  position: relative;
+  z-index: 1;
+
+  .missionWrapper {
+    .leftLine {
+      position: absolute;
+      left: auto;
+      top: 0;
+      height: 100vh;
+      right: 0;
+      right: 60px;
+    }
+  }
+
+  .container {
+    .row {
+      .col-full {
+        .heading-main-sec {
+          text-align: left;
+
+          h3 {
+            font-weight: 600;
+          }
+
+          h4 {
+            color: $primaryColor;
+          }
+
+          p {
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #636363;
+            margin: 40px 0 60px 0;
+            max-width: 770px;
+            width: 100%;
+            text-align: left;
+          }
+        }
+      }
+
+      .video-coll {
+        .video-sec {
+          .video {
+            text-align: right;
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+
+            .mission-video {
+              width: 70%;
+              border-radius: 300px;
+              object-fit: cover !important;
+            }
+
+            .video-img-main {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: absolute;
+              right: -30px;
+              top: 0;
+              bottom: 0;
+              margin: auto 0;
+              border: 10px solid #ffffff;
+
+              &:before {
+                content: "";
+                content: "";
+                background-color: hsla(0, 0%, 100%, .5);
+                width: 110px;
+                height: 110px;
+                position: absolute;
+                border-radius: 50%;
+                left: -78px;
+                right: auto;
+                top: 1px;
+                bottom: 0;
+                margin: auto auto;
+              }
+
+              .video-img {
+                background-color: #f2726a;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: -30px;
+                top: 0;
+                bottom: 0;
+                margin: auto 0;
+                border: 10px solid #fff;
+
+                .pouse-videos {
+                  position: absolute;
+                }
+
+                .pouse-videos {
+                  width: 21px;
+                  height: 26px;
+
+                  .st0 {
+                    stroke: #ffffff;
+                  }
+                }
+
+                .start-video, .pouse-videos {
+                  transition: opacity 0.3s ease-in-out;
+                  opacity: 1; 
+                }
+                .start-video.hidden, .pouse-videos.hidden {
+                  opacity: 0;
+                  pointer-events: none; 
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .row-vision {
+    display: flex;
+    align-items: flex-start;
+
+    .col-vision {
+      border: 1px solid #DCDCDC;
+      border-radius: 200px;
+      margin-top: -7px;
+
+      h3 {
+        font-weight: 600;
+        margin: 0 0 10px;
+      }
+
+      h4 {
+        color: $primaryColor;
+
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #636363;
+        margin: 4% 0 0 0;
+        max-width: 770px;
+        width: 100%;
+        text-align: left;
+      }
+
+      .heading-main-sec {
+        text-align: left;
+        padding: 87px 87px 87px 241px;
+      }
+    }
+
+    .col-cx-logo {
+      border: 1px solid #DCDCDC;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+/* mission-sec css start */
+
+/* work-culture css start */
+.work-culture {
+  padding: 150px 0;
+
+  .row {
+    border: 1px solid #262626;
+    border-radius: 40px;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+
+    .work-cultur-svgmain {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: absolute;
+
+      img {
+        position: absolute;
+        top: 20%;
+        bottom: 0;
+        left: -17%;
+        right: 0;
+        margin: 0 auto;
+        width: 100vw;
+        height: auto;
+      }
+    }
+
+    .work-culture-svg {
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .content-col {
+      padding: 120px 120px 120px 0px;
+    }
+
+    h3 {
+      text-align: left;
+    }
+
+    h4 {
+      text-align: left;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      text-align: left;
+      color: #fff;
+      margin: 40px 0 30px 0;
+    }
+  }
+}
+
+/* work-culture css end */
+
+.business-practice-sec {
+  padding-bottom: 150px;
+
+  .col-heading {
+    height: 100%;
+    position: sticky;
+    top: 40%;
+  }
+
+  .heading-main-sec {
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.7);
+      margin: 0 0 30px 0;
+    }
+
+    .business-paragraph-second {
+      transition: filter 0.2s ease;
+    }
+  }
+}
+
+// business-practice-sec css end 
+
+/* about page css end */
 
 /* Typing Effect CSS Start */
 
