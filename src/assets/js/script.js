@@ -261,7 +261,6 @@ createContinuousMarquee(".column-3", -1, 0.7);
 /* Counter Slider Section */
 
 $(document).ready(function () {
-
   var swiper = new Swiper(".counter-slider", {
     scrollbar: '.swiper-scrollbar',
     effect: 'coverflow',
@@ -282,12 +281,18 @@ $(document).ready(function () {
     },
     freeMode: false,
     freeModeSticky: true,
+    breakpoints: {
+      767: {
+        coverflowEffect: {
+          rotate: -5,
+          stretch: 150,
+          depth: 100
+        }
+      }
+    }
   });
-
 });
-
 /* Counter Slider Section Complete */
-
 
 /* Technologies Section Start */
 

@@ -9,6 +9,7 @@ $menuBoxShadow: 0px 0px 30px 0px rgba(242, 110, 101, 0.58);
 $footerlink: #868686;
 $screen-desktop-large : 1700px;
 $screen-desktop-small : 1440px;
+$screen-md: 1200px;
 $screen-ipad-large : 991px;
 $screen-ipad-small : 768px;
 $screen-mobile-large : 767px;
@@ -28,6 +29,12 @@ $screen-mobile-small : 480px;
 
 @mixin desktopSmallMin {
   @media only screen and (min-width: #{$screen-desktop-small}) {
+    @content;
+  }
+}
+
+@mixin mdScreen {
+  @media only screen and (max-width: #{$screen-md}) {
     @content;
   }
 }
@@ -110,10 +117,6 @@ h1 {
   span {
     display: block;
 
-    @include mobileLarge {
-      display: none;
-    }
-
     &.from-right {
       text-align: right;
     }
@@ -144,6 +147,11 @@ h1 {
 
   @include desktopLarge {
     max-width: 1440px;
+  }
+
+  @include mobileLarge {
+    max-width: none;
+    padding: 0px 30px;
   }
 }
 
@@ -381,6 +389,11 @@ h1 {
     color: $white;
     line-height: 70px;
 
+    @include mobileLarge {
+      font-size: 40px;
+      line-height: 50px;
+    }
+
     span {
       // display: block;
     }
@@ -516,6 +529,11 @@ header {
           #lottie-animation {
             height: 30px;
             width: 30px;
+
+            @include mobileLarge {
+              width: 24px;
+              height: 24px;
+            }
           }
         }
       }
@@ -617,6 +635,10 @@ header {
     padding-top: 95px;
   }
 
+  @include mdScreen {
+    padding-top: 75px;
+  }
+
   @include mobileLarge {
     padding-top: 55px;
   }
@@ -647,6 +669,9 @@ header {
       align-items: center;
 
       .col-md-4 {
+        @include mobileLarge {
+          flex: unset;
+        }
 
         p.sec-small-title {
           font-size: 16px;
@@ -677,9 +702,13 @@ header {
               font-size: 50px;
             }
 
+            @include mdScreen {
+              font-size: 40px;
+              line-height: 50px;
+            }
+
             @include mobileLarge {
               font-size: 36px;
-              line-height: 50px;
               margin-bottom: 30px;
             }
           }
@@ -697,8 +726,19 @@ header {
               height: 420px;
             }
 
+            @include mdScreen {
+              height: 400px;
+              width: 90%;
+            }
+
             @include mobileLarge {
               margin: 0px auto 30px;
+              width: 40%;
+            }
+
+            @include mobileSmall {
+              height: 480px;
+              width: 100%;
             }
 
             img {
@@ -729,10 +769,21 @@ header {
               height: 420px;
             }
 
+            @include mdScreen {
+              height: 400px;
+              width: 90%;
+            }
+
             @include mobileLarge {
               margin-left: auto;
               margin-right: auto;
               margin-top: 40px;
+              width: 40%;
+            }
+
+            @include mobileSmall {
+              height: 480px;
+              width: 100%;
             }
 
             img {
@@ -765,6 +816,17 @@ header {
 
             @include desktopSmall {
               height: 420px;
+              width: 100%;
+            }
+
+            @include mdScreen {
+              height: 300px;
+              width: 90%;
+              margin: 0px auto;
+            }
+
+            @include mobileSmall {
+              height: 450px;
               width: 100%;
             }
 
@@ -1254,6 +1316,16 @@ header {
     h4 {
       font-size: 80px;
       line-height: 90px;
+
+      @include desktopSmall {
+        font-size: 60px;
+        line-height: 70px;
+      }
+
+      @include mobileLarge {
+        font-size: 40px;
+        line-height: 50px;
+      }
     }
   }
 
@@ -1851,6 +1923,18 @@ div#lottie-animation {
 .team-main-sec {
   padding: 0 0 150px 0;
 
+  @include desktopSmall {
+    padding-bottom: 95px;
+  }
+
+  @include mdScreen {
+    padding-bottom: 75px;
+  }
+
+  @include mobileLarge {
+    padding-bottom: 50px;
+  }
+
   .heading-main-sec {
     h2 {
       margin: 0 0 40px 0;
@@ -1864,9 +1948,21 @@ div#lottie-animation {
   }
 
   .team-intro {
+    @include mdScreen {
+      gap: 40px 0px;
+    }
 
     .team-col {
       padding: 0 10px;
+
+      @include mdScreen {
+        width: 50%;
+      }
+
+      @include mobileLarge {
+        width: 100%;
+      }
+
     }
 
     .team-col-inner {
@@ -1918,6 +2014,14 @@ div#lottie-animation {
         img {
           margin: 0 auto;
           display: block;
+
+          @include desktopSmall {
+            width: 100%;
+          }
+
+          @include mdScreen {
+            width: auto;
+          }
         }
       }
 
@@ -1984,6 +2088,18 @@ div#lottie-animation {
   padding: 150px 0;
   z-index: 9;
 
+  @include desktopSmall {
+    padding: 95px 0px;
+  }
+
+  @include mdScreen {
+    padding: 75px 0px;
+  }
+
+  @include mobileLarge {
+    padding: 50px 0px;
+  }
+
   .content-col {
     .counter-content {
       h3 {
@@ -2002,6 +2118,21 @@ div#lottie-animation {
         font-weight: 400;
         max-width: 600px;
         margin: 0;
+
+        @include mdScreen {
+          font-size: 60px;
+          line-height: 70px;
+        }
+
+        @include mobileLarge {
+          font-size: 50px;
+          line-height: 60px;
+        }
+
+        @include mobileSmall {
+          font-size: 40px;
+          line-height: 50px;
+        }
       }
     }
   }
@@ -2009,6 +2140,16 @@ div#lottie-animation {
   .counter-slider {
     height: 800px;
     width: 500px;
+
+    @include mdScreen {
+      width: 100%;
+    }
+
+    @include mobileLarge {
+      width: 100%;
+      margin-top: 40px;
+      height: 620px;
+    }
 
     .swiper-slide {
       display: flex;
@@ -2020,6 +2161,11 @@ div#lottie-animation {
       color: $white;
       height: 500px;
       max-height: 500px;
+
+      @include mobileLarge {
+        height: 300px;
+        max-height: 300px;
+      }
 
       &:nth-child(1n) {
         background-color: #000000;
@@ -2060,6 +2206,20 @@ div#lottie-animation {
             font-family: $secondryFornts;
             opacity: 1 !important;
 
+            @include ipadLarge {
+              font-size: 90px;
+              line-height: 90px;
+            }
+
+            @include mobileLarge {
+              font-size: 60px;
+              line-height: 1;
+            }
+
+            @include mobileSmall {
+              font-size: 50px;
+            }
+
             .word {
               .letter {
                 transform: translateX(0px) translateZ(0px) scaleX(1) !important;
@@ -2071,6 +2231,10 @@ div#lottie-animation {
 
         .count {
           padding: 40px 40px 0 40px;
+
+          @include mobileLarge {
+            padding: 30px 20px 0px 20px;
+          }
         }
 
         .title {
@@ -2082,6 +2246,19 @@ div#lottie-animation {
             color: $white;
             margin: 0;
             font-weight: 400;
+
+            @include ipadLarge {
+              font-size: 30px;
+              line-height: 1;
+            }
+
+            @include mobileLarge {
+              font-size: 40px;
+            }
+
+            @include mobileSmall {
+              font-size: 30px;
+            }
           }
         }
       }
@@ -2883,6 +3060,14 @@ svg:not(:root) {
 
   .team-main-sec {
     padding-top: 150px;
+
+    @include desktopSmall {
+      padding-bottom: 95px;
+    }
+
+    @include mdScreen {
+      padding-bottom: 75px;
+    }
   }
 
 }
@@ -2900,9 +3085,14 @@ svg:not(:root) {
     justify-content: center;
     overflow: hidden;
 
+    .container {
+      height: 100%;
+    }
+
     .row {
       align-items: center;
       position: relative;
+      height: 100%;
 
       .content-col {
         .heading-main-sec {
@@ -2921,7 +3111,7 @@ svg:not(:root) {
         position: absolute;
         right: 0;
         top: auto;
-        bottom: -377px;
+        bottom: 0;
         left: auto;
 
         svg {
@@ -3231,13 +3421,16 @@ svg:not(:root) {
                   }
                 }
 
-                .start-video, .pouse-videos {
+                .start-video,
+                .pouse-videos {
                   transition: opacity 0.3s ease-in-out;
-                  opacity: 1; 
+                  opacity: 1;
                 }
-                .start-video.hidden, .pouse-videos.hidden {
+
+                .start-video.hidden,
+                .pouse-videos.hidden {
                   opacity: 0;
-                  pointer-events: none; 
+                  pointer-events: none;
                 }
               }
 

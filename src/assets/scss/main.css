@@ -51,11 +51,6 @@ h1 {
 h1 span {
   display: block;
 }
-@media only screen and (max-width: 767px) {
-  h1 span {
-    display: none;
-  }
-}
 h1 span.from-right {
   text-align: right;
 }
@@ -85,6 +80,12 @@ h1 span.from-right {
 @media only screen and (min-width: 1700px) {
   .container {
     max-width: 1440px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: none;
+    padding: 0px 30px;
   }
 }
 
@@ -341,6 +342,12 @@ h1 span.from-right {
   color: #fff;
   line-height: 70px;
 }
+@media only screen and (max-width: 767px) {
+  .heading-main-sec h4 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
 /* Title Section CSS End */
 /* Site loader styling */
 .loaderWrapper {
@@ -466,6 +473,12 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   height: 30px;
   width: 30px;
 }
+@media only screen and (max-width: 767px) {
+  header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
+    width: 24px;
+    height: 24px;
+  }
+}
 
 /* Hero Section Style */
 .hero-wrapper {
@@ -553,6 +566,11 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
     padding-top: 95px;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .about-sec {
+    padding-top: 75px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .about-sec {
     padding-top: 55px;
@@ -585,6 +603,11 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 .about-sec .container .row {
   align-items: center;
 }
+@media only screen and (max-width: 767px) {
+  .about-sec .container .row .col-md-4 {
+    flex: unset;
+  }
+}
 .about-sec .container .row .col-md-4 p.sec-small-title {
   font-size: 16px;
   line-height: 1;
@@ -611,10 +634,15 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
     font-size: 50px;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .about-sec .container .row .col-md-4.left-col h4 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .about-sec .container .row .col-md-4.left-col h4 {
     font-size: 36px;
-    line-height: 50px;
     margin-bottom: 30px;
   }
 }
@@ -632,9 +660,22 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
     height: 420px;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .about-sec .container .row .col-md-4.left-col .img-wrapper {
+    height: 400px;
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 767px) {
   .about-sec .container .row .col-md-4.left-col .img-wrapper {
     margin: 0px auto 30px;
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .about-sec .container .row .col-md-4.left-col .img-wrapper {
+    height: 480px;
+    width: 100%;
   }
 }
 .about-sec .container .row .col-md-4.left-col .img-wrapper img {
@@ -664,11 +705,24 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
     height: 420px;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .about-sec .container .row .col-md-4.right-col .img-wrapper {
+    height: 400px;
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 767px) {
   .about-sec .container .row .col-md-4.right-col .img-wrapper {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .about-sec .container .row .col-md-4.right-col .img-wrapper {
+    height: 480px;
+    width: 100%;
   }
 }
 .about-sec .container .row .col-md-4.right-col .img-wrapper img {
@@ -697,6 +751,19 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 @media only screen and (max-width: 1440px) {
   .about-sec .container .row .col-md-4.center-col .img-wrapper {
     height: 420px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-sec .container .row .col-md-4.center-col .img-wrapper {
+    height: 300px;
+    width: 90%;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .about-sec .container .row .col-md-4.center-col .img-wrapper {
+    height: 450px;
     width: 100%;
   }
 }
@@ -1091,6 +1158,18 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 .blog-post-sec .heading-main-sec h4 {
   font-size: 80px;
   line-height: 90px;
+}
+@media only screen and (max-width: 1440px) {
+  .blog-post-sec .heading-main-sec h4 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog-post-sec .heading-main-sec h4 {
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
 .blog-post-sec .swiper {
   width: 100%;
@@ -1603,6 +1682,21 @@ div#lottie-animation {
 .team-main-sec {
   padding: 0 0 150px 0;
 }
+@media only screen and (max-width: 1440px) {
+  .team-main-sec {
+    padding-bottom: 95px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .team-main-sec {
+    padding-bottom: 75px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-main-sec {
+    padding-bottom: 50px;
+  }
+}
 .team-main-sec .heading-main-sec h2 {
   margin: 0 0 40px 0;
   font-size: 80px;
@@ -1611,8 +1705,23 @@ div#lottie-animation {
 .team-main-sec .heading-main-sec h4 {
   margin: 0 0 40px 0;
 }
+@media only screen and (max-width: 1200px) {
+  .team-main-sec .team-intro {
+    gap: 40px 0px;
+  }
+}
 .team-main-sec .team-intro .team-col {
   padding: 0 10px;
+}
+@media only screen and (max-width: 1200px) {
+  .team-main-sec .team-intro .team-col {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-main-sec .team-intro .team-col {
+    width: 100%;
+  }
 }
 .team-main-sec .team-intro .team-col-inner {
   display: flex;
@@ -1662,6 +1771,16 @@ div#lottie-animation {
 .team-main-sec .team-intro .team-col-inner .member-img img {
   margin: 0 auto;
   display: block;
+}
+@media only screen and (max-width: 1440px) {
+  .team-main-sec .team-intro .team-col-inner .member-img img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .team-main-sec .team-intro .team-col-inner .member-img img {
+    width: auto;
+  }
 }
 .team-main-sec .team-intro .team-col-inner .member-details {
   padding: 30px;
@@ -1713,6 +1832,21 @@ div#lottie-animation {
   padding: 150px 0;
   z-index: 9;
 }
+@media only screen and (max-width: 1440px) {
+  .counter-main-sec {
+    padding: 95px 0px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .counter-main-sec {
+    padding: 75px 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .counter-main-sec {
+    padding: 50px 0px;
+  }
+}
 .counter-main-sec .content-col .counter-content h3 {
   font-size: 16px;
   font-weight: 600;
@@ -1729,9 +1863,39 @@ div#lottie-animation {
   max-width: 600px;
   margin: 0;
 }
+@media only screen and (max-width: 1200px) {
+  .counter-main-sec .content-col .counter-content h4 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .counter-main-sec .content-col .counter-content h4 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .counter-main-sec .content-col .counter-content h4 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
 .counter-main-sec .counter-slider {
   height: 800px;
   width: 500px;
+}
+@media only screen and (max-width: 1200px) {
+  .counter-main-sec .counter-slider {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .counter-main-sec .counter-slider {
+    width: 100%;
+    margin-top: 40px;
+    height: 620px;
+  }
 }
 .counter-main-sec .counter-slider .swiper-slide {
   display: flex;
@@ -1743,6 +1907,12 @@ div#lottie-animation {
   color: #fff;
   height: 500px;
   max-height: 500px;
+}
+@media only screen and (max-width: 767px) {
+  .counter-main-sec .counter-slider .swiper-slide {
+    height: 300px;
+    max-height: 300px;
+  }
 }
 .counter-main-sec .counter-slider .swiper-slide:nth-child(1n) {
   background-color: #000000;
@@ -1777,12 +1947,34 @@ div#lottie-animation {
   font-family: "Poppins", serif;
   opacity: 1 !important;
 }
+@media only screen and (max-width: 991px) {
+  .counter-main-sec .counter-slider .swiper-slide .counter-inner .count h3 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .counter-main-sec .counter-slider .swiper-slide .counter-inner .count h3 {
+    font-size: 60px;
+    line-height: 1;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .counter-main-sec .counter-slider .swiper-slide .counter-inner .count h3 {
+    font-size: 50px;
+  }
+}
 .counter-main-sec .counter-slider .swiper-slide .counter-inner .count h3 .word .letter {
   transform: translateX(0px) translateZ(0px) scaleX(1) !important;
   opacity: 1 !important;
 }
 .counter-main-sec .counter-slider .swiper-slide .counter-inner .count {
   padding: 40px 40px 0 40px;
+}
+@media only screen and (max-width: 767px) {
+  .counter-main-sec .counter-slider .swiper-slide .counter-inner .count {
+    padding: 30px 20px 0px 20px;
+  }
 }
 .counter-main-sec .counter-slider .swiper-slide .counter-inner .title {
   padding: 0 40px 40px 40px;
@@ -1793,6 +1985,22 @@ div#lottie-animation {
   color: #fff;
   margin: 0;
   font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+  .counter-main-sec .counter-slider .swiper-slide .counter-inner .title p {
+    font-size: 30px;
+    line-height: 1;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .counter-main-sec .counter-slider .swiper-slide .counter-inner .title p {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .counter-main-sec .counter-slider .swiper-slide .counter-inner .title p {
+    font-size: 30px;
+  }
 }
 
 .line-animation,
@@ -2493,6 +2701,16 @@ svg:not(:root) {
 .about-page .team-main-sec {
   padding-top: 150px;
 }
+@media only screen and (max-width: 1440px) {
+  .about-page .team-main-sec {
+    padding-bottom: 95px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-page .team-main-sec {
+    padding-bottom: 75px;
+  }
+}
 
 .about-hero .about-wrapper {
   position: relative;
@@ -2506,9 +2724,13 @@ svg:not(:root) {
   justify-content: center;
   overflow: hidden;
 }
+.about-hero .about-wrapper .container {
+  height: 100%;
+}
 .about-hero .about-wrapper .row {
   align-items: center;
   position: relative;
+  height: 100%;
 }
 .about-hero .about-wrapper .row .content-col .heading-main-sec {
   text-align: left;
@@ -2523,7 +2745,7 @@ svg:not(:root) {
   position: absolute;
   right: 0;
   top: auto;
-  bottom: -377px;
+  bottom: 0;
   left: auto;
 }
 .about-hero .about-wrapper .row .svg-draw-sec.about-banner-svg svg {
@@ -2758,11 +2980,13 @@ svg:not(:root) {
 .mission-sec .container .row .video-coll .video-sec .video .video-img-main .video-img .pouse-videos .st0 {
   stroke: #ffffff;
 }
-.mission-sec .container .row .video-coll .video-sec .video .video-img-main .video-img .start-video, .mission-sec .container .row .video-coll .video-sec .video .video-img-main .video-img .pouse-videos {
+.mission-sec .container .row .video-coll .video-sec .video .video-img-main .video-img .start-video,
+.mission-sec .container .row .video-coll .video-sec .video .video-img-main .video-img .pouse-videos {
   transition: opacity 0.3s ease-in-out;
   opacity: 1;
 }
-.mission-sec .container .row .video-coll .video-sec .video .video-img-main .video-img .start-video.hidden, .mission-sec .container .row .video-coll .video-sec .video .video-img-main .video-img .pouse-videos.hidden {
+.mission-sec .container .row .video-coll .video-sec .video .video-img-main .video-img .start-video.hidden,
+.mission-sec .container .row .video-coll .video-sec .video .video-img-main .video-img .pouse-videos.hidden {
   opacity: 0;
   pointer-events: none;
 }
