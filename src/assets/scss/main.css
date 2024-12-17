@@ -45,14 +45,24 @@ h1 {
 }
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 h1 span {
   display: block;
 }
+@media only screen and (max-width: 767px) {
+  h1 span {
+    text-align: center;
+  }
+}
 h1 span.from-right {
   text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  h1 span.from-right {
+    text-align: center;
+  }
 }
 
 * {
@@ -84,6 +94,27 @@ h1 span.from-right {
 }
 @media only screen and (max-width: 767px) {
   .container {
+    max-width: none;
+    padding: 0px 30px;
+  }
+}
+
+.listion-container {
+  width: 100%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 1440px) {
+  .listion-container {
+    max-width: 1440px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .listion-container {
+    max-width: 1580px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .listion-container {
     max-width: none;
     padding: 0px 30px;
   }
@@ -197,6 +228,13 @@ h1 span.from-right {
   width: 100%;
   height: 100%;
 }
+@media only screen and (max-width: 767px) {
+  .primary-btn {
+    font-size: 16px;
+    width: 163px;
+    height: 40px;
+  }
+}
 
 .secondary-btn {
   font-size: 20px;
@@ -218,6 +256,13 @@ h1 span.from-right {
   background-color: #F26E65;
   color: #fff;
   border-color: #F26E65;
+}
+@media only screen and (max-width: 767px) {
+  .secondary-btn {
+    font-size: 16px;
+    width: 163px;
+    height: 40px;
+  }
 }
 
 .menu-btn {
@@ -506,7 +551,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 @media only screen and (max-width: 767px) {
   .hero-wrapper .btn-wrapper {
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
   }
 }
 .hero-wrapper h1 {
@@ -800,9 +845,19 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   -webkit-transform-origin: center;
   will-change: transform;
 }
+@media only screen and (max-width: 767px) {
+  .main-service-sec .letter-x {
+    height: 100vh;
+  }
+}
 .main-service-sec .letter-x svg {
   width: 100vw;
   height: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .main-service-sec .letter-x svg {
+    height: 100vh;
+  }
 }
 .main-service-sec .svg-move-across .first-svg svg {
   width: 100%;
@@ -856,6 +911,16 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   background-color: #fff;
   z-index: 9;
 }
+@media only screen and (max-width: 767px) {
+  .services-title-sec .row {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .services-title-sec .col-full {
+    padding: 0px;
+  }
+}
 .services-title-sec .heading-main-sec h4 {
   font-size: 80px;
   color: #000000;
@@ -871,7 +936,7 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 }
 @media only screen and (max-width: 767px) {
   .services-title-sec .heading-main-sec h4 {
-    font-size: 40px;
+    font-size: 36px;
   }
 }
 .services-title-sec .heading-main-sec p {
@@ -880,6 +945,11 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   font-size: 18px;
   line-height: 1.8;
   margin: 0 auto 30px auto;
+}
+@media only screen and (max-width: 767px) {
+  .services-title-sec .heading-main-sec p {
+    font-size: 16px;
+  }
 }
 .services-title-sec .heading-main-sec p:last-child {
   margin: 0 auto;
@@ -921,6 +991,12 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   z-index: 9;
   transition: transform 1s ease-out;
 }
+@media only screen and (max-width: 767px) {
+  .inner-service-wrapper .inner-service-sec {
+    height: auto;
+    padding: 50px 0px;
+  }
+}
 .inner-service-wrapper .inner-service-sec.reverse .row {
   flex-direction: row-reverse;
 }
@@ -950,12 +1026,35 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   margin: 0 0 30px 0;
   flex-wrap: wrap;
 }
+@media only screen and (max-width: 1440px) {
+  .inner-service-wrapper .inner-service-sec .content-col .heading-main-sec h4 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .inner-service-wrapper .inner-service-sec .content-col .heading-main-sec h4 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .inner-service-wrapper .inner-service-sec .content-col .heading-main-sec h4 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+}
 .inner-service-wrapper .inner-service-sec .content-col .heading-main-sec p {
   font-size: 18px;
   line-height: 30px;
   text-align: left;
   color: #fff;
   margin: 0 0 30px 0;
+}
+@media only screen and (max-width: 767px) {
+  .inner-service-wrapper .inner-service-sec .content-col .heading-main-sec p {
+    font-size: 16px;
+  }
 }
 .inner-service-wrapper .inner-service-sec .content-col .heading-main-sec a.service-btn {
   padding: 20px 40px;
@@ -979,11 +1078,18 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
 @media only screen and (max-width: 767px) {
   .inner-service-wrapper .inner-service-sec .svg-draw-sec {
     position: unset;
+    margin-top: 40px;
+    max-height: 250px;
   }
 }
 .inner-service-wrapper .inner-service-sec .svg-draw-sec svg path {
   stroke: #F26E65;
   opacity: 1;
+}
+@media only screen and (max-width: 767px) {
+  .inner-service-wrapper .inner-service-sec .svg-draw-sec svg {
+    height: 100%;
+  }
 }
 .inner-service-wrapper .inner-service-sec .svg-draw-sec.chatbot-development svg {
   margin: 0 auto;
@@ -1081,6 +1187,11 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   width: 100%;
   height: 100%;
 }
+@media only screen and (max-width: 767px) {
+  .inner-service-wrapper .inner-service-sec .row {
+    margin: 0px;
+  }
+}
 
 /* Service Section CSS End */
 /* footer css start */
@@ -1114,6 +1225,11 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   top: -100%;
   left: 0px;
 }
+@media only screen and (max-width: 1200px) {
+  .line-animation .line-one {
+    width: 100%;
+  }
+}
 .line-animation .line-two {
   position: absolute;
   top: 20px;
@@ -1123,6 +1239,27 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   position: absolute;
   top: 200px;
   left: 12px;
+}
+@media only screen and (max-width: 1440px) {
+  .line-animation {
+    left: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .line-animation {
+    left: 30px;
+    width: 34px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .line-animation {
+    left: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .line-animation {
+    left: 0px;
+  }
 }
 
 .line-animation-right {
@@ -1137,6 +1274,16 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   top: -100%;
   position: absolute;
 }
+@media only screen and (max-width: 1200px) {
+  .line-animation-right .line-one {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .line-animation-right .line-one svg {
+    width: 100%;
+  }
+}
 .line-animation-right .line-two {
   position: absolute;
   top: 0px;
@@ -1147,6 +1294,27 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   top: 200px;
   left: 20px;
 }
+@media only screen and (max-width: 1440px) {
+  .line-animation-right {
+    right: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .line-animation-right {
+    right: 30px;
+    width: 34px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .line-animation-right {
+    right: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .line-animation-right {
+    right: 0px;
+  }
+}
 
 /* Line Animation CSS End */
 /* Blog Post Section CSS Start */
@@ -1154,6 +1322,11 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   position: relative;
   padding: 150px 0;
   overflow: hidden;
+}
+@media only screen and (max-width: 1440px) {
+  .blog-post-sec {
+    padding: 130px;
+  }
 }
 .blog-post-sec .heading-main-sec h4 {
   font-size: 80px;
@@ -1176,6 +1349,21 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   height: 100%;
   padding: 100px 0;
   position: relative;
+}
+@media only screen and (max-width: 1440px) {
+  .blog-post-sec .swiper {
+    padding: 60px 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .blog-post-sec .swiper {
+    padding: 50px 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog-post-sec .swiper {
+    padding: 30px 0px;
+  }
 }
 .blog-post-sec .swiper-slide {
   text-align: center;
@@ -1204,6 +1392,16 @@ header .header-inner .brandMenu .menuButton .toggle-btn #lottie-animation {
   background-color: #000000;
   margin-top: -10px;
   border-radius: 0 0 10px 10px !important;
+}
+@media only screen and (max-width: 1440px) {
+  .blog-post-sec .swiper-slide .bottom-text {
+    padding: 20px 60px 30px 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog-post-sec .swiper-slide .bottom-text {
+    padding: 15px 30px 15px 30px;
+  }
 }
 .blog-post-sec .swiper-slide .blog-post-slide {
   position: relative;
@@ -2729,7 +2927,7 @@ svg:not(:root) {
 }
 .about-hero .about-wrapper .row {
   align-items: center;
-  position: relative;
+  position: unset;
   height: 100%;
 }
 .about-hero .about-wrapper .row .content-col .heading-main-sec {
@@ -2745,14 +2943,14 @@ svg:not(:root) {
   position: absolute;
   right: 0;
   top: auto;
-  bottom: 0;
+  bottom: -20px;
   left: auto;
+  width: 65%;
 }
-.about-hero .about-wrapper .row .svg-draw-sec.about-banner-svg svg {
+.about-hero .about-wrapper .row .svg-draw-sec svg {
   width: 100%;
-  height: 100%;
 }
-.about-hero .about-wrapper .row .svg-draw-sec.about-banner-svg svg .svg-about-banner {
+.about-hero .about-wrapper .row .svg-draw-sec svg .svg-about-banner {
   opacity: 0;
 }
 
@@ -3101,8 +3299,181 @@ svg:not(:root) {
 }
 
 /* about page css end */
+/* =============== Service Page CSS Start =============== */
+.service-page .drawLogowrapper {
+  display: none;
+}
+
+/* Our Client sec css start */
+.ourclient-sec {
+  position: relative;
+  background-color: #fff;
+  padding: 100px 0;
+}
+.ourclient-sec .ourclient-img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+.ourclient-sec .ourclient-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.ourclient-sec .ourclient-gallery .gallery-items {
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  max-width: 272px;
+  width: 100%;
+  min-height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  z-index: 1;
+}
+.ourclient-sec .ourclient-gallery .gallery-items-two,
+.ourclient-sec .ourclient-gallery .gallery-items-four {
+  margin-top: 50px;
+}
+.ourclient-sec .ourclient-gallery .gallery-items-three {
+  margin-top: 100px;
+}
+
+/* Our Client sec css end */
+/* App Development sec css start */
+.app-development-sec {
+  padding-top: 150px;
+}
+.app-development-sec .heading-main-sec {
+  text-align: left;
+  margin-bottom: 40px;
+}
+.app-development-sec .heading-main-sec .development-heading {
+  color: #f26e65;
+  max-width: 1130px;
+  margin-left: auto;
+}
+.app-development-sec .app-development-paragraph {
+  max-width: 1130px;
+  margin-left: auto;
+}
+.app-development-sec .app-development-paragraph .business-paragraph-second {
+  color: #fff;
+}
+.app-development-sec .top-development {
+  position: relative;
+}
+.app-development-sec .top-development:before {
+  content: "";
+  background-image: url(../../assets/img/top-development-shap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0;
+}
+
+/* App Development sec css end */
+/* App Service Section CSS Start */
+.development-service {
+  padding: 150px 0;
+  background-color: #fff;
+  z-index: 9;
+}
+.development-service .heading-main-sec {
+  text-align: left;
+}
+.development-service .heading-main-sec h4 {
+  color: #000000;
+  max-width: 650px;
+  margin-bottom: 40px;
+}
+.development-service .service-listing .service-item .service-item-inner {
+  padding: 50px 0;
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  display: grid;
+}
+.development-service .service-listing .service-item .service-item-inner .count {
+  font-size: 16px;
+  color: #DCDCDC;
+  transition: color 0.4s ease-in-out 0.2s;
+  display: flex;
+  align-items: center;
+}
+.development-service .service-listing .service-item .service-item-inner h3 {
+  font-size: 40px;
+  line-height: 1;
+  color: #000;
+  font-weight: 900;
+  display: grid;
+  margin: 0;
+  grid-column: 4/14;
+  perspective: 52.5rem;
+  transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
+  opacity: 1 !important;
+  transition: none !important;
+}
+.development-service .service-listing .service-item .service-item-inner h3 span {
+  display: block;
+}
+.development-service .service-listing .service-item .service-item-inner h3 span.default {
+  grid-area: 1/1/2/2;
+  transition: transform 1s cubic-bezier(0.33, 1, 0.68, 1), opacity 1s cubic-bezier(0.33, 1, 0.68, 1);
+  align-self: center;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform-origin: center center -0.2em !important;
+}
+.development-service .service-listing .service-item .service-item-inner h3 span.hover {
+  grid-area: 1/1/2/2;
+  opacity: 0;
+  color: #F26E65;
+  transform: translate3d(0, 25.5961px, -26.0467px) rotateX(-91deg);
+  transition: transform 1s cubic-bezier(0.33, 1, 0.68, 1), opacity 1s cubic-bezier(0.33, 1, 0.68, 1);
+  align-self: center;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform-origin: center center -0.2em !important;
+}
+.development-service .service-listing .service-item .service-item-inner p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #636363;
+  max-width: 600px;
+  margin: 0 0 0 auto;
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  align-self: center;
+  grid-column: 14/17;
+}
+.development-service .service-listing .service-item .service-item-inner:hover .default {
+  opacity: 0;
+  transform: translate3d(0, -25.5961px, -26.0468px) rotateX(91deg);
+  transition-delay: 0s;
+}
+.development-service .service-listing .service-item .service-item-inner:hover .hover {
+  opacity: 1;
+  transform: translate(0);
+  transition-delay: 0s;
+}
+.development-service .service-listing .service-item .service-item-inner:hover p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* App Service Section CSS End */
+/* =============== Service Page CSS End =============== */
 /* Typing Effect CSS Start */
-/* Default opacity only for p and a following h3, h4, h5, h6 */
 h3,
 h4,
 h5,
@@ -3137,4 +3508,55 @@ h6 + p + p {
 }
 
 /* Typing Effect CSS End */
+/* awsome features product start */
+.features-main-sec {
+  padding: 150px 0px;
+}
+.features-main-sec .cust-row {
+  gap: 30px;
+  align-items: self-start;
+}
+.features-main-sec .cust-row .cust-column {
+  flex-shrink: unset !important;
+  width: calc(33.33% - 20px);
+  padding: 0;
+  margin: 0;
+  margin-top: -13px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.features-main-sec .cust-row .cust-column:nth-child(2) {
+  margin-top: 87px;
+}
+.features-main-sec .cust-row .col-md-4 {
+  padding: 41px;
+  width: 100% !important;
+  border-radius: 25px;
+  position: relative;
+  background: linear-gradient(0deg, #000, #170A09);
+}
+.features-main-sec .cust-row .col-md-4 h4.cust-inner-title {
+  font-size: 40px;
+  line-height: 50px;
+  max-width: 268px;
+  margin-bottom: 30px;
+}
+.features-main-sec .cust-row .col-md-4 p {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+.features-main-sec .cust-row .col-md-4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(242, 110, 101, 0) 0%, rgb(242, 110, 101) 100%) border-box;
+  border-radius: 25px;
+  margin: -1px;
+  z-index: -1;
+}
+
+/* awsome features product end */
 /*# sourceMappingURL=main.css.map */

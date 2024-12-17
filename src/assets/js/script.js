@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
 /* mission-video' js end */
 
 /* Testimonial Section */
-
+if (document.querySelector(".testimonial-con-sec")) {
 function createContinuousMarquee(columnSelector, direction, speedMultiplier = 1) {
   const column = document.querySelector(columnSelector);
   const items = Array.from(column.children);
@@ -255,7 +255,7 @@ function createContinuousMarquee(columnSelector, direction, speedMultiplier = 1)
 createContinuousMarquee(".column-1", -1, 0.7);
 createContinuousMarquee(".column-2", 1, 1);
 createContinuousMarquee(".column-3", -1, 0.7);
-
+}
 /* Testimonial Section Complete */
 
 /* Counter Slider Section */
@@ -809,7 +809,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* Typing Animation JS Start */
 
-var textWrappers = document.querySelectorAll('h3, h4, h5, h6, a.ft-button span');
+var textWrappers = document.querySelectorAll(
+  'h3:not(.development-service .service-item h3), h4, h5, h6, a.ft-button span'
+); // Exclude .development-service h3
 
 textWrappers.forEach((textWrapper) => {
   textWrapper.innerHTML = textWrapper.textContent
@@ -856,7 +858,7 @@ Element.prototype.nextElementSiblings = function (selector) {
   while (nextSibling) {
     if (nextSibling.matches(selector)) {
       siblings.push(nextSibling);
-    } else if (nextSibling.matches('h3, h4, h5, h6, a.ft-button span')) {
+    } else if (nextSibling.matches('h3:not(.development-service .service-item h3), h4, h5, h6, a.ft-button span')) {
       break;
     }
     nextSibling = nextSibling.nextElementSibling;
@@ -865,6 +867,7 @@ Element.prototype.nextElementSiblings = function (selector) {
 };
 
 textWrappers.forEach(textWrapper => observer.observe(textWrapper));
+
 
 
 /* Typing Animation JS End */
@@ -889,6 +892,20 @@ var swiper = new Swiper(".myblog-post", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    1200:{
+      slidesPerView: 3,
+      spaceBetween: 30, 
+    },
+    1024:{
+      slidesPerView: 2.4,
+      spaceBetween: 30, 
+    },
+    768: {
+      slidesPerView: 1.4,
+      spaceBetween: 20, 
+    },
   },
   on: {
     autoplayTimeLeft(s, time, progress) {

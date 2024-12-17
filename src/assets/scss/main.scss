@@ -4,6 +4,7 @@ $primaryColor: #000000;
 $secondaryColor: #F26E65;
 $textBaseColor: #636363;
 $white: #fff;
+$offwhite: rgba(255, 255, 255, 0.8);
 $borderColor: rgba(255, 255, 255, 0.25);
 $menuBoxShadow: 0px 0px 30px 0px rgba(242, 110, 101, 0.58);
 $footerlink: #868686;
@@ -111,14 +112,22 @@ h1 {
   }
 
   @include mobileSmall {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   span {
     display: block;
 
+    @include mobileLarge {
+      text-align: center;
+    }
+
     &.from-right {
       text-align: right;
+
+      @include mobileLarge {
+        text-align: center;
+      }
     }
   }
 
@@ -147,6 +156,24 @@ h1 {
 
   @include desktopLarge {
     max-width: 1440px;
+  }
+
+  @include mobileLarge {
+    max-width: none;
+    padding: 0px 30px;
+  }
+}
+
+.listion-container {
+  width: 100%;
+  margin: 0 auto;
+
+  @include desktopSmallMin {
+    max-width: 1440px;
+  }
+
+  @include desktopLarge {
+    max-width: 1580px;
   }
 
   @include mobileLarge {
@@ -269,6 +296,12 @@ h1 {
       height: 100%;
     }
   }
+
+  @include mobileLarge {
+    font-size: 16px;
+    width: 163px;
+    height: 40px;
+  }
 }
 
 .secondary-btn {
@@ -291,6 +324,12 @@ h1 {
     background-color: $secondaryColor;
     color: $white;
     border-color: $secondaryColor;
+  }
+
+  @include mobileLarge {
+    font-size: 16px;
+    width: 163px;
+    height: 40px;
   }
 }
 
@@ -568,7 +607,7 @@ header {
 
     @include mobileLarge {
       flex-direction: column;
-      gap: 40px;
+      gap: 20px;
     }
   }
 
@@ -870,9 +909,17 @@ header {
     -webkit-transform-origin: center;
     will-change: transform;
 
+    @include mobileLarge {
+      height: 100vh;
+    }
+
     svg {
       width: 100vw;
       height: 100%;
+
+      @include mobileLarge {
+        height: 100vh;
+      }
     }
   }
 
@@ -940,6 +987,18 @@ header {
   background-color: $white;
   z-index: 9;
 
+  .row {
+    @include mobileLarge {
+      margin: 0px;
+    }
+  }
+
+  .col-full {
+    @include mobileLarge {
+      padding: 0px;
+    }
+  }
+
   .heading-main-sec {
     h4 {
       font-size: 80px;
@@ -954,7 +1013,7 @@ header {
       }
 
       @include mobileLarge {
-        font-size: 40px;
+        font-size: 36px;
       }
     }
 
@@ -964,6 +1023,10 @@ header {
       font-size: 18px;
       line-height: 1.8;
       margin: 0 auto 30px auto;
+
+      @include mobileLarge {
+        font-size: 16px;
+      }
 
       &:last-child {
         margin: 0 auto;
@@ -1014,6 +1077,11 @@ header {
     z-index: 9;
     transition: transform 1s ease-out;
 
+    @include mobileLarge {
+      height: auto;
+      padding: 50px 0px;
+    }
+
     &.reverse {
       .row {
         flex-direction: row-reverse;
@@ -1053,6 +1121,21 @@ header {
           margin: 0 0 30px 0;
           // display: flex;
           flex-wrap: wrap;
+
+          @include desktopSmall {
+            font-size: 60px;
+            line-height: 70px;
+          }
+
+          @include ipadLarge {
+            font-size: 50px;
+            line-height: 60px;
+          }
+
+          @include mobileLarge {
+            font-size: 36px;
+            line-height: 50px;
+          }
         }
 
         p {
@@ -1061,6 +1144,10 @@ header {
           text-align: left;
           color: $white;
           margin: 0 0 30px 0;
+
+          @include mobileLarge {
+            font-size: 16px;
+          }
         }
 
         a {
@@ -1087,12 +1174,18 @@ header {
 
       @include mobileLarge {
         position: unset;
+        margin-top: 40px;
+        max-height: 250px;
       }
 
       svg {
         path {
           stroke: $secondaryColor;
           opacity: 1;
+        }
+
+        @include mobileLarge {
+          height: 100%;
         }
       }
 
@@ -1220,6 +1313,11 @@ header {
       }
     }
 
+    .row {
+      @include mobileLarge {
+        margin: 0px;
+      }
+    }
   }
 }
 
@@ -1257,11 +1355,14 @@ header {
   width: 54px;
   left: 60px;
 
-
   .line-one {
     position: absolute;
     top: -100%;
     left: 0px;
+
+    @include mdScreen {
+      width: 100%;
+    }
   }
 
   .line-two {
@@ -1274,6 +1375,23 @@ header {
     position: absolute;
     top: 200px;
     left: 12px;
+  }
+
+  @include desktopSmall {
+    left: 30px;
+  }
+
+  @include mdScreen {
+    left: 30px;
+    width: 34px;
+  }
+
+  @include ipadLarge {
+    left: 20px;
+  }
+
+  @include mobileLarge {
+    left: 0px;
   }
 }
 
@@ -1288,6 +1406,16 @@ header {
   .line-one {
     top: -100%;
     position: absolute;
+
+    @include mdScreen {
+      width: 100%;
+    }
+
+    svg {
+      @include mdScreen {
+        width: 100%;
+      }
+    }
   }
 
   .line-two {
@@ -1301,6 +1429,23 @@ header {
     top: 200px;
     left: 20px;
   }
+
+  @include desktopSmall {
+    right: 30px;
+  }
+
+  @include mdScreen {
+    right: 30px;
+    width: 34px;
+  }
+
+  @include ipadLarge {
+    right: 20px;
+  }
+
+  @include mobileLarge {
+    right: 0px;
+  }
 }
 
 /* Line Animation CSS End */
@@ -1311,6 +1456,10 @@ header {
   position: relative;
   padding: 150px 0;
   overflow: hidden;
+
+  @include desktopSmall {
+    padding: 130px;
+  }
 
   .heading-main-sec {
     h4 {
@@ -1334,6 +1483,18 @@ header {
     height: 100%;
     padding: 100px 0;
     position: relative;
+
+    @include desktopSmall {
+      padding: 60px 0px;
+    }
+
+    @include ipadLarge {
+      padding: 50px 0px;
+    }
+
+    @include mobileLarge {
+      padding: 30px 0px;
+    }
   }
 
   .swiper-slide {
@@ -1363,6 +1524,14 @@ header {
       background-color: #000000;
       margin-top: -10px;
       border-radius: 0 0 10px 10px !important;
+
+      @include desktopSmall {
+        padding: 20px 60px 30px 20px;
+      }
+
+      @include mobileLarge {
+        padding: 15px 30px 15px 30px;
+      }
     }
 
     .blog-post-slide {
@@ -3091,7 +3260,7 @@ svg:not(:root) {
 
     .row {
       align-items: center;
-      position: relative;
+      position: unset;
       height: 100%;
 
       .content-col {
@@ -3107,16 +3276,19 @@ svg:not(:root) {
         }
       }
 
-      .svg-draw-sec.about-banner-svg {
-        position: absolute;
-        right: 0;
-        top: auto;
-        bottom: 0;
-        left: auto;
+      .svg-draw-sec {
+        &.about-banner-svg {
+          position: absolute;
+          right: 0;
+          top: auto;
+          bottom: -20px;
+          left: auto;
+          width: 65%;
+        }
 
         svg {
           width: 100%;
-          height: 100%;
+          // height: 100%;
 
           .svg-about-banner {
             opacity: 0;
@@ -3579,9 +3751,219 @@ svg:not(:root) {
 
 /* about page css end */
 
-/* Typing Effect CSS Start */
+/* =============== Service Page CSS Start =============== */
 
-/* Default opacity only for p and a following h3, h4, h5, h6 */
+.service-page {
+  .drawLogowrapper {
+    display: none;
+  }
+}
+
+/* Our Client sec css start */
+
+.ourclient-sec {
+  position: relative;
+  background-color: $white;
+  padding: 100px 0;
+
+  .ourclient-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  .ourclient-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+
+    .gallery-items {
+      border: 1px solid #dcdcdc;
+      border-radius: 20px;
+      max-width: 272px;
+      width: 100%;
+      min-height: 140px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $white;
+      z-index: 1;
+    }
+
+    .gallery-items-two,
+    .gallery-items-four {
+      margin-top: 50px;
+    }
+
+    .gallery-items-three {
+      margin-top: 100px;
+    }
+  }
+}
+
+/* Our Client sec css end */
+
+/* App Development sec css start */
+.app-development-sec {
+  padding-top: 150px;
+
+  .heading-main-sec {
+    text-align: left;
+    margin-bottom: 40px;
+
+    .development-heading {
+      color: #f26e65;
+      max-width: 1130px;
+      margin-left: auto;
+
+    }
+  }
+
+  .app-development-paragraph {
+    max-width: 1130px;
+    margin-left: auto;
+
+    .business-paragraph-second {
+      color: $white;
+    }
+  }
+
+  .top-development {
+    position: relative;
+
+    &:before {
+      content: "";
+      background-image: url(../../assets/img/top-development-shap.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 150px;
+      position: absolute;
+      top: 0;
+    }
+  }
+}
+
+/* App Development sec css end */
+
+/* App Service Section CSS Start */
+
+.development-service {
+  padding: 150px 0;
+  background-color: $white;
+  z-index: 9;
+
+  .heading-main-sec {
+    text-align: left;
+
+    h4 {
+      color: $primaryColor;
+      max-width: 650px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .service-listing {
+    .service-item {
+      .service-item-inner {
+        padding: 50px 0;
+        border-top: 1px solid #DCDCDC;
+        border-bottom: 1px solid #DCDCDC;
+        display: grid;
+
+        .count {
+          font-size: 16px;
+          color: #DCDCDC;
+          transition: color .4s ease-in-out .2s;
+          display: flex;
+          align-items: center;
+        }
+
+        h3 {
+          font-size: 40px;
+          line-height: 1;
+          color: #000;
+          font-weight: 900;
+          display: grid;
+          margin: 0;
+          grid-column: 4 / 14;
+          perspective: 52.5rem;
+          transition: color 1s cubic-bezier(.33, 1, .68, 1);
+          opacity: 1 !important;
+          transition: none !important;
+
+          span {
+            display: block;
+
+            &.default {
+              grid-area: 1 / 1 / 2 / 2;
+              transition: transform 1s cubic-bezier(.33, 1, .68, 1), opacity 1s cubic-bezier(.33, 1, .68, 1);
+              align-self: center;
+              transform-style: preserve-3d;
+              backface-visibility: hidden;
+              transform-origin: center center -.2em !important;
+            }
+
+            &.hover {
+              grid-area: 1 / 1 / 2 / 2;
+              opacity: 0;
+              color: #F26E65;
+              transform: translate3d(0, 25.5961px, -26.0467px) rotateX(-91deg);
+              transition: transform 1s cubic-bezier(.33, 1, .68, 1), opacity 1s cubic-bezier(.33, 1, .68, 1);
+              align-self: center;
+              transform-style: preserve-3d;
+              backface-visibility: hidden;
+              transform-origin: center center -.2em !important;
+            }
+          }
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          color: #636363;
+          max-width: 600px;
+          margin: 0 0 0 auto;
+          opacity: 0;
+          transform: translateY(1rem);
+          transition: opacity .8s ease-in-out, transform .8s ease-in-out;
+          align-self: center;
+          grid-column: 14 / 17;
+        }
+
+        &:hover {
+
+          .default {
+            opacity: 0;
+            transform: translate3d(0, -25.5961px, -26.0468px) rotateX(91deg);
+            transition-delay: 0s;
+          }
+
+          .hover {
+            opacity: 1;
+            transform: translate(0);
+            transition-delay: 0s;
+          }
+
+          p {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* App Service Section CSS End */
+
+/* =============== Service Page CSS End =============== */
+
+/* Typing Effect CSS Start */
 
 h3,
 h4,
@@ -3616,7 +3998,64 @@ h6+p+p {
   /* Smooth fade effect */
 }
 
-
-
-
 /* Typing Effect CSS End */
+
+/* awsome features product start */
+.features-main-sec {
+  padding: 150px 0px;
+
+  .cust-row {
+    gap: 30px;
+    align-items: self-start;
+
+    .cust-column {
+      flex-shrink: unset !important;
+      width: calc(33.33% - 20px);
+      padding: 0;
+      margin: 0;
+      margin-top: -13px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      &:nth-child(2) {
+        margin-top: 87px;
+
+      }
+    }
+
+    .col-md-4 {
+      padding: 41px;
+      width: 100% !important;
+      border-radius: 25px;
+      position: relative;
+      background: linear-gradient(0deg, #000, #170A09);
+
+      h4.cust-inner-title {
+        font-size: 40px;
+        line-height: 50px;
+        max-width: 268px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0;
+        color: $offwhite;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(0deg, rgba(242, 110, 101, 0) 0%, rgb(242, 110, 101) 100%) border-box;
+        border-radius: 25px;
+        margin: -1px;
+        z-index: -1;
+      }
+    }
+  }
+}
+
+/* awsome features product end */
