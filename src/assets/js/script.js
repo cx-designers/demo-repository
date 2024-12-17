@@ -78,82 +78,29 @@ tl.add(() => {
 /* Title Animation JS Start */
 /* Title Animation JS End */
 
-/* business practice js start */
 
-if (document.querySelector('.business-paragraph-second')) {
-  gsap.registerPlugin(ScrollTrigger);
 
-  const paragraphs = document.querySelectorAll('.business-paragraph-second');
+/* swiper-ourClient js start */
 
-  // Function to set active paragraph
-  function setActiveParagraph(activeParagraph) {
-    paragraphs.forEach((p) => {
-      gsap.to(p, {
-        filter: p === activeParagraph ? "blur(0px)" : "blur(2px)",
-        duration: 0.3, // Adjust duration for smoother transitions
-        overwrite: "auto",
-        ease: "power1.out",
-      });
+$(document).ready(function() {
+  // Check if the element with class .swiper-ourclient exists
+  if ($(".swiper-ourclient").length > 0) {
+    // Swiper: Slider
+    new Swiper(".swiper-ourclient", {
+      spaceBetween: 20, // Space between slides
+      slidesPerView: 5, // Display 5 full slides
+      centeredSlides: true, // Disable centered slides
+      roundLengths: true, // Round fractional values
+      loop: true, // Enable looping
+      loopAdditionalSlides: 30 // Additional slides to load for looping
     });
   }
-
-  // Function to find the paragraph closest to the center of the viewport
-  function getClosestParagraph() {
-    const midPoint = window.innerHeight / 2;
-    let closest = null;
-    let closestDistance = Infinity;
-
-    paragraphs.forEach((p) => {
-      const rect = p.getBoundingClientRect();
-      const distance = Math.abs(rect.top + rect.height / 2 - midPoint);
-
-      if (distance < closestDistance) {
-        closest = p;
-        closestDistance = distance;
-      }
-    });
-
-    return closest;
-  }
-
-  // ScrollTrigger setup for blur effects
-  paragraphs.forEach((paragraph) => {
-    ScrollTrigger.create({
-      trigger: paragraph,
-      start: "top 85%",
-      end: "bottom 45%",
-      onEnter: () => setActiveParagraph(paragraph),
-      onEnterBack: () => setActiveParagraph(paragraph),
-      onLeave: () => setActiveParagraph(null),
-      onLeaveBack: () => setActiveParagraph(null),
-      fastScrollEnd: true, // Handles high-speed scrolling scenarios
-      // markers: true, // Remove in production
-    });
-  });
-
-  // Throttled function to handle fast scrolling
-  let scrollTimeout;
-  window.addEventListener("scroll", () => {
-    if (scrollTimeout) {
-      clearTimeout(scrollTimeout);
-    }
-
-    scrollTimeout = setTimeout(() => {
-      const closest = getClosestParagraph();
-      setActiveParagraph(closest);
-    }, 100); // Delay ensures smooth adjustments after scroll ends
-  });
-
-  // Highlight the closest paragraph on load
-  const initialClosest = getClosestParagraph();
-  setActiveParagraph(initialClosest);
-}
+});
 
 
+/* swiper-ourClient js end */
 
-
-
-/* businessPractice js end */ 
+/* businessPractice js end */
 
 // Define a new function for the separated animations
 function runSeparatedAnimations() {
@@ -197,64 +144,62 @@ document.addEventListener('DOMContentLoaded', () => {
   const pauseVideos = document.querySelector('.pouse-videos');
 
   if (video && videoImg) {
-      // Initialize with `pauseVideos` hidden and startVideo visible
-      if (pauseVideos) pauseVideos.classList.add('hidden');
-      if (startVideo) startVideo.classList.remove('hidden');
+    // Initialize with `pauseVideos` hidden and startVideo visible
+    if (pauseVideos) pauseVideos.classList.add('hidden');
+    if (startVideo) startVideo.classList.remove('hidden');
 
-      videoImg.addEventListener('click', () => {
-          if (video.paused) {
-              video.play();
-          } else {
-              video.pause();
-          }
+    videoImg.addEventListener('click', () => {
+      if (video.paused) {
+        video.play();
+      } else {
+        video.pause();
+      }
 
-          // Toggle visibility of start/pause indicators with transition effect
-          if (startVideo && pauseVideos) {
-              startVideo.classList.toggle('hidden');
-              pauseVideos.classList.toggle('hidden');
-          }
-      });
-  } else {
-      console.error("Required elements (.mission-video, .video-img) not found in the DOM.");
+      // Toggle visibility of start/pause indicators with transition effect
+      if (startVideo && pauseVideos) {
+        startVideo.classList.toggle('hidden');
+        pauseVideos.classList.toggle('hidden');
+      }
+    });
   }
 });
 /* mission-video' js end */
 
 /* Testimonial Section */
 if (document.querySelector(".testimonial-con-sec")) {
-function createContinuousMarquee(columnSelector, direction, speedMultiplier = 1) {
-  const column = document.querySelector(columnSelector);
-  const items = Array.from(column.children);
+  function createContinuousMarquee(columnSelector, direction, speedMultiplier = 1) {
+    const column = document.querySelector(columnSelector);
+    const items = Array.from(column.children);
 
-  const clonedItems = items.map(item => item.cloneNode(true));
-  clonedItems.forEach(item => column.appendChild(item));
+    const clonedItems = items.map(item => item.cloneNode(true));
+    clonedItems.forEach(item => column.appendChild(item));
 
-  const itemHeight = items[0].offsetHeight;
-  const totalHeight = itemHeight * items.length;
+    const itemHeight = items[0].offsetHeight;
+    const totalHeight = itemHeight * items.length;
 
-  column.style.height = `${totalHeight * 2}px`;
+    column.style.height = `${totalHeight * 2}px`;
 
-  const marqueeAnimation = gsap.to(column, {
-    y: direction * totalHeight,
-    duration: (totalHeight / 50) * speedMultiplier,
-    ease: "none",
-    repeat: -1,
-    paused: false,
-    modifiers: {
-      y: gsap.utils.unitize((y) => {
-        const position = parseFloat(y) % totalHeight;
-        return direction === 1 ? position - totalHeight : position;
-      })
-    }
-  });
+    const marqueeAnimation = gsap.to(column, {
+      y: direction * totalHeight,
+      duration: (totalHeight / 50) * speedMultiplier,
+      ease: "none",
+      repeat: -1,
+      paused: false,
+      modifiers: {
+        y: gsap.utils.unitize((y) => {
+          const position = parseFloat(y) % totalHeight;
+          return direction === 1 ? position - totalHeight : position;
+        })
+      }
+    });
 
-  column.addEventListener("mouseenter", () => marqueeAnimation.pause());
-  column.addEventListener("mouseleave", () => marqueeAnimation.resume());
-}
+    column.addEventListener("mouseenter", () => marqueeAnimation.pause());
+    column.addEventListener("mouseleave", () => marqueeAnimation.resume());
+  }
 
-createContinuousMarquee(".column-1", -1, 0.7);
-createContinuousMarquee(".column-2", 1, 1);
-createContinuousMarquee(".column-3", -1, 0.7);
+  createContinuousMarquee(".column-1", -1, 0.7);
+  createContinuousMarquee(".column-2", 1, 1);
+  createContinuousMarquee(".column-3", -1, 0.7);
 }
 /* Testimonial Section Complete */
 
@@ -467,17 +412,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Animation for the third SVG to move down slowest
-  gsap.to(".line-three", {
-    y: 120, // Move down slowest
-    scrollTrigger: {
-      trigger: ".site_wrapper",
-      start: "top 100%",
-      end: "bottom top",
-      scrub: true,
-    }
-  });
-
   gsap.set('.cursor', { xPercent: -50, yPercent: -50, scale: 1, opacity: 1 });
 
   let cursor = document.querySelector('.cursor');
@@ -571,47 +505,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   setInterval(fadeImagesRandomly, 5000);
-
-  // Track the mouse movement
-  const flyingSection = document.querySelector('.hero-wrapper');
-  const cloudFlying = document.querySelector('.awards-main-sec');
-  // const objects = document.querySelectorAll('.flying');
-
-  flyingSection.addEventListener('mousemove', (e) => {
-    const { clientX: mouseX, clientY: mouseY } = e;
-
-    // Loop through each flying object
-    flyingObjects.forEach((object, index) => {
-      // Add slight delay based on index for a parallax effect
-      const delay = index * 0.05;
-
-      gsap.to(object, {
-        x: (mouseX - window.innerWidth / 2) * 0.009 * (index + 1),  // Move horizontally
-        y: (mouseY - window.innerHeight / 2) * 0.009 * (index + 1), // Move vertically
-        duration: 0.3,
-        ease: "power1.out",
-        delay: delay
-      });
-    });
-  });
-
-  cloudFlying.addEventListener('mousemove', (e) => {
-    const { clientX: mouseX, clientY: mouseY } = e;
-
-    // Loop through each flying object
-    cloudObjects.forEach((object, index) => {
-      // Add slight delay based on index for a parallax effect
-      const delay = index * 0.05;
-
-      gsap.to(object, {
-        x: (mouseX - window.innerWidth / 2) * 0.009 * (index + 1),  // Move horizontally
-        y: (mouseY - window.innerHeight / 2) * 0.009 * (index + 1), // Move vertically
-        duration: 0.3,
-        ease: "power1.out",
-        delay: delay
-      });
-    });
-  });
 
 });
 
@@ -746,7 +639,7 @@ sections.forEach((section) => {
     onEnter: () => {
       paths.forEach((path) => {
         const length = path.getTotalLength();
-        
+
         // Set initial strokeDasharray and strokeDashoffset
         gsap.set(path, {
           strokeDasharray: length,
@@ -770,7 +663,7 @@ sections.forEach((section) => {
     },
   });
 });
- 
+
 
 
 
@@ -894,17 +787,17 @@ var swiper = new Swiper(".myblog-post", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    1200:{
+    1200: {
       slidesPerView: 3,
-      spaceBetween: 30, 
+      spaceBetween: 30,
     },
-    1024:{
+    1024: {
       slidesPerView: 2.4,
-      spaceBetween: 30, 
+      spaceBetween: 30,
     },
     768: {
       slidesPerView: 1.4,
-      spaceBetween: 20, 
+      spaceBetween: 20,
     },
   },
   on: {
@@ -923,13 +816,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.fromTo(
   ".section_integration .animated-img-sec img",
-  { 
-    scale: 0, 
+  {
+    scale: 0,
     y: 1000,
-  }, 
-  { 
-    scale: 1, 
-    y: 0, 
+  },
+  {
+    scale: 1,
+    y: 0,
     rotation: 0,
     duration: 1,
     ease: "power2.out",
@@ -945,60 +838,240 @@ gsap.fromTo(
 
 /* Service SEction Shap Animation Start */
 
-// GSAP animations remain the same
-gsap.to(".inner-shap-1", {
-  rotation: 360,
-  x: "100vw",
-  y: "100vh",             
-  repeat: -1,             
-  yoyo: true,             
-  paused: true,           
-  scrollTrigger: {
-    trigger: ".inner-service-wrapper",
-    start: "top bottom",  
-    end: "bottom top",    
-    scrub: true,          
-    toggleActions: "play none none reverse",  
-  }
-});
-
-gsap.to(".inner-shap-2", {
-  rotation: -360,         
-  x: "-100vw",            
-  y: "-100vh",            
-  repeat: -1,             
-  yoyo: true,             
-  paused: true,           
-  scrollTrigger: {
-    trigger: ".inner-service-wrapper",  
-    start: "top bottom",  
-    end: "bottom top",    
-    scrub: true,          
-    toggleActions: "play none none reverse",  
-  }
-});
-
-const serviceWrapper = document.querySelector('.inner-service-wrapper');
-const serviceShap = document.querySelector('.inner-service-shap');
-
-const observerService = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      serviceShap.classList.add('fixed');
+// Check if "inner-service-wrapper" exists before running the function
+if (document.querySelector('.inner-service-wrapper')) {
+  
+  // GSAP animations remain the same
+  gsap.to(".inner-shap-1", {
+    rotation: 360,
+    x: "100vw",
+    y: "100vh",
+    repeat: -1,
+    yoyo: true,
+    paused: true,
+    scrollTrigger: {
+      trigger: ".inner-service-wrapper",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: true,
+      toggleActions: "play none none reverse",
     }
   });
-}, { threshold: 0.1 });
 
-observerService.observe(serviceWrapper);
-
-const serviceList = document.querySelector('.inner-service-list');
-
-const observerServiceList = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (!entry.isIntersecting) {
-      serviceShap.classList.remove('fixed');
+  gsap.to(".inner-shap-2", {
+    rotation: -360,
+    x: "-100vw",
+    y: "-100vh",
+    repeat: -1,
+    yoyo: true,
+    paused: true,
+    scrollTrigger: {
+      trigger: ".inner-service-wrapper",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: true,
+      toggleActions: "play none none reverse",
     }
   });
-}, { threshold: 0 });
 
-observerServiceList.observe(serviceList);
+  const serviceWrapper = document.querySelector('.inner-service-wrapper');
+  const serviceShap = document.querySelector('.inner-service-shap');
+
+  const observerService = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        serviceShap.classList.add('fixed');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  observerService.observe(serviceWrapper);
+
+  const serviceList = document.querySelector('.inner-service-list');
+
+  const observerServiceList = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) {
+        serviceShap.classList.remove('fixed');
+      }
+    });
+  }, { threshold: 0 });
+
+  observerServiceList.observe(serviceList);
+}
+
+
+/* Squad Section JS Start */
+
+if (document.querySelector('.hire-main-sec')) {
+
+gsap.registerPlugin(ScrollTrigger);
+
+let lastScrollTop = 0; 
+
+ScrollTrigger.create({
+  trigger: ".hire-main-sec",
+  start: "top top",
+  end: "+=100%", 
+  pin: true,
+  scrub: 0.5,
+});
+
+const items = document.querySelectorAll(".hire-con-item");
+
+function animateRandomItem(scrollDirection) {
+  const randomItem = items[Math.floor(Math.random() * items.length)];
+
+  if (scrollDirection === 'down') {
+    gsap.to(randomItem, {
+      opacity: 1,
+      filter: "blur(0px)",
+      duration: 0.8,
+      ease: "power2.out",
+    });
+  } else if (scrollDirection === 'up') {
+    gsap.to(randomItem, {
+      opacity: 0,
+      filter: "blur(10px)",
+      duration: 0.8,
+      ease: "power2.out",
+    });
+  }
+}
+
+ScrollTrigger.create({
+  trigger: ".hire-main-sec",
+  start: "top top",
+  end: "+=200%",
+  onUpdate: (self) => {
+    let scrollDirection = self.direction === 1 ? 'down' : 'up';
+
+    if (self.progress > 0 && self.progress < 1) {
+      animateRandomItem(scrollDirection); 
+    }
+
+    if (self.scroll() > lastScrollTop) {
+      scrollDirection = 'down'; 
+    } else {
+      scrollDirection = 'up'; 
+    }
+    lastScrollTop = self.scroll();
+  },
+  scrub: 0.2, 
+});
+
+}
+
+/* Squad Section JS End */
+
+/* Animated Section JS Start */
+
+
+// Check for `.animated-section` element existence
+if (document.querySelector(".Process-main-sec")) {
+  // Select the items to animate
+  const boxes = gsap.utils.toArray(".animated-section .item");
+  
+  // Total width for scroll animation based on number of items
+  const containerWidth = boxes.reduce((acc, el) => acc + el.offsetWidth, 0);
+  const offset = -containerWidth + window.innerWidth / 2; // Total offset for smooth scroll
+  
+  // Scroll-triggered horizontal movement for items
+  gsap.to(boxes, {
+    scrollTrigger: {
+      trigger: ".Process-main-sec",  // Pinning on this section
+      start: "top top",  // Pin when the section reaches the top
+      end: () => `+=${containerWidth}`,  // End pinning after all items move
+      scrub: true,  // Smooth scrubbing effect
+      pin: ".Process-main-sec", // Pin the section during scroll
+      pinSpacing: true, // Prevent extra space for pinned section
+      onEnter: () => {
+        console.log('Process section pinned and scrolling started');
+      },
+      onLeave: () => {
+        console.log('Process section unpinned, next section can scroll');
+      },
+      onLeaveBack: () => {
+        console.log('Scroll has passed back through the Process section');
+      }
+    },
+    x: offset,  // Move items horizontally
+    ease: "linear"  // Smooth linear transition
+  });
+
+  // Scale items based on scroll position of first item
+  let initialPos = boxes[0].getBoundingClientRect().left;
+
+  function scaleItems() {
+    const currentPos = boxes[0].getBoundingClientRect().left;
+    const scaleAmount = Math.min(Math.abs((initialPos - currentPos) * 0.0175), 1); // Calculate scale value based on movement
+    gsap.to(boxes, { scale: 1 - scaleAmount / 2 }); // Scale all items on scroll
+
+    initialPos = currentPos; // Update position for next cycle
+    requestAnimationFrame(scaleItems); // Continuously update scaling
+  }
+
+  scaleItems();
+}
+
+/* Animated Section JS End */
+
+
+/* FAQ accordion js Start */
+
+jQuery(document).ready(function ($) {
+  $(".faq-area-block-wrap .at-title").click(function () {
+    var $this = $(this);
+    var $parentWrap = $this.closest(".faq-area-block-wrap");
+    var $content = $parentWrap.find(".at-tab");
+
+    if ($this.hasClass("active")) {
+      // Remove active class and hide content
+      $this.removeClass("active");
+      $parentWrap.removeClass("active");
+      $content.slideUp();
+    } else {
+      // Close all other open items
+      $(".faq-area-block-wrap .at-title.active")
+        .removeClass("active")
+        .closest(".faq-area-block-wrap")
+        .removeClass("active")
+        .find(".at-tab")
+        .slideUp();
+
+      // Open the clicked item and add active class
+      $this.addClass("active");
+      $parentWrap.addClass("active");
+      $content.slideDown();
+    }
+  });
+});
+
+/* FAQ accordion js End */
+
+
+/* Dedicated Team js start */
+$(document).ready(function() {
+  // Check if the element with class .swiper-ourclient exists
+  if ($(".dedicated-slider").length > 0) {
+    // Swiper: Slider
+    new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true,
+      },
+
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+
+      
+    });
+  }
+});
+/* Dedicated Team js end */

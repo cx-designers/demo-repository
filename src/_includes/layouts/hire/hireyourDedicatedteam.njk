@@ -1,0 +1,39 @@
+<section class="our-dedicated-team">
+    <img src="../../../assets/img/dedicated-ba.webp" alt="" class="img-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-full">
+                <div class="heading-main-sec">
+                    <h3>{{dedicatedteamSubtitle}}</h3>
+                    <strong>
+                        <h4>{{dedicatedteamTitle}}</h4>
+                        <b><h4>{{dedicatedteamTitleone}}</h4></b>
+                    </strong>        
+                    <h4>{{dedicatedteamTitletwo}}</h4>
+                    <p>{{dedicatedteamTitledescription}}</p>   
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div class="dedicated-slider-bar">
+                    <div class="swiper-container dedicated-slider">
+                        <div class="swiper-wrapper">
+                          {% for step in steps %}
+                          <div class="swiper-slide">
+                            <div class="step-card">
+                              <h5>{{ step.title }}</h5>
+                              <p>{{ step.description }}</p>
+                              <span class="step-number">{{ step.stepNumber }}</span>
+                            </div>
+                          </div>
+                          {% endfor %}
+                        </div>
+                    </div>  
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

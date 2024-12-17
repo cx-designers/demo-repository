@@ -1,0 +1,41 @@
+<div class="industries-section">
+
+  <div class="industries-shap">
+    <div class="image-sec">
+      <img src={{industriesShapeImg}} alt={{industriesShapeImgAlt}}>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-full">
+        <div class="heading-main-sec">
+          <h3><span>{{industriesSubTitle}}</span></h3>
+          <h4>{{industriesTitle}}<span>{{industriesTitlePart}}</span></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-full">
+      <div class="product-slider">
+        <div class="slider">
+          {% for item in industriesData %}
+          <div class="slider-item">
+            <div class="industries-item">
+              <div class="image-sec">
+                <img src="{{ item.img }}" alt="{{ item.alt }}">
+              </div>
+              <div class="industries-title">
+                <p>{{ item.title }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<!-- app-development sec start -->
+<section class="app-development-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-full">
+          <div class="heading-main-sec">
+            <h3><span>{{ devSubTitle }}</span></h3>
+            <h4>{{ devTitle }}</h4>
+            <h4 class="development-heading">{{ devTitlePart }}</h4>
+          </div>
+  
+          <div class="development-paragraph-main">
+            {% for item in devInformationList %}
+              <div class="app-development-paragraph">
+                <h3><span></span></h3>
+                <h4></h4>   
+                <p class="business-paragraph-second ">{{ item.infoItem }}</p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-development">
+      <img src="{{ devBgImg }}" alt="{{ devBgAlt }}" class="img-fluid">
+    </div>
+  </section>
+  <!-- app-development sec end -->
