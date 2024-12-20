@@ -27,4 +27,17 @@ industriesData:
   alt: "Social Network"
   title: "Social Network"
 
+awardTopLamp: "assets/img/lamp.webp"
+awardTopLampLight: "assets/img/lamp-light.webp"
+awardsList:
+- img: "assets/img/a1.webp"
+  alt: "a1"
+- img: "assets/img/a2.webp"
+  alt: "a2"
+- img: "assets/img/a3.webp"
+  alt: "a3"
+- img: "assets/img/a4.webp"
+  alt: "a4"
+- img: "assets/img/a5.webp"
+  alt: "a5"
 ---

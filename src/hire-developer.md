@@ -128,4 +128,19 @@ steps:
     description: "We perform extensive testing before delivering the project to make sure it is bug-free and ready for deployment."
     stepNumber: "04"
 
+
+
+ourProjectsSubTitle: Projects
+ourProjectsTitle: Our Projects
+ourProjectList:
+- projectImg: "assets/img/our-project-01.webp"
+  alt: "our Project 01"
+- projectImg: "assets/img/our-project-02.webp"
+  alt: "our Project 02"
+- projectImg: "assets/img/our-project-03.webp"
+  alt: "our Project 03"
+- projectImg: "assets/img/our-project-04.webp"
+  alt: "our Project 04"
+
+
 ---

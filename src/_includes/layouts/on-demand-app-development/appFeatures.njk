@@ -1,0 +1,33 @@
+<section class="app-features">
+    <div class="container">
+        <div class="heading-main-sec">
+            <h3>{{appfeaturesSubtitle}}</h3>
+            <h4>{{appfeaturesTitle}}</h4>
+        </div>
+        <div class="features-tab">
+            <div class="tabs">
+                <ul class="tab-buttons">
+                  {% for tab in tabs %}
+                    <li data-tab="tab-{{ loop.index }}" class="{% if loop.first %}active{% endif %}">
+                      {{ tab.title }}
+                    </li>
+                  {% endfor %}
+                </ul>
+              
+                <div class="tab-contents">
+                  {% for tab in tabs %}
+                  <div id="tab-{{ loop.index }}" class="tab-content {% if loop.first %}active{% endif %}">
+                    <ul class="features-list">
+                      {% for feature in tab.features %}
+                      <li class="{% if feature.available %}available{% else %}unavailable{% endif %}">
+                        <span> {{ feature.text }} </span>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+        </div>
+    </div>
+</section>

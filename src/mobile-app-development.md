@@ -1,7 +1,7 @@
 ---
-layout: layouts/service.njk
+layout: layouts/mobile-app-development.njk
 title: Website Design & Development Company - Cypherox Technologies
-bodyClass: "service-page"
+bodyClass: "mobile-app-development"
 permalink: mobile-app-development.html
 bannersubTitle: "Service"
 bannerTitle: "Mobile App Development"
@@ -46,7 +46,7 @@ devInformationList :
 - infoItem: Our services are specifically designed to embed your business with digital magnificence. Having an online presence with a credible impression isn’t always enough to help you stay there forever. That is the reason we supervise safety and security concerns with the utmost care. Developing such a system that cannot be penetrated by devil coders and spammers is equally important along with the reliable performance and captivating design. Our quality control team assesses the measurements of quality acquired by the final product before live deployment.
 - infoItem: Our services are specifically designed to embed your business with digital magnificence. Having an online presence with a credible impression isn’t always enough to help you stay there forever. That is the reason we supervise safety and security concerns with the utmost care. Developing such a system that cannot be penetrated by devil coders and spammers is equally important along with the reliable performance and captivating design. Our quality control team assesses the measurements of quality acquired by the final product before live deployment.
 - infoItem: Our services are specifically designed to embed your business with digital magnificence. Having an online presence with a credible impression isn’t always enough to help you stay there forever. That is the reason we supervise safety and security concerns with the utmost care. Developing such a system that cannot be penetrated by devil coders and spammers is equally important along with the reliable performance and captivating design. Our quality control team assesses the measurements of quality acquired by the final product before live deployment.
-devBgImg: "/assets/img/top-development.png"
+devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
 industriesShapeImg: "/assets/img/industries-bg-shap.webp"

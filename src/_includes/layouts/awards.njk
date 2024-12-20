@@ -1,0 +1,11 @@
+<section class="awards-sec">
+<div class="awards-row">
+  {% for item in awardsList %}
+  <div class="award-col relative">
+    <img src={{awardTopLamp}} alt="top-lamp" class="top-lamp">
+    <img src={{awardTopLampLight}} alt="top-lamp" class="top-lamp light-lamp">
+    <img src={{item.img}} alt={{item.alt}} class="award-item">
+  </div>
+  {% endfor %}
+</div>
+</section>

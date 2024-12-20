@@ -82,7 +82,7 @@ tl.add(() => {
 
 /* swiper-ourClient js start */
 
-$(document).ready(function() {
+$(document).ready(function () {
   // Check if the element with class .swiper-ourclient exists
   if ($(".swiper-ourclient").length > 0) {
     // Swiper: Slider
@@ -840,7 +840,7 @@ gsap.fromTo(
 
 // Check if "inner-service-wrapper" exists before running the function
 if (document.querySelector('.inner-service-wrapper')) {
-  
+
   // GSAP animations remain the same
   gsap.to(".inner-shap-1", {
     rotation: 360,
@@ -905,60 +905,30 @@ if (document.querySelector('.inner-service-wrapper')) {
 
 if (document.querySelector('.hire-main-sec')) {
 
-gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger);
 
-let lastScrollTop = 0; 
+  // GSAP Timeline for Animations
+  const timeline = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".hire-main-sec .hire-con-row",
+      start: "top center", // Section at the center of the screen
+      end: "bottom center",
+      toggleActions: "play none none none",
+    },
+  });
 
-ScrollTrigger.create({
-  trigger: ".hire-main-sec",
-  start: "top top",
-  end: "+=100%", 
-  pin: true,
-  scrub: 0.5,
-});
+  // Get all ".hire-con-item" elements and shuffle them for random order
+  const items = gsap.utils.shuffle(gsap.utils.toArray(".hire-con-item"));
 
-const items = document.querySelectorAll(".hire-con-item");
-
-function animateRandomItem(scrollDirection) {
-  const randomItem = items[Math.floor(Math.random() * items.length)];
-
-  if (scrollDirection === 'down') {
-    gsap.to(randomItem, {
+  // Animate each ".hire-con-item" in random order
+  items.forEach((item) => {
+    timeline.to(item, {
       opacity: 1,
-      filter: "blur(0px)",
-      duration: 0.8,
-      ease: "power2.out",
+      filter: "blur(0px)", // Animate blur to 0px
+      duration: 0.2,
+      delay: Math.random() * 0.2, // Add a random delay to make it appear more random
     });
-  } else if (scrollDirection === 'up') {
-    gsap.to(randomItem, {
-      opacity: 0,
-      filter: "blur(10px)",
-      duration: 0.8,
-      ease: "power2.out",
-    });
-  }
-}
-
-ScrollTrigger.create({
-  trigger: ".hire-main-sec",
-  start: "top top",
-  end: "+=200%",
-  onUpdate: (self) => {
-    let scrollDirection = self.direction === 1 ? 'down' : 'up';
-
-    if (self.progress > 0 && self.progress < 1) {
-      animateRandomItem(scrollDirection); 
-    }
-
-    if (self.scroll() > lastScrollTop) {
-      scrollDirection = 'down'; 
-    } else {
-      scrollDirection = 'up'; 
-    }
-    lastScrollTop = self.scroll();
-  },
-  scrub: 0.2, 
-});
+  });
 
 }
 
@@ -971,11 +941,11 @@ ScrollTrigger.create({
 if (document.querySelector(".Process-main-sec")) {
   // Select the items to animate
   const boxes = gsap.utils.toArray(".animated-section .item");
-  
+
   // Total width for scroll animation based on number of items
   const containerWidth = boxes.reduce((acc, el) => acc + el.offsetWidth, 0);
   const offset = -containerWidth + window.innerWidth / 2; // Total offset for smooth scroll
-  
+
   // Scroll-triggered horizontal movement for items
   gsap.to(boxes, {
     scrollTrigger: {
@@ -1020,15 +990,15 @@ if (document.querySelector(".Process-main-sec")) {
 /* FAQ accordion js Start */
 
 jQuery(document).ready(function ($) {
-  $(".faq-area-block-wrap .at-title").click(function () {
+  $(".faq-area-block-wrap").click(function () {
     var $this = $(this);
-    var $parentWrap = $this.closest(".faq-area-block-wrap");
-    var $content = $parentWrap.find(".at-tab");
+    var $content = $this.find(".at-tab");
+    var $title = $this.find(".at-title");
 
-    if ($this.hasClass("active")) {
+    if ($title.hasClass("active")) {
       // Remove active class and hide content
+      $title.removeClass("active");
       $this.removeClass("active");
-      $parentWrap.removeClass("active");
       $content.slideUp();
     } else {
       // Close all other open items
@@ -1040,8 +1010,8 @@ jQuery(document).ready(function ($) {
         .slideUp();
 
       // Open the clicked item and add active class
+      $title.addClass("active");
       $this.addClass("active");
-      $parentWrap.addClass("active");
       $content.slideDown();
     }
   });
@@ -1051,7 +1021,7 @@ jQuery(document).ready(function ($) {
 
 
 /* Dedicated Team js start */
-$(document).ready(function() {
+$(document).ready(function () {
   // Check if the element with class .swiper-ourclient exists
   if ($(".dedicated-slider").length > 0) {
     // Swiper: Slider
@@ -1070,8 +1040,73 @@ $(document).ready(function() {
         disableOnInteraction: false,
       },
 
-      
+
     });
   }
 });
 /* Dedicated Team js end */
+
+
+/* Specialize Section JS Start */
+
+const tabButtons = document.querySelectorAll('.tab-btn');
+const tabContents = document.querySelectorAll('.tab-contents');
+
+tabButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const targetTab = button.getAttribute('data-tab');
+
+    tabButtons.forEach((btn) => btn.classList.remove('active'));
+    tabContents.forEach((content) => content.classList.remove('active'));
+
+    button.classList.add('active');
+    document.getElementById(targetTab).classList.add('active');
+  });
+});
+
+/* Specialize Section JS End */
+
+
+/* Our Projects js start */
+
+if ($(".projects-main-sec").length > 0) {
+  gsap.utils.toArray('.projects-item').forEach((item, index) => {
+    const isEven = (index + 1) % 2 === 0; 
+
+    gsap.from(item, {
+      x: isEven ? 100 : -100, 
+      opacity: 0, 
+      duration: 1, 
+      ease: 'power2.out',
+      scrollTrigger: {
+        trigger: item, 
+        start: "top 80%",
+        end: "top 50%", 
+        toggleActions: "play none none reverse",
+      }
+    });
+  });
+}
+
+/* Our Projects js End */
+
+
+// App Features Tabs js Start
+document.addEventListener("DOMContentLoaded", function () {
+  const tabButtons = document.querySelectorAll(".tab-buttons li");
+  const tabContents = document.querySelectorAll(".tab-content");
+
+  tabButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      const tabId = this.getAttribute("data-tab");
+
+      tabButtons.forEach((btn) => btn.classList.remove("active"));
+      tabContents.forEach((content) => content.classList.remove("active"));
+
+      this.classList.add("active");
+      document.getElementById(tabId).classList.add("active");
+    });
+  });
+});
+
+// App Features Tabs js End
