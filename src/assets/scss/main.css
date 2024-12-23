@@ -4445,6 +4445,122 @@ svg:not(:root) {
 }
 
 /*phases on demands app info css end*/
+/*on demand app slider area css start*/
+.on-demand-app-slider-area {
+  padding: 150px 0;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block {
+  margin-top: 40px;
+  border-radius: 40px;
+  border: 1px solid #262626;
+  padding: 60px 0px 0;
+  height: 75vh;
+  position: relative;
+  overflow: hidden;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block::before {
+  content: "";
+  width: 600px;
+  height: 100%;
+  background-color: #F26E65;
+  border-radius: 25rem;
+  opacity: 0.25;
+  position: absolute;
+  z-index: -1;
+  left: 5%;
+  top: 10%;
+  filter: blur(1000px);
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider {
+  height: 100%;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner {
+  margin: 0;
+  position: relative;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner .on-demand-app-slider-block-inner-left {
+  width: 50%;
+  position: relative;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner .on-demand-app-slider-block-inner-left .on-demand-app-slider-block-inner-left-img-icon {
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  z-index: -1;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 530px;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner .on-demand-app-slider-block-inner-left .on-demand-app-slider-block-inner-left-img img {
+  width: 100%;
+  height: 540px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner .on-demand-app-slider-block-inner-right {
+  width: 50%;
+  padding-left: 40px;
+  padding-right: 120px;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner .on-demand-app-slider-block-inner-right .on-demand-app-slider-block-inner-right-info .heading {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 400;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner .on-demand-app-slider-block-inner-right .on-demand-app-slider-block-inner-right-info .para {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4392156863);
+  margin: 30px 0;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner .on-demand-app-slider-block-inner-right .on-demand-app-slider-block-inner-right-info ul.points {
+  margin: 0;
+  padding: 0;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner .on-demand-app-slider-block-inner-right .on-demand-app-slider-block-inner-right-info ul.points li {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-slider .on-demand-app-slider-block-inner .on-demand-app-slider-block-inner-right .on-demand-app-slider-block-inner-right-info ul.points li .icons svg {
+  overflow: visible;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-pagi {
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-pagi .swiper-pagination-bullet {
+  background-color: #F26E65;
+  border-color: #F26E65;
+  border: 1px solid;
+  border-radius: 25rem;
+  width: 4px;
+  height: 20px;
+  opacity: 1;
+}
+.on-demand-app-slider-area .on-demand-app-slider-block .od-app-pagi .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: transparent;
+  border-color: #F26E65;
+  height: 40px;
+  width: 8px;
+}
+
+/*on demand app slider area css end*/
 /* =============== On Demand App Development Page CSS Start =============== */
 /* =============== Development Consulting Page CSS Start =============== */
 .turning-app-ideas {
@@ -4638,6 +4754,60 @@ svg:not(:root) {
   margin-right: 10px;
 }
 
+/* consulting sec start */
+.development-consulting-page .drawLogowrapper {
+  display: none;
+}
+.development-consulting-page .about-hero .about-wrapper .container .row .svg-draw-sec {
+  bottom: 30px;
+  width: 49%;
+}
+.development-consulting-page .about-hero .about-wrapper .container .row .content-col h4 {
+  max-width: 400px;
+  width: 100%;
+}
+
+/* consulting sec end */
+/* app ideas sec start */
+.app-ideas-sec {
+  padding: 185px 0;
+  position: relative;
+}
+.app-ideas-sec .heading-main-sec h3 {
+  text-align: left;
+  font-weight: 600;
+}
+.app-ideas-sec .heading-main-sec h4 {
+  text-align: left;
+}
+.app-ideas-sec .content-col .row {
+  justify-content: flex-end;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.app-ideas-sec .content-col .row .content-main {
+  width: 41%;
+  margin-bottom: 40px;
+}
+.app-ideas-sec .content-col .row .content-main .app-ideas-content {
+  display: flex;
+}
+.app-ideas-sec .content-col .row .content-main .app-ideas-content .content-heading {
+  margin-left: 15px;
+}
+.app-ideas-sec .content-col .row .content-main .app-ideas-content .content-heading h3 {
+  color: #fff;
+}
+.app-ideas-sec .content-col .row .content-main .app-ideas-content .content-heading p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+}
+.app-ideas-sec .app-ideas-shap {
+  position: absolute;
+  bottom: 0;
+}
+
+/* app ideas sec end  */
 /* =============== Development Consulting Page CSS Start =============== */
 /* =============== Convert Website Page CSS Start =============== */
 .convert-website-page .heading-main-sec h4 {

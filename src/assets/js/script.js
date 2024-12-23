@@ -1110,3 +1110,18 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // App Features Tabs js End
+
+//service - review from client js Start
+
+var swiper = new Swiper(".od-app-slider", {
+  direction: "vertical",
+  mousewheelControl: true,
+  slidesPerView: 1,
+  loop: true,
+  pagination: {
+    el: ".od-app-pagi",
+    clickable: true,
+  },
+});
+
+//service - review from client js End
