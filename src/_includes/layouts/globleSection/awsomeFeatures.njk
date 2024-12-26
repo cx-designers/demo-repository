@@ -1,0 +1,24 @@
+<div class="features-main-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-full">
+        <div class="heading-main-sec">
+          <h3><span>{{featuresSecSubTitle}}</span></h3>
+          <h4>{{featuresSecTitle}}</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row cust-row">
+      {% for feature in featuresBoxList | batch(2) %}
+      <div class="cust-column">
+        {% for item in feature %}
+          <div class="col-md-4">
+            <h4 class="cust-inner-title text-white">{{ item.title }}</h4>
+            <p>{{ item.description }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<section class="form-section">
+    <div class="container">
+        <div class="form-box">
+            <div class="form-basvg">
+                <img src="../../../assets/img/form-box-svg.svg" alt="">
+            </div>
+            <div class="heading-main-sec">
+                <h4>{{formTitle}}</h4>
+            </div>
+            <form action="/submit-form" method="POST">
+                <div class="form-grid">
+                  {% for field in formFields %}
+                    <div class="form-group">
+                      <label for="{{ field.name }}">{{ field.label }}</label>
+                      {% if field.type == "textarea" %}
+                        <textarea id="{{ field.name }}" name="{{ field.name }}" placeholder="{{ field.placeholder }}" {% if field.required %}required{% endif %}></textarea>
+                      {% else %}
+                        <input type="{{ field.type }}" id="{{ field.name }}" name="{{ field.name }}" placeholder="{{ field.placeholder }}" {% if field.required %}required{% endif %} />
+                      {% endif %}
+                    </div>
+                  {% endfor %}
+                </div>
+                <div class="form-button text-center">
+                    <button type="submit" class="btn btn-primary rounded-pill">{{ formbuttonText }}</button>
+                </div>
+              </form>
+        </div>
+    </div>
+</section>

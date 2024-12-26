@@ -8,12 +8,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/assets/css/swiper.min.css">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body class="{{ bodyClass }} before_load">
+{% if bodyClass == "homepage" %}
   {% include "layouts/loaderSection.njk" %}
-  <div class="site_wrapper" style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;">
+  {% endif %}
+  <div class="site_wrapper" {% if bodyClass == "homepage" %} style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %} style="flex-direction: column;" {% endif %}>
     {% include "layouts/header.njk" %}
     {% block content %}
       {{ content | safe }}
@@ -21,5 +23,104 @@
     {% include "layouts/footer.njk" %}
 
   </div>
+  {% if bodyClass == "homepage"%}
+  <script>
+
+const div = document.querySelector('.site_wrapper');
+const glowRotate = document.querySelector('.rotateGlow');
+const drarLogo = document.querySelector('.drawlogo');
+const drarLine1 = document.querySelector('.drawline1');
+const drarLine2 = document.querySelector('.drawline2');
+const pathLength = drarLogo.getTotalLength();
+const movingDot = document.querySelector('.moving-dot');
+const roundO = document.querySelector('.roundeO');
+const moveX = document.querySelector('.moveX');
+const pathLengthX = drarLine2.getTotalLength();
+drarLogo.style.strokeDasharray = pathLength;
+drarLogo.style.strokeDashoffset = pathLength;
+drarLine1.style.strokeDasharray = pathLength;
+drarLine1.style.strokeDashoffset = pathLength;
+drarLine2.style.strokeDasharray = pathLength;
+drarLine2.style.strokeDashoffset = pathLength;
+moveX.style.opacity = 0;
+
+const flyingObjects = document.querySelectorAll('.flying');
+const cloudObjects = document.querySelectorAll('.cloud-img img');
+document.body.classList.remove('before_load');
+div.style.display = 'flex';
+// Set flying objects to initial opacity 0
+gsap.set(flyingObjects, { opacity: 0 });
+
+
+const tl = gsap.timeline();
+
+// Main Timeline
+tl.fromTo(glowRotate, {
+  opacity: 0,
+  x: -100,
+  y: -100,
+  scale: 0,
+  rotation: -180
+}, {
+  opacity: 1,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  duration: 0.1,
+  scale: 1,
+  ease: "power1.inOut"
+}, "-=0.01")
+
+
+
+tl.to(div, {
+  opacity: 1,
+  duration: 0.1,
+  ease: "power1.inOut"
+}, "-=0.1")
+  .from(".from-left", {
+    duration: 0.8,      // Duration of the animation (in seconds)
+    x: "-120%",          // Start 100 pixels to the left
+    ease: "power2.inOut" // Easing function for a smoother transition
+  })
+  .from(".from-right", {
+    duration: 0.8,      // Duration of the animation (in seconds)
+    x: "120%",          // Start 100 pixels to the left
+    ease: "power2.inOut" // Easing function for a smoother transition
+  })
+  .to(flyingObjects, {
+    opacity: 1,       // Reveal the flying objects
+    duration: 0.1,      // Fade-in duration
+    ease: "power1.inOut"
+  });
+tl.add(() => {
+  gsap;
+  animateDot();
+
+  // Run the separated animations after onComplete
+  runSeparatedAnimations();
+  // Track the mouse movement
+  const flyingSection = document.querySelector('.hero-wrapper');
+  flyingSection.addEventListener('mousemove', (e) => {
+    const { clientX: mouseX, clientY: mouseY } = e;
+
+    // Loop through each flying object
+    flyingObjects.forEach((object, index) => {
+      // Add slight delay based on index for a parallax effect
+      const delay = index * 0.05;
+
+      gsap.to(object, {
+        x: (mouseX - window.innerWidth / 2) * 0.009 * (index + 1),  // Move horizontally
+        y: (mouseY - window.innerHeight / 2) * 0.009 * (index + 1), // Move vertically
+        duration: 0.3,
+        ease: "power1.out",
+        delay: delay
+      });
+    });
+  });
+});
+
+</script>
+{% endif %}
 </body>
 </html>

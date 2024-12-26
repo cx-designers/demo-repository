@@ -88,4 +88,19 @@ faqBoxList :
 - faqTitle: "Do you handle e-commerce website development, and what platforms do you use for it?"
   faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
 
+featuresSecSubTitle: Awesome Features
+featuresSecTitle: Why Pick Us?
+featuresBoxList:
+  - title: "We Get It Right"
+    description: "We work hand-in-hand with you, ensuring every project shines bright and leaves you happy."
+  - title: "Your Own Special Code"
+    description: "Every project is unique. We make sure your app is special, easy to grow, and stays awesome."
+  - title: "Loads of Apps Done"
+    description: "We’ve made over 1000 apps! Think cool stuff like fancy cameras and slick payment systems."
+  - title: "You Always Know"
+    description: "We keep you in the loop with updates, show you new stuff, fix bugs, and stick around after launch."
+  - title: "Big Team of App Wizards"
+    description: "We’ve got 60+ experts making apps that rock. They use cool tricks to make your app amazing."
+  - title: "We're Here for You"
+    description: "Even after launch, our team keeps your app running smooth and up-to-date."
 ---

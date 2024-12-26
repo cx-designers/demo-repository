@@ -82,4 +82,72 @@ tabs:
       - { text: "Analytics and Reports", available: false }
       - { text: "Order Management and Tracking", available: true } 
 
+differentcategoriesSubtitle: "Squad"
+differentcategoriesTitle : "Different Categories for Your Special App Solutions"
+
+categories:
+  - title: "Fitness & Wellness"
+    image: "/assets/img/categories-1.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+  - title: "Delivery Solutions"
+    image: "/assets/img/categories-2.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+  - title: "Food Services"
+    image: "/assets/img/categories-3.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+  - title: "Transportation"
+    image: "/assets/img/categories-4.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+  - title: "Grocery & Essentials"
+    image: "/assets/img/categories-5.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+  - title: "Home Maintenance"
+    image: "/assets/img/categories-6.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+  - title: "Logistics Management"
+    image: "/assets/img/categories-7.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+  - title: "Beauty & Personal Care"
+    image: "/assets/img/categories-8.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+  - title: "Household Services"
+    image: "/assets/img/categories-9.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+  - title: "Laundry & Cleaning"
+    image: "/assets/img/categories-10.webp"
+    description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
+
+servicesDescsubTitle: Services
+servicesDescTitle: Your Business with Our Amazing App Services!
+serviceBGImg: "/assets/img/bg-img-cx.webp"
+serviceBGImgText : cx background img
+servicesDescList: 
+- servicesDescItem: Hey there! Welcome to Cypherox Technologies! We're all about making cool apps that people love. Whether you're starting something new or you've been around for a while, we're here to help. We create apps that stand out and make a real impact.
+- servicesDescItem: We're not just tech folks; we're dream builders. Imagine having an app that's super easy to use and keeps your customers coming back for more. We're all about adding the coolest features, making sure everything's super safe, and sticking to your plans and budget. Need to make your daily work easier? Want to offer your services online hassle-free? We're here to chat and make it happen. Let's team up and build an awesome app that sets your business apart!
+
+featuresSecSubTitle: Awesome Features
+featuresSecTitle: Why Pick Us?
+featuresBoxList:
+  - title: "We Get It Right"
+    description: "We work hand-in-hand with you, ensuring every project shines bright and leaves you happy."
+  - title: "Your Own Special Code"
+    description: "Every project is unique. We make sure your app is special, easy to grow, and stays awesome."
+  - title: "Loads of Apps Done"
+    description: "We’ve made over 1000 apps! Think cool stuff like fancy cameras and slick payment systems."
+  - title: "You Always Know"
+    description: "We keep you in the loop with updates, show you new stuff, fix bugs, and stick around after launch."
+  - title: "Big Team of App Wizards"
+    description: "We’ve got 60+ experts making apps that rock. They use cool tricks to make your app amazing."
+  - title: "We're Here for You"
+    description: "Even after launch, our team keeps your app running smooth and up-to-date."
+
 ---

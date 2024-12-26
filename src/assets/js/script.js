@@ -1,101 +1,24 @@
-const div = document.querySelector('.site_wrapper');
-const glowRotate = document.querySelector('.rotateGlow');
-const drarLogo = document.querySelector('.drawlogo');
-const drarLine1 = document.querySelector('.drawline1');
-const drarLine2 = document.querySelector('.drawline2');
-const pathLength = drarLogo.getTotalLength();
-const movingDot = document.querySelector('.moving-dot');
-const roundO = document.querySelector('.roundeO');
-const moveX = document.querySelector('.moveX');
-const pathLengthX = drarLine2.getTotalLength();
-drarLogo.style.strokeDasharray = pathLength;
-drarLogo.style.strokeDashoffset = pathLength;
-drarLine1.style.strokeDasharray = pathLength;
-drarLine1.style.strokeDashoffset = pathLength;
-drarLine2.style.strokeDasharray = pathLength;
-drarLine2.style.strokeDashoffset = pathLength;
-moveX.style.opacity = 0;
-
-const flyingObjects = document.querySelectorAll('.flying');
-const cloudObjects = document.querySelectorAll('.cloud-img img');
-document.body.classList.remove('before_load');
-div.style.display = 'flex';
-// Set flying objects to initial opacity 0
-gsap.set(flyingObjects, { opacity: 0 });
-
-
-const tl = gsap.timeline();
-
-// Main Timeline
-tl.fromTo(glowRotate, {
-  opacity: 0,
-  x: -100,
-  y: -100,
-  scale: 0,
-  rotation: -180
-}, {
-  opacity: 1,
-  x: 0,
-  y: 0,
-  rotation: 0,
-  duration: 0.1,
-  scale: 1,
-  ease: "power1.inOut"
-}, "-=0.01")
-
-
-
-tl.to(div, {
-  opacity: 1,
-  duration: 0.1,
-  ease: "power1.inOut"
-}, "-=0.1")
-  .from(".from-left", {
-    duration: 0.8,      // Duration of the animation (in seconds)
-    x: "-120%",          // Start 100 pixels to the left
-    ease: "power2.inOut" // Easing function for a smoother transition
-  })
-  .from(".from-right", {
-    duration: 0.8,      // Duration of the animation (in seconds)
-    x: "120%",          // Start 100 pixels to the left
-    ease: "power2.inOut" // Easing function for a smoother transition
-  })
-  .to(flyingObjects, {
-    opacity: 1,       // Reveal the flying objects
-    duration: 0.1,      // Fade-in duration
-    ease: "power1.inOut"
-  });
-tl.add(() => {
-  gsap;
-  animateDot();
-
-
-
-  // Run the separated animations after onComplete
-  runSeparatedAnimations();
-});
-
-/* Title Animation JS Start */
-/* Title Animation JS End */
 
 
 
 /* swiper-ourClient js start */
 
 $(document).ready(function () {
-  // Check if the element with class .swiper-ourclient exists
-  if ($(".swiper-ourclient").length > 0) {
-    // Swiper: Slider
-    new Swiper(".swiper-ourclient", {
-      spaceBetween: 20, // Space between slides
-      slidesPerView: 5, // Display 5 full slides
-      centeredSlides: true, // Disable centered slides
-      roundLengths: true, // Round fractional values
-      loop: true, // Enable looping
-      loopAdditionalSlides: 30 // Additional slides to load for looping
+  var swiper = new Swiper(".swiper-ourclient", {
+    spaceBetween: 20, // Space between slides
+    slidesPerView: 5, // Display 5 full slides
+    centeredSlides: true, // Disable centered slides
+    roundLengths: true, // Round fractional values
+    loop: true, // Enable looping
+    loopAdditionalSlides: 30,  // Additional slides to load for looping
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    } 
     });
-  }
 });
+
+
 
 
 /* swiper-ourClient js end */
@@ -1030,11 +953,6 @@ $(document).ready(function () {
       spaceBetween: 0,
       loop: true,
 
-      effect: 'fade',
-      fadeEffect: {
-        crossFade: true,
-      },
-
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
@@ -1124,4 +1042,108 @@ var swiper = new Swiper(".od-app-slider", {
   },
 });
 
+$(document).ready(function () {
+  var swiper = new Swiper(".review-client-slider", {
+  effect: "cards",
+  grabCursor: true,
+  initialSlide: 2,
+  speed: 800,
+  loop: false,
+  centeredSlides: true,
+  rotate: true,
+  mousewheel: {
+  invert: false,
+},
+  navigation: {
+    nextEl: ".review-client-next",
+    prevEl: ".review-client-prev",
+  },
+    
+  });
+});
+
 //service - review from client js End
+
+// Technology stack sec js start
+
+if ($(".technology-stack-sec").length > 0) {
+const tabButtonsSec = document.querySelectorAll('.technology-stack-sec .tab-buttons');
+const tabContentsSec = document.querySelectorAll('.technology-stack-sec .tab-contents');
+
+tabButtonsSec.forEach((button) => {
+  button.addEventListener('click', () => {
+    const targetTabSec = button.getAttribute('data-tab');
+
+    tabButtonsSec.forEach((btn) => btn.classList.remove('active'));
+    tabContentsSec.forEach((content) => content.classList.remove('active'));
+
+    button.classList.add('active');
+    document.getElementById(targetTabSec).classList.add('active');
+  });
+});
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.fromTo(
+  ".technology-stack-sec .animated-img-sec img",
+  {
+    scale: 0,
+    y: 1000,
+  },
+  {
+    scale: 1,
+    y: 0,
+    rotation: 0,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".technology-stack-sec",
+      start: "top 0%",
+      end: "bottom 0%",
+      toggleActions: "play reverse play reverse",
+    },
+  }
+);
+}
+
+// Technology stack sec js end
+
+// Product details page  js start 
+/* summary js start  */
+const firstLi = document.querySelector('ul li');
+if (firstLi) {
+  firstLi.classList.add('active');
+}
+
+document.querySelectorAll('.link-item').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    const targetId = link.getAttribute('href');
+    
+    
+    if (targetId.startsWith('#')) {
+      event.preventDefault(); 
+      
+      document.querySelectorAll('ul li').forEach((li) => {
+        li.classList.remove('active');
+      });
+      
+      const parentLi = link.closest('li');
+      if (parentLi) {
+        parentLi.classList.add('active');
+      }
+      
+      const targetElement = document.querySelector(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  
+  window.scrollTo(0, 0);
+});
+/* summary js end  */
+
+// Product details page  js start 

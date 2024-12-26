@@ -1,0 +1,26 @@
+<section class="different-categories">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="heading-main-sec text-start">
+                    <h3>{{differentcategoriesSubtitle}}</h3>
+                    <h4>{{differentcategoriesTitle}}</h4>
+                </div>
+            </div>
+
+            {% for category in categories %}
+                <div class="col-md-3">
+                    <div class="different-item">
+                        <img src="{{ category.image }}" alt="{{ category.title }}" class="img-fluid">
+                        <div class="different-content">
+                            <h3>{{ category.title }}</h3>
+                            <p>{{ category.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+            
+        </div>
+    </div>
+</section>
