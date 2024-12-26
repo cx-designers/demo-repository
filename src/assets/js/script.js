@@ -693,7 +693,7 @@ textWrappers.forEach(textWrapper => observer.observe(textWrapper));
 const progressBar = document.querySelector(".blog-post-sec .autoplay-progress-bar .progress");
 
 var swiper = new Swiper(".myblog-post", {
-  slidesPerView: 4,
+  slidesPerView: 5,
   spaceBetween: 50,
   centeredSlides: true,
   loop: true,
