@@ -5703,6 +5703,7 @@ svg:not(:root) {
 /*phases on demands app info css start*/
 .phases-on-demands-app-info {
   padding: 150px 0;
+  z-index: 9;
 
   .phases-on-demands-app-info-box {
     background: linear-gradient(0deg, rgba(242,110,101,0) 0%, rgba(242,110,101,0.07) 100%); 
@@ -6071,6 +6072,7 @@ svg:not(:root) {
 .app-features {
   background-color: $white;
   padding: 120px 0 150px;
+  z-index: 9;
   .heading-main-sec {
     h4 {
       margin: 0;
