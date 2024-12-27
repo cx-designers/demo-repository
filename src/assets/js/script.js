@@ -1,62 +1,74 @@
 
+/* menu js start */ 
+$(document).ready(function() {
+  $(".menuButton a.primary-btn").on("click", function(e) {
+      e.preventDefault(); // Prevent default action if necessary
+      const $svg = $(".menu svg");
 
+      if ($svg.hasClass("expanded")) {
+        setTimeout(function() {
+          $svg.removeClass("expanded");
+        }, 300);
+      } else {
+          $svg.addClass("expanded");
+      }
+  });
+});
+
+$(document).ready(function() {
+  $(".menuButton a.primary-btn").on("click", function(e) {
+    e.preventDefault();
+    const $menudate = $(".menu-date");
+
+    if ($menudate.hasClass("open")) {
+        $menudate.removeClass("open");
+    } else {
+        setTimeout(function() {
+            $menudate.addClass("open");
+        }, 300); // Adds the class after 1 second
+    }
+  });
+});
+
+$(document).ready(function() {
+  $(".menu-date-bar > ul > li").on("click", function() {
+    const $this = $(this);
+
+    if ($this.hasClass("active")) {
+      $this.removeClass("active");
+    } else {
+      $(".menu-date-bar ul li").removeClass("active"); // Remove active from all siblings
+      $this.addClass("active"); // Add active to the clicked element
+    }
+  });
+});
+
+$(document).ready(function() {
+  $(".menuButton a.primary-btn").on("click", function(e) {
+    e.preventDefault(); // Prevent default action (if it's a link)
+    $("body").toggleClass("open-menu"); // Replace 'custom-class' with the desired class name
+  });
+});
+
+/* menu js end */ 
 
 /* swiper-ourClient js start */
-
 $(document).ready(function () {
   var swiper = new Swiper(".swiper-ourclient", {
-    spaceBetween: 20, // Space between slides
-    slidesPerView: 5, // Display 5 full slides
-    centeredSlides: true, // Disable centered slides
-    roundLengths: true, // Round fractional values
-    loop: true, // Enable looping
-    loopAdditionalSlides: 30,  // Additional slides to load for looping
+    spaceBetween: 20, 
+    slidesPerView: 5, 
+    centeredSlides: true, 
+    roundLengths: true, 
+    loop: true, 
+    loopAdditionalSlides: 30,
     autoplay: {
       delay: 2500,
       disableOnInteraction: false,
     } 
     });
 });
-
-
-
-
 /* swiper-ourClient js end */
 
-/* businessPractice js end */
-
-// Define a new function for the separated animations
-function runSeparatedAnimations() {
-  const tl2 = gsap.timeline();
-  tl2.to(drarLogo, {
-    strokeDashoffset: 0,
-    opacity: 1,
-    duration: 6,
-    ease: "power1.inOut"
-  }, "-=0.1")
-    .fromTo(".roundeO", {
-      strokeDasharray: 500,
-      strokeDashoffset: 500,
-      opacity: 1,
-
-    }, {
-      strokeDashoffset: 0,
-      duration: 0.5,
-      ease: "power1.inOut"
-    }, "+=0.5")
-    .to([drarLine1, drarLine2], {
-      strokeDashoffset: 0,
-      opacity: 1,
-      duration: 1,
-      ease: "power1.inOut"
-    }).to(moveX, {
-      opacity: 1,
-      duration: 0.5,
-      ease: "power1.inOut"
-    });
-  const paths = document.querySelectorAll('.neon'); // Select multiple paths by class
-  neonFlicker(paths);
-}
 
 /* mission-video' js start */
 
@@ -67,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const pauseVideos = document.querySelector('.pouse-videos');
 
   if (video && videoImg) {
-    // Initialize with `pauseVideos` hidden and startVideo visible
     if (pauseVideos) pauseVideos.classList.add('hidden');
     if (startVideo) startVideo.classList.remove('hidden');
 
@@ -78,7 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
         video.pause();
       }
 
-      // Toggle visibility of start/pause indicators with transition effect
       if (startVideo && pauseVideos) {
         startVideo.classList.toggle('hidden');
         pauseVideos.classList.toggle('hidden');
@@ -233,13 +243,6 @@ function animateDot() {
   });
 }
 
-/* Cursor Remove JS Start */
-
-window.onload = function () {
-  document.body.style.cursor = "none";
-};
-
-/* Cursor Remove JS Start */
 
 
 function neonFlicker(paths) {
@@ -547,10 +550,9 @@ gsap.to(".slider", {
 
 
 /* SVG Draw JS Start */
-
 gsap.registerPlugin(ScrollTrigger);
 
-const sections = document.querySelectorAll(".inner-service-sec, .about-hero, .work-culture");
+const sections = document.querySelectorAll(".gloabl-banner-inner-page");
 
 sections.forEach((section) => {
   const paths = section.querySelectorAll(".svg-draw-sec svg path");
@@ -563,20 +565,17 @@ sections.forEach((section) => {
       paths.forEach((path) => {
         const length = path.getTotalLength();
 
-        // Set initial strokeDasharray and strokeDashoffset
         gsap.set(path, {
           strokeDasharray: length,
           strokeDashoffset: length,
         });
 
-        // Animate the path drawing
         gsap.to(path, {
           strokeDashoffset: 0,
           duration: 3,
           ease: "power1.inOut",
           delay: 0.5,
           onComplete: () => {
-            // Change opacity of svg-about-banner after the path is drawn
             if (svgBanner) {
               gsap.to(svgBanner, { opacity: 1, duration: 0.5 });
             }
@@ -586,10 +585,9 @@ sections.forEach((section) => {
     },
   });
 });
+/* SVG Draw JS End */
 
-
-
-
+/* for homepage service section js start */
 document.addEventListener("DOMContentLoaded", function () {
   const serviceSections = document.querySelectorAll(".inner-service-list .inner-service-sec");
 
@@ -620,8 +618,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+/* for homepage service section js end */
 
-/* SVG Draw JS End */
 
 /* Typing Animation JS Start */
 
@@ -761,10 +759,9 @@ gsap.fromTo(
 
 /* Service SEction Shap Animation Start */
 
-// Check if "inner-service-wrapper" exists before running the function
+/* Check if "inner-service-wrapper" exists before running the function */
 if (document.querySelector('.inner-service-wrapper')) {
 
-  // GSAP animations remain the same
   gsap.to(".inner-shap-1", {
     rotation: 360,
     x: "100vw",
@@ -830,26 +827,23 @@ if (document.querySelector('.hire-main-sec')) {
 
   gsap.registerPlugin(ScrollTrigger);
 
-  // GSAP Timeline for Animations
   const timeline = gsap.timeline({
     scrollTrigger: {
       trigger: ".hire-main-sec .hire-con-row",
-      start: "top center", // Section at the center of the screen
+      start: "top center", 
       end: "bottom center",
       toggleActions: "play none none none",
     },
   });
 
-  // Get all ".hire-con-item" elements and shuffle them for random order
   const items = gsap.utils.shuffle(gsap.utils.toArray(".hire-con-item"));
 
-  // Animate each ".hire-con-item" in random order
   items.forEach((item) => {
     timeline.to(item, {
       opacity: 1,
-      filter: "blur(0px)", // Animate blur to 0px
+      filter: "blur(0px)", 
       duration: 0.2,
-      delay: Math.random() * 0.2, // Add a random delay to make it appear more random
+      delay: Math.random() * 0.2, 
     });
   });
 
@@ -859,25 +853,21 @@ if (document.querySelector('.hire-main-sec')) {
 
 /* Animated Section JS Start */
 
-
-// Check for `.animated-section` element existence
 if (document.querySelector(".Process-main-sec")) {
-  // Select the items to animate
+  
   const boxes = gsap.utils.toArray(".animated-section .item");
 
-  // Total width for scroll animation based on number of items
   const containerWidth = boxes.reduce((acc, el) => acc + el.offsetWidth, 0);
-  const offset = -containerWidth + window.innerWidth / 2; // Total offset for smooth scroll
+  const offset = -containerWidth + window.innerWidth / 20; 
 
-  // Scroll-triggered horizontal movement for items
   gsap.to(boxes, {
     scrollTrigger: {
-      trigger: ".Process-main-sec",  // Pinning on this section
-      start: "top top",  // Pin when the section reaches the top
-      end: () => `+=${containerWidth}`,  // End pinning after all items move
-      scrub: true,  // Smooth scrubbing effect
-      pin: ".Process-main-sec", // Pin the section during scroll
-      pinSpacing: true, // Prevent extra space for pinned section
+      trigger: ".Process-main-sec",  
+      start: "top top",  
+      end: () => `+=${containerWidth}`,  
+      scrub: true,  
+      pin: ".Process-main-sec", 
+      pinSpacing: true, 
       onEnter: () => {
         console.log('Process section pinned and scrolling started');
       },
@@ -888,20 +878,19 @@ if (document.querySelector(".Process-main-sec")) {
         console.log('Scroll has passed back through the Process section');
       }
     },
-    x: offset,  // Move items horizontally
-    ease: "linear"  // Smooth linear transition
+    x: offset,  
+    ease: "linear"  
   });
 
-  // Scale items based on scroll position of first item
   let initialPos = boxes[0].getBoundingClientRect().left;
 
   function scaleItems() {
     const currentPos = boxes[0].getBoundingClientRect().left;
-    const scaleAmount = Math.min(Math.abs((initialPos - currentPos) * 0.0175), 1); // Calculate scale value based on movement
-    gsap.to(boxes, { scale: 1 - scaleAmount / 2 }); // Scale all items on scroll
+    const scaleAmount = Math.min(Math.abs((initialPos - currentPos) * 0.0175), 1);
+    gsap.to(boxes, { scale: 1 - scaleAmount / 2 }); 
 
-    initialPos = currentPos; // Update position for next cycle
-    requestAnimationFrame(scaleItems); // Continuously update scaling
+    initialPos = currentPos; 
+    requestAnimationFrame(scaleItems); 
   }
 
   scaleItems();
@@ -919,12 +908,12 @@ jQuery(document).ready(function ($) {
     var $title = $this.find(".at-title");
 
     if ($title.hasClass("active")) {
-      // Remove active class and hide content
+    
       $title.removeClass("active");
       $this.removeClass("active");
       $content.slideUp();
     } else {
-      // Close all other open items
+    
       $(".faq-area-block-wrap .at-title.active")
         .removeClass("active")
         .closest(".faq-area-block-wrap")
@@ -932,7 +921,6 @@ jQuery(document).ready(function ($) {
         .find(".at-tab")
         .slideUp();
 
-      // Open the clicked item and add active class
       $title.addClass("active");
       $this.addClass("active");
       $content.slideDown();
@@ -945,9 +933,7 @@ jQuery(document).ready(function ($) {
 
 /* Dedicated Team js start */
 $(document).ready(function () {
-  // Check if the element with class .swiper-ourclient exists
   if ($(".dedicated-slider").length > 0) {
-    // Swiper: Slider
     new Swiper('.swiper-container', {
       slidesPerView: 1,
       spaceBetween: 0,
@@ -1009,7 +995,7 @@ if ($(".projects-main-sec").length > 0) {
 /* Our Projects js End */
 
 
-// App Features Tabs js Start
+/* App Features Tabs js Start */
 document.addEventListener("DOMContentLoaded", function () {
   const tabButtons = document.querySelectorAll(".tab-buttons li");
   const tabContents = document.querySelectorAll(".tab-content");
@@ -1027,9 +1013,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// App Features Tabs js End
+/* App Features Tabs js End */
 
-//service - review from client js Start
+/* service - review from client js Start */
 
 var swiper = new Swiper(".od-app-slider", {
   direction: "vertical",
@@ -1043,28 +1029,25 @@ var swiper = new Swiper(".od-app-slider", {
 });
 
 $(document).ready(function () {
-  var swiper = new Swiper(".review-client-slider", {
-  effect: "cards",
-  grabCursor: true,
-  initialSlide: 2,
-  speed: 800,
-  loop: false,
-  centeredSlides: true,
-  rotate: true,
-  mousewheel: {
-  invert: false,
-},
-  navigation: {
-    nextEl: ".review-client-next",
-    prevEl: ".review-client-prev",
-  },
-    
+  var swiper = new Swipern(".review-client-slider", {
+    effect: "cards",
+    grabCursor: true,
+    initialSlide: 2,
+    speed: 800,
+    loop: false,
+    centeredSlides: true,
+    rotate: true,
+    navigation: {
+      nextEl: ".review-client-next",
+      prevEl: ".review-client-prev",
+    },
+
   });
 });
 
-//service - review from client js End
+/* service - review from client js End */
 
-// Technology stack sec js start
+/* Technology stack sec js start */
 
 if ($(".technology-stack-sec").length > 0) {
 const tabButtonsSec = document.querySelectorAll('.technology-stack-sec .tab-buttons');
@@ -1106,9 +1089,9 @@ gsap.fromTo(
 );
 }
 
-// Technology stack sec js end
+/* Technology stack sec js end */
 
-// Product details page  js start 
+/* Product details page  js start  */
 /* summary js start  */
 const firstLi = document.querySelector('ul li');
 if (firstLi) {
@@ -1145,5 +1128,26 @@ document.addEventListener('DOMContentLoaded', () => {
   window.scrollTo(0, 0);
 });
 /* summary js end  */
+/* Product details page  js end  */
 
-// Product details page  js start 
+/* Portfolio Sec JS Start */
+
+var swiper = new Swiper(".portfolio-thumb", {
+  spaceBetween: 0,
+  slidesPerView: 1,
+  freeMode: true,
+  
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".portfolio-slider", {
+  spaceBetween: 0,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+  thumbs: {
+    swiper: swiper,
+  },
+});
+
+/* Portfolio Sec JS End */
