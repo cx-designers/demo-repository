@@ -1598,6 +1598,8 @@ body.open-menu {
   position: relative;
   padding: 150px 0;
   overflow: hidden;
+  z-index: 9;
+  background-color: $primaryColor;
 
   .heading-main-sec {
     h4 {
@@ -2327,6 +2329,7 @@ div#lottie-animation {
         background-size: 100%;
         background-color: #000000;
         border-radius: 20px;
+        z-index: 2;
 
         img {
           margin: 0 auto;
@@ -2350,7 +2353,7 @@ div#lottie-animation {
         background-color: #000000;
         border-radius: 0 0 20px 20px;
         margin-top: -20px;
-        z-index: -1;
+        z-index: 1;
 
         .member-intro {
           h3 {
@@ -2618,6 +2621,7 @@ div#lottie-animation {
   overflow: hidden;
   height: 150vh;
   z-index: 9;
+  background-color: $primaryColor;
 
   .industries-shap {
     position: absolute;

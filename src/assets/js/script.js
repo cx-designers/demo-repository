@@ -99,41 +99,53 @@ document.addEventListener('DOMContentLoaded', () => {
 /* mission-video' js end */
 
 /* Testimonial Section */
+
 if (document.querySelector(".testimonial-con-sec")) {
   function createContinuousMarquee(columnSelector, direction, speedMultiplier = 1) {
     const column = document.querySelector(columnSelector);
     const items = Array.from(column.children);
 
+    if (!column || items.length === 0) {
+      console.error(`No items found for selector: ${columnSelector}`);
+      return;
+    }
+
     const clonedItems = items.map(item => item.cloneNode(true));
     clonedItems.forEach(item => column.appendChild(item));
 
-    const itemHeight = items[0].offsetHeight;
-    const totalHeight = itemHeight * items.length;
+    const initializeMarquee = () => {
+      const itemHeight = items[0].offsetHeight;
+      const totalHeight = itemHeight * items.length;
 
-    column.style.height = `${totalHeight * 2}px`;
+      column.style.height = `${totalHeight * 2}px`;
 
-    const marqueeAnimation = gsap.to(column, {
-      y: direction * totalHeight,
-      duration: (totalHeight / 50) * speedMultiplier,
-      ease: "none",
-      repeat: -1,
-      paused: false,
-      modifiers: {
-        y: gsap.utils.unitize((y) => {
-          const position = parseFloat(y) % totalHeight;
-          return direction === 1 ? position - totalHeight : position;
-        })
-      }
-    });
+      const marqueeAnimation = gsap.to(column, {
+        y: direction * totalHeight,
+        duration: (totalHeight / 50) * speedMultiplier,
+        ease: "none",
+        repeat: -1,
+        paused: false,
+        modifiers: {
+          y: gsap.utils.unitize((y) => {
+            const position = parseFloat(y) % totalHeight;
+            return direction === 1 ? position - totalHeight : position;
+          })
+        }
+      });
 
-    column.addEventListener("mouseenter", () => marqueeAnimation.pause());
-    column.addEventListener("mouseleave", () => marqueeAnimation.resume());
+      column.addEventListener("mouseenter", () => marqueeAnimation.pause());
+      column.addEventListener("mouseleave", () => marqueeAnimation.resume());
+    };
+
+    setTimeout(initializeMarquee, 50);
   }
 
   createContinuousMarquee(".column-1", -1, 0.7);
   createContinuousMarquee(".column-2", 1, 1);
   createContinuousMarquee(".column-3", -1, 0.7);
 }
+
+
 /* Testimonial Section Complete */
 
 /* Counter Slider Section */
@@ -552,7 +564,7 @@ gsap.to(".slider", {
 /* SVG Draw JS Start */
 gsap.registerPlugin(ScrollTrigger);
 
-const sections = document.querySelectorAll(".gloabl-banner-inner-page");
+const sections = document.querySelectorAll(".gloabl-banner-inner-page, .inner-service-sec");
 
 sections.forEach((section) => {
   const paths = section.querySelectorAll(".svg-draw-sec svg path");
@@ -719,13 +731,6 @@ var swiper = new Swiper(".myblog-post", {
     768: {
       slidesPerView: 1.4,
       spaceBetween: 20,
-    },
-  },
-  on: {
-    autoplayTimeLeft(s, time, progress) {
-      if (progressBar) {
-        progressBar.style.width = `${(1 - progress) * 100}%`;
-      }
     },
   },
 });
