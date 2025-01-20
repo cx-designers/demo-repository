@@ -440,7 +440,7 @@ h1 {
 
     span {
       display: inline-block;
-      color: #f26e65;
+      color: $secondaryColor;
       text-shadow: 4px -1px 15px rgba(242, 110, 101, 0.74);
     }
   }
@@ -1093,7 +1093,7 @@ body.open-menu {
 
     h1 {
       position: relative;
-      color: #000;
+      color: $primaryColor;
       font-size: 2rem;
       opacity: 0;
       z-index: 3;
@@ -1103,7 +1103,7 @@ body.open-menu {
 
     p {
       position: relative;
-      color: #000;
+      color: $primaryColor;
       font-size: 20px;
       line-break: normal;
     }
@@ -1653,7 +1653,7 @@ body.open-menu {
 
       text-align: center;
       font-size: 18px;
-      background: #fff;
+      background: $white;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1674,7 +1674,7 @@ body.open-menu {
 
       .bottom-text {
         padding: 30px 90px 60px 30px;
-        background-color: #000000;
+        background-color: $primaryColor;
         margin-top: -10px;
         border-radius: 0 0 10px 10px !important;
 
@@ -1688,7 +1688,7 @@ body.open-menu {
 
         // .bottom-text {
         p {
-          color: #F26E65;
+          color: $secondaryColor;
           text-transform: capitalize;
           text-align: left;
           margin-top: 0;
@@ -1707,7 +1707,7 @@ body.open-menu {
         }
 
         h3 {
-          color: #ffffff;
+          color: $white;
           margin-top: 10px;
           margin-bottom: 0;
           text-align: left;
@@ -1730,7 +1730,7 @@ body.open-menu {
       .blog-post-slide {
         position: relative;
         z-index: 2;
-        background-color: #000000;
+        background-color: $primaryColor;
         border-radius: 30px;
         overflow: hidden;
         padding: 1px;
@@ -1998,7 +1998,7 @@ div#lottie-animation {
 }
 
 .blog-swiper-bottom-arrow {
-  border: 1px solid #F26E65;
+  border: 1px solid $secondaryColor;
   z-index: 999;
   position: absolute;
   width: 50px;
@@ -2009,7 +2009,7 @@ div#lottie-animation {
   align-items: center;
   right: 30px;
   bottom: -20px;
-  background-color: #000000;
+  background-color: $primaryColor;
 
   img {
     width: 21px !important;
@@ -2039,7 +2039,7 @@ div#lottie-animation {
 .blog-post-slide {
   .blog-img {
     padding: 10px;
-    background-color: #000000;
+    background-color: $primaryColor;
     border-radius: 10px;
   }
 }
@@ -2051,7 +2051,7 @@ div#lottie-animation {
 .testimonial-main-sec {
   margin: 0px;
   padding: 150px 0;
-  background: #000;
+  background: $primaryColor;
 
   .heading-main-sec {
     h4 {
@@ -2125,7 +2125,7 @@ div#lottie-animation {
           .testimonial-item-block-inner {
             margin: 0px;
             padding: 35px 30px;
-            background: #000;
+            background: $primaryColor;
             border: 1px solid rgba(38, 38, 38, 1);
             border-radius: 15px;
 
@@ -2198,7 +2198,7 @@ div#lottie-animation {
 
 .awards-main-sec {
   padding: 150px 0;
-  background-color: #F26E65;
+  background-color: $secondaryColor;
   z-index: 9;
 
   .awards-col {
@@ -2327,7 +2327,7 @@ div#lottie-animation {
         background-image: url(../img/team-member-shap.webp);
         overflow: hidden;
         background-size: 100%;
-        background-color: #000000;
+        background-color: $primaryColor;
         border-radius: 20px;
         z-index: 2;
 
@@ -2350,7 +2350,7 @@ div#lottie-animation {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #000000;
+        background-color: $primaryColor;
         border-radius: 0 0 20px 20px;
         margin-top: -20px;
         z-index: 1;
@@ -2359,7 +2359,7 @@ div#lottie-animation {
           h3 {
             font-size: 26px;
             line-height: 30px;
-            color: #fff;
+            color: $white;
             font-weight: 400;
             margin: 0 0 10px 0;
           }
@@ -2367,7 +2367,7 @@ div#lottie-animation {
           p {
             font-size: 16px;
             line-height: 20px;
-            color: #fff;
+            color: $white;
             font-weight: 400;
             margin: 0;
             opacity: 0.7;
@@ -2427,14 +2427,14 @@ div#lottie-animation {
         font-weight: 600;
         margin: 0 0 20px;
         display: inline-block;
-        color: #f26e65;
+        color: $secondaryColor;
         text-shadow: 4px -1px 15px rgba(242, 110, 101, 0.74);
       }
 
       h4 {
         font-size: 80px;
         line-height: 90px;
-        color: #000;
+        color: $primaryColor;
         font-weight: 400;
         max-width: 600px;
         margin: 0;
@@ -2488,7 +2488,7 @@ div#lottie-animation {
       }
 
       &:nth-child(1n) {
-        background-color: #000000;
+        background-color: $primaryColor;
       }
 
       &:nth-child(2n) {
@@ -3268,7 +3268,7 @@ svg:not(:root) {
               padding-top: 18px;
               font-size: 10px;
               font-weight: 700;
-              color: #000;
+              color: $primaryColor;
               text-decoration: none;
               padding-left: 19px;
 
@@ -3449,7 +3449,7 @@ svg:not(:root) {
           text-align: left;
 
           p {
-            color: #ffffff;
+            color: $white;
             text-align: left;
             max-width: 490px;
             margin-top: 30px;
@@ -3482,7 +3482,7 @@ svg:not(:root) {
 /* about-realtime-journey-sec css start */
 
 .about-realtime-journey-sec {
-  background-color: #fff;
+  background-color: $white;
   position: relative;
   padding: 200px 0 200px 0;
   z-index: 1;
@@ -3505,7 +3505,7 @@ svg:not(:root) {
           }
 
           h4 {
-            color: #000;
+            color: $primaryColor;
             text-align: left;
             max-width: 550px;
             width: 100%;
@@ -3516,7 +3516,7 @@ svg:not(:root) {
             font-size: 16px;
             line-height: 30px;
             font-weight: 400;
-            color: #636363;
+            color: $textBaseColor;
             max-width: 550px;
             width: 100%;
             text-align: left;
@@ -3570,7 +3570,7 @@ svg:not(:root) {
       background-size: cover;
 
       .unique-cx {
-        border: 1.5px solid #F26E65;
+        border: 1.5px solid $secondaryColor;
         width: 100px;
         height: 100px;
         border-radius: 30px;
@@ -3623,7 +3623,7 @@ svg:not(:root) {
 
 /* workethics-sec css start */
 .workethics-sec {
-  background-color: #ffffff;
+  background-color: $white;
   padding: 150px 0;
   z-index: 9;
   position: relative;
@@ -3638,14 +3638,14 @@ svg:not(:root) {
 
     .col-full {
       h4 {
-        color: #000000;
+        color: $primaryColor;
       }
 
       p {
         font-size: 16px;
         line-height: 30px;
         font-weight: 400;
-        color: #636363;
+        color: $textBaseColor;
         margin: 40px 0 0px 0;
         max-width: 925px;
         width: 100%;
@@ -3694,7 +3694,7 @@ svg:not(:root) {
             font-size: 16px;
             line-height: 30px;
             font-weight: 400;
-            color: #636363;
+            color: $textBaseColor;
             margin: 40px 0 60px 0;
             max-width: 770px;
             width: 100%;
@@ -3726,7 +3726,7 @@ svg:not(:root) {
               top: 0;
               bottom: 0;
               margin: auto 0;
-              border: 10px solid #ffffff;
+              border: 10px solid $white;
 
               &:before {
                 content: "";
@@ -3756,7 +3756,7 @@ svg:not(:root) {
                 top: 0;
                 bottom: 0;
                 margin: auto 0;
-                border: 10px solid #fff;
+                border: 10px solid $white;
 
                 .pouse-videos {
                   position: absolute;
@@ -3767,7 +3767,7 @@ svg:not(:root) {
                   height: 26px;
 
                   .st0 {
-                    stroke: #ffffff;
+                    stroke: $white;
                   }
                 }
 
@@ -3814,7 +3814,7 @@ svg:not(:root) {
         font-size: 16px;
         line-height: 30px;
         font-weight: 400;
-        color: #636363;
+        color: $textBaseColor;
         margin: 4% 0 0 0;
         max-width: 770px;
         width: 100%;
@@ -3893,7 +3893,7 @@ svg:not(:root) {
       font-size: 18px;
       line-height: 30px;
       text-align: left;
-      color: #fff;
+      color: $white;
       margin: 40px 0 30px 0;
     }
   }
@@ -3998,7 +3998,7 @@ svg:not(:root) {
     margin-bottom: 40px;
 
     .development-heading {
-      color: #f26e65;
+      color: $secondaryColor;
       max-width: 1130px;
       margin-left: auto;
 
@@ -4036,7 +4036,7 @@ svg:not(:root) {
 
 .portfolio-main-sec {
   padding: 150px 0 110px 0;
-  background-color: #000;
+  background-color: $primaryColor;
   overflow: hidden;
 
   .heading-main-sec {
@@ -4050,7 +4050,7 @@ svg:not(:root) {
 
     h3,
     h4 {
-      color: #fff;
+      color: $white;
     }
   }
 
@@ -4076,10 +4076,10 @@ svg:not(:root) {
         max-width: max-content;
         font-weight: 600;
         padding: 0 5px 20px 5px;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid $white;
 
         .swiper-pagination-current {
-          color: #fff;
+          color: $white;
         }
       }
     }
@@ -4186,7 +4186,7 @@ svg:not(:root) {
       display: flex;
 
       .main-title {
-        color: #fff;
+        color: $white;
       }
 
       .image-sec {
@@ -4224,7 +4224,7 @@ svg:not(:root) {
         h4 {
           font-size: 40px;
           line-height: 1;
-          color: #fff;
+          color: $white;
           font-weight: 900;
           margin: 0;
           opacity: 1 !important;
@@ -4250,7 +4250,7 @@ svg:not(:root) {
         p {
           font-size: 16px;
           line-height: 26px;
-          color: #fff;
+          color: $white;
           font-weight: 400;
           margin: 0;
           opacity: 1 !important;
@@ -4308,7 +4308,7 @@ svg:not(:root) {
             transition: opacity 0.3s ease-in-out;
 
             .count {
-              color: #F26E65;
+              color: $secondaryColor;
               margin: 0 5px 0 0;
             }
           }
@@ -4397,7 +4397,7 @@ svg:not(:root) {
                 span {
                   font-size: 20px;
                   line-height: 30px;
-                  color: #636363;
+                  color: $textBaseColor;
                 }
               }
             }
@@ -4475,7 +4475,7 @@ svg:not(:root) {
           h3 {
             font-size: 40px;
             line-height: 1;
-            color: #000;
+            color: $primaryColor;
             font-weight: 900;
             display: grid;
             margin: 0;
@@ -4500,7 +4500,7 @@ svg:not(:root) {
               &.hover {
                 grid-area: 1 / 1 / 2 / 2;
                 opacity: 0;
-                color: #F26E65;
+                color: $secondaryColor;
                 transform: translate3d(0, 25.5961px, -26.0467px) rotateX(-91deg);
                 transition: transform 1s cubic-bezier(.33, 1, .68, 1), opacity 1s cubic-bezier(.33, 1, .68, 1);
                 align-self: center;
@@ -4514,7 +4514,7 @@ svg:not(:root) {
           p {
             font-size: 16px;
             line-height: 26px;
-            color: #636363;
+            color: $textBaseColor;
             max-width: 600px;
             margin: 0 0 0 auto;
             opacity: 0;
@@ -4728,7 +4728,7 @@ svg:not(:root) {
         background-repeat: no-repeat;
         background-size: 25px auto;
         background-position: center center;
-        border: 3px solid #ffffff;
+        border: 3px solid $white;
         &::after {
           display: none;
         }
@@ -4890,7 +4890,7 @@ svg:not(:root) {
 
       &.active {
         background: linear-gradient(90deg, rgba(242,110,101,1) 0%, rgba(242,110,101,0) 100%); 
-        border: 2px solid #000;
+        border: 2px solid $primaryColor;
         z-index: 1;
 
         &::before {
@@ -5040,12 +5040,12 @@ svg:not(:root) {
           font-weight: 400;
           font-size: 20px;
           line-height: 20px;
-          color: #fff;
+          color: $white;
           box-shadow: none;
           outline: none;
 
           &::placeholder {
-            color: #fff;
+            color: $white;
             opacity: 1;
           }
 
@@ -5202,7 +5202,7 @@ svg:not(:root) {
             font-size: 20px;
             line-height: 30px;
             font-weight: 400;
-            color: #868686;
+            color: $footerlink;
             margin: 0 0 25px;
             display: inline-flex;
             align-items: center;
@@ -5607,7 +5607,7 @@ svg:not(:root) {
         font-size: 40px;
         line-height: 45px;
         font-weight: 400;
-        color: #ffffff;
+        color: $white;
         margin-bottom: 30px;
         padding-bottom: 20px;
         transition: all ease 0.5s;
@@ -5898,7 +5898,7 @@ svg:not(:root) {
                 font-size: 20px;
                 line-height: 30px;
                 font-weight: 600;
-                color: #ffffff;
+                color: $white;
                 margin: 25px 0;
                 display: flex;
                 align-items: center;
@@ -6612,7 +6612,7 @@ h6+p+p {
         width: 100%;
 
         h3 {
-          color: #F26E65;
+          color: $secondaryColor;
         }
 
         p {
@@ -6845,7 +6845,7 @@ section.sevice-bg-sec {
     svg {
       width:100vw;
       path:first-child {
-        fill: #000;
+        fill: $primaryColor;
         transition: 0.3s ease;
       }
     }
@@ -6976,7 +6976,7 @@ section.sevice-bg-sec {
           }
           &.active{
             &::before{
-              background-color: #F26E65 !important;
+              background-color: $secondaryColor !important;
             }
             a{
               color: $white !important;
@@ -7016,7 +7016,7 @@ section.sevice-bg-sec {
         margin-bottom: 0;
       }
       h4{
-        color: #F26E65;
+        color: $secondaryColor;
         font-size: 30px;
         line-height: 30px;
         margin-top: 40px;
@@ -7110,3 +7110,341 @@ section.sevice-bg-sec {
 
 
 /* product deatils page css start */
+
+/* career page css start */
+.career-area{
+padding: 150px 0;
+    background-image: url(../img/MobileConvert.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    .career-area-block {
+      margin-top: 40px;
+      align-items: center;
+      
+      .cx-icon {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        border-radius: 40px;
+        background: $secondaryColor;
+    }
+      .career-area-block-wrap {
+        background-color: $primaryColor;
+        border: 2px solid #262626;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+        padding: 30px;
+  
+        &.active {
+          background-color: $primaryColor;
+          z-index: 1;
+        }
+  
+       .career-area-block-top {
+        padding: 0px;
+  
+        .card-title {
+          font-family: $primaryFonts;
+          font-size: 30px;
+          line-height: 1;
+          font-weight: 400;
+          letter-spacing: 1px;
+          cursor: pointer;
+          opacity: 1 !important;
+          margin-bottom: 16px;
+
+          .word {
+            .letter {
+              transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+              opacity: 1 !important;
+            }
+          }
+         
+         }
+         .other-info{
+          p{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1;
+            font-family: $secondryFornts;
+            &:not(:last-child) {
+              padding-right: 30px;
+              &::after{
+                content: '';
+                width: 1px;
+                height: 20px;
+                display: inline-block;
+                background: $secondaryColor;
+                margin-left: 30px;
+              }
+            }
+            
+            span.fw-normal{
+                font-weight: 400;
+            }
+           }
+        }
+         
+       }
+       
+        .card-text {
+          font-family: $secondryFornts;
+          font-size: 16px;
+          line-height: 26px;
+          font-weight: normal;
+          display: none;
+          padding-top: 30px;
+          margin-top: 30px;
+          border-top: 1px solid $secondaryColor;
+          ul {
+            padding: 0;
+            margin: 0;
+            li {
+              &:not(:last-child){
+                margin-bottom: 25px;
+              }
+              p {
+                margin: 0 0 0 13px;
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+}
+/* career page css end */
+
+/* passion sec css start */
+.your-passion{
+  padding: 150px 0px;
+  overflow: hidden !important;
+
+  .container{
+    overflow: hidden !important;
+  }
+  .heading-main-sec{
+    h3,h4,p{
+      text-align: left;
+    }
+    p{
+      font-size: 25px;
+      line-height: 1.6;
+      margin-bottom: 50px;
+    }
+  }
+  .gif-col-wrapper{
+    padding-top: 318px !important;
+    border-left: 1px solid $secondaryColor;
+    &:nth-child(2) {
+      padding-top: 489px !important;
+    }
+    &:nth-child(3) {
+      padding-top: 254px !important;
+    }
+    &:nth-child(4) {
+      padding-top: 580px !important;  
+    }
+  }
+  .gif-col-wrapper{
+    .box-wrapper {
+      max-width: 223px;
+      padding-left: 23px;
+      .info {
+        span.latter {
+          border: 1px solid $secondaryColor;
+          border-radius: 50%;
+          width: 54px;
+          height: 54px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-transform: uppercase;
+          color: $white;
+          font-size: 20px;
+          line-height: 1;
+          font-weight: 600;
+          margin-bottom: 20px;
+          z-index: 9;
+          mix-blend-mode: difference;
+          position: relative;
+        }
+        p{
+          font-size: 34px;
+          line-height: 1.41;
+          color: $white;
+          font-weight: 400;
+          font-family: $primaryFonts;
+          transition: 0.3s ease;
+          z-index: 9;
+          mix-blend-mode: difference;
+          position: relative;
+        }
+      }
+    }
+    &:hover {
+      .info {
+        p{
+          color: $secondaryColor;
+          transition: 0.3s ease;
+          
+        }
+      }
+    }
+  }
+  
+  .imgaes-row.gif-wrapper {
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+    overflow: hidden;
+    img{
+      width: 440px;
+      height: 368px;
+    }
+  }
+}
+body.overflow-hidden-x {
+  overflow-x: hidden;
+}
+/* passion sec css end */
+
+/* employee testimonial sec css start */
+.emp-testimonial-sec {
+  background-color: $white;
+  position: relative;
+  padding: 150px 0 150px 0;
+  z-index: 1;
+
+  img.cust-bg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .container {
+    .row{
+      .heading-main-sec {
+        h4{
+          span{
+            color: $primaryColor;
+          }
+        }
+      }
+    }
+  }
+  .emp-tab-wrapper{
+    max-width: 1170px;
+    margin: 40px auto 0 auto;
+    .emp-tab-content {
+      position: relative;
+      padding: 40px;
+      box-shadow: 15px 20px 60px 0px #00000012;
+      border-radius: 20px;
+      background: $white;
+      min-height: 255px;
+      margin-bottom: 100px;
+      &::after{
+        content: '';
+        width: 168px;
+        height: 58px;
+        position: absolute;
+        top: 100%;
+        background: url(../../assets/img/emp-test-gb-shape.webp)no-repeat center;
+        background-size: contain;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .tab-pane{
+        font-size: 20px;
+        line-height: 1.75;
+        color: $textBaseColor;
+        position: absolute;
+        transition: 0.3s ease;
+        opacity: 0;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        &.active.show {
+          position: unset;
+          transition: 0.3s ease;
+          opacity: 1;
+        }
+      }
+
+    }
+    .nav-tabs {
+      border: none;
+      gap: 30px;
+      background: $white;
+      button {
+        border: none;
+        padding: 0px;
+        width: calc(25% - 22.5px);
+        span.emp-name {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 30px;
+          line-height: 1;
+          letter-spacing: 0.5px;
+          color: $primaryColor;
+          margin-top: 20px;
+        }
+        .emp-wrapper {
+          
+          width: 100%;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          img {
+            width: 100%;
+            max-height: 420px;
+            filter: grayscale(1);
+            transition: 0.3s ease;
+          }
+          &::after {
+            content: '';
+            width: 100%;
+            height: 13px;
+            background: #040442;
+            display: inline-block;
+            transition: 0.3s ease;
+          }
+        }
+        &.active , &:hover{
+          background: transparent;
+          span.emp-name {
+            color: $secondaryColor;
+          }
+          .emp-wrapper {
+            img {
+              filter: grayscale(0);
+              transition: 0.3s ease;
+            }
+            &::after {
+              background: $secondaryColor;
+              transition: 0.3s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* employee testimonial sec css end */

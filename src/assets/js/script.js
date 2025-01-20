@@ -1156,3 +1156,92 @@ var swiper2 = new Swiper(".portfolio-slider", {
 });
 
 /* Portfolio Sec JS End */
+
+/* career accordion js Start */
+
+jQuery(document).ready(function ($) {
+  $(".career-area-block-wrap").click(function () {
+    var $this = $(this);
+    var $content = $this.find(".at-tab");
+    var $title = $this.find(".at-title");
+
+    if ($title.hasClass("active")) {
+    
+      $title.removeClass("active");
+      $this.removeClass("active");
+      $content.slideUp();
+    } else {
+    
+      $(".career-area-block-wrap .at-title.active")
+        .removeClass("active")
+        .closest(".career-area-block-wrap")
+        .removeClass("active")
+        .find(".at-tab")
+        .slideUp();
+
+      $title.addClass("active");
+      $this.addClass("active");
+      $content.slideDown();
+    }
+  });
+});
+
+/* career accordion js End */
+jQuery(document).ready(function($) {
+  const $gifWrapper = $('.imgaes-row.gif-wrapper');
+  const $gifCols = $('.gif-col-wrapper');
+  const $yourPassion = $('.cust-img-effect'); 
+
+
+  $yourPassion.on('mouseenter', function() {
+    $('body').addClass('overflow-hidden-x');
+    $(document).on('mousemove.gifWrapper', function(e) {
+      const mouseX = e.pageX;
+      const mouseY = e.pageY;
+      $gifWrapper.css({
+        'left': (mouseX - 100) + 'px',
+        'top': mouseY + 'px',
+      });
+      const rotation = (mouseX / $(window).width()) * 48 - 24;
+      $gifWrapper.css('transform', 'rotate(' + rotation + 'deg)');
+    });
+
+    $gifCols.each(function(index) {
+      $(this).on('mouseenter', function() {
+        $gifWrapper.css({
+          'visibility': 'visible',
+          'opacity': '1'
+        });
+        $gifWrapper.find('img').each(function(i) {
+          if (i === index) {
+            $(this).show();
+          } else {
+            $(this).hide();
+          }
+        });
+      });
+
+      $(this).on('mouseleave', function() {
+        $gifWrapper.css({
+          'visibility': 'hidden',
+          'opacity': '0'
+        });
+      });
+    });
+  });
+
+  $yourPassion.on('mouseleave', function() {
+  
+    $('body').removeClass('overflow-hidden-x');
+
+    $(document).off('mousemove.gifWrapper');
+    $gifWrapper.css({
+      'left': '0px',
+      'top': '0px',
+      'transform': 'rotate(0deg)',
+      'visibility': 'hidden',
+      'opacity': '0'
+    });
+  });
+});
+
