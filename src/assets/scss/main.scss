@@ -7330,7 +7330,7 @@ padding: 150px 0;
     }
       .career-area-block-wrap {
         background-color: $primaryColor;
-        border: 2px solid #262626;
+        border: 2px solid $borderGray;
         border-radius: 15px;
         margin-bottom: 20px;
         position: relative;
@@ -7659,7 +7659,7 @@ body.overflow-hidden-x {
         height: 58px;
         position: absolute;
         top: 100%;
-        background: url(../../assets/img/emp-test-gb-shape.webp)no-repeat center;
+        background: url(../../assets/img/emp-test-gb-shape.svg)no-repeat center;
         background-size: contain;
         left: 50%;
         transform: translateX(-50%);
@@ -7836,6 +7836,43 @@ body.overflow-hidden-x {
 }
 
 /* Join Our Team Section CSS End */
+
+/* Purpose sec css Start */
+.purpose-main-sec{
+  padding: 150px 0px;
+  .cust-row{
+    gap: 40px;
+    margin-top: 40px;
+    align-items: flex-start;
+    .cust-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      border: 1px solid $borderGray;
+      border-radius: 40px;
+      padding: 50px 27px 40px 40px;
+      width: calc(33.33% - 27px);
+      background: url(../../assets/img/x-cust-bg.webp)no-repeat center;
+      &:nth-child(2) {
+        margin-top: 60px;
+      }
+      h4.cust-inner-title {
+        font-size: 50px;
+        line-height: 1;
+        margin-bottom: 30px;
+        margin-top: 8px;
+      }
+      p.cust-desc {
+        font-size: 16px;
+        color: $contentLight;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+/* Purpose sec css end */
+
 /* Event Videos Section css start */
 .event-videos {
   padding: 120px 0;
@@ -7897,5 +7934,6 @@ body.overflow-hidden-x {
   }
 }
 /* Event Videos Section css End */
+
 
 /* Life Of Cypherox Page CSS End */

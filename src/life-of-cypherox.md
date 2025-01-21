@@ -38,5 +38,13 @@ videos:
     alt: "Event 4"
     available: false  
 
-
+purposeSecSubTitle: "Workplace Happy Hours"
+purpoesSecTitle: "Driven by Purpose"
+purposeList: 
+  - purposeTitle: "Envision"
+    purposeDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt accumsan nisi ut faucibus. Proin a libero aliquam, varius risus eu, tincidunt lorem."
+  - purposeTitle: "Leverage"
+    purposeDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt accumsan nisi ut faucibus. Proin a libero aliquam, varius risus eu, tincidunt lorem."
+  - purposeTitle: "Infinite"
+    purposeDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt accumsan nisi ut faucibus. Proin a libero aliquam, varius risus eu, tincidunt lorem."
 ---
