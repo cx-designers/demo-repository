@@ -10,6 +10,39 @@ $borderColor: rgba(255, 255, 255, 0.25);
 $menuBoxShadow: 0px 0px 30px 0px rgba(242, 110, 101, 0.58);
 $footerlink: #868686;
 $tabTextColor: #414141;
+$buttonTextBg: rgba(0, 0, 0, 0.8);
+$redOutlineBorder: rgba(242, 110, 101, .2);
+$menuMainText: rgba(255, 255, 255, 0.20);
+$submenuText: rgba(255, 255, 255, 0.70);
+$subTitleTextShadow: rgba(242, 110, 101, 0.7);
+$borderBottomColor: #DCDCDC;
+$borderGray: #262626;
+$contentLight: rgba(255, 255, 255, 0.7);
+$yellowBg: #F2D165;
+$orangeBg: #F06E65;
+$purpleBg: #659DF2;
+$lightBlueBg: #8865F2;
+$cuttingToolShadow: #0000000d;
+$cuttingBorder: #eaeaea;
+$videoBg: #ffffff80;
+$paginationColor: #2D2E30;
+$thumbBg: rgba(255, 255, 255, 20%);
+$thumbImgBg: rgba(255, 255, 255, 12%);
+$innerButtonColor: #121212;
+$faqBorder: #F26E6520;
+$faqBg: #170A09;
+$partnerBorder: #CFCFCF;
+$teamBg: #E8E8E6;
+$phasesBg: #ffffff30;
+$phasesTextColor: #ffffff70;
+$phasesShadowColor: #F26E6560;
+$cardHeadingShadow: #F26E6570;
+$tabButtonBorder: #F26E6533;
+$tabButtonShadow: rgba(0, 0, 0, 0.1);
+$tabContentShadow: rgba(0, 0, 0, 0.07);
+$mobileContentColor: rgba(255, 255, 255, 0.702);
+$mobileBg: rgb(63, 131, 255);
+$summaryBorder: rgba(255, 255, 255, .2);
 $screen-desktop-large : 1700px;
 $screen-desktop-small : 1440px;
 $screen-md: 1200px;
@@ -236,7 +269,7 @@ h1 {
     position: absolute;
     top: 2px;
     left: 2px;
-    background: rgba(0, 0, 0, 0.8);
+    background: $buttonTextBg;
     backdrop-filter: blur(100px);
     display: flex;
     align-items: center;
@@ -262,7 +295,7 @@ h1 {
     border-radius: 50px;
 
     &.red-outline {
-      border: 2px solid rgba(242, 110, 101, .2);
+      border: 2px solid $redOutlineBorder;
     }
 
     &:before {
@@ -454,10 +487,6 @@ h1 {
       font-size: 40px;
       line-height: 50px;
     }
-
-    span {
-      // display: block;
-    }
   }
 }
 
@@ -466,10 +495,10 @@ h1 {
 /* Site loader styling */
 .gloabl-banner-inner-page {
   .loaderWrapper {
-    // height: auto;
     top: 0;
   }
 }
+
 .loaderWrapper {
   display: flex;
   height: 100vh;
@@ -477,7 +506,8 @@ h1 {
   overflow: hidden !important;
   position: absolute;
   min-height: 900px;
-  bottom:0;
+  bottom: 0;
+
   .drawLogowrapper {
     margin-top: auto;
 
@@ -513,11 +543,8 @@ h1 {
 
   .roundeO {
     stroke-dasharray: 500;
-    /* Set to match the length of the path */
     stroke-dashoffset: 500;
-    /* Fully hidden */
     opacity: 0;
-    /* Hidden from view */
   }
 
   .drawlogo,
@@ -586,7 +613,7 @@ header {
           width: 60px;
           height: 60px;
           margin: 0 0 0 30px;
-          z-index:9;
+          z-index: 9;
 
           @include mobileLarge {
             width: 40px;
@@ -607,26 +634,31 @@ header {
     }
   }
 }
+
 /* Menu Css Start */
 body.open-menu {
   overflow: hidden;
 }
+
 .menu {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
+
   & svg {
     height: 0;
     width: 0;
     transform: scale(1.7);
     transition: height 0.5s ease, width 0.5s ease;
+
     &.expanded {
       height: 100%;
       width: 100%;
     }
   }
+
   .menu-date {
     position: absolute;
     top: 0;
@@ -636,38 +668,47 @@ body.open-menu {
     padding: 130px 0;
     transform: translateY(100%);
     transition: transform 0.5s ease;
+
     &.open {
-      transform: translateY(0%);  
+      transform: translateY(0%);
     }
+
     .menu-date-bar {
       text-align: left;
       position: relative;
+
       & ul {
         padding: 0;
         margin: 0;
+
         & li {
           list-style: none;
           margin-bottom: 50px;
+
           &.active a {
             color: $white;
           }
+
           & a {
             font-size: 50px;
             line-height: 50px;
             font-weight: 400;
-            color: rgba(255, 255, 255, 0.20);
+            color: $menuMainText;
             font-family: "QAEFQS+TTFirsNeue";
             text-decoration: none;
             transition: all 1s ease;
+
             &:hover {
               color: $white;
             }
           }
+
           &.active .sub-menu {
             transform: translateX(0%);
             display: block;
             opacity: 1;
-          } 
+          }
+
           .sub-menu {
             position: absolute;
             top: 0;
@@ -676,6 +717,7 @@ body.open-menu {
             display: none;
             opacity: 0;
             transition: transform .5s ease, opacity .5s ease;
+
             & li {
               & a {
                 font-size: 40px;
@@ -685,17 +727,21 @@ body.open-menu {
                 font-family: "QAEFQS+TTFirsNeue";
                 text-transform: uppercase;
               }
+
               .sub-menu-in {
                 margin: 30px 0 0;
+
                 & li {
                   margin: 0 0 25px;
+
                   & a {
                     font-size: 20px;
                     line-height: 20px;
-                    color: rgba(255, 255, 255, 0.70);
+                    color: $submenuText;
                     font-weight: 500;
                     position: relative;
                     padding: 0 0 0 32px;
+
                     &::before {
                       content: "";
                       position: absolute;
@@ -705,7 +751,7 @@ body.open-menu {
                       width: 12px;
                       background-color: $secondaryColor;
                       border-radius: 50%;
-                      box-shadow: 0px 0px 12px 0px rgba(242,110,101,0.6);
+                      box-shadow: 0px 0px 12px 0px rgba(242, 110, 101, 0.6);
                     }
                   }
                 }
@@ -719,6 +765,7 @@ body.open-menu {
 }
 
 /* Menu Css End */
+
 /* Header Section Style end*/
 
 /* Hero Section Style */
@@ -757,6 +804,10 @@ body.open-menu {
 
     .flying {
       position: absolute;
+
+      &.blur-img {
+        filter: blur(2px);
+      }
 
       @include mobileLarge {
         display: none;
@@ -860,7 +911,7 @@ body.open-menu {
           display: inline-block;
           color: $secondaryColor;
           margin: 0;
-          text-shadow: 5px 0px 15px rgba(242, 110, 101, 0.7);
+          text-shadow: 5px 0px 15px $subTitleTextShadow;
         }
 
         &.left-col {
@@ -1045,7 +1096,6 @@ body.open-menu {
     z-index: 2;
     transform-origin: center;
     perspective: 1000000px;
-    // will-change: transform;
     -webkit-backface-visibility: hidden;
     -webkit-transform-origin: center;
     will-change: transform;
@@ -1236,7 +1286,6 @@ body.open-menu {
 
         svg {
           width: 100%;
-          // height: 100%;
         }
       }
     }
@@ -1260,7 +1309,6 @@ body.open-menu {
           text-align: left;
           color: $white;
           margin: 0 0 30px 0;
-          // display: flex;
           flex-wrap: wrap;
 
           @include desktopSmall {
@@ -1405,7 +1453,6 @@ body.open-menu {
 
         svg {
           width: 100%;
-          // height: 100%;
         }
       }
     }
@@ -1479,7 +1526,7 @@ body.open-menu {
   }
 
   .border-bottom-cust {
-    border-bottom: 1px solid #DCDCDC;
+    border-bottom: 1px solid $borderBottomColor;
   }
 }
 
@@ -1758,7 +1805,7 @@ body.open-menu {
           position: absolute;
           top: 2px;
           left: 2px;
-          background: rgba(0, 0, 0, 0.8);
+          background: $buttonTextBg;
           -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
           display: flex;
@@ -1830,7 +1877,7 @@ body.open-menu {
 
 .blog-post-sec .swiper-button-prev,
 .blog-post-sec .swiper-button-next {
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  border: 1px solid $menuMainText;
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -1885,7 +1932,7 @@ body.open-menu {
       position: absolute;
       top: 5px;
       left: 12px;
-      background: rgba(0, 0, 0, 1);
+      background: $primaryColor;
       -webkit-backdrop-filter: blur(100px);
       backdrop-filter: blur(100px);
       display: flex;
@@ -1956,7 +2003,7 @@ body.open-menu {
       position: absolute;
       top: 5px;
       left: -9px;
-      background: rgba(0, 0, 0, 1);
+      background: $primaryColor;
       -webkit-backdrop-filter: blur(100px);
       backdrop-filter: blur(100px);
       display: flex;
@@ -2020,7 +2067,7 @@ div#lottie-animation {
 .autoplay-progress-bar {
   position: relative;
   height: 1px;
-  background-color: rgba(255, 255, 255, 0.20);
+  background-color: $menuMainText;
   overflow: hidden;
   margin-top: 10px;
   max-width: 1241px;
@@ -2095,8 +2142,8 @@ div#lottie-animation {
         left: 0;
         height: 200px;
         width: 100%;
-        background: rgb(0, 0, 0);
-        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+        background: $primaryColor;
+        background: linear-gradient(180deg, $primaryColor 0%, rgba(0, 0, 0, 0) 100%);
         z-index: 999;
       }
 
@@ -2107,8 +2154,8 @@ div#lottie-animation {
         left: 0;
         height: 200px;
         width: 100%;
-        background: rgb(0, 0, 0);
-        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+        background: $primaryColor;
+        background: linear-gradient(0deg, $primaryColor 0%, rgba(0, 0, 0, 0) 100%);
         z-index: 999;
       }
 
@@ -2126,7 +2173,7 @@ div#lottie-animation {
             margin: 0px;
             padding: 35px 30px;
             background: $primaryColor;
-            border: 1px solid rgba(38, 38, 38, 1);
+            border: 1px solid $borderGray;
             border-radius: 15px;
 
             .testimonial-item-icon-sec {
@@ -2179,7 +2226,7 @@ div#lottie-animation {
                   p {
                     font-size: 16px;
                     line-height: 20px;
-                    color: rgba(255, 255, 255, 0.7);
+                    color: $contentLight;
                     margin: 0px;
                   }
                 }
@@ -2287,7 +2334,7 @@ div#lottie-animation {
     .team-col-inner {
       display: flex;
       flex-direction: column;
-      border: 1px solid #262626;
+      border: 1px solid $borderGray;
       border-radius: 20px;
       position: relative;
       overflow: hidden;
@@ -2492,19 +2539,19 @@ div#lottie-animation {
       }
 
       &:nth-child(2n) {
-        background-color: #F2D165;
+        background-color: $yellowBg;
       }
 
       &:nth-child(3n) {
-        background-color: #F06E65;
+        background-color: $orangeBg;
       }
 
       &:nth-child(4n) {
-        background-color: #659DF2;
+        background-color: $purpleBg;
       }
 
       &:nth-child(5n) {
-        background-color: #8865F2;
+        background-color: $lightBlueBg;
       }
 
       .counter-inner {
@@ -2600,18 +2647,19 @@ div#lottie-animation {
 
 .industries-section {
   position: relative;
-    &:after {
-      position: absolute;
-      content: "";
-      width: 490px;
-      height: 100%;
-      background-image: url(../img/industries-shap.svg);
-      bottom: 20%;
-      top: auto;
-      background-size: 100%;
-      background-repeat: no-repeat;
-      background-position: bottom;
-    }
+
+  &:after {
+    position: absolute;
+    content: "";
+    width: 490px;
+    height: 100%;
+    background-image: url(../img/industries-shap.svg);
+    bottom: 20%;
+    top: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
 }
 
 
@@ -2669,11 +2717,10 @@ div#lottie-animation {
 
     .slider {
       display: flex;
-      // align-items: center;
 
       .slider-item {
         margin: 0 35px;
-        border: 1px solid #262626;
+        border: 1px solid $borderGray;
         border-radius: 20px;
         position: relative;
         overflow: hidden;
@@ -2905,13 +2952,12 @@ div#lottie-animation {
 
   z-index: 3;
   background-color: $white;
-  /* background-image: radial-gradient(circle,#F26E65 51%,$white0 85.23%); */
   border-radius: 50%;
   width: 3.5em;
   height: 3.5em;
   position: absolute;
-  box-shadow: 0 6px 8px #0000000d;
-  border: 2px solid #eaeaea;
+  box-shadow: 0 6px 8px $cuttingToolShadow;
+  border: 2px solid $cuttingBorder;
 }
 
 .cutting-tool-icon {
@@ -3194,7 +3240,7 @@ svg:not(:root) {
   }
 
   .border-bottom-cust {
-    border-bottom: 1px solid #DCDCDC;
+    border-bottom: 1px solid $borderBottomColor;
   }
 
   .bgWhite-bordered {
@@ -3390,7 +3436,7 @@ svg:not(:root) {
   }
 
   .copyright-area {
-    border-top: 1px solid #DCDCDC;
+    border-top: 1px solid $borderBottomColor;
     margin-top: 60px;
     padding-top: 40px;
     align-items: center;
@@ -3458,14 +3504,15 @@ svg:not(:root) {
       }
 
       .svg-draw-sec {
-        &.inner-banner-svg{
+        &.inner-banner-svg {
           position: absolute;
           right: 0;
           top: auto;
           bottom: 0px;
           left: auto;
-          width:auto;
+          width: auto;
         }
+
         svg {
           .svg-about-banner {
             opacity: 0;
@@ -3561,7 +3608,7 @@ svg:not(:root) {
     }
 
     .unique-items-block {
-      border: 1px solid #262626;
+      border: 1px solid $borderGray;
       border-radius: 40px;
       padding: 40px;
       width: 100%;
@@ -3586,7 +3633,7 @@ svg:not(:root) {
         }
 
         p {
-          color: rgba(255, 255, 255, 0.7);
+          color: $contentLight;
           font-weight: 400;
         }
       }
@@ -3731,7 +3778,7 @@ svg:not(:root) {
               &:before {
                 content: "";
                 content: "";
-                background-color: hsla(0, 0%, 100%, .5);
+                background-color: $videoBg;
                 width: 110px;
                 height: 110px;
                 position: absolute;
@@ -3744,7 +3791,7 @@ svg:not(:root) {
               }
 
               .video-img {
-                background-color: #f2726a;
+                background-color: $secondaryColor;
                 width: 100px;
                 height: 100px;
                 border-radius: 50%;
@@ -3796,7 +3843,7 @@ svg:not(:root) {
     align-items: flex-start;
 
     .col-vision {
-      border: 1px solid #DCDCDC;
+      border: 1px solid $borderBottomColor;
       border-radius: 200px;
       margin-top: -7px;
 
@@ -3828,7 +3875,7 @@ svg:not(:root) {
     }
 
     .col-cx-logo {
-      border: 1px solid #DCDCDC;
+      border: 1px solid $borderBottomColor;
       width: 400px;
       height: 400px;
       border-radius: 50%;
@@ -3846,7 +3893,7 @@ svg:not(:root) {
   padding: 150px 0;
 
   .row {
-    border: 1px solid #262626;
+    border: 1px solid $borderGray;
     border-radius: 40px;
     align-items: end;
     position: relative;
@@ -3915,7 +3962,7 @@ svg:not(:root) {
       font-size: 18px;
       line-height: 30px;
       text-align: left;
-      color: rgba(255, 255, 255, 0.7);
+      color: $contentLight;
       margin: 0 0 30px 0;
     }
 
@@ -3957,9 +4004,9 @@ svg:not(:root) {
     min-height: 260px;
 
     .ourclient-gallery {
-    
+
       .gallery-items {
-        border: 1px solid #dcdcdc;
+        border: 1px solid $borderBottomColor;
         border-radius: 20px;
         max-width: 272px;
         width: 100%;
@@ -4063,13 +4110,12 @@ svg:not(:root) {
       width: calc(100% - 350px);
       margin-left: auto;
       margin-right: 0;
-      // overflow: visible;
       position: unset;
       overflow: hidden;
       padding-bottom: 40px;
 
       .swiper-pagination {
-        color: #2D2E30;
+        color: $paginationColor;
         bottom: 106px;
         position: absolute;
         left: 0;
@@ -4095,7 +4141,7 @@ svg:not(:root) {
 
         .swiper-slide {
           height: 2px;
-          background-color: rgba(255, 255, 255, 20%);
+          background-color: $thumbBg;
           margin: 0 0 20px 0 !important;
           cursor: pointer;
           width: 70px !important;
@@ -4138,13 +4184,12 @@ svg:not(:root) {
           }
 
           &.swiper-slide-active {
-            // width: 100% !important;
             height: auto;
             background-color: transparent;
 
             .thumb-image {
               padding: 3px;
-              border: 1px solid rgba(255, 255, 255, 20%);
+              border: 1px solid $thumbBg;
               position: relative;
               z-index: 9;
 
@@ -4166,7 +4211,7 @@ svg:not(:root) {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background-color: rgba(255, 255, 255, 12%);
+                background-color: $thumbImgBg;
               }
 
               img {
@@ -4192,7 +4237,7 @@ svg:not(:root) {
       .image-sec {
         width: 50%;
         margin: 0 90px 0 0;
-        background-color: rgba(255, 255, 255, 12%);
+        background-color: $thumbImgBg;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -4211,7 +4256,7 @@ svg:not(:root) {
         h3 {
           font-size: 20px;
           line-height: 1;
-          color: #2D2E30;
+          color: $paginationColor;
           font-weight: 700;
           margin: 0 0 20px 0;
           opacity: 1 !important;
@@ -4237,7 +4282,7 @@ svg:not(:root) {
         h5 {
           font-size: 20px;
           line-height: 1;
-          color: #2D2E30;
+          color: $paginationColor;
           font-weight: 700;
           margin: 100px 0 20px 0;
           opacity: 1 !important;
@@ -4300,7 +4345,7 @@ svg:not(:root) {
             align-items: center;
             font-size: 30px;
             line-height: 30px;
-            color: #121212;
+            color: $innerButtonColor;
             font-weight: 400;
             margin: 0;
             text-decoration: none;
@@ -4458,20 +4503,21 @@ svg:not(:root) {
     .service-item {
       a {
         text-decoration: none;
+
         .service-item-inner {
           padding: 50px 0;
-          border-top: 1px solid #DCDCDC;
-          border-bottom: 1px solid #DCDCDC;
+          border-top: 1px solid $borderBottomColor;
+          border-bottom: 1px solid $borderBottomColor;
           display: grid;
-  
+
           .count {
             font-size: 16px;
-            color: #DCDCDC;
+            color: $borderBottomColor;
             transition: color .4s ease-in-out .2s;
             display: flex;
             align-items: center;
           }
-  
+
           h3 {
             font-size: 40px;
             line-height: 1;
@@ -4484,10 +4530,10 @@ svg:not(:root) {
             transition: color 1s cubic-bezier(.33, 1, .68, 1);
             opacity: 1 !important;
             transition: none !important;
-  
+
             span {
               display: block;
-  
+
               &.default {
                 grid-area: 1 / 1 / 2 / 2;
                 transition: transform 1s cubic-bezier(.33, 1, .68, 1), opacity 1s cubic-bezier(.33, 1, .68, 1);
@@ -4496,7 +4542,7 @@ svg:not(:root) {
                 backface-visibility: hidden;
                 transform-origin: center center -.2em !important;
               }
-  
+
               &.hover {
                 grid-area: 1 / 1 / 2 / 2;
                 opacity: 0;
@@ -4510,7 +4556,7 @@ svg:not(:root) {
               }
             }
           }
-  
+
           p {
             font-size: 16px;
             line-height: 26px;
@@ -4523,21 +4569,21 @@ svg:not(:root) {
             align-self: center;
             grid-column: 14 / 17;
           }
-  
+
           &:hover {
-  
+
             .default {
               opacity: 0;
               transform: translate3d(0, -25.5961px, -26.0468px) rotateX(91deg);
               transition-delay: 0s;
             }
-  
+
             .hover {
               opacity: 1;
               transform: translate(0);
               transition-delay: 0s;
             }
-  
+
             p {
               opacity: 1;
               transform: translateY(0);
@@ -4556,14 +4602,12 @@ svg:not(:root) {
 /* process section start */
 .Process-main-sec {
   padding: 150px 0px;
-  // background: url(../video/site.mp4)no-repeat center;
-  // background-size: cover;
   position: relative;
 
-  .bg-video{
+  .bg-video {
     position: absolute;
     inset: 0;
-    width:100%;
+    width: 100%;
   }
 
   .heading-main-sec {
@@ -4610,18 +4654,19 @@ svg:not(:root) {
           font-size: 16px;
           line-height: 1;
           font-weight: 600;
-          display:flex;
-          align-items:center;
-          gap:10px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
           &::before {
-            content:"";
-            width:16px;
-            height:16px;
-            border:3px solid $white;
-            display:inline-block;
-            border-radius:50%;
+            content: "";
+            width: 16px;
+            height: 16px;
+            border: 3px solid $white;
+            display: inline-block;
+            border-radius: 50%;
             background: $secondaryColor;
-            }
+          }
         }
 
         h2 {
@@ -4667,8 +4712,9 @@ svg:not(:root) {
 
     &.left-top {
       left: 0;
-    top: 150px;
+      top: 150px;
     }
+
     &.bottom-right {
       right: 0;
       bottom: 0px;
@@ -4688,184 +4734,191 @@ svg:not(:root) {
     }
   }
 
-    .rc-slider-main {
-        position: relative;
+  .rc-slider-main {
+    position: relative;
 
-      .review-client-slider {
-        margin: 40px auto 0;
-        max-width: 1170px;
+    .review-client-slider {
+      margin: 40px auto 0;
+      max-width: 1170px;
 
-        .swiper-slide-shadow{
-          background: rgba(0,0,0,0.035);
-          border-radius: 20px;
-          // box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.07);
+      .swiper-slide-shadow {
+        background: rgba(0, 0, 0, 0.035);
+        border-radius: 20px;
+        // box-shadow: 20px 20px 50px $tabContentShadow;
+      }
+
+      .swiper-slide {
+        .review-client-area-block-inner-right {
+          .review-client-area-block-inner-right-icon {
+            opacity: 0;
+            transition: opacity ease-in-out 0.5s;
+          }
         }
 
-        .swiper-slide {
+        &.swiper-slide-active {
           .review-client-area-block-inner-right {
             .review-client-area-block-inner-right-icon {
-             opacity: 0;
-             transition: opacity ease-in-out 0.5s;
+              opacity: 1;
             }
           }
-          &.swiper-slide-active {
-            .review-client-area-block-inner-right {
-              .review-client-area-block-inner-right-icon {
-               opacity: 1;
+        }
+      }
+    }
+
+    .review-client-prev,
+    .review-client-next {
+      width: 60px;
+      height: 60px;
+      background-color: $secondaryColor;
+      border-radius: 50rem;
+      background-image: url(../img/arrow-right-white.svg);
+      background-repeat: no-repeat;
+      background-size: 25px auto;
+      background-position: center center;
+      border: 3px solid $white;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    .review-client-prev {
+      background-image: url(../img/arrow-left-white.svg);
+      left: 10px;
+      position: unset;
+    }
+
+    .review-client-next {
+      right: 10px;
+      position: unset;
+    }
+
+    .review-client-arrows {
+      max-width: calc(1170px + 60px);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      margin: 0 auto;
+      top: 50%;
+      width: 100%;
+      left: 0;
+      right: 0;
+    }
+  }
+
+
+  .review-client-area-block {
+
+    .review-client-area-block-inner {
+
+      .card {
+        padding: 60px;
+        border-radius: 20px;
+        border: 1px solid $borderBottomColor;
+
+        .review-client-area-block-inner-left {
+          width: 60%;
+
+          .card-body {
+            .card-title {
+              font-size: 30px;
+              line-height: 30px;
+              font-weight: 400;
+              color: $primaryColor;
+              margin-bottom: 30px;
+              opacity: 1 !important;
+
+              .word {
+                .letter {
+                  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+                  opacity: 1 !important;
+                }
+              }
+            }
+
+            .card-text {
+              font-size: 22px;
+              line-height: 36px;
+              font-weight: 400;
+              color: $footerlink;
+              font-style: italic;
+              font-family: $secondryFornts;
+              opacity: 1 !important;
+
+              .word {
+                .letter {
+                  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+                  opacity: 1 !important;
+                }
+              }
+            }
+          }
+
+          .card-footer {
+            .card-title {
+              font-size: 40px;
+              line-height: 40px;
+              font-weight: 700;
+              color: $secondaryColor;
+              margin-bottom: 10px;
+              font-family: $secondryFornts;
+              opacity: 1 !important;
+
+              .word {
+                .letter {
+                  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+                  opacity: 1 !important;
+                }
+              }
+            }
+
+            .card-text {
+              font-size: 22px;
+              line-height: 22px;
+              font-weight: 400;
+              color: $footerlink;
+              font-family: $secondryFornts;
+              opacity: 1 !important;
+
+              .word {
+                .letter {
+                  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+                  opacity: 1 !important;
+                }
               }
             }
           }
         }
-      }
 
-      .review-client-prev,
-      .review-client-next {
-        width: 60px;
-        height: 60px;
-        background-color: $secondaryColor;
-        border-radius: 50rem;
-        background-image: url(../img/arrow-right-white.svg);
-        background-repeat: no-repeat;
-        background-size: 25px auto;
-        background-position: center center;
-        border: 3px solid $white;
-        &::after {
-          display: none;
-        }
-      }
-      .review-client-prev {
-        background-image: url(../img/arrow-left-white.svg);
-        left: 10px;
-        position: unset;
-      }
-      .review-client-next {
-        right: 10px;
-        position: unset;
-      }
+        .review-client-area-block-inner-right {
+          width: 40%;
 
-      .review-client-arrows {
-        max-width: calc(1170px + 60px);
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        position: absolute;
-        margin: 0 auto;
-        top: 50%;
-        width: 100%;
-        left: 0;
-        right: 0;
-      }
-    }
+          .review-client-area-block-inner-right-icon {
+            svg {
+              height: 100%;
+              position: absolute;
+              right: -12%;
+              bottom: -20%;
+              z-index: 0;
+            }
+          }
 
+          .review-client-area-block-inner-right-img {
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+            right: 70px;
 
-  .review-client-area-block {
-   
-    .review-client-area-block-inner {
-     
-      .card {
-        padding: 60px;
-        border-radius: 20px;
-        border: 1px solid #DCDCDC;
-        // box-shadow: 20px 20px 60px 10px rgba(0, 0, 0, 0.07);
-
-      .review-client-area-block-inner-left {
-        width: 60%;
-
-        .card-body {
-        .card-title {
-          font-size: 30px;
-          line-height: 30px;
-          font-weight: 400;
-          color: $primaryColor;
-          margin-bottom: 30px;
-          opacity: 1 !important;
-
-        .word {
-          .letter {
-            transform: translateX(0px) translateZ(0px) scaleX(1) !important;
-            opacity: 1 !important;
+            img {
+              height: 440px;
+              object-fit: contain;
+            }
           }
         }
-        }
-        .card-text {
-          font-size: 22px;
-          line-height: 36px;
-          font-weight: 400;
-          color: $footerlink;
-          font-style: italic;
-          font-family: $secondryFornts;
-          opacity: 1 !important;
-
-        .word {
-          .letter {
-            transform: translateX(0px) translateZ(0px) scaleX(1) !important;
-            opacity: 1 !important;
-          }
-        }
-        }
-      }
-      .card-footer {
-        .card-title {
-          font-size: 40px;
-          line-height: 40px;
-          font-weight: 700;
-          color: $secondaryColor;
-          margin-bottom: 10px;
-          font-family: $secondryFornts;
-          opacity: 1 !important;
-
-        .word {
-          .letter {
-            transform: translateX(0px) translateZ(0px) scaleX(1) !important;
-            opacity: 1 !important;
-          }
-        }
-        }
-        .card-text {
-          font-size: 22px;
-          line-height: 22px;
-          font-weight: 400;
-          color: $footerlink;
-          font-family: $secondryFornts;
-          opacity: 1 !important;
-
-        .word {
-          .letter {
-            transform: translateX(0px) translateZ(0px) scaleX(1) !important;
-            opacity: 1 !important;
-          }
-        }
-        }
       }
     }
-    .review-client-area-block-inner-right {
-      width: 40%;
 
-      .review-client-area-block-inner-right-icon {
-        svg {
-          height: 100%;
-          position: absolute;
-          right: -12%;
-          bottom: -20%;
-          z-index: 0;
-        }
-      }
-      .review-client-area-block-inner-right-img {
-        position: absolute;
-        z-index: 1;
-        bottom: 0;
-        right: 70px;
-
-        img {
-          height: 440px;
-          object-fit: contain;
-        }
-      }
-    }
-    }
-    }
-
-  
   }
 }
 
@@ -4878,10 +4931,10 @@ svg:not(:root) {
 
   .faq-area-block {
     margin-top: 40px;
-    
+
     .faq-area-block-wrap {
       background-color: $primaryColor;
-      border: 2px solid #F26E6520;
+      border: 2px solid $faqBorder;
       border-radius: 15px;
       margin-bottom: 20px;
       position: relative;
@@ -4889,7 +4942,7 @@ svg:not(:root) {
       padding: 30px;
 
       &.active {
-        background: linear-gradient(90deg, rgba(242,110,101,1) 0%, rgba(242,110,101,0) 100%); 
+        background: linear-gradient(90deg, rgba(242, 110, 101, 1) 0%, rgba(242, 110, 101, 0) 100%);
         border: 2px solid $primaryColor;
         z-index: 1;
 
@@ -4897,7 +4950,7 @@ svg:not(:root) {
           content: "";
           width: calc(100% - 2px);
           height: calc(100% - 2px);
-          background-color: #170A09;
+          background-color: $faqBg;
           position: absolute;
           z-index: -1;
           left: 1px;
@@ -4905,55 +4958,55 @@ svg:not(:root) {
           border-radius: 15px;
         }
 
-          .faq-icon {
-            svg {
-              transform: rotate(-45deg);
-            }
-           }
-      }
-
-     .faq-area-block-top {
-      padding: 0px;
-
-      .card-title {
-        font-family: $secondryFornts;
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: 700;
-        letter-spacing: 1px;
-        cursor: pointer;
-        opacity: 1 !important;
-
-        .word {
-          .letter {
-            transform: translateX(0px) translateZ(0px) scaleX(1) !important;
-            opacity: 1 !important;
+        .faq-icon {
+          svg {
+            transform: rotate(-45deg);
           }
         }
-       
-       }
+      }
 
-      .faq-icon {
-        width: 30px;
-        height: 30px;
-        border-radius: 50rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: $secondaryColor;
-        position: absolute;
-        z-index: 0;
-        right: 25px;
-        top: 25px;
-        pointer-events: none;
+      .faq-area-block-top {
+        padding: 0px;
 
-       svg {
-          width: auto;
-          height: auto;
-          transition: all ease-in-out 0.5s;
+        .card-title {
+          font-family: $secondryFornts;
+          font-size: 20px;
+          line-height: 20px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          cursor: pointer;
+          opacity: 1 !important;
+
+          .word {
+            .letter {
+              transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+              opacity: 1 !important;
+            }
+          }
+
+        }
+
+        .faq-icon {
+          width: 30px;
+          height: 30px;
+          border-radius: 50rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: $secondaryColor;
+          position: absolute;
+          z-index: 0;
+          right: 25px;
+          top: 25px;
+          pointer-events: none;
+
+          svg {
+            width: auto;
+            height: auto;
+            transition: all ease-in-out 0.5s;
+          }
         }
       }
-     }
 
       .card-text {
         font-family: $secondryFornts;
@@ -4964,20 +5017,23 @@ svg:not(:root) {
         padding-top: 15px;
       }
 
-      
+
     }
   }
 }
+
 /*FAQ css end*/
 
 /*lets talk css start*/
 .lets-talk-area {
   padding-top: 150px;
   padding-bottom: 150px;
+  background-color: $primaryColor;
+  z-index: 9;
 
   .lets-talk-block {
-    background: linear-gradient(90deg, rgba(242, 110, 101, 0.4) 0%, rgba(0, 0, 0, 1) 80%);
-    border: 1px solid #262626;
+    background: linear-gradient(90deg, rgba(242, 110, 101, 0.4) 0%, $primaryColor 80%);
+    border: 1px solid $borderGray;
     border-radius: 40px;
     padding: 80px 130px 10px 80px;
     position: relative;
@@ -5151,17 +5207,20 @@ svg:not(:root) {
 
 .our-Partnership {
   padding: 150px 0 150px;
+
   .heading-main-sec {
     display: inline-block;
+
     h3 {
       text-align: left;
     }
-    
+
     b {
       h4 {
         color: $secondaryColor;
       }
     }
+
     p {
       font-size: 20px;
       line-height: 35px;
@@ -5175,28 +5234,33 @@ svg:not(:root) {
     display: flex;
     flex-wrap: wrap;
     margin: 60px -25px 0;
+
     .card-box {
       width: 33.33%;
       padding: 0 25px;
       margin: 80px 0 0;
+
       .card {
         padding: 50px;
         border-radius: 30px;
         box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.7);
         border: none;
+
         h3 {
           margin: 0 0 40px;
           font-size: 40px;
           line-height: 40px;
-          color: #121212;
+          color: $innerButtonColor;
           font-weight: 400;
           padding: 0 0 40px;
-          border-bottom: 1px solid #CFCFCF;
+          border-bottom: 1px solid $partnerBorder;
           max-width: 90%;
         }
+
         ul {
           padding: 0;
           margin: 0;
+
           li {
             list-style: none;
             font-size: 20px;
@@ -5206,11 +5270,13 @@ svg:not(:root) {
             margin: 0 0 25px;
             display: inline-flex;
             align-items: center;
+
             span {
               margin-right: 15px;
             }
           }
         }
+
         a {
           display: inline-flex;
           align-items: center;
@@ -5218,7 +5284,7 @@ svg:not(:root) {
           height: 60px;
           border-radius: 30px;
           background-color: $secondaryColor;
-          box-shadow: 15px 15px 30px 0px rgba(0,0,0,0.2);
+          box-shadow: 15px 15px 30px 0px rgba(0, 0, 0, 0.2);
           text-decoration: none;
           font-size: 20px;
           font-weight: 400;
@@ -5227,19 +5293,23 @@ svg:not(:root) {
           margin: 15px 0 0;
           border: 2px solid $secondaryColor;
           transition: all 1s ease;
+
           &:hover {
             color: $secondaryColor;
-            background-color: transparent;  
+            background-color: transparent;
           }
         }
       }
     }
+
     .card-box.most-popular {
       margin: 0;
+
       .card {
         background-color: $secondaryColor;
         position: relative;
         overflow: hidden;
+
         .card-badge {
           display: inline-flex;
           align-items: center;
@@ -5257,19 +5327,24 @@ svg:not(:root) {
           padding: 0 50px;
           transform: rotate(45deg);
         }
+
         h3 {
           color: $white;
         }
+
         ul li {
           color: $white;
+
           span svg path {
             fill: $white;
           }
         }
+
         a {
           background-color: $white;
           color: $secondaryColor;
           border: 2px solid $white;
+
           &:hover {
             background-color: transparent;
             color: $white;
@@ -5280,37 +5355,45 @@ svg:not(:root) {
   }
 
 }
+
 /* Our Partnership Section Css End */
 
 
 /* Dedicated Team Section Css Start */
 
 .our-dedicated-team {
-  background-color: #E8E8E6;
+  background-color: $teamBg;
   padding: 150px 0;
   position: relative;
   z-index: 9;
+
   img {
     position: absolute;
     bottom: 0;
     left: 0;
   }
+
   .heading-main-sec {
     padding: 0 0 60px;
+
     h4 {
       color: $primaryColor;
     }
+
     strong {
       display: flex;
       align-items: center;
       justify-content: center;
+
       b {
         margin-left: 10px;
+
         h4 {
           color: $secondaryColor;
         }
       }
     }
+
     p {
       margin: 20px 0 0;
       font-size: 22px;
@@ -5319,9 +5402,11 @@ svg:not(:root) {
       color: $textBaseColor;
     }
   }
+
   .dedicated-slider-bar {
     position: relative;
     overflow: hidden;
+
     &::before {
       content: "";
       position: absolute;
@@ -5330,17 +5415,20 @@ svg:not(:root) {
       bottom: 0;
       left: 0;
       border-radius: 20px;
-      box-shadow: 20px 20px 60px 10px rgba(0,0,0,0.07);
+      box-shadow: 20px 20px 60px 10px $tabContentShadow;
       z-index: 0;
     }
+
     .dedicated-slider {
       background-color: $white;
       border-radius: 20px;
-      border: 1px solid #DCDCDC;
+      border: 1px solid $borderBottomColor;
     }
+
     .swiper-slide {
       .step-card {
         padding: 60px 80px 0 60px;
+
         h5 {
           margin: 0 0 30px;
           font-size: 30px;
@@ -5349,6 +5437,7 @@ svg:not(:root) {
           color: $primaryColor;
           opacity: 1 !important;
         }
+
         p {
           margin: 0 0 50px;
           font-size: 22px;
@@ -5357,19 +5446,21 @@ svg:not(:root) {
           color: $footerlink;
           opacity: 1 !important;
           min-height: 180px;
-        }  
+        }
+
         span.step-number {
           font-size: 120px;
           line-height: 120px;
           font-weight: 700;
-          color: #e8e8e6;
+          color: $teamBg;
           position: relative;
-          bottom: -30px;    
+          bottom: -30px;
         }
       }
     }
   }
 }
+
 /* Dedicated Team Section Css End */
 
 /* specialize Section Start */
@@ -5561,10 +5652,6 @@ svg:not(:root) {
 
 /* =============== Convert Technology Page CSS Start =============== */
 
-.convert-website-page {
-  .about-wrapper {}
-}
-
 /* =============== Convert Technology Page CSS End =============== */
 
 /* =============== On Demand App Development Page CSS Start =============== */
@@ -5596,9 +5683,10 @@ svg:not(:root) {
 
     }
   }
+
   .phases-on-demands-app-block {
     margin-top: 80px;
-    
+
     .phases-on-demands-app-block-inner {
       position: relative;
       overflow: hidden;
@@ -5617,7 +5705,7 @@ svg:not(:root) {
           content: "";
           width: 50%;
           height: 1px;
-          background-color: #ffffff30;
+          background-color: $phasesBg;
           position: absolute;
           bottom: 0;
           left: 0;
@@ -5626,6 +5714,7 @@ svg:not(:root) {
           transition: all ease-in-out 0.5s;
         }
       }
+
       ul.bullet-list {
         margin: 0;
         padding: 0;
@@ -5640,7 +5729,7 @@ svg:not(:root) {
           font-weight: 400;
           font-size: 18px;
           line-height: 26px;
-          color: #ffffff70;
+          color: $phasesTextColor;
           transition: all ease 0.5s;
           position: relative;
           padding-left: 30px;
@@ -5657,7 +5746,7 @@ svg:not(:root) {
             left: 0;
             top: 50%;
             transform: translateY(-50%);
-            box-shadow: 0 0 12px #F26E6560;
+            box-shadow: 0 0 12px $phasesShadowColor;
           }
         }
       }
@@ -5671,6 +5760,7 @@ svg:not(:root) {
             background-color: $secondaryColor;
           }
         }
+
         .phases-on-demands-app-block-inner-img {
           transform: translateY(0);
           opacity: 1;
@@ -5680,7 +5770,7 @@ svg:not(:root) {
           transform: translateY(0);
           height: auto;
           padding-bottom: 100px;
-         }
+        }
 
       }
 
@@ -5692,35 +5782,37 @@ svg:not(:root) {
         transition: all ease-in-out 0.5s;
         transform: translateY(-100%);
         opacity: 0;
-  
+
         img {
           height: 300px;
           object-fit: cover;
         }
       }
     }
-   
+
   }
 }
+
 /*phases on demands app css end*/
 
 /*phases on demands app info css start*/
 .phases-on-demands-app-info {
   padding: 150px 0;
+  position: relative;
   z-index: 9;
 
   .phases-on-demands-app-info-box {
-    background: linear-gradient(0deg, rgba(242,110,101,0) 0%, rgba(242,110,101,0.07) 100%); 
+    background: linear-gradient(0deg, rgba(242, 110, 101, 0) 0%, rgba(242, 110, 101, 0.07) 100%);
     padding: 40px;
     height: 100%;
-    
+
     .card {
       .card-title {
         font-size: 32px;
         line-height: 40px;
         font-weight: 400;
         padding-bottom: 30px;
-        border-bottom: 1px solid #DCDCDC;
+        border-bottom: 1px solid $borderBottomColor;
         opacity: 1 !important;
 
         .word {
@@ -5735,7 +5827,7 @@ svg:not(:root) {
         padding-top: 40px !important;
 
         .card-info-block {
-            margin-bottom: 40px;
+          margin-bottom: 40px;
 
           .small-heading {
             font-size: 20px;
@@ -5743,53 +5835,53 @@ svg:not(:root) {
             font-weight: 600;
             color: $secondaryColor;
             font-family: $secondryFornts;
-            text-shadow: 5px 0 15px #F26E6570;
+            text-shadow: 5px 0 15px $cardHeadingShadow;
             margin-bottom: 20px;
             opacity: 1 !important;
 
-        .word {
-          .letter {
-            transform: translateX(0px) translateZ(0px) scaleX(1) !important;
-            opacity: 1 !important;
-          }
-        }
+            .word {
+              .letter {
+                transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+                opacity: 1 !important;
+              }
             }
+          }
 
-            ul.list-block {
-              margin: 0;
-              padding: 0;
+          ul.list-block {
+            margin: 0;
+            padding: 0;
 
-              li {
-                list-style-type: none;
+            li {
+              list-style-type: none;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              margin-bottom: 20px;
+              font-size: 20px;
+              line-height: 35px;
+              font-weight: 400;
+              font-family: $secondryFornts;
+              color: $textBaseColor;
+              position: relative;
+
+              span {
+                width: 60px;
+                height: 60px;
+                background-color: $primaryColor;
+                border-radius: 50rem;
                 display: flex;
                 align-items: center;
-                gap: 10px;
-                margin-bottom: 20px;
-                font-size: 20px;
-                line-height: 35px;
-                font-weight: 400;
-                font-family: $secondryFornts;
-                color: $textBaseColor;
-                position: relative;
+                justify-content: center;
 
-                span {
-                  width: 60px;
-                  height: 60px;
-                  background-color: $primaryColor;
-                  border-radius: 50rem;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-
-                  img {
-                    height: auto;
-                    object-fit: contain;
-                  }
+                img {
+                  height: auto;
+                  object-fit: contain;
                 }
               }
             }
+          }
         }
-        
+
       }
     }
   }
@@ -5804,13 +5896,13 @@ svg:not(:root) {
 /*phases on demands app info css end*/
 
 /*on demand app slider area css start*/
-.on-demand-app-slider-area  {
+.on-demand-app-slider-area {
   padding: 150px 0;
 
   .on-demand-app-slider-block {
     margin-top: 40px;
     border-radius: 40px;
-    border: 1px solid #262626;
+    border: 1px solid $borderGray;
     padding: 60px 0px 0;
     height: 75vh;
     position: relative;
@@ -5830,19 +5922,19 @@ svg:not(:root) {
       filter: blur(1000px);
     }
 
-    .od-app-slider  {
+    .od-app-slider {
       height: 100%;
 
       .on-demand-app-slider-block-inner {
         margin: 0;
         position: relative;
-       
+
         .on-demand-app-slider-block-inner-left {
           width: 50%;
           position: relative;
-          
-          
-          
+
+
+
           .on-demand-app-slider-block-inner-left-img {
             img {
               width: 100%;
@@ -5851,42 +5943,44 @@ svg:not(:root) {
             }
           }
         }
+
         .on-demand-app-slider-block-inner-right {
           width: 50%;
           padding-left: 40px;
           padding-right: 120px;
-    
+
           .on-demand-app-slider-block-inner-right-info {
-    
+
             .heading {
               font-size: 50px;
               line-height: 50px;
               font-weight: 400;
               opacity: 1 !important;
 
-        .word {
-          .letter {
-            transform: translateX(0px) translateZ(0px) scaleX(1) !important;
-            opacity: 1 !important;
-          }
-        }
-              
+              .word {
+                .letter {
+                  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+                  opacity: 1 !important;
+                }
+              }
+
             }
+
             .para {
               font-family: $secondryFornts;
               font-size: 18px;
               line-height: 30px;
               font-weight: 400;
-              color: #ffffff70;
+              color: $phasesTextColor;
               margin: 30px 0;
               opacity: 1 !important;
 
-        .word {
-          .letter {
-            transform: translateX(0px) translateZ(0px) scaleX(1) !important;
-            opacity: 1 !important;
-          }
-        }
+              .word {
+                .letter {
+                  transform: translateX(0px) translateZ(0px) scaleX(1) !important;
+                  opacity: 1 !important;
+                }
+              }
             }
 
             ul.points {
@@ -5915,7 +6009,7 @@ svg:not(:root) {
         }
       }
 
-     
+
     }
 
     .od-app-pagi {
@@ -5956,6 +6050,7 @@ svg:not(:root) {
     }
   }
 }
+
 /*on demand app slider area css end*/
 
 /* =============== On Demand App Development Page CSS Start =============== */
@@ -5979,7 +6074,7 @@ svg:not(:root) {
       right: 0;
       bottom: 0;
       left: 0;
-      background-image: linear-gradient(#66666600, rgba(0, 0, 0, 0.8));
+      background-image: linear-gradient(#66666600, $buttonTextBg);
       border-radius: 30px;
     }
 
@@ -6076,7 +6171,9 @@ svg:not(:root) {
 .app-features {
   background-color: $white;
   padding: 120px 0 150px;
+  position: relative;
   z-index: 9;
+
   .heading-main-sec {
     h4 {
       margin: 0;
@@ -6085,6 +6182,7 @@ svg:not(:root) {
       line-height: 90px;
     }
   }
+
   .tab-buttons {
     display: flex;
     justify-content: space-between;
@@ -6092,6 +6190,7 @@ svg:not(:root) {
     padding: 0;
     margin: 40px 0 40px;
     gap: 30px;
+
     li {
       cursor: pointer;
       position: relative;
@@ -6101,24 +6200,27 @@ svg:not(:root) {
       align-items: center;
       justify-content: center;
       height: 80px;
-      border: 2px solid #F26E6533;
+      border: 2px solid $tabButtonBorder;
       border-radius: 10px;
-      box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.1);
+      box-shadow: 10px 10px 50px 0px $tabButtonShadow;
       font-size: 18px;
       color: $secondaryColor;
       font-weight: 700;
       background-color: $white;
       transition: all 1s ease;
+
       &:hover {
         background-color: $secondaryColor;
         color: $white;
-        font-weight: bold;  
+        font-weight: bold;
       }
     }
+
     li.active {
       background-color: $secondaryColor;
       color: $white;
       font-weight: bold;
+
       &::after {
         content: "";
         position: absolute;
@@ -6137,15 +6239,18 @@ svg:not(:root) {
   .tab-contents {
     background-color: $white;
     border-radius: 40px;
-    box-shadow: 20px 20px 60px 10px rgba(0,0,0,0.07);
+    box-shadow: 20px 20px 60px 10px $tabContentShadow;
     padding: 60px;
   }
+
   .tab-content {
     display: none;
   }
+
   .tab-content.active {
     display: block;
   }
+
   .features-list {
     list-style: none;
     padding: 0;
@@ -6153,6 +6258,7 @@ svg:not(:root) {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+
     li {
       width: calc(33.33% - 20px);
       font-size: 28px;
@@ -6162,14 +6268,17 @@ svg:not(:root) {
       font-family: "QAEFQS+TTFirsNeue";
       display: flex;
       padding: 0 0 20px;
-      border-bottom: 1px solid #DCDCDC;
+      border-bottom: 1px solid $borderBottomColor;
+
       span {
         width: 86%;
       }
+
       &:nth-last-child(-n+3) {
         border-bottom: none;
       }
     }
+
     li.available {
       &::before {
         content: "";
@@ -6182,6 +6291,7 @@ svg:not(:root) {
         margin-right: 10px;
       }
     }
+
     li.unavailable {
       &::before {
         content: "";
@@ -6266,7 +6376,7 @@ svg:not(:root) {
             }
 
             p {
-              color: rgba(255, 255, 255, 0.7);
+              color: $contentLight;
               margin-bottom: 0;
             }
           }
@@ -6347,10 +6457,12 @@ svg:not(:root) {
       }
     }
   }
+
   .cust-convert-row {
     gap: 30px;
     align-items: self-start;
     flex-wrap: wrap;
+
     .cust-convert-col {
       flex-shrink: unset !important;
       width: calc(33.33% - 20px);
@@ -6360,31 +6472,36 @@ svg:not(:root) {
       display: flex;
       flex-direction: column;
       gap: 30px;
+
       &.col-md-4 {
         padding: 30px 41px 0px 41px;
         border-radius: 25px;
         position: relative;
-        background: linear-gradient(0deg, #000, #170A09);
-        &:first-child{
-          h4{
+        background: linear-gradient(0deg, $primaryColor, $faqBg);
+
+        &:first-child {
+          h4 {
             max-width: 285px;
           }
         }
-        img{
+
+        img {
           width: 100px;
           height: 100px;
         }
+
         h4 {
           font-size: 35px;
           line-height: 40px;
           max-width: none;
           margin-bottom: 40px;
           margin-top: 30px;
-          span{
+
+          span {
             color: $white;
           }
         }
-  
+
         &::before {
           content: "";
           position: absolute;
@@ -6394,7 +6511,8 @@ svg:not(:root) {
           margin: -1px;
           z-index: -1;
         }
-        .goto-icon{
+
+        .goto-icon {
           width: 60px;
           height: 60px;
           border-radius: 50%;
@@ -6402,12 +6520,14 @@ svg:not(:root) {
           display: flex;
           align-items: center;
           justify-content: center;
-          svg{
+
+          svg {
             transform: rotate(0deg);
             transition: 0.3s ease;
           }
-          &:hover{
-            svg{
+
+          &:hover {
+            svg {
               transform: rotate(45deg);
               transition: 0.3s ease;
             }
@@ -6462,6 +6582,46 @@ h6+p+p {
 .features-main-sec {
   padding: 150px 0px;
 
+  &.feature-sec-bg-white {
+    background-color: $white;
+    position: relative;
+    z-index: 9;
+
+    .heading-main-sec {
+      h4 {
+        color: $primaryColor;
+      }
+    }
+
+    .cust-row {
+      .col-md-4 {
+        background: linear-gradient(180deg, rgba(242, 110, 101, 0.1) 0%, rgba(242, 110, 101, 0) 100%);
+
+        &:before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          border-radius: 25px;
+          padding: 1px;
+          background: linear-gradient(180deg, rgba(242, 110, 101, 1) 0%, rgba(242, 110, 101, 0) 100%);
+          mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+          mask-composite: exclude;
+          z-index: 1;
+        }
+
+        h4 {
+          &.cust-inner-title {
+            color: $secondaryColor !important;
+          }
+        }
+
+        p {
+          color: $textBaseColor;
+        }
+      }
+    }
+  }
+
   .cust-row {
     gap: 30px;
     align-items: self-start;
@@ -6487,7 +6647,7 @@ h6+p+p {
       width: 100% !important;
       border-radius: 25px;
       position: relative;
-      background: linear-gradient(0deg, #000, #170A09);
+      background: linear-gradient(0deg, $primaryColor, $faqBg);
 
       h4.cust-inner-title {
         font-size: 40px;
@@ -6594,8 +6754,8 @@ h6+p+p {
 
       .android-left {
         background: rgb(181, 227, 111);
-        background: linear-gradient(-25deg, rgba(181, 227, 111, .5) 0%, rgba(0, 0, 0, 1) 65%);
-        border: 1px solid #262626;
+        background: linear-gradient(-25deg, rgba(181, 227, 111, .5) 0%, $primaryColor 65%);
+        border: 1px solid $borderGray;
         border-radius: 100px;
         padding: 130px;
         max-width: 660px;
@@ -6616,7 +6776,7 @@ h6+p+p {
         }
 
         p {
-          color: hsla(0, 0%, 100%, .7);
+          color: $mobileContentColor;
           font-size: 25px;
           line-height: 40px;
           margin: 40px 0;
@@ -6624,9 +6784,9 @@ h6+p+p {
       }
 
       .iPhone-right {
-        background: rgb(63, 131, 255);
-        background: linear-gradient(-25deg, rgba(63, 131, 255, .5) 0%, rgba(0, 0, 0, 1) 65%);
-        border: 1px solid #262626;
+        background: $mobileBg;
+        background: linear-gradient(-25deg, rgba(63, 131, 255, .5) 0%, $primaryColor 65%);
+        border: 1px solid $borderGray;
         border-radius: 100px;
         padding: 130px;
         max-width: 660px;
@@ -6646,20 +6806,24 @@ h6+p+p {
 /* Different Categories Section Css Start */
 .different-categories {
   padding: 150px 0 0;
+
   .row {
     row-gap: 40px;
   }
+
   .heading-main-sec {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .different-item {
-    border: 1px solid #262626;
+    border: 1px solid $borderGray;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
+
     &::after {
       content: "";
       position: absolute;
@@ -6667,30 +6831,30 @@ h6+p+p {
       right: 0;
       bottom: 0;
       left: 0;
-      background-image: linear-gradient(
-        to bottom,
-        rgba(115, 115, 115, 0) 0%, 
-        rgba(0, 0, 0, 1) 100% 
-      );
+      background-image: linear-gradient(to bottom,
+          rgba(115, 115, 115, 0) 0%,
+          $primaryColor 100%);
       border-radius: 20px;
       transition: background-image 0.5s ease;
     }
+
     &:hover::after {
-      background-image: linear-gradient(
-        to bottom,
-        rgba(115, 115, 115, 0) 0%, 
-        rgba(242, 110, 101, 1) 100% 
-      );
+      background-image: linear-gradient(to bottom,
+          rgba(115, 115, 115, 0) 0%,
+          rgba(242, 110, 101, 1) 100%);
     }
+
     img {
       border-radius: 20px;
       width: 100%;
     }
+
     &:hover {
       .different-content {
-        transform: translateY(0%);  
-      }  
+        transform: translateY(0%);
+      }
     }
+
     .different-content {
       position: absolute;
       bottom: 0;
@@ -6700,6 +6864,7 @@ h6+p+p {
       z-index: 1;
       transform: translateY(57%);
       transition: transform 0.5s ease;
+
       h3 {
         margin: 0 0 20px;
         font-size: 25px;
@@ -6713,6 +6878,7 @@ h6+p+p {
         align-items: flex-end;
         column-gap: 10px;
       }
+
       p {
         margin: 0;
         font-size: 16px;
@@ -6732,7 +6898,7 @@ h6+p+p {
   padding: 150px 0;
 
   .form-box {
-    border: 1px solid #262626;
+    border: 1px solid $borderGray;
     border-radius: 40px;
     padding: 80px;
     position: relative;
@@ -6782,32 +6948,32 @@ h6+p+p {
           & input {
             height: 60px;
             padding: 0 30px;
-            border: 1px solid rgba(255, 255, 255, 0.20);
+            border: 1px solid $menuMainText;
             font-size: 18px;
-            color: rgba(255, 255, 255, 0.50);
+            color: $videoBg;
             font-weight: 400;
             width: 100%;
             border-radius: 30px;
             background-color: transparent;
 
             &::placeholder {
-              color: rgba(255, 255, 255, 0.50);
+              color: $videoBg;
             }
           }
 
           & textarea {
             height: 150px;
             padding: 20px 30px;
-            border: 1px solid rgba(255, 255, 255, 0.20);
+            border: 1px solid $menuMainText;
             font-size: 18px;
-            color: rgba(255, 255, 255, 0.50);
+            color: $videoBg;
             font-weight: 400;
             width: 100%;
             border-radius: 30px;
             background-color: transparent;
 
             &::placeholder {
-              color: rgba(255, 255, 255, 0.50);
+              color: $videoBg;
             }
           }
         }
@@ -6843,7 +7009,8 @@ section.sevice-bg-sec {
 
   .cx-top-img {
     svg {
-      width:100vw;
+      width: 100vw;
+
       path:first-child {
         fill: $primaryColor;
         transition: 0.3s ease;
@@ -6900,7 +7067,7 @@ section.sevice-bg-sec {
     .cx-top-img {
       svg {
         path:first-child {
-          fill: rgba(0, 0, 0, 0.8) !important;
+          fill: $buttonTextBg !important;
           transition: 0.3s ease;
         }
       }
@@ -6920,35 +7087,40 @@ section.sevice-bg-sec {
 /* product deatils page css start */
 
 /* summary-sec css start  */
-.summary-sec{
+.summary-sec {
   padding: 150px 0;
-  .row{
-    .summary-intro{
-      h3{
+
+  .row {
+    .summary-intro {
+      h3 {
         font-size: 25px;
         line-height: 30px;
-        color: rgba(255,255,255,0.5);
+        color: $videoBg;
       }
     }
-    .summary-paragraph{
-      border-bottom: 1px solid rgba(255,255,255,.2);
+
+    .summary-paragraph {
+      border-bottom: 1px solid $summaryBorder;
       padding-bottom: 60px;
-      p{
+
+      p {
         color: $white;
         font-size: 35px;
         line-height: 50px;
       }
     }
   }
-  .row{
-    .summary-col{
-      h3{
+
+  .row {
+    .summary-col {
+      h3 {
         font-size: 25px;
         line-height: 30px;
-        color: rgba(255,255,255,0.5);
+        color: $videoBg;
         font-weight: 600;
       }
-      .summary-list{
+
+      .summary-list {
         position: sticky;
         top: 50px;
         left: 0;
@@ -6956,13 +7128,15 @@ section.sevice-bg-sec {
         bottom: auto;
         z-index: 10;
         height: 340px;
-        li{
+
+        li {
           list-style-type: none;
           margin-top: 30px;
           position: relative;
-          &::before{
+
+          &::before {
             content: "";
-            background-color: rgba(255, 255, 255, 0.7);
+            background-color: $contentLight;
             opacity: 70%;
             width: 12px;
             height: 12px;
@@ -6972,144 +7146,166 @@ section.sevice-bg-sec {
             top: 0;
             bottom: 0;
             margin: auto 0;
-            transition: background-color 0.3s ease; 
+            transition: background-color 0.3s ease;
           }
-          &.active{
-            &::before{
+
+          &.active {
+            &::before {
               background-color: $secondaryColor !important;
             }
-            a{
+
+            a {
               color: $white !important;
             }
           }
-          a{
-            color: rgba(255, 255, 255, 0.7);
+
+          a {
+            color: $contentLight;
             font-size: 20px;
             line-height: 20px;
             text-decoration: none;
             font-weight: 500;
             opacity: 70%;
-            transition: color 0.3s ease; 
+            transition: color 0.3s ease;
           }
+
           a.active {
-            color: white; 
+            color: $white;
           }
         }
       }
     }
-    .Where-we-started-heading{
+
+    .Where-we-started-heading {
       padding-top: 60px;
-      h3:first-child{
+
+      h3:first-child {
         margin-top: 0;
       }
-      h3{
+
+      h3 {
         font-size: 60px;
         line-height: 70px;
         color: $white;
         margin-bottom: 30px;
         margin-top: 80px;
       }
-      p{
+
+      p {
         font-size: 20px;
         line-height: 35px;
         color: $white;
         margin-bottom: 0;
       }
-      h4{
+
+      h4 {
         color: $secondaryColor;
         font-size: 30px;
         line-height: 30px;
         margin-top: 40px;
         margin-bottom: 30px;
       }
-      ul{
+
+      ul {
         padding-left: 0;
-        li{
+
+        li {
           color: $white;
           font-size: 20px;
           line-height: 20px;
           display: flex;
           align-items: center;
           margin-bottom: 25px;
-          p{
+
+          p {
             margin-left: 15px;
           }
         }
       }
     }
-    .desired-outcomes{
-      h3{
+
+    .desired-outcomes {
+      h3 {
         font-size: 60px;
         line-height: 70px;
         color: $white;
         margin-bottom: 30px;
         margin-top: 80px;
       }
-      p{
+
+      p {
         color: $white;
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
       }
     }
-    .work-process{
-      h3{
+
+    .work-process {
+      h3 {
         font-size: 60px;
         line-height: 70px;
         color: $white;
         margin-bottom: 30px;
         margin-top: 80px;
       }
-      p{
+
+      p {
         color: $white;
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
       }
     }
-    .the-vision{
-      .the-vision-images{
+
+    .the-vision {
+      .the-vision-images {
         margin-top: 80px;
-        .the-vision-img-2{
+
+        .the-vision-img-2 {
           margin-top: 80px;
         }
       }
-      h3{
+
+      h3 {
         font-size: 60px;
         line-height: 70px;
         color: $white;
         margin-bottom: 30px;
         margin-top: 80px;
       }
-      p{
+
+      p {
         color: $white;
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
       }
     }
-    .aesthetic-choices{
-      h3{
+
+    .aesthetic-choices {
+      h3 {
         font-size: 60px;
         line-height: 70px;
         color: $white;
         margin-bottom: 30px;
         margin-top: 80px;
       }
-      p{
+
+      p {
         color: $white;
         font-size: 20px;
         line-height: 30px;
         font-weight: 400;
       }
     }
-  }  
+  }
 }
+
 /* summary-sec css end  */
 
 
-
-/* product deatils page css start */
+/* product deatils page css end */
 
 /* career page css start */
 .career-area{
@@ -7221,7 +7417,106 @@ padding: 150px 0;
       }
     }
 }
-/* career page css end */
+
+/* awsome features product start */
+.features-main-sec {
+  padding: 150px 0px;
+
+  &.feature-sec-bg-white {
+    background-color: $white;
+    position: relative;
+    z-index: 9;
+
+    .heading-main-sec {
+      h4 {
+        color: $primaryColor;
+      }
+    }
+
+    .cust-row {
+      .col-md-4 {
+        background: linear-gradient(180deg, rgba(242, 110, 101, 0.1) 0%, rgba(242, 110, 101, 0) 100%);
+
+        &:before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          border-radius: 25px;
+          padding: 1px;
+          background: linear-gradient(180deg, rgba(242, 110, 101, 1) 0%, rgba(242, 110, 101, 0) 100%);
+          mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+          mask-composite: exclude;
+          z-index: 1;
+        }
+
+        h4 {
+          &.cust-inner-title {
+            color: $secondaryColor !important;
+          }
+        }
+
+        p {
+          color: $textBaseColor;
+        }
+      }
+    }
+  }
+
+  .cust-row {
+    gap: 30px;
+    align-items: self-start;
+
+    .cust-column {
+      flex-shrink: unset !important;
+      width: calc(33.33% - 20px);
+      padding: 0;
+      margin: 0;
+      margin-top: -13px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      &:nth-child(2) {
+        margin-top: 87px;
+
+      }
+    }
+
+    .col-md-4 {
+      padding: 41px;
+      width: 100% !important;
+      border-radius: 25px;
+      position: relative;
+      background: linear-gradient(0deg, $primaryColor, $faqBg);
+
+      h4.cust-inner-title {
+        font-size: 40px;
+        line-height: 50px;
+        max-width: 268px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0;
+        color: $offwhite;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(0deg, rgba(242, 110, 101, 0) 0%, rgb(242, 110, 101) 100%) border-box;
+        border-radius: 25px;
+        margin: -1px;
+        z-index: -1;
+      }
+    }
+  }
+}
+
+/* awsome features product end */
 
 /* passion sec css start */
 .your-passion{
@@ -7448,3 +7743,159 @@ body.overflow-hidden-x {
 }
 
 /* employee testimonial sec css end */
+
+/* career page css end */
+
+/* Life Of Cypherox Page CSS Start */
+
+/* Join Our Team Section CSS Start */
+
+.join-our-team-sec {
+  width: 100%;
+  position: relative;
+  z-index: 9;
+
+  .team-img-wrapper {
+    max-height: 100svh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    position: relative;
+    z-index: 10;
+
+    /* &.sticky {
+      position: sticky;
+      top: 0;
+      background-color: $white;
+    } */
+
+    .team-image-sec {
+      height: 100svh;
+      position: relative;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      width: 100%;
+      z-index: 200;
+
+      a {
+        &.images {
+          display: block;
+          position: absolute;
+          z-index: 100;
+
+          &:first-child {
+            left: 5vw;
+            top: 40%;
+            width: 10vw;
+          }
+
+          &:nth-child(2) {
+            left: 30vw;
+            width: 25vw;
+          }
+
+          &:nth-child(3) {
+            left: 60vw;
+            top: 10%;
+            width: 30vw;
+          }
+
+          &:nth-child(4) {
+            bottom: 0;
+            left: 20vw;
+            width: 35vw;
+          }
+
+          img {
+            -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 80%, 0 80%);
+            clip-path: polygon(0 20%, 100% 20%, 100% 80%, 0 80%);
+            display: block;
+            height: auto;
+            transform: scale(.8);
+            transition: transform 1s, -webkit-clip-path 1s;
+            transition: clip-path 1s, transform 1s;
+            transition: clip-path 1s, transform 1s, -webkit-clip-path 1s;
+            width: 100%;
+          }
+        }
+      }
+
+      &.active {
+        a {
+          &.images {
+
+            img {
+              -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+              transform: scale(1);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Join Our Team Section CSS End */
+/* Event Videos Section css start */
+.event-videos {
+  padding: 120px 0;
+  .heading-main-sec {
+    h4 {
+      font-size: 180px;
+      line-height: 150px;
+      font-family: $secondryFornts;
+      font-weight: 700;
+      margin-right: 400px;
+    }
+    h4.strock-line {
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: $secondaryColor;  
+      margin-right: 0;
+      margin-left: 300px;
+    }
+  }
+  .event-video-slider {
+    overflow-x: hidden;
+    margin-top: -60px;
+    position: relative;
+    z-index: 99;
+    .event-video-swiper {
+      padding: 20px 0;
+      margin: 0 100px;
+      .event-video-img {
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: -20px;
+          right: -10px;
+          width: 54px;
+          height: 51px;
+          background: url(../../../assets/img/heart-icon.svg) no-repeat center;
+          background-size: contain;
+        }
+        img {
+          width: 100%;
+          border-radius: 15px;
+          height: 450px;
+          object-fit: cover;
+        }
+      }
+      .swiper-slide.available {
+        margin-top: 50px;
+        .event-video-img {
+          &::before {
+            bottom: -20px;
+            left: -10px;
+            top: auto;
+            right: auto;
+          }  
+        }
+      }
+    }
+  }
+}
+/* Event Videos Section css End */
+
+/* Life Of Cypherox Page CSS End */

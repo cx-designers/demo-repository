@@ -1,0 +1,23 @@
+<section class="event-videos">
+  <div class="container">
+    <div class="heading-main-sec">
+      <h3>{{ eventSubtitle }}</h3>
+      <h4>{{ eventTitle }}</h4>
+      <h4 class="strock-line">{{ eventTitlevideo }}</h4>
+    </div>
+  </div>
+
+  <div class="event-video-slider">
+    <div class="event-video-swiper">
+      <div class="swiper-wrapper">
+        {% for video in videos %}
+          <div class="swiper-slide {% if video.available %}available{% else %}not-available{% endif %}">
+            <div class="event-video-img">
+              <img src="{{ video.src }}" alt="{{ video.alt }}">
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

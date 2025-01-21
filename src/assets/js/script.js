@@ -1245,3 +1245,32 @@ jQuery(document).ready(function($) {
   });
 });
 
+/* Event Sec JS End */
+$(document).ready(function() {
+  new Swiper('.event-video-swiper', {
+      loop: true, // Enables infinite looping
+      slidesPerView: 6, // Number of visible slides
+      spaceBetween: 25, // Space between slides
+      autoplay: {
+          delay: 0, // No delay for continuous movement
+          disableOnInteraction: false // Keeps autoplay running even after user interaction
+      },
+      speed: 5000, // Adjusts the speed of the linear rotation
+      breakpoints: {
+          1920: {
+              slidesPerView: 6,
+              spaceBetween: 25
+          },
+          1028: {
+              slidesPerView: 2,
+              spaceBetween: 25
+          },
+          480: {
+              slidesPerView: 1,
+              spaceBetween: 25
+          }
+      }
+  });
+});
+
+/* Event Sec JS Start */

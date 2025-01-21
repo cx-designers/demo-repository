@@ -1,0 +1,42 @@
+---
+layout: layouts/life-of-cypherox.njk
+title: Website Design & Development Company - Cypherox Technologies
+bodyClass: "life-of-cypherox-page"
+permalink: life-of-cypherox.html
+bannersubTitle: "Welcome"
+bannerTitle: "Life@Cypherox"
+bannerdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum, metus at aliquet imperdiet, metus arcu pellentesque nulla..."
+bannerHTML: ''
+
+
+eventSubtitle: "Squad"
+eventTitle: "Event"
+eventTitlevideo: "Videos"
+videos:
+  - src: "../../../assets/img/event-1.webp"
+    alt: "Event 1"
+    available: true
+  - src: "../../../assets/img/event-2.webp"
+    alt: "Event 2"
+    available: false
+  - src: "../../../assets/img/event-3.webp"
+    alt: "Event 3"
+    available: true
+  - src: "../../../assets/img/event-4.webp"
+    alt: "Event 4"
+    available: false
+  - src: "../../../assets/img/event-5.webp"
+    alt: "Event 4"
+    available: true  
+  - src: "../../../assets/img/event-6.webp"
+    alt: "Event 4"
+    available: false  
+  - src: "../../../assets/img/event-7.webp"
+    alt: "Event 4"
+    available: true  
+  - src: "../../../assets/img/event-8.webp"
+    alt: "Event 4"
+    available: false  
+
+
+---
