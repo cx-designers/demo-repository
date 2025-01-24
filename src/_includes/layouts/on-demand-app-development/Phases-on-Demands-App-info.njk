@@ -1,4 +1,4 @@
-<section class="phases-on-demands-app-info bg-white">
+<!-- <section class="phases-on-demands-app-info bg-white">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -94,6 +94,44 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section> -->
+
+<section class="phases-on-demands-app-info bg-white">
+    <div class="container">
+        <div class="row">
+            {% for phase in phases %}
+            <div class="col-md-4">
+                <div class="phases-on-demands-app-info-box">
+                    <div class="card border-0 rounded-0 bg-transparent">
+                        <div class="text-center">
+                            <h3 class="card-title mb-0">{{ phase.title }}</h3>
+                        </div>
+                        <div class="card-body p-0">
+                            {% for block in phase.blocks %}
+                            <div class="card-info-block">
+                                <h4 class="small-heading">{{ block.heading }}</h4>
+                                <ul class="list-block">
+                                    {% for item in block.items %}
+                                    <li>
+                                        <span>
+                                            <img src="../../assets/img/{{ item.icon }}" 
+                                                 alt="{{ item.alt }}" 
+                                                 title="{{ item.title }}" 
+                                                 class="img-fluid">
+                                        </span>
+                                        {{ item.title }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
