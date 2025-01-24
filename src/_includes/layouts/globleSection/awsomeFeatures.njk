@@ -12,13 +12,22 @@
       {% for feature in featuresBoxList | batch(2) %}
       <div class="cust-column">
         {% for item in feature %}
-          <div class="col-md-4">
-            <h4 class="cust-inner-title text-white">{{ item.title }}</h4>
-            <p>{{ item.description }}</p>
-          </div>
+        <div class="col-md-4">
+          <h4 class="cust-inner-title text-white">{{ item.title }}</h4>
+          <p>{{ item.description }}</p>
+        </div>
         {% endfor %}
       </div>
-    {% endfor %}
+      {% endfor %}
     </div>
+    {% if buttonForQuoteText %}
+    <div class="button-wrapper d-flex justify-content-center mt-4">
+      <a href="{{ buttonQuoteLink }}" class="primary-btn">
+        <span class="glow"></span>
+        <span class="stock"></span>
+        <span class="btn-text">{{ buttonForQuoteText }}</span>
+      </a>
+    </div>
+    {% endif %}
   </div>
 </div>

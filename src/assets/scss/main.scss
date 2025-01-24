@@ -7937,3 +7937,17 @@ body.overflow-hidden-x {
 
 
 /* Life Of Cypherox Page CSS End */
+
+/* Blogs page css Start */
+.Our-Blogs-sec{
+  padding: 150px 0px;
+  position: relative;
+  background:$white;
+  z-index: 9;
+  .heading-main-sec {
+    h4 {
+      color: $primaryColor;
+    }
+  }
+}
+/* Blogs page css End */

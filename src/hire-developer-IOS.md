@@ -1,10 +1,10 @@
 ---
-layout: layouts/hireDeveloper.njk
+layout: layouts/hire-templates/hireIosDevloper.njk
 title: Website Design & Development Company - Cypherox Technologies
-bodyClass: "hireDeveloper-page"
-permalink: hire-developer.html
+bodyClass: "hireDeveloper-page IOS-developer"
+permalink: hire-developer-ios.html
 bannersubTitle: "Service"
-bannerTitle: "Hire A Dedicated Developer"
+bannerTitle: "Hire A Dedicated IOS Developer"
 bannerdesc: "Need someone super cool to make your project awesome? Our developers are like digital superheroes! They mix tech skills with creativity to make exactly what you need. Ready to see some magic happen? Let's make your project shine!"
 bannerbuttontext: Hire Now
 buttonLink: "javascript:;"
@@ -21,56 +21,53 @@ devInformationList:
 devBgImg: "/assets/img/hireDeveloper.webp"
 devBgAlt: "bg-img"
 
-industriesShapeImg: "/assets/img/industries-bg-shap.webp"
-industriesShapeImgAlt: "Industries Shape"
-industriesSubTitle: Lorem Ipsum
-industriesTitle: Industries
-industriesTitlePart: We served
-industriesData:
-- img: "assets/img/business.webp"
-  alt: "Business"
-  title: "Business"
-- img: "assets/img/education.webp"
-  alt: "Education"
-  title: "Education"
-- img: "assets/img/health-care.webp"
-  alt: "Health Care"
-  title: "Health Care"
-- img: "assets/img/transportation.webp"
-  alt: "Transportation"
-  title: "Transportation"
-- img: "assets/img/real-estate.webp"
-  alt: "Real Estate"
-  title: "Real Estate"
-- img: "assets/img/social-network.webp"
-  alt: "Social Network"
-  title: "Social Network"
-
-faqSubtitle : "FAQs"
-faqTitle : "Frequently asked questions"
-faqBoxList :
-- faqTitle: "What services do you offer?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
-- faqTitle: "How long does the web development process typically take?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
-- faqTitle: "Can you provide examples of websites you've built?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
-- faqTitle: "Do you offer maintenance and support after the website is launched?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
-- faqTitle: "What platforms or technologies do you specialize in?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
-- faqTitle: "How do you ensure the website will be mobile-responsive?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
-- faqTitle: "What is your approach to SEO and website optimization?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
-- faqTitle: "What is the cost structure for web development services?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation." 
-- faqTitle: "Can you accommodate specific design or functionality requests?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation." 
-- faqTitle: "Do you handle e-commerce website development, and what platforms do you use for it?"
-  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
+processSubtitle : "Process"
+processTitle : "Our Mobile App Development Process"
+processBoxList :
+- stepSubTitle: "Step 1"
+  stepTitle: "Understanding Your Needs"
+  stepDescription: "We dig deep to understand what you want. We figure out the best way to start your project strong."
+- stepSubTitle: "Step 2"
+  stepTitle: "Planning Together"
+  stepDescription: "We look at what others are doing and set clear goals for your app. We keep talking to you to make sure we’re on the right track."
+- stepSubTitle: "Step 3"
+  stepTitle: "Sketching and Designing"
+  stepDescription: "We draw out a detailed plan for your app—each screen gets its own blueprint. Then we make it look good and easy for you to use."
+- stepSubTitle: "Step 4"
+  stepTitle: "Making Your App Real"
+  stepDescription: "This is where the magic happens! We build your app, focusing on the important stuff. We keep asking for your thoughts to make sure it’s what you imagined."
+- stepSubTitle: "Step 5"
+  stepTitle: "Checking and Polishing"
+  stepDescription: "We test your app a lot to make sure it works perfectly. Once you say it’s great, we get ready to share it with the world."
+- stepSubTitle: "Step 6"
+  stepTitle: "Sharing Your App"
+  stepDescription: "We put your app where everyone can find it—on servers and big app stores. It’s all set for people to start using, and that’s when we celebrate a job well done!"
 
 
+dedicatedteamSubtitle: "Lorem ipsum"
+dedicatedteamTitle : "Steps to"
+dedicatedteamTitleone : "Hire"
+dedicatedteamTitletwo : "Your Dedicated Team"
+dedicatedteamTitledescription : "Not sure how to hire a team just for you? No problem! We’ll help you step by step. First, we talk about what you need. Then, we find the right people for your team, like finding the perfect pieces for a puzzle. Our goal is to make hiring your team super easy. Let's work together and make something awesome!"
+
+
+
+steps:
+  - title: "Requirement Gathering"
+    description: "Our team kicks off by having one of our skilled developers engage in a chat with you about your project. They'll ask questions, listen carefully, and understand what you need. This step helps us get the big picture of your project."
+    stepNumber: "01"
+
+  - title: "Design & Planning"
+    description: "We design the architecture and plan the development milestones to ensure we deliver the project successfully, on time, and as expected."
+    stepNumber: "02"
+
+  - title: "Development"
+    description: "Our team develops your project following the best practices to ensure quality and functionality that meet the highest standards."
+    stepNumber: "03"
+
+  - title: "Testing & Delivery"
+    description: "We perform extensive testing before delivering the project to make sure it is bug-free and ready for deployment."
+    stepNumber: "04"
 
 pertnershipSubtitle: "Lorem ipsum"
 pertnershipTitle : "Our Partnership"
@@ -103,31 +100,47 @@ plans:
       - "CUSTOM HOURS"
     cta: "Choose Now"
 
-dedicatedteamSubtitle: "Lorem ipsum"
-dedicatedteamTitle : "Steps to"
-dedicatedteamTitleone : "Hire"
-dedicatedteamTitletwo : "Your Dedicated Team"
-dedicatedteamTitledescription : "Not sure how to hire a team just for you? No problem! We’ll help you step by step. First, we talk about what you need. Then, we find the right people for your team, like finding the perfect pieces for a puzzle. Our goal is to make hiring your team super easy. Let's work together and make something awesome!"
+featuresSecSubTitle: Awesome Features
+featuresSecTitle: Why Pick Us?
+featuresBoxList:
+  - title: "We Get It Right"
+    description: "We work hand-in-hand with you, ensuring every project shines bright and leaves you happy."
+  - title: "Your Own Special Code"
+    description: "Every project is unique. We make sure your app is special, easy to grow, and stays awesome."
+  - title: "Loads of Apps Done"
+    description: "We’ve made over 1000 apps! Think cool stuff like fancy cameras and slick payment systems."
+  - title: "You Always Know"
+    description: "We keep you in the loop with updates, show you new stuff, fix bugs, and stick around after launch."
+  - title: "Big Team of App Wizards"
+    description: "We’ve got 60+ experts making apps that rock. They use cool tricks to make your app amazing."
+  - title: "We're Here for You"
+    description: "Even after launch, our team keeps your app running smooth and up-to-date."
+buttonForQuoteText: Get Quote
+buttonQuoteLink: "javascript:;"
 
-
-
-steps:
-  - title: "Requirement Gathering"
-    description: "Our team kicks off by having one of our skilled developers engage in a chat with you about your project. They'll ask questions, listen carefully, and understand what you need. This step helps us get the big picture of your project."
-    stepNumber: "01"
-
-  - title: "Design & Planning"
-    description: "We design the architecture and plan the development milestones to ensure we deliver the project successfully, on time, and as expected."
-    stepNumber: "02"
-
-  - title: "Development"
-    description: "Our team develops your project following the best practices to ensure quality and functionality that meet the highest standards."
-    stepNumber: "03"
-
-  - title: "Testing & Delivery"
-    description: "We perform extensive testing before delivering the project to make sure it is bug-free and ready for deployment."
-    stepNumber: "04"
-
+faqSubtitle : "FAQs"
+faqTitle : "Frequently asked questions"
+faqBoxList :
+- faqTitle: "What services do you offer?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
+- faqTitle: "How long does the web development process typically take?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
+- faqTitle: "Can you provide examples of websites you've built?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
+- faqTitle: "Do you offer maintenance and support after the website is launched?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
+- faqTitle: "What platforms or technologies do you specialize in?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
+- faqTitle: "How do you ensure the website will be mobile-responsive?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
+- faqTitle: "What is your approach to SEO and website optimization?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
+- faqTitle: "What is the cost structure for web development services?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation." 
+- faqTitle: "Can you accommodate specific design or functionality requests?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation." 
+- faqTitle: "Do you handle e-commerce website development, and what platforms do you use for it?"
+  faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
 
 
 ourProjectsSubTitle: Projects
