@@ -1,0 +1,22 @@
+<section class="industries-list-main-section">
+  <div class="container">
+    <div class="row industries-list-wrapper m-0">
+      {% for item in industries %}
+      <div class="col-md-6 col-lg-4 col-full industries-list-box">
+        <a href="{{ item.listURL }}" aria-label="{{ item.URLAriaLabel }}">
+          <div class="industries-list-inner">
+            <div class="image-sec">
+              <img src="{{ item.listImg }}" alt="{{ item.imageAlt }}">
+            </div>
+            <div class="content-sec">
+              <h3>{{ item.listContent }}</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+
+  </div>
+</section>

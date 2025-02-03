@@ -1,7 +1,7 @@
 <section class="turning-app-ideas">
     <div class="container">
         <div class="ideas-box">
-            <img src="../../../assets/img/app-ideas.webp" alt="" class="img-fluid">
+            <img src="{{ turningImgURL }}" alt="" class="img-fluid">
             <div class="ideas-title">
                 <div class="heading-main-sec text-start">
                     <h3>{{turningappideasSubtitle}}</h3>
@@ -17,7 +17,7 @@
                     <p>{{ turningappideas.description }}</p>
                     {% endfor %}
 
-                    <a href="{{ buttonLink }}" class="primary-btn">
+                    <a href="{{ buttonLink }}" class="primary-btn {{ buttonhide }}">
                         <span class="glow"></span>
                         <span class="stock"></span>
                         <span class="btn-text">{{ turningappideasbuttontext }}</span>

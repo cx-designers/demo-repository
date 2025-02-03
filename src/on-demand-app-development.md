@@ -16,10 +16,10 @@ turningappideasTitle : "Bring Your Ideas to Life: We Make On-Demand Apps"
 turningappideas:
   - description: "Do you have a cool idea for an app that people need right when they need it? We're the pros at making those apps for both Android and iPhone. We've built more than 50 of these apps, and they've gotten noticed by big names like Wired and Forbes.Our team is ready to chat with you about your idea. We'll team up with you to create an awesome app that stands out and does exactly what you want."
 turningappideasbuttontext: "Get a Quote"
+turningImgURL: "../../../assets/img/app-ideas.webp"
 
 appfeaturesSubtitle: "Reviews"
 appfeaturesTitle : "On-demand App Features"  
-
 
 tabs:
   - title: "Admin Panel"
@@ -180,7 +180,7 @@ ReviewsList :
     reviewerImg: "../../../assets/img/review-client01.webp"
 
 
-    phases:
+phases:
   - title: "Platform"
     blocks:
       - heading: "iOS Development"
@@ -263,4 +263,43 @@ ReviewsList :
           - icon: "../../../assets/img/icon-Sublime.svg"
             alt: "Sublime Text"
             title: "Sublime Text"
+
+developmentPhasesSubTitle: "Phases"
+developmentPhasesTitle: "The Journey of Making Your Special iPhone App"
+developmentPhases:
+  - title: "Understanding Your Needs"
+    pointsList:
+      - item: "Learn what you want"
+      - item: "Figure out challenges"
+      - item: "Offer solutions"
+    image: "../../assets/img/phases-developing-app01.webp"
+
+  - title: "Planning and Designing"
+    pointsList:
+      - item: "Make a plan"
+      - item: "Design Each Part"
+      - item: "Create the look"
+    image: "../../assets/img/phases-developing-app01.webp"
+
+  - title: "Making and Building"
+    pointsList:
+      - item: "Write the code"
+      - item: "Create app sections"
+      - item: "Work together for feedback"
+    image: "../../assets/img/phases-developing-app01.webp"
+
+  - title: "Checking and Fixing"
+    pointsList:
+      - item: "Test everything"
+      - item: "Remove all issues"
+      - item: "Get your approval"
+    image: "../../assets/img/phases-developing-app01.webp"
+
+  - title: "Releasing the App"
+    pointsList:
+      - item: "Launch it in stores"
+      - item: "Put it online"
+      - item: "Ready for users"
+    image: "../../assets/img/phases-developing-app01.webp"
+
 ---

@@ -3,268 +3,62 @@
     <div class="row">
       <div class="col-full">
         <div class="heading-main-sec">
-          <h3>Lorem ipsum</h3>
-          <h4 class="text-black">App Development Technology Stack</h4>
-          <p>We’ve got a variety of tools and languages that help us create awesome digital stuff. Here’s
-            what we use:</p>
+          <h3>{{ stackSubHeading }}</h3>
+          <h4 class="text-black">{{ stackMainHeading }}</h4>
+          <p>{{ stackContent }}</p>
         </div>
       </div>
     </div>
+
     <div class="tab-sec">
       <div class="tab-sec-inner">
         <div class="tab-button-col">
           <div class="buttons">
-            <div class="tab-buttons active" data-tab="tab1">
-              <a href="javascriopt:;" class="button-inner">
-                <span class="count">01.</span>
-                <span>Languages We Speak</span>
+            {% for tab in tabs %}
+            <div class="tab-buttons {% if loop.first %}active{% endif %}" data-tab="{{ tab.dataTab }}">
+              <a href="javascript:;" class="button-inner">
+                <span class="count">{{ tab.tabCount }}</span>
+                <span>{{ tab.tabTitle }}</span>
               </a>
             </div>
-
-            <div class="tab-buttons" data-tab="tab2">
-              <a href="javascriopt:;" class="button-inner">
-                <span class="count">02.</span>
-                <span>Building Blocks</span>
-              </a>
-            </div>
-
-            <div class="tab-buttons" data-tab="tab3">
-              <a href="javascriopt:;" class="button-inner">
-                <span class="count">03.</span>
-                <span>Behind the Scenes</span>
-              </a>
-            </div>
-
-            <div class="tab-buttons" data-tab="tab4">
-              <a href="javascriopt:;" class="button-inner">
-                <span class="count">04.</span>
-                <span>Testing and Keeping Watch</span>
-              </a>
-            </div>
-
-            <div class="tab-buttons" data-tab="tab5">
-              <a href="javascriopt:;" class="button-inner">
-                <span class="count">05.</span>
-                <span>Tools for Making It Happen</span>
-              </a>
-            </div>
-
-            <div class="tab-buttons" data-tab="tab6">
-              <a href="javascriopt:;" class="button-inner">
-                <span class="count">06.</span>
-                <span>Designing and Teamwork</span>
-              </a>
-            </div>
-
+            {% endfor %}
           </div>
         </div>
 
         <div class="tab-content-col">
-          <div class="tab-contents active" id="tab1">
+          {% for tab in tabs %}
+          <div class="tab-contents {% if loop.first %}active{% endif %}" id="{{ tab.tabId }}">
             <div class="content-inner">
               <div class="image-sec">
-                <img src="../../../assets/img/technology-stack-1.webp">
+                <img src="{{ tab.tabImage }}" alt="{{ tabImageAlt }}">
               </div>
               <div class="content-sec">
                 <ul>
                   <li>
                     <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
+                      <img src="{{ tab.tabIconImage }}" alt="{{ tabIconImageAlt }}">
                     </div>
-                    <span>Swift & Objective–C: For making cool things for iPhones and Macs.</span>
+                    <span>{{ tab.tabContent }}</span>
                   </li>
-
+                  {% for item in tab.additionalContent %}
                   <li>
                     <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
+                      <img src="{{ item.icon }}">
                     </div>
-                    <span>Java & Kotlin: Crafting strong apps for Android and other platforms.</span>
+                    <span>{{ item.text }}</span>
                   </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>C#: Handy for making apps for Windows and more.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>HTML5/CSS & JavaScript: Basics for making things look great and work well.</span>
-                  </li>
+                  {% endfor %}
                 </ul>
               </div>
             </div>
           </div>
-
-          <div class="tab-contents" id="tab2">
-            <div class="content-inner">
-              <div class="image-sec">
-                <img src="../../../assets/img/technology-stack-2.webp">
-              </div>
-              <div class="content-sec">
-                <ul>
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Xcode, Android Studio, and Eclipse: Our main spots for creating apps.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>React Native, Flutter, Xamarin: Tools for making apps work on different devices.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Cocoa Touch & iOS SDK: Foundation for building on iPhones and iPads.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Cordova & Ionic: Using web skills to build mobile apps.</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="tab-contents" id="tab3">
-            <div class="content-inner">
-              <div class="image-sec">
-                <img src="../../../assets/img/technology-stack-3.webp">
-              </div>
-              <div class="content-sec">
-                <ul>
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Firebase & MongoDB: Handling lots of data like a pro.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>MySQL & PostgreSQL: Sorting data neatly for our apps.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Python, Node.js, and Golang:Building strong systems in the background.</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="tab-contents" id="tab4">
-            <div class="content-inner">
-              <div class="image-sec">
-                <img src="../../../assets/img/technology-stack-1.webp">
-              </div>
-              <div class="content-sec">
-                <ul>
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Mentis, XCTest, JUnit Checking if our apps work just right.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Detox, Appium Tools to test different types of apps.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>TestFlight, Play Console Making sure apps are ready for everyone to use.</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="tab-contents" id="tab5">
-            <div class="content-inner">
-              <div class="image-sec">
-                <img src="../../../assets/img/technology-stack-2.webp">
-              </div>
-              <div class="content-sec">
-                <ul>
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Docker & Kubernetes Helping us package and run our apps.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>AWS, Azure, GCP Big clouds that help our apps scale up.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Jenkins, GitLab CI/CD Tools to make our apps work smoothly.</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="tab-contents" id="tab6">
-            <div class="content-inner">
-              <div class="image-sec">
-                <img src="../../../assets/img/technology-stack-3.webp">
-              </div>
-              <div class="content-sec">
-                <ul>
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Sketch, Adobe XD, Figma: Tools to make things look cool and friendly.</span>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <img src="../../../assets/img/right-arrow.svg">
-                    </div>
-                    <span>Jira, Trello, Slack: Keeping our team organized and working together.</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
+          {% endfor %}
         </div>
-
       </div>
     </div>
+
     <div class="animated-img-sec">
-      <img src="../../../assets/img/technologies-shap.svg" alt="Technologies">
-     </div>
+      <img src="{{ animatedImage }}" alt="{{ animatedImageAlt }}">
+    </div>
   </div>
 </section>

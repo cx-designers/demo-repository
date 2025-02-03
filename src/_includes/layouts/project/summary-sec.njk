@@ -12,7 +12,8 @@
                 <p>SkyRise is a revolutionary app designed to redefine urban living. It's your ultimate companion, offering seamless access to building amenities, community updates, and exclusive events. From booking facilities to connecting with neighbors, SkyRise brings convenience and community together in the palm of your hand. Experience city living at its finest with SkyRise.</p>
             </div>
         </div>
-        <div class="row">
+
+        <!-- <div class="row">
             <div class="col-md-4 summary-col">
                 <h3>Summary</h3>
 
@@ -74,6 +75,43 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor.</p>
                 </div>
             </div>
+        </div> -->
+
+        <div class="row">
+            <!-- Sidebar with Summary -->
+            <div class="col-md-4 summary-col">
+                <h3>Summary</h3>
+                <ul class="summary-list">
+                    {% for section in sections %}
+                        <li class="item">
+                            <a href="#{{ section.id }}" class="link-item">{{ section.summary }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        
+            <!-- Main Content -->
+            <div class="col-md-8">
+                {% for section in sections %}
+                    <div id="{{ section.id }}">
+                        <h3>{{ section.title }}</h3>
+                        <div class="content">
+                            {{ section.contentHTML | safe }}
+                        </div>
+        
+                        {% if section.images %}
+                            <div class="the-vision-images">
+                                {% for image in section.images %}
+                                    <img src="{{ image.src }}" class="the-vision-img" alt="the-vision-img">
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
         </div>
+        
+        
+
     </div>
 </section>

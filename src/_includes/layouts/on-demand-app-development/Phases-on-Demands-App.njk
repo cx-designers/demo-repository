@@ -3,79 +3,26 @@
         <div class="row">
             <div class="col-full">
                 <div class="heading-main-sec text-start">
-                    <h3><span>Phases</span></h3>
-                    <h4>Phases in Developing On-Demand Apps</h4>
+                    <h3><span>{{developmentPhasesSubTitle}}</span></h3>
+                    <h4>{{developmentPhasesTitle}}</h4>
                 </div>
             </div>
         </div>
 
         <div class="phases-on-demands-app-block">
+            {% for phase in developmentPhases %}
             <div class="phases-on-demands-app-block-inner">
-                <h4>Understanding Requirements</h4>    
+                <h4>{{ phase.title }}</h4>    
                 <ul class="bullet-list">
-                    <li>Grasp business challenges</li>
-                    <li>Analyze specific needs</li>
-                    <li>Propose tailored solutions</li>
+                    {% for point in phase.pointsList %}
+                    <li>{{ point.item }}</li>
+                    {% endfor %}
                 </ul>
                 <div class="phases-on-demands-app-block-inner-img">
-                    <img src="../../assets/img/phases-developing-app01.webp" alt="Understanding Requirements" title="Understanding Requirements" class="img-fluid">
+                    <img src="{{ phase.image }}" alt="{{ phase.title }}" title="{{ phase.title }}" class="img-fluid">
                 </div>
             </div>
-            <div class="phases-on-demands-app-block-inner">
-                <h4>Consultation & Strategy</h4>    
-                <ul class="bullet-list">
-                    <li>Grasp business challenges</li>
-                    <li>Analyze specific needs</li>
-                    <li>Propose tailored solutions</li>
-                </ul>
-                <div class="phases-on-demands-app-block-inner-img">
-                    <img src="../../assets/img/phases-developing-app01.webp" alt="Understanding Requirements" title="Understanding Requirements" class="img-fluid">
-                </div>
-            </div>
-            <div class="phases-on-demands-app-block-inner">
-                <h4>UI/UX Designing</h4>    
-                <ul class="bullet-list">
-                    <li>Grasp business challenges</li>
-                    <li>Analyze specific needs</li>
-                    <li>Propose tailored solutions</li>
-                </ul>
-                <div class="phases-on-demands-app-block-inner-img">
-                    <img src="../../assets/img/phases-developing-app01.webp" alt="Understanding Requirements" title="Understanding Requirements" class="img-fluid">
-                </div>
-            </div>
-            <div class="phases-on-demands-app-block-inner">
-                <h4>Back-end & API Development</h4>    
-                <ul class="bullet-list">
-                    <li>Grasp business challenges</li>
-                    <li>Analyze specific needs</li>
-                    <li>Propose tailored solutions</li>
-                </ul>
-                <div class="phases-on-demands-app-block-inner-img">
-                    <img src="../../assets/img/phases-developing-app01.webp" alt="Understanding Requirements" title="Understanding Requirements" class="img-fluid">
-                </div>
-            </div>
-            <div class="phases-on-demands-app-block-inner">
-                <h4>On-demand App Development</h4>    
-                <ul class="bullet-list">
-                    <li>Grasp business challenges</li>
-                    <li>Analyze specific needs</li>
-                    <li>Propose tailored solutions</li>
-                </ul>
-                <div class="phases-on-demands-app-block-inner-img">
-                    <img src="../../assets/img/phases-developing-app01.webp" alt="Understanding Requirements" title="Understanding Requirements" class="img-fluid">
-                </div>
-            </div>
-            <div class="phases-on-demands-app-block-inner">
-                <h4>Testing and Launch</h4>    
-                <ul class="bullet-list">
-                    <li>Grasp business challenges</li>
-                    <li>Analyze specific needs</li>
-                    <li>Propose tailored solutions</li>
-                </ul>
-                <div class="phases-on-demands-app-block-inner-img">
-                    <img src="../../assets/img/phases-developing-app01.webp" alt="Understanding Requirements" title="Understanding Requirements" class="img-fluid">
-                </div>
-            </div>
+            {% endfor %}
         </div>
-        </div>
+    </div>
 </section>

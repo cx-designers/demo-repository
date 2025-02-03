@@ -1,36 +1,28 @@
 <section class="ourclient-sec">
-    <img src = "../../../assets/img/dots-bg.webp" alt="" class="ourclient-img">
-    <div class="container">
-        <div class="row">
-            <div class="col-full">
-                <div class="ourclient-content" bis_skin_checked="1">
-                    <div class="heading-main-sec" bis_skin_checked="1">
-                      <h4 class="text-black">Our Clients</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-full">
-              <div class="overflow-hidden swiper-ourclient">
-                <div class="swiper-wrapper ourclient-gallery"> 
-                  <div class="swiper-slide gallery-items">
-                    <img src="../../../assets/img/our-client-1.svg" alt="">
-                  </div>
-                  <div class="swiper-slide gallery-items" >
-                    <img src="../../../assets/img/our-clients-2.svg" alt="">
-                  </div>
-                  <div class="swiper-slide gallery-items">
-                    <img src="../../../assets/img/our-clients-3.svg" alt="">
-                  </div>
-                  <div class="swiper-slide gallery-items">
-                    <img src="../../../assets/img/our-clients-4.svg" alt="">
-                  </div>
-                  <div class="swiper-slide gallery-items">
-                    <img src="../../../assets/img/our-clients-5.svg" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
+  <img src="{{ clientBgImage }}" alt="" class="ourclient-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-full">
+        <div class="ourclient-content" bis_skin_checked="1">
+          <div class="heading-main-sec" bis_skin_checked="1">
+            <h4 class="text-black">{{ clientTitle }}</h4>
+          </div>
         </div>
+      </div>
+      <div class="col-full">
+        <div class="overflow-hidden swiper-ourclient">
+          <div class="swiper-wrapper ourclient-gallery">
+
+            {% for client in clients %}
+            <div class="swiper-slide gallery-items">
+              <img src="{{ client.clientLogoImg }}" alt="{{ client.clientLogoalt }}">
+            </div>
+            {% endfor %}
+
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
-<!-- ourclient sec end -->
+

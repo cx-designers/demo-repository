@@ -1,0 +1,44 @@
+<section class="model-listing-main-sec">
+  <div class="container">
+    <div class="model-wrapper">
+
+      {% for model in models %}
+      <div class="model-field">
+        <div class="bg-shap"></div>
+        <div class="content-col">
+          <div class="content-col-inner">
+            <div class="logo">
+              <img src="{{ model.cxLogo }}" alt="cx-logo">
+            </div>
+
+            <div class="title">
+              <h2>{{ model.modelTitle }}</h2>
+            </div>
+
+            <p>{{ model.modelParagraph }}</p>
+
+            <div class="list">
+              <ul>
+                {% for item in model.listItems %}
+                <li>
+                  <div class="icon">
+                    <img src="{{ model.listIcon }}" alt="list-icon">
+                  </div>
+                  <span>{{ item }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-col">
+          <img src="{{ model.cxLogoImage }}" alt="cx-logo-img">
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+
+  </div>
+</section>
