@@ -73,4 +73,17 @@ blogsPostList :
       blogCategoryDesc: "Everything you need to know about the top 10 DevOps tools in 2022"
       blogCategoryImg: "/assets/img/our-blogs-04.webp"
 
+latestNewsTitle: "Latest News"
+latestNewsSubtitle: "News"
+
+latestNewsList :
+    - latestNewsCategory: "Seo"
+      latestNewsCategoryDesc: "Awesome WordPress Web Development Tools You Can't-Miss in 2022"
+      latestNewsCategoryImg: "/assets/img/our-blogs-08.webp"
+    - latestNewsCategory: "Design"
+      latestNewsCategoryDesc: "Everything you need to know about the top 10 DevOps tools in 2022"
+      latestNewsCategoryImg: "/assets/img/our-blogs-02.webp"
+    - latestNewsCategory: "Development"
+      latestNewsCategoryDesc: "Everything you need to know about the top 10 DevOps tools in 2022"
+      latestNewsCategoryImg: "/assets/img/our-blogs-04.webp"
 ---

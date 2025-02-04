@@ -3,22 +3,22 @@
     <div class="row">
       <div class="col-full">
         <div class="heading-main-sec">
-          <h3><span>{{ relatedBlogSubtitle }}</span></h3>
-          <h4>{{ relatedBlogTitle }}</h4>
+          <h3><span>{{ latestNewsSubtitle }}</span></h3>
+          <h4>{{ latestNewsTitle }}</h4>
         </div>
       </div>
     </div>
     <div class="cust-blog-row">
-      {% for post in blogsPostList %}
+      {% for post in latestNewsList %}
       <div class="col-12 col-md-6 col-lg-4 col-xl-4 grid-item element-item">
         <div class="Our-Blogs-gallery-outer-block-box">
           <div class="card h-100">
             <div class="card-img">
-              <img src="{{ post.blogCategoryImg }}" class="card-img-top" alt="{{ post.blogCategory }}">
+              <img src="{{ post.latestNewsCategoryImg }}" class="card-img-top" alt="{{ post.latestNewsCategory }}">
             </div>
             <div class="card-body">
-              <h5 class="card-title">{{ post.blogCategory }}</h5>
-              <p class="card-text">{{ post.blogCategoryDesc}}</p>
+              <h5 class="card-title">{{ post.latestNewsCategory }}</h5>
+              <p class="card-text">{{ post.latestNewsCategoryDesc}}</p>
             </div>
           </div>
           <div class="card-readmore">
