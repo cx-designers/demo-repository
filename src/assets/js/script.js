@@ -290,25 +290,6 @@ gsap.to(".rotateGlow ellipse", {
   }
 });
 
-// const animation = lottie.loadAnimation({
-//   container: document.getElementById('lottie-animation'), 
-//   renderer: 'svg',
-//   loop: false, 
-//   autoplay: false,
-//   path: '../assets/img/UNKbhCxzX0.json'
-// });
-// let isPlayingForward = true;
-// document.querySelector('.toggle-btn').addEventListener('click', function () {
-//   if (isPlayingForward) {
-//     animation.setDirection(1);
-//     animation.play(); 
-//   } else {
-//     animation.setDirection(-1);
-//     animation.play(); 
-//   }
-//   isPlayingForward = !isPlayingForward;
-// });
-
 document.addEventListener("DOMContentLoaded", function () {
 
   gsap.fromTo(
@@ -706,10 +687,10 @@ var swiper = new Swiper(".myblog-post", {
   spaceBetween: 50,
   centeredSlides: true,
   loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -1392,44 +1373,24 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Header Mega Menu JS End */
 
 
-/* blog page js code start  */
-jQuery(document).ready(function($) {
-  // Filter button click event
-  jQuery('.btn-gal').click(function() {
-    var filterValue = $(this)
-      .attr('class')
-      .split(' ')
-      .find(function(cls) {
-        return cls !== 'btn-gal' && cls !== 'on'; // Exclude 'btn' and 'on' classes
-      });
+jQuery(document).ready(function ($) {
+  // Initially filter by the first active category
+  let firstCategory = $('.btn-gal.on').attr('class').split(' ').find(cls => cls !== 'btn-gal' && cls !== 'on');
+  if (firstCategory && firstCategory !== 'all') {
+    $('.grid').isotope({ filter: '.' + firstCategory });
+  } else {
+    $('.grid').isotope({ filter: '*' }); // Show all if "All" is the first
+  }
 
-    // Apply the filter based on the dynamically retrieved class
-    $('.grid').isotope({
-      filter: filterValue === 'all' ? '*' : '.' + filterValue,
-    });
+  // Filter button click event
+  $('.btn-gal').click(function () {
+    let filterValue = $(this).attr('class').split(' ').find(cls => cls !== 'btn-gal' && cls !== 'on');
+
+    // Apply filter
+    $('.grid').isotope({ filter: filterValue === 'all' ? '*' : '.' + filterValue });
 
     // Toggle active class
     $('.btn-gal').removeClass('on');
     $(this).addClass('on');
   });
-
-  // Initially show only the first 9 items
-  let initialItems = 9;
-  let additionalItems = 3;
-
-  // Hide all items except the first 9
-  $('.grid-item').slice(initialItems).hide();
-
-  // On click of the "View all" button
-  $('#gallery-more').click(function() {
-    // Find hidden items and show 3 more
-    let hiddenItems = $('.grid-item:hidden');
-    hiddenItems.slice(0, additionalItems).slideDown();
-
-    // If no more hidden items, hide the "View all" button
-    if (hiddenItems.length <= additionalItems) {
-      $(this).hide();
-    }
-  });
 });
-/* blog page js code end */

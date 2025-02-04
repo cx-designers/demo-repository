@@ -13,6 +13,11 @@ roleText: "Role"
 role: "Mobile App Development"
 imagePath: "/assets/img/project-detail-banner.webp"
 
+summaryIntroTitle : "(Intro)"
+summaryIntroDesc : "SkyRise is a revolutionary app designed to redefine urban living. It's your ultimate companion, offering seamless access to building amenities, community updates, and exclusive events. From booking facilities to connecting with neighbors, SkyRise brings convenience and community together in the palm of your hand. Experience city living at its finest with SkyRise."
+
+summaryInnerTitle: "summary"
+
 sections:
   - id: "started-heading"
     title: "Where we started"
@@ -44,26 +49,14 @@ sections:
     title: "Desired Outcomes"
     summary: "Desired Outcomes"
     contentHTML: |
-      <h3>Where we started</h3>
+      <h3>Desired Outcomes</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor.</p>
-
-      <ul>
-          <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </li>
-          <li>
-              <p>Lorem ipsum dolor sit amet.</p>
-          </li>
-          <li>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </li>
-      </ul>
 
   - id: "the-vision-heading"
     title: "The Vision"
     summary: "The vision"
     contentHTML: |
-      <h3>Where we started</h3>
+      <h3>The vision</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor.</p>
       
     images:

@@ -4,83 +4,19 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="summary-intro">
-                    <h3><span>(Intro)</span></h3>
+                    <h3><span>{{summaryIntroTitle}}</span></h3>
                   </div>
             </div>
             <div class="col-md-8 summary-paragraph">
                 <h3><span></span></h3>
-                <p>SkyRise is a revolutionary app designed to redefine urban living. It's your ultimate companion, offering seamless access to building amenities, community updates, and exclusive events. From booking facilities to connecting with neighbors, SkyRise brings convenience and community together in the palm of your hand. Experience city living at its finest with SkyRise.</p>
+                <p>{{summaryIntroDesc}}</p>
             </div>
         </div>
-
-        <!-- <div class="row">
-            <div class="col-md-4 summary-col">
-                <h3>Summary</h3>
-
-                    <ul class="summary-list">
-                        <li class="item"><a href="#started-heading" class="link-item">Where we started</a></li>
-                        <li class="item"><a href="#desired-outcomes-heading" class="link-item">Desired Outcomes</a></li>
-                        <li class="item"><a href="#work-process-heading" class="link-item">Work process</a></li>
-                        <li class="item"><a href="#the-vision-heading" class="link-item">The vision</a></li>
-                        <li class="item"><a href="#aesthetic-choices-heading" class="link-item">Outcomes and Aesthetic Choices</a></li>
-                    </ul>
-            </div>
-            <div class="col-md-8">
-                <div class="Where-we-started-heading" id="started-heading">
-                    <h3>Where we started</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor.</p>
-
-                    <h4>Problem statement</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis.</p>
-
-                    <h4>Opportunities</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis.</p>
-
-                    <h4>Our Responsibilities</h4>
-
-                    <ul>
-                        <li>
-                            <img src="../../../assets/img/right-arrow.svg" alt="right-arrow">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </li>
-                        <li>
-                            <img src="../../../assets/img/right-arrow.svg" alt="right-arrow">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </li>
-                        <li>
-                            <img src="../../../assets/img/right-arrow.svg" alt="right-arrow">
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="desired-outcomes" id="desired-outcomes-heading">
-                    <h3>Desired Outcomes</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor.</p>
-                </div>
-                <div class="work-process" id="work-process-heading">
-                    <h3>Work process</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor.</p>
-                </div>             
-                <div class="the-vision" id="the-vision-heading">
-                    <h3>The vision</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor.</p>
-                    
-                    <div class="the-vision-images">
-                        <img src="../../../assets/img/the-vision-img-1.webp" class="the-vision-img-1" alt="the-vision-img">
-                        <img src="../../../assets/img/the-vision-img-2.webp" class="the-vision-img-2" alt="the-vision-img">
-                    </div>
-                </div>
-                <div class="aesthetic-choices" id="aesthetic-choices-heading">
-                    <h3>Outcomes and Aesthetic Choices</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor.</p>
-                </div>
-            </div>
-        </div> -->
 
         <div class="row">
             <!-- Sidebar with Summary -->
             <div class="col-md-4 summary-col">
-                <h3>Summary</h3>
+                <h3>{{summaryInnerTitle}}</h3>
                 <ul class="summary-list">
                     {% for section in sections %}
                         <li class="item">
@@ -93,8 +29,7 @@
             <!-- Main Content -->
             <div class="col-md-8">
                 {% for section in sections %}
-                    <div id="{{ section.id }}">
-                        <h3>{{ section.title }}</h3>
+                    <div id="{{ section.id }}" class="cust-summary-wrapper">
                         <div class="content">
                             {{ section.contentHTML | safe }}
                         </div>
