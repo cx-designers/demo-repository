@@ -11,39 +11,712 @@
             <nav class="navbar">
                 <div class="mega-menu">
                     <ul>
-                        {% for item in menu %}
-                        <li>
-                            <a href="{{ item.menuLink }}" aria-label="{{ item.menuLabel }}"> {{ item.menuText }} </a>
 
-                            {% if item.subMenu %}
+                        <li>
+                            <a href="/" aria-label="Go to home page"> Home </a>
+                        </li>
+
+                        <li>
+                            <a href="about" aria-label="Go to about page"> About Us </a>
                             <div class="second-sub-menu-inner">
                                 <ul class="second-sub-menu">
-                                    {% for sub in item.subMenu %}
                                     <li>
-                                        <a href="{{ sub.menuLink }}" aria-label="{{ sub.menuLabel }}"> {{ sub.menuText }}
-                                        </a>
-    
-                                        {% if sub.subMenu %}
-                                        <ul class="third-sub-menu">
-                                            {% for subSub in sub.subMenu %}
+                                        <a href="life-at-cx" aria-label="" class=""> Life@Cypherox</a>
+
+                                        <ul class="third-sub-menu" style="display: none; opacity: 0;">
                                             <li>
-                                                <a href="{{ subSub.menuLink }}" aria-label="{{ subSub.menuLabel }}"> {{
-                                                    subSub.menuText }} </a>
+                                                <a href="javascript:;" aria-label=""> Energy </a>
                                             </li>
-                                            {% endfor %}
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Agriculture </a>
+                                            </li>
                                         </ul>
-                                        {% endif %}
                                     </li>
-                                    {% endfor %}
+
+                                    <li>
+                                        <a href="faq" aria-label=""> Q&A</a>
+                                        <ul class="third-sub-menu">
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Health & Fitness </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Food & Drink </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="our-work" aria-label=""> Our Work</a>
+                                        <ul class="third-sub-menu">
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Banking & Finance </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Photo & Video </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Engagement Model</a>
+                                        <ul class="third-sub-menu">
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Manufacturing </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Blog Details </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="Industries-details-inner" aria-label=""> Industry Page</a>
+                                        <ul class="third-sub-menu">
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Social Networking </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> On-Demand Delivery </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="blog" aria-label=""> Blog</a>
+                                        <ul class="third-sub-menu">
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Blog Listing </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Blog Details </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="news" aria-label=""> News </a>
+                                        <ul class="third-sub-menu">
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Education </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Transportation </a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
-                            {% endif %}
+
                         </li>
-                        {% endfor %}
+
+                        <li>
+                            <a href="/services" aria-label="Go to services page"> Services </a>
+                            <div class="second-sub-menu-inner" style="display: none; opacity: 0;">
+                                <ul class="second-sub-menu">
+                                    <li>
+                                        <a href="javascript:;" aria-label="Go to web development" class=""> UI UX Designs</a>
+                                        <ul class="third-sub-menu" style="display: none; opacity: 0;">
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Healthcare </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Finance </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Retail </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Manufacturing </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Transportation </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Education </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Energy </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Agriculture </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Media and entertainment </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Social Networking </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> On-Demand Delivery </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Entertainment </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Health & Fitness </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Food & Drink </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Transportation & Logistics
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Education & E-learning </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Ecommerce & Shopping </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Banking & Finance </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Travel & Tourism </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Real-estate </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Photo & Video </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Web Application Development </a>
+                                        <ul class="third-sub-menu">
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Healthcare </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Finance </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Retail </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Manufacturing </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Transportation </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Education </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="javascript:;" aria-label=""> Energy </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Mobile Application Development</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Cloud & DevOps</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Artificial Intelligence and Machine Learning</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Blockchain Development</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Virtual and Augmented Reality</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Data Analytics</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> CHAT GPT</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Metaverse Services</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Game Development Services</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Consulting Services</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Convert Website into App</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Convert Spreadsheet into Apps</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Convert Visual Basic App into IOS and Android App</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Convert PHP Website into App</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;" aria-label=""> Industries</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <a href="javascript:;" aria-label="Go to contact page"> App Development </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;" aria-label="Go to contact page"> Web Development </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;" aria-label="Go to contact page"> Dedicated Developer </a>
+                        </li>
+
+                        <li>
+                            <a href="career" aria-label="Go to contact page"> Careers </a>
+                        </li>
+
                     </ul>
                 </div>
             </nav>
-
+            <div class="mobile-menu">
+                <nav class="mobile-navbar">
+                    <div class="mega-menu">
+                        <ul class="menu-level-1">
+                
+                            <li class="list-item-1">
+                                <a href="/" aria-label="Go to home page" class="link-item-level-1"> <span class="inner-text"> Home </span>
+                                </a>
+                            </li>
+                
+                            <li class="list-item-1 has-inner-menu">
+                                <a href="about" aria-label="Go to about page" class="link-item-level-1"> <span class="inner-text"> About Us </span>
+                                    <span class="submenu-toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                    </span>
+                                </a>
+                                <div class="second-sub-menu">
+                                    <ul class="second-sub-menu-ul">
+                                        <li class="second-sub-menu-li has-inner-menu">
+                                            <a href="life-at-cx" aria-label="" class=""><span class="inner-text">  Life@Cypherox </span>
+                                                <span class="submenu-toggle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                                </span>
+                                            </a>
+                
+                                            <ul class="third-sub-menu">
+                                                <li class="">
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Energy</span> </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Agriculture</span> </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li has-inner-menu">
+                                            <a href="faq" aria-label=""> <span class="inner-text"><span class="inner-text"> Q&A </span></span>
+                                                <span class="submenu-toggle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="third-sub-menu">
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Health & Fitness </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Food & Drink </span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li has-inner-menu">
+                                            <a href="our-work" aria-label=""> <span class="inner-text"> Our Work</span>
+                                                <span class="submenu-toggle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="third-sub-menu">
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Banking & Finance</span> </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Photo & Video</span> </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li has-inner-menu">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Engagement Model</span>
+                                                <span class="submenu-toggle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="third-sub-menu">
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Manufacturing</span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Blog Details</span> </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li has-inner-menu">
+                                            <a href="Industries-details-inner" aria-label=""> <span class="inner-text"> Industry Page</span>
+                                                <span class="submenu-toggle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="third-sub-menu">
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Social Networking</span> </a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">On-Demand Delivery </span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li has-inner-menu">
+                                            <a href="blog" aria-label=""> <span class="inner-text"> Blog</span>
+                                                <span class="submenu-toggle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="third-sub-menu">
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Blog Listing</span> </a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Blog Details</span> </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li has-inner-menu">
+                                            <a href="news" aria-label=""> <span class="inner-text"> News </span>
+                                                <span class="submenu-toggle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="third-sub-menu">
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Education</span> </a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text">Transportation</span> </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                
+                            </li>
+                
+                            <li class="list-item-1 has-inner-menu">
+                                <a href="/services" aria-label="Go to services page" class="link-item-level-1"> <span class="inner-text"> Services </span>
+                                    <span class="submenu-toggle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                    </span>
+                                </a>
+                                <div class="second-sub-menu">
+                                    <ul class="second-sub-menu-ul">
+                                        <li class="second-sub-menu-li has-inner-menu">
+                                            <a href="javascript:;" aria-label="Go to web ui ux" class=""> <span class="inner-text">  UI UX Designs</span>
+                                                <span class="submenu-toggle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="third-sub-menu">
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Healthcare </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Finance </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Retail </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Manufacturing </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Transportation </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Education </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Energy </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Agriculture </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Media and entertainment </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Social Networking </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> On-Demand Delivery </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Entertainment </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Health & Fitness </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Food & Drink </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Transportation & Logis</span>tics
+                                                    </a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Education & E-learning </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Ecommerce & Shopping </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Banking & Finance </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Travel & Tourism </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Real-estate </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Photo & Video </span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li has-inner-menu">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Web Application Development </span>
+                                                <span class="submenu-toggle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#f26e65">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="third-sub-menu">
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Healthcare </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Finance </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Retail </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Manufacturing </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Transportation </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Education </span></a>
+                                                </li>
+                
+                                                <li>
+                                                    <a href="javascript:;" aria-label=""> <span class="inner-text"> Energy </span></a>
+                                                </li>
+                
+                                            </ul>
+                
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Mobile Application Development</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Cloud & DevOps</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Artificial Intelligence and Machine Learning</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Blockchain Development</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Virtual and Augmented Reality</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Data Analytics</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> CHAT GPT</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Metaverse Services</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Game Development Services</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Consulting Services</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Convert Website into App</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Convert Spreadsheet into Apps</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Convert Visual Basic App into IOS and Android App</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Convert PHP Website into App</span></a>
+                                        </li>
+                
+                                        <li class="second-sub-menu-li">
+                                            <a href="javascript:;" aria-label=""> <span class="inner-text"> Industries</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                
+                            </li>
+                
+                            <li class="list-item-1">
+                                <a href="javascript:;" aria-label="Go to contact page" class="link-item-level-1"> <span class="inner-text"> App Development </span> </a>
+                            </li>
+                
+                            <li class="list-item-1">
+                                <a href="javascript:;" aria-label="Go to contact page" class="link-item-level-1"> <span class="inner-text"> Web Development </span> </a>
+                            </li>
+                
+                            <li class="list-item-1">
+                                <a href="javascript:;" aria-label="Go to contact page" class="link-item-level-1"> <span class="inner-text"> Dedicated Developer </span> </a>
+                            </li>
+                
+                            <li class="list-item-1">
+                                <a href="career" aria-label="Go to contact page" class="link-item-level-1"> <span class="inner-text"> Careers </span> </a>
+                            </li>
+                            <li class="list-item-1">
+                                <a href="career" aria-label="Go to contact page" class="link-item-level-1"> <span class="inner-text"> Contact Now </span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
             <div class="contact-btn-sec">
                 <a href="/contact-us" class="primary-btn" aria-label="Contact us">
                     <span class="glow"></span>
@@ -51,7 +724,15 @@
                     <span class="btn-text">Contact Now</span>
                 </a>
             </div>
-
+            <div class="menu-icon">
+                <a href="javascript:void(0)" class="menu-toggle-link">
+                    <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="12" width="14" height="3" rx="1.5" fill="#F26E65"/>
+                        <rect y="8" width="26" height="3" rx="1.5" fill="#F26E65"/>
+                        <rect y="16" width="14" height="3" rx="1.5" fill="#F26E65"/>
+                        </svg>                        
+                </a>
+            </div>
 
         </div>
     </div>

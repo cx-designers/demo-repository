@@ -1,28 +1,40 @@
-<!-- app-development sec start -->
-<section class="app-development-sec">
+{% if devSubTitle or devTitle or devTitlePart or devInformationList or devBgImg %}
+  <section class="app-development-sec">
     <div class="container">
       <div class="row">
         <div class="col-full">
           <div class="heading-main-sec">
-            <h3><span>{{ devSubTitle }}</span></h3>
-            <h4>{{ devTitle }}</h4>
-            <h4 class="development-heading">{{ devTitlePart }}</h4>
+            {% if devSubTitle %}
+              <h3><span>{{ devSubTitle }}</span></h3>
+            {% endif %}
+            {% if devTitle %}
+              <h4>{{ devTitle }}</h4>
+            {% endif %}
+            {% if devTitlePart %}
+              <h4 class="development-heading">{{ devTitlePart }}</h4>
+            {% endif %}
           </div>
   
           <div class="development-paragraph-main">
-            {% for item in devInformationList %}
-              <div class="app-development-paragraph">
-                <h3><span></span></h3>
-                <h4></h4>   
-                <p class="business-paragraph-second ">{{ item.infoItem }}</p>
-              </div>
-            {% endfor %}
+            {% if devInformationList and devInformationList.length > 0 %}
+              {% for item in devInformationList %}
+                <div class="app-development-paragraph">
+                  <h3><span></span></h3>
+                  <h4></h4>   
+                  {% if item.infoItem %}
+                    <p class="business-paragraph-second ">{{ item.infoItem }}</p>
+                  {% endif %}
+                </div>
+              {% endfor %}
+            {% endif %}
           </div>
         </div>
       </div>
     </div>
     <div class="top-development">
-      <img src="{{ devBgImg }}" alt="{{ devBgAlt }}" class="img-fluid">
+      {% if devBgImg %}
+        <img src="{{ devBgImg }}" alt="{{ devBgAlt }}" class="img-fluid">
+      {% endif %}
     </div>
   </section>
-  <!-- app-development sec end -->
+{% endif %}

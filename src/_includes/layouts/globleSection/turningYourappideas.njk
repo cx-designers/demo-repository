@@ -1,29 +1,42 @@
-<section class="turning-app-ideas">
+{% if turningImgURL or turningappideasSubtitle or turningappideasTitle or turningappideas or buttonLink %}
+  <section class="turning-app-ideas">
     <div class="container">
-        <div class="ideas-box">
-            <img src="{{ turningImgURL }}" alt="" class="img-fluid">
-            <div class="ideas-title">
-                <div class="heading-main-sec text-start">
-                    <h3>{{turningappideasSubtitle}}</h3>
-                    <h4>{{turningappideasTitle}}</h4>
-                </div>
-            </div>
+      <div class="ideas-box">
+        {% if turningImgURL %}
+          <img src="{{ turningImgURL }}" alt="" class="img-fluid">
+        {% endif %}
+        <div class="ideas-title">
+          <div class="heading-main-sec text-start">
+            {% if turningappideasSubtitle %}
+              <h3>{{ turningappideasSubtitle }}</h3>
+            {% endif %}
+            {% if turningappideasTitle %}
+              <h4>{{ turningappideasTitle }}</h4>
+            {% endif %}
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md-5"></div>
-            <div class="col-md-7">
-                <div class="ideas-content">
-                    {% for turningappideas in turningappideas %}
-                    <p>{{ turningappideas.description }}</p>
-                    {% endfor %}
-
-                    <a href="{{ buttonLink }}" class="primary-btn {{ buttonhide }}">
-                        <span class="glow"></span>
-                        <span class="stock"></span>
-                        <span class="btn-text">{{ turningappideasbuttontext }}</span>
-                    </a>
-                </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-7">
+          <div class="ideas-content">
+            {% if turningappideas and turningappideas | length > 0 %}
+              {% for turningappideas in turningappideas %}
+                {% if turningappideas.description %}
+                  <p>{{ turningappideas.description }}</p>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+            {% if buttonLink %}
+              <a href="{{ buttonLink }}" class="primary-btn {{ buttonhide }}">
+                <span class="glow"></span>
+                <span class="stock"></span>
+                <span class="btn-text">{{ turningappideasbuttontext }}</span>
+              </a>
+            {% endif %}
+          </div>
         </div>
+      </div>
     </div>
-</section>
+  </section>
+{% endif %}

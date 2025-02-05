@@ -1,29 +1,41 @@
-<section class="faq-area overflow-hidden position-relative">
+{% if faqSubtitle or faqTitle or faqBoxList %}
+  <section class="faq-area overflow-hidden position-relative">
     <div class="container">
-        <div class="row">
-            <div class="col-full">
-                <div class="heading-main-sec">
-                    <h3><span>{{faqSubtitle}}</span></h3>
-                    <h4>{{faqTitle}}</h4>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-full">
+          <div class="heading-main-sec">
+            {% if faqSubtitle %}
+              <h3><span>{{ faqSubtitle }}</span></h3>
+            {% endif %}
+            {% if faqTitle %}
+              <h4>{{ faqTitle }}</h4>
+            {% endif %}
+          </div>
         </div>
+      </div>
 
-        <div class="faq-area-block">
-            {% for step in faqBoxList %}
+      <div class="faq-area-block">
+        {% if faqBoxList and faqBoxList | length > 0 %}
+          {% for step in faqBoxList %}
             <div class="faq-area-block-wrap">
-                <div class="faq-area-block-top">
-                    <h5 class="text-white card-title at-title">{{step.faqTitle}}</h5>
-                    <div class="faq-icon">
-                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.9397 6.9397H1.0603" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M6.99876 12.8782L7 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
+              <div class="faq-area-block-top">
+                {% if step.faqTitle %}
+                  <h5 class="text-white card-title at-title">{{ step.faqTitle }}</h5>
+                {% endif %}
+                <div class="faq-icon">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.9397 6.9397H1.0603" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6.99876 12.8782L7 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
                 </div>
-                <p class="text-white card-text mb-0 at-tab">{{step.faqDescription}}</p>
+              </div>
+              {% if step.faqDescription %}
+                <p class="text-white card-text mb-0 at-tab">{{ step.faqDescription }}</p>
+              {% endif %}
             </div>
-            {% endfor %}
-        </div>
+          {% endfor %}
+        {% endif %}
+      </div>
     </div>
-</section>
+  </section>
+{% endif %}
