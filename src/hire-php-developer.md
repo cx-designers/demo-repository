@@ -235,11 +235,11 @@ phases:
     blocks:
       - heading: "Development"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-laravel.svg"
             alt: "Laravel"
             title: "Laravel"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-codeigniter.svg"
             alt: "CodeIgniter"
             title: "CodeIgniter"
   - title: "Back-End Development"

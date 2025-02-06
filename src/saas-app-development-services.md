@@ -212,11 +212,11 @@ phases:
             alt: "Python"
             title: "Python - Used for making various kinds of apps"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-javascript.svg"
             alt: "JavaScript"
             title: "JavaScript - Helps make websites interactive"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-ruby.svg"
             alt: "Ruby" 
             title: "Ruby - Makes apps flexible and agile"
             
@@ -236,25 +236,25 @@ phases:
             alt: "AWS"
             title: "AWS - Makes it easy to grow your app" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-heroku.svg"
             alt: "Heroku"
             title: "Heroku - Helps put your app online quickly"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-digital-ocean.svg"
             alt: "DigitalOcean"
             title: "DigitalOcean - Keeps your app running smoothly"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-microsoft-azure.svg"
             alt: "Microsoft Azure"
             title: "Microsoft Azure - Different services for your app"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-firebase.svg"
             alt: "Firebase"
             title: "Firebase - Puts everything you need in one place"
             
       - heading: "Databases"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-mongodb.svg"
             alt: "MongoDB"
             title: "MongoDB - Stores information flexibly" 
 
@@ -262,59 +262,59 @@ phases:
             alt: "MySQL"
             title: "MySQL - Keeps your data organized"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-firestore.svg"
             alt: "Firebase Firestore"
             title: "Firebase Firestore - Grows as your app grows"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-cassandra.svg"
             alt: "Cassandra"
             title: "Cassandra - Stores lots of data quickly"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-sqlite.svg"
             alt: "SQLite"
             title: "SQLite - Keeps data on your device"
             
       - heading: "Frameworks"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-django.svg"
             alt: "Django"
             title: "Django - Helps make websites quickly" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-reactjs.svg"
             alt: "React"
             title: "React - Makes websites that move and change"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-vuejs.svg"
             alt: "Vue.js"
             title: "Vue.js - Makes websites better as they grow"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-expressjs.svg"
             alt: "Express.js"
             title: "Express.js - Helps make the inside of your app"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-spring-boot.svg"
             alt: "Spring Boot"
             title: "Spring Boot - Makes apps quickly and strongly"
             
       - heading: "Security"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-oauth.svg"
             alt: "OAuth"
             title: "OAuth - Makes sure people can log in safely" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-role-based-access-control.svg"
             alt: "Role-Based Access Control (RBAC)"
             title: "Role-Based Access Control (RBAC) - Makes sure only the right people can see certain things"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-end-to-end-encryption.svg"
             alt: "End-to-End Encryption"
             title: "End-to-End Encryption - Keeps your information safe"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-aws-iam.svg"
             alt: "AWS IAM"
             title: "AWS IAM - Helps control who can use AWS"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-api-key-management.svg"
             alt: "API Key Management"
             title: "API Key Management - Keeps your app safe from bad access"      
       
@@ -322,23 +322,23 @@ phases:
     blocks:
       - heading: "CI/CD & DevOps"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-jenkins.svg"
             alt: "Jenkins"
             title: "Jenkins - Helps do things quickly without mistakes"
            
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-github-actions.svg"
             alt: "GitHub Actions"
             title: "GitHub Actions - Makes it easy to put your app online"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-gitlab.svg"
             alt: "GitLab CI"
             title: "GitLab CI - Helps make your app and test it easily"
            
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-travis-ci.svg"
             alt: "Travis CI"
             title: "Travis CI - Helps make sure your app works well"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-teamcity.svg"
             alt: "TeamCity"
             title: "TeamCity - Helps make your app grow easily"
             

@@ -1,13 +1,16 @@
-{% if ourProjectsSubTitle or ourProjectsTitle or ourProjectList %}
+{% if (ourProjectsSubTitle and ourProjectsSubTitle | trim != "") 
+    or (ourProjectsTitle and ourProjectsTitle | trim != "") 
+    or (ourProjectList and ourProjectList | length > 0) %}
+
   <div class="projects-main-sec overflow-hidden">
     <div class="container">
       <div class="row">
         <div class="col-full">
           <div class="heading-main-sec text-start">
-            {% if ourProjectsSubTitle %}
+            {% if ourProjectsSubTitle and ourProjectsSubTitle | trim != "" %}
               <h3><span>{{ ourProjectsSubTitle }}</span></h3>
             {% endif %}
-            {% if ourProjectsTitle %}
+            {% if ourProjectsTitle and ourProjectsTitle | trim != "" %}
               <h4 class="font-100">{{ ourProjectsTitle }}</h4>
             {% endif %}
           </div>
@@ -15,15 +18,16 @@
         <div class="col-full projects-list">
           {% if ourProjectList and ourProjectList | length > 0 %}
             {% for item in ourProjectList %}
-              <div class="projects-item">
-                {% if item.projectImg %}
-                  <img src="{{ item.projectImg }}" alt="{{ item.alt }}">
-                {% endif %}
-              </div>
+              {% if item.projectImg and item.projectImg | trim != "" %}
+                <div class="projects-item">
+                  <img src="{{ item.projectImg }}" alt="{{ item.alt | default('Project Image') }}">
+                </div>
+              {% endif %}
             {% endfor %}
           {% endif %}
         </div>
       </div>
     </div>
   </div>
+
 {% endif %}

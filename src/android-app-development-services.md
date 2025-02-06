@@ -1,6 +1,6 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Android App Development Services - Cypherox Technologies
 bodyClass: "android-app-development-services"
 permalink: android-app-development-services.html
 bannersubTitle: "Service"
@@ -214,43 +214,43 @@ phases:
           - icon: "../../../assets/img/icon-Android-Studio.svg"
             alt: "Android Studio"
             title: "Android Studio" 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-gradle.svg"
             alt: "Gradle"
             title: "Gradle"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-flutter.svg"
             alt: "Flutter (for cross-platform development)"
             title: "Flutter (for cross-platform development)"
 
       - heading: "User Interface"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-xml.svg"
             alt: "XML"
             title: "XML"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-material-design.svg"
             alt: "Material Design"
             title: "Material Design"     
   - title: "Back-End Development"
     blocks:
       - heading: "Libraries"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-retrofit.svg"
             alt: "Retrofit"
             title: "Retrofit" 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-okhttp.svg"
             alt: "OkHttp"
             title: "OkHttp"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-gson.svg"
             alt: "Gson"
             title: "Gson"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-glide.svg"
             alt: "Glide"
             title: "Glide"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-dagger.svg"
             alt: "Dagger"
             title: "Dagger"
       - heading: "Backend"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-firebase.svg"
             alt: "Firebase"
             title: "Firebase"
           - icon: "../../../assets/img/icon-Aws.svg"
@@ -259,10 +259,10 @@ phases:
 
       - heading: "Data Management"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-room.svg"
             alt: "Room"
             title: "Room"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-realm.svg"
             alt: "Realm"
             title: "Realm"
       
@@ -270,13 +270,13 @@ phases:
     blocks:
       - heading: "Other"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-git.svg"
             alt: "Git"
             title: "Git"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-firebase-crashlytics.svg"
             alt: "Firebase Crashlytics"
             title: "Firebase Crashlytics"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-google-analytics.svg"
             alt: "Google Analytics"
             title: "Google Analytics"
             

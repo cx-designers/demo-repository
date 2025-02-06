@@ -1,6 +1,6 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Blockchain Development - Cypherox Technologies
 bodyClass: "blockchain-development"
 permalink: blockchain-development.html
 bannersubTitle: "Welcome"

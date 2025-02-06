@@ -1,6 +1,6 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: B2B Mobile App Development Services - Cypherox Technologies
 bodyClass: "b2b-mobile-app-development-services"
 permalink: b2b-mobile-app-development-services.html
 bannersubTitle: "Service"

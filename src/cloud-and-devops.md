@@ -1,7 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
-bodyClass: "cloud-and-devopss"
+title: Cloud And Devops - Cypherox Technologies
+bodyClass: "cloud-and-devops"
 permalink: cloud-and-devops.html
 bannersubTitle: "Welcome"
 bannerTitle: "Cloud & DevOps"

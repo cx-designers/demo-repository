@@ -1,6 +1,6 @@
 ---
 layout: layouts/android-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Android App Development - Cypherox Technologies
 bodyClass: "android-app-development"
 permalink: android-app-development.html
 bannersubTitle: "Service"

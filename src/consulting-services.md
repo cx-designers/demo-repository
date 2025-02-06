@@ -1,6 +1,6 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Consulting Services - Cypherox Technologies
 bodyClass: "consulting-services"
 permalink: consulting-services.html
 bannersubTitle: "Welcome"

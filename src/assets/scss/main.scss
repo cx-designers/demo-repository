@@ -3360,6 +3360,7 @@ svg:not(:root) {
   .black-logo {
     filter: invert(1);
     position: unset !important;
+    width: auto;
   }
 
   .border-bottom-cust {
@@ -9196,7 +9197,7 @@ body.overflow-hidden-x {
       align-items: center;
 
       >li {
-        margin: 0 20px;
+        margin: 0 0px;
 
         @include desktopmid {
           margin: 0px 10px;
@@ -9210,6 +9211,7 @@ body.overflow-hidden-x {
           position: relative;
           padding-bottom: 50px;
           transition: color 0.3s ease-in-out;
+          padding: 0 20px 50px 20px;
 
           @include desktopSmall {
             font-size: 14px;
@@ -9229,7 +9231,7 @@ body.overflow-hidden-x {
             right: 0;
             margin: 0 auto;
             bottom: 0;
-            top: 60px;
+            top: 32px;
             background-image: url(../img/menu-triangle-shape.svg);
             opacity: 0;
             transition: opacity 0.3s ease-in-out;
@@ -9240,7 +9242,7 @@ body.overflow-hidden-x {
           position: absolute;
           width: 100%;
           left: 0;
-          top: 120px;
+          top: 90px;
           padding: 40px;
           background-color: #000;
           border: 1px solid #f26e65;
@@ -10061,3 +10063,15 @@ body.overflow-hide {
 }
 
 /*blog details page css end*/
+
+
+
+.life-at-cypherox-page {
+  .gloabl-banner-inner-page {
+    .inner-banner-svg {
+      svg {
+        transform: rotateY(180deg);
+      }
+    }
+  }
+}

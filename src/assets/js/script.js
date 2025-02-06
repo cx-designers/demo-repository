@@ -559,7 +559,7 @@ gsap.to(".slider", {
 /* SVG Draw JS Start */
 gsap.registerPlugin(ScrollTrigger);
 
-const sections = document.querySelectorAll(".gloabl-banner-inner-page, .inner-service-sec");
+const sections = document.querySelectorAll(".gloabl-banner-inner-page, .inner-service-sec, .work-culture");
 
 sections.forEach((section) => {
   const paths = section.querySelectorAll(".svg-draw-sec svg path");

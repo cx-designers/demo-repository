@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog-detail-page.njk
-title: Blog Website Design & Development Company - Cypherox Technologies
+title: Blog Detail Inner - Cypherox Technologies
 bodyClass: "Industries-details-inner blogs-page"
 permalink: blog-detail-inner.html
 

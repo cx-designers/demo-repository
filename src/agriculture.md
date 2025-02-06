@@ -1,6 +1,6 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: Agriculture - Cypherox Technologies
 bodyClass: "agriculture"
 permalink: agriculture.html
 

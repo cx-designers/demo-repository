@@ -1,6 +1,6 @@
 ---
 layout: layouts/contact-Us.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Contact Us - Cypherox Technologies
 bodyClass: "contact-us-page"
 permalink: contact-us.html
 bannersubTitle: "Get in Touch"

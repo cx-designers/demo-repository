@@ -1,16 +1,21 @@
-{% if turningImgURL or turningappideasSubtitle or turningappideasTitle or turningappideas or buttonLink %}
+{% if (turningImgURL and turningImgURL | trim != "") 
+    or (turningappideasSubtitle and turningappideasSubtitle | trim != "") 
+    or (turningappideasTitle and turningappideasTitle | trim != "") 
+    or (turningappideas and turningappideas | length > 0) 
+    or (buttonLink and buttonLink | trim != "") %}
+
   <section class="turning-app-ideas">
     <div class="container">
       <div class="ideas-box">
-        {% if turningImgURL %}
+        {% if turningImgURL and turningImgURL | trim != "" %}
           <img src="{{ turningImgURL }}" alt="" class="img-fluid">
         {% endif %}
         <div class="ideas-title">
           <div class="heading-main-sec text-start">
-            {% if turningappideasSubtitle %}
+            {% if turningappideasSubtitle and turningappideasSubtitle | trim != "" %}
               <h3>{{ turningappideasSubtitle }}</h3>
             {% endif %}
-            {% if turningappideasTitle %}
+            {% if turningappideasTitle and turningappideasTitle | trim != "" %}
               <h4>{{ turningappideasTitle }}</h4>
             {% endif %}
           </div>
@@ -21,13 +26,13 @@
         <div class="col-md-7">
           <div class="ideas-content">
             {% if turningappideas and turningappideas | length > 0 %}
-              {% for turningappideas in turningappideas %}
-                {% if turningappideas.description %}
-                  <p>{{ turningappideas.description }}</p>
+              {% for idea in turningappideas %}
+                {% if idea.description and idea.description | trim != "" %}
+                  <p>{{ idea.description }}</p>
                 {% endif %}
               {% endfor %}
             {% endif %}
-            {% if buttonLink %}
+            {% if buttonLink and buttonLink | trim != "" %}
               <a href="{{ buttonLink }}" class="primary-btn {{ buttonhide }}">
                 <span class="glow"></span>
                 <span class="stock"></span>
@@ -39,4 +44,5 @@
       </div>
     </div>
   </section>
+
 {% endif %}

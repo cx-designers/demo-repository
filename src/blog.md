@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Blog - Cypherox Technologies
 bodyClass: "blog-page"
 permalink: blog.html
 bannersubTitle: "Welcome"

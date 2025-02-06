@@ -1,6 +1,6 @@
 ---
 layout: layouts/career.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Career - Cypherox Technologies
 bodyClass: "career-page"
 permalink: career.html
 bannersubTitle: "Welcome"

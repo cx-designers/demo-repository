@@ -1,6 +1,6 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: Banking And Finance - Cypherox Technologies
 bodyClass: "banking-and-finance"
 permalink: banking-and-finance.html
 

@@ -1,6 +1,6 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Cross Platform App Development Services - Cypherox Technologies
 bodyClass: "cross-platform-app-development-services"
 permalink: cross-platform-app-development-services.html
 bannersubTitle: "Service"

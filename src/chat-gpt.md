@@ -1,6 +1,6 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Chat Gpt - Cypherox Technologies
 bodyClass: "chat-gpt"
 permalink: chat-gpt.html
 bannersubTitle: "Welcome"
