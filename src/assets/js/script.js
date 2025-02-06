@@ -62,9 +62,23 @@ $(document).ready(function () {
     loop: true,
     loopAdditionalSlides: 30,
     autoplay: {
-      delay: 2500,
+      delay: 250000,
       disableOnInteraction: false,
+    },
+
+    breakpoints: {
+      767: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      991: {
+        slidesPerView: 3,
+      },
+      1280: {
+        slidesPerView: 4,
+      }
     }
+
   });
 });
 /* swiper-ourClient js end */
@@ -1481,3 +1495,33 @@ jQuery(document).ready(function ($) {
     $(this).addClass('on');
   });
 });
+
+/* Event Name JS Start */
+
+document.addEventListener('DOMContentLoaded', function () {
+  const sections = document.querySelectorAll('.join-team-image-wrapper');
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+
+        sections.forEach(section => {
+          if (section !== entry.target) {
+            section.classList.remove('is-visible');
+          }
+        });
+      } else {
+        entry.target.classList.remove('is-visible');
+      }
+    });
+  }, { threshold: 0.5 });
+
+  sections.forEach(section => {
+    observer.observe(section);
+  });
+});
+
+
+
+/* Event Name JS End */
