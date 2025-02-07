@@ -6666,6 +6666,8 @@ svg:not(:root) {
               span {
                 width: 60px;
                 height: 60px;
+                min-width: 60px;
+                min-height: 60px;
                 background-color: $primaryColor;
                 border-radius: 50rem;
                 display: flex;
@@ -8030,9 +8032,11 @@ section.sevice-bg-sec {
           &::before {
             content: '';
             width: 32px;
+            min-width: 32px;
             height: 30px;
             background: url("../../assets/img/right-arrow.svg")no-repeat center;
             display: inline-flex;
+            background-size: 100%;
 
           }
 
@@ -9304,6 +9308,8 @@ body.overflow-hidden-x {
                   color: $white;
                   font-weight: 400;
                   transition: color 0.3s ease-in-out;
+                  width: 100%;
+                  display: block;
 
                   &:hover {
                     color: $secondaryColor;

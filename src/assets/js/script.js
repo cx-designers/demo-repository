@@ -307,19 +307,31 @@ gsap.to(".rotateGlow ellipse", {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  gsap.fromTo(
-    ['.line-animation', '.line-animation-right'], // Select the elements
-    { opacity: 0 }, // Starting opacity
-    {
-      opacity: 1, // Ending opacity
-      scrollTrigger: {
-        trigger: document.querySelector(".about-sec"),
-        start: "top top", // Start animation after scrolling 100vh
-        toggleActions: "play none none reverse", // Play when scrolling down, reverse when scrolling up
-      },
-      duration: 0.1, // Animation duration (1 second)
+  const siteWrapper = document.querySelector(".site_wrapper");
+
+  if (siteWrapper) {
+    // Find all <section> elements inside .site_wrapper
+    const sections = siteWrapper.querySelectorAll("section");
+
+    // Check if there is a third section available
+    if (sections.length >= 2) {
+      const triggerSection = sections[1]; // Third section inside .site_wrapper
+
+      gsap.fromTo(
+        ['.line-animation', '.line-animation-right'], // Target elements
+        { opacity: 0 }, // Starting opacity
+        {
+          opacity: 1, // Ending opacity
+          scrollTrigger: {
+            trigger: triggerSection, // Dynamic trigger section
+            start: "top top",
+            toggleActions: "play none none reverse",
+          },
+          duration: 0.1,
+        }
+      );
     }
-  );
+  }
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -1411,61 +1423,61 @@ document.addEventListener("DOMContentLoaded", function () {
 jQuery(document).ready(function ($) {
   // Toggle Mobile Menu
   $('.menu-toggle-link').click(function (event) {
-      event.stopPropagation(); // Prevent event bubbling
-      $(this).toggleClass('active');
-      $('.mobile-menu').toggleClass('open');
-      $('body').toggleClass('overflow-hide');
+    event.stopPropagation(); // Prevent event bubbling
+    $(this).toggleClass('active');
+    $('.mobile-menu').toggleClass('open');
+    $('body').toggleClass('overflow-hide');
   });
 
   // Toggle first-level menu (Fix applied)
   $(".list-item-1 > .link-item-level-1 .submenu-toggle").click(function (e) {
-      e.preventDefault();
-      e.stopPropagation();
+    e.preventDefault();
+    e.stopPropagation();
 
-      let $parentLi = $(this).closest(".list-item-1");
-      let $submenu = $parentLi.find(".second-sub-menu").first();
+    let $parentLi = $(this).closest(".list-item-1");
+    let $submenu = $parentLi.find(".second-sub-menu").first();
 
-      // Toggle only the clicked submenu, without closing parents
-      if ($submenu.is(":visible")) {
-          $submenu.slideUp(300);
-          $parentLi.removeClass("active");
-      } else {
-          $(".second-sub-menu").not($submenu).slideUp(300);
-          $(".list-item-1").removeClass("active");
-          $submenu.stop(true, true).slideDown(300);
-          $parentLi.addClass("active");
-      }
+    // Toggle only the clicked submenu, without closing parents
+    if ($submenu.is(":visible")) {
+      $submenu.slideUp(300);
+      $parentLi.removeClass("active");
+    } else {
+      $(".second-sub-menu").not($submenu).slideUp(300);
+      $(".list-item-1").removeClass("active");
+      $submenu.stop(true, true).slideDown(300);
+      $parentLi.addClass("active");
+    }
   });
 
   // Toggle second-level menu (Fix applied)
   $(".second-sub-menu-li > a .submenu-toggle").click(function (e) {
-      e.preventDefault();
-      e.stopPropagation();
+    e.preventDefault();
+    e.stopPropagation();
 
-      let $parentLi = $(this).closest(".second-sub-menu-li");
-      let $submenu = $parentLi.find(".third-sub-menu").first();
+    let $parentLi = $(this).closest(".second-sub-menu-li");
+    let $submenu = $parentLi.find(".third-sub-menu").first();
 
-      // Toggle only the clicked submenu, without closing parents
-      if ($submenu.is(":visible")) {
-          $submenu.slideUp(300);
-          $parentLi.removeClass("active");
-      } else {
-          $(".third-sub-menu").not($submenu).slideUp(300);
-          $(".second-sub-menu-li").removeClass("active");
-          $submenu.stop(true, true).slideDown(300);
-          $parentLi.addClass("active");
-      }
+    // Toggle only the clicked submenu, without closing parents
+    if ($submenu.is(":visible")) {
+      $submenu.slideUp(300);
+      $parentLi.removeClass("active");
+    } else {
+      $(".third-sub-menu").not($submenu).slideUp(300);
+      $(".second-sub-menu-li").removeClass("active");
+      $submenu.stop(true, true).slideDown(300);
+      $parentLi.addClass("active");
+    }
   });
 
   // Click outside to close menu and submenus
   $(document).click(function (event) {
-      if (!$('.menu-toggle-link').is(event.target) && !$('.mobile-menu').is(event.target) && $('.mobile-menu').has(event.target).length === 0) {
-          $('.menu-toggle-link').removeClass('active');
-          $('.mobile-menu').removeClass('open');
-          $(".second-sub-menu, .third-sub-menu").slideUp(300);
-          $(".list-item-1, .second-sub-menu-li").removeClass("active");
-          $('body').removeClass('overflow-hide');
-      }
+    if (!$('.menu-toggle-link').is(event.target) && !$('.mobile-menu').is(event.target) && $('.mobile-menu').has(event.target).length === 0) {
+      $('.menu-toggle-link').removeClass('active');
+      $('.mobile-menu').removeClass('open');
+      $(".second-sub-menu, .third-sub-menu").slideUp(300);
+      $(".list-item-1, .second-sub-menu-li").removeClass("active");
+      $('body').removeClass('overflow-hide');
+    }
   });
 });
 

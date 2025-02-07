@@ -210,37 +210,37 @@ phases:
     blocks:
       - heading: "Development Essentials"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-javascript.svg"
             alt: "JavaScript"
             title: "JavaScript"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-typescript.svg"
             alt: "TypeScript"
             title: "TypeScript"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-npm.svg"
             alt: "NPM"
             title: "NPM" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-reactjs.svg"
             alt: "React Native CLI"
             title: "React Native CLI"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-expo-client.svg"
             alt: "Expo Client"
             title: "Expo Client"
 
       - heading: "User Interface Tools"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-reactjs.svg"
             alt: "React Native Elements"
             title: "React Native Elements"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-material-ui.svg"
             alt: "Material-UI"
             title: "Material-UI"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-react-bootstrap.svg"
             alt: "React Bootstrap"
             title: "React Bootstrap"  
 
@@ -248,41 +248,41 @@ phases:
     blocks:
       - heading: "Libraries & Helpers"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-redux.svg"
             alt: "Redux"
             title: "Redux" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-axios.svg"
             alt: "Axios"
             title: "Axios"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-lodash.svg"
             alt: "Lodash"
             title: "Lodash"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-formik.svg"
             alt: "Formik"
             title: "Formik"
 
       - heading: "Backend & Services"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-firebase.svg"
             alt: "Firebase"
             title: "Firebase"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-nodejs.svg"
             alt: "Node.js"
             title: "Node.js"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-expressjs.svg"
             alt: "Express.js"
             title: "Express.js"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-graphql.svg"
             alt: "GraphQL"
             title: "GraphQL"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-mongodb.svg"
             alt: "MongoDB"
             title: "MongoDB"
 
@@ -292,11 +292,11 @@ phases:
 
       - heading: "Server & Deployment"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-docker.svg"
             alt: "Docker"
             title: "Docker"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-kubernetes.svg"
             alt: "Kubernetes"
             title: "Kubernetes"
       
@@ -304,15 +304,15 @@ phases:
     blocks:
       - heading: "Testing & Version Control"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-git.svg"
             alt: "Git"
             title: "Git"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-jest.svg"
             alt: "Jest"
             title: "Jest"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-storybook.svg"
             alt: "Storybook"
             title: "Storybook"
             

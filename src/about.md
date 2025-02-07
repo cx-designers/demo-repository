@@ -24,4 +24,44 @@ bannerHTML: '<svg width="1023" height="869" viewBox="0 0 1023 869" fill="none" x
     </clipPath>
 </defs>
 </svg>'
+
+aswesomeSubTitle: "Awesome Features"
+aswesomeTitle: "The Eccentricities That Make Us Unique"
+items:
+  - icon: "../../../assets/img/work-approach.svg"
+    iconalt: "work-approach"
+    title: "Work Approach"
+    content: "At Cypherox technologies, we design, develop, and deploy our client’s website on the internet. Moreover, our work isn’t just done there. We can further assist our clients with customizable solutions to build their brand, visibility, and more importantly, creating a sterling reputation among their corresponding discipline of business."
+    bgClass: "work-approach-bg"
+    extraClass: ""
+  
+  - icon: "../../../assets/img/work-approach.svg"
+    title: "Creating Business Values"
+    content: "In this modern era of the trendsetting world, building a compelling website is just a first step towards a credible presence on the internet. For this reason, our creative IT team is committed to build the brand and create value for your business. Cypherox offers numerous web services to elevate your business by boosting your online visibility."
+    bgClass: "creating-business-values-bg"
+    extraClass: "creating-business-values-col"
+
+  - icon: "../../../assets/img/technology.svg"
+    title: "Technology"
+    content: "We strive to deliver an exceptional web project for your business backed with the most up-to-date technology, which lets you enjoy the sleek navigation and productive user experience of the website, of course, with cross-platform compatibility. Website designing professionals at Cypherox practice various meticulous web designs to achieve an exquisite and responsive website layout."
+    bgClass: "technology-bg"
+    extraClass: ""
+
+  - icon: "../../../assets/img/commitment.svg"
+    title: "Commitment"
+    content: "We manage all the metrics efficiently in the array of spheres involved in our client’s project. We live up to our commitment to provide sustainable service and technical support whenever the need arises."
+    bgClass: "creating-business-values-bg"
+    extraClass: ""
+
+  - icon: "../../../assets/img/experience.svg"
+    title: "Experience"
+    content: "Having five years of experience in the technology sector, we have gained enormous understanding and achieved technical expertise in numerous web-development strategies. Our team of experts supervises each stage of the development process to maintain higher standards of quality for the project."
+    bgClass: "experience-bg"
+    extraClass: "creating-business-values-col"
+
+  - icon: "../../../assets/img/our-footprints.svg"
+    title: "Our Footprints"
+    content: "Cypherox has grown remarkably over the years and holding a strong position in the web development industry. Client satisfaction, swift service, and the surefire outcome are our primary objectives amidst others."
+    bgClass: "creating-business-values-bg"
+    extraClass: ""
 ---
