@@ -1184,18 +1184,38 @@ body.open-menu {
     -webkit-backface-visibility: hidden;
     -webkit-transform-origin: center;
     will-change: transform;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // transform: scale(1.1);
 
     @include mobileLarge {
       height: 100vh;
     }
 
     svg {
-      width: 100vw;
-      height: 100%;
+      // width: 100vw;
+      // height: 100%;
+
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0px);
+      right: 0;
 
       @include mobileLarge {
         height: 100vh;
       }
+    }
+
+    .black-img, .orange-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
     }
   }
 

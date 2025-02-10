@@ -461,77 +461,72 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Initial styles for elements
 gsap.set([".content-inside-x", ".content-inside-x h1", ".content-inside-x p", ".first-svg", ".second-svg"], { opacity: 0 });
-gsap.set("#x-path", { fill: "black" }); // Initial fill color
+gsap.set("#x-path", { fill: "black" });
 
-// Master timeline for pinned animations
 const bannerTimeline = gsap.timeline({
   scrollTrigger: {
     trigger: ".main-service-sec",
-    start: "top top", // Pin starts when .banner reaches the top
-    end: "+=300%",    // Extend scroll duration for all animations
+    start: "top top",
+    end: "+=300%",
     scrub: 1,
     pin: true,
-    pinSpacing: true, // Prevent the next section from overlapping
+    pinSpacing: true,
   },
 });
 
 // Animation sequence
 bannerTimeline
-  // 1. Scale `.letter-x` and reveal `.content-inside-x`
-  .to([".letter-x"], {
-    scale: 14,              // Scale up `.letter-x`
-    opacity: 1,             // Reveal `.content-inside-x`
-    duration: 2,            // Duration for scaling and fading
-    ease: "power1.inOut",
-  }, 0) // Starts everything together
+
+.set([".letter-x > svg"], { width: "100vw" }) // Set initial width without animation
+  .to([".letter-x > svg"], {
+    opacity: 1,
+    duration: 2,
+    width: "1400vw",
+    ease: "power1.inOut"
+  })
 
   .to([".content-inside-x"], {
-    opacity: 1,             // Reveal `.content-inside-x`
-    duration: 0.5,            // Duration for scaling and fading
+    opacity: 1,
+    duration: 0.5,
   }, 0)
 
-  // 2. Change the fill of `#x-path` after scaling starts
   .to("#x-path", {
-    fill: "#F26E65",        // Change fill color
-    duration: 0.5,          // Smooth transition
-    ease: "power1.inOut",
-  }, 0.5) // Slight delay after scaling begins
-
-  // 3. Show `.content-inside-x h1` with font size and opacity changes
-  .to(".content-inside-x h1", {
-    fontSize: "8rem",       // Increase font size
-    opacity: 1,             // Make h1 visible
-    duration: 0.5,            // Sync with `.letter-x` scaling
+    fill: "#F26E65",
+    duration: 0.5,
     ease: "power1.inOut",
   }, 0.5)
-  // Sync with scaling
 
-  // 5. Animate and show the SVGs simultaneously with `.letter-x` scaling
+  .to(".content-inside-x h1", {
+    fontSize: "8rem",
+    opacity: 1,
+    duration: 0.5,
+    ease: "power1.inOut",
+  }, 0.5)
+
   .to(".first-svg", {
     opacity: 1,
-    x: 200,                 // Move from left to right
-    y: 200,                 // Move from top to bottom
-    duration: 1,            // Sync with `.letter-x` scaling duration
+    x: 200,
+    y: 200,
+    duration: 1,
     ease: "power1.inOut",
-  }, 0) // Sync with scaling
+  }, 0)
 
   .to(".second-svg", {
     opacity: 1,
-    x: -200,                // Move from right to left
-    y: 200,                 // Move from top to bottom
-    duration: 1,            // Sync with `.letter-x` scaling duration
+    x: -200,
+    y: 200,
+    duration: 1,
     ease: "power1.inOut",
-  }, 0) // Sync with scaling
+  }, 0)
 
-  // 6. Fade out both SVGs
   .to([".first-svg", ".second-svg"], {
     opacity: 0,
     duration: 0.5,
-  }, 0.8) // Fade out after scaling finishes
+  }, 0.8)
 
   .to(".content-inside-x h1", {
-    opacity: 0,             // Make h1 visible
-    duration: 0.8,            // Sync with `.letter-x` scaling
+    opacity: 0,
+    duration: 0.8,
     ease: "power1.inOut",
   }, 1)
 
