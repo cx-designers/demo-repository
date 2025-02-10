@@ -485,6 +485,7 @@ bannerTimeline
     ease: "power1.inOut"
   })
 
+  
   .to([".content-inside-x"], {
     opacity: 1,
     duration: 0.5,
