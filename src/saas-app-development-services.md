@@ -1,5 +1,5 @@
 ---
-layout: layouts/service-template/saas-app-development-services
+layout: layouts/service-template/saas-app-development-services.njk
 title: Website Design & Development Company - Cypherox Technologies
 bodyClass: "saas-app-development-services"
 permalink: saas-app-development-services.html
@@ -471,18 +471,45 @@ items:
     extraClass: ""
 
 hireSectionSubTitle: "Squad"
-hireSectionTitle: "Hire Your Custom Development Squad"
+hireSectionTitle: "SaaS Platforms Made Just for You"
 hireServicesList:
-  - "Hire Web Developers"
-  - "Hire Mobile App Developers"
-  - "Hire On-Demand App Developers"
-  - "Hire WordPress Developers"
-  - "Hire Shopify Developers"
-  - "Hire Chatbot Developers"
-  - "Hire PHP Developers"
-  - "Hire Graphic Designers"
-  - "Hire Digital Marketers"
+  - "Financial Management Software"
+  - "Sales and Marketing Automation Platform"
+  - "Employee Experience and Engagement Tools"
+  - "Website and Content Creation Platform"
+  - "Educational and Training Software"
+  - "Transportation and Logistics Solutions"
+  - "Cloud-Based Business Software"
+  - "Media Production and Editing Tools"
+  - "Inventory and Supply Chain Management System"
 hireButtonText: "Hire Now"
 hireButtonLink: "/hire"
 hireBgImage: "/assets/img/squad-bg-shap.webp"
+
+appIdeasSubTitle: "Squad"
+appIdeasTitle: "Making Your App Easy to Use"
+appIdeasList:
+  - title: "Mapping How Users Move"
+    description: "We draw out how people use your app, making it easier and better for them"
+    icon: "/assets/img/right-arrow.svg"
+
+  - title: "Planning How It Looks"
+    description: "We sketch out the first designs to make sure the app is clear and works well."
+    icon: "/assets/img/right-arrow.svg"
+
+  - title: "Making It Clickable"
+    description: "We create models you can click on to see how the app works before it's finished."
+    icon: "/assets/img/right-arrow.svg"
+
+  - title: "Creating the Look"
+    description: "We design how the app looks so it feels just like your brand."
+    icon: "/assets/img/right-arrow.svg"
+
+  - title: "Keeping It the Same"
+    description: "We make sure the app looks the same everywhere, so it's easy for users."
+    icon: "/assets/img/right-arrow.svg"
+
+  - title: "Helping Developers"
+    description: "We give clear instructions to developers to make sure they build what we've designed."
+    icon: "/assets/img/right-arrow.svg"
 ---

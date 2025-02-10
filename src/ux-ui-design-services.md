@@ -187,22 +187,22 @@ phases:
       - heading: "Lorem ipsum dolor"
         items:
           - icon: "../../../assets/img/"
-            alt: "Lorem ipsum"
-            title: "Lorem ipsum"
+            alt: ""
+            title: ""
 
   - title: "Back-End Development"
     blocks:
       - heading: "Lorem ipsum dolor"
         items:
           - icon: "../../../assets/img/"
-            alt: "Lorem ipsum"
-            title: "Lorem ipsum" 
+            alt: ""
+            title: "" 
 
   - title: "App Design"
     blocks:
       - heading: "Lorem ipsum dolor"
         items:
           - icon: "../../../assets/img/"
-            alt: "Lorem ipsum"
-            title: "Lorem ipsum" 
+            alt: ""
+            title: "" 
 ---

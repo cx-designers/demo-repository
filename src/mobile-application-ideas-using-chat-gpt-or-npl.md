@@ -244,18 +244,95 @@ servicesList:
 phases:
   - title: "Platform"
     blocks:
-      - heading: ""
+      - heading: "Front-End"
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-bootstrap.svg"
+            alt: "Bootstrap"
+            title: "Bootstrap"
+          
+          - icon: "../../../assets/img/icon-angular.svg"
+            alt: "Angular"
+            title: "Angular"
+
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "React"
+            title: "React"
+          
+          - icon: "../../../assets/img/icon-vuejs.svg"
+            alt: "Vuejs"
+            title: "Vuejs"
+            
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "React Native"
+            title: "React Native"
+          
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "Flutter"
+            title: "Flutter"
+
+          - icon: "../../../assets/img/icon-svelte.svg"
+            alt: "Svelte"
+            title: "Svelte"
+          
+          - icon: "../../../assets/img/icon-material-ui.svg"
+            alt: "Material UI"
+            title: "Material UI"
+            
+          - icon: "../../../assets/img/icon-vuetify.svg"
+            alt: "Vuetify"
+            title: "Vuetify"
+          
+          - icon: "../../../assets/img/icon-tailwind-css.svg"
+            alt: "Tailwind CSS"
+            title: "Tailwind CSS"
+            
+          - icon: "../../../assets/img/icon-vue-material.svg"
+            alt: "Vue Material"
+            title: "Vue Material"
+          
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "Reactstrap"
+            title: "Reactstrap"
+
+          - icon: "../../../assets/img/icon-react-bootstrap.svg"
+            alt: "React Bootstrap"
+            title: "React Bootstrap"
+          
+          - icon: "../../../assets/img/icon-vue-bootstrap.svg"
+            alt: "Vue Bootstrap"
+            title: "Vue Bootstrap"  
+
   - title: "Back-End Development"
     blocks:
-      - heading: ""
+      - heading: "Back-End Development"
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
+          - icon: "../../../assets/img/icon-laravel.svg"
+            alt: "Laravel"
+            title: "Laravel" 
+
+          - icon: "../../../assets/img/icon-django.svg"
+            alt: "Django"
+            title: "Django"
+            
+          - icon: "../../../assets/img/icon-flask.svg"
+            alt: "Flask"
+            title: "Flask" 
+
+          - icon: "../../../assets/img/icon-next.svg"
+            alt: "Next"
+            title: "Next"
+          
+          - icon: "../../../assets/img/icon-nuxt.svg"
+            alt: "Nuxt"
+            title: "Nuxt" 
+
+          - icon: "../../../assets/img/icon-nodejs.svg"
+            alt: "Nodejs"
+            title: "Nodejs"
+
+          - icon: "../../../assets/img/icon-aspnet.svg"
+            alt: "Aspnet"
+            title: "Aspnet"  
   - title: "App Design"
     blocks:
       - heading: ""

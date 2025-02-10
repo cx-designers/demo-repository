@@ -206,19 +206,19 @@ phases:
     blocks:
       - heading: "Front-end Development"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-javascript.svg"
             alt: "JavaScript"
             title: "JavaScript (Angular, React, Vue.js)"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-html.svg"
             alt: "HTML"
             title: "HTML"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-css.svg"
             alt: "CSS" 
             title: "CSS"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-bootstrap.svg"
             alt: "Bootstrap"
             title: "Bootstrap"
 
@@ -234,31 +234,31 @@ phases:
             alt: "Python"
             title: "Python"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-php.svg"
             alt: "PHP"
             title: "PHP"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-c-sharp.svg"
             alt: "C#"
             title: "C#"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-nodejs.svg"
             alt: "Node.js"
             title: "Node.js"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-django.svg"
             alt: "Django"
             title: "Django" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-flask.svg"
             alt: "Flask"
             title: "Flask"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-laravel.svg"
             alt: "Laravel"
             title: "Laravel"
                 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-.net.svg"
             alt: ".NET"
             title: ".NET"
                 
@@ -270,21 +270,21 @@ phases:
             alt: "PostgreSQL"
             title: "PostgreSQL"
                 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-mongodb.svg"
             alt: "MongoDB"
             title: "MongoDB"  
             
       - heading: "API Integration"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-restful-apis.svg"
             alt: "RESTful APIs"
             title: "RESTful APIs" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-swagger.svg"
             alt: "Swagger"
             title: "Swagger"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-postman.svg"
             alt: "Postman"
             title: "Postman"
 
@@ -294,79 +294,79 @@ phases:
             alt: "AWS"
             title: "AWS" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-azure.svg"
             alt: "Azure"
             title: "Azure"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-google-cloud-platform.svg"
             alt: "GCP"
             title: "GCP"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-amazon-s3.svg"
             alt: "Amazon S3"
             title: "Amazon S3"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-azure-blob-storage.svg"
             alt: "Azure Blob Storage"
             title: "Azure Blob Storage"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/google-cloud-storage.svg"
             alt: "Google Cloud Storage"
             title: "Google Cloud Storage"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-aws-lambda.svg"
             alt: "AWS Lambda"
             title: "AWS Lambda"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-azure-functions.svg"
             alt: "Azure Functions"
             title: "Azure Functions"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-google-cloud-functions.svg"
             alt: "Google Cloud Functions"
             title: "Google Cloud Functions"  
             
       - heading: "Security & Authentication"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-ssl-tls.svg"
             alt: "SSL/TLS"
             title: "SSL/TLS" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-oauth.svg"
             alt: "OAuth"
             title: "OAuth"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-jwt.svg"
             alt: "JWT"
             title: "JWT"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-saml.svg"
             alt: "SAML"
             title: "SAML"
 
       - heading: "CRM/ERP Specific Tools"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-salesforce.svg"
             alt: "Salesforce"
             title: "Salesforce" 
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-hubspot.svg"
             alt: "HubSpot"
             title: "HubSpot"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-zoho-crm.svg"
             alt: "Zoho CRM"
             title: "Zoho CRM"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-sap.svg"
             alt: "SAP"
             title: "SAP"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-oracle-erp-cloud.svg"
             alt: "Oracle ERP Cloud"
             title: "Oracle ERP Cloud"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-microsoft-dynamics.svg"
             alt: "Microsoft Dynamics"
             title: "Microsoft Dynamics"  
 
@@ -374,31 +374,31 @@ phases:
     blocks:
       - heading: "Testing & Deployment"
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-jest.svg"
             alt: "Jest"
             title: "Jest"
            
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-mocha.svg"
             alt: "Mocha"
             title: "Mocha"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-selenium.svg"
             alt: "Selenium"
             title: "Selenium"
            
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-docker.svg"
             alt: "Docker"
             title: "Docker"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-jenkins.svg"
             alt: "Jenkins"
             title: "Jenkins"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-gitlab-cicd.svg"
             alt: "GitLab CI/CD"
             title: "GitLab CI/CD"
             
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-travis-ci.svg"
             alt: "Travis CI"
             title: "Travis CI"  
             
