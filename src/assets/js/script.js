@@ -477,7 +477,7 @@ const bannerTimeline = gsap.timeline({
 // Animation sequence
 bannerTimeline
 
-.set([".letter-x > svg"], { width: "100vw" }) // Set initial width without animation
+  .set([".letter-x > svg"], { width: "100vw" }) // Set initial width without animation
   .to([".letter-x > svg"], {
     opacity: 1,
     duration: 2,
@@ -485,7 +485,7 @@ bannerTimeline
     ease: "power1.inOut"
   })
 
-  
+
   .to([".content-inside-x"], {
     opacity: 1,
     duration: 0.5,
@@ -1530,6 +1530,26 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
-
 /* Event Name JS End */
+
+/* Blur Image JS Start */
+
+document.addEventListener("DOMContentLoaded", function () {
+  let heroWrapper = document.querySelector(".hero-wrapper");
+  let flyingBlurImages = document.querySelectorAll(".hero-wrapper .flying.blur");
+
+  heroWrapper.addEventListener("mouseenter", function () {
+    flyingBlurImages.forEach(img => {
+      img.style.filter = "blur(2px)";
+    });
+  });
+
+  heroWrapper.addEventListener("mouseleave", function () {
+    flyingBlurImages.forEach(img => {
+      img.style.filter = "none";
+    });
+  });
+});
+
+
+/* Blur Image JS End */

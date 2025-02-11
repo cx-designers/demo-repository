@@ -80,12 +80,12 @@ tl.to(div, {
   ease: "power1.inOut"
 }, "-=0.1")
   .from(".from-left", {
-    duration: 0.8,      
+    duration: 0,      
     x: "-120%",         
     ease: "power2.inOut" 
   })
   .from(".from-right", {
-    duration: 0.8,      
+    duration: 0,      
     x: "120%",          
     ease: "power2.inOut" 
   })
@@ -125,27 +125,28 @@ function runSeparatedAnimations() {
   tl2.to(drarLogo, {
     strokeDashoffset: 0,
     opacity: 1,
-    duration: 6,
+    duration: 0.2,
     ease: "power1.inOut"
   }, "-=0.1")
     .fromTo(".roundeO", {
       strokeDasharray: 500,
       strokeDashoffset: 500,
       opacity: 1,
+      duration: 0,
 
     }, {
       strokeDashoffset: 0,
-      duration: 0.5,
+      duration: 0,
       ease: "power1.inOut"
-    }, "+=0.5")
+    }, "+=0")
     .to([drarLine1, drarLine2], {
       strokeDashoffset: 0,
       opacity: 1,
-      duration: 1,
+      duration: 0,
       ease: "power1.inOut"
     }).to(moveX, {
       opacity: 1,
-      duration: 0.5,
+      duration: 0,
       ease: "power1.inOut"
     });
   const paths = document.querySelectorAll('.neon'); 
