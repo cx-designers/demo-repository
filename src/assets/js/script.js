@@ -703,17 +703,17 @@ textWrappers.forEach(textWrapper => observer.observe(textWrapper));
 
 /* Blog Post JS Start */
 
-const progressBar = document.querySelector(".blog-post-sec .autoplay-progress-bar .progress");
+// const progressBar = document.querySelector(".blog-post-sec .autoplay-progress-bar .progress");
 
 var swiper = new Swiper(".myblog-post", {
   slidesPerView: 5,
   spaceBetween: 50,
   centeredSlides: true,
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -722,20 +722,20 @@ var swiper = new Swiper(".myblog-post", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  breakpoints: {
-    1200: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-    1024: {
-      slidesPerView: 2.4,
-      spaceBetween: 30,
-    },
-    768: {
-      slidesPerView: 1.4,
-      spaceBetween: 20,
-    },
-  },
+  // breakpoints: {
+  //   1200: {
+  //     slidesPerView: 3,
+  //     spaceBetween: 30,
+  //   },
+  //   1024: {
+  //     slidesPerView: 2.4,
+  //     spaceBetween: 30,
+  //   },
+  //   768: {
+  //     slidesPerView: 1.4,
+  //     spaceBetween: 20,
+  //   },
+  // },
 });
 
 /* Blog Post JS Start */

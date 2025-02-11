@@ -1,32 +1,44 @@
-<section class="hire-main-sec">
+{% if (hireSectionTitle and hireSectionTitle | trim != "") 
+    or (hireSectionSubTitle and hireSectionSubTitle | trim != "") 
+    or (hireServicesList and hireServicesList | length > 0) 
+    or (hireButtonText and hireButtonText | trim != "") 
+    or (hireBgImage and hireBgImage | trim != "") %}
 
-  <div class="container">
-    <div class="heading-main-sec" bis_skin_checked="1">
-      <h3><span>Squad</span></h3>
-      <h4>Hire Your Custom Development Squad</h4>
+  <section class="hire-main-sec">
+    <div class="container">
+      <div class="heading-main-sec">
+        {% if hireSectionSubTitle and hireSectionSubTitle | trim != "" %}
+          <h3><span>{{ hireSectionSubTitle }}</span></h3>
+        {% endif %}
+        {% if hireSectionTitle and hireSectionTitle | trim != "" %}
+          <h4>{{ hireSectionTitle }}</h4>
+        {% endif %}
+      </div>
+
+      <div class="hire-con-row">
+        {% if hireServicesList and hireServicesList | length > 0 %}
+          {% for service in hireServicesList %}
+            {% if service and service | trim != "" %}
+              <div class="hire-con-item">{{ service }}</div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+
+      {% if hireButtonText and hireButtonText | trim != "" %}
+        <div class="button-sec">
+          <a href="{{ hireButtonLink | default('javascript:;') }}" class="btn btn-primary rounded-pill">
+            <span>{{ hireButtonText }}</span>
+          </a>
+        </div>
+      {% endif %}
     </div>
 
-    <div class="hire-con-row">
-      <div class="hire-con-item">Hire Web Developers</div>
-      <div class="hire-con-item">Hire Mobile App Developers</div>
-      <div class="hire-con-item">Hire On-Demand App Developers</div>
-      <div class="hire-con-item">Hire WordPress Developers</div>
-      <div class="hire-con-item">Hire Shopify Developers</div>
-      <div class="hire-con-item">Hire Chatbot Developers</div>
-      <div class="hire-con-item">Hire PHP Developers</div>
-      <div class="hire-con-item">Hire Graphic Designers</div>
-      <div class="hire-con-item">Hire Digital Marketers</div>
-    </div>
+    {% if hireBgImage and hireBgImage | trim != "" %}
+      <div class="background-shap">
+        <img src="{{ hireBgImage }}" alt="Background Shape">
+      </div>
+    {% endif %}
+  </section>
 
-    <div class="button-sec">
-      <a href="javascript:;" class="btn btn-primary rounded-pill">
-        <span>Hire Now</span>
-      </a>
-    </div>
-  </div>
-
-  <div class="background-shap">
-    <img src="../../../assets/img/squad-bg-shap.webp">
-  </div>
-
-</section>
+{% endif %}
