@@ -41,7 +41,7 @@ awardsList:
   awardLink: "https://wadline.com/cypherox-technologies-pvt-ltd"
 - img: "assets/img/a4.webp"
   alt: "Certified mobile app developer"
-  awardLink: "https://appfirms.co/developer/developerProfile.php?user=CypheroxTechnologies&page=summary"
+  awardLink: "https://appfirms.co"
 - img: "assets/img/a5.webp"
   alt: "Top mobile app developers"
   awardLink: "https://www.topdevelopers.co/profile/cypherox-technologies"

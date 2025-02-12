@@ -1,13 +1,13 @@
 <section class="awards-sec">
-<div class="awards-row">
-  {% for item in awardsList %}
-  <div class="award-col relative">
-    <a href={{item.awardLink}} class="position-relative d-block h-100" aria-label="Go to award">
-    <img src={{awardTopLamp}} alt="Lamp" class="top-lamp">
-    <img src={{awardTopLampLight}} alt="Lamp light" class="top-lamp light-lamp">
-    <img src={{item.img}} alt="{{item.alt}}" class="award-item">
-  </a>
+  <div class="awards-row">
+    {% for item in awardsList %}
+    <div class="award-col relative">
+      <a href={{item.awardLink}} class="position-relative d-block h-100" aria-label="Go to award">
+        <img src={{awardTopLamp}} alt="Lamp" class="top-lamp">
+        <img src={{awardTopLampLight}} alt="Lamp light" class="top-lamp light-lamp">
+        <img src={{item.img}} alt="{{item.alt}}" class="award-item">
+      </a>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
 </section>

@@ -565,18 +565,28 @@ gsap.to(".slider", {
 
 
 /* SVG Draw JS Start */
+
 gsap.registerPlugin(ScrollTrigger);
 
 const sections = document.querySelectorAll(".gloabl-banner-inner-page, .inner-service-sec, .work-culture");
 
 sections.forEach((section) => {
   const paths = section.querySelectorAll(".svg-draw-sec svg path");
+  const svgElement = section.querySelector(".svg-draw-sec svg");
   const svgBanner = section.querySelector(".svg-about-banner");
+
+  if (svgElement) {
+    gsap.set(svgElement, { opacity: 0 }); // Set SVG opacity to 0 initially
+  }
 
   ScrollTrigger.create({
     trigger: section,
     start: "top 75%",
     onEnter: () => {
+      if (svgElement) {
+        gsap.to(svgElement, { opacity: 1, duration: 0.3 }); // Fade in SVG when animation starts
+      }
+
       paths.forEach((path) => {
         const length = path.getTotalLength();
 
@@ -587,9 +597,9 @@ sections.forEach((section) => {
 
         gsap.to(path, {
           strokeDashoffset: 0,
-          duration: 3,
+          duration: 1,
           ease: "power1.inOut",
-          delay: 0.5,
+          delay: 0.1,
           onComplete: () => {
             if (svgBanner) {
               gsap.to(svgBanner, { opacity: 1, duration: 0.5 });
@@ -600,6 +610,8 @@ sections.forEach((section) => {
     },
   });
 });
+
+
 /* SVG Draw JS End */
 
 /* for homepage service section js start */
@@ -666,14 +678,14 @@ var observer = new IntersectionObserver((entries, observer) => {
           scaleX: [0.3, 1],
           easing: "easeOutExpo",
           duration: 800,
-          delay: (el, i) => 550 + 25 * i
+          delay: (el, i) => 200 + 25 * i
         })
         .add({
           targets: entry.target.nextElementSiblings('p, a'),
           opacity: [0, 1],
-          duration: 1000,
+          duration: 500,
           easing: "easeOutExpo",
-          delay: (el, i) => 300 * i
+          delay: (el, i) => 200 * i
         });
 
       observer.unobserve(entry.target);
@@ -705,38 +717,48 @@ textWrappers.forEach(textWrapper => observer.observe(textWrapper));
 
 // const progressBar = document.querySelector(".blog-post-sec .autoplay-progress-bar .progress");
 
-var swiper = new Swiper(".myblog-post", {
-  slidesPerView: 5,
-  spaceBetween: 50,
-  centeredSlides: true,
-  loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  // breakpoints: {
-  //   1200: {
-  //     slidesPerView: 3,
-  //     spaceBetween: 30,
-  //   },
-  //   1024: {
-  //     slidesPerView: 2.4,
-  //     spaceBetween: 30,
-  //   },
-  //   768: {
-  //     slidesPerView: 1.4,
-  //     spaceBetween: 20,
-  //   },
-  // },
+document.addEventListener("DOMContentLoaded", function () {
+  var swiper = new Swiper(".myblog-post", {
+    slidesPerView: 5,
+    spaceBetween: 50,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      1440: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+
+      1200: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+
+      880: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+    },
+  });
 });
+
 
 /* Blog Post JS Start */
 
@@ -1357,17 +1379,19 @@ document.addEventListener("DOMContentLoaded", function () {
     item.addEventListener("mouseenter", function () {
       let thirdSubMenu = this.nextElementSibling;
 
-      document.querySelectorAll(".third-sub-menu.active").forEach(activeMenu => {
-        activeMenu.style.opacity = "0";
-        setTimeout(() => {
-          activeMenu.style.display = "none";
-        }, 300);
-        activeMenu.classList.remove("active");
-      });
+      if (!this.classList.contains("opend-sub-menu")) {
+        document.querySelectorAll(".third-sub-menu.active").forEach(activeMenu => {
+          activeMenu.style.opacity = "0";
+          setTimeout(() => {
+            activeMenu.style.display = "none";
+          }, 300);
+          activeMenu.classList.remove("active");
+        });
 
-      document.querySelectorAll(".second-sub-menu > li > a.opend-sub-menu").forEach(activeLink => {
-        activeLink.classList.remove("opend-sub-menu");
-      });
+        document.querySelectorAll(".second-sub-menu > li > a.opend-sub-menu").forEach(activeLink => {
+          activeLink.classList.remove("opend-sub-menu");
+        });
+      }
 
       if (thirdSubMenu && thirdSubMenu.classList.contains("third-sub-menu")) {
         thirdSubMenu.style.display = "flex";
@@ -1408,6 +1432,18 @@ document.addEventListener("DOMContentLoaded", function () {
           parentSubMenu.style.display = "none";
         }, 300);
       }
+    });
+  });
+
+  document.querySelectorAll(".navbar .mega-menu ul li a").forEach(link => {
+    link.addEventListener("click", function (event) {
+      event.stopPropagation();
+    });
+  });
+
+  document.querySelectorAll(".second-sub-menu-inner").forEach(subMenu => {
+    subMenu.addEventListener("click", function (event) {
+      event.stopPropagation();
     });
   });
 });
@@ -1482,31 +1518,40 @@ jQuery(document).ready(function ($) {
 
 /* Mobile  Menu js end */
 
-jQuery(document).ready(function ($) {
-  // Initially filter by the first active category
-  let $activeBtn = $('.btn-gal.on');
-  let firstCategory = $activeBtn.length ? 
-    $activeBtn.attr('class').split(' ').find(cls => cls !== 'btn-gal' && cls !== 'on') : 
-    null;
+document.addEventListener("DOMContentLoaded", function () {
+  let activeBtn = document.querySelector(".btn-gal.on");
+  let firstCategory = activeBtn ? [...activeBtn.classList].find(cls => cls !== "btn-gal" && cls !== "on") : null;
+  let gridItems = document.querySelectorAll(".grid .grid-item");
 
-  if (firstCategory && firstCategory !== 'all') {
-    $('.grid').isotope({ filter: '.' + firstCategory });
-  } else {
-    $('.grid').isotope({ filter: '*' }); // Show all if "All" is the first
+  function filterItems(category) {
+    gridItems.forEach(item => {
+      let hasCategory = item.classList.contains(category);
+      if (category === "all" || hasCategory) {
+        item.style.display = "block";
+      } else {
+        item.style.display = "none";
+      }
+    });
   }
 
-  // Filter button click event
-  $('.btn-gal').click(function () {
-    let filterValue = $(this).attr('class').split(' ').find(cls => cls !== 'btn-gal' && cls !== 'on');
+  if (firstCategory && firstCategory !== "all") {
+    filterItems(firstCategory);
+  } else {
+    filterItems("all");
+  }
 
-    // Apply filter
-    $('.grid').isotope({ filter: filterValue === 'all' ? '*' : '.' + filterValue });
+  document.querySelectorAll(".btn-gal").forEach(button => {
+    button.addEventListener("click", function () {
+      let selectedCategory = [...this.classList].find(cls => cls !== "btn-gal" && cls !== "on");
 
-    // Toggle active class
-    $('.btn-gal').removeClass('on');
-    $(this).addClass('on');
+      filterItems(selectedCategory);
+
+      document.querySelectorAll(".btn-gal").forEach(btn => btn.classList.remove("on"));
+      this.classList.add("on");
+    });
   });
 });
+
 
 
 /* Event Name JS Start */
@@ -1539,22 +1584,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /* Blur Image JS Start */
 
-document.addEventListener("DOMContentLoaded", function () {
-  let heroWrapper = document.querySelector(".hero-wrapper");
-  let flyingBlurImages = document.querySelectorAll(".hero-wrapper .flying.blur");
+if ($(".hero-wrapper").length > 0) {
 
-  heroWrapper.addEventListener("mouseenter", function () {
-    flyingBlurImages.forEach(img => {
-      img.style.filter = "blur(2px)";
+  document.addEventListener("DOMContentLoaded", function () {
+    let heroWrapper = document.querySelector(".hero-wrapper");
+    let flyingBlurImages = document.querySelectorAll(".hero-wrapper .flying.blur");
+
+    heroWrapper.addEventListener("mouseenter", function () {
+      flyingBlurImages.forEach(img => {
+        img.style.filter = "blur(2px)";
+      });
+    });
+
+    heroWrapper.addEventListener("mouseleave", function () {
+      flyingBlurImages.forEach(img => {
+        img.style.filter = "none";
+      });
     });
   });
 
-  heroWrapper.addEventListener("mouseleave", function () {
-    flyingBlurImages.forEach(img => {
-      img.style.filter = "none";
-    });
-  });
-});
+};
 
 
 /* Blur Image JS End */

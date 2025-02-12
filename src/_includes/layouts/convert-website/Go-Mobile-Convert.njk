@@ -1,48 +1,73 @@
+
+{% if convertServices and convertServices.length > 0 %}
 <section class="goMobileConvert-sec">
     <div class="container">
         <div class="row">
             <div class="col-full">
-                <div class="heading-main-sec" bis_skin_checked="1">
-                    <h3><span>Services</span></h3>
-                    <h4>Go Mobile: <br> Convert Your Website to Apps!</h4>
+                <div class="heading-main-sec">
+                {% if convertSubTitle %}
+                    <h3><span>{{convertSubTitle}}</span></h3>
+                     {% endif %}
+                    {% if convertTitle %}
+                        <h4>{{ convertTitle }}</h4>
+                    {% endif %}
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 android-left">
-                <div class="android-img">
-                    <img src="../../../assets/img/android.webp" alt="android" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-md-6  android-content">
-                <div>
-                    <h3>Android</h3>
-                    <p>Turn your website into a cool Android app! Our team of Android experts is ready to transform your CMS or
-                        online store into an app. Chat with our Android app specialist for free. Let's make your website
-                        mobile-friendly!</p>
-                    <div class="button-sec">
-                        <a href="javascript:;" class="btn btn-primary rounded-pill">
-                            <span>Get a Quote</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6  android-content">
-                <div>
-                    <h3>iPhone</h3>
-                    <p>Let's bring your website to iPhones! Whether your site is simple or fancy, our iOS expert is excited to create an awesome iPhone app for you. Share your ideas, and together, we'll turn your website into a slick iOS app. Connect with our iOS app expert now!</p>
-                    <div class="button-sec">
-                        <a href="javascript:;" class="btn btn-primary rounded-pill">
-                            <span>Get a Quote</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 iPhone-right">
-                <div class="android-img">
-                    <img src="../../../assets/img/iPhone.webp" alt="iPhone" class="img-fluid">
-                </div>
-            </div>
+            {% for service in convertServices %}
+                {% if service.image %}
+                    {% if loop.index is odd %}
+                        <div class="col-md-6 android-left">
+                            <div class="android-img">
+                                <img src="{{ service.image }}" alt="{{ service.alt or 'Service Image' }}" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-6 android-content">
+                            <div>
+                                {% if service.name %}
+                                    <h3>{{ service.name }}</h3>
+                                {% endif %}
+                                {% if service.description %}
+                                    <p>{{ service.description }}</p>
+                                {% endif %}
+                                {% if service.button_text %}
+                                    <div class="button-sec">
+                                        <a href="{{buttonLink}}" class="btn btn-primary rounded-pill">
+                                            <span>{{ service.button_text }}</span>
+                                        </a>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="col-md-6 android-content">
+                            <div>
+                                {% if service.name %}
+                                    <h3>{{ service.name }}</h3>
+                                {% endif %}
+                                {% if service.description %}
+                                    <p>{{ service.description }}</p>
+                                {% endif %}
+                                {% if service.button_text %}
+                                    <div class="button-sec">
+                                        <a href="{{buttonLink}}" class="btn btn-primary rounded-pill">
+                                            <span>{{ service.button_text }}</span>
+                                        </a>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="col-md-6 iPhone-right">
+                            <div class="android-img">
+                                <img src="{{ service.image }}" alt="{{ service.alt or 'Service Image' }}" class="img-fluid">
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
         </div>
     </div>
 </section>
+{% endif %}
+
