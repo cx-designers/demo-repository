@@ -1,5 +1,5 @@
 ---
-layout: layouts/service-template/ios-app-development-services.njk
+layout: layouts/service-template/b2b-mobile-app-development-services.njk
 title: B2B Mobile App Development Services - Cypherox Technologies
 bodyClass: "b2b-mobile-app-development-services"
 permalink: b2b-mobile-app-development-services.html
@@ -82,7 +82,7 @@ devBgAlt : "bg-img"
 
 industriesShapeImg: "/assets/img/industries-bg-shap.webp"
 industriesShapeImgAlt: "Industries Shape"
-industriesSubTitle: Lorem Ipsum
+industriesSubTitle: Industries
 industriesTitle: Industries
 industriesTitlePart: We served
 industriesData:
@@ -227,11 +227,6 @@ phases:
           - icon: "../../../assets/img/icon-realm.svg"
             alt: "Realm"
             title: "Realm"
-      
-  - title: "App Design"
-    blocks:
-      - heading: ""
-        items:
 
 developmentPhasesSubTitle: "Phases"
 developmentPhasesTitle: "How We Make B2B Mobile Apps"
@@ -277,4 +272,17 @@ developmentPhases:
       - item: "Make it live in app stores"
       - item: "Now your app is ready for everyone!"
     image: "../../assets/img/phases-developing-app01.webp"
+
+hireSectionSubTitle: "Squad"
+hireSectionTitle: "Hire Your Custom Development Squad"
+hireServicesList:
+  - "B2B Sales Enablement App"
+  - "B2B eCommerce Platform"
+  - "B2B Order Management App"
+  - "B2B Logistics and Delivery App"
+  - "B2B Marketplace Solutio"
+  - "B2B Communication and Collaboration App"
+hireButtonText: "Hire Now"
+hireButtonLink: "/hire"
+hireBgImage: "/assets/img/squad-bg-shap.webp"
 ---

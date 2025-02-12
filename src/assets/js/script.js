@@ -1484,7 +1484,11 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
   // Initially filter by the first active category
-  let firstCategory = $('.btn-gal.on').attr('class').split(' ').find(cls => cls !== 'btn-gal' && cls !== 'on');
+  let $activeBtn = $('.btn-gal.on');
+  let firstCategory = $activeBtn.length ? 
+    $activeBtn.attr('class').split(' ').find(cls => cls !== 'btn-gal' && cls !== 'on') : 
+    null;
+
   if (firstCategory && firstCategory !== 'all') {
     $('.grid').isotope({ filter: '.' + firstCategory });
   } else {
@@ -1503,6 +1507,7 @@ jQuery(document).ready(function ($) {
     $(this).addClass('on');
   });
 });
+
 
 /* Event Name JS Start */
 
