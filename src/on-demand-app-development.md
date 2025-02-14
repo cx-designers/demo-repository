@@ -277,4 +277,56 @@ developmentPhases:
       - item: "Ready for users"
     image: "../../assets/img/phases-developing-app01.webp"
 
+
+blogPostSubTitle: "Latest News"
+blogPostMainTitle: "Blog Post"
+blogpostSlides:
+  - blogSliderImg: "../../../assets/img/degital-development.webp"
+    blogSliderImgAlt: "digital-development"
+    blogSliderTitle: "design & development"
+    blogSliderContent: "Everything you need to know about the top 10 DevOps tools in 2022"
+    blogSliderArrowAriaLabel: "Go to single blog post page"
+    blogSliderArrowImg: "../../../assets/img/post-arrow.svg"
+    blogSliderArrowImgAlt: "post-arrow-1"
+
+  - blogSliderImg: "../../../assets/img/seo.webp"
+    blogSliderImgAlt: "SEO"
+    blogSliderTitle: "seo"
+    blogSliderContent: "Awesome WordPress Web Development Tools You Can't-Miss in 2022"
+    blogSliderArrowAriaLabel: "Go to single blog post page"
+    blogSliderArrowImg: "../../../assets/img/post-arrow.svg"
+    blogSliderArrowImgAlt: "post-arrow-1"
+
+  - blogSliderImg: "../../../assets/img/development.webp"
+    blogSliderImgAlt: "development"
+    blogSliderTitle: "design & development"
+    blogSliderContent: "Web Development in 2022: Latest Trends, Mistakes, Misconceptions"
+    blogSliderArrowAriaLabel: "Go to single blog post page"
+    blogSliderArrowImg: "../../../assets/img/post-arrow.svg"
+    blogSliderArrowImgAlt: "post-arrow-1"
+
+  - blogSliderImg: "../../../assets/img/degital-development.webp"
+    blogSliderImgAlt: "digital-development"
+    blogSliderTitle: "design & development"
+    blogSliderContent: "Everything you need to know about the top 10 DevOps tools in 2022"
+    blogSliderArrowAriaLabel: "Go to single blog post page"
+    blogSliderArrowImg: "../../../assets/img/post-arrow.svg"
+    blogSliderArrowImgAlt: "post-arrow-1"
+
+  - blogSliderImg: "../../../assets/img/seo.webp"
+    blogSliderImgAlt: "SEO"
+    blogSliderTitle: "seo"
+    blogSliderContent: "Awesome WordPress Web Development Tools You Can't-Miss in 2022"
+    blogSliderArrowAriaLabel: "Go to single blog post page"
+    blogSliderArrowImg: "../../../assets/img/post-arrow.svg"
+    blogSliderArrowImgAlt: "post-arrow-1"
+
+  - blogSliderImg: "../../../assets/img/development.webp"
+    blogSliderImgAlt: "development"
+    blogSliderTitle: "design & development"
+    blogSliderContent: "Web Development in 2022: Latest Trends, Mistakes, Misconceptions"
+    blogSliderArrowAriaLabel: "Go to single blog post page"
+    blogSliderArrowImg: "../../../assets/img/post-arrow.svg"
+    blogSliderArrowImgAlt: "post-arrow-1"
+
 ---
