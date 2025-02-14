@@ -81,87 +81,11 @@ devInformationList :
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
-industriesShapeImg: "/assets/img/industries-bg-shap.webp"
-industriesShapeImgAlt: "Industries Shape"
-industriesSubTitle: Lorem Ipsum
-industriesTitle: Industries
-industriesTitlePart: We served
-industriesData:
-- img: "assets/img/business.webp"
-  alt: "Business"
-  title: "Business"
-- img: "assets/img/education.webp"
-  alt: "Education"
-  title: "Education"
-- img: "assets/img/health-care.webp"
-  alt: "Health Care"
-  title: "Health Care"
-- img: "assets/img/transportation.webp"
-  alt: "Transportation"
-  title: "Transportation"
-- img: "assets/img/real-estate.webp"
-  alt: "Real Estate"
-  title: "Real Estate"
-- img: "assets/img/social-network.webp"
-  alt: "Social Network"
-  title: "Social Network"
 
-faqSubtitle : "FAQs"
-faqTitle : "Frequently asked questions"
-faqBoxList :
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
 
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
 
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
 
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
 
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis." 
-
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-reviewSubTitle: "Lorem ipsum"
-reviewTitle: "Lorem ipsum dolor sit"
-ReviewsList :
-  - reviewText: "Lorem ipsum dolor sit" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-  - reviewText: "Lorem ipsum dolor sit" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-  - reviewText: "Lorem ipsum dolor sit" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-  - reviewText: "Lorem ipsum dolor sit" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor."
-    reviewerImg: "../../../assets/img/review-client01.webp"
 
 secTitle: "Services"
 secSubTitle: "Virtual and Augmented Reality"  

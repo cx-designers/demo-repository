@@ -1,10 +1,26 @@
+{% if (portfolioSubTitle and portfolioSubTitle | trim != "") 
+    or (portfolioMainTitle and portfolioMainTitle | trim != "") 
+    or (portfolioSlides and portfolioSlides | length > 0) 
+    or (portfolio.portfolioSubTitle and portfolio.portfolioSubTitle | trim != "") 
+    or (portfolio.portfolioMainTitle and portfolio.portfolioMainTitle | trim != "") 
+    or (portfolio.portfolioSlides and portfolio.portfolioSlides | length > 0) %}
+
 <section class="portfolio-main-sec">
     <div class="container">
         <div class="row">
             <div class="col-full">
                 <div class="heading-main-sec">
-                    <h3>Projects</h3>
-                    <h4>Portfolio</h4>
+                    {% if portfolioSubTitle and portfolioSubTitle | trim != "" %}
+                        <h3>{{ portfolioSubTitle }}</h3>
+                    {% elseif portfolio.portfolioSubTitle and portfolio.portfolioSubTitle | trim != "" %}
+                        <h3>{{ portfolio.portfolioSubTitle }}</h3>
+                    {% endif %}
+
+                    {% if portfolioMainTitle and portfolioMainTitle | trim != "" %}
+                        <h4>{{ portfolioMainTitle }}</h4>
+                    {% elseif portfolio.portfolioMainTitle and portfolio.portfolioMainTitle | trim != "" %}
+                        <h4>{{ portfolio.portfolioMainTitle }}</h4>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -12,150 +28,59 @@
         <div class="portfolio-slider-main">
             <div class="swiper portfolio-slider">
                 <div class="swiper-wrapper">
+                    {% set slides = portfolioSlides if portfolioSlides else portfolio.portfolioSlides %}
+                    {% for slide in slides %}
                     <div class="swiper-slide">
                         <div class="portfolio-wrapper">
                             <div class="image-sec">
-                                <img src="../../../assets/img/portfolio-1.webp">
+                                <img src="{{ slide.sliderImg }}" alt="{{ slide.sliderImgAlt }}">
                             </div>
 
                             <div class="content-sec">
                                 <div class="top-content">
-                                    <h3>Year</h3>
-                                    <h4>2023</h4>
-                                    <h5>Role</h5>
-                                    <p>Mobile App Development</p>
+                                    <h3>{{ slide.content1 }}</h3>
+                                    <h4>{{ slide.content2 }}</h4>
+                                    <h5>{{ slide.content3 }}</h5>
+                                    <p>{{ slide.content4 }}</p>
                                 </div>
 
                                 <div class="bottom-content">
-                                    <h3>Description</h3>
-                                    <p>SkyRise is a revolutionary app designed to redefine urban living. It's your
-                                        ultimate companion, offering seamless access to building amenities,
-                                        community updates, and exclusive events. From booking facilities to
-                                        connecting with neighbors, SkyRise brings convenience and community together
-                                        in the palm of your hand. Experience city living at its finest with SkyRise.
-                                    </p>
+                                    <h3>{{ slide.content5 }}</h3>
+                                    <p>{{ slide.content6 }}</p>
 
-                                    <a href="javascript:;" class="primary-btn">
+                                    <a href="javascript:;" class="primary-btn" aria-label="{{ slide.buttonAreaLabel }}">
                                         <span class="glow"></span>
                                         <span class="stock"></span>
-                                        <span class="btn-text">All Projects</span>
+                                        <span class="btn-text">{{ slide.buttonText }}</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
-                        <div class="portfolio-wrapper">
-                            <div class="image-sec">
-                                <img src="../../../assets/img/portfolio-1.webp">
-                            </div>
-
-                            <div class="content-sec">
-                                <div class="top-content">
-                                    <h3>Year</h3>
-                                    <h4>2023</h4>
-                                    <h5>Role</h5>
-                                    <p>Mobile App Development</p>
-                                </div>
-
-                                <div class="bottom-content">
-                                    <h3>Description</h3>
-                                    <p>SkyRise is a revolutionary app designed to redefine urban living. It's your
-                                        ultimate companion, offering seamless access to building amenities,
-                                        community updates, and exclusive events. From booking facilities to
-                                        connecting with neighbors, SkyRise brings convenience and community together
-                                        in the palm of your hand. Experience city living at its finest with SkyRise.
-                                    </p>
-
-                                    <a href="javascript:;" class="primary-btn">
-                                        <span class="glow"></span>
-                                        <span class="stock"></span>
-                                        <span class="btn-text">All Projects</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="portfolio-wrapper">
-                            <div class="image-sec">
-                                <img src="../../../assets/img/portfolio-1.webp">
-                            </div>
-
-                            <div class="content-sec">
-                                <div class="top-content">
-                                    <h3>Year</h3>
-                                    <h4>2023</h4>
-                                    <h5>Role</h5>
-                                    <p>Mobile App Development</p>
-                                </div>
-
-                                <div class="bottom-content">
-                                    <h3>Description</h3>
-                                    <p>SkyRise is a revolutionary app designed to redefine urban living. It's your
-                                        ultimate companion, offering seamless access to building amenities,
-                                        community updates, and exclusive events. From booking facilities to
-                                        connecting with neighbors, SkyRise brings convenience and community together
-                                        in the palm of your hand. Experience city living at its finest with SkyRise.
-                                    </p>
-
-                                    <a href="javascript:;" class="primary-btn">
-                                        <span class="glow"></span>
-                                        <span class="stock"></span>
-                                        <span class="btn-text">All Projects</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    {% endfor %}
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
+
             <div thumbsSlider="" class="swiper portfolio-thumb">
                 <div class="swiper-wrapper">
+                    {% for slide in slides %}
                     <div class="swiper-slide">
                         <div class="thumb-image">
                             <div class="thumb-img-inner">
-                                <img src="../../../assets/img/portfolio-1.webp">
+                                <img src="{{ slide.thumbImg }}" alt="{{ slide.thumbImgAlt }}">
                             </div>
                         </div>
 
                         <div class="main-title">
-                            <h3>Skyrise</h3>
+                            <h3>{{ slide.thumbContent }}</h3>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
-                        <div class="thumb-image">
-                            <div class="thumb-img-inner">
-                                <img src="../../../assets/img/portfolio-1.webp">
-                            </div>
-                        </div>
-
-                        <div class="main-title">
-                            <h3>Skyrise</h3>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="thumb-image">
-                            <div class="thumb-img-inner">
-                                <img src="../../../assets/img/portfolio-1.webp">
-                            </div>
-                        </div>
-
-                        <div class="main-title">
-                            <h3>Skyrise</h3>
-                        </div>
-                    </div>
-
+                    {% endfor %}
                 </div>
             </div>
-
         </div>
-
     </div>
 </section>
+
+{% endif %}

@@ -1,29 +1,56 @@
+{% if (reviewSubTitle and reviewSubTitle | trim != "") 
+    or (reviewTitle and reviewTitle | trim != "") 
+    or (ReviewsList and ReviewsList | length > 0) 
+    or (reviews.reviewSubTitle and reviews.reviewSubTitle | trim != "") 
+    or (reviews.reviewTitle and reviews.reviewTitle | trim != "") 
+    or (reviews.ReviewsList and reviews.ReviewsList | length > 0) 
+%}
+
 <section class="review-client-area bg-white overflow-hidden position-relative">
     <div class="round-bg left-top"></div>
     <div class="container">
         <div class="row">
             <div class="col-full">
-                 <div class="heading-main-sec">
-                    <h3><span>{{ reviewSubTitle }}</span></h3>
-                    <h4>{{ reviewTitle }}</h4>
+                <div class="heading-main-sec">
+                    {% if reviewSubTitle and reviewSubTitle | trim != "" %}
+                        <h3><span>{{ reviewSubTitle }}</span></h3>
+                    {% elif reviews.reviewSubTitle and reviews.reviewSubTitle | trim != "" %}
+                        <h3><span>{{ reviews.reviewSubTitle }}</span></h3>
+                    {% endif %}
+
+                    {% if reviewTitle and reviewTitle | trim != "" %}
+                        <h4>{{ reviewTitle }}</h4>
+                    {% elif reviews.reviewTitle and reviews.reviewTitle | trim != "" %}
+                        <h4>{{ reviews.reviewTitle }}</h4>
+                    {% endif %}
                 </div>
             </div>
         </div>
 
+        {% if ReviewsList and ReviewsList | length > 0 or reviews.ReviewsList and reviews.ReviewsList | length > 0 %}
         <div class="rc-slider-main">
             <div class="review-client-slider swipern-container">
                 <div class="review-client-area-block swipern-wrapper">
-                 {% for review in ReviewsList %}
+                    
+                    {% for review in ReviewsList | default([]) %}
                     <div class="review-client-area-block-inner swipern-slide">
-                        <div class="card overflow-hidden ">
+                        <div class="card overflow-hidden">
                             <div class="review-client-area-block-inner-left">
                                 <div class="card-body">
-                                    <h5 class="card-title">"{{review.reviewText}}"</h5>
-                                    <p class="card-text">"{{review.reviewDesc}}"</p>
+                                    {% if review.reviewText and review.reviewText | trim != "" %}
+                                        <h5 class="card-title">"{{ review.reviewText }}"</h5>
+                                    {% endif %}
+                                    {% if review.reviewDesc and review.reviewDesc | trim != "" %}
+                                        <p class="card-text">"{{ review.reviewDesc }}"</p>
+                                    {% endif %}
                                 </div>
                                 <div class="card-footer bg-transparent border-0 mt-3">
-                                    <h6 class="card-title">{{review.reviewByName}}</h6>
-                                    <p class="card-text">{{review.reviewerPosition}}</p>
+                                    {% if review.reviewByName and review.reviewByName | trim != "" %}
+                                        <h6 class="card-title">{{ review.reviewByName }}</h6>
+                                    {% endif %}
+                                    {% if review.reviewerPosition and review.reviewerPosition | trim != "" %}
+                                        <p class="card-text">{{ review.reviewerPosition }}</p>
+                                    {% endif %}
                                 </div>
                             </div>
                             <div class="review-client-area-block-inner-right">
@@ -36,22 +63,57 @@
                                     </svg>
                                 </div>
                                 <div class="review-client-area-block-inner-right-img">
-                                    <img src="{{review.reviewerImg}}" class="img-fluid"  alt="review"/>
+                                    {% if review.reviewerImg and review.reviewerImg | trim != "" %}
+                                        <img src="{{ review.reviewerImg }}" class="img-fluid" alt="review"/>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                     {% endfor %}
-                </div>
+                    {% endfor %}
 
+                    {% for review in reviews.ReviewsList | default([]) %}
+                    <div class="review-client-area-block-inner swipern-slide">
+                        <div class="card overflow-hidden">
+                            <div class="review-client-area-block-inner-left">
+                                <div class="card-body">
+                                    {% if review.reviewText and review.reviewText | trim != "" %}
+                                        <h5 class="card-title">"{{ review.reviewText }}"</h5>
+                                    {% endif %}
+                                    {% if review.reviewDesc and review.reviewDesc | trim != "" %}
+                                        <p class="card-text">"{{ review.reviewDesc }}"</p>
+                                    {% endif %}
+                                </div>
+                                <div class="card-footer bg-transparent border-0 mt-3">
+                                    {% if review.reviewByName and review.reviewByName | trim != "" %}
+                                        <h6 class="card-title">{{ review.reviewByName }}</h6>
+                                    {% endif %}
+                                    {% if review.reviewerPosition and review.reviewerPosition | trim != "" %}
+                                        <p class="card-text">{{ review.reviewerPosition }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="review-client-area-block-inner-right">
+                                <div class="review-client-area-block-inner-right-img">
+                                    {% if review.reviewerImg and review.reviewerImg | trim != "" %}
+                                        <img src="{{ review.reviewerImg }}" class="img-fluid" alt="review"/>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
             </div>
             <div class="review-client-arrows">
                 <div class="swipern-button-prev review-client-prev"></div>
                 <div class="swipern-button-next review-client-next"></div>
             </div>
         </div>
-
+        {% endif %}
     </div>
     <div class="round-bg bottom-right"></div>
 </section>
+
+{% endif %}

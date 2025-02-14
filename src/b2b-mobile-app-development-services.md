@@ -80,96 +80,10 @@ devInformationList :
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
-industriesShapeImg: "/assets/img/industries-bg-shap.webp"
-industriesShapeImgAlt: "Industries Shape"
-industriesSubTitle: Industries
-industriesTitle: Industries
-industriesTitlePart: We served
-industriesData:
-- img: "assets/img/business.webp"
-  alt: "Business"
-  title: "Business"
-- img: "assets/img/education.webp"
-  alt: "Education"
-  title: "Education"
-- img: "assets/img/health-care.webp"
-  alt: "Health Care"
-  title: "Health Care"
-- img: "assets/img/transportation.webp"
-  alt: "Transportation"
-  title: "Transportation"
-- img: "assets/img/real-estate.webp"
-  alt: "Real Estate"
-  title: "Real Estate"
-- img: "assets/img/social-network.webp"
-  alt: "Social Network"
-  title: "Social Network"
 
-faqSubtitle : "FAQs"
-faqTitle : "Frequently asked questions"
-faqBoxList :
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-reviewSubTitle: "Lorem ipsum"
-reviewTitle: "Lorem ipsum dolor sit"
-ReviewsList :
-  - reviewText: "Lorem ipsum dolor sit 1" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 2" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 3" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 4" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 5" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
     
 secTitle: "Services"
 secSubTitle: "Why Choose Custom B2B Mobile App Solutions"  

@@ -1,41 +1,70 @@
-<div class="industries-section">
+{% if (industriesSubTitle and industriesSubTitle | trim != "") 
+    or (industriesTitle and industriesTitle | trim != "") 
+    or (industriesTitlePart and industriesTitlePart | trim != "") 
+    or (industriesData and industriesData | length > 0) 
+    or (industries.industriesSubTitle and industries.industriesSubTitle | trim != "") 
+    or (industries.industriesTitle and industries.industriesTitle | trim != "") 
+    or (industries.industriesTitlePart and industries.industriesTitlePart | trim != "") 
+    or (industries.industriesData and industries.industriesData | length > 0) %}
 
+<div class="industries-section">
+  {% if (industriesShapeImg and industriesShapeImg | trim != "") 
+      or (industries.industriesShapeImg and industries.industriesShapeImg | trim != "") %}
   <div class="industries-shap">
     <div class="image-sec">
-      <img src={{industriesShapeImg}} alt="{{industriesShapeImgAlt}}">
+      <img src="{{ industriesShapeImg or industries.industriesShapeImg }}" 
+           alt="{{ industriesShapeImgAlt or industries.industriesShapeImgAlt or '' }}">
     </div>
   </div>
+  {% endif %}
 
   <div class="container">
     <div class="row">
       <div class="col-full">
         <div class="heading-main-sec">
-          <h3><span>{{industriesSubTitle}}</span></h3>
-          <h4>{{industriesTitle}}<span>{{industriesTitlePart}}</span></h4>
+          {% if industriesSubTitle or industries.industriesSubTitle %}
+            <h3><span>{{ industriesSubTitle or industries.industriesSubTitle }}</span></h3>
+          {% endif %}
+          {% if industriesTitle or industries.industriesTitle %}
+            <h4>{{ industriesTitle or industries.industriesTitle }}
+              {% if industriesTitlePart or industries.industriesTitlePart %}
+                <span>{{ industriesTitlePart or industries.industriesTitlePart }}</span>
+              {% endif %}
+            </h4>
+          {% endif %}
         </div>
       </div>
     </div>
   </div>
 
+  {% if industriesData or industries.industriesData %}
   <div class="row">
     <div class="col-full">
       <div class="product-slider">
         <div class="slider">
-          {% for item in industriesData %}
-          <div class="slider-item">
-            <div class="industries-item">
-              <div class="image-sec">
-                <img src="{{ item.img }}" alt="{{ item.alt }}">
-              </div>
-              <div class="industries-title">
-                <p>{{ item.title }}</p>
+          {% for item in industriesData or industries.industriesData %}
+            {% if item.img or item.title %}
+            <div class="slider-item">
+              <div class="industries-item">
+                {% if item.img %}
+                  <div class="image-sec">
+                    <img src="{{ item.img }}" alt="{{ item.alt or '' }}">
+                  </div>
+                {% endif %}
+                {% if item.title %}
+                  <div class="industries-title">
+                    <p>{{ item.title }}</p>
+                  </div>
+                {% endif %}
               </div>
             </div>
-          </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
-      
     </div>
   </div>
+  {% endif %}
 </div>
+
+{% endif %}

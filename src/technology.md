@@ -100,8 +100,7 @@ featuresBoxList:
   - title: "We're Here for You"
     description: "Even after launch, our team keeps your app running smooth and up-to-date."
 
-faqSubtitle : "FAQs"
-faqTitle : "Frequently asked questions"
+
 faqBoxList :
 - faqTitle: "What services do you offer?"
   faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."

@@ -1,113 +1,36 @@
 <section class="blog-post-sec">
-
   <div class="container">
     <div class="row">
       <div class="col-full">
         <div class="heading-main-sec">
-          <h3><span>Latest News</span></h3>
-          <h4>Blog Post</h4>
+          <h3><span>{{ blogPostSubTitle }}</span></h3>
+          <h4>{{ blogPostMainTitle }}</h4>
         </div>
       </div>
     </div>
   </div>
   <div class="swiper myblog-post">
     <div class="swiper-wrapper">
+      {% for slide in blogpostSlides %}
       <div class="swiper-slide">
         <div class="blog-post-slide">
           <div class="blog-img">
-            <img src="../../assets/img/degital-development.webp" alt="Digital development">
+            <img src="{{ slide.blogSliderImg }}" alt="{{ slide.blogSliderImgAlt }}">
           </div>
           <div class="bottom-text">
-            <p>design & development</p>
-            <h3>Everything you need to know about the top 10 DevOps tools in 2022</h3>
+            <p>{{ slide.blogSliderTitle }}</p>
+            <h3>{{ slide.blogSliderContent }}</h3>
           </div>
         </div>
         <div class="blog-swiper-bottom-arrow">
-          <a href="javascript:void(0)" aria-label="Go to single blog post page"> <img src="../../assets/img/post-arrow.svg" alt="Post arrow 1"></a>
+          <a href="javascript:void(0)" aria-label="{{ slide.blogSliderArrowAriaLabel }}"> <img
+              src="{{ slide.blogSliderArrowImg }}" alt="{{ slide.blogSliderArrowImgAlt }}"></a>
         </div>
         <span class="btn-text"></span>
       </div>
-
-      <div class="swiper-slide">
-        <div class="blog-post-slide">
-          <div class="blog-img">
-            <img src="../../assets/img/development.webp" alt="Development">
-          </div>
-          <div class="bottom-text">
-            <p>design & development</p>
-            <h3>Web Development in 2022: Latest Trends, Mistakes, Misconceptions</h3>
-          </div>
-        </div>
-        <div class="blog-swiper-bottom-arrow">
-          <a href="javascript:void(0)" aria-label="Go to single blog post page"> <img src="../../assets/img/post-arrow.svg" alt="Post arrow 2"></a>
-        </div>
-        <span class="btn-text"></span>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="blog-post-slide">
-          <div class="blog-img">
-            <img src="../../assets/img/seo.webp" alt="SEO">
-          </div>
-          <div class="bottom-text">
-            <p>seo</p>
-            <h3>Awesome WordPress Web Development Tools You Can't-Miss in 2022</h3>
-          </div>
-        </div>
-        <div class="blog-swiper-bottom-arrow">
-          <a href="javascript:void(0)" aria-label="Go to single blog post page"> <img src="../../assets/img/post-arrow.svg" alt="Post arrow 3"></a>
-        </div>
-        <span class="btn-text"></span>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="blog-post-slide">
-          <div class="blog-img">
-            <img src="../../assets/img/degital-development.webp" alt="Digital development">
-          </div>
-          <div class="bottom-text">
-            <p>design & development</p>
-            <h3>Everything you need to know about the top 10 DevOps tools in 2022</h3>
-          </div>
-        </div>
-        <div class="blog-swiper-bottom-arrow">
-          <a href="javascript:void(0)" aria-label="Go to single blog post page"> <img src="../../assets/img/post-arrow.svg" alt="Post arrow 4"></a>
-        </div>
-        <span class="btn-text"></span>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="blog-post-slide">
-          <div class="blog-img">
-            <img src="../../assets/img/development.webp" alt="Development">
-          </div>
-          <div class="bottom-text">
-            <p>design & development</p>
-            <h3>Web Development in 2022: Latest Trends, Mistakes, Misconceptions</h3>
-          </div>
-        </div>
-        <div class="blog-swiper-bottom-arrow">
-          <a href="javascript:void(0)" aria-label="Go to single blog post page"> <img src="../../assets/img/post-arrow.svg" alt="Post arrow 5"></a>
-        </div>
-        <span class="btn-text"></span>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="blog-post-slide">
-          <div class="blog-img">
-            <img src="../../assets/img/seo.webp" alt="SEO">
-          </div>
-          <div class="bottom-text">
-            <p>seo</p>
-            <h3>Awesome WordPress Web Development Tools You Can't-Miss in 2022</h3>
-          </div>
-        </div>
-        <div class="blog-swiper-bottom-arrow">
-          <a href="javascript:void(0)" aria-label="Go to single blog post page"> <img src="../../assets/img/post-arrow.svg" alt="Post arrow 6"></a>
-        </div>
-        <span class="btn-text"></span>
-      </div>
+      {% endfor %}
     </div>
+    
     <div class="swiper-button-prev-main">
       <span class="glow"></span>
       <div class="swiper-button-prev"></div>

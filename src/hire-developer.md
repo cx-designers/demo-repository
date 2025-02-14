@@ -21,33 +21,9 @@ devInformationList:
 devBgImg: "/assets/img/hireDeveloper.webp"
 devBgAlt: "bg-img"
 
-industriesShapeImg: "/assets/img/industries-bg-shap.webp"
-industriesShapeImgAlt: "Industries Shape"
-industriesSubTitle: Lorem Ipsum
-industriesTitle: Industries
-industriesTitlePart: We served
-industriesData:
-- img: "assets/img/business.webp"
-  alt: "Business"
-  title: "Business"
-- img: "assets/img/education.webp"
-  alt: "Education"
-  title: "Education"
-- img: "assets/img/health-care.webp"
-  alt: "Health Care"
-  title: "Health Care"
-- img: "assets/img/transportation.webp"
-  alt: "Transportation"
-  title: "Transportation"
-- img: "assets/img/real-estate.webp"
-  alt: "Real Estate"
-  title: "Real Estate"
-- img: "assets/img/social-network.webp"
-  alt: "Social Network"
-  title: "Social Network"
 
-faqSubtitle : "FAQs"
-faqTitle : "Frequently asked questions"
+
+
 faqBoxList :
 - faqTitle: "What services do you offer?"
   faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
@@ -146,32 +122,5 @@ ourProjectList:
   alt: "our Project 04"
   projectLink: "#"
 
-reviewSubTitle: "Reviews"
-reviewTitle: "Appreciation From Clients"
-ReviewsList :
-  - reviewText: "Incredible Collaboration! 1" 
-    reviewDesc: "Our journey with Cypherox Technologies was exceptional. Their dedication to understanding our needs and translating them into a stunning app was commendable. Kudos to the team for their professionalism and top-notch delivery!"
-    reviewByName: "Sarah D."
-    reviewerPosition: "CEO, Tech Innovations Inc."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-  - reviewText: "Incredible Collaboration! 2" 
-    reviewDesc: "Our journey with Cypherox Technologies was exceptional. Their dedication to understanding our needs and translating them into a stunning app was commendable. Kudos to the team for their professionalism and top-notch delivery!"
-    reviewByName: "Sarah D."
-    reviewerPosition: "CEO, Tech Innovations Inc."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-  - reviewText: "Incredible Collaboration! 3" 
-    reviewDesc: "Our journey with Cypherox Technologies was exceptional. Their dedication to understanding our needs and translating them into a stunning app was commendable. Kudos to the team for their professionalism and top-notch delivery!"
-    reviewByName: "Sarah D."
-    reviewerPosition: "CEO, Tech Innovations Inc."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-  - reviewText: "Incredible Collaboration! 4" 
-    reviewDesc: "Our journey with Cypherox Technologies was exceptional. Their dedication to understanding our needs and translating them into a stunning app was commendable. Kudos to the team for their professionalism and top-notch delivery!"
-    reviewByName: "Sarah D."
-    reviewerPosition: "CEO, Tech Innovations Inc."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-  - reviewText: "Incredible Collaboration! 5" 
-    reviewDesc: "Our journey with Cypherox Technologies was exceptional. Their dedication to understanding our needs and translating them into a stunning app was commendable. Kudos to the team for their professionalism and top-notch delivery!"
-    reviewByName: "Sarah D."
-    reviewerPosition: "CEO, Tech Innovations Inc."
-    reviewerImg: "../../../assets/img/review-client01.webp"
+
 ---

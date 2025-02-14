@@ -81,96 +81,11 @@ devInformationList :
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
-industriesShapeImg: "/assets/img/industries-bg-shap.webp"
-industriesShapeImgAlt: "Industries Shape"
-industriesSubTitle: Lorem Ipsum
-industriesTitle: Industries
-industriesTitlePart: We served
-industriesData:
-- img: "assets/img/business.webp"
-  alt: "Business"
-  title: "Business"
-- img: "assets/img/education.webp"
-  alt: "Education"
-  title: "Education"
-- img: "assets/img/health-care.webp"
-  alt: "Health Care"
-  title: "Health Care"
-- img: "assets/img/transportation.webp"
-  alt: "Transportation"
-  title: "Transportation"
-- img: "assets/img/real-estate.webp"
-  alt: "Real Estate"
-  title: "Real Estate"
-- img: "assets/img/social-network.webp"
-  alt: "Social Network"
-  title: "Social Network"
 
-faqSubtitle : "FAQs"
-faqTitle : "Frequently asked questions"
-faqBoxList :
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-- faqTitle: "Lorem ipsum dolor sit"
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-reviewSubTitle: "Lorem ipsum"
-reviewTitle: "Lorem ipsum dolor sit"
-ReviewsList :
-  - reviewText: "Lorem ipsum dolor sit 1" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 2" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 3" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 4" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 5" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
     
 secTitle: "Services"
 secSubTitle: "Building Apps with OpenAI's Help"  
@@ -182,28 +97,23 @@ servicesList:
 
   - count: "02."
     title: "Smart Tech"
-    description: "ML and AI App Development
-Interested in tech like Machine Learning and AI? We use OpenAI tools to create apps that work smarter, solve problems, and improve customer service."
+    description: "ML and AI App Development Interested in tech like Machine Learning and AI? We use OpenAI tools to create apps that work smarter, solve problems, and improve customer service."
 
   - count: "03."
     title: "Efficient Development"
-    description: "DevOps Made Simple
-Speed up app development with our expertise in using OpenAI's tech to streamline processes and enhance efficiency."
+    description: "DevOps Made Simple Speed up app development with our expertise in using OpenAI's tech to streamline processes and enhance efficiency."
 
   - count: "04."
     title: "Seamless Integration"
-    description: "ChatGPT & Whisper API
-Planning to add OpenAI's features to your app? We'll integrate them seamlessly without disrupting your app's flow."
+    description: "ChatGPT & Whisper API Planning to add OpenAI's features to your app? We'll integrate them seamlessly without disrupting your app's flow."
 
   - count: "05."
     title: "Clever Chatbots"
-    description: "AI-Powered Assistance
-Want a super-smart chatbot? Our service uses OpenAI tech to craft a helpful, intelligent assistant."
+    description: "AI-Powered Assistance Want a super-smart chatbot? Our service uses OpenAI tech to craft a helpful, intelligent assistant."
 
   - count: "06."
     title: "Bug Busting"
-    description: "Testing and Debugging Solutions
-Need to fix bugs? We use OpenAI tools to find and resolve issues, ensuring your app works smoothly on all devices."
+    description: "Testing and Debugging Solutions Need to fix bugs? We use OpenAI tools to find and resolve issues, ensuring your app works smoothly on all devices."
 
 phases:
   - title: "Platform"

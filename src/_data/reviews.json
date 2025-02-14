@@ -1,0 +1,34 @@
+{
+  "reviewSubTitle": "Reviews",
+  "reviewTitle": "Appreciation From Clients",
+  "ReviewsList": [
+    {
+      "reviewText": "Incredible Collaboration!",
+      "reviewDesc": "Our journey with Cypherox Technologies was exceptional. Their dedication to understanding our needs and translating them into a stunning app was commendable. Kudos to the team for their professionalism and top-notch delivery!",
+      "reviewByName": "Sarah D.",
+      "reviewerPosition": "CEO, Tech Innovations Inc.",
+      "reviewerImg": "../../../assets/img/review-client01.webp"
+    },
+    {
+      "reviewText": "Exceeded Expectations!",
+      "reviewDesc": "Cypherox not only met our expectations but surpassed them. Their attention to detail and commitment to quality shone through in every phase of app development. Thanks for bringing our vision to life!",
+      "reviewByName": "Alex P.",
+      "reviewerPosition": "Marketing Director, Global Ventures Ltd.",
+      "reviewerImg": "../../../assets/img/review-client01.webp"
+    },
+    {
+      "reviewText": "A True Partner!",
+      "reviewDesc": "Working with Cypherox Technologies was like having a supportive partner throughout the entire process. Their proactive communication and unwavering support made the app development journey smooth and enjoyable. Highly recommended!",
+      "reviewByName": "Emily T.",
+      "reviewerPosition": "Operations Manager, Bright Ideas Co.",
+      "reviewerImg": "../../../assets/img/review-client01.webp"
+    },
+    {
+      "reviewText": "Outstanding Results!",
+      "reviewDesc": "Choosing Cypherox was the best decision we made for our app development. Their expertise and dedication led to outstanding results. We're thrilled with the final product!",
+      "reviewByName": "Max R.",
+      "reviewerPosition": "Founder, NextGen Solutions.",
+      "reviewerImg": "../../../assets/img/review-client01.webp"
+    }
+  ]
+}

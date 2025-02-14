@@ -109,14 +109,14 @@ $screen-mobile-small : 480px;
   }
 }
 
-@mixin mobileLarge {
-  @media only screen and (max-width: #{$screen-mobile-large}) {
+@mixin mobileLargeMin {
+  @media only screen and (min-width: #{$screen-ipad-small}) {
     @content;
   }
 }
 
-@mixin mobileLargeMin {
-  @media only screen and (min-width: #{$screen-ipad-small}) {
+@mixin mobileLarge {
+  @media only screen and (max-width: #{$screen-mobile-large}) {
     @content;
   }
 }
@@ -1148,6 +1148,7 @@ body.open-menu {
             font-weight: 400;
             color: $textBaseColor;
             margin: 50px 0 36px 0;
+
             @include mobileLarge {
               margin-top: 0;
             }
@@ -1173,7 +1174,7 @@ body.open-menu {
 
             @include mobileLarge {
               display: none;
-            } 
+            }
 
             @include mobileSmall {
               height: 450px;
@@ -1268,8 +1269,9 @@ body.open-menu {
         height: 100%;
       }
     }
+
     @include mdScreenLarge {
-      display:none;
+      display: none;
     }
   }
 
@@ -1292,12 +1294,14 @@ body.open-menu {
       z-index: 3;
       margin: 0;
       will-change: transform, font-size, opacity;
+
       @include mobileLarge {
         font-size: 100px !important;
         width: 100%;
         height: 100%;
         word-wrap: break-word;
       }
+
       @include mobileSmall {
         font-size: 50px !important;
       }
@@ -2080,19 +2084,6 @@ body.open-menu {
     animation-play-state: paused;
   }
 
-  &:hover {
-    &::before {
-      animation-play-state: running;
-    }
-
-    span {
-      &.glow {
-        animation-play-state: running;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(242, 110, 101, 0.58), rgba(242, 110, 101, 0.58) 100%);
-      }
-    }
-  }
-
   span {
     &.btn-text {
       position: absolute;
@@ -2152,15 +2143,6 @@ body.open-menu {
       bottom: 0;
       transition: all 1s ease;
       animation-play-state: paused;
-    }
-  }
-
-  &:hover {
-    span {
-      &.glow {
-        animation-play-state: running;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(242, 110, 101, 0.58), rgba(242, 110, 101, 0.58) 100%);
-      }
     }
   }
 
@@ -3037,6 +3019,7 @@ div#lottie-animation {
 
 /* Awards Section CSS End */
 
+
 /* Technologies Section CSS Start */
 
 .section_integration {
@@ -3119,8 +3102,20 @@ div#lottie-animation {
   position: relative;
   overflow: hidden;
   background-color: $white;
+  @include mobileLarge {
+    display: none;
+  }
 }
-
+.cutting_icon-img{
+  display: none;
+  img {
+    width: 100%;
+  }
+  @include mobileLarge{
+    display: block;
+    padding: 60px 0px 240px;
+  }
+}
 .hide {
   display: none !important;
 }
@@ -3168,6 +3163,9 @@ div#lottie-animation {
   top: 0;
   bottom: 0;
   margin: auto;
+  @include ipadLarge {
+    width: 100%;
+  }
 }
 
 .cutting-tool-icon-wrap.cutting-wrap-2 {
@@ -3413,6 +3411,7 @@ svg:not(:root) {
 }
 
 /* Technologies Section CSS End */
+
 
 /* footer css start */
 .pb-60 {
@@ -4878,17 +4877,17 @@ svg:not(:root) {
             }
 
             h3 {
-              font-size: 80px;
+              font-size: 60px;
               color: $white;
               font-weight: 400;
               opacity: 1 !important;
 
               @include mdScreen {
-                font-size: 60px;
+                font-size: 50px;
               }
 
               @include mobileLarge {
-                font-size: 50px;
+                font-size: 40px;
               }
 
               span {
@@ -6725,6 +6724,7 @@ svg:not(:root) {
             text-shadow: 5px 0 15px $cardHeadingShadow;
             margin-bottom: 20px;
             opacity: 1 !important;
+            cursor: pointer;
 
             .word {
               .letter {
@@ -6737,6 +6737,11 @@ svg:not(:root) {
           ul.list-block {
             margin: 0;
             padding: 0;
+            display: none;
+            opacity: 0;
+            height: 0;
+            overflow: hidden;
+            transition: opacity 0.6s ease;
 
             li {
               list-style-type: none;
@@ -6767,6 +6772,11 @@ svg:not(:root) {
                   object-fit: contain;
                 }
               }
+            }
+
+            &.show {
+              display: block;
+              opacity: 1;
             }
           }
         }

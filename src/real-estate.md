@@ -99,25 +99,6 @@ featuresBoxList:
   - title: "Lorem ipsum dolor sit"
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
 
-faqSubtitle : "FAQs"
-faqTitle : "Frequently asked questions"
-faqBoxList :
-
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
 phases:
   - title: "Platform"
     blocks:

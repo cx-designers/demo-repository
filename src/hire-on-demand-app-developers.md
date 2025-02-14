@@ -123,24 +123,7 @@ featuresBoxList:
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
 buttonForQuoteText: Get Quote
 buttonQuoteLink: "javascript:;"
-faqSubtitle : "FAQs"
-faqTitle : "Frequently asked questions"
-faqBoxList :
 
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-- faqTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-  faqDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
 
 ourProjectsSubTitle: Lorem ipsum
 ourProjectsTitle: Lorem ipsum
@@ -164,38 +147,7 @@ ourProjectList:
   alt: "our Project 02"
   projectLink: "#"
 
-reviewSubTitle: "Lorem ipsum"
-reviewTitle: "Lorem ipsum dolor sit"
-ReviewsList :
-  - reviewText: "Lorem ipsum dolor sit 1" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
 
-  - reviewText: "Lorem ipsum dolor sit 2" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 3" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 4" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
-
-  - reviewText: "Lorem ipsum dolor sit 5" 
-    reviewDesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-    reviewByName: "Lorem D."
-    reviewerPosition: "Lorem ipsum dolor sit."
-    reviewerImg: "../../../assets/img/review-client01.webp"
 
 phases:
   - title: "Lorem ipsum"

@@ -1607,3 +1607,48 @@ if ($(".hero-wrapper").length > 0) {
 
 
 /* Blur Image JS End */
+
+/* Phases On Demands App Info Section JS Start */
+
+document.addEventListener("DOMContentLoaded", function () {
+  const cardBodies = document.querySelectorAll(".card-body");
+  cardBodies.forEach(cardBody => {
+    const firstCardInfoBlockUl = cardBody.querySelector(".card-info-block:first-child ul");
+    if (firstCardInfoBlockUl) {
+      firstCardInfoBlockUl.classList.add("show");
+      firstCardInfoBlockUl.style.height = `${firstCardInfoBlockUl.scrollHeight}px`;
+    }
+  });
+
+  const headers = document.querySelectorAll(".card-info-block h4");
+  headers.forEach(header => {
+    header.addEventListener("click", function () {
+      const ul = this.nextElementSibling;
+      const cardBody = this.closest(".card-body");
+
+      if (ul && ul.tagName === "UL") {
+        if (ul.classList.contains("show")) {
+          return;
+        }
+
+        const columnUls = cardBody.querySelectorAll(".card-info-block ul");
+        columnUls.forEach(otherUl => {
+          otherUl.classList.remove("show");
+          otherUl.style.height = "0";
+          otherUl.style.opacity = "0";
+        });
+
+        ul.classList.add("show");
+        ul.style.height = `${ul.scrollHeight}px`;
+        ul.style.opacity = "1";
+
+        ul.addEventListener("transitionend", function () {
+          ul.style.height = "auto";
+          ul.style.opacity = "1";
+        });
+      }
+    });
+  });
+});
+
+/* Phases On Demands App Info Section JS Start */
