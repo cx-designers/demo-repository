@@ -196,6 +196,143 @@ $(document).ready(function () {
       }
     }
   });
+
+  let swiperInstance;
+
+  function initSwiper() {
+    if ($('.awards-sec').length) {  // Check if .awards-sec exists
+      if ($(window).width() <= 1260) {
+        if (!swiperInstance) {
+          swiperInstance = new Swiper(".awards-slider", {
+            slidesPerView: 4,
+            spaceBetween: 0,
+            slidesPerGroup: 1,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false 
+            },
+            loop: true,
+            breakpoints: {
+              1024: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              520: {
+                slidesPerView: 1,
+              }
+            }
+          });
+        }
+      } else {
+        if (swiperInstance) {
+          swiperInstance.destroy(true, true);
+          swiperInstance = null;
+        }
+      }
+    }
+  }
+
+  // Initialize on load
+  initSwiper();
+
+  // Re-check on resize
+  $(window).resize(function () {
+    initSwiper();
+  });
+  let teamSwiperInstance;
+
+  function initTeamSwiper() {
+    if ($('.team-intro-slider').length) {  // Check if .team-intro-slider exists
+      if ($(window).width() <= 1260) {
+        if (!teamSwiperInstance) {
+          teamSwiperInstance = new Swiper(".team-intro-slider", {
+            slidesPerView: 4,
+            spaceBetween: 0,
+            slidesPerGroup: 1,
+            loop: true,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false 
+            },
+            breakpoints: {
+              1024: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              520: {
+                slidesPerView: 1,
+              }
+            }
+          });
+        }
+      } else {
+        if (teamSwiperInstance) {
+          teamSwiperInstance.destroy(true, true);
+          teamSwiperInstance = null;
+        }
+      }
+    }
+  }
+
+  // Initialize on load
+  initTeamSwiper();
+
+  // Re-check on resize
+  $(window).resize(function () {
+    initTeamSwiper();
+  });
+
+
+let swiperIndustries;
+
+function initIndustriesSwiper() {
+  if ($('.industries-slider-small').length) {  // Check if .team-intro-slider exists
+    if ($(window).width() <= 1260) {
+      if (!swiperIndustries) {
+        swiperIndustries = new Swiper(".product-industries-slider", {
+          slidesPerView: 3,
+          spaceBetween: 0,
+          slidesPerGroup: 1,
+          loop: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false 
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+            },
+            520: {
+              slidesPerView: 1,
+            }
+          }
+        });
+      }
+    } else {
+      if (swiperIndustries) {
+        swiperIndustries.destroy(true, true);
+        swiperIndustries = null;
+      }
+    }
+  }
+}
+
+// Initialize on load
+initIndustriesSwiper();
+
+// Re-check on resize
+$(window).resize(function () {
+  initIndustriesSwiper();
+});
+
 });
 /* Counter Slider Section Complete */
 

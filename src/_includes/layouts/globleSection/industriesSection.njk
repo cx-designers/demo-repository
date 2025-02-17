@@ -65,6 +65,40 @@
     </div>
   </div>
   {% endif %}
+  <div class="industries-slider-small">
+    <div class="container">
+    {% if industriesData or industries.industriesData %}
+      <div class="row">
+        <div class="col-full">
+          <div class="product-industries-slider swiper">
+            <div class="cust-slider swiper-wrapper">
+              {% for item in industriesData or industries.industriesData %}
+                {% if item.img or item.title %}
+                <div class="cust-slider-item swiper-slide">
+                  <div class="industries-item">
+                    {% if item.img %}
+                      <div class="image-sec">
+                        <img src="{{ item.img }}" alt="{{ item.alt or '' }}">
+                      </div>
+                    {% endif %}
+                    {% if item.title %}
+                      <div class="industries-title">
+                        <p>{{ item.title }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+              <!-- Optional navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    </div>
+  </div>
 </div>
-
 {% endif %}
