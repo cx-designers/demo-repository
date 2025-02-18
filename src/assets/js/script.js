@@ -333,6 +333,53 @@ $(window).resize(function () {
   initIndustriesSwiper();
 });
 
+
+let testimonailSliderMobile;
+
+function testimonailSwiper() {
+  
+  if ($('.testimonial-con-mobile-sec').length) {  
+    if ($(window).width() <= 767) {
+      if (!testimonailSliderMobile) {
+        testimonailSliderMobile = new Swiper(".testimonial-con-mobile-sec", {
+          slidesPerView: 3,
+          spaceBetween: 0,
+          slidesPerGroup: 1,
+          loop: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false 
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+            },
+            520: {
+              slidesPerView: 1,
+            }
+          }
+        });
+      }
+    } else {
+      if (testimonailSliderMobile) {
+        testimonailSliderMobile.destroy(true, true);
+        testimonailSliderMobile = null;
+      }
+    }
+  }
+}
+
+// Initialize on load
+testimonailSwiper();
+
+// Re-check on resize
+$(window).resize(function () {
+  testimonailSwiper();
+});
 });
 /* Counter Slider Section Complete */
 
