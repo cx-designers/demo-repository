@@ -976,13 +976,14 @@ body.open-menu {
 
   @include mdScreen {
     padding-top: 75px;
-    padding-bottom: 0px;
   }
 
   @include mobileLarge {
     padding-top: 55px;
   }
-
+  @include mobileSmall {
+    padding-bottom: 0px;
+  }
   img.cust-bg {
     width: 100%;
     position: absolute;
@@ -1239,7 +1240,7 @@ body.open-menu {
       right: 0;
 
       @include mobileLarge {
-        height: 100vh;
+        // height: 100vh;
       }
     }
 
@@ -2514,7 +2515,7 @@ div#lottie-animation {
       position: absolute;
       bottom: 0;
       z-index: 9999;
-
+      display: block;
       span.swiper-pagination-bullet {
           background: #fff;
           opacity: 0.5;
@@ -2584,12 +2585,14 @@ div#lottie-animation {
     padding-bottom: 95px;
   }
 
-  @include mdScreen {
+  @include mdScreenLarge {
     padding-bottom: 75px;
   }
-
   @include mobileLarge {
-    padding-bottom: 50px;
+    padding-bottom: 55px;
+  }
+  @include mobileSmall {
+    padding-bottom: 45px;
   }
 
   .heading-main-sec {
@@ -2606,6 +2609,28 @@ div#lottie-animation {
 
   .swiper.team-intro-slider {
     overflow: hidden;
+    position: relative;
+    .swiper-pagination {
+      display: none;
+    }
+    &.swiper-container-initialized {
+      .swiper-pagination {
+        position: absolute;
+        bottom: 0;
+        z-index: 9999;
+        display: block;
+        span.swiper-pagination-bullet {
+            background: #fff;
+            opacity: 0.5;
+            transition: 0.3s ease;
+
+            &.swiper-pagination-bullet-active {
+                background: #f26e65;
+                opacity: 1;
+            }
+        }
+      }
+    }
   }
 
   .team-intro {
@@ -2613,6 +2638,7 @@ div#lottie-animation {
       &.swiper-wrapper{ 
         flex-wrap: nowrap;
       }
+      padding-bottom: 30px;
     }
     @include mdScreen {
       gap: 40px 0px;
@@ -2712,6 +2738,9 @@ div#lottie-animation {
             color: $white;
             font-weight: 400;
             margin: 0 0 10px 0;
+            @include mdScreenLarge {
+              opacity:1 !important;
+            }
           }
 
           p {
@@ -2816,9 +2845,13 @@ div#lottie-animation {
     }
 
     @include mobileLarge {
-      width: 100%;
+      width: 70%;
       margin-top: 40px;
-      height: 620px;
+      height: 500px;
+    }
+    @include mobileSmall {
+      height: 370px;
+      width: 100%;
     }
 
     .swiper-slide {
@@ -2833,8 +2866,12 @@ div#lottie-animation {
       max-height: 500px;
 
       @include mobileLarge {
-        height: 300px;
-        max-height: 300px;
+        height:166px;
+        max-height: 166px;
+      }
+      @include mobileSmall {
+        height:140px;
+        max-height: 140px;
       }
 
       &:nth-child(1n) {
@@ -2905,6 +2942,9 @@ div#lottie-animation {
           @include mobileLarge {
             padding: 30px 20px 0px 20px;
           }
+          @include mobileSmall {
+            padding: 20px 20px 0px 20px;
+          }
         }
 
         .title {
@@ -2929,6 +2969,9 @@ div#lottie-animation {
             @include mobileSmall {
               font-size: 30px;
             }
+          }
+          @include mobileSmall {
+            padding: 0px 20px 20px 20px;
           }
         }
       }
@@ -3007,26 +3050,27 @@ div#lottie-animation {
     }
     .product-industries-slider {
       position: relative;
-      .swiper-button-prev {
-        top: 50%;
-        transform: translateY(-50%);
-        margin-top: 0;
-        position: absolute;
-        background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23f26e65'%2F%3E%3C%2Fsvg%3E")no-repeat center;
-        width: 30px;
-        height: 30px;
-        left: 0;
-      }
-      .swiper-button-next {
-        top: 50%;
-        transform: translateY(-50%);
-        margin-top: 0;
-        position: absolute;
-        background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23f26e65'%2F%3E%3C%2Fsvg%3E")no-repeat center;
-        height: 30px;
-        width: 30px;
-        right: 0;
-      }
+        .swiper-pagination {
+          display: none;
+        }
+        &.swiper-container-initialized {
+          .swiper-pagination {
+            position: absolute;
+            bottom: 0;
+            z-index: 9999;
+            display: block;
+            span.swiper-pagination-bullet {
+                background: #fff;
+                opacity: 0.5;
+                transition: 0.3s ease;
+    
+                &.swiper-pagination-bullet-active {
+                    background: #f26e65;
+                    opacity: 1;
+                }
+            }
+          }
+        }
     }
     @include mobileLarge {
       margin-top: 30px;
@@ -3268,6 +3312,32 @@ div#lottie-animation {
         }
       }
     }
+  }
+  .swiper {
+    overflow: hidden;
+    position: relative;
+    &.swiper-container-initialized{
+      .swiper-pagination {
+        position: absolute;
+        bottom: 0;
+        z-index: 9999;
+        display: block;
+        span.swiper-pagination-bullet {
+            background: #fff;
+            opacity: 0.5;
+            transition: 0.3s ease;
+  
+            &.swiper-pagination-bullet-active {
+                background: #f26e65;
+                opacity: 1;
+            }
+        }
+      }
+    }
+    .swiper-pagination {
+      display: none;
+    }
+    
   }
 }
 
@@ -7848,10 +7918,6 @@ h6+p+p {
 
     @include desktopSmall {
       padding-bottom: 95px;
-    }
-
-    @include mdScreen {
-      padding-bottom: 75px;
     }
   }
 

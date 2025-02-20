@@ -1,81 +1,41 @@
-<!-- app-ideas-sec sec start  -->
+{% if (appIdeasSubTitle and appIdeasSubTitle | trim != "") 
+    or (appIdeasTitle and appIdeasTitle | trim != "") 
+    or (appIdeasList and appIdeasList | length > 0) %}
+
 <section class="app-ideas-sec overflow-hidden">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <div class="heading-main-sec">
-                    <h3>Squad</h3>
-                    <h4 class="text-left">How We Supercharge Your App Ideas</h4>
+                    {% if appIdeasSubTitle and appIdeasSubTitle | trim != "" %}
+                        <h3>{{ appIdeasSubTitle }}</h3>
+                    {% endif %}
+                    {% if appIdeasTitle and appIdeasTitle | trim != "" %}
+                        <h4 class="text-left">{{ appIdeasTitle }}</h4>
+                    {% endif %}
                 </div>
             </div>
             <div class="col-md-7 content-col">
                 <div class="row gap">
-                    <div class="content-main">
-                        <div class="app-ideas-content">
-                            <div class="content-img">
-                                <img src="../../../assets/img/right-arrow.svg" alt="">
-                            </div>
-                            <div class="content-heading">
-                                <h3>Making Awesome Native Apps</h3>
-                                <p>We focus on making secure, cool native apps and help plan how to turn your idea into a successful one.<p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-main">
-                        <div class="app-ideas-content">
-                            <div class="content-img">
-                                <img src="../../../assets/img/right-arrow.svg" alt="">
-                            </div>
-                            <div class="content-heading">
-                                <h3>Apps for Any Platform</h3>
-                                <p>We're experts in making apps that work well on different devices. Let's figure out a plan for your unique app together.<p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-main">
-                        <div class="app-ideas-content">
-                            <div class="content-img">
-                                <img src="../../../assets/img/right-arrow.svg" alt="">
-                            </div>
-                            <div class="content-heading">
-                                <h3>Big Solutions for Big Businesses</h3>
-                                <p>We sort out big chunks of data and create apps that fit your business perfectly. Our experience helps us build apps that work great for businesses.<p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-main">
-                        <div class="app-ideas-content">
-                            <div class="content-img">
-                                <img src="../../../assets/img/right-arrow.svg" alt="">
-                            </div>
-                            <div class="content-heading">
-                                <h3>Upgrading Old Apps</h3>
-                                <p>Got old apps that need a makeover? We make them new and better so they work smoother and look nicer for your users.<p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-main">
-                        <div class="app-ideas-content">
-                            <div class="content-img">
-                                <img src="../../../assets/img/right-arrow.svg" alt="">
-                            </div>
-                            <div class="content-heading">
-                                <h3>Help with App Porting</h3>
-                                <p> Need your app on different devices? We'll guide you on how to do that without losing any cool stuff from your app.<p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-main">
-                        <div class="app-ideas-content">
-                            <div class="content-img">
-                                <img src="../../../assets/img/right-arrow.svg" alt="">
-                            </div>
-                            <div class="content-heading">
-                                <h3>Awesome Design for Happy Users</h3>
-                                <p> We focus on making your app look and feel great for users. We study your customers to make sure they love using your app.<p>
-                            </div>
-                        </div>
-                    </div>
+                    {% if appIdeasList and appIdeasList | length > 0 %}
+                        {% for idea in appIdeasList %}
+                            {% if idea.title and idea.title | trim != "" %}
+                                <div class="content-main">
+                                    <div class="app-ideas-content">
+                                        <div class="content-img">
+                                            <img src="{{ idea.icon | default('/assets/img/right-arrow.svg') }}" alt="">
+                                        </div>
+                                        <div class="content-heading">
+                                            <h3>{{ idea.title }}</h3>
+                                            {% if idea.description and idea.description | trim != "" %}
+                                                <p>{{ idea.description }}</p>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -92,8 +52,8 @@
             <feGaussianBlur stdDeviation="142" result="effect1_foregroundBlur_1064_324"/>
             </filter>
             </defs>
-            </svg>
-            
+        </svg>
     </div>
 </section>
-<!-- app-ideas-sec sec end  -->
+
+{% endif %}

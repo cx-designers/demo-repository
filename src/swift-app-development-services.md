@@ -1,10 +1,10 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
 title: Website Design & Development Company - Cypherox Technologies
-bodyClass: "objective-c-app-development-services"
-permalink: objective-c-app-development-services.html
+bodyClass: "swift-app-development-services"
+permalink: swift-app-development-services.html
 bannersubTitle: "Service"
-bannerTitle: "Objective-C App Development Services"
+bannerTitle: "Swift App Development Services"
 bannerdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum, metus at aliquet imperdiet, metus arcu pellentesque nulla..."
 bannerbuttontext: Hire Now
 buttonLink: "javascript:;"

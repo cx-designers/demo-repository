@@ -5,7 +5,7 @@ bodyClass: "saas-app-development-services"
 permalink: saas-app-development-services.html
 bannersubTitle: "Service"
 bannerTitle: "Leading Experts in Creating SaaS Software"
-bannerdesc: "At our SaaS development company, we're all about making ideas come to life. We've built over 250+ awesome SaaS apps! Whether you're a small startup or a big company, we're here to create, launch, and grow top-notch software for you. Our team knows the latest tech tricks and the best ways to make your app stand out. We're dedicated to making sure your SaaS solution not only works great but also shines in a crowded market. Your success is our priority!"
+bannerdesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 bannerbuttontext: Hire Now
 buttonLink: "javascript:;"
 bannerHTML: '<svg width="1300" height="706" viewBox="0 0 1636 706" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,19 +77,15 @@ processBoxList :
   stepDescription: "Once your app is out there, we don't stop! We keep making it better, adding new things, and helping out if there are any problems. We want your app to stay awesome!"
 
 devSubTitle : Lorem ipsum
-devTitle: What Makes Us  
-devTitlePart : Good at SaaS
+devTitle: Lorem ipsum dolor sit 
+devTitlePart : Awesome Android Apps
 devInformationList :
-- infoItem: With more than 250+ SaaS projects under our belt, we've developed solutions for all sorts of needs and industries. Our team knows the latest tools and tech really well, so we can create solutions for different areas like healthcare, finance, communication, and more. Whatever your industry, we're here to build a customized solution just for you!
+- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
-
-
-
-
-
-
-    
+   
 secTitle: "Services"
 secSubTitle: "Lorem ipsum dolor sit"  
 servicesList:

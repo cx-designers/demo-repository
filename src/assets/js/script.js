@@ -190,7 +190,7 @@ $(document).ready(function () {
       767: {
         coverflowEffect: {
           rotate: -5,
-          stretch: 150,
+          stretch: 50,
           depth: 100
         }
       }
@@ -211,6 +211,10 @@ $(document).ready(function () {
               delay: 2500,
               disableOnInteraction: false 
             },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true
+          },
             loop: true,
             breakpoints: {
               1024: {
@@ -256,6 +260,10 @@ $(document).ready(function () {
               delay: 2500,
               disableOnInteraction: false 
             },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true
+          },
             breakpoints: {
               1024: {
                 slidesPerView: 3,
@@ -285,53 +293,6 @@ $(document).ready(function () {
   $(window).resize(function () {
     initTeamSwiper();
   });
-
-
-let swiperIndustries;
-
-function initIndustriesSwiper() {
-  if ($('.industries-slider-small').length) {  // Check if .team-intro-slider exists
-    if ($(window).width() <= 1260) {
-      if (!swiperIndustries) {
-        swiperIndustries = new Swiper(".product-industries-slider", {
-          slidesPerView: 3,
-          spaceBetween: 0,
-          slidesPerGroup: 1,
-          loop: true,
-          autoplay: {
-            delay: 2500,
-            disableOnInteraction: false 
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          breakpoints: {
-            768: {
-              slidesPerView: 2,
-            },
-            520: {
-              slidesPerView: 1,
-            }
-          }
-        });
-      }
-    } else {
-      if (swiperIndustries) {
-        swiperIndustries.destroy(true, true);
-        swiperIndustries = null;
-      }
-    }
-  }
-}
-
-// Initialize on load
-initIndustriesSwiper();
-
-// Re-check on resize
-$(window).resize(function () {
-  initIndustriesSwiper();
-});
 
 
 let testimonailSliderMobile;
@@ -723,27 +684,98 @@ bannerTimeline
 
 /* Industries Section Start */
 
-const sliderItems = document.querySelectorAll('.slider-item');
+let swiperIndustries;
 
-const visibleWidth = 300 / sliderItems.length * 1;
+function initIndustriesSection() {
+  if ($(window).width() > 1260) {
+    // Destroy Swiper if it exists
+    if (swiperIndustries) {
+      swiperIndustries.destroy(true, true);
+      swiperIndustries = null;
+    }
 
-gsap.set(".slider", {
-  xPercent: 100 - visibleWidth,
+    // Remove Swiper-related classes
+    $(".product-industries-slider").removeClass("swiper-wrapper");
+    $(".industries-slider-small").removeClass("swiper-slide");
+
+    // Remove any existing GSAP pin spacers
+    if ($(".industries-section").parent().hasClass("pin-spacer")) {
+      $(".industries-section").unwrap();
+    }
+
+    // GSAP Animation
+    const sliderItems = document.querySelectorAll('.slider-item');
+    const visibleWidth = 300 / sliderItems.length * 1;
+
+    gsap.set(".slider", {
+      xPercent: 100 - visibleWidth,
+    });
+
+    gsap.to(".slider", {
+      xPercent: -(100 - visibleWidth),
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".industries-section",
+        pin: true,
+        start: "top top",
+        scrub: 2,
+        end: "+=" + (sliderItems.length * 50) + "vw",
+      },
+    });
+
+  } else {
+    // Kill GSAP ScrollTrigger and remove pin spacer
+    ScrollTrigger.getAll().forEach(trigger => {
+      if (trigger.trigger === document.querySelector(".industries-section")) {
+        trigger.kill();
+      }
+    });
+
+    if ($(".industries-section").parent().hasClass("pin-spacer")) {
+      $(".industries-section").unwrap();
+    }
+
+    // Initialize Swiper
+    if (!$(".product-industries-slider").hasClass("swiper-wrapper")) {
+      $(".product-industries-slider").addClass("swiper-wrapper");
+      $(".industries-slider-small").addClass("swiper-slide");
+    }
+
+    if (!swiperIndustries) {
+      swiperIndustries = new Swiper(".product-industries-slider", {
+        slidesPerView: 3,
+        spaceBetween: 0,
+        slidesPerGroup: 1,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false 
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          520: {
+            slidesPerView: 1,
+          }
+        }
+      });
+    }
+  }
+}
+
+// Initialize on load
+initIndustriesSection();
+
+// Re-check on resize
+$(window).resize(function () {
+  initIndustriesSection();
 });
 
-gsap.to(".slider", {
-  xPercent: -(100 - visibleWidth),
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".industries-section",
-    pin: true,
-    start: "top top",
-    scrub: 2,
-    end: "+=" + (sliderItems.length * 50) + "vw",
-    onUpdate: (self) => {
-    },
-  },
-});
 
 /* Industries Section Start */
 
