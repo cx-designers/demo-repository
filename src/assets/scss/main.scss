@@ -9690,6 +9690,7 @@ body.overflow-hidden-x {
             padding: 0 40px 0 0;
             list-style: none;
             max-height: 580px;
+            min-height:510px;
             overflow: auto;
             // max-width: max-content;
             max-width: calc(50% - 160px);
