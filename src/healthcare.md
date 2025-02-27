@@ -141,7 +141,7 @@ blogsPostList :
       blogCategoryDesc: "Awesome WordPress Web Development Tools You Can't-Miss in 2022"
       blogCategoryImg: "/assets/img/our-blogs-08.webp"
     - blogCategory: "Seo"
-      blogCategoryDesc: "Awesome WordPress Web Development Tools You Can't-Miss in 2022"
+      blogCategoryDesc: "Awesome WordPress Web Development Tools You Can't-Miss in 2022"  
       blogCategoryImg: "/assets/img/our-blogs-09.webp"
     - blogCategory: "Seo"
       blogCategoryDesc: "Awesome WordPress Web Development Tools You Can't-Miss in 2022"
