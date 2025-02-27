@@ -3824,6 +3824,15 @@ svg:not(:root) {
       position: relative;
       z-index: 11;
 
+      @include desktopLarge {
+        font-size: 26px;
+      }
+
+      @include desktopSmall {
+        font-size: 22px;
+        height: 60px;
+      }
+
       @include mdScreen {
         margin-left: 20px;
         font-size: 19px;
@@ -3832,7 +3841,7 @@ svg:not(:root) {
       @include ipadLarge {
         padding: 0px 10px;
         font-size: 14px;
-        height: 50px;
+        height: 40px;
       }
 
       @include mobileSmall {
@@ -4773,7 +4782,7 @@ svg:not(:root) {
   @include mobileLarge {
     padding: 60px 0;
   }
-
+  
   .row {
     border: 1px solid $borderGray;
     border-radius: 40px;
@@ -4861,6 +4870,22 @@ svg:not(:root) {
 
       @include mobileLarge {
         margin: 20px 0 30px 0;
+      }
+    }
+    &.flex-row-reverse {
+      .content-col {
+        padding: 120px 0px 120px 120px;
+        @include desktopSmall {
+          padding: 60px 0px 60px 60px;
+        }
+
+        @include ipadLarge {
+          padding: 40px 40px 0 40px;
+        }
+
+        @include mobileLarge {
+          padding: 20px 20px 0 20px;
+        }
       }
     }
   }
@@ -6682,9 +6707,21 @@ svg:not(:root) {
   position: relative;
   z-index: 9;
 
+  @include ipadLarge {
+    padding: 100px 0 0 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0 0 0;
+  }
+
   .heading-main-sec {
     text-align: left;
     margin-bottom: 50px;
+
+    @include mobileLarge {
+      margin-bottom: 40px;
+    }
 
     h4 {
       font-size: 60px;
@@ -6696,6 +6733,16 @@ svg:not(:root) {
         display: block;
         font-size: 100px;
         padding-left: 170px;
+
+        @include mdScreen {
+          font-size: 80px !important;
+        }
+
+        @include mobileLarge {
+          padding-left: 0;
+          font-size: 50px !important;
+          font-weight: 600;
+        }
       }
     }
   }
@@ -6720,6 +6767,10 @@ svg:not(:root) {
             background-color: $tabBgLight;
             margin-bottom: 1px;
             transition: all 0.3s ease-in-out;
+
+            @include desktopSmall {
+              min-height: 110px;
+            }
 
             &:last-child {
               margin-bottom: 0px;
@@ -6770,7 +6821,7 @@ svg:not(:root) {
             display: flex;
             flex-direction: column;
             height: 100%;
-            justify-content: space-around;
+            justify-content: space-between;
           }
 
           .tab-content-wrapper {
@@ -6779,11 +6830,34 @@ svg:not(:root) {
             padding: 115px 145px 115px 145px;
             row-gap: 80px;
 
+            @include desktopmid {
+              padding: 100px 80px 0 80px;
+              row-gap: 60px;
+            }
+
+            @include desktopSmall {
+              padding: 100px 50px 0 50px;
+            }
+
             .tab-content-inner {
               width: 33.3%;
               display: flex;
               flex-direction: column;
               align-items: center;
+
+              .icon {
+                @include desktopSmall {
+                  width: 100px;
+                  height: 100px;
+                }
+
+                img {
+                  @include desktopSmall {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+              }
 
               .icon-title {
                 margin-top: 20px;
@@ -6793,6 +6867,15 @@ svg:not(:root) {
                   color: $tabTextColor;
                   font-weight: 400;
                   margin: 0;
+
+                  @include desktopSmall {
+                    font-size: 22px;
+
+                    span {
+                      opacity: 1 !important;
+                      transform: none !important;
+                    }
+                  }
                 }
               }
             }
@@ -6813,11 +6896,17 @@ svg:not(:root) {
 
 /* specialize Section End */
 
-
-
 /* our projects css start */
 .projects-main-sec {
   padding: 150px 0px;
+
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
 
   .projects-list {
     display: flex;
@@ -6826,6 +6915,14 @@ svg:not(:root) {
     margin-top: 80px;
     align-items: self-start;
 
+    @include ipadLarge {
+      gap: 40px;
+    }
+
+    @include mobileLarge {
+      margin-top: 40px;
+    }
+
     .projects-item {
       flex: 1 1 calc(50% - 30px);
       display: flex;
@@ -6833,8 +6930,17 @@ svg:not(:root) {
       align-items: center;
       position: relative;
 
+      @include mobileLarge {
+        opacity: 1 !important;
+        transform: translate(0px, 0px) !important;
+      }
+
       &:nth-child(2n) {
         margin-top: -216px;
+
+        @include mobileLarge {
+          margin-top: 0;
+        }
       }
 
       img {
@@ -6846,7 +6952,7 @@ svg:not(:root) {
       }
     }
 
-    @media (max-width: 767px) {
+    @include mobileLarge {
       .projects-item {
         flex: 1 1 100%;
       }
@@ -9638,6 +9744,7 @@ body.overflow-hidden-x {
 
           @include desktopSmall {
             font-size: 14px;
+            padding: 0 10px 50px 10px;
           }
 
           &:hover {

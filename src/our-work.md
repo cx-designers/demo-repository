@@ -26,4 +26,114 @@ ourProjectList:
   alt: "our Project 04"
   projectLink: "#"
 
+pertnershipSubtitle: "Lorem ipsum"
+pertnershipTitle : "Our Partnership"
+pertnershipTitletwo : "Approaches"
+pertnershipTitledescription : "We have different ways for us to work together. It's like picking a game to play! Whether you want to work together for a short time or for a long one, we have options for you. Our team is here to help if you're not sure which way to go. Let's make working together fun!"
+
+plans:
+  - title: "Part Time Developer"
+    details:
+      - "XYZ DAYS OR WEEKS"
+      - "Billing Cycle: xyz"
+      - "Minimum: xyz month"
+      - "XYZ HOURS/MONTH"
+    cta: "Choose Now"
+
+  - title: "Full-Time Developer"
+    details:
+      - "XYZ DAYS OR WEEKS"
+      - "Billing Cycle: xyz"
+      - "Minimum: xyz month"
+      - "XYZ HOURS/MONTH"
+    cta: "Choose Now"
+    tag: "MOST POPULAR"
+
+  - title: "Hourly Developer"
+    details:
+      - "Billing Cycle:"
+      - "Minimum: xyz hour"
+      - "Pay based on hours"
+      - "CUSTOM HOURS"
+    cta: "Choose Now"
+
+phases:
+  - title: "Platform"
+    blocks:
+      - heading: "Development"
+        items:
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "Java"
+            title: "Java"
+          - icon: "../../../assets/img/icon-Kotlin.svg"
+            alt: "Kotlin"
+            title: "Kotlin"
+          - icon: "../../../assets/img/icon-Android-Studio.svg"
+            alt: "Android Studio"
+            title: "Android Studio" 
+          - icon: "../../../assets/img/icon-gradle.svg"
+            alt: "Gradle"
+            title: "Gradle"
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "Flutter (for cross-platform development)"
+            title: "Flutter (for cross-platform development)"
+
+      - heading: "User Interface"
+        items:
+          - icon: "../../../assets/img/icon-xml.svg"
+            alt: "XML"
+            title: "XML"
+          - icon: "../../../assets/img/icon-material-design.svg"
+            alt: "Material Design"
+            title: "Material Design"     
+  - title: "Back-End Development"
+    blocks:
+      - heading: "Libraries"
+        items:
+          - icon: "../../../assets/img/icon-retrofit.svg"
+            alt: "Retrofit"
+            title: "Retrofit" 
+          - icon: "../../../assets/img/icon-okhttp.svg"
+            alt: "OkHttp"
+            title: "OkHttp"
+          - icon: "../../../assets/img/icon-gson.svg"
+            alt: "Gson"
+            title: "Gson"
+          - icon: "../../../assets/img/icon-glide.svg"
+            alt: "Glide"
+            title: "Glide"
+          - icon: "../../../assets/img/icon-dagger.svg"
+            alt: "Dagger"
+            title: "Dagger"
+      - heading: "Backend"
+        items:
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "Firebase"
+            title: "Firebase"
+          - icon: "../../../assets/img/icon-Aws.svg"
+            alt: "AWS (Amazon Web Services)"
+            title: "AWS (Amazon Web Services)"
+
+      - heading: "Data Management"
+        items:
+          - icon: "../../../assets/img/icon-room.svg"
+            alt: "Room"
+            title: "Room"
+          - icon: "../../../assets/img/icon-realm.svg"
+            alt: "Realm"
+            title: "Realm"
+      
+  - title: "App Design"
+    blocks:
+      - heading: "Other"
+        items:
+          - icon: "../../../assets/img/icon-git.svg"
+            alt: "Git"
+            title: "Git"
+          - icon: "../../../assets/img/icon-firebase-crashlytics.svg"
+            alt: "Firebase Crashlytics"
+            title: "Firebase Crashlytics"
+          - icon: "../../../assets/img/icon-google-analytics.svg"
+            alt: "Google Analytics"
+            title: "Google Analytics"
 ---

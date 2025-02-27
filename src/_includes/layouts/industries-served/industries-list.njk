@@ -1,7 +1,7 @@
 <section class="industries-list-main-section">
   <div class="container">
     <div class="row industries-list-wrapper m-0">
-      {% for item in industries %}
+      {% for item in industriesList %}
       <div class="col-md-6 col-lg-4 col-full industries-list-box">
         <a href="{{ item.listURL }}" aria-label="{{ item.URLAriaLabel }}">
           <div class="industries-list-inner">
@@ -16,7 +16,5 @@
       </div>
       {% endfor %}
     </div>
-
-
   </div>
 </section>
