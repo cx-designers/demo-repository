@@ -221,4 +221,15 @@ blogsPostList :
     - blogCategory: "app Development"
       blogCategoryDesc: "Everything you need to know about the top 10 DevOps tools in 2022"
       blogCategoryImg: "/assets/img/our-blogs-01.webp"
+
+devSubTitle : Lorem ipsum
+devTitle: Start Your App
+devTitlePart : Success Story with Us!.
+devInformationList :
+- infoItem: At Cypherox, we're not just about making apps – we're about making your app a hit! We focus on careful planning and smart guidance to turn your app dreams into reality.
+- infoItem: What makes us different? We don't just build apps; we build a clear path for your app's success. From checking if your idea works to figuring out how it can make money, our experienced team ensures every step is geared towards your app's triumph.
+- infoItem: Whether you're a new startup or a big company, we're here to be your partners. We know web, Android, and iOS inside out, and we're all about getting real results for you.
+- infoItem: Join forces with us to solve problems early, predict issues, and create a winning plan for your app. Let's team up and make your app a success story!"
+devBgImg: "/assets/img/top-development.webp"
+devBgAlt : "bg-img"
 ---

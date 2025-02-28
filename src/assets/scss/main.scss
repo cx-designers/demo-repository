@@ -45,6 +45,7 @@ $mobileContentColor: rgba(255, 255, 255, 0.702);
 $mobileBg: rgb(63, 131, 255);
 $summaryBorder: rgba(255, 255, 255, .2);
 $screen-desktop-large : 1700px;
+$screen-desktop-large-max : 1700px;
 $screen-desktop-mid : 1660px;
 $screen-desktop-small : 1440px;
 $screen-md-large: 1260px;
@@ -57,6 +58,12 @@ $screen-mobile-small : 480px;
 
 @mixin desktopLarge {
   @media only screen and (min-width: #{$screen-desktop-large}) {
+    @content;
+  }
+}
+
+@mixin desktopLargemax {
+  @media only screen and (max-width: #{$screen-desktop-large-max}) {
     @content;
   }
 }
@@ -546,11 +553,11 @@ h1 {
     line-height: 1.2;
 
     @include mdScreen {
-      font-size: 50px;
+      font-size: 50px !important;
     }
 
     @include mobileLarge {
-      font-size: 40px;
+      font-size: 40px !important;
       line-height: 1.1;
     }
   }
@@ -3824,7 +3831,7 @@ svg:not(:root) {
       position: relative;
       z-index: 11;
 
-      @include desktopLarge {
+      @include desktopLargemax {
         font-size: 26px;
       }
 
@@ -4782,7 +4789,7 @@ svg:not(:root) {
   @include mobileLarge {
     padding: 60px 0;
   }
-  
+
   .row {
     border: 1px solid $borderGray;
     border-radius: 40px;
@@ -4870,22 +4877,6 @@ svg:not(:root) {
 
       @include mobileLarge {
         margin: 20px 0 30px 0;
-      }
-    }
-    &.flex-row-reverse {
-      .content-col {
-        padding: 120px 0px 120px 120px;
-        @include desktopSmall {
-          padding: 60px 0px 60px 60px;
-        }
-
-        @include ipadLarge {
-          padding: 40px 40px 0 40px;
-        }
-
-        @include mobileLarge {
-          padding: 20px 20px 0 20px;
-        }
       }
     }
   }
@@ -6251,7 +6242,20 @@ svg:not(:root) {
   padding-bottom: 150px;
   background-color: $primaryColor;
   // z-index: 9;
-
+  &.cta-button-bar{
+    padding: 50px 0px;
+    .lets-talk-block{
+      padding: 30px;
+       h3 {
+        margin-bottom: 10px;
+      }
+      p {
+        margin: 0;
+        color: $white;
+        font-size: 24px;
+      }
+    }
+  }
   @include ipadLarge {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -9732,6 +9736,10 @@ body.overflow-hidden-x {
           margin: 0px 10px;
         }
 
+        @include desktopSmall {
+          margin: 0 5px;
+        }
+
         >a {
           font-size: 16px;
           color: $white;
@@ -9936,6 +9944,10 @@ body.overflow-hidden-x {
 
           @include desktopmid {
             margin-right: 20px;
+          }
+
+          @include desktopmid {
+            margin-right: 10px;
           }
         }
       }
