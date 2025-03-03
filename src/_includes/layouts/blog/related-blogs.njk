@@ -1,15 +1,17 @@
+{% set relatedBlog = relatedblog %}
+
 <section class="blog-post-sec related-blog">
   <div class="container">
     <div class="row">
       <div class="col-full">
         <div class="heading-main-sec">
-          <h3><span>{{ relatedBlogSubtitle }}</span></h3>
-          <h4>{{ relatedBlogTitle }}</h4>
+          <h3><span>{{ relatedBlog.relatedBlogSubtitle }}</span></h3>
+          <h4>{{ relatedBlog.relatedBlogTitle }}</h4>
         </div>
       </div>
     </div>
     <div class="cust-blog-row">
-      {% for post in blogsPostList %}
+      {% for post in relatedBlog.blogsPostList %}
       <div class="col-12 col-md-6 col-lg-4 col-xl-4 grid-item element-item">
         <div class="Our-Blogs-gallery-outer-block-box">
           <div class="card h-100">
@@ -18,7 +20,7 @@
             </div>
             <div class="card-body">
               <h5 class="card-title">{{ post.blogCategory }}</h5>
-              <p class="card-text">{{ post.blogCategoryDesc}}</p>
+              <p class="card-text">{{ post.blogCategoryDesc }}</p>
             </div>
           </div>
           <div class="card-readmore">
@@ -38,7 +40,7 @@
           </div>
         </div>
       </div>
-    {% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>

@@ -48,6 +48,7 @@ $screen-desktop-large : 1700px;
 $screen-desktop-large-max : 1700px;
 $screen-desktop-mid : 1660px;
 $screen-desktop-small : 1440px;
+$screen-desktop-small2 : 1360px;
 $screen-md-large: 1260px;
 $screen-md: 1200px;
 $screen-md-small: 1024px;
@@ -76,6 +77,12 @@ $screen-mobile-small : 480px;
 
 @mixin desktopSmall {
   @media only screen and (max-width: #{$screen-desktop-small}) {
+    @content;
+  }
+}
+
+@mixin desktopSmall2 {
+  @media only screen and (max-width: #{$screen-desktop-small2}) {
     @content;
   }
 }
@@ -576,6 +583,10 @@ p {
 .gloabl-banner-inner-page {
   .loaderWrapper {
     top: 0;
+
+    @include mobileLarge {
+      height: 100%;
+    }
   }
 }
 
@@ -988,9 +999,11 @@ body.open-menu {
   @include mobileLarge {
     padding-top: 55px;
   }
+
   @include mobileSmall {
     padding-bottom: 0px;
   }
+
   img.cust-bg {
     width: 100%;
     position: absolute;
@@ -1720,6 +1733,10 @@ body.open-menu {
   width: 54px;
   left: 60px;
 
+  @include desktopSmall2 {
+    display: none;
+  }
+
   .line-one {
     position: absolute;
     top: -100%;
@@ -1764,6 +1781,10 @@ body.open-menu {
   overflow: hidden;
   right: 60px;
   width: 54px;
+
+  @include desktopSmall2 {
+    display: none;
+  }
 
   @include ipadLarge {
     display: none;
@@ -1823,10 +1844,11 @@ body.open-menu {
   overflow: hidden;
   z-index: 9;
   background-color: $primaryColor;
+
   @include desktopSmall {
     padding: 95px;
   }
-  
+
   @include mdScreen {
     padding: 75px;
   }
@@ -1852,7 +1874,7 @@ body.open-menu {
     }
   }
 
- 
+
 
   .swiper {
     width: 100%;
@@ -2085,7 +2107,7 @@ body.open-menu {
   border-radius: 50px;
 
   @include mobileLarge {
-    left:0px;
+    left: 0px;
   }
 
   .glow {
@@ -2134,7 +2156,7 @@ body.open-menu {
   border-radius: 50px;
 
   @include mobileLarge {
-    right:0px;
+    right: 0px;
   }
 
   .glow {
@@ -2419,121 +2441,131 @@ div#lottie-animation {
           }
         }
       }
+
       @include mobileLarge {
-        display:none;
+        display: none;
       }
     }
-    .testimonial-con-mobile-sec{
-      display:none;
+
+    .testimonial-con-mobile-sec {
+      display: none;
       overflow: hidden;
       position: relative;
       padding: 30px 0;
-    @include mobileLarge {
-      display: block;
-    }
-   
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 50px;
-      width: 100%;
-      background: $primaryColor;
-      background: linear-gradient(180deg, $primaryColor 0%, rgba(0, 0, 0, 0) 100%);
-      z-index: 999;
-    }
 
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 50px;
-      width: 100%;
-      background: $primaryColor;
-      background: linear-gradient(0deg, $primaryColor 0%, rgba(0, 0, 0, 0) 100%);
-      z-index: 999;
-    }
-    .testimonial-item-block-inner {
-      margin: 0px 20px;
-      padding: 35px 30px;
-      background: $primaryColor;
-      border: 1px solid $borderGray;
-      border-radius: 15px;
-      .testimonial-item-icon-sec {
-        svg {
-          margin-bottom: 20px;
+      @include mobileLarge {
+        display: block;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50px;
+        width: 100%;
+        background: $primaryColor;
+        background: linear-gradient(180deg, $primaryColor 0%, rgba(0, 0, 0, 0) 100%);
+        z-index: 999;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 50px;
+        width: 100%;
+        background: $primaryColor;
+        background: linear-gradient(0deg, $primaryColor 0%, rgba(0, 0, 0, 0) 100%);
+        z-index: 999;
+      }
+
+      .testimonial-item-block-inner {
+        margin: 0px 20px;
+        padding: 35px 30px;
+        background: $primaryColor;
+        border: 1px solid $borderGray;
+        border-radius: 15px;
+
+        .testimonial-item-icon-sec {
+          svg {
+            margin-bottom: 20px;
+          }
+
+          p {
+            color: $white;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 26px;
+            margin: 0px;
+          }
         }
-        p {
-          color:$white;
-          font-size: 16px;
-          font-weight: normal;
-          line-height: 26px;
-          margin: 0px;
-        } 
+
+        .testimonial-author-sec {
+          margin: 20px 0 0 0;
+          padding: 0px;
+        }
       }
-      .testimonial-author-sec {
-        margin: 20px 0 0 0;
-        padding: 0px;
-      }
-    }
-    .testimonial-author-sec-inner {
-      display: flex;
-      margin: 0;
-      padding: 0;
-      align-items: center;
-  
-      .testimonial-author-img {
+
+      .testimonial-author-sec-inner {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+
+        .testimonial-author-img {
           width: 60px;
           height: 60px;
           border-radius: 50px;
           overflow: hidden;
-  
+
           img {
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
           }
-      }
-  
-      .testimonial-author-name {
+        }
+
+        .testimonial-author-name {
           width: calc(100% - 60px);
           max-width: calc(100% - 60px);
           padding-left: 10px;
-  
+
           h3 {
-              color: #fff;
-              margin: 0;
-              font-size: 24px;
-              line-height: 1;
+            color: #fff;
+            margin: 0;
+            font-size: 24px;
+            line-height: 1;
           }
-  
+
           p {
-              color: hsla(0, 0%, 100%, 0.7);
-              font-size: 16px;
-              font-weight: normal;
-              line-height: 26px;
-              margin: 0;
+            color: hsla(0, 0%, 100%, 0.7);
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 26px;
+            margin: 0;
           }
+        }
       }
-    }
-    .swiper-pagination {
-      position: absolute;
-      bottom: 0;
-      z-index: 9999;
-      display: block;
-      span.swiper-pagination-bullet {
+
+      .swiper-pagination {
+        position: absolute;
+        bottom: 0;
+        z-index: 9999;
+        display: block;
+
+        span.swiper-pagination-bullet {
           background: #fff;
           opacity: 0.5;
           transition: 0.3s ease;
 
           &.swiper-pagination-bullet-active {
-              background: #f26e65;
-              opacity: 1;
+            background: #f26e65;
+            opacity: 1;
           }
+        }
       }
-    }
     }
   }
 }
@@ -2595,9 +2627,11 @@ div#lottie-animation {
   @include mdScreenLarge {
     padding-bottom: 75px;
   }
+
   @include mobileLarge {
     padding-bottom: 55px;
   }
+
   @include mobileSmall {
     padding-bottom: 45px;
   }
@@ -2617,24 +2651,27 @@ div#lottie-animation {
   .swiper.team-intro-slider {
     overflow: hidden;
     position: relative;
+
     .swiper-pagination {
       display: none;
     }
+
     &.swiper-container-initialized {
       .swiper-pagination {
         position: absolute;
         bottom: 0;
         z-index: 9999;
         display: block;
-        span.swiper-pagination-bullet {
-            background: #fff;
-            opacity: 0.5;
-            transition: 0.3s ease;
 
-            &.swiper-pagination-bullet-active {
-                background: #f26e65;
-                opacity: 1;
-            }
+        span.swiper-pagination-bullet {
+          background: #fff;
+          opacity: 0.5;
+          transition: 0.3s ease;
+
+          &.swiper-pagination-bullet-active {
+            background: #f26e65;
+            opacity: 1;
+          }
         }
       }
     }
@@ -2642,11 +2679,13 @@ div#lottie-animation {
 
   .team-intro {
     @include mdScreenLarge {
-      &.swiper-wrapper{ 
+      &.swiper-wrapper {
         flex-wrap: nowrap;
       }
+
       padding-bottom: 30px;
     }
+
     @include mdScreen {
       gap: 40px 0px;
     }
@@ -2654,9 +2693,11 @@ div#lottie-animation {
     .team-col {
       padding: 0 10px;
       width: 25%;
+
       @include mdScreenLarge {
         width: auto;
       }
+
       // @include mdScreen {
       //   width: 50%;
       // }
@@ -2745,8 +2786,9 @@ div#lottie-animation {
             color: $white;
             font-weight: 400;
             margin: 0 0 10px 0;
+
             @include mdScreenLarge {
-              opacity:1 !important;
+              opacity: 1 !important;
             }
           }
 
@@ -2856,6 +2898,7 @@ div#lottie-animation {
       margin-top: 40px;
       height: 500px;
     }
+
     @include mobileSmall {
       height: 370px;
       width: 100%;
@@ -2873,11 +2916,12 @@ div#lottie-animation {
       max-height: 500px;
 
       @include mobileLarge {
-        height:166px;
+        height: 166px;
         max-height: 166px;
       }
+
       @include mobileSmall {
-        height:140px;
+        height: 140px;
         max-height: 140px;
       }
 
@@ -2949,6 +2993,7 @@ div#lottie-animation {
           @include mobileLarge {
             padding: 30px 20px 0px 20px;
           }
+
           @include mobileSmall {
             padding: 20px 20px 0px 20px;
           }
@@ -2977,6 +3022,7 @@ div#lottie-animation {
               font-size: 30px;
             }
           }
+
           @include mobileSmall {
             padding: 0px 20px 20px 20px;
           }
@@ -3013,19 +3059,42 @@ div#lottie-animation {
     background-repeat: no-repeat;
     background-position: bottom;
   }
-  .industries-slider-small{
+
+  .industries-slider-small {
     display: none;
+
     @include mdScreenLarge {
       display: block;
       margin-top: 50px;
     }
+
     .cust-slider-item {
       padding: 0px 30px;
+
+      @include mdScreenLarge {
+        padding: 0 10px;
+      }
+
+      @include mobileLarge {
+        padding: 0 10px;
+      }
+
       .industries-item {
         position: relative;
         border: 1px solid $borderGray;
         border-radius: 20px;
         overflow: hidden;
+
+        .image-sec {
+          img {
+            @include mobileLarge {
+              width: 100%;
+              max-height: 360px;
+              object-fit: cover;
+            }
+          }
+        }
+
         &::after {
           position: absolute;
           content: "";
@@ -3035,7 +3104,7 @@ div#lottie-animation {
           top: 0;
           left: 0;
         }
-    
+
         .industries-title {
           position: absolute;
           bottom: 30px;
@@ -3043,7 +3112,7 @@ div#lottie-animation {
           right: 0;
           margin: 0 auto;
           z-index: 99;
-    
+
           p {
             font-size: 30px;
             line-height: 40px;
@@ -3051,51 +3120,66 @@ div#lottie-animation {
             font-weight: 400;
             text-align: center;
             margin: 0;
+
+            @include mobileLarge {
+              font-size: 22px !important;
+            }
           }
         }
       }
     }
+
     .product-industries-slider {
       position: relative;
+
+      .swiper-pagination {
+        display: none;
+      }
+
+      &.swiper-container-initialized {
         .swiper-pagination {
-          display: none;
-        }
-        &.swiper-container-initialized {
-          .swiper-pagination {
-            position: absolute;
-            bottom: 0;
-            z-index: 9999;
-            display: block;
-            span.swiper-pagination-bullet {
-                background: #fff;
-                opacity: 0.5;
-                transition: 0.3s ease;
-    
-                &.swiper-pagination-bullet-active {
-                    background: #f26e65;
-                    opacity: 1;
-                }
+          position: absolute;
+          bottom: 0;
+          z-index: 9999;
+          display: block;
+
+          @include mdScreenLarge {
+            bottom: -40px;
+          }
+
+          span.swiper-pagination-bullet {
+            background: #fff;
+            opacity: 0.5;
+            transition: 0.3s ease;
+
+            &.swiper-pagination-bullet-active {
+              background: #f26e65;
+              opacity: 1;
             }
           }
         }
+      }
     }
+
     @include mobileLarge {
       margin-top: 30px;
     }
   }
+
   @include mobileLarge {
-      height: auto !important;
-      padding-top: 30px !important;
+    height: auto !important;
+    padding-top: 60px !important;
+    padding-bottom: 80px !important;
   }
 }
 
 @include mobileLarge {
   section.blog-post-sec {
-    & + {
+    &+ {
       .pin-spacer {
         height: auto !important;
         padding: 0px 0 30px 0px !important;
-    }
+      }
     }
   }
 
@@ -3143,25 +3227,44 @@ div#lottie-animation {
       line-height: 1;
       text-align: left;
       max-width: 1170px;
+
       @include desktopSmall {
         font-size: 130px;
       }
+
       @include mdScreenLarge {
         font-size: 100px;
       }
+
       @include mdScreen {
         font-size: 80px;
       }
+
       @include mobileLarge {
         font-size: 60px;
       }
+
       @include mobileSmall {
         font-size: 50px;
       }
+
       span {
         &.word {
+
+          &:first-child {
+            @include desktopSmall {
+              display: block;
+              width: 100%;
+            }
+          }
+
           &:nth-child(2) {
             padding-left: 21%;
+
+            @include mdScreen {
+              padding-left: 10%;
+            }
+
           }
         }
       }
@@ -3225,6 +3328,7 @@ div#lottie-animation {
         }
       }
     }
+
     @include mdScreenLarge {
       display: none;
     }
@@ -3255,17 +3359,19 @@ div#lottie-animation {
 .awards-sec {
   position: relative;
   z-index: 9;
-  @include mdScreenLarge { 
+
+  @include mdScreenLarge {
     overflow: hidden;
   }
+
   .awards-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    @include mdScreenLarge { 
-        flex-wrap: nowrap;
-        justify-content: flex-start;
+
+    @include mdScreenLarge {
+      flex-wrap: nowrap;
+      justify-content: flex-start;
     }
 
     .award-col {
@@ -3274,6 +3380,7 @@ div#lottie-animation {
       width: 20%;
       background: rgb(57, 57, 57);
       background: linear-gradient(90deg, rgba(57, 57, 57, 1) 50%, rgba(71, 71, 71, 1) 50%);
+
       @include mdScreen {
         width: 33.33%;
       }
@@ -3320,31 +3427,35 @@ div#lottie-animation {
       }
     }
   }
+
   .swiper {
     overflow: hidden;
     position: relative;
-    &.swiper-container-initialized{
+
+    &.swiper-container-initialized {
       .swiper-pagination {
         position: absolute;
         bottom: 0;
         z-index: 9999;
         display: block;
+
         span.swiper-pagination-bullet {
-            background: #fff;
-            opacity: 0.5;
-            transition: 0.3s ease;
-  
-            &.swiper-pagination-bullet-active {
-                background: #f26e65;
-                opacity: 1;
-            }
+          background: #fff;
+          opacity: 0.5;
+          transition: 0.3s ease;
+
+          &.swiper-pagination-bullet-active {
+            background: #f26e65;
+            opacity: 1;
+          }
         }
       }
     }
+
     .swiper-pagination {
       display: none;
     }
-    
+
   }
 }
 
@@ -3436,20 +3547,25 @@ div#lottie-animation {
   position: relative;
   overflow: hidden;
   background-color: $white;
+
   @include mobileLarge {
     display: none;
   }
 }
-.cutting_icon-img{
+
+.cutting_icon-img {
   display: none;
+
   img {
     width: 100%;
   }
-  @include mobileLarge{
+
+  @include mobileLarge {
     display: block;
     padding: 60px 0px 240px;
   }
 }
+
 .hide {
   display: none !important;
 }
@@ -3497,6 +3613,7 @@ div#lottie-animation {
   top: 0;
   bottom: 0;
   margin: auto;
+
   @include ipadLarge {
     width: 100%;
   }
@@ -4086,9 +4203,11 @@ svg:not(:root) {
 .map-wrapper-address-mobile {
   display: block;
   margin-bottom: 30px;
+
   @include mobileLargeMin {
     display: none;
   }
+
   .accordion-button {
     background: rgba(242, 110, 101, 0.1);
     color: #f26e65;
@@ -5435,15 +5554,33 @@ svg:not(:root) {
     display: flex;
     align-items: center;
 
+    @include mobileLarge {
+      flex-wrap: wrap;
+    }
+
     .tab-button-col {
       width: 40%;
+
+      @include mobileLarge {
+        width: 100%;
+      }
 
       .buttons {
         display: flex;
         flex-direction: column;
 
+        @include mobileLarge {
+          flex-direction: row;
+          overflow: scroll;
+        }
+
         .tab-buttons {
           margin: 0 0 30px 0;
+
+          @include mobileLarge {
+            min-width: fit-content;
+            margin: 0 20px 15px 0;
+          }
 
           .button-inner {
             display: flex;
@@ -5460,6 +5597,14 @@ svg:not(:root) {
             @include mdScreen {
               font-size: 24px;
               line-height: 1;
+            }
+
+            @include ipadLarge {
+              font-size: 20px;
+            }
+
+            @include mobileLarge {
+              font-size: 18px;
             }
 
             .count {
@@ -5482,6 +5627,11 @@ svg:not(:root) {
       width: 60%;
       position: relative;
 
+      @include mobileLarge {
+        width: 100%;
+        margin: 40px 0 0 0;
+      }
+
       .tab-contents {
         position: absolute;
         top: 0;
@@ -5489,6 +5639,10 @@ svg:not(:root) {
 
         .image-sec {
           width: 32%;
+
+          @include mobileLarge {
+            width: 100%;
+          }
         }
 
         &:nth-child(odd) {
@@ -5519,9 +5673,19 @@ svg:not(:root) {
           display: flex;
           align-items: center;
 
+          @include mobileLarge {
+            flex-direction: column;
+          }
+
           .image-sec {
             img {
               width: 100%;
+
+              @include mobileLarge {
+                width: 50%;
+                display: block;
+                margin: 0 auto 40px auto;
+              }
             }
           }
 
@@ -5530,6 +5694,16 @@ svg:not(:root) {
             margin: 0 0 0 70px;
             opacity: 0;
             transition: opacity 0.3s ease-in-out;
+
+            @include ipadLarge {
+              width: calc(68% - 40px);
+              margin: 0 0 0 40px;
+            }
+
+            @include mobileLarge {
+              width: 100%;
+              margin: 0;
+            }
 
             ul {
               margin: 0;
@@ -5587,6 +5761,10 @@ svg:not(:root) {
     img {
       position: relative;
       height: 260px;
+
+      @include mobileLarge {
+        height: 220px;
+      }
     }
   }
 
@@ -5595,6 +5773,10 @@ svg:not(:root) {
 
     @include mdScreen {
       margin-top: 50px;
+    }
+
+    @include ipadLarge {
+      margin-top: 30px;
     }
   }
 }
@@ -5930,7 +6112,7 @@ svg:not(:root) {
 
     h4 {
       font-size: 80px;
-      line-height: 90px;
+      line-height: 1.2;
       font-weight: 400;
       color: $primaryColor;
     }
@@ -5979,6 +6161,12 @@ svg:not(:root) {
       background-position: center center;
       border: 3px solid $white;
 
+      @include mobileLarge {
+        width: 50px;
+        height: 50px;
+        background-size: 20px auto;
+      }
+
       &::after {
         display: none;
       }
@@ -6019,10 +6207,26 @@ svg:not(:root) {
         border-radius: 20px;
         border: 1px solid $borderBottomColor;
 
+        @include ipadLarge {
+          padding: 40px;
+        }
+
+        @include mobileLarge {
+          padding: 20px;
+        }
+
         .review-client-area-block-inner-left {
           width: 60%;
 
+          @include ipadLarge {
+            width: 100%;
+          }
+
           .card-body {
+            @include ipadLarge {
+              padding: 0;
+            }
+
             .card-title {
               font-size: 30px;
               line-height: 30px;
@@ -6030,6 +6234,11 @@ svg:not(:root) {
               color: $primaryColor;
               margin-bottom: 30px;
               opacity: 1 !important;
+
+              @include ipadLarge {
+                font-size: 26px;
+                margin-bottom: 15px;
+              }
 
               .word {
                 .letter {
@@ -6048,6 +6257,11 @@ svg:not(:root) {
               font-family: $secondryFornts;
               opacity: 1 !important;
 
+              @include ipadLarge {
+                font-size: 18px;
+                line-height: 1.6;
+              }
+
               .word {
                 .letter {
                   transform: translateX(0px) translateZ(0px) scaleX(1) !important;
@@ -6058,6 +6272,11 @@ svg:not(:root) {
           }
 
           .card-footer {
+            @include ipadLarge {
+              padding-left: 0;
+              padding-right: 0;
+            }
+
             .card-title {
               font-size: 40px;
               line-height: 40px;
@@ -6066,6 +6285,10 @@ svg:not(:root) {
               margin-bottom: 10px;
               font-family: $secondryFornts;
               opacity: 1 !important;
+
+              @include ipadLarge {
+                font-size: 34px;
+              }
 
               .word {
                 .letter {
@@ -6083,6 +6306,10 @@ svg:not(:root) {
               font-family: $secondryFornts;
               opacity: 1 !important;
 
+              @include ipadLarge {
+                font-size: 18px;
+              }
+
               .word {
                 .letter {
                   transform: translateX(0px) translateZ(0px) scaleX(1) !important;
@@ -6095,6 +6322,10 @@ svg:not(:root) {
 
         .review-client-area-block-inner-right {
           width: 40%;
+
+          @include ipadLarge {
+            width: 100%;
+          }
 
           .review-client-area-block-inner-right-icon {
             svg {
@@ -6111,6 +6342,15 @@ svg:not(:root) {
             z-index: 1;
             bottom: 0;
             right: 70px;
+
+            @include ipadLarge {
+              position: relative;
+              bottom: -40px;
+              right: 0;
+              left: 0;
+              margin: 0 auto;
+              max-width: max-content;
+            }
 
             img {
               height: 440px;
@@ -6151,7 +6391,15 @@ svg:not(:root) {
       margin-bottom: 20px;
       position: relative;
       overflow: hidden;
-      padding: 30px;
+      padding: 30px 60px 30px 30px;
+
+      @include ipadLarge {
+        padding: 20px 40px 20px 20px;
+      }
+
+      @include mobileLarge {
+        padding: 15px 40px 15px 15px;
+      }
 
       &.active {
         background: linear-gradient(90deg, rgba(242, 110, 101, 1) 0%, rgba(242, 110, 101, 0) 100%);
@@ -6183,11 +6431,15 @@ svg:not(:root) {
         .card-title {
           font-family: $secondryFornts;
           font-size: 20px;
-          line-height: 20px;
+          line-height: 1.3;
           font-weight: 700;
           letter-spacing: 1px;
           cursor: pointer;
           opacity: 1 !important;
+
+          @include ipadLarge {
+            font-size: 18px;
+          }
 
           .word {
             .letter {
@@ -6212,10 +6464,22 @@ svg:not(:root) {
           top: 25px;
           pointer-events: none;
 
+          @include ipadLarge {
+            right: 20px;
+            top: 20px;
+            width: 20px;
+            height: 20px;
+          }
+
           svg {
             width: auto;
             height: auto;
             transition: all ease-in-out 0.5s;
+
+            @include ipadLarge {
+              width: 10px;
+              height: 10px;
+            }
           }
         }
       }
@@ -6237,18 +6501,29 @@ svg:not(:root) {
 /*FAQ css end*/
 
 /*lets talk css start*/
+
 .lets-talk-area {
   padding-top: 150px;
   padding-bottom: 150px;
   background-color: $primaryColor;
+
+  .form-sec-row {
+    @include ipadLarge {
+      flex-direction: column-reverse;
+    }
+  }
+
   // z-index: 9;
-  &.cta-button-bar{
+  &.cta-button-bar {
     padding: 50px 0px;
-    .lets-talk-block{
+
+    .lets-talk-block {
       padding: 30px;
-       h3 {
+
+      h3 {
         margin-bottom: 10px;
       }
+
       p {
         margin: 0;
         color: $white;
@@ -6256,6 +6531,7 @@ svg:not(:root) {
       }
     }
   }
+
   @include ipadLarge {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -6274,6 +6550,33 @@ svg:not(:root) {
     position: relative;
     // overflow: hidden;
     z-index: 1;
+
+    @include mdScreen {
+      padding: 80px 80px 10px 60px;
+    }
+
+    @include ipadLarge {
+      padding: 40px 40px 0 40px;
+    }
+
+    @include mobileLarge {
+      border-radius: 20px;
+      padding: 20px 20px 0 20px;
+    }
+
+    .image-col {
+      @include ipadLarge {
+        width: 100%;
+      }
+    }
+
+    .form-col {
+      @include ipadLarge {
+        width: 100%;
+        margin: 0 0 40px 0;
+        padding: 0;
+      }
+    }
 
     .round-shadow {
       width: 100%;
@@ -6300,6 +6603,11 @@ svg:not(:root) {
           margin: 0 auto;
           width: 100%;
           max-width: 550px;
+
+          @include ipadLarge {
+            top: auto;
+            bottom: 0;
+          }
         }
       }
 
@@ -6316,6 +6624,18 @@ svg:not(:root) {
           left: 0px;
           right: 0;
           margin: 0 auto;
+
+          @include ipadLarge {
+            position: relative;
+            top: 0;
+            margin: 0 auto;
+            display: block;
+          }
+
+          @include mobileLarge {
+            height: auto;
+            width: 60%;
+          }
         }
       }
     }
@@ -6323,6 +6643,10 @@ svg:not(:root) {
     .lets-talk-block-right {
       .lets-talk-form {
         margin-top: 40px;
+
+        @include mobileLarge {
+          margin-top: 30px;
+        }
 
         .form-control {
           font-family: $primaryFonts;
@@ -6335,6 +6659,11 @@ svg:not(:root) {
           box-shadow: none;
           outline: none;
 
+          @include mobileLarge {
+            padding: 10px 20px;
+            font-size: 18px;
+          }
+
           &::placeholder {
             color: $white;
             opacity: 1;
@@ -6346,6 +6675,16 @@ svg:not(:root) {
           }
         }
       }
+    }
+  }
+}
+
+.hireDeveloper-page {
+  .lets-talk-area {
+    padding-top: 70px;
+
+    @include ipadLarge {
+      padding-top: 0;
     }
   }
 }
@@ -6443,6 +6782,26 @@ svg:not(:root) {
 .our-Partnership {
   padding: 150px 0 150px;
 
+  @include ipadLarge {
+    padding: 100px 0 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0 60px 0;
+  }
+
+  .container {
+    .row {
+
+      .col-md-7,
+      .col-md-5 {
+        @include mobileLarge {
+          padding: 0;
+        }
+      }
+    }
+  }
+
   .heading-main-sec {
     display: inline-block;
 
@@ -6450,9 +6809,19 @@ svg:not(:root) {
       text-align: left;
     }
 
+    h4 {
+      @include mobileLarge {
+        text-align: left;
+      }
+    }
+
     b {
       h4 {
         color: $secondaryColor;
+
+        @include mobileLarge {
+          text-align: left;
+        }
       }
     }
 
@@ -6470,16 +6839,60 @@ svg:not(:root) {
     flex-wrap: wrap;
     margin: 60px -25px 0;
 
+    @include mdScreenLarge {
+      margin: 60px -15px 0;
+    }
+
+    @include mobileLarge {
+      margin: 40px 0 0 0;
+    }
+
+    @include ipadLarge {
+      justify-content: center;
+    }
+
     .card-box {
       width: 33.33%;
       padding: 0 25px;
       margin: 80px 0 0;
+
+      @include desktopSmall {
+        padding: 0 15px;
+      }
+
+      @include mdScreenLarge {
+        margin: 40px 0 0;
+      }
+
+      @include ipadLarge {
+        width: 50%;
+        margin: 0;
+
+        &:last-child {
+          margin: 40px 0 0;
+        }
+      }
+
+      @include mobileLarge {
+        width: 100%;
+        margin: 0 0 40px 0 !important;
+        padding: 0;
+
+        &:last-child {
+          margin: 0 !important;
+        }
+      }
 
       .card {
         padding: 50px;
         border-radius: 30px;
         box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.7);
         border: none;
+
+        @include mdScreenLarge {
+          padding: 30px;
+
+        }
 
         h3 {
           margin: 0 0 40px;
@@ -6490,6 +6903,12 @@ svg:not(:root) {
           padding: 0 0 40px;
           border-bottom: 1px solid $partnerBorder;
           max-width: 90%;
+
+          @include mdScreenLarge {
+            margin: 0 0 20px;
+            padding: 0 0 20px;
+            font-size: 35px;
+          }
         }
 
         ul {
@@ -6506,8 +6925,18 @@ svg:not(:root) {
             display: inline-flex;
             align-items: center;
 
+            @include mdScreenLarge {
+              font-size: 18px;
+              line-height: 1.2;
+              margin: 0 0 20px;
+            }
+
             span {
               margin-right: 15px;
+
+              @include mdScreenLarge {
+                margin-right: 10px;
+              }
             }
           }
         }
@@ -6602,6 +7031,36 @@ svg:not(:root) {
   position: relative;
   z-index: 9;
 
+  @include ipadLarge {
+    padding: 100px 0 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0 60px 0;
+  }
+
+  .container {
+    >.row {
+      &:nth-child(2) {
+        .col-md-6 {
+          &:first-child {
+
+            @include ipadLarge {
+              width: 0;
+              height: 0;
+            }
+          }
+
+          &:nth-child(2) {
+            @include ipadLarge {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
   img {
     position: absolute;
     bottom: 0;
@@ -6610,6 +7069,10 @@ svg:not(:root) {
 
   .heading-main-sec {
     padding: 0 0 60px;
+
+    @include mobileLarge {
+      padding: 0 0 40px;
+    }
 
     h4 {
       color: $primaryColor;
@@ -6661,8 +7124,21 @@ svg:not(:root) {
     }
 
     .swiper-slide {
+      height: auto;
+
       .step-card {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
         padding: 60px 80px 0 60px;
+
+        @include desktopLargemax {
+          padding: 40px 40px 0 40px;
+        }
+
+        @include mobileLarge {
+          padding: 20px 20px 0 20px;
+        }
 
         h5 {
           margin: 0 0 30px;
@@ -6671,6 +7147,10 @@ svg:not(:root) {
           font-weight: 400;
           color: $primaryColor;
           opacity: 1 !important;
+
+          @include mobileLarge {
+            margin: 0 0 20px;
+          }
 
           span {
             opacity: 1 !important;
@@ -6686,6 +7166,12 @@ svg:not(:root) {
           color: $footerlink;
           opacity: 1 !important;
           min-height: 180px;
+
+          @include desktopSmall {
+            margin: 0 0 20px;
+            font-size: 20px;
+            line-height: 1.6;
+          }
         }
 
         span.step-number {
@@ -6695,6 +7181,7 @@ svg:not(:root) {
           color: $teamBg;
           position: relative;
           bottom: -30px;
+          margin-top: auto;
         }
       }
     }
@@ -6756,12 +7243,57 @@ svg:not(:root) {
       display: flex;
       flex-wrap: wrap;
 
+      @include mobileLarge {
+        position: relative;
+      }
+
+      .tab-arrow {
+        display: none;
+
+        @include mobileLarge {
+          display: block;
+          position: absolute;
+          top: 0;
+          width: 40px;
+          height: 49px;
+          right: 0;
+          background-color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        img {
+          @include mobileLarge {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        svg {
+          width: 15px;
+          height: 15px;
+        }
+      }
+
       .tab-col {
         width: 50%;
+
+
+        @include mobileLarge {
+          width: 100%;
+          overflow: scroll;
+          // position: relative;
+        }
 
         .tab-buttons {
           display: flex;
           flex-direction: column;
+
+          @include mobileLarge {
+            flex-direction: row;
+          }
 
           .tab-btn {
             display: flex;
@@ -6776,8 +7308,34 @@ svg:not(:root) {
               min-height: 110px;
             }
 
+            @include mdScreenSmall {
+              min-height: 80px;
+              padding: 10px 20px 20px 20px;
+            }
+
+            @include mobileLarge {
+              max-width: 32%;
+              min-width: 32%;
+              padding: 10px;
+              justify-content: center;
+              min-height: max-content;
+            }
+
             &:last-child {
               margin-bottom: 0px;
+            }
+
+            .icon {
+              svg {
+                @include mdScreenSmall {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+
+              @include mobileLarge {
+                display: none;
+              }
             }
 
             &.active {
@@ -6810,6 +7368,14 @@ svg:not(:root) {
               color: $secondaryColor;
               font-weight: 400;
               transition: all 0.3s ease-in-out;
+
+              @include mdScreenSmall {
+                font-size: 22px;
+              }
+
+              @include mobileLarge {
+                font-size: 18px;
+              }
             }
           }
         }
@@ -6817,6 +7383,10 @@ svg:not(:root) {
 
       .content-col {
         width: 50%;
+
+        @include mobileLarge {
+          width: 100%;
+        }
 
         .tab-contents {
           display: none;
@@ -6843,16 +7413,34 @@ svg:not(:root) {
               padding: 100px 50px 0 50px;
             }
 
+            @include mdScreenSmall {
+              row-gap: 30px;
+              padding: 20px 20px;
+            }
+
+            @include mobileLarge {
+              padding: 40px 20px;
+            }
+
             .tab-content-inner {
               width: 33.3%;
               display: flex;
               flex-direction: column;
               align-items: center;
 
+              @include mdScreenSmall {
+                width: 50%;
+              }
+
               .icon {
                 @include desktopSmall {
                   width: 100px;
                   height: 100px;
+                }
+
+                @include mdScreenSmall {
+                  width: 60px;
+                  height: 60px;
                 }
 
                 img {
@@ -6879,6 +7467,10 @@ svg:not(:root) {
                       opacity: 1 !important;
                       transform: none !important;
                     }
+                  }
+
+                  @include mdScreenSmall {
+                    font-size: 18px;
                   }
                 }
               }
@@ -6910,6 +7502,7 @@ svg:not(:root) {
 
   @include mobileLarge {
     padding: 60px 0;
+    position: relative;
   }
 
   .projects-list {
@@ -6959,6 +7552,27 @@ svg:not(:root) {
     @include mobileLarge {
       .projects-item {
         flex: 1 1 100%;
+        padding: 0 10px;
+      }
+    }
+
+    .swiper-pagination {
+      bottom: 50px;
+      span {
+        &.swiper-pagination-bullet {
+          @include mobileLarge {
+            background: $white;
+            opacity: 0.5;
+            transition: 0.3s ease;
+          }
+
+          &.swiper-pagination-bullet-active {
+            @include mobileLarge {
+              background: $secondaryColor;
+              opacity: 1;
+            }
+          }
+        }
       }
     }
   }
@@ -8765,6 +9379,10 @@ section.sevice-bg-sec {
     gap: 30px;
     align-items: self-start;
 
+    @include ipadLarge {
+      margin-top: 40px;
+    }
+
     .cust-column {
       flex-shrink: unset !important;
       width: calc(33.33% - 20px);
@@ -8775,8 +9393,16 @@ section.sevice-bg-sec {
       flex-direction: column;
       gap: 30px;
 
+      @include ipadLarge {
+        margin-top: 0;
+      }
+
       &:nth-child(2) {
         margin-top: 87px;
+
+        @include ipadLarge {
+          margin-top: 0;
+        }
 
       }
     }
@@ -8788,11 +9414,21 @@ section.sevice-bg-sec {
       position: relative;
       background: linear-gradient(0deg, $primaryColor, $faqBg);
 
+      @include mdScreen {
+        padding: 30px;
+      }
+
       h4.cust-inner-title {
         font-size: 40px;
         line-height: 50px;
         max-width: 268px;
         margin-bottom: 30px;
+
+        @include mdScreen {
+          font-size: 35px;
+          line-height: 1.2;
+          margin-bottom: 20px;
+        }
       }
 
       p {
@@ -9805,7 +10441,7 @@ body.overflow-hidden-x {
             padding: 0 40px 0 0;
             list-style: none;
             max-height: 580px;
-            min-height:510px;
+            min-height: 510px;
             overflow: auto;
             // max-width: max-content;
             max-width: calc(50% - 160px);
@@ -9874,7 +10510,7 @@ body.overflow-hidden-x {
                     list-style: none;
                     display: flex;
                     flex-wrap: wrap;
-                    padding: 0 0 0 20px;
+                    padding: 0 0 0 0px;
                     top: 30px;
                     max-height: 600px;
                     overflow: auto;
@@ -9882,11 +10518,12 @@ body.overflow-hidden-x {
                     display: none;
 
                     >li {
-                      margin: 15px 0;
+                      margin: 8px 0;
                       width: 50%;
                       position: relative;
                       display: flex;
                       align-items: center;
+                      padding: 0 20px;
 
                       &:before {
                         position: absolute;
@@ -9895,7 +10532,7 @@ body.overflow-hidden-x {
                         height: 6px;
                         border-radius: 50%;
                         background-color: $secondaryColor;
-                        left: -20px;
+                        left: 0px;
                         top: 0;
                         bottom: 0;
                         margin: auto;
@@ -9903,7 +10540,7 @@ body.overflow-hidden-x {
 
                       >a {
                         font-size: 18px;
-                        line-height: 1;
+                        line-height: 1.4;
                         color: $white;
                         font-weight: 400;
                         text-decoration: none;

@@ -1,16 +1,17 @@
+{% set blogData = blogs %}
 <section class="Our-Blogs-sec">
   <div class="circle-bg bg-top"></div>
   <div class="container">
     <div class="row">
       <div class="col-full">
         <div class="heading-main-sec">
-          <h3><span>{{blogSecSubTitle}}</span></h3>
-          <h4>{{blogSecTitle}}</h4>
+          <h3><span>{{ blogData.blogSecSubTitle }}</span></h3>
+          <h4>{{ blogData.blogSecTitle }}</h4>
         </div>
       </div>
       <div class="Our-Blogs-gallery-outer">
         <div class="Our-Blogs-gallery-filter d-flex align-items-center justify-content-center">
-          {% for button in blogsbuttonList %}
+          {% for button in blogData.blogsbuttonList %}
             <button class="btn-gal {{ button.tabTitle | lower | replace(" ", "") }}{% if loop.first %} on{% endif %}">
               {{ button.tabTitle }}
             </button>
@@ -19,7 +20,7 @@
 
         <div class="Our-Blogs-gallery-outer-block">
           <div class="row grid">
-            {% for post in blogsPostList %}
+            {% for post in blogData.blogsPostList %}
               <div class="col-12 col-md-6 col-lg-4 col-xl-4 grid-item element-item {{ post.blogCategory | lower | replace(" ", "") }}">
                 <div class="Our-Blogs-gallery-outer-block-box">
                   <div class="card h-100">
@@ -33,16 +34,9 @@
                   </div>
                   <div class="card-readmore">
                     <a href="#" class="card-arrow d-flex align-items-center justify-content-center">
-                      <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_3495_5971)">
-                          <path d="M14.3876 7.11042L5.90234 15.5957" stroke="#F26E65" stroke-linecap="round" stroke-linejoin="round"/>
-                          <path d="M6.60938 6.40332L15.1006 6.40927L15.0947 14.8886" stroke="#F26E65" stroke-linecap="round" stroke-linejoin="round"/>
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_3495_5971">
-                            <rect width="15" height="14" fill="white" transform="translate(0.246094 11.3535) rotate(-45)"/>
-                          </clipPath>
-                        </defs>
+                      <svg width="21" height="22" viewBox="0 0 21 22">
+                        <path d="M14.3876 7.11042L5.90234 15.5957" stroke="#F26E65" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.60938 6.40332L15.1006 6.40927L15.0947 14.8886" stroke="#F26E65" stroke-linecap="round" stroke-linejoin="round"/>
                       </svg>
                     </a>
                   </div>

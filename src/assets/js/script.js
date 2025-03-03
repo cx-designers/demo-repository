@@ -756,7 +756,7 @@ function initIndustriesSection() {
           clickable: true
         },
         breakpoints: {
-          768: {
+          991: {
             slidesPerView: 2,
           },
           520: {
@@ -1868,3 +1868,60 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /* Phases On Demands App Info Section JS Start */
+
+/* Specialize Section Click JS Start */
+
+document.querySelector(".tab-arrow").addEventListener("click", function () {
+  let tabCol = document.querySelector(".tab-col");
+  tabCol.scrollBy({ left: 200, behavior: "smooth" });
+});
+
+/* Specialize Section Click JS End */
+
+function initSwiper() {
+  let screenWidth = window.innerWidth;
+  let projectsList = document.querySelector(".projects-list");
+  
+  if (screenWidth <= 767) {
+      if (!projectsList.classList.contains("swiper")) {
+          projectsList.classList.add("swiper");
+          let projectsWrapper = document.createElement("div");
+          projectsWrapper.classList.add("swiper-wrapper");
+          
+          let projectsItems = document.querySelectorAll(".projects-item");
+          projectsItems.forEach(item => {
+              let swiperSlide = document.createElement("div");
+              swiperSlide.classList.add("swiper-slide");
+              swiperSlide.appendChild(item);
+              projectsWrapper.appendChild(swiperSlide);
+          });
+          
+          projectsList.innerHTML = "";
+          projectsList.appendChild(projectsWrapper);
+          let pagination = document.createElement("div");
+          pagination.classList.add("swiper-pagination");
+          projectsList.appendChild(pagination);
+          
+          new Swiper(".projects-list", {
+              slidesPerView: 1,
+              slidesToScroll: 1,
+              pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+              },
+          });
+      }
+  } else {
+      if (projectsList.classList.contains("swiper")) {
+          projectsList.classList.remove("swiper");
+          projectsList.innerHTML = "";
+          let projectsItems = document.querySelectorAll(".swiper-slide .projects-item");
+          projectsItems.forEach(item => {
+              projectsList.appendChild(item);
+          });
+      }
+  }
+}
+
+initSwiper();
+window.addEventListener("resize", initSwiper);
