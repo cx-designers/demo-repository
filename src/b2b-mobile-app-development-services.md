@@ -199,4 +199,8 @@ hireServicesList:
 hireButtonText: "Hire Now"
 hireButtonLink: "/hire"
 hireBgImage: "/assets/img/squad-bg-shap.webp"
+
+blogRelatedCtegory:
+  - "Design"
+  - "App Development"
 ---

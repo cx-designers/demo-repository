@@ -134,4 +134,7 @@ phases:
           - icon: "../../../assets/img/"
             alt: ""
             title: "" 
+blogRelatedCtegory:
+  - "Design"
+  - "Web Development"
 ---

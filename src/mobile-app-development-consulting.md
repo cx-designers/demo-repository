@@ -285,4 +285,7 @@ developmentPhases:
       - item: "WebSockets: Keeps information flowing in real-time."
       - item: "TensorFlow: Useful for creating smart features like recognizing patterns."
     image: "../../assets/img/phases-developing-app01.webp"  
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

@@ -267,6 +267,11 @@ developmentPhases:
       - item: "Put it online"
       - item: "Ready for users"
     image: "../../assets/img/phases-developing-app01.webp"      
+
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---
 
 

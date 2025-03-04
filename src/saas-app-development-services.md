@@ -423,4 +423,8 @@ appIdeasList:
   - title: "Helping Developers"
     description: "We give clear instructions to developers to make sure they build what we've designed."
     icon: "/assets/img/right-arrow.svg"
+
+blogRelatedCtegory:
+  - "Design"
+  - "App Development"
 ---

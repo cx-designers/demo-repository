@@ -5,7 +5,7 @@
 <section class="app-ideas-sec overflow-hidden">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-full">
                 <div class="heading-main-sec">
                     {% if appIdeasSubTitle and appIdeasSubTitle | trim != "" %}
                         <h3>{{ appIdeasSubTitle }}</h3>
@@ -15,7 +15,7 @@
                     {% endif %}
                 </div>
             </div>
-            <div class="col-md-7 content-col">
+            <div class="col-lg-7 col-full content-col">
                 <div class="row gap">
                     {% if appIdeasList and appIdeasList | length > 0 %}
                         {% for idea in appIdeasList %}

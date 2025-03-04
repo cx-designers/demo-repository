@@ -270,4 +270,8 @@ developmentPhases:
       - item: "Release your mobile app on app stores"
       - item: "Enjoy 90 days of free support after delivery"
     image: "../../assets/img/phases-developing-app01.webp"  
+    
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

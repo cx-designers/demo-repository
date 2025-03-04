@@ -59,19 +59,6 @@ sections:
       <h3>Lorem Ipsum Dolar 2</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis placerat enim, tempus tempor ante. In quis cursus turpis. Sed vehicula tincidunt diam, eget porta odio ornare in. Integer rutrum metus et metus placerat sollicitudin. Quisque scelerisque eros quis nulla mattis, id rhoncus neque auctor.</p>
 
-relatedBlogTitle: "Related Blog"
-relatedBlogSubtitle: "Blog"
-
-blogsPostList :
-    - blogCategory: "Seo"
-      blogCategoryDesc: "Awesome WordPress Web Development Tools You Can't-Miss in 2022"
-      blogCategoryImg: "/assets/img/our-blogs-08.webp"
-    - blogCategory: "Design"
-      blogCategoryDesc: "Everything you need to know about the top 10 DevOps tools in 2022"
-      blogCategoryImg: "/assets/img/our-blogs-02.webp"
-    - blogCategory: "Development"
-      blogCategoryDesc: "Everything you need to know about the top 10 DevOps tools in 2022"
-      blogCategoryImg: "/assets/img/our-blogs-04.webp"
 
 latestNewsTitle: "Latest News"
 latestNewsSubtitle: "News"

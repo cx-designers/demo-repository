@@ -272,5 +272,7 @@ tabs:
 
 
 
-
+blogRelatedCtegory:
+  - "Design"
+  - "App Development"
 ---

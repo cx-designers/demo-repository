@@ -388,4 +388,8 @@ phases:
           - icon: "../../../assets/img/"
             alt: ""
             title: ""
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

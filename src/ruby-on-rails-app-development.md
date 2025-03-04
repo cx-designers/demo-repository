@@ -169,5 +169,10 @@ developmentPhases:
       - item: "Lorem ipsum dolor"
       - item: "Lorem ipsum dolor"
       - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"            
+    image: "../../assets/img/phases-developing-app01.webp"      
+    
+    
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

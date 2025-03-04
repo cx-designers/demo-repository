@@ -86,5 +86,30 @@ featuresBoxList:
   - title: "We're Here for You"
     description: "Even after launch, our team keeps your app running smooth and up-to-date."
 
+appIdeasSubTitle: "Squad"
+appIdeasTitle: "How We Supercharge Your App Ideas"
+appIdeasList:
+  - title: "Making Awesome Native Apps"
+    description: "We focus on making secure, cool native apps and help plan how to turn your idea into a successful one."
+    icon: "/assets/img/right-arrow.svg"
 
+  - title: "Apps for Any Platform"
+    description: "We're experts in making apps that work well on different devices. Let's figure out a plan for your unique app together."
+    icon: "/assets/img/right-arrow.svg"
+
+  - title: "Big Solutions for Big Businesses"
+    description: "We sort out big chunks of data and create apps that fit your business perfectly. Our experience helps us build apps that work great for businesses."
+    icon: "/assets/img/right-arrow.svg"
+
+  - title: "Upgrading Old Apps"
+    description: "Got old apps that need a makeover? We make them new and better so they work smoother and look nicer for your users."
+    icon: "/assets/img/right-arrow.svg"
+
+  - title: "Help with App Porting"
+    description: " Need your app on different devices? We'll guide you on how to do that without losing any cool stuff from your app."
+    icon: "/assets/img/right-arrow.svg"
+
+  - title: "Awesome Design for Happy Users"
+    description: "We focus on making your app look and feel great for users. We study your customers to make sure they love using your app."
+    icon: "/assets/img/right-arrow.svg"
 ---

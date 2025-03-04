@@ -122,5 +122,48 @@ ourProjectList:
   alt: "our Project 04"
   projectLink: "#"
 
+hireSectionSubTitle: "Squad"
+hireSectionTitle: "Hire Your Custom Development Squad"
+hireServicesList:
+  - title: "Hire Web Developers"
+    link: "/hire-web-developer"
+    label: "Go to hire web developer page"
+
+  - title: "Hire Mobile App Developers"
+    link: "/hire-mobile-app-developer"
+    label: "Go to hire mobile app developer page"
+
+  - title: "Hire On-Demand App Developers"
+    link: "/hire-on-demand-app-developer"
+    label: "Go to hire on demand app designer page"
+
+  - title: "Hire WordPress Developers"
+    link: "/hire-wordpress-developer"
+    label: "Go to hire wordpress developer page"
+
+  - title: "Hire Shopify Developers"
+    link: "/hire-shopify-developer"
+    label: "Go to hire shopify developer page"
+
+  - title: "Hire Chatbot Developers"
+    link: "/hire-chatbot-developer"
+    label: "Go to hire chatbot developer page"
+
+  - title: "Hire PHP Developers"
+    link: "/hire-php-developer"
+    label: "Go to hire php developer page"
+
+  - title: "Hire Digital Marketers"
+    link: "/hire-digital-marketers-developer"
+    label: "Go to hire digital marketers page"
+
+hireButtonText: "Get Started"
+hireButtonLink: "/hire"
+hireBgImage: "/assets/img/squad-bg-shap.webp"
+
+blogRelatedCtegory:
+  - "Seo"
+  - "Web Development"
+  - "App Development"
 
 ---

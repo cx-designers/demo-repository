@@ -335,4 +335,8 @@ tabs:
         text: "Node.js: Backend magic with JavaScript."
       - icon: "../../../assets/img/right-arrow.svg"
         text: "Django & Flask: Python frameworks for efficient development."
+      
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

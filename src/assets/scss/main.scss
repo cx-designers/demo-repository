@@ -6194,6 +6194,10 @@ svg:not(:root) {
       width: 100%;
       left: 0;
       right: 0;
+
+      @include mobileLarge {
+        top: 80%;
+      }
     }
   }
 
@@ -6355,6 +6359,10 @@ svg:not(:root) {
             img {
               height: 440px;
               object-fit: contain;
+
+              @include mobileLarge {
+                height: 250px;
+              }
             }
           }
         }
@@ -6399,6 +6407,10 @@ svg:not(:root) {
 
       @include mobileLarge {
         padding: 15px 40px 15px 15px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
       }
 
       &.active {
@@ -6503,7 +6515,7 @@ svg:not(:root) {
 /*lets talk css start*/
 
 .lets-talk-area {
-  padding-top: 150px;
+  padding-top: 72px;
   padding-bottom: 150px;
   background-color: $primaryColor;
 
@@ -6533,12 +6545,12 @@ svg:not(:root) {
   }
 
   @include ipadLarge {
-    padding-top: 100px;
+    padding-top: 0;
     padding-bottom: 100px;
   }
 
   @include mobileLarge {
-    padding-top: 60px;
+    padding-top: 0;
     padding-bottom: 60px;
   }
 
@@ -6728,8 +6740,20 @@ svg:not(:root) {
   position: relative;
   z-index: 9;
 
+  @include ipadLarge {
+    padding: 100px 0 100px 0 !important;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0 60px 0 !important;
+  }
+
   .heading-main-sec {
     margin-bottom: 70px;
+
+    @include ipadLarge {
+      margin-bottom: 40px;
+    }
 
     h4 {
       max-width: 600px;
@@ -6741,20 +6765,48 @@ svg:not(:root) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80vw;
+    width: 100%;
 
-    .hire-con-item {
-      border: 1px solid $secondaryColor;
-      border-radius: 8vw;
-      color: $secondaryColor;
+    a {
       margin: 10px;
-      padding: 20px 40px;
-      font-size: 24px;
-      font-weight: 600;
-      opacity: 0;
-      filter: blur(10px);
-      will-change: filter, opacity;
-      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+
+      @include ipadLarge {
+        margin: 8px;
+      }
+
+      @include mobileLarge {
+        width: 100%;
+        text-align: center;
+      }
+
+      .hire-con-item {
+        border: 1px solid $secondaryColor;
+        border-radius: 8vw;
+        color: $secondaryColor;
+        padding: 20px 40px;
+        font-size: 24px;
+        font-weight: 600;
+        opacity: 0;
+        filter: blur(10px);
+        will-change: filter, opacity;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          background-color: $secondaryColor;
+          color: $white;
+        }
+
+        @include ipadLarge {
+          padding: 12px 20px;
+          font-size: 20px;
+        }
+
+        @include mobileLarge {
+          padding: 10px 10px;
+          font-size: 18px;
+        }
+      }
     }
   }
 
@@ -6763,6 +6815,14 @@ svg:not(:root) {
       &.btn {
         margin: 150px auto 0 auto;
         display: table;
+
+        @include ipadLarge {
+          margin: 60px auto 0 auto;
+        }
+
+        @include mobileLarge {
+          margin: 40px auto 0 auto;
+        }
       }
     }
   }
@@ -7558,6 +7618,7 @@ svg:not(:root) {
 
     .swiper-pagination {
       bottom: 50px;
+
       span {
         &.swiper-pagination-bullet {
           @include mobileLarge {
@@ -7844,6 +7905,7 @@ svg:not(:root) {
 /*phases on demands app info css end*/
 
 /*on demand app slider area css start*/
+
 .on-demand-app-slider-area {
   padding: 150px 0;
 
@@ -7999,6 +8061,16 @@ svg:not(:root) {
   }
 }
 
+.on-demand-app-development-page {
+  .on-demand-app-slider-area {
+    padding-top: 0;
+
+    .on-demand-app-slider-block {
+      margin-top: 0;
+    }
+  }
+}
+
 /*on demand app slider area css end*/
 
 /* =============== On Demand App Development Page CSS Start =============== */
@@ -8011,9 +8083,21 @@ svg:not(:root) {
 .turning-app-ideas {
   padding: 150px 0;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
   .ideas-box {
     position: relative;
     margin: 0 0 80px;
+
+    @include ipadLarge {
+      margin: 0 0 40px;
+    }
 
     &::after {
       content: "";
@@ -8029,6 +8113,11 @@ svg:not(:root) {
     img {
       width: 100%;
       border-radius: 30px;
+
+      @include mobileLarge {
+        height: 300px;
+        object-fit: cover;
+      }
     }
 
     .ideas-title {
@@ -8037,10 +8126,25 @@ svg:not(:root) {
       left: 60px;
       z-index: 1;
 
+      @include ipadLarge {
+        bottom: 30px;
+        left: 30px;
+      }
+
+      @include mobileLarge {
+        left: 0;
+        bottom: 20px;
+        padding: 0 20px;
+      }
+
       .heading-main-sec {
         h4 {
           margin: 0;
           max-width: 75%;
+
+          @include mobileLarge {
+            max-width: 100%;
+          }
         }
       }
     }
@@ -8071,6 +8175,14 @@ svg:not(:root) {
   padding: 150px 0;
   position: relative;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
   &>img {
     position: absolute;
     top: 0;
@@ -8093,6 +8205,10 @@ svg:not(:root) {
       color: $primaryColor;
       max-width: 75%;
       margin: 0 0 40px;
+
+      @include ipadLarge {
+        max-width: 100%;
+      }
     }
 
     p {
@@ -8108,6 +8224,32 @@ svg:not(:root) {
   .success-story-img {
     padding: 0 0 0 70px;
     margin-bottom: -150px;
+
+    img {
+      @include desktopLargemax {
+        max-width: 100%;
+      }
+
+      @include ipadLarge {
+        max-width: 50%;
+        margin: 40px auto 0 auto;
+        display: block;
+      }
+
+      @include mobileLarge {
+        max-width: 80%;
+        margin: 20px auto 0 auto;
+      }
+    }
+
+    @include ipadLarge {
+      padding: 0;
+      margin-bottom: -100px;
+    }
+
+    @include mobileLarge {
+      margin-bottom: -60px;
+    }
   }
 }
 
@@ -8293,6 +8435,14 @@ svg:not(:root) {
   padding: 185px 0;
   position: relative;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
   .heading-main-sec {
     h3 {
       text-align: left;
@@ -8309,9 +8459,33 @@ svg:not(:root) {
       justify-content: flex-end;
       column-gap: 40px;
 
+      @include desktopSmall {
+        column-gap: 0;
+        padding-left: 20px;
+      }
+
+      @include ipadLarge {
+        padding: 40px 0 0 0;
+      }
+
       .content-main {
         width: 41%;
         margin-bottom: 40px;
+
+        @include desktopSmall {
+          width: calc(50% - 0px);
+        }
+
+        @include mobileLarge {
+          width: 100%;
+          padding: 0;
+        }
+
+        &:last-child {
+          @include mobileLarge {
+            margin-bottom: 0;
+          }
+        }
 
         .app-ideas-content {
           display: flex;
@@ -8321,6 +8495,10 @@ svg:not(:root) {
 
             h3 {
               color: $white;
+
+              @include mdScreen {
+                font-size: 22px;
+              }
             }
 
             p {
@@ -9395,6 +9573,12 @@ section.sevice-bg-sec {
 
       @include ipadLarge {
         margin-top: 0;
+        width: 100%;
+        flex-direction: row;
+      }
+
+      @include mobileLarge {
+        flex-direction: column;
       }
 
       &:nth-child(2) {
@@ -9418,6 +9602,16 @@ section.sevice-bg-sec {
         padding: 30px;
       }
 
+      @include ipadLarge {
+        width: calc(50% - 15px) !important;
+      }
+
+      @include mobileLarge {
+        width: 100% !important;
+        padding: 20px;
+        border-radius: 15px;
+      }
+
       h4.cust-inner-title {
         font-size: 40px;
         line-height: 50px;
@@ -9428,6 +9622,10 @@ section.sevice-bg-sec {
           font-size: 35px;
           line-height: 1.2;
           margin-bottom: 20px;
+        }
+
+        @include mobileLarge {
+          font-size: 26px;
         }
       }
 
@@ -9446,6 +9644,10 @@ section.sevice-bg-sec {
         border-radius: 25px;
         margin: -1px;
         z-index: -1;
+
+        @include mobileLarge {
+          border-radius: 15px;
+        }
       }
     }
   }
@@ -10951,7 +11153,9 @@ body.overflow-hide {
         height: 100%;
         position: relative;
         margin-bottom: 0px;
-
+        a{
+          text-decoration: none;
+        }
         .card {
           position: relative;
           z-index: 2;
@@ -11151,7 +11355,9 @@ body.overflow-hide {
   .Our-Blogs-gallery-outer-block-box {
     height: 100%;
     position: relative;
-
+    a{
+      text-decoration: none;
+    }
     .card {
       position: relative;
       z-index: 2;

@@ -217,6 +217,10 @@ phases:
 
   - title: "App Design"
     blocks:
+
+blogRelatedCtegory:
+  - "Design"
+  - "Web Development"
 ---
 
 

@@ -18,8 +18,10 @@
       <div class="hire-con-row">
         {% if hireServicesList and hireServicesList | length > 0 %}
           {% for service in hireServicesList %}
-            {% if service and service | trim != "" %}
-              <div class="hire-con-item">{{ service }}</div>
+            {% if service.title and service.title | trim != "" %}
+              <a href="{{ service.link }}" aria-label="{{ service.label }}">
+                <div class="hire-con-item">{{ service.title }}</div>
+              </a>
             {% endif %}
           {% endfor %}
         {% endif %}

@@ -93,6 +93,12 @@
       "blogCategory": "App Development",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-01.webp"
+    }, 
+    {
+      "blogCategory": "design & development",
+      "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
+      "blogCategoryImg": "/assets/img/our-blogs-01.webp"
     }
+
   ]
 }
