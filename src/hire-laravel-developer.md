@@ -293,4 +293,8 @@ phases:
           - icon: "../../../assets/img/icon-git.svg"
             alt: "Git"
             title: "Git"
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"            
 ---

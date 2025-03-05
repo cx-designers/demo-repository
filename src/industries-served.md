@@ -169,4 +169,8 @@ devInformationList :
 - infoItem: Join forces with us to solve problems early, predict issues, and create a winning plan for your app. Let's team up and make your app a success story!"
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

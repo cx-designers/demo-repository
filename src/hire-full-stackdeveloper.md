@@ -279,4 +279,8 @@ phases:
           - icon: "../../../assets/img/icon-Sketch.svg"
             alt: "Sketch"
             title: "Sketch"
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

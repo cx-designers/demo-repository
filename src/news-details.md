@@ -73,4 +73,8 @@ latestNewsList :
     - latestNewsCategory: "Development"
       latestNewsCategoryDesc: "Everything you need to know about the top 10 DevOps tools in 2022"
       latestNewsCategoryImg: "/assets/img/our-blogs-04.webp"
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

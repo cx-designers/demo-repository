@@ -206,4 +206,8 @@ phases:
           - icon: "../../../assets/img/icon-Sublime.svg"
             alt: "Sublime Text"
             title: "Sublime Text"
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

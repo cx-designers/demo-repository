@@ -126,4 +126,7 @@ phases:
             alt: "Lorem Ipsum"
             title: "Lorem Ipsum"
 
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

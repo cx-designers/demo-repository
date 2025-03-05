@@ -193,4 +193,7 @@ categories:
     image: "/assets/img/finance.webp"
     description: "Manage your money smarter with apps like PayNow for Stripe and Pocket Wallet, keeping your financial documents secure."
 
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

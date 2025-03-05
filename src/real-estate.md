@@ -123,4 +123,8 @@ phases:
           - icon: "../../../assets/img/icon-Adobe_XD.svg"
             alt: "Lorem Ipsum"
             title: "Lorem Ipsum"
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---
