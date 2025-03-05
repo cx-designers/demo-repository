@@ -49,7 +49,7 @@
 {% for post in matchingPosts %}
   <div class="col-12 col-md-6 col-lg-4 col-xl-4 grid-item element-item">
     <div class="Our-Blogs-gallery-outer-block-box">
-      <a href="#" class="blog-link">
+      <a href="{{ post.blogCategoryLink }}" class="blog-link">
         <div class="card h-100">
           <div class="card-img">
             <img src="{{ post.blogCategoryImg }}" class="card-img-top" alt="{{ post.blogCategory }}">

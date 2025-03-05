@@ -1983,6 +1983,9 @@ body.open-menu {
       }
 
       .blog-post-slide {
+        a{
+          text-decoration: none;
+        }
         position: relative;
         z-index: 2;
         background-color: $primaryColor;
@@ -3964,13 +3967,18 @@ svg:not(:root) {
 
       @include ipadLarge {
         padding: 0px 10px;
-        font-size: 14px;
+        font-size: 16px;
         height: 40px;
+      }
+
+      @include mobileLarge {
+        font-size: 14px;
       }
 
       @include mobileSmall {
         margin: 0px;
         width: 100%;
+        font-size: 18px;
       }
 
       img {
@@ -3979,6 +3987,10 @@ svg:not(:root) {
 
         @include mdScreen {
           height: 50%;
+        }
+
+        @include mobileLarge {
+          height: 70%;
         }
       }
 
@@ -6515,7 +6527,7 @@ svg:not(:root) {
 /*lets talk css start*/
 
 .lets-talk-area {
-  padding-top: 72px;
+  padding-top: 150px;
   padding-bottom: 150px;
   background-color: $primaryColor;
 
@@ -6545,12 +6557,12 @@ svg:not(:root) {
   }
 
   @include ipadLarge {
-    padding-top: 0;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
 
   @include mobileLarge {
-    padding-top: 0;
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 
@@ -8553,10 +8565,20 @@ svg:not(:root) {
     display: flex;
     margin-top: 149px;
     justify-content: end;
+
+    img {
+      width: 100%;
+    }
   }
 
   .col-md-7.relative {
     position: relative;
+
+    .image-sec {
+      img {
+        width: 100%;
+      }
+    }
 
     .convert-text {
       position: absolute;
@@ -9019,12 +9041,29 @@ h6+p+p {
 .form-section {
   padding: 150px 0;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
   .form-box {
     border: 1px solid $borderGray;
     border-radius: 40px;
     padding: 80px;
     position: relative;
     overflow: hidden;
+
+    @include ipadLarge {
+      padding: 40px;
+    }
+
+    @include mobileLarge {
+      padding: 20px;
+      border-radius: 20px;
+    }
 
     .form-basvg {
       height: 100%;
@@ -9050,9 +9089,17 @@ h6+p+p {
         flex-wrap: wrap;
         margin: 0 -15px;
 
+        @include mobileLarge {
+          flex-direction: column;
+        }
+
         .form-group {
           width: 50%;
           padding: 0 15px 30px;
+
+          @include mobileLarge {
+            width: 100%;
+          }
 
           &:last-child {
             width: 100%;
@@ -9065,6 +9112,10 @@ h6+p+p {
             color: $white;
             font-weight: 600;
             margin: 0 0 15px;
+
+            @include mobileLarge {
+              font-size: 18px;
+            }
           }
 
           & input {
@@ -9077,6 +9128,11 @@ h6+p+p {
             width: 100%;
             border-radius: 30px;
             background-color: transparent;
+
+            @include mobileLarge {
+              padding: 0 20px;
+              font-size: 16px;
+            }
 
             &::placeholder {
               color: $videoBg;
@@ -9093,6 +9149,12 @@ h6+p+p {
             width: 100%;
             border-radius: 30px;
             background-color: transparent;
+
+            @include mobileLarge {
+              padding: 15px 20px;
+              font-size: 16px;
+              border-radius: 20px;
+            }
 
             &::placeholder {
               color: $videoBg;
@@ -11153,9 +11215,11 @@ body.overflow-hide {
         height: 100%;
         position: relative;
         margin-bottom: 0px;
-        a{
+
+        a {
           text-decoration: none;
         }
+
         .card {
           position: relative;
           z-index: 2;
@@ -11355,9 +11419,11 @@ body.overflow-hide {
   .Our-Blogs-gallery-outer-block-box {
     height: 100%;
     position: relative;
-    a{
+
+    a {
       text-decoration: none;
     }
+
     .card {
       position: relative;
       z-index: 2;
