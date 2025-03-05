@@ -14,6 +14,7 @@
 {% set matchingPosts = [] %}
 {% set reversedBlogs = relatedBlog.blogsPostList | reverse %}  {# Reverse the order to get the latest blogs first #}
 
+{# Find matching category blogs first #}
 {% for post in reversedBlogs %}
   {% set postCategoryLower = post.blogCategory | lower %}
   {% set isMatching = false %}
@@ -37,6 +38,14 @@
   {% endif %}
 {% endfor %}
 
+{# If there are not enough matching posts, add default latest blogs #}
+{% for post in reversedBlogs %}
+  {% if matchingPosts.length < 3 and post not in matchingPosts %}
+    {% set matchingPosts = matchingPosts.concat(post) %}
+  {% endif %}
+{% endfor %}
+
+{# Display the selected blog posts #}
 {% for post in matchingPosts %}
   <div class="col-12 col-md-6 col-lg-4 col-xl-4 grid-item element-item">
     <div class="Our-Blogs-gallery-outer-block-box">
@@ -69,6 +78,7 @@
     </div>
   </div>
 {% endfor %}
+
 <div class="col-12 d-flex justify-content-center">
   <a href="/blog.html" class="primary-btn" aria-label="Blogs">
     <span class="glow"></span>
@@ -76,6 +86,7 @@
     <span class="btn-text">Read more</span>
   </a>
 </div>
+
     </div>
   </div>
 </section>
