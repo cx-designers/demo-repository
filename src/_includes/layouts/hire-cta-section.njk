@@ -1,3 +1,12 @@
+{% set defaultData = hire %}
+
+{% set hireCtaTitle = hireCtaTitle or defaultData.hireCtaTitle %}
+{% set hireCtaSubTitle = hireCtaSubTitle or defaultData.hireCtaSubTitle %}
+{% set hireCtaDesc = hireCtaDesc or defaultData.hireCtaDesc %}
+{% set hireCtaButtonLink = hireCtaButtonLink or defaultData.hireCtaButtonLink %}
+{% set hireCtaButtonText = hireCtaButtonText or defaultData.hireCtaButtonText %}
+
+
 
 <section class="work-culture hire-cta">
     <div class="work-culture-wrapper">
@@ -11,13 +20,13 @@
                 </div>
                 <div class="col-md-6 content-col ">
                     <div class="heading-main-sec d-flex flex-column" bis_skin_checked="1">
-                        <h2 class="seo-title order-1">Hire UI/UX Designers</h2>
-                        <h3 class="order-0"><span>Hire Dedicated UI/UX Designers for Your Business Success</span></h3>
-                        <p class="order-2">Looking to scale your projects? Our talented pool of UI/UX designers brings expertise in crafting innovative, user-centric designs. Whether you need a single designer or an entire team, we provide flexible hiring models tailored to your requirements. Boost productivity, save costs, and achieve faster time-to-market by partnering with us today!</p>
-                        <a href="/hire-developer.html" class="primary-btn order-3 large-btn">
+                        <h2 class="seo-title order-1">{{hireCtaTitle}}</h2>
+                        <h3 class="order-0"><span>{{hireCtaSubTitle}}</span></h3>
+                        <p class="order-2">{{hireCtaDesc}}</p>
+                        <a href="{{hireCtaButtonLink}}" class="primary-btn order-3 large-btn">
                         <span class="glow"></span>
                         <span class="stock"></span>
-                        <span class="btn-text">Connect With Our Team</span>
+                        <span class="btn-text">{{hireCtaButtonText}}</span>
                         </a>
                     </div>
                 </div>

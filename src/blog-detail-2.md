@@ -2,7 +2,7 @@
 layout: layouts/blog-detail-page.njk
 title: Blog Detail Inner - Cypherox Technologies
 bodyClass: "Industries-details-inner blogs-page"
-permalink: /blog/blog-detail-inner.html
+permalink: /blog/blog-detail-inner-2.html
 
 imagePath: "/assets/img/blog-details-hero-banner01.webp"
 IndustriesSubTitle: "Awesome WordPress Web Development Tools You Can't-Miss in 2022"

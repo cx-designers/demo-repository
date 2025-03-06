@@ -13,129 +13,109 @@
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-08.webp",
-      "blogCategoryLink": "/blog/awesome-wordpress-web-development-tools-2022-1",
-      "imagePath": "/assets/img/blog-details-hero-banner01.webp",
-      "IndustriesSubTitle": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
-      "IndustriesTitle": "SEO",
-      "summaryIntroTitle" : "(Intro)",
-      "summaryIntroDesc" : "Here's a list of the best WordPress Web Development Tools of 2022! Check this out if making your work easier is on your New Year's projects from start to finish.",
-      "summaryInnerTitle": "summary",
-      "sections": [
-        {
-          "id": "Lorem-Ipsum-Dolar",
-          "title": "Lorem Ipsum Dolar",
-          "summary": "Lorem Ipsum Dolar",
-          "contentHTML": "<h3>Lorem Ipsum Dolar</h3><ul><li><p>Lorem ipsum dolor sit amet.</p></li></ul>"
-        },
-        {
-          "id": "Lorem-Ipsum-Dolar-2",
-          "title": "Lorem Ipsum Dolar 2",
-          "summary": "Lorem Ipsum Dolar 2",
-          "contentHTML": "<h3>Lorem Ipsum Dolar 2</h3><p>Lorem ipsum dolor sit amet.</p>"
-        }
-      ]
+      "blogCategoryLink": "/awesome-wordpress-web-development-tools-2022-1"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-09.webp",
-      "blogCategoryLink": "/blog/awesome-wordpress-web-development-tools-2022-2"
+      "blogCategoryLink": "/awesome-wordpress-web-development-tools-2022-2"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-07.webp",
-      "blogCategoryLink": "/blog/awesome-wordpress-web-development-tools-2022-3"
+      "blogCategoryLink": "/awesome-wordpress-web-development-tools-2022-3"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-06.webp",
-      "blogCategoryLink": "/blog/awesome-wordpress-web-development-tools-2022-4"
+      "blogCategoryLink": "/awesome-wordpress-web-development-tools-2022-4"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-05.webp",
-      "blogCategoryLink": "/blog/awesome-wordpress-web-development-tools-2022-5"
+      "blogCategoryLink": "/awesome-wordpress-web-development-tools-2022-5"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-04.webp",
-      "blogCategoryLink": "/blog/awesome-wordpress-web-development-tools-2022-6"
+      "blogCategoryLink": "/awesome-wordpress-web-development-tools-2022-6"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-03.webp",
-      "blogCategoryLink": "/blog/awesome-wordpress-web-development-tools-2022-7"
+      "blogCategoryLink": "/awesome-wordpress-web-development-tools-2022-7"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-02.webp",
-      "blogCategoryLink": "/blog/awesome-wordpress-web-development-tools-2022-8"
+      "blogCategoryLink": "/awesome-wordpress-web-development-tools-2022-8"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-01.webp",
-      "blogCategoryLink": "/blog/awesome-wordpress-web-development-tools-2022-9"
+      "blogCategoryLink": "/awesome-wordpress-web-development-tools-2022-9"
     },
     {
       "blogCategory": "Design",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-02.webp",
-      "blogCategoryLink": "/blog/top-10-devops-tools-2022-1"
+      "blogCategoryLink": "/top-10-devops-tools-2022-1"
     },
     {
       "blogCategory": "Development",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-04.webp",
-      "blogCategoryLink": "/blog/top-10-devops-tools-2022-2"
+      "blogCategoryLink": "/top-10-devops-tools-2022-2"
     },
     {
       "blogCategory": "Web Development",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-01.webp",
-      "blogCategoryLink": "/blog/top-10-devops-tools-2022-3"
+      "blogCategoryLink": "/top-10-devops-tools-2022-3"
     },
     {
       "blogCategory": "App Development",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-01.webp",
-      "blogCategoryLink": "/blog/top-10-devops-tools-2022-4"
+      "blogCategoryLink": "/top-10-devops-tools-2022-4"
     },
     {
       "blogCategory": "Design",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-02.webp",
-      "blogCategoryLink": "/blog/top-10-devops-tools-2022-5"
+      "blogCategoryLink": "/top-10-devops-tools-2022-5"
     },
     {
       "blogCategory": "Development",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-04.webp",
-      "blogCategoryLink": "/blog/top-10-devops-tools-2022-6"
+      "blogCategoryLink": "/top-10-devops-tools-2022-6"
     },
     {
       "blogCategory": "Web Development",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-01.webp",
-      "blogCategoryLink": "/blog/top-10-devops-tools-2022-7"
+      "blogCategoryLink": "/top-10-devops-tools-2022-7"
     },
     {
       "blogCategory": "App Development",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-01.webp",
-      "blogCategoryLink": "/blog/top-10-devops-tools-2022-8"
+      "blogCategoryLink": "/top-10-devops-tools-2022-8"
     },
     {
       "blogCategory": "design & development",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/our-blogs-01.webp",
-      "blogCategoryLink": "/blog/top-10-devops-tools-2022-9"
+      "blogCategoryLink": "/top-10-devops-tools-2022-9"
     }
   ]
 }

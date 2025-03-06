@@ -943,6 +943,7 @@ body.open-menu {
 
   h1 {
     position: relative;
+    opacity:1;
 
     .flying {
       position: absolute;
@@ -1322,7 +1323,7 @@ body.open-menu {
     text-align: center;
     will-change: transform, opacity;
 
-    h1 {
+    h2 {
       position: relative;
       color: $primaryColor;
       font-size: 2rem;
