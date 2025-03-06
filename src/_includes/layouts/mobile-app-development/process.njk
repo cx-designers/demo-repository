@@ -5,9 +5,9 @@
   <div class="container">
     <div class="row">
       <div class="col-full">
-        <div class="heading-main-sec">
-          <h3 class="text-center"><span>{{processSubtitle}}</span></h3>
-          <h4 class="cust-center-text text-center">{{processTitle}}</h4>
+        <div class="heading-main-sec d-flex flex-column">
+          <h2 class="cust-center-text text-center order-1 seo-title">{{processTitle}}</h2>
+          <h3 class="text-center order-0"><span>{{processSubtitle}}</span></h3>
           <img src="" alt="">
         </div>
       </div>
@@ -19,7 +19,7 @@
         {% for step in processBoxList %}
         <div class="item">
           <span class="rule-number">{{ step.stepSubTitle }}</span>
-          <h2>{{ step.stepTitle }}</h2>
+          <h4>{{ step.stepTitle }}</h4>
           <p>{{ step.stepDescription }}</p>
         </div>
         {% endfor %}

@@ -1,8 +1,8 @@
 <section class="development-service">
   <div class="container">
-    <div class="heading-main-sec">
-      <h3>{{ secTitle }}</h3>
-      <h4>{{ secSubTitle }}</h4>
+    <div class="heading-main-sec d-flex flex-column">
+      <h2  class="seo-title order-1">{{ secTitle }}</h2>
+      <h3 class="order-0">{{ secSubTitle }}</h3>
     </div>
   </div>
 
@@ -13,10 +13,10 @@
         <a href="javascript:;">
           <div class="service-item-inner">
             <span class="count">{{ service.count }}</span>
-            <h3>
+            <h4 class="development-service-title">
               <span class="default">{{ service.title }}</span>
               <span class="hover">{{ service.title }}</span>
-            </h3>
+            </h4>
             <p>{{ service.description }}</p>
           </div>
         </a>

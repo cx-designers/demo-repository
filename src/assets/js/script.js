@@ -867,7 +867,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Typing Animation JS Start */
 
 var textWrappers = document.querySelectorAll(
-  'h3:not(.development-service .service-item h3), h4, h5, h6, a.ft-button span'
+  'h3:not(.development-service .service-item h3), h1, h2, h5, h6, a.ft-button span, h4:not(.development-service .service-item .development-service-title)'
 ); // Exclude .development-service h3
 
 textWrappers.forEach((textWrapper) => {
@@ -915,7 +915,7 @@ Element.prototype.nextElementSiblings = function (selector) {
   while (nextSibling) {
     if (nextSibling.matches(selector)) {
       siblings.push(nextSibling);
-    } else if (nextSibling.matches('h3:not(.development-service .service-item h3), h4, h5, h6, a.ft-button span')) {
+    } else if (nextSibling.matches('h3:not(.development-service .service-item h3), h1, h2, h5, h6, a.ft-button span, h4:not(.development-service .service-item .development-service-title)')) {
       break;
     }
     nextSibling = nextSibling.nextElementSibling;

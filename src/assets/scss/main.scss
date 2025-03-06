@@ -331,7 +331,9 @@ h1 {
   position: relative;
   background-color: $borderColor;
   outline: none;
-
+  &.large-btn{
+    width: 300px;
+  }
   @include desktopmid {
     font-size: 16px;
     width: 150px;
@@ -542,7 +544,7 @@ h1 {
   z-index: 99;
   position: relative;
 
-  h3 {
+  h3, h2 , .h3 {
     font-size: 16px;
     font-weight: 500;
     margin: 0 0 20px;
@@ -554,7 +556,7 @@ h1 {
     }
   }
 
-  h4 {
+  h4, h1 , .seo-title{
     font-size: 60px;
     color: $white;
     line-height: 1.2;
@@ -566,6 +568,21 @@ h1 {
     @include mobileLarge {
       font-size: 40px !important;
       line-height: 1.1;
+    }
+
+    span {
+      display: inline-block;
+    }
+  }
+  .seo-title {
+    span{
+      text-shadow: none;
+      color: $white;
+    }
+    &.development-heading {
+      span{
+        color: $secondaryColor;
+      }
     }
   }
 }
@@ -3225,7 +3242,7 @@ div#lottie-animation {
       text-align: left;
     }
 
-    h4 {
+    h4 , h2.seo-title{
       font-size: 150px;
       line-height: 1;
       text-align: left;
@@ -4285,7 +4302,6 @@ svg:not(:root) {
       }
 
       .content-col {
-
         @include ipadLarge {
           margin-top: 200px;
           width: 100%;
@@ -4297,8 +4313,8 @@ svg:not(:root) {
 
         .heading-main-sec {
           text-align: left;
-
-          h4 {
+        
+          h4 , h1 {
             margin-bottom: 0;
           }
 
@@ -5011,6 +5027,15 @@ svg:not(:root) {
       }
     }
   }
+  &.hire-cta{
+    .heading-main-sec{
+      // display: flex;
+      // flex-direction: column;
+      // h3{
+      //   order: -1;
+      // }
+    }
+  }
 }
 
 /* work-culture css end */
@@ -5179,7 +5204,7 @@ svg:not(:root) {
   .heading-main-sec {
     text-align: left;
     margin-bottom: 40px;
-
+    
     .development-heading {
       color: $secondaryColor;
       max-width: 1130px;
@@ -5813,10 +5838,13 @@ svg:not(:root) {
   .heading-main-sec {
     text-align: left;
 
-    h4 {
+    h4 , .seo-title{
       color: $primaryColor;
       max-width: 650px;
       margin-bottom: 40px;
+      span{
+        color: $primaryColor;
+      }
     }
   }
 
@@ -5849,7 +5877,7 @@ svg:not(:root) {
             align-items: center;
           }
 
-          h3 {
+          h3 , h4{
             font-size: 40px;
             line-height: 1;
             color: $primaryColor;
@@ -6054,8 +6082,8 @@ svg:not(:root) {
           }
         }
 
-        h2 {
-          max-width: 279px;
+        h4 {
+          max-width: none;
           font-size: 40px;
           line-height: 50px;
           margin-bottom: 30px;
@@ -6543,7 +6571,7 @@ svg:not(:root) {
 
     .lets-talk-block {
       padding: 30px;
-
+      margin-top: 30px;
       h3 {
         margin-bottom: 10px;
       }
@@ -8691,10 +8719,16 @@ svg:not(:root) {
 
 /* Typing Effect CSS Start */
 
+h1,
+h2,
 h3,
 h4,
 h5,
 h6,
+h1+p,
+h2+p,
+h1+a,
+h2+a,
 h3+p,
 h3+a,
 h4+p,
@@ -8704,6 +8738,8 @@ h5+a,
 h6+p,
 h6+a,
 h3+p,
+h1+p+a,
+h2+p+a,
 h3+p+a,
 h4+p,
 h4+p+a,
@@ -8729,7 +8765,14 @@ h6+p+p {
 /* awsome features product start */
 .features-main-sec {
   padding: 150px 0px;
+  .heading-main-sec{
+    display: flex;
+      flex-direction: column;
 
+      h3{
+        order: -1;
+      }
+  }
   &.feature-sec-bg-white {
     background-color: $white;
     position: relative;

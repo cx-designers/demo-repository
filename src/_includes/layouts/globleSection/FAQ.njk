@@ -9,17 +9,17 @@
     <div class="container">
       <div class="row">
         <div class="col-full">
-          <div class="heading-main-sec">
+          <div class="heading-main-sec d-flex flex-column">
             {% if faqSubtitle and faqSubtitle | trim != "" %}
-              <h3><span>{{ faqSubtitle }}</span></h3>
+              <h3 class="order-0"><span>{{ faqSubtitle }}</span></h3>
             {% elseif faq.faqSubtitle and faq.faqSubtitle | trim != "" %}
-              <h3><span>{{ faq.faqSubtitle }}</span></h3>
+              <h3 class="order-0"><span>{{ faq.faqSubtitle }}</span></h3>
             {% endif %}
             
             {% if faqTitle and faqTitle | trim != "" %}
-              <h4>{{ faqTitle }}</h4>
+              <h2 class="order-1 seo-title">{{ faqTitle }}</h2>
             {% elseif faq.faqTitle and faq.faqTitle | trim != "" %}
-              <h4>{{ faq.faqTitle }}</h4>
+              <h2 class="order-1 seo-title">{{ faq.faqTitle }}</h2>
             {% endif %}
           </div>
         </div>
@@ -31,7 +31,7 @@
             {% if step.faqTitle and step.faqTitle | trim != "" %}
               <div class="faq-area-block-wrap">
                 <div class="faq-area-block-top">
-                  <h5 class="text-white card-title at-title">{{ step.faqTitle }}</h5>
+                  <h3 class="text-white card-title at-title">{{ step.faqTitle }}</h3>
                   <div class="faq-icon">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.9397 6.9397H1.0603" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -50,7 +50,7 @@
             {% if step.faqTitle and step.faqTitle | trim != "" %}
               <div class="faq-area-block-wrap">
                 <div class="faq-area-block-top">
-                  <h5 class="text-white card-title at-title">{{ step.faqTitle }}</h5>
+                  <h3 class="text-white card-title at-title">{{ step.faqTitle }}</h3>
                   <div class="faq-icon">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.9397 6.9397H1.0603" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

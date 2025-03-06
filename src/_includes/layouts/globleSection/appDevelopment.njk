@@ -8,16 +8,16 @@
     <div class="container">
       <div class="row">
         <div class="col-full">
-          <div class="heading-main-sec">
-            {% if devSubTitle and devSubTitle | trim != "" %}
-              <h3><span>{{ devSubTitle }}</span></h3>
-            {% endif %}
+          <div class="heading-main-sec d-flex flex-wrap">
             {% if devTitle and devTitle | trim != "" %}
-              <h4>{{ devTitle }}</h4>
+              <h2 class="seo-title w-100 order-1">{{ devTitle }}</h2>
             {% endif %}
             {% if devTitlePart and devTitlePart | trim != "" %}
-              <h4 class="development-heading">{{ devTitlePart }}</h4>
+              <h2 class="development-heading seo-title w-100 order-2">{{ devTitlePart }}</h2>
             {% endif %}
+            {% if devSubTitle and devSubTitle | trim != "" %}
+            <h3 class="order-0"><span>{{ devSubTitle }}</span></h3>
+          {% endif %}
           </div>
   
           <div class="development-paragraph-main">
