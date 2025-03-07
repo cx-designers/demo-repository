@@ -193,7 +193,7 @@ h1 {
   }
 
   span {
-    display: block;
+    // display: block;
 
     @include mobileLarge {
       text-align: center;
@@ -331,9 +331,11 @@ h1 {
   position: relative;
   background-color: $borderColor;
   outline: none;
-  &.large-btn{
+
+  &.large-btn {
     width: 300px;
   }
+
   @include desktopmid {
     font-size: 16px;
     width: 150px;
@@ -544,19 +546,27 @@ h1 {
   z-index: 99;
   position: relative;
 
-  h3, h2 , .h3 {
+  h3,
+  h2,
+  .h3 {
     font-size: 16px;
     font-weight: 500;
     margin: 0 0 20px;
 
+    @include ipadLarge {
+      text-align: left;
+    }
+
     span {
-      display: inline-block;
+      // display: inline-block;
       color: $secondaryColor;
       text-shadow: 4px -1px 15px rgba(242, 110, 101, 0.74);
     }
   }
 
-  h4, h1 , .seo-title{
+  h4,
+  h1,
+  .seo-title {
     font-size: 60px;
     color: $white;
     line-height: 1.2;
@@ -565,22 +575,28 @@ h1 {
       font-size: 50px !important;
     }
 
+    @include ipadLarge {
+      text-align: left;
+    }
+
     @include mobileLarge {
       font-size: 40px !important;
       line-height: 1.1;
     }
 
     span {
-      display: inline-block;
+      // display: inline-block;
     }
   }
+
   .seo-title {
-    span{
+    span {
       text-shadow: none;
       color: $white;
     }
+
     &.development-heading {
-      span{
+      span {
         color: $secondaryColor;
       }
     }
@@ -600,6 +616,10 @@ p {
 .gloabl-banner-inner-page {
   .loaderWrapper {
     top: 0;
+
+    @include ipadLarge {
+      height: 100%;
+    }
 
     @include mobileLarge {
       height: 100%;
@@ -636,6 +656,14 @@ p {
 
   .rotateGlow {
     position: absolute;
+
+    @include ipadLarge {
+      left: -40%;
+    }
+
+    @include mobileLarge {
+      left: -100%;
+    }
   }
 
   .leftLine {
@@ -929,6 +957,7 @@ body.open-menu {
     font-size: 20px;
     text-align: center;
     margin-top: 40px;
+    opacity: 1;
   }
 
   .btn-wrapper {
@@ -943,7 +972,11 @@ body.open-menu {
 
   h1 {
     position: relative;
-    opacity:1;
+    opacity: 1;
+
+    span {
+      display: block;
+    }
 
     .flying {
       position: absolute;
@@ -969,7 +1002,7 @@ body.open-menu {
       }
 
       &.left-bottom {
-        bottom: -70px;
+        bottom: -130px;
         left: 10%;
       }
 
@@ -1068,7 +1101,8 @@ body.open-menu {
             text-align: left;
           }
 
-          h4 {
+          h4,
+          h2 {
             font-size: 60px;
             line-height: 70px;
             margin-top: 20px;
@@ -1076,6 +1110,11 @@ body.open-menu {
             font-weight: 400;
             margin-bottom: 80px;
             text-align: left;
+
+            span {
+              text-shadow: unset;
+              color: $primaryColor;
+            }
 
             @include desktopSmall {
               font-size: 50px;
@@ -1384,13 +1423,18 @@ body.open-menu {
   }
 
   .heading-main-sec {
-    h4 {
+    h2 {
       font-size: 80px;
       color: $primaryColor;
       line-height: 1.3;
       max-width: 850px;
       margin-left: auto;
       margin-right: auto;
+
+      span {
+        text-shadow: unset;
+        color: $primaryColor;
+      }
 
       @include desktopSmall {
         font-size: 60px;
@@ -1496,13 +1540,18 @@ body.open-menu {
           text-align: left;
         }
 
-        h4 {
+        h2 {
           font-size: 80px;
           line-height: 90px;
           text-align: left;
           color: $white;
           margin: 0 0 30px 0;
           flex-wrap: wrap;
+
+          span {
+            text-shadow: unset;
+            color: $white;
+          }
 
           @include desktopSmall {
             font-size: 60px;
@@ -2001,9 +2050,10 @@ body.open-menu {
       }
 
       .blog-post-slide {
-        a{
+        a {
           text-decoration: none;
         }
+
         position: relative;
         z-index: 2;
         background-color: $primaryColor;
@@ -3243,7 +3293,8 @@ div#lottie-animation {
       text-align: left;
     }
 
-    h4 , h2.seo-title{
+    h4,
+    h2.seo-title {
       font-size: 150px;
       line-height: 1;
       text-align: left;
@@ -4251,12 +4302,16 @@ svg:not(:root) {
 
     &:focus {
       border-color: #f26e65;
-      box-shadow: 0 0 0 0.25rem rgba(242, 110, 101, 0.25);
+      box-shadow: none;
     }
   }
 
   .accordion-item {
     border-color: #f26e65;
+
+    .accordion-header {
+      opacity: 1;
+    }
   }
 }
 
@@ -4281,7 +4336,7 @@ svg:not(:root) {
     justify-content: center;
     overflow: hidden;
 
-    @include mobileLarge {
+    @include ipadLarge {
       height: 100%;
     }
 
@@ -4306,6 +4361,7 @@ svg:not(:root) {
         @include ipadLarge {
           margin-top: 200px;
           width: 100%;
+          max-height: max-content;
         }
 
         @include mobileLarge {
@@ -4314,8 +4370,9 @@ svg:not(:root) {
 
         .heading-main-sec {
           text-align: left;
-        
-          h4 , h1 {
+
+          h4,
+          h1 {
             margin-bottom: 0;
           }
 
@@ -4336,11 +4393,15 @@ svg:not(:root) {
           top: auto;
           bottom: 0px;
           left: auto;
-          width: auto;
+          width: 50%;
+          height: calc(100% - 121px);
+          display: flex;
 
           @include ipadLarge {
             position: relative;
             margin-top: auto;
+            max-height: max-content;
+            width: 100%;
           }
 
           @include mobileLarge {
@@ -4349,7 +4410,7 @@ svg:not(:root) {
         }
 
         svg {
-          width: 90%;
+          width: 100%;
           margin-left: auto;
           margin-right: 0;
           margin-top: auto;
@@ -4358,17 +4419,21 @@ svg:not(:root) {
           height: auto;
           opacity: 0;
 
+
           @include desktopSmall {
-            width: 80%;
+            // width: 80%;
+            margin-top: auto !important;
+            margin-bottom: auto !important;
+            height: 100%;
           }
 
           @include mdScreen {
-            width: 60%;
+            // width: 60%;
           }
 
           @include ipadLarge {
-            width: 70%;
-            margin: 0 auto;
+            width: 100%;
+            margin: 40px auto 0 auto !important;
           }
 
           @include mobileLarge {
@@ -4474,12 +4539,14 @@ svg:not(:root) {
 /* aswesome-sec css start */
 .aswesome-sec {
   padding: 150px 0;
+
   .short-desc {
     font-size: 16px;
     max-width: 1120px;
     margin: 0px auto 20px auto;
     color: $contentLight;
   }
+
   @include ipadLarge {
     padding: 100px 0;
   }
@@ -5033,8 +5100,9 @@ svg:not(:root) {
       }
     }
   }
-  &.hire-cta{
-    .heading-main-sec{
+
+  &.hire-cta {
+    .heading-main-sec {
       // display: flex;
       // flex-direction: column;
       // h3{
@@ -5210,7 +5278,7 @@ svg:not(:root) {
   .heading-main-sec {
     text-align: left;
     margin-bottom: 40px;
-    
+
     .development-heading {
       color: $secondaryColor;
       max-width: 1130px;
@@ -5844,11 +5912,13 @@ svg:not(:root) {
   .heading-main-sec {
     text-align: left;
 
-    h4 , .seo-title{
+    h4,
+    .seo-title {
       color: $primaryColor;
       max-width: 650px;
       margin-bottom: 40px;
-      span{
+
+      span {
         color: $primaryColor;
       }
     }
@@ -5883,7 +5953,8 @@ svg:not(:root) {
             align-items: center;
           }
 
-          h3 , h4{
+          h3,
+          h4 {
             font-size: 40px;
             line-height: 1;
             color: $primaryColor;
@@ -6578,6 +6649,7 @@ svg:not(:root) {
     .lets-talk-block {
       padding: 30px;
       margin-top: 30px;
+
       h3 {
         margin-bottom: 10px;
       }
@@ -8573,7 +8645,7 @@ svg:not(:root) {
 
   .heading-main-sec {
     h4 {
-      max-width: 550px;
+      // max-width: 550px;
     }
   }
 
@@ -8595,10 +8667,28 @@ svg:not(:root) {
   padding: 150px 0;
   position: relative;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
+  .container {
+    .row {
+      justify-content: center;
+    }
+  }
+
   .mobile-image-sec {
     display: flex;
     margin-top: 149px;
     justify-content: end;
+
+    @include mobileLarge {
+      margin-top: 40px;
+    }
 
     img {
       width: 100%;
@@ -8620,6 +8710,18 @@ svg:not(:root) {
       right: -247px;
       display: flex;
       align-items: self-start;
+
+      @include ipadLarge {
+        right: -217px;
+      }
+
+      @include mobileLarge {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 60px;
+        justify-content: center;
+      }
 
       p {
         color: $secondaryColor;
@@ -8655,13 +8757,37 @@ svg:not(:root) {
       flex-direction: column;
       gap: 30px;
 
+      @include mobileLarge {
+        gap: 20px;
+      }
+
       &.col-md-4 {
         padding: 30px 41px 0px 41px;
         border-radius: 25px;
         position: relative;
         background: linear-gradient(0deg, $primaryColor, $faqBg);
 
+        @include mdScreenLarge {
+          padding: 30px 30px 0px 30px;
+        }
+
+        @include ipadLarge {
+          width: calc(50% - 20px);
+        }
+
+        @include mobileLarge {
+          width: 100%;
+          margin: 40px 0 0 0 !important;
+          padding: 20px 20px 0 20px;
+          border-radius: 15px;
+        }
+
         &:first-child {
+
+          @include mobileLarge {
+            margin: 0 !important;
+          }
+
           h4 {
             max-width: 285px;
           }
@@ -8670,6 +8796,11 @@ svg:not(:root) {
         img {
           width: 100px;
           height: 100px;
+
+          @include mobileLarge {
+            width: 80px;
+            height: 80px;
+          }
         }
 
         h4 {
@@ -8678,6 +8809,11 @@ svg:not(:root) {
           max-width: none;
           margin-bottom: 40px;
           margin-top: 30px;
+
+          @include desktopSmall {
+            font-size: 26px;
+            margin: 0;
+          }
 
           span {
             color: $white;
@@ -8692,6 +8828,10 @@ svg:not(:root) {
           border-radius: 25px;
           margin: -1px;
           z-index: -1;
+
+          @include mobileLarge {
+            border-radius: 15px;
+          }
         }
 
         .goto-icon {
@@ -8702,6 +8842,11 @@ svg:not(:root) {
           display: flex;
           align-items: center;
           justify-content: center;
+
+          @include mobileLarge {
+            width: 50px;
+            height: 50px;
+          }
 
           svg {
             transform: rotate(0deg);
@@ -8714,6 +8859,12 @@ svg:not(:root) {
               transition: 0.3s ease;
             }
           }
+        }
+      }
+
+      &:last-child {
+        @include ipadLarge {
+          margin: 30px 0 0 0;
         }
       }
     }
@@ -8771,14 +8922,16 @@ h6+p+p {
 /* awsome features product start */
 .features-main-sec {
   padding: 150px 0px;
-  .heading-main-sec{
-    display: flex;
-      flex-direction: column;
 
-      h3{
-        order: -1;
-      }
+  .heading-main-sec {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      order: -1;
+    }
   }
+
   &.feature-sec-bg-white {
     background-color: $white;
     position: relative;
@@ -8914,6 +9067,7 @@ h6+p+p {
 /* Commun CSS End */
 
 /*  goMobileConvert sec css start  */
+
 .goMobileConvert-sec {
   padding: 150px 0;
   background-image: url(../img/MobileConvert.webp);
@@ -8921,19 +9075,47 @@ h6+p+p {
   background-size: contain;
   background-position: top;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
   .container {
     .row {
       margin-bottom: 40px;
+
+      &:last-child {
+        @include ipadLarge {
+          margin-bottom: 0;
+          flex-direction: column-reverse;
+        }
+      }
 
       .col-full {
         .heading-main-sec {
           h3 {
             font-weight: 600;
+
+            @include ipadLarge {
+              text-align: left;
+            }
           }
 
           h4 {
             max-width: 50%;
             margin: 0 auto;
+
+            @include desktopmid {
+              max-width: 80%;
+            }
+
+            @include ipadLarge {
+              max-width: 100%;
+              text-align: left;
+            }
           }
         }
       }
@@ -8943,7 +9125,6 @@ h6+p+p {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      row-gap: 80px;
 
       .android-left {
         background: rgb(181, 227, 111);
@@ -8952,17 +9133,45 @@ h6+p+p {
         border-radius: 100px;
         padding: 130px;
         max-width: 660px;
-        width: 100%;
+
+        @include ipadLarge {
+          max-width: 100%;
+          padding: 50px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 40px;
+        }
 
         .android-img {
           display: flex;
           justify-content: center;
+
+          @include ipadLarge {
+            width: 50%;
+          }
         }
       }
 
       .android-content {
-        max-width: 660px;
-        width: 100%;
+        padding-left: 60px;
+
+        @include ipadLarge {
+          padding: 40px 0 0 0;
+        }
+
+      }
+
+      .iphone-content {
+        padding-right: 60px;
+
+        @include ipadLarge {
+          padding: 40px 0 0 0;
+        }
+
+      }
+
+      .android-content {
 
         h3 {
           color: $secondaryColor;
@@ -8973,6 +9182,12 @@ h6+p+p {
           font-size: 25px;
           line-height: 40px;
           margin: 40px 0;
+
+          @include ipadLarge {
+            font-size: 22px;
+            line-height: 1.6;
+            margin: 20px 0;
+          }
         }
       }
 
@@ -8983,11 +9198,23 @@ h6+p+p {
         border-radius: 100px;
         padding: 130px;
         max-width: 660px;
-        width: 100%;
+
+        @include ipadLarge {
+          max-width: 100%;
+          padding: 50px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 40px;
+        }
 
         .android-img {
           display: flex;
           justify-content: center;
+
+          @include ipadLarge {
+            width: 50%;
+          }
         }
       }
     }
@@ -10171,12 +10398,14 @@ body.overflow-hidden-x {
 /* Purpose sec css Start */
 .purpose-main-sec {
   padding: 150px 0px;
-  .purpose-desc{
+
+  .purpose-desc {
     font-size: 16px;
     max-width: 1120px;
     margin: 20px auto 0 auto;
     color: $contentLight;
   }
+
   .cust-row {
     gap: 40px;
     margin-top: 40px;
@@ -10965,9 +11194,13 @@ body.overflow-hide {
             margin-bottom: 15px;
 
             span.submenu-toggle {
-              width: 24px;
-              height: 24px;
-              display: inline-block;
+              width: 18px;
+              height: 18px;
+              display: flex;
+              min-width: 18px;
+              min-height: 18px;
+              justify-content: center;
+              align-items: center;
             }
 
             span.inner-text {
@@ -11022,6 +11255,7 @@ body.overflow-hide {
         li {
           a {
             font-size: 16px;
+            flex-wrap: nowrap;
           }
         }
       }

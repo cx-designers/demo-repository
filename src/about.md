@@ -35,7 +35,7 @@ items:
     bgClass: "work-approach-bg"
     extraClass: ""
   
-  - icon: "../../../assets/img/work-approach.svg"
+  - icon: "../../../assets/img/business-values.svg"
     title: "Creating Business Values"
     content: "In this modern era of the trendsetting world, building a compelling website is just a first step towards a credible presence on the internet. For this reason, our creative IT team is committed to build the brand and create value for your business. Cypherox offers numerous web services to elevate your business by boosting your online visibility."
     bgClass: "creating-business-values-bg"

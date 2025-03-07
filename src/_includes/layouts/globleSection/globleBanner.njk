@@ -8,7 +8,7 @@
             <h2 class="order-0">{{ bannersubTitle  }}</h2>
             <p class="order-2">{{ bannerdesc }}</p>
             {% if bannerbuttontext %}
-            <a href="{{ buttonLink }}" class="primary-btn order-3 large-btn">
+            <a href="{{ buttonLink }}" class="primary-btn order-3 {% if bannerbuttonlargeClass %}{{ bannerbuttonlargeClass }}{% endif %}">
               <span class="glow"></span>
               <span class="stock"></span>
               <span class="btn-text">{{ bannerbuttontext }}</span>

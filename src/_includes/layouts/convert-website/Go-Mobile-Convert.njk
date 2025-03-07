@@ -1,73 +1,72 @@
-
 {% if convertServices and convertServices.length > 0 %}
 <section class="goMobileConvert-sec">
     <div class="container">
         <div class="row">
             <div class="col-full">
                 <div class="heading-main-sec">
-                {% if convertSubTitle %}
+                    {% if convertSubTitle %}
                     <h3><span>{{convertSubTitle}}</span></h3>
-                     {% endif %}
+                    {% endif %}
                     {% if convertTitle %}
-                        <h4>{{ convertTitle }}</h4>
+                    <h4>{{ convertTitle }}</h4>
                     {% endif %}
                 </div>
             </div>
         </div>
+        {% for service in convertServices %}
+        {% if service.image %}
         <div class="row">
-            {% for service in convertServices %}
-                {% if service.image %}
-                    {% if loop.index is odd %}
-                        <div class="col-md-6 android-left">
-                            <div class="android-img">
-                                <img src="{{ service.image }}" alt="{{ service.alt or 'Service Image' }}" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-md-6 android-content">
-                            <div>
-                                {% if service.name %}
-                                    <h3>{{ service.name }}</h3>
-                                {% endif %}
-                                {% if service.description %}
-                                    <p>{{ service.description }}</p>
-                                {% endif %}
-                                {% if service.button_text %}
-                                    <div class="button-sec">
-                                        <a href="{{buttonLink}}" class="btn btn-primary rounded-pill">
-                                            <span>{{ service.button_text }}</span>
-                                        </a>
-                                    </div>
-                                {% endif %}
-                            </div>
-                        </div>
-                    {% else %}
-                        <div class="col-md-6 android-content">
-                            <div>
-                                {% if service.name %}
-                                    <h3>{{ service.name }}</h3>
-                                {% endif %}
-                                {% if service.description %}
-                                    <p>{{ service.description }}</p>
-                                {% endif %}
-                                {% if service.button_text %}
-                                    <div class="button-sec">
-                                        <a href="{{buttonLink}}" class="btn btn-primary rounded-pill">
-                                            <span>{{ service.button_text }}</span>
-                                        </a>
-                                    </div>
-                                {% endif %}
-                            </div>
-                        </div>
-                        <div class="col-md-6 iPhone-right">
-                            <div class="android-img">
-                                <img src="{{ service.image }}" alt="{{ service.alt or 'Service Image' }}" class="img-fluid">
-                            </div>
-                        </div>
+            {% if loop.index is odd %}
+            <div class="col-lg-6 android-left">
+                <div class="android-img">
+                    <img src="{{ service.image }}" alt="{{ service.alt or 'Service Image' }}" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-6 android-content">
+                <div>
+                    {% if service.name %}
+                    <h3>{{ service.name }}</h3>
                     {% endif %}
-                {% endif %}
-            {% endfor %}
+                    {% if service.description %}
+                    <p>{{ service.description }}</p>
+                    {% endif %}
+                    {% if service.button_text %}
+                    <div class="button-sec">
+                        <a href="{{buttonLink}}" class="btn btn-primary rounded-pill">
+                            <span>{{ service.button_text }}</span>
+                        </a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% else %}
+            <div class="col-lg-6 android-content iphone-content">
+                <div>
+                    {% if service.name %}
+                    <h3>{{ service.name }}</h3>
+                    {% endif %}
+                    {% if service.description %}
+                    <p>{{ service.description }}</p>
+                    {% endif %}
+                    {% if service.button_text %}
+                    <div class="button-sec">
+                        <a href="{{buttonLink}}" class="btn btn-primary rounded-pill">
+                            <span>{{ service.button_text }}</span>
+                        </a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-lg-6 iPhone-right">
+                <div class="android-img">
+                    <img src="{{ service.image }}" alt="{{ service.alt or 'Service Image' }}" class="img-fluid">
+                </div>
+            </div>
+            {% endif %}
         </div>
+        {% endif %}
+        {% endfor %}
+
     </div>
 </section>
 {% endif %}
-

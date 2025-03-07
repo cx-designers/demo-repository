@@ -643,7 +643,7 @@ bannerTimeline
   }, 0.5)
 
   .to(".content-inside-x h2", {
-    fontSize: "8rem",
+    fontSize: "6rem",
     opacity: 1,
     duration: 0.5,
     ease: "power1.inOut",
@@ -867,7 +867,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Typing Animation JS Start */
 
 var textWrappers = document.querySelectorAll(
-  'h3:not(.development-service .service-item h3), h1:not(.hero-wrapper h1), h2, h5, h6, a.ft-button span, h4:not(.development-service .service-item .development-service-title)'
+  'h3:not(.development-service .service-item h3), h1:not(.hero-wrapper h1), h2:not(.map-wrapper-address-mobile .accordion-item .accordion-header), h5, h6, a.ft-button span, h4:not(.development-service .service-item .development-service-title)'
 ); // Exclude .development-service h3
 
 textWrappers.forEach((textWrapper) => {
@@ -915,7 +915,7 @@ Element.prototype.nextElementSiblings = function (selector) {
   while (nextSibling) {
     if (nextSibling.matches(selector)) {
       siblings.push(nextSibling);
-    } else if (nextSibling.matches('h3:not(.development-service .service-item h3), h1:not(.hero-wrapper h1), h2, h5, h6, a.ft-button span, h4:not(.development-service .service-item .development-service-title)')) {
+    } else if (nextSibling.matches('h3:not(.development-service .service-item h3), h1:not(.hero-wrapper h1), h2:not(.map-wrapper-address-mobile .accordion-item .accordion-header), h5, h6, a.ft-button span, h4:not(.development-service .service-item .development-service-title)')) {
       break;
     }
     nextSibling = nextSibling.nextElementSibling;
