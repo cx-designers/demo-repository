@@ -1,10 +1,10 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
 title: Website Design & Development Company - Cypherox Technologies
-bodyClass: "hire-nodejs-developers"
+bodyClass: "hire-python-developers"
 permalink: hire-python-developers.html
 bannersubTitle: "Lorem ipsum"
-bannerTitle: "Hire NodeJS Developers"
+bannerTitle: "Hire python Developers"
 bannerdesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 bannerbuttontext: Hire Now
 buttonLink: "javascript:;"

@@ -4474,7 +4474,12 @@ svg:not(:root) {
 /* aswesome-sec css start */
 .aswesome-sec {
   padding: 150px 0;
-
+  .short-desc {
+    font-size: 16px;
+    max-width: 1120px;
+    margin: 0px auto 20px auto;
+    color: $contentLight;
+  }
   @include ipadLarge {
     padding: 100px 0;
   }
@@ -10037,7 +10042,7 @@ body.overflow-hidden-x {
     left: 12%;
     z-index: 999;
 
-    h3 {
+    h2 {
       font-size: 120px;
       line-height: 1.1;
       color: $secondaryColor;
@@ -10166,7 +10171,12 @@ body.overflow-hidden-x {
 /* Purpose sec css Start */
 .purpose-main-sec {
   padding: 150px 0px;
-
+  .purpose-desc{
+    font-size: 16px;
+    max-width: 1120px;
+    margin: 20px auto 0 auto;
+    color: $contentLight;
+  }
   .cust-row {
     gap: 40px;
     margin-top: 40px;
@@ -10204,11 +10214,12 @@ body.overflow-hidden-x {
         margin-top: 60px;
       }
 
-      h4.cust-inner-title {
+      h3.cust-inner-title {
         font-size: 50px;
         line-height: 1;
         margin-bottom: 30px;
         margin-top: 8px;
+        text-align: center;
       }
 
       p.cust-desc {
