@@ -48,6 +48,7 @@ $screen-desktop-large : 1700px;
 $screen-desktop-large-max : 1700px;
 $screen-desktop-mid : 1660px;
 $screen-desktop-small : 1440px;
+$screen-desktop-smallmax : 1399px;
 $screen-desktop-small2 : 1360px;
 $screen-md-large: 1260px;
 $screen-md: 1200px;
@@ -77,6 +78,12 @@ $screen-mobile-small : 480px;
 
 @mixin desktopSmall {
   @media only screen and (max-width: #{$screen-desktop-small}) {
+    @content;
+  }
+}
+
+@mixin desktopSmallMax {
+  @media only screen and (max-width: #{$screen-desktop-smallmax}) {
     @content;
   }
 }
@@ -4223,6 +4230,7 @@ svg:not(:root) {
 
       .col-12.col-md-7 {
         width: 100%;
+        padding: 0;
 
         .map-wrapper-address {
           padding-right: 0px;
@@ -4484,6 +4492,11 @@ svg:not(:root) {
     }
   }
 
+  .image-masking-inner {
+    position: sticky;
+    top: 150px;
+  }
+
   img.cust-bg {
     width: 100%;
     position: absolute;
@@ -4495,18 +4508,23 @@ svg:not(:root) {
 
   .container {
     .row {
+
       .about-realtime-content {
         .heading-main-sec {
           h3 {
             text-align: left;
           }
 
-          h4 {
+          h2 {
             color: $primaryColor;
             text-align: left;
             max-width: 550px;
             width: 100%;
             margin-bottom: 40px;
+
+            span {
+              color: $primaryColor;
+            }
 
             @include ipadLarge {
               max-width: 100%;
@@ -4526,9 +4544,14 @@ svg:not(:root) {
             @include ipadLarge {
               max-width: 100%;
             }
+
+            strong {
+              color: $primaryColor;
+            }
           }
         }
       }
+
     }
   }
 
@@ -6636,6 +6659,14 @@ svg:not(:root) {
   padding-bottom: 150px;
   background-color: $primaryColor;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
   .form-sec-row {
     @include ipadLarge {
       flex-direction: column-reverse;
@@ -7791,6 +7822,14 @@ svg:not(:root) {
 .phases-on-demands-app-area {
   padding: 150px 0;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
   .heading-main-sec {
     h4 {
       max-width: 610px;
@@ -7800,6 +7839,10 @@ svg:not(:root) {
 
   .phases-on-demands-app-block {
     margin-top: 80px;
+
+    @include ipadLarge {
+      margin-top: 40px;
+    }
 
     .phases-on-demands-app-block-inner {
       position: relative;
@@ -7814,6 +7857,11 @@ svg:not(:root) {
         padding-bottom: 20px;
         transition: all ease 0.5s;
         position: relative;
+
+        @include mobileLarge {
+          font-size: 30px;
+          line-height: 1.2;
+        }
 
         &::before {
           content: "";
@@ -7848,6 +7896,10 @@ svg:not(:root) {
           position: relative;
           padding-left: 30px;
 
+          @include ipadLarge {
+            margin-bottom: 20px;
+          }
+
           &::before {
             content: "";
             width: 12px;
@@ -7861,6 +7913,10 @@ svg:not(:root) {
             top: 50%;
             transform: translateY(-50%);
             box-shadow: 0 0 12px $phasesShadowColor;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
           }
         }
       }
@@ -7878,12 +7934,22 @@ svg:not(:root) {
         .phases-on-demands-app-block-inner-img {
           transform: translateY(0);
           opacity: 1;
+
+          @include ipadLarge {
+            position: relative;
+            left: 0;
+            margin-bottom: 30px;
+          }
         }
 
         ul.bullet-list {
           transform: translateY(0);
           height: auto;
           padding-bottom: 100px;
+
+          @include ipadLarge {
+            padding-bottom: 30px;
+          }
         }
 
       }
@@ -7902,6 +7968,40 @@ svg:not(:root) {
           object-fit: cover;
         }
       }
+
+      &:first-child {
+        h4 {
+          @include ipadLarge {
+            color: $secondaryColor;
+          }
+
+          &:before {
+            width: 100%;
+            background-color: $secondaryColor;
+          }
+        }
+
+        ul {
+          &.bullet-list {
+            @include ipadLarge {
+              padding-bottom: 30px;
+              transform: translateY(0);
+              height: auto;
+            }
+          }
+        }
+
+        .phases-on-demands-app-block-inner-img {
+          @include ipadLarge {
+            position: relative;
+            left: 0;
+            margin-bottom: 40px;
+            transform: translateY(0%);
+            opacity: 1;
+          }
+        }
+
+      }
     }
 
   }
@@ -7915,19 +8015,39 @@ svg:not(:root) {
   position: relative;
   z-index: 9;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
   .phases-on-demands-app-info-box {
     background: linear-gradient(0deg, rgba(242, 110, 101, 0) 0%, rgba(242, 110, 101, 0.07) 100%);
     padding: 40px;
     height: 100%;
 
+    @include mdScreen {
+      padding: 30px;
+    }
+
     .card {
       .card-title {
         font-size: 32px;
-        line-height: 40px;
+        line-height: 1.2;
         font-weight: 400;
         padding-bottom: 30px;
         border-bottom: 1px solid $borderBottomColor;
         opacity: 1 !important;
+
+        @include ipadLarge {
+          font-size: 30px;
+        }
+
+        @include mobileLarge {
+          font-size: 28px;
+        }
 
         .word {
           .letter {
@@ -7942,6 +8062,14 @@ svg:not(:root) {
 
         .card-info-block {
           margin-bottom: 40px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          @include ipadLarge {
+            margin-bottom: 20px;
+          }
 
           .small-heading {
             font-size: 20px;
@@ -7984,6 +8112,15 @@ svg:not(:root) {
               color: $textBaseColor;
               position: relative;
 
+              &:last-child {
+                margin-bottom: 0;
+              }
+
+              @include ipadLarge {
+                font-size: 18px;
+                line-height: 1.4;
+              }
+
               span {
                 width: 60px;
                 height: 60px;
@@ -7994,6 +8131,13 @@ svg:not(:root) {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                @include mdScreen {
+                  width: 50px;
+                  min-width: 50px;
+                  height: 50px;
+                  min-height: 50px;
+                }
 
                 img {
                   height: auto;
@@ -8027,6 +8171,14 @@ svg:not(:root) {
 .on-demand-app-slider-area {
   padding: 150px 0;
 
+  @include ipadLarge {
+    padding: 0 0 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 0 0 60px 0;
+  }
+
   .on-demand-app-slider-block {
     margin-top: 40px;
     border-radius: 40px;
@@ -8057,6 +8209,12 @@ svg:not(:root) {
         margin: 0;
         position: relative;
 
+        .on-demand-app-slider-block-outer {
+          @include ipadLarge {
+            flex-direction: column;
+          }
+        }
+
         .on-demand-app-slider-block-inner-left {
           width: 50%;
           position: relative;
@@ -8068,6 +8226,18 @@ svg:not(:root) {
               width: 100%;
               height: 540px;
               object-fit: contain;
+
+              @include ipadLarge {
+                width: 60%;
+                height: auto;
+                object-fit: contain;
+                margin: 0 auto 20px auto;
+                display: block;
+              }
+
+              @include mobileLarge {
+                width: 80%;
+              }
             }
           }
         }
@@ -8077,6 +8247,19 @@ svg:not(:root) {
           padding-left: 40px;
           padding-right: 120px;
 
+          @include desktopSmallMax {
+            padding-right: 50px;
+          }
+
+          @include ipadLarge {
+            width: 100%;
+            padding: 0 40px;
+          }
+
+          @include mobileLarge {
+            padding: 0 30px 0 20px;
+          }
+
           .on-demand-app-slider-block-inner-right-info {
 
             .heading {
@@ -8084,6 +8267,11 @@ svg:not(:root) {
               line-height: 50px;
               font-weight: 400;
               opacity: 1 !important;
+
+              @include mobileLarge {
+                font-size: 40px;
+                line-height: 1;
+              }
 
               .word {
                 .letter {
@@ -8097,11 +8285,19 @@ svg:not(:root) {
             .para {
               font-family: $secondryFornts;
               font-size: 18px;
-              line-height: 30px;
+              line-height: 1.5;
               font-weight: 400;
               color: $phasesTextColor;
               margin: 30px 0;
               opacity: 1 !important;
+
+              @include ipadLarge {
+                margin: 20px 0;
+              }
+
+              @include mobileLarge {
+                margin: 10px 0;
+              }
 
               .word {
                 .letter {
@@ -8126,6 +8322,17 @@ svg:not(:root) {
                 align-items: center;
                 gap: 15px;
 
+                @include ipadLarge {
+                  margin: 20px 0;
+                  gap: 10px;
+                  font-size: 18px;
+                }
+
+                @include mobileLarge {
+                  margin: 15px 0;
+                  font-size: 16px;
+                }
+
                 .icons {
                   svg {
                     overflow: visible;
@@ -8136,11 +8343,10 @@ svg:not(:root) {
           }
         }
       }
-
-
     }
 
     .od-app-pagi {
+      position: absolute;
       right: 30px;
       display: flex;
       flex-direction: column;
@@ -8148,6 +8354,10 @@ svg:not(:root) {
       gap: 5px;
       top: 50%;
       transform: translateY(-50%);
+
+      @include mobileLarge {
+        right: 15px;
+      }
 
       .swiper-pagination-bullet {
         background-color: $secondaryColor;
@@ -8175,6 +8385,31 @@ svg:not(:root) {
       left: 80px;
       width: 100%;
       max-width: 530px;
+
+      @include desktopSmallMax {
+        max-width: 480px;
+        left: 50px;
+      }
+
+      @include mdScreen {
+        max-width: 420px;
+        left: 20px;
+      }
+
+      @include ipadLarge {
+        max-width: 400px;
+        left: 0px;
+        top: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+
+      svg {
+        @include desktopSmallMax {
+          width: 100%;
+        }
+      }
+
     }
   }
 }
@@ -8185,6 +8420,14 @@ svg:not(:root) {
 
     .on-demand-app-slider-block {
       margin-top: 0;
+
+      @include ipadLarge {
+        padding-top: 40px;
+      }
+
+      @include mobileLarge {
+        border-radius: 20px;
+      }
     }
   }
 }
@@ -8232,6 +8475,11 @@ svg:not(:root) {
       width: 100%;
       border-radius: 30px;
 
+      @include ipadLarge {
+        height: 300px;
+        object-fit: cover;
+      }
+
       @include mobileLarge {
         height: 300px;
         object-fit: cover;
@@ -8258,7 +8506,7 @@ svg:not(:root) {
       .heading-main-sec {
         h4 {
           margin: 0;
-          max-width: 75%;
+          max-width: 80%;
 
           @include mobileLarge {
             max-width: 100%;
@@ -8382,12 +8630,18 @@ svg:not(:root) {
   position: relative;
   z-index: 9;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
   .heading-main-sec {
     h4 {
       margin: 0;
       color: $primaryColor;
-      font-size: 80px;
-      line-height: 90px;
     }
   }
 
@@ -8398,6 +8652,16 @@ svg:not(:root) {
     padding: 0;
     margin: 40px 0 40px;
     gap: 30px;
+
+    @include ipadLarge {
+      gap: 10px;
+    }
+
+    @include mobileLarge {
+      overflow: scroll;
+      height: 60px;
+      margin: 40px 0 20px 0;
+    }
 
     li {
       cursor: pointer;
@@ -8416,6 +8680,19 @@ svg:not(:root) {
       font-weight: 700;
       background-color: $white;
       transition: all 1s ease;
+
+      @include ipadLarge {
+        padding: 10px 10px;
+        height: 60px;
+        font-size: 16px;
+      }
+
+      @include mobileLarge {
+        box-shadow: none;
+        height: 50px;
+        font-size: 15px;
+        min-width: 42%;
+      }
 
       &:hover {
         background-color: $secondaryColor;
@@ -8449,6 +8726,15 @@ svg:not(:root) {
     border-radius: 40px;
     box-shadow: 20px 20px 60px 10px $tabContentShadow;
     padding: 60px;
+
+    @include desktopSmall {
+      padding: 40px;
+    }
+
+    @include ipadLarge {
+      padding: 20px;
+      border-radius: 20px;
+    }
   }
 
   .tab-content {
@@ -8467,10 +8753,18 @@ svg:not(:root) {
     flex-wrap: wrap;
     gap: 30px;
 
+    @include desktopSmall {
+      gap: 20px;
+    }
+
+    @include mobileLarge {
+      gap: 15px;
+    }
+
     li {
       width: calc(33.33% - 20px);
       font-size: 28px;
-      line-height: 30px;
+      line-height: 1.3;
       font-weight: 400;
       color: $primaryColor;
       font-family: "QAEFQS+TTFirsNeue";
@@ -8478,12 +8772,45 @@ svg:not(:root) {
       padding: 0 0 20px;
       border-bottom: 1px solid $borderBottomColor;
 
+      @include desktopSmall {
+        font-size: 24px;
+      }
+
+      @include mdScreen {
+        font-size: 20px;
+      }
+
+      @include ipadLarge {
+        width: calc(50% - 10px);
+      }
+
+      @include mobileLarge {
+        width: 100%;
+        padding-bottom: 15px;
+        align-items: center;
+        font-size: 18px;
+      }
+
       span {
-        width: 86%;
+        width: calc(100% - 53px);
+
+        @include mdScreen {
+          width: calc(100% - 40px);
+        }
       }
 
       &:nth-last-child(-n+3) {
         border-bottom: none;
+
+        @include ipadLarge {
+          border-bottom: 1px solid $borderBottomColor;
+        }
+      }
+
+      &:last-child {
+        @include ipadLarge {
+          border-bottom: none;
+        }
       }
     }
 
@@ -8497,6 +8824,16 @@ svg:not(:root) {
         background: url(../../../assets/img/tabicon-1.webp) no-repeat center;
         background-size: contain;
         margin-right: 10px;
+
+        @include mdScreen {
+          width: 30px;
+          height: 30px;
+        }
+
+        @include mobileLarge {
+          width: 25px;
+          height: 25px;
+        }
       }
     }
 
@@ -8510,6 +8847,16 @@ svg:not(:root) {
         background: url(../../../assets/img/tabicon-2.webp) no-repeat center;
         background-size: contain;
         margin-right: 10px;
+
+        @include mdScreen {
+          width: 30px;
+          height: 30px;
+        }
+
+        @include mobileLarge {
+          width: 25px;
+          height: 25px;
+        }
       }
     }
   }
@@ -8938,8 +9285,14 @@ h6+p+p {
     z-index: 9;
 
     .heading-main-sec {
-      h4 {
+
+      h4,
+      h2 {
         color: $primaryColor;
+
+        span {
+          color: $primaryColor;
+        }
       }
     }
 
@@ -9227,6 +9580,14 @@ h6+p+p {
 .different-categories {
   padding: 150px 0 0;
 
+  @include ipadLarge {
+    padding: 100px 0 0 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0 0 0;
+  }
+
   .row {
     row-gap: 40px;
   }
@@ -9285,10 +9646,23 @@ h6+p+p {
       transform: translateY(57%);
       transition: transform 0.5s ease;
 
+      @include desktopSmallMax {
+        padding: 20px;
+        transform: translateY(62%);
+      }
+
+      @include mdScreen {
+        transform: translateY(68%);
+      }
+
+      @include ipadLarge {
+        transform: translateY(58%);
+      }
+
       h3 {
         margin: 0 0 20px;
         font-size: 25px;
-        line-height: 30px;
+        line-height: 1.2;
         color: $white;
         font-weight: 400;
         font-family: "QAEFQS+TTFirsNeue";
@@ -9297,6 +9671,10 @@ h6+p+p {
         flex-wrap: wrap;
         align-items: flex-end;
         column-gap: 10px;
+
+        @include mdScreen {
+          font-size: 22px;
+        }
       }
 
       p {
@@ -9445,11 +9823,50 @@ h6+p+p {
 /* Form Section Css End  */
 
 /* bg-sec cx css start */
+
+.service-bg-mobile {
+  display: none;
+  position: relative;
+
+  @include ipadLarge {
+    display: block;
+  }
+
+  &:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/cx-shap-bg.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+
+    @include mobileLarge {
+      max-height: 240px;
+    }
+  }
+}
+
 section.sevice-bg-sec {
   padding: 120px 0px;
   position: relative;
   min-height: 1080px;
   overflow: hidden;
+
+  @include ipadLarge {
+    padding: 100px 0;
+    min-height: 100%;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
 
   img.cx-bg-img {
     position: absolute;
@@ -9459,12 +9876,23 @@ section.sevice-bg-sec {
     z-index: -1;
     opacity: 0;
     transition: 0.3s ease;
+    object-fit: cover;
+    object-position: center;
+
+    @include ipadLarge {
+      opacity: 0;
+    }
   }
 
   .cx-top-img {
     margin: 0px auto;
     z-index: 0;
     width: 100%;
+    height: 100%;
+
+    @include ipadLarge {
+      display: none;
+    }
   }
 
   .cx-top-img {
@@ -9488,6 +9916,10 @@ section.sevice-bg-sec {
     left: 0;
     right: 0;
     width: 100%;
+
+    @include ipadLarge {
+      position: relative;
+    }
   }
 
   .cust-bg-title {
@@ -9510,6 +9942,26 @@ section.sevice-bg-sec {
     bottom: 120px;
     right: 240px;
 
+    @include desktopSmall2 {
+      left: 40px;
+      right: auto;
+      padding-right: 40px;
+    }
+
+    @include ipadLarge {
+      position: relative;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px 0 0 0;
+      opacity: 1;
+    }
+
+    @include mobileLarge {
+      bottom: 60px;
+    }
+
     p {
       color: $white;
       font-size: 20px;
@@ -9522,6 +9974,10 @@ section.sevice-bg-sec {
     img.cx-bg-img {
       opacity: 1;
       transition: 0.3s ease;
+
+      @include ipadLarge {
+        opacity: 0;
+      }
     }
 
     .cx-top-img {
@@ -9551,6 +10007,22 @@ section.sevice-bg-sec {
 .summary-sec {
   padding: 150px 0;
 
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
+
+  .col-md-4,
+  .col-md-8 {
+    @include mobileLarge {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
   .row {
     .summary-intro {
       h3 {
@@ -9565,11 +10037,29 @@ section.sevice-bg-sec {
       padding-bottom: 60px;
       margin-bottom: 60px;
 
+      @include ipadLarge {
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+      }
+
+      @include mobileLarge {
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+      }
+
       p {
         color: $white;
         font-size: 35px;
-        line-height: 50px;
+        line-height: 1.5;
         margin: 0;
+
+        @include mdScreen {
+          font-size: 30px;
+        }
+
+        @include ipadLarge {
+          font-size: 25px;
+        }
       }
 
       a.btn {
@@ -9596,10 +10086,23 @@ section.sevice-bg-sec {
         z-index: 10;
         height: 340px;
 
+        @include ipadLarge {
+          padding-left: 20px;
+        }
+
+        @include mobileLarge {
+          height: auto;
+          margin-bottom: 40px;
+        }
+
         li {
           list-style-type: none;
           margin-top: 30px;
           position: relative;
+
+          @include ipadLarge {
+            margin-top: 20px;
+          }
 
           &::before {
             content: "";
@@ -9614,15 +10117,21 @@ section.sevice-bg-sec {
             bottom: 0;
             margin: auto 0;
             transition: background-color 0.3s ease;
+
+            @include ipadLarge {
+              left: -24px;
+            }
           }
 
           &.active {
             &::before {
               background-color: $secondaryColor !important;
+              opacity: 1;
             }
 
             a {
               color: $white !important;
+              opacity: 1;
             }
           }
 
@@ -9634,6 +10143,10 @@ section.sevice-bg-sec {
             font-weight: 500;
             opacity: 70%;
             transition: color 0.3s ease;
+
+            @include ipadLarge {
+              font-size: 18px;
+            }
           }
 
           a.active {
@@ -9645,6 +10158,10 @@ section.sevice-bg-sec {
 
     .cust-summary-wrapper {
       padding-bottom: 60px;
+
+      @include ipadLarge {
+        padding-bottom: 40px;
+      }
 
       &:last-child {
         padding-bottom: 0px;
@@ -9660,6 +10177,14 @@ section.sevice-bg-sec {
         color: $white;
         margin-bottom: 30px;
         margin-top: 80px;
+
+        @include mdScreen {
+          font-size: 50px;
+        }
+
+        @include ipadLarge {
+          font-size: 40px;
+        }
       }
 
       p {
@@ -9667,6 +10192,10 @@ section.sevice-bg-sec {
         line-height: 1.75;
         color: $white;
         margin-bottom: 0;
+
+        @include ipadLarge {
+          font-size: 18px;
+        }
       }
 
       h4 {
@@ -9675,6 +10204,10 @@ section.sevice-bg-sec {
         line-height: 1;
         margin-top: 40px;
         margin-bottom: 20px;
+
+        @include ipadLarge {
+          font-size: 26px;
+        }
       }
 
       ul {
@@ -9687,6 +10220,10 @@ section.sevice-bg-sec {
           display: flex;
           align-items: center;
           margin-bottom: 25px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
 
           &::before {
             content: '';
@@ -9710,6 +10247,11 @@ section.sevice-bg-sec {
         display: flex;
         flex-direction: column;
         gap: 80px;
+
+        @include ipadLarge {
+          margin-top: 40px;
+          gap: 40px;
+        }
       }
     }
   }
@@ -9721,12 +10263,35 @@ section.sevice-bg-sec {
 /* product deatils page css end */
 
 /* career page css start */
+
+.career-page {
+  .lets-talk-area {
+    padding-top: 72px;
+
+    @include ipadLarge {
+      padding-top: 0;
+    }
+  }
+
+  .cust-footer-sec {
+    padding-top: 0;
+  }
+}
+
 .career-area {
   padding: 150px 0;
   background-image: url(../img/MobileConvert.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
 
   .career-area-block {
     margin-top: 40px;
@@ -9741,6 +10306,22 @@ section.sevice-bg-sec {
       margin-right: 30px;
       border-radius: 40px;
       background: $secondaryColor;
+
+      @include desktopSmall {
+        width: 100px;
+        height: 100px;
+        border-radius: 30px;
+      }
+
+      @include mdScreen {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+      }
+
+      @include mdScreen {
+        margin-right: 20px;
+      }
     }
 
     .career-area-block-wrap {
@@ -9752,6 +10333,10 @@ section.sevice-bg-sec {
       overflow: hidden;
       padding: 30px;
 
+      @include mdScreen {
+        padding: 20px;
+      }
+
       &.active {
         background-color: $primaryColor;
         z-index: 1;
@@ -9759,6 +10344,10 @@ section.sevice-bg-sec {
 
       .career-area-block-top {
         padding: 0px;
+
+        // @include ipadLarge {
+        //   flex-wrap: wrap;
+        // }
 
         .card-title {
           font-family: $primaryFonts;
@@ -9769,6 +10358,10 @@ section.sevice-bg-sec {
           cursor: pointer;
           opacity: 1 !important;
           margin-bottom: 16px;
+
+          @include mdScreen {
+            font-size: 28px;
+          }
 
           .word {
             .letter {
@@ -9796,7 +10389,15 @@ section.sevice-bg-sec {
                 display: inline-block;
                 background: $secondaryColor;
                 margin-left: 30px;
+                position: relative;
+                top: 4px;
               }
+            }
+
+
+            @include mdScreen {
+              padding-right: 20px;
+              font-size: 16px;
             }
 
             span.fw-normal {
@@ -9829,12 +10430,22 @@ section.sevice-bg-sec {
             p {
               margin: 0 0 0 13px;
               font-size: 20px;
-              line-height: 30px;
+              line-height: 1.2;
               font-weight: 600;
+
+              @include mdScreen {
+                font-size: 18px;
+              }
             }
           }
         }
       }
+
+      // &:first-child {
+      //   .card-text {
+      //     display: block;
+      //   }
+      // }
     }
   }
 }
@@ -9857,8 +10468,14 @@ section.sevice-bg-sec {
     z-index: 9;
 
     .heading-main-sec {
-      h4 {
+
+      h4,
+      h2 {
         color: $primaryColor;
+
+        span {
+          color: $primaryColor;
+        }
       }
     }
 
@@ -10069,6 +10686,10 @@ section.sevice-bg-sec {
           z-index: 9;
           mix-blend-mode: difference;
           position: relative;
+
+          @include desktopSmall {
+            font-size: 30px;
+          }
         }
       }
     }
@@ -10113,6 +10734,14 @@ body.overflow-hidden-x {
   position: relative;
   padding: 150px 0 150px 0;
   z-index: 1;
+
+  @include ipadLarge {
+    padding: 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0;
+  }
 
   img.cust-bg {
     width: 100%;
@@ -10540,6 +11169,16 @@ body.overflow-hidden-x {
 
 /* product deatils Banner css start */
 
+.project-detail-page {
+  .lets-talk-area {
+    padding-top: 72px;
+
+    @include ipadLarge {
+      padding-top: 0;
+    }
+  }
+}
+
 .project-detail-banner {
   position: relative;
   z-index: 999;
@@ -10554,6 +11193,13 @@ body.overflow-hidden-x {
     background: radial-gradient(closest-side, transparent, transparent, rgba(0, 0, 0, 0.97));
   }
 
+  img {
+    @include mobileLarge {
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+
   .project-detail-banner-content {
     position: absolute;
     top: 0;
@@ -10562,6 +11208,14 @@ body.overflow-hidden-x {
     right: 0;
     z-index: 1;
     padding: 120px 0;
+
+    @include ipadLarge {
+      padding: 100px 0;
+    }
+
+    @include mobileLarge {
+      padding: 60px 0;
+    }
 
     .container {
       height: 100%;
@@ -10576,6 +11230,10 @@ body.overflow-hidden-x {
           display: flex;
           justify-content: space-between;
 
+          @include mobileLarge {
+            flex-direction: column;
+          }
+
           .back-button a {
             text-decoration: none;
 
@@ -10588,6 +11246,12 @@ body.overflow-hidden-x {
               border-radius: 50%;
               background-color: $secondaryColor;
               margin-right: 15px;
+
+              @include mobileLarge {
+                width: 50px;
+                height: 50px;
+                margin-right: 10px;
+              }
             }
 
             strong {
@@ -10601,6 +11265,11 @@ body.overflow-hidden-x {
 
           .project-content-bar {
             .project-year {
+
+              @include mobileLarge {
+                padding-top: 40px;
+              }
+
               .heading-main-sec {
                 text-align: left;
 
@@ -10608,13 +11277,13 @@ body.overflow-hidden-x {
                   font-size: 20px;
                   line-height: 20px;
                   font-weight: 600;
-                  color: #2D2E30;
+                  color: $secondaryColor;
                 }
 
                 h4 {
                   margin: 20px 0 0;
-                  font-size: 40px;
-                  line-height: 40px;
+                  font-size: 40px !important;
+                  line-height: 1.2;
                   font-weight: 700;
                   color: $white;
                 }
@@ -10624,6 +11293,10 @@ body.overflow-hidden-x {
             .project-role {
               padding-top: 100px;
 
+              @include mobileLarge {
+                padding-top: 40px;
+              }
+
               .heading-main-sec {
                 text-align: left;
 
@@ -10631,13 +11304,13 @@ body.overflow-hidden-x {
                   font-size: 20px;
                   line-height: 20px;
                   font-weight: 600;
-                  color: #2D2E30;
+                  color: $secondaryColor;
                 }
 
                 h4 {
                   margin: 20px 0 0;
-                  font-size: 16px;
-                  line-height: 26px;
+                  font-size: 16px !important;
+                  line-height: 1.2;
                   font-weight: 500;
                   color: $white;
                   font-family: "Poppins", serif;
@@ -11360,8 +12033,18 @@ body.overflow-hide {
   z-index: 9;
   overflow: hidden;
 
+  @include ipadLarge {
+    padding-top: 100px;
+  }
+
+  @include mobileLarge {
+    padding-top: 60px;
+  }
   .container {
     max-width: 1210px;
+    @include mdScreenLarge {
+      max-width: 1140px;
+    }
   }
 
   &::before {
@@ -11429,7 +12112,9 @@ body.overflow-hide {
   .Our-Blogs-gallery-outer {
     position: relative;
     margin-top: 50px;
-
+    @include mobileLarge {
+        padding: 0;
+    }
     &::before {
       content: "";
       position: absolute;
@@ -11448,6 +12133,11 @@ body.overflow-hide {
       margin: 0 auto 50px;
       gap: 25px;
 
+      @include mobileLarge {
+        margin-bottom: 30px;
+        flex-direction: column;
+      }
+
       .btn-gal {
         background-color: $white;
         border: 2px solid #F26E6520;
@@ -11461,7 +12151,13 @@ body.overflow-hide {
         box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.10);
         transition: all ease-in-out 0.5s;
         position: relative;
-
+        @include mdScreenLarge {
+          padding:20px 30px;
+        }
+        @include mobileLarge {
+          width:100%;
+          
+        }
         &::before {
           content: "";
           height: 0;
@@ -11476,6 +12172,9 @@ body.overflow-hide {
           z-index: 0;
           opacity: 0;
           transition: all ease-in-out 0.5s;
+          @include mobileLarge {
+            display:none;
+          }
         }
 
         &.on,

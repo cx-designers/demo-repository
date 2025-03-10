@@ -209,12 +209,12 @@ $(document).ready(function () {
             slidesPerGroup: 1,
             autoplay: {
               delay: 2500,
-              disableOnInteraction: false 
+              disableOnInteraction: false
             },
             pagination: {
               el: '.swiper-pagination',
               clickable: true
-          },
+            },
             loop: true,
             breakpoints: {
               1024: {
@@ -258,12 +258,12 @@ $(document).ready(function () {
             loop: true,
             autoplay: {
               delay: 2500,
-              disableOnInteraction: false 
+              disableOnInteraction: false
             },
             pagination: {
               el: '.swiper-pagination',
               clickable: true
-          },
+            },
             breakpoints: {
               1024: {
                 slidesPerView: 3,
@@ -295,52 +295,52 @@ $(document).ready(function () {
   });
 
 
-let testimonailSliderMobile;
+  let testimonailSliderMobile;
 
-function testimonailSwiper() {
-  
-  if ($('.testimonial-con-mobile-sec').length) {  
-    if ($(window).width() <= 767) {
-      if (!testimonailSliderMobile) {
-        testimonailSliderMobile = new Swiper(".testimonial-con-mobile-sec", {
-          slidesPerView: 3,
-          spaceBetween: 0,
-          slidesPerGroup: 1,
-          loop: true,
-          autoplay: {
-            delay: 2500,
-            disableOnInteraction: false 
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          breakpoints: {
-            768: {
-              slidesPerView: 2,
+  function testimonailSwiper() {
+
+    if ($('.testimonial-con-mobile-sec').length) {
+      if ($(window).width() <= 767) {
+        if (!testimonailSliderMobile) {
+          testimonailSliderMobile = new Swiper(".testimonial-con-mobile-sec", {
+            slidesPerView: 3,
+            spaceBetween: 0,
+            slidesPerGroup: 1,
+            loop: true,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false
             },
-            520: {
-              slidesPerView: 1,
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+              768: {
+                slidesPerView: 2,
+              },
+              520: {
+                slidesPerView: 1,
+              }
             }
-          }
-        });
-      }
-    } else {
-      if (testimonailSliderMobile) {
-        testimonailSliderMobile.destroy(true, true);
-        testimonailSliderMobile = null;
+          });
+        }
+      } else {
+        if (testimonailSliderMobile) {
+          testimonailSliderMobile.destroy(true, true);
+          testimonailSliderMobile = null;
+        }
       }
     }
   }
-}
 
-// Initialize on load
-testimonailSwiper();
-
-// Re-check on resize
-$(window).resize(function () {
+  // Initialize on load
   testimonailSwiper();
-});
+
+  // Re-check on resize
+  $(window).resize(function () {
+    testimonailSwiper();
+  });
 });
 /* Counter Slider Section Complete */
 
@@ -749,7 +749,7 @@ function initIndustriesSection() {
         loop: true,
         autoplay: {
           delay: 2500,
-          disableOnInteraction: false 
+          disableOnInteraction: false
         },
         pagination: {
           el: '.swiper-pagination',
@@ -1263,11 +1263,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* service - review from client js Start */
 
+// var swiper = new Swiper(".od-app-slider", {
+//   direction: "vertical",
+//   mousewheelControl: true,
+//   slidesPerView: 1,
+//   loop: true,
+//   pagination: {
+//     el: ".od-app-pagi",
+//     clickable: true,
+//   },
+// });
+
+
 var swiper = new Swiper(".od-app-slider", {
   direction: "vertical",
-  mousewheelControl: true,
-  slidesPerView: 1,
-  loop: true,
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false
+  // },
   pagination: {
     el: ".od-app-pagi",
     clickable: true,
@@ -1881,45 +1894,45 @@ document.querySelector(".tab-arrow").addEventListener("click", function () {
 function initSwiper() {
   let screenWidth = window.innerWidth;
   let projectsList = document.querySelector(".projects-list");
-  
+
   if (screenWidth <= 767) {
-      if (!projectsList.classList.contains("swiper")) {
-          projectsList.classList.add("swiper");
-          let projectsWrapper = document.createElement("div");
-          projectsWrapper.classList.add("swiper-wrapper");
-          
-          let projectsItems = document.querySelectorAll(".projects-item");
-          projectsItems.forEach(item => {
-              let swiperSlide = document.createElement("div");
-              swiperSlide.classList.add("swiper-slide");
-              swiperSlide.appendChild(item);
-              projectsWrapper.appendChild(swiperSlide);
-          });
-          
-          projectsList.innerHTML = "";
-          projectsList.appendChild(projectsWrapper);
-          let pagination = document.createElement("div");
-          pagination.classList.add("swiper-pagination");
-          projectsList.appendChild(pagination);
-          
-          new Swiper(".projects-list", {
-              slidesPerView: 1,
-              slidesToScroll: 1,
-              pagination: {
-                  el: ".swiper-pagination",
-                  clickable: true,
-              },
-          });
-      }
+    if (!projectsList.classList.contains("swiper")) {
+      projectsList.classList.add("swiper");
+      let projectsWrapper = document.createElement("div");
+      projectsWrapper.classList.add("swiper-wrapper");
+
+      let projectsItems = document.querySelectorAll(".projects-item");
+      projectsItems.forEach(item => {
+        let swiperSlide = document.createElement("div");
+        swiperSlide.classList.add("swiper-slide");
+        swiperSlide.appendChild(item);
+        projectsWrapper.appendChild(swiperSlide);
+      });
+
+      projectsList.innerHTML = "";
+      projectsList.appendChild(projectsWrapper);
+      let pagination = document.createElement("div");
+      pagination.classList.add("swiper-pagination");
+      projectsList.appendChild(pagination);
+
+      new Swiper(".projects-list", {
+        slidesPerView: 1,
+        slidesToScroll: 1,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    }
   } else {
-      if (projectsList.classList.contains("swiper")) {
-          projectsList.classList.remove("swiper");
-          projectsList.innerHTML = "";
-          let projectsItems = document.querySelectorAll(".swiper-slide .projects-item");
-          projectsItems.forEach(item => {
-              projectsList.appendChild(item);
-          });
-      }
+    if (projectsList.classList.contains("swiper")) {
+      projectsList.classList.remove("swiper");
+      projectsList.innerHTML = "";
+      let projectsItems = document.querySelectorAll(".swiper-slide .projects-item");
+      projectsItems.forEach(item => {
+        projectsList.appendChild(item);
+      });
+    }
   }
 }
 

@@ -6,18 +6,21 @@
       <div class="model-field">
         <div class="bg-shap"></div>
         <div class="content-col">
-          <div class="content-col-inner">
-            <div class="logo">
+          <div class="content-col-inner d-flex flex-column">
+            <div class="logo order-0">
               <img src="{{ model.cxLogo }}" alt="cx-logo">
             </div>
-
-            <div class="title">
+            
+            <div class="title order-2">
               <h2>{{ model.modelTitle }}</h2>
             </div>
+            <div class="heading-main-sec order-1 text-start">
+              <h3>{{model.modelParagraphLine}}</h3>
+            </div>
+            
+            <p class="order-3">{{ model.modelParagraph }}</p>
 
-            <p>{{ model.modelParagraph }}</p>
-
-            <div class="list">
+            <div class="list order-4">
               <ul>
                 {% for item in model.listItems %}
                 <li>
