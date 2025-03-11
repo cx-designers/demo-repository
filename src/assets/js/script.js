@@ -1884,57 +1884,295 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* Specialize Section Click JS Start */
 
-document.querySelector(".tab-arrow").addEventListener("click", function () {
-  let tabCol = document.querySelector(".tab-col");
-  tabCol.scrollBy({ left: 200, behavior: "smooth" });
-});
+let tabArrow = document.querySelector(".tab-arrow");
+
+if (tabArrow) {
+  tabArrow.addEventListener("click", function () {
+    let tabCol = document.querySelector(".tab-col");
+    tabCol.scrollBy({ left: 200, behavior: "smooth" });
+  });
+}
+
 
 /* Specialize Section Click JS End */
 
-function initSwiper() {
+let projectList = document.querySelector(".projects-list");
+
+if (projectList) {
+  function initSwiperProject() {
+    let screenWidth = window.innerWidth;
+
+    if (screenWidth <= 767) {
+      if (!projectList.classList.contains("swiper")) {
+        projectList.classList.add("swiper");
+
+        let projectsItems = Array.from(projectList.querySelectorAll(".projects-item"));
+
+        let projectsWrapper = document.createElement("div");
+        projectsWrapper.classList.add("swiper-wrapper");
+
+        projectsItems.forEach(item => {
+          let swiperSlide = document.createElement("div");
+          swiperSlide.classList.add("swiper-slide");
+          swiperSlide.appendChild(item);
+          projectsWrapper.appendChild(swiperSlide);
+        });
+
+        projectList.innerHTML = "";
+        projectList.appendChild(projectsWrapper);
+
+        let pagination = document.createElement("div");
+        pagination.classList.add("swiper-pagination");
+        projectList.appendChild(pagination);
+
+        new Swiper(".projects-list", {
+          slidesPerView: 1,
+          spaceBetween: 16,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      }
+    }
+    else {
+      if (projectList.classList.contains("swiper")) {
+        projectList.classList.remove("swiper");
+
+        let projectsItems = Array.from(projectList.querySelectorAll(".swiper-slide .projects-item"));
+
+        projectList.innerHTML = "";
+
+        projectsItems.forEach(item => {
+          projectList.appendChild(item);
+        });
+      }
+    }
+  }
+
+  initSwiperProject();
+  window.addEventListener("resize", initSwiperProject);
+}
+
+
+/* Related Blog Section Click JS End */
+
+let relatedBlogs = document.querySelector(".related-blog-row");
+let originalBlogItems = Array.from(document.querySelectorAll(".blog-item"));
+let swiperBlogInstance;
+
+if (relatedBlogs) {
+  function initSwiperBlog() {
+    let screenWidth = window.innerWidth;
+
+    if (screenWidth <= 991) {
+      if (!relatedBlogs.classList.contains("swiper-initialized")) {
+        relatedBlogs.classList.add("swiper");
+
+        let projectsWrapper = document.createElement("div");
+        projectsWrapper.classList.add("swiper-wrapper");
+
+        originalBlogItems.forEach(item => {
+          let swiperSlide = document.createElement("div");
+          swiperSlide.classList.add("swiper-slide");
+          swiperSlide.appendChild(item);
+          projectsWrapper.appendChild(swiperSlide);
+        });
+
+        relatedBlogs.innerHTML = "";
+        relatedBlogs.appendChild(projectsWrapper);
+
+        let pagination = document.createElement("div");
+        pagination.classList.add("swiper-pagination");
+        relatedBlogs.appendChild(pagination);
+
+        swiperBlogInstance = new Swiper(".related-blog-row", {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            991: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 1,
+            },
+          },
+        });
+      }
+    } else {
+      if (relatedBlogs.classList.contains("swiper")) {
+        if (swiperBlogInstance) {
+          swiperBlogInstance.destroy(true, true);
+        }
+        relatedBlogs.classList.remove("swiper", "swiper-initialized");
+
+        relatedBlogs.innerHTML = "";
+
+        originalBlogItems.forEach(item => {
+          relatedBlogs.appendChild(item);
+        });
+      }
+    }
+  }
+
+  initSwiperBlog();
+
+  let resizeTimeout;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(initSwiperBlog, 100);
+  });
+}
+
+
+
+/* Related News Section Click JS End */
+
+let relatedNews = document.querySelector(".related-news-row");
+let originalItems = Array.from(document.querySelectorAll(".news-item"));
+
+let swiperInstance;
+
+if (relatedNews) {
+  function initSwiperNews() {
+    let screenWidth = window.innerWidth;
+
+    if (screenWidth <= 991) {
+      if (!relatedNews.classList.contains("swiper-initialized")) {
+        relatedNews.classList.add("swiper");
+
+        let projectsWrapper = document.createElement("div");
+        projectsWrapper.classList.add("swiper-wrapper");
+
+        originalItems.forEach(item => {
+          let swiperSlide = document.createElement("div");
+          swiperSlide.classList.add("swiper-slide");
+          swiperSlide.appendChild(item);
+          projectsWrapper.appendChild(swiperSlide);
+        });
+
+        relatedNews.innerHTML = "";
+        relatedNews.appendChild(projectsWrapper);
+
+        let pagination = document.createElement("div");
+        pagination.classList.add("swiper-pagination");
+        relatedNews.appendChild(pagination);
+
+        swiperInstance = new Swiper(".related-news-row", {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            991: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 1,
+            },
+          },
+        });
+      }
+    } else {
+      if (relatedNews.classList.contains("swiper")) {
+        if (swiperInstance) {
+          swiperInstance.destroy(true, true);
+        }
+        relatedNews.classList.remove("swiper", "swiper-initialized");
+
+        relatedNews.innerHTML = "";
+
+        originalItems.forEach(item => {
+          relatedNews.appendChild(item);
+        });
+      }
+    }
+  }
+
+  initSwiperNews();
+
+  let resizeTimeout;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(initSwiperNews, 100);
+  });
+}
+
+
+/* Industries Page JS Start */
+
+let industries = document.querySelector(".industries-list-wrapper");
+let industriesItems = Array.from(document.querySelectorAll(".industries-list-box"));
+let industriesInstance = null;
+
+function initSwiperOrList() {
   let screenWidth = window.innerWidth;
-  let projectsList = document.querySelector(".projects-list");
 
-  if (screenWidth <= 767) {
-    if (!projectsList.classList.contains("swiper")) {
-      projectsList.classList.add("swiper");
-      let projectsWrapper = document.createElement("div");
-      projectsWrapper.classList.add("swiper-wrapper");
+  if (screenWidth < 1025 && !industriesInstance) {
+    industries.classList.add("swiper");
 
-      let projectsItems = document.querySelectorAll(".projects-item");
-      projectsItems.forEach(item => {
-        let swiperSlide = document.createElement("div");
-        swiperSlide.classList.add("swiper-slide");
-        swiperSlide.appendChild(item);
-        projectsWrapper.appendChild(swiperSlide);
-      });
+    let wrapper = document.createElement("div");
+    wrapper.classList.add("swiper-wrapper");
 
-      projectsList.innerHTML = "";
-      projectsList.appendChild(projectsWrapper);
-      let pagination = document.createElement("div");
-      pagination.classList.add("swiper-pagination");
-      projectsList.appendChild(pagination);
+    industriesItems.forEach(item => {
+      let slide = document.createElement("div");
+      slide.classList.add("swiper-slide");
+      slide.appendChild(item);
+      wrapper.appendChild(slide);
+    });
 
-      new Swiper(".projects-list", {
-        slidesPerView: 1,
-        slidesToScroll: 1,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+    industries.innerHTML = "";
+    industries.appendChild(wrapper);
+
+    let pagination = document.createElement("div");
+    pagination.classList.add("swiper-pagination");
+    industries.appendChild(pagination);
+
+    industriesInstance = new Swiper(".industries-list-wrapper", {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        1025: {
+          slidesPerView: 3,
+          slidesPerGroup: 3
         },
-      });
-    }
-  } else {
-    if (projectsList.classList.contains("swiper")) {
-      projectsList.classList.remove("swiper");
-      projectsList.innerHTML = "";
-      let projectsItems = document.querySelectorAll(".swiper-slide .projects-item");
-      projectsItems.forEach(item => {
-        projectsList.appendChild(item);
-      });
-    }
+        992: {
+          slidesPerView: 2,
+          slidesPerGroup: 2
+        },
+        641: {
+          slidesPerView: 1,
+          slidesPerGroup: 1
+        }
+      }
+    });
+
+  } else if (screenWidth > 1025 && industriesInstance) {
+    industriesInstance.destroy(true, true);
+    industriesInstance = null;
+
+    industries.classList.remove("swiper");
+
+    industries.innerHTML = "";
+    industriesItems.forEach(item => industries.appendChild(item));
   }
 }
 
-initSwiper();
-window.addEventListener("resize", initSwiper);
+initSwiperOrList();
+
+let resizeTimeout;
+window.addEventListener("resize", function () {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(initSwiperOrList, 100);
+});
