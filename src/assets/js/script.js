@@ -605,7 +605,7 @@ document.addEventListener('DOMContentLoaded', () => {
 gsap.registerPlugin(ScrollTrigger);
 
 // Initial styles for elements
-gsap.set([".content-inside-x", ".content-inside-x h1", ".content-inside-x p", ".first-svg", ".second-svg"], { opacity: 0 });
+gsap.set([".content-inside-x", ".content-inside-x h2", ".content-inside-x p", ".first-svg", ".second-svg"], { opacity: 0 });
 gsap.set("#x-path", { fill: "black" });
 
 const bannerTimeline = gsap.timeline({
@@ -621,7 +621,6 @@ const bannerTimeline = gsap.timeline({
 
 // Animation sequence
 bannerTimeline
-
   .set([".letter-x > svg"], { width: "100vw" }) // Set initial width without animation
   .to([".letter-x > svg"], {
     opacity: 1,
@@ -629,26 +628,30 @@ bannerTimeline
     width: "1400vw",
     ease: "power1.inOut"
   })
-
-
-  .to([".content-inside-x"], {
+  .to(".content-inside-x", {
     opacity: 1,
     duration: 0.5,
   }, 0)
-
   .to("#x-path", {
     fill: "#F26E65",
     duration: 0.5,
     ease: "power1.inOut",
-  }, 0.5)
+  }, 0.5);
 
-  .to(".content-inside-x h2", {
-    fontSize: "6rem",
-    opacity: 1,
-    duration: 0.5,
-    ease: "power1.inOut",
-  }, 0.5)
+// Responsive font size handling
+gsap.matchMedia()
+  .add("(min-width: 992px)", () => {
+    bannerTimeline.to(".content-inside-x h2", { fontSize: "6rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+  })
+  .add("(max-width: 991px)", () => {
+    bannerTimeline.to(".content-inside-x h2", { fontSize: "4rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+  })
+  .add("(max-width: 767px)", () => {
+    bannerTimeline.to(".content-inside-x h2", { fontSize: "3rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+  });
 
+// Continue animation
+bannerTimeline
   .to(".first-svg", {
     opacity: 1,
     x: 200,
@@ -656,7 +659,6 @@ bannerTimeline
     duration: 1,
     ease: "power1.inOut",
   }, 0)
-
   .to(".second-svg", {
     opacity: 1,
     x: -200,
@@ -664,17 +666,15 @@ bannerTimeline
     duration: 1,
     ease: "power1.inOut",
   }, 0)
-
   .to([".first-svg", ".second-svg"], {
     opacity: 0,
     duration: 0.5,
   }, 0.8)
-
   .to(".content-inside-x h2", {
     opacity: 0,
     duration: 0.8,
     ease: "power1.inOut",
-  }, 1)
+  }, 1);
 
 
 /* Service Section JS End */
@@ -1802,7 +1802,7 @@ document.addEventListener('DOMContentLoaded', function () {
         entry.target.classList.remove('is-visible');
       }
     });
-  }, { threshold: 0.5 });
+  }, { threshold: 0 });
 
   sections.forEach(section => {
     observer.observe(section);
@@ -2105,74 +2105,120 @@ if (relatedNews) {
 }
 
 
+
 /* Industries Page JS Start */
 
 let industries = document.querySelector(".industries-list-wrapper");
-let industriesItems = Array.from(document.querySelectorAll(".industries-list-box"));
-let industriesInstance = null;
 
-function initSwiperOrList() {
-  let screenWidth = window.innerWidth;
+if (industries) {
+  let industriesItems = Array.from(document.querySelectorAll(".industries-list-box"));
+  let industriesInstance = null;
 
-  if (screenWidth < 1025 && !industriesInstance) {
-    industries.classList.add("swiper");
+  function initSwiperOrList() {
+    let screenWidth = window.innerWidth;
 
-    let wrapper = document.createElement("div");
-    wrapper.classList.add("swiper-wrapper");
+    if (screenWidth < 1025 && !industriesInstance) {
+      industries.classList.add("swiper");
 
-    industriesItems.forEach(item => {
-      let slide = document.createElement("div");
-      slide.classList.add("swiper-slide");
-      slide.appendChild(item);
-      wrapper.appendChild(slide);
-    });
+      let wrapper = document.createElement("div");
+      wrapper.classList.add("swiper-wrapper");
 
-    industries.innerHTML = "";
-    industries.appendChild(wrapper);
+      industriesItems.forEach(item => {
+        let slide = document.createElement("div");
+        slide.classList.add("swiper-slide");
+        slide.appendChild(item);
+        wrapper.appendChild(slide);
+      });
 
-    let pagination = document.createElement("div");
-    pagination.classList.add("swiper-pagination");
-    industries.appendChild(pagination);
+      industries.innerHTML = "";
+      industries.appendChild(wrapper);
 
-    industriesInstance = new Swiper(".industries-list-wrapper", {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
-      spaceBetween: 20,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        1025: {
-          slidesPerView: 3,
-          slidesPerGroup: 3
+      let pagination = document.createElement("div");
+      pagination.classList.add("swiper-pagination");
+      industries.appendChild(pagination);
+
+      industriesInstance = new Swiper(".industries-list-wrapper", {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
-        992: {
-          slidesPerView: 2,
-          slidesPerGroup: 2
-        },
-        641: {
-          slidesPerView: 1,
-          slidesPerGroup: 1
+        breakpoints: {
+          1025: {
+            slidesPerView: 3,
+            slidesPerGroup: 3
+          },
+          992: {
+            slidesPerView: 2,
+            slidesPerGroup: 2
+          },
+          641: {
+            slidesPerView: 1,
+            slidesPerGroup: 1
+          }
         }
-      }
-    });
+      });
 
-  } else if (screenWidth > 1025 && industriesInstance) {
-    industriesInstance.destroy(true, true);
-    industriesInstance = null;
+    } else if (screenWidth > 1025 && industriesInstance) {
+      industriesInstance.destroy(true, true);
+      industriesInstance = null;
 
-    industries.classList.remove("swiper");
+      industries.classList.remove("swiper");
 
-    industries.innerHTML = "";
-    industriesItems.forEach(item => industries.appendChild(item));
+      industries.innerHTML = "";
+      industriesItems.forEach(item => industries.appendChild(item));
+    }
+  }
+
+  initSwiperOrList();
+
+  let resizeTimeout;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(initSwiperOrList, 100);
+  });
+}
+
+
+
+function setLoaderHeight() {
+  if ($(window).width() <= 767) {
+    let heroHeight = $('.hero-wrapper').outerHeight();
+    $('.loaderWrapper').css('height', heroHeight);
+  } else {
+    $('.loaderWrapper').css('height', '100vh');
   }
 }
 
-initSwiperOrList();
+$(document).ready(function () {
+  setLoaderHeight();
+  const observer = new MutationObserver(function () {
+    setLoaderHeight();
+  });
 
-let resizeTimeout;
-window.addEventListener("resize", function () {
-  clearTimeout(resizeTimeout);
-  resizeTimeout = setTimeout(initSwiperOrList, 100);
+  observer.observe(document.querySelector('.hero-wrapper'), { attributes: true, childList: true, subtree: true });
 });
+
+$(window).resize(function () {
+  setLoaderHeight();
+});
+
+
+/* Join Team Mobile JS Start */
+
+let teamMobile = document.querySelector(".join-team-mobile");
+
+if (teamMobile) {
+
+  var swiper = new Swiper(".team-mobile-slider", {
+    spaceBetween: 20,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
+}
+
+/* Join Team Mobile JS End */

@@ -1,21 +1,58 @@
 <section class="join-team-sec">
   <div class="join-team-container">
-      {% for wrapper in teamWrappers %}
-          <div class="join-team-image-wrapper">
-            <div class="join-team-title">
-              <h2>{{ wrapper.eventName }}</h2>
-            </div>
-              {% for image in wrapper.images %}
-                  <a href="{{ image.teamLink }}" class="join-team-image">
-                      <img src="{{ image.teamImg }}" alt="{{ image.teamAlt }}">
-                  </a>
-              {% endfor %}
-
-              <div class="join-team-link">
-                <a href="{{ wrapper.joinLink }}" aria-label="{{ wrapper.joinAria }}">{{ wrapper.joinText }}</a>
-              </div>
-              
-          </div>
+    {% for wrapper in teamWrappers %}
+    <div class="join-team-image-wrapper">
+      <div class="join-team-title">
+        <h2>{{ wrapper.eventName }}</h2>
+      </div>
+      {% for image in wrapper.images %}
+      <a href="{{ image.teamLink }}" class="join-team-image">
+        <img src="{{ image.teamImg }}" alt="{{ image.teamAlt }}">
+      </a>
       {% endfor %}
+
+      <div class="join-team-link">
+        <a href="{{ wrapper.joinLink }}" aria-label="{{ wrapper.joinAria }}">{{ wrapper.joinText }}</a>
+      </div>
+
+    </div>
+    {% endfor %}
   </div>
 </section>
+
+<section class="join-team-mobile">
+  <div class="join-team-container">
+    <div class="swiper team-mobile-slider">
+      <div class="swiper-wrapper">
+        {% for slide in teamMobileSlides %}
+        <div class="swiper-slide">
+          <div class="slider-inner">
+            <div class="title">
+              <h2>{{ slide.title }}</h2>
+            </div>
+
+            <div class="image-wrapper">
+              {% for image in slide.images %}
+              <div class="image">
+                <img src="{{ image.src }}" alt="{{ image.alt }}">
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="botton">
+              <a href="{{ slide.href }}" class="primary-btn" aria-label="{{ slide.label }}">
+                <span class="glow"></span>
+                <span class="stock"></span>
+                <span class="btn-text">{{ slide.text }}</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+

@@ -642,7 +642,10 @@ p {
   position: absolute;
   min-height: 900px;
   bottom: 0;
-
+  @include mobileLarge {
+    min-height: auto;
+    bottom: unset;
+  }
   .drawLogowrapper {
     margin-top: auto;
 
@@ -669,7 +672,16 @@ p {
     }
 
     @include mobileLarge {
-      left: -100%;
+      left: auto;
+      height: 100%;
+      bottom: -40%;
+      right: -50%;
+      svg {
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: 0;
+      }
     }
   }
 
@@ -948,17 +960,17 @@ body.open-menu {
   min-height: 900px;
 
   @include mdScreenLarge {
+    padding: 100px 0px 40px 0px;
     min-height: auto;
-    height: auto;
-    padding: 160px 0px 40px 0px;
   }
-
   @include mobileLarge {
     min-height: auto;
     height: auto;
-    padding: 120px 0px 40px 0px;
+    padding: 100px 0px 80px 0px;
   }
-
+  @include mobileSmall {
+    padding: 100px 0px 70px 0px;
+  }
   p {
     color: $white;
     font-size: 20px;
@@ -980,7 +992,12 @@ body.open-menu {
   h1 {
     position: relative;
     opacity: 1;
-
+    @include mobileLarge {
+      font-size: 50px;
+    }
+    @include mobileSmall {
+      font-size: 30px;
+    }
     span {
       display: block;
     }
@@ -992,7 +1009,7 @@ body.open-menu {
         filter: blur(2px);
       }
 
-      @include mobileLarge {
+      @include mdScreenSmall {
         display: none;
       }
 
@@ -1088,8 +1105,9 @@ body.open-menu {
       align-items: center;
 
       .col-md-4 {
-        @include mobileLarge {
+        @include ipadLarge {
           flex: unset;
+          width: 100%;
         }
 
         p.sec-small-title {
@@ -1156,7 +1174,7 @@ body.open-menu {
               width: 90%;
             }
 
-            @include mobileLarge {
+            @include ipadLarge {
               margin: 0px auto 30px;
               width: 40%;
             }
@@ -1199,7 +1217,7 @@ body.open-menu {
               width: 90%;
             }
 
-            @include mobileLarge {
+            @include ipadLarge {
               margin-left: auto;
               margin-right: auto;
               margin-top: 40px;
@@ -1232,7 +1250,7 @@ body.open-menu {
             color: $textBaseColor;
             margin: 50px 0 36px 0;
 
-            @include mobileLarge {
+            @include ipadLarge {
               margin-top: 0;
             }
           }
@@ -1255,13 +1273,8 @@ body.open-menu {
               margin: 0px auto;
             }
 
-            @include mobileLarge {
+            @include ipadLarge {
               display: none;
-            }
-
-            @include mobileSmall {
-              height: 450px;
-              width: 100%;
             }
 
             img {
@@ -1379,14 +1392,14 @@ body.open-menu {
       will-change: transform, font-size, opacity;
 
       @include mobileLarge {
-        font-size: 100px !important;
+        // font-size: 80px !important;
         width: 100%;
         height: 100%;
         word-wrap: break-word;
       }
 
       @include mobileSmall {
-        font-size: 50px !important;
+        // font-size: 40px !important;
       }
     }
 
@@ -1446,7 +1459,10 @@ body.open-menu {
       @include desktopSmall {
         font-size: 60px;
       }
-
+      @include mdScreen {
+        font-size: 50px;
+        text-align: center;
+      }
       @include mobileLarge {
         font-size: 36px;
       }
@@ -1566,8 +1582,8 @@ body.open-menu {
           }
 
           @include ipadLarge {
-            font-size: 50px;
-            line-height: 60px;
+            font-size: 40px;
+            line-height: 50px;
           }
 
           @include mobileLarge {
@@ -1762,9 +1778,6 @@ body.open-menu {
 /* Service Section CSS End */
 
 /* footer css start */
-.pb-60 {
-  padding-bottom: 60px;
-}
 
 .cust-footer-sec {
   padding: 100px 0 60px 0px;
@@ -1777,20 +1790,6 @@ body.open-menu {
   @include mobileLarge {
     padding-top: 60px;
     padding-bottom: 20px;
-  }
-
-  .black-logo {
-    filter: invert(1);
-    position: unset !important;
-    width: 100%;
-
-    @include mobileLarge {
-      width: auto;
-    }
-  }
-
-  .border-bottom-cust {
-    border-bottom: 1px solid $borderBottomColor;
   }
 }
 
@@ -1940,10 +1939,17 @@ body.open-menu {
         font-size: 60px;
         line-height: 70px;
       }
-
+      @include mdScreen {  
+        text-align: center;
+      }
       @include mobileLarge {
         font-size: 40px;
         line-height: 50px;
+      }
+    }
+    h3{
+      @include mdScreen {
+        text-align: center;
       }
     }
   }
@@ -2388,6 +2394,14 @@ div#lottie-animation {
     h4 {
       max-width: 900px;
       margin: 0 auto;
+      @include mdScreen {
+        text-align: center;
+      }
+    }
+    h3{
+      @include mdScreen {
+        text-align: center;
+      }
     }
   }
 
@@ -2409,6 +2423,9 @@ div#lottie-animation {
         padding: 0px 15px;
         flex: 0 0 100%;
         max-width: 100%;
+        @include mobileLarge {
+          padding: 0px 30px;
+        }
       }
     }
 
@@ -2459,7 +2476,9 @@ div#lottie-animation {
             background: $primaryColor;
             border: 1px solid $borderGray;
             border-radius: 15px;
-
+              @include  mobileLarge {
+                height: 100%;
+              }
             .testimonial-item-icon-sec {
               margin: 0px;
               padding: 0px;
@@ -2559,12 +2578,19 @@ div#lottie-animation {
         z-index: 999;
       }
 
+      @include mobileLarge {
+        .testimonial-item-block {
+          height: auto;
+        }
+      }
+      
       .testimonial-item-block-inner {
         margin: 0px 20px;
         padding: 35px 30px;
         background: $primaryColor;
         border: 1px solid $borderGray;
         border-radius: 15px;
+        height: 100%;
 
         .testimonial-item-icon-sec {
           svg {
@@ -2723,6 +2749,10 @@ div#lottie-animation {
 
     h4 {
       margin: 0 0 40px 0;
+      text-align: center;
+    }
+    h3{
+      text-align: center;
     }
   }
 
@@ -2774,6 +2804,10 @@ div#lottie-animation {
 
       @include mdScreenLarge {
         width: auto;
+      }
+
+      @include mobileSmall {
+        padding: 0px;
       }
 
       // @include mdScreen {
@@ -2841,7 +2875,7 @@ div#lottie-animation {
             width: 100%;
           }
 
-          @include mdScreen {
+          @include mobileLarge {
             width: auto;
           }
         }
@@ -2950,7 +2984,7 @@ div#lottie-animation {
           line-height: 70px;
         }
 
-        @include mobileLarge {
+        @include ipadLarge {
           font-size: 50px;
           line-height: 60px;
         }
@@ -2996,11 +3030,13 @@ div#lottie-animation {
       @include mobileLarge {
         height: 166px;
         max-height: 166px;
+        border-radius: 20px;
       }
 
       @include mobileSmall {
         height: 140px;
         max-height: 140px;
+        border-radius: 15px;
       }
 
       &:nth-child(1n) {
@@ -3199,7 +3235,7 @@ div#lottie-animation {
             text-align: center;
             margin: 0;
 
-            @include mobileLarge {
+            @include mdScreen {
               font-size: 22px !important;
             }
           }
@@ -3243,12 +3279,12 @@ div#lottie-animation {
       margin-top: 30px;
     }
   }
-
-  @include mobileLarge {
+  @include mdScreen {
     height: auto !important;
     padding-top: 60px !important;
     padding-bottom: 80px !important;
   }
+
 }
 
 @include mobileLarge {
@@ -3554,10 +3590,24 @@ div#lottie-animation {
   z-index: 9;
 
   .heading-main-sec {
+    @include mdScreen {
+      padding: 0px 30px;
+    }
+    @include mobileSmall {
+      padding: 0px 15px;
+    }
+    h3{
+      @include mdScreen {
+        text-align: center;
+      }
+    }
     h4 {
       color: $primaryColor;
       max-width: 900px;
       margin: 0 auto;
+      @include mdScreen {
+        text-align: center;
+      }
     }
   }
 
@@ -3961,7 +4011,13 @@ svg:not(:root) {
   .black-logo {
     filter: invert(1);
     position: unset !important;
-    width: auto;
+    width: 100%;
+    @include mdScreen {
+      width: 100%;
+    }
+    @include mobileLarge {
+      width: auto;
+    }
   }
 
   .border-bottom-cust {
@@ -4252,18 +4308,18 @@ svg:not(:root) {
 
     @include mobileLarge {
       flex-wrap: wrap;
-      margin-top: 40px;
-
+      margin-top: 0px;
+      padding-top: 25px;
       p.copyright {
         width: 100%;
         text-align: center;
-        margin-bottom: 20px;
+        margin-top: 20px;
       }
 
       ul {
         width: 100%;
         justify-content: center;
-
+        order: -1;
         li {
           img {
             width: 40px;
@@ -4330,9 +4386,6 @@ svg:not(:root) {
     }
   }
 }
-
-
-
 /* footer css end */
 
 /* about page css start */
@@ -4570,6 +4623,19 @@ svg:not(:root) {
 /* aswesome-sec css start */
 .aswesome-sec {
   padding: 150px 0;
+
+  .heading-main-sec {
+
+    @include ipadLarge {
+      padding: 0 20px;
+    }
+
+    h2, h3 {
+      @include ipadLarge {
+        text-align: center;
+      }
+    }
+  }
 
   .short-desc {
     font-size: 16px;
@@ -10371,8 +10437,16 @@ section.sevice-bg-sec {
         border-radius: 10px;
       }
 
-      @include mdScreen {
-        margin-right: 20px;
+      @include ipadLarge {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+      }
+
+      svg {
+        @include ipadLarge {
+          width: 25px;
+        }
       }
     }
 
@@ -10385,8 +10459,18 @@ section.sevice-bg-sec {
       overflow: hidden;
       padding: 30px;
 
+      &:last-child {
+        margin-bottom: 0;
+      }
+
       @include mdScreen {
         padding: 20px;
+      }
+
+      @include ipadLarge {
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 10px;
       }
 
       &.active {
@@ -10397,9 +10481,29 @@ section.sevice-bg-sec {
       .career-area-block-top {
         padding: 0px;
 
+        @include ipadLarge {
+          align-items: center;
+        }
+
         // @include ipadLarge {
         //   flex-wrap: wrap;
         // }
+
+        .career-info {
+          width: calc(100% - 353px);
+
+          @include desktopmid {
+            width: calc(100% - 300px);
+          }
+
+          @include desktopSmall {
+            width: calc(100% - 280px);
+          }
+
+          @include ipadLarge {
+            width: calc(100% - 125px);
+          }
+        }
 
         .card-title {
           font-family: $primaryFonts;
@@ -10415,6 +10519,11 @@ section.sevice-bg-sec {
             font-size: 28px;
           }
 
+          @include ipadLarge {
+            font-size: 22px;
+            margin-bottom: 10px;
+          }
+
           .word {
             .letter {
               transform: translateX(0px) translateZ(0px) scaleX(1) !important;
@@ -10424,36 +10533,87 @@ section.sevice-bg-sec {
 
         }
 
+        .button-wraaper {
+          @include ipadLarge {
+            width: 50px;
+            height: 50px;
+            margin: 0px 0 0 0;
+            justify-content: center;
+          }
+
+          a {
+            @include ipadLarge {
+              width: 50px;
+              height: 50px;
+            }
+
+            span {
+              &.btn-text {
+                @include ipadLarge {
+                  font-size: 0;
+                  background-image: url(../img/apply-now-icon.svg);
+                  background-size: 25px;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                }
+              }
+            }
+          }
+        }
+
         .other-info {
           p {
             font-weight: 600;
             font-size: 20px;
             line-height: 1;
             font-family: $secondryFornts;
+            position: relative;
 
             &:not(:last-child) {
               padding-right: 30px;
 
+              @include mdScreen {
+                padding-right: 20px;
+              }
+
+              @include desktopSmall {
+                padding-right: 40px;
+              }
+
               &::after {
-                content: '';
+                content: "";
                 width: 1px;
-                height: 20px;
+                height: 100%;
                 display: inline-block;
-                background: $secondaryColor;
-                margin-left: 30px;
-                position: relative;
-                top: 4px;
+                background: #f26e65;
+                position: absolute;
+                top: 0;
+                right: 15px;
+                bottom: 0;
+                margin: auto 0;
+
+                @include desktopSmall {
+                  right: 20px;
+                }
               }
             }
 
 
             @include mdScreen {
-              padding-right: 20px;
               font-size: 16px;
             }
 
             span.fw-normal {
               font-weight: 400;
+
+              @include desktopSmall {
+                display: block;
+                margin: 10px 0 0 0;
+              }
+
+              @include ipadLarge {
+                font-size: 14px;
+              }
             }
           }
         }
@@ -10477,6 +10637,10 @@ section.sevice-bg-sec {
           li {
             &:not(:last-child) {
               margin-bottom: 25px;
+
+              @include ipadLarge {
+                margin-bottom: 15px;
+              }
             }
 
             p {
@@ -10487,6 +10651,10 @@ section.sevice-bg-sec {
 
               @include mdScreen {
                 font-size: 18px;
+              }
+
+              @include ipadLarge {
+                font-size: 16px;
               }
             }
           }
@@ -10913,6 +11081,15 @@ body.overflow-hidden-x {
       min-height: 255px;
       margin-bottom: 100px;
 
+      @include ipadLarge {
+        padding: 20px;
+        margin-bottom: 50px;
+      }
+
+      @include mobileLarge {
+        min-height: 440px;
+      }
+
       &::after {
         content: '';
         width: 168px;
@@ -10923,6 +11100,11 @@ body.overflow-hidden-x {
         background-size: contain;
         left: 50%;
         transform: translateX(-50%);
+
+        @include ipadLarge {
+          width: 98px;
+          height: 28px;
+        }
       }
 
       .tab-pane {
@@ -10941,8 +11123,24 @@ body.overflow-hidden-x {
           transition: 0.3s ease;
           opacity: 1;
         }
+
+        @include ipadLarge {
+          font-size: 18px;
+        }
+
+        @include mobileLarge {
+          font-size: 16px;
+        }
       }
 
+    }
+
+    nav {
+      @include ipadLarge {
+        overflow: hidden;
+        overflow-x: auto;
+        padding-bottom: 10px;
+      }
     }
 
     .nav-tabs {
@@ -10950,10 +11148,25 @@ body.overflow-hidden-x {
       gap: 30px;
       background: $white;
 
+      @include ipadLarge {
+        width: 100vw;
+        flex-wrap: nowrap;
+      }
+
       button {
         border: none;
         padding: 0px;
         width: calc(25% - 22.5px);
+
+        @include ipadLarge {
+          width: 30%;
+          min-width: 30%;
+        }
+
+        @include mobileLarge {
+          width: 50%;
+          min-width: 50%;
+        }
 
         span.emp-name {
           display: flex;
@@ -10964,6 +11177,10 @@ body.overflow-hidden-x {
           letter-spacing: 0.5px;
           color: $primaryColor;
           margin-top: 20px;
+
+          @include mobileLarge {
+            font-size: 25px;
+          }
         }
 
         .emp-wrapper {
@@ -10978,6 +11195,11 @@ body.overflow-hidden-x {
             max-height: 420px;
             filter: grayscale(1);
             transition: 0.3s ease;
+
+            @include ipadLarge {
+              object-fit: cover;
+              object-position: top;
+            }
           }
 
           &::after {
@@ -11027,6 +11249,10 @@ body.overflow-hidden-x {
   position: relative;
   background-color: $white;
   z-index: 9;
+
+  @include mdScreenSmall {
+    display: none;
+  }
 
   .join-team-title {
     position: absolute;
@@ -11157,12 +11383,113 @@ body.overflow-hidden-x {
   }
 }
 
+.join-team-mobile {
+  display: none;
+  overflow: hidden;
+  padding: 100px 0 0 0;
+
+  @include mobileLarge {
+    padding: 60px 0 0 0;
+  }
+
+  @include mdScreenSmall {
+    display: block;
+  }
+
+  .join-team-container {
+    padding: 0 20px;
+
+    .team-mobile-slider {
+      position: relative;
+      padding-bottom: 50px;
+
+      .swiper-pagination {
+        span {
+          &.swiper-pagination-bullet {
+            background: $white;
+            opacity: 0.5;
+            transition: 0.3s ease;
+
+            &.swiper-pagination-bullet-active {
+              background: $secondaryColor;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+
+    .slider-inner {
+      .title {
+        margin: 0 0 35px 0;
+
+        h2 {
+          font-size: 50px;
+          line-height: 1;
+          color: $white;
+          margin: 0;
+
+          @include mobileLarge {
+            font-size: 40px;
+          }
+        }
+      }
+
+      .image-wrapper {
+        -moz-column-count: 1;
+        column-count: 1;
+        -moz-column-gap: 0;
+        column-gap: 0;
+        counter-reset: item-counter;
+
+        -moz-column-count: 2;
+        column-count: 2;
+
+        .image {
+          box-sizing: border-box;
+          -moz-column-break-inside: avoid;
+          break-inside: avoid;
+          padding: 5px;
+          counter-increment: item-counter;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .botton {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 0 0;
+      }
+    }
+  }
+}
 
 /* Join Our Team Section CSS End */
 
 /* Purpose sec css Start */
 .purpose-main-sec {
   padding: 150px 0px;
+
+  @include ipadLarge {
+    padding: 100px 0 0 0;
+  }
+
+  @include mobileLarge {
+    padding: 60px 0 0 0;
+  }
+
+  .heading-main-sec {
+
+    h2,
+    h4 {
+      @include ipadLarge {
+        text-align: center;
+      }
+    }
+  }
 
   .purpose-desc {
     font-size: 16px;
@@ -11175,6 +11502,15 @@ body.overflow-hidden-x {
     gap: 40px;
     margin-top: 40px;
     align-items: flex-start;
+
+    @include mdScreen {
+      gap: 20px;
+    }
+
+    @include ipadLarge {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
     .cust-col {
       display: flex;
@@ -11189,6 +11525,21 @@ body.overflow-hidden-x {
       position: relative;
       overflow: hidden;
 
+      @include mdScreen {
+        width: calc(33.33% - 14px);
+        padding: 30px;
+      }
+
+      @include ipadLarge {
+        width: calc(50% - 10px);
+        padding: 30px 20px;
+        border-radius: 20px;
+      }
+
+      @include mobileLarge {
+        width: 100%;
+      }
+
       &::before {
         position: absolute;
         content: '';
@@ -11202,10 +11553,24 @@ body.overflow-hidden-x {
 
       .image-sec {
         min-height: 240px;
+
+        @include mobileLarge {
+          min-height: 180px;
+        }
+
+        img {
+          @include mobileLarge {
+            width: 100%;
+          }
+        }
       }
 
       &:nth-child(2) {
         margin-top: 60px;
+
+        @include ipadLarge {
+          margin-top: 0;
+        }
       }
 
       h3.cust-inner-title {
@@ -11214,6 +11579,11 @@ body.overflow-hidden-x {
         margin-bottom: 30px;
         margin-top: 8px;
         text-align: center;
+
+        @include mdScreen {
+          font-size: 40px;
+          margin-bottom: 20px;
+        }
       }
 
       p.cust-desc {
@@ -11225,19 +11595,47 @@ body.overflow-hidden-x {
   }
 }
 
+.life-at-cypherox-page {
+  .purpose-main-sec {
+    padding-bottom: 0;
+  }
+}
+
 /* Purpose sec css end */
 
 /* Event Videos Section css start */
 .event-videos {
   padding: 120px 0;
 
+  @include ipadLarge {
+    padding: 80px 0 100px 0;
+  }
+
+  @include mobileLarge {
+    padding: 40px 0 60px 0;
+  }
+
   .heading-main-sec {
     h4 {
       font-size: 180px;
-      line-height: 150px;
+      line-height: 1;
       font-family: $secondryFornts;
       font-weight: 700;
       margin-right: 400px;
+
+      @include mdScreen {
+        font-size: 140px !important;
+        margin-right: 200px;
+      }
+
+      @include ipadLarge {
+        font-size: 100px !important;
+        margin-right: 0;
+      }
+
+      @include mobileLarge {
+        font-size: 70px !important;
+      }
     }
 
     h4.strock-line {
@@ -11246,6 +11644,18 @@ body.overflow-hidden-x {
       -webkit-text-stroke-color: $secondaryColor;
       margin-right: 0;
       margin-left: 300px;
+
+      @include mdScreen {
+        margin-left: 300px;
+      }
+
+      @include ipadLarge {
+        margin-left: 100px;
+      }
+
+      @include ipadLarge {
+        margin-left: 50px;
+      }
     }
   }
 
@@ -11255,9 +11665,17 @@ body.overflow-hidden-x {
     position: relative;
     z-index: 99;
 
+    @include mobileLarge {
+      margin-top: -40px;
+    }
+
     .event-video-swiper {
       padding: 20px 0;
       margin: 0 100px;
+
+      @include mobileLarge {
+        margin: 0 60px;
+      }
 
       .event-video-img {
         position: relative;
@@ -11284,6 +11702,10 @@ body.overflow-hidden-x {
       .swiper-slide.available {
         margin-top: 50px;
 
+        @include mobileLarge {
+          margin-top: 20px;
+        }
+
         .event-video-img {
           &::before {
             bottom: -20px;
@@ -11293,6 +11715,16 @@ body.overflow-hidden-x {
           }
         }
       }
+    }
+  }
+}
+
+.life-at-cypherox-page {
+  .aswesome-sec {
+    padding-bottom: 110px;
+
+    @include mdScreen {
+      padding-bottom: 0;
     }
   }
 }

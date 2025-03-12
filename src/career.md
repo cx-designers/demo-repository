@@ -42,7 +42,7 @@ careerBoxList :
 - careerJobTitle: "Technical Content Writer"
   careerExp: "1 to 2 years"
   careerOpenings: "2"
-  careerQualification: "any"
+  careerQualification: "bachelor of engineering"
   careerDescriptionList: 
     - careerDescriptionItem: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - careerDescriptionItem: Lorem ipsum dolor sit amet.
