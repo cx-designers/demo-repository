@@ -642,10 +642,12 @@ p {
   position: absolute;
   min-height: 900px;
   bottom: 0;
+
   @include mobileLarge {
     min-height: auto;
     bottom: unset;
   }
+
   .drawLogowrapper {
     margin-top: auto;
 
@@ -676,6 +678,7 @@ p {
       height: 100%;
       bottom: -40%;
       right: -50%;
+
       svg {
         height: 100%;
         width: 100%;
@@ -963,14 +966,17 @@ body.open-menu {
     padding: 100px 0px 40px 0px;
     min-height: auto;
   }
+
   @include mobileLarge {
     min-height: auto;
     height: auto;
     padding: 100px 0px 80px 0px;
   }
+
   @include mobileSmall {
     padding: 100px 0px 70px 0px;
   }
+
   p {
     color: $white;
     font-size: 20px;
@@ -992,12 +998,15 @@ body.open-menu {
   h1 {
     position: relative;
     opacity: 1;
+
     @include mobileLarge {
       font-size: 50px;
     }
+
     @include mobileSmall {
       font-size: 30px;
     }
+
     span {
       display: block;
     }
@@ -1459,10 +1468,12 @@ body.open-menu {
       @include desktopSmall {
         font-size: 60px;
       }
+
       @include mdScreen {
         font-size: 50px;
         text-align: center;
       }
+
       @include mobileLarge {
         font-size: 36px;
       }
@@ -1939,15 +1950,18 @@ body.open-menu {
         font-size: 60px;
         line-height: 70px;
       }
-      @include mdScreen {  
+
+      @include mdScreen {
         text-align: center;
       }
+
       @include mobileLarge {
         font-size: 40px;
         line-height: 50px;
       }
     }
-    h3{
+
+    h3 {
       @include mdScreen {
         text-align: center;
       }
@@ -2394,11 +2408,13 @@ div#lottie-animation {
     h4 {
       max-width: 900px;
       margin: 0 auto;
+
       @include mdScreen {
         text-align: center;
       }
     }
-    h3{
+
+    h3 {
       @include mdScreen {
         text-align: center;
       }
@@ -2423,6 +2439,7 @@ div#lottie-animation {
         padding: 0px 15px;
         flex: 0 0 100%;
         max-width: 100%;
+
         @include mobileLarge {
           padding: 0px 30px;
         }
@@ -2476,9 +2493,11 @@ div#lottie-animation {
             background: $primaryColor;
             border: 1px solid $borderGray;
             border-radius: 15px;
-              @include  mobileLarge {
-                height: 100%;
-              }
+
+            @include mobileLarge {
+              height: 100%;
+            }
+
             .testimonial-item-icon-sec {
               margin: 0px;
               padding: 0px;
@@ -2583,7 +2602,7 @@ div#lottie-animation {
           height: auto;
         }
       }
-      
+
       .testimonial-item-block-inner {
         margin: 0px 20px;
         padding: 35px 30px;
@@ -2751,7 +2770,8 @@ div#lottie-animation {
       margin: 0 0 40px 0;
       text-align: center;
     }
-    h3{
+
+    h3 {
       text-align: center;
     }
   }
@@ -3279,6 +3299,7 @@ div#lottie-animation {
       margin-top: 30px;
     }
   }
+
   @include mdScreen {
     height: auto !important;
     padding-top: 60px !important;
@@ -3593,18 +3614,22 @@ div#lottie-animation {
     @include mdScreen {
       padding: 0px 30px;
     }
+
     @include mobileSmall {
       padding: 0px 15px;
     }
-    h3{
+
+    h3 {
       @include mdScreen {
         text-align: center;
       }
     }
+
     h4 {
       color: $primaryColor;
       max-width: 900px;
       margin: 0 auto;
+
       @include mdScreen {
         text-align: center;
       }
@@ -4011,10 +4036,12 @@ svg:not(:root) {
   .black-logo {
     filter: invert(1);
     position: unset !important;
-    width: 100%;
-    @include mdScreen {
+    width: auto;
+
+    @include ipadLarge {
       width: 100%;
     }
+
     @include mobileLarge {
       width: auto;
     }
@@ -4310,6 +4337,7 @@ svg:not(:root) {
       flex-wrap: wrap;
       margin-top: 0px;
       padding-top: 25px;
+
       p.copyright {
         width: 100%;
         text-align: center;
@@ -4320,6 +4348,7 @@ svg:not(:root) {
         width: 100%;
         justify-content: center;
         order: -1;
+
         li {
           img {
             width: 40px;
@@ -4386,6 +4415,7 @@ svg:not(:root) {
     }
   }
 }
+
 /* footer css end */
 
 /* about page css start */
@@ -4630,7 +4660,8 @@ svg:not(:root) {
       padding: 0 20px;
     }
 
-    h2, h3 {
+    h2,
+    h3 {
       @include ipadLarge {
         text-align: center;
       }
@@ -8141,6 +8172,12 @@ svg:not(:root) {
     padding: 60px 0;
   }
 
+  .phases-row {
+    @include ipadLarge {
+      justify-content: center;
+    }
+  }
+
   .phases-on-demands-app-info-box {
     background: linear-gradient(0deg, rgba(242, 110, 101, 0) 0%, rgba(242, 110, 101, 0.07) 100%);
     padding: 40px;
@@ -8599,7 +8636,7 @@ svg:not(:root) {
       }
 
       @include mobileLarge {
-        height: 300px;
+        height: 350px;
         object-fit: cover;
       }
     }
@@ -8626,8 +8663,13 @@ svg:not(:root) {
           margin: 0;
           max-width: 80%;
 
+          @include ipadLarge {
+            max-width: 96%;
+          }
+
           @include mobileLarge {
             max-width: 100%;
+            font-size: 36px !important;
           }
         }
       }
@@ -10916,13 +10958,16 @@ section.sevice-bg-sec {
         border-bottom: 1px solid $secondaryColor;
         margin: 0 0 40px 0;
       }
+
       .mobile-img {
         display: none;
         width: 100%;
+
         @include ipadLarge {
           display: block;
           margin-top: 20px;
         }
+
         @include mobileLarge {
           width: auto;
           height: 200px;
@@ -11950,6 +11995,21 @@ body.overflow-hidden-x {
       margin: 0 0 150px 0;
       position: relative;
 
+      @include mdScreen {
+        padding: 30px;
+      }
+
+      @include ipadLarge {
+        flex-direction: column;
+        margin: 0 0 100px 0;
+      }
+
+      @include mobileLarge {
+        margin: 0 0 60px 0;
+        padding: 10px;
+        border-radius: 20px;
+      }
+
       &:before {
         position: absolute;
         content: "";
@@ -11967,8 +12027,41 @@ body.overflow-hidden-x {
         margin: 0;
       }
 
+      .image-col {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 0 50px;
+
+        img {
+          width: 100%;
+        }
+
+        @include desktopSmall {
+          width: 50%;
+        }
+
+        @include ipadLarge {
+          width: 80%;
+          padding: 50px 0 0 0;
+        }
+      }
+
       &:nth-child(even) {
         flex-direction: row-reverse;
+
+        @include ipadLarge {
+          flex-direction: column;
+        }
+
+        .image-col {
+          padding: 0 50px 0 0;
+
+          @include ipadLarge {
+            padding: 50px 0 0 0;
+          }
+        }
 
         &:before {
           left: auto;
@@ -11979,13 +12072,40 @@ body.overflow-hidden-x {
       .content-col {
         width: 40%;
 
+        @include desktopSmall {
+          width: 50%;
+        }
+
+        @include ipadLarge {
+          width: 100%;
+        }
+
         .content-col-inner {
           padding: 40px;
           background-color: $white;
           border-radius: 30px;
 
+          @include mdScreen {
+            padding: 20px;
+          }
+
+          @include mobileLarge {
+            border-radius: 20px;
+          }
+
           .logo {
             margin: 0 0 30px 0;
+
+            @include mobileLarge {
+              margin: 0 0 20px 0;
+            }
+
+            img {
+              @include mobileLarge {
+                width: 60px;
+                height: 60px;
+              }
+            }
           }
 
           h2 {
@@ -11994,6 +12114,10 @@ body.overflow-hidden-x {
             color: $primaryColor;
             font-weight: 400;
             margin: 0 0 20px 0;
+
+            @include mobileLarge {
+              font-size: 35px;
+            }
           }
 
           p {
@@ -12021,6 +12145,16 @@ body.overflow-hidden-x {
 
                 .icon {
                   margin: 5px 15px 0 0;
+
+                  @include mobileLarge {
+                    margin: 5px 10px 0 0;
+                  }
+
+                  img {
+                    @include mobileLarge {
+                      width: 25px;
+                    }
+                  }
                 }
 
                 span {
@@ -12029,6 +12163,11 @@ body.overflow-hidden-x {
                   color: $tabTextColor;
                   font-weight: 400;
                   margin: 0;
+
+                  @include mobileLarge {
+                    font-size: 16px;
+                    line-height: 1.2;
+                  }
                 }
               }
             }
@@ -12037,13 +12176,20 @@ body.overflow-hidden-x {
 
       }
 
-      .image-col {
-        width: 60%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+    }
+  }
+}
 
+.engagement-model-page {
+  .model-listing-main-sec {
+    padding: 0 0 150px 0;
+
+    @include ipadLarge {
+      padding: 0 0 100px 0;
+    }
+
+    @include mobileLarge {
+      padding: 0 0 60px 0;
     }
   }
 }
@@ -12104,6 +12250,7 @@ body.overflow-hidden-x {
 
     .industries-list-box {
       padding: 0 35px 70px 35px;
+
       @include desktopSmall {
         padding: 0 15px 30px 15px;
       }
@@ -12767,9 +12914,16 @@ body.overflow-hide {
       margin: 0 auto 50px;
       gap: 25px;
 
+      @include ipadLarge {
+        margin: 0 auto 20px;
+        overflow: scroll;
+        height: 90px;
+        justify-content: flex-start !important;
+      }
+
       @include mobileLarge {
-        margin-bottom: 30px;
-        flex-direction: column;
+        margin-bottom: 20px;
+        gap: 15px;
       }
 
       .btn-gal {
@@ -12785,14 +12939,25 @@ body.overflow-hide {
         box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.10);
         transition: all ease-in-out 0.5s;
         position: relative;
+        outline: none;
+
+        @include ipadLarge {
+          box-shadow: none;
+        }
 
         @include mdScreenLarge {
-          padding: 20px 30px;
+          padding: 15px 20px;
+          font-size: 16px;
+        }
+
+        @include ipadLarge {
+          display: flex;
+          flex: 0 0 auto;
+          justify-content: center;
         }
 
         @include mobileLarge {
-          width: 100%;
-
+          // width: 100%;
         }
 
         &::before {
@@ -12810,9 +12975,9 @@ body.overflow-hide {
           opacity: 0;
           transition: all ease-in-out 0.5s;
 
-          @include mobileLarge {
-            display: none;
-          }
+          // @include mobileLarge {
+          //   display: none;
+          // }
         }
 
         &.on,
