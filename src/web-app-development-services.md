@@ -66,7 +66,7 @@ processBoxList :
   stepTitle: "Time to Go Live"
   stepDescription: "Now, your website is ready for the world! We help you start it, and we’re here to keep it working great as your business grows."
 
-devSubTitle : Lorem ipsum
+devSubTitle : What We Do
 devTitle: Customized  Websites
 devTitlePart : for Your Business
 devInformationList :
@@ -221,6 +221,38 @@ phases:
 blogRelatedCtegory:
   - "Design"
   - "Web Development"
+
+hireCtaTitle: "Hire Web Application Developers"
+hireCtaSubTitle: "Hire Dedicated Web App Developers"
+hireCtaDesc: "At Cypherox Technologies, we provide highly skilled web application developers who use cutting-edge technologies to deliver robust, scalable, and secure solutions. Whether you need a dynamic web app, a custom enterprise solution, or an e-commerce platform, our developers ensure seamless performance, intuitive UI/UX, and top-tier security. Partner with us to accelerate your project, reduce development costs, and achieve business success with tailored web solutions."
+hireCtaButtonLink : "/hire-developer.html"
+hireCtaButtonText: "Connect With Our Team"
+
+industriesSubTitle: "Industries We Serve Our Web Application Services"
+industriesTitle: "Industries"
+industriesTitlePart: "We Focus"
+
+faqBoxList :
+- faqTitle: "What types of web applications do you develop?"
+  faqDescription: "At Cypherox Technologies, we specialize in developing custom web applications, including enterprise solutions, e-commerce platforms, SaaS applications, CRM systems, ERP solutions, and progressive web apps (PWAs). Our team ensures that every web app is tailored to meet your unique business needs."
+- faqTitle: "What technologies do you use for web application development?"
+  faqDescription: "We build secure, high-performance web applications using the latest and most robust technologies, including React.js, Angular, Vue.js, Node.js, Python, PHP, Laravel, .NET, and Django, as well as cloud platforms like AWS, Azure, and Google Cloud."
+- faqTitle: "Can I hire dedicated web application developers from Cypherox Technologies?"
+  faqDescription: "Absolutely! We offer dedicated web application developers for hire on a full-time, part-time, or hourly basis. Our developers work exclusively on your project, ensuring high efficiency, flexibility, and timely delivery."
+- faqTitle: "How secure will my web application be?"
+  faqDescription: "Security is a top priority at Cypherox Technologies. We implement SSL encryption, secure authentication (OAuth, JWT), data encryption, firewalls, and regular security audits to protect your application from cyber threats and vulnerabilities."
+- faqTitle: "Will my web application be mobile-friendly and responsive?"
+  faqDescription: "Yes! All our web applications are developed with a mobile-first approach, ensuring seamless performance across desktops, tablets, and smartphones. We use responsive design frameworks like Bootstrap and Tailwind CSS to enhance user experience."
+- faqTitle: "How long does it take to develop a custom web application? "
+  faqDescription: "The development timeline depends on the complexity, features, and customization required. A simple web app may take 4-6 weeks, while a complex enterprise solution may require 3-6 months. We provide a detailed project timeline after analyzing your requirements."
+- faqTitle: "Do you offer post-development support and maintenance?"
+  faqDescription: "Yes! We provide comprehensive post-launch support, regular updates, bug fixes, security patches, and performance enhancements to keep your web application running smoothly."
+- faqTitle: "Can you integrate third-party APIs and services into my web application?"
+  faqDescription: "Of course! We specialize in seamless API integrations, including payment gateways, CRM systems, cloud storage, social media APIs, and AI/ML solutions, to enhance the functionality of your web application." 
+- faqTitle: "What makes Cypherox Technologies different from other web development companies?"
+  faqDescription: "We stand out with our client-centric approach, agile development process, transparent communication, and commitment to innovation. Our team ensures that your web application is built using the latest technologies while focusing on scalability, security, and user experience." 
+- faqTitle: "How do I get started with Cypherox Technologies for my web application development?"
+  faqDescription: "It’s simple! Contact us today for a free consultation. Our experts will discuss your project, understand your needs, and provide a detailed roadmap for development."
 ---
 
 

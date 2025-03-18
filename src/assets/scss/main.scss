@@ -3355,6 +3355,12 @@ div#lottie-animation {
   .heading-main-sec {
     h3 {
       text-align: left;
+      opacity: 1 !important;
+
+      span {
+        opacity: 1 !important;
+        transform: none !important;
+      }
     }
 
     h4,
@@ -3363,6 +3369,12 @@ div#lottie-animation {
       line-height: 1;
       text-align: left;
       max-width: 1170px;
+      opacity: 1 !important;
+
+      span {
+        opacity: 1 !important;
+        transform: none !important;
+      }
 
       @include desktopSmall {
         font-size: 130px;
@@ -6856,13 +6868,13 @@ svg:not(:root) {
     background: linear-gradient(90deg, rgba(242, 110, 101, 0.4) 0%, $primaryColor 80%);
     border: 1px solid $borderGray;
     border-radius: 40px;
-    padding: 80px 130px 10px 80px;
+    padding: 80px 130px 80px 80px;
     position: relative;
     // overflow: hidden;
     z-index: 1;
 
     @include mdScreen {
-      padding: 80px 80px 10px 60px;
+      padding: 80px 80px 80px 60px;
     }
 
     @include ipadLarge {
@@ -6925,7 +6937,7 @@ svg:not(:root) {
         position: relative;
 
         img {
-          height: 570px;
+          height: 625px;
           object-fit: contain;
           text-align: center;
           position: absolute;
@@ -6934,6 +6946,10 @@ svg:not(:root) {
           left: 0px;
           right: 0;
           margin: 0 auto;
+
+          @include mdScreen {
+            height: 614px;
+          }
 
           @include ipadLarge {
             position: relative;
@@ -6956,6 +6972,12 @@ svg:not(:root) {
 
         @include mobileLarge {
           margin-top: 30px;
+        }
+
+        .mb-3 {
+          &:last-child {
+            margin-bottom: 0 !important;
+          }
         }
 
         .form-control {
@@ -7462,6 +7484,7 @@ svg:not(:root) {
   .dedicated-slider-bar {
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
 
     &::before {
       content: "";
@@ -9848,6 +9871,20 @@ h6+p+p {
   }
 }
 
+.hireDeveloper-page {
+  .different-categories {
+    padding-bottom: 150px;
+
+    @include ipadLarge {
+      padding-bottom: 100px;
+    }
+
+    @include mobileLarge {
+      padding-bottom: 60px;
+    }
+  }
+}
+
 /* Different Categories Section Css End */
 
 
@@ -10545,6 +10582,10 @@ section.sevice-bg-sec {
           @include ipadLarge {
             width: calc(100% - 125px);
           }
+
+          @include mobileLarge {
+            width: calc(100% - 65px);
+          }
         }
 
         .card-title {
@@ -10564,6 +10605,10 @@ section.sevice-bg-sec {
           @include ipadLarge {
             font-size: 22px;
             margin-bottom: 10px;
+          }
+
+          @include mobileLarge {
+            margin-bottom: 0;
           }
 
           .word {
@@ -10672,6 +10717,11 @@ section.sevice-bg-sec {
         margin-top: 30px;
         border-top: 1px solid $secondaryColor;
 
+        @include mobileLarge {
+          padding-top: 20px;
+          margin-top: 20px;
+        }
+
         ul {
           padding: 0;
           margin: 0;
@@ -10682,6 +10732,26 @@ section.sevice-bg-sec {
 
               @include ipadLarge {
                 margin-bottom: 15px;
+              }
+            }
+
+            svg {
+              width: 30px;
+              height: 30px;
+
+              @include mobileLarge {
+                width: 20px;
+                height: 20px;
+              }
+            }
+
+            p {
+              width: calc(100% - 43px);
+
+              @include mobileLarge {
+                width: calc(100% - 33px);
+                font-size: 14px !important;
+                font-weight: 400 !important;
               }
             }
 
@@ -10701,6 +10771,34 @@ section.sevice-bg-sec {
             }
           }
         }
+
+        .other-info {
+          @include mobileLarge {
+            flex-direction: column;
+            padding: 20px 0;
+          }
+
+          p {
+            @include mobileLarge {
+              margin-bottom: 10px !important;
+              color: $secondaryColor !important;
+            }
+
+            &:last-child {
+              @include mobileLarge {
+                margin-bottom: 0 !important;
+              }
+            }
+
+            span {
+              @include mobileLarge {
+                color: $white;
+                margin: 0 0 0 5px;
+              }
+            }
+          }
+        }
+
       }
 
       // &:first-child {
@@ -12650,6 +12748,11 @@ body.overflow-hide {
               min-height: 18px;
               justify-content: center;
               align-items: center;
+
+              svg {
+                width: 100%;
+                height: 100%;
+              }
             }
 
             span.inner-text {

@@ -1100,47 +1100,115 @@ if (document.querySelector('.hire-main-sec')) {
 /* Animated Section JS Start */
 
 if (document.querySelector(".Process-main-sec")) {
+  
+  let swiperInstance;
+  
+  function initializeAnimationOrSlider() {
+    const screenWidth = window.innerWidth;
+    const boxes = gsap.utils.toArray(".animated-section .item");
+    const containerWidth = boxes.reduce((acc, el) => acc + el.offsetWidth, 0);
+    const offset = -containerWidth + window.innerWidth / 20;
 
-  const boxes = gsap.utils.toArray(".animated-section .item");
+    // Swiper for smaller screens (below 1260px)
+    if (screenWidth <= 1260) {
+      
+      // Destroy GSAP animation if active
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+      gsap.globalTimeline.clear();
 
-  const containerWidth = boxes.reduce((acc, el) => acc + el.offsetWidth, 0);
-  const offset = -containerWidth + window.innerWidth / 20;
-
-  gsap.to(boxes, {
-    scrollTrigger: {
-      trigger: ".Process-main-sec",
-      start: "top top",
-      end: () => `+=${containerWidth}`,
-      scrub: true,
-      pin: ".Process-main-sec",
-      pinSpacing: true,
-      onEnter: () => {
-        console.log('Process section pinned and scrolling started');
-      },
-      onLeave: () => {
-        console.log('Process section unpinned, next section can scroll');
-      },
-      onLeaveBack: () => {
-        console.log('Scroll has passed back through the Process section');
+      // Destroy previous Swiper instance if it exists
+      if (swiperInstance) {
+        swiperInstance.destroy(true, true);
       }
-    },
-    x: offset,
-    ease: "linear"
-  });
 
-  let initialPos = boxes[0].getBoundingClientRect().left;
+      // Check if Swiper class is present
+      let sliderContainer = document.querySelector(".animated-box-main");
+      if (sliderContainer) {
+        sliderContainer.classList.add("swiper-container");
+        let slides = document.querySelectorAll(".animated-section .item");
+        
+        slides.forEach(slide => {
+          slide.classList.add("swiper-slide");
+        });
 
-  function scaleItems() {
-    const currentPos = boxes[0].getBoundingClientRect().left;
-    const scaleAmount = Math.min(Math.abs((initialPos - currentPos) * 0.0175), 1);
-    gsap.to(boxes, { scale: 1 - scaleAmount / 2 });
+        // Create Swiper wrapper
+        let wrapper = document.createElement("div");
+        wrapper.classList.add("swiper-wrapper");
+        
+        slides.forEach(slide => {
+          wrapper.appendChild(slide);
+        });
 
-    initialPos = currentPos;
-    requestAnimationFrame(scaleItems);
+        // Remove existing content & add Swiper wrapper
+        sliderContainer.innerHTML = "";
+        sliderContainer.appendChild(wrapper);
+
+        // Add Swiper pagination & navigation
+        let pagination = document.createElement("div");
+        pagination.classList.add("swiper-pagination");
+
+        sliderContainer.appendChild(pagination);
+
+        // Initialize Swiper
+        swiperInstance = new Swiper(".animated-box-main", {
+          slidesPerView: 1.2,
+          spaceBetween: 10,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+
+        console.log("Swiper initialized");
+      }
+
+    } else {
+      // Destroy Swiper if active
+      if (swiperInstance) {
+        swiperInstance.destroy(true, true);
+        swiperInstance = null;
+      }
+
+      // Initialize GSAP animation
+      gsap.to(boxes, {
+        scrollTrigger: {
+          trigger: ".Process-main-sec",
+          start: "top top",
+          end: () => `+=${containerWidth}`,
+          scrub: true,
+          pin: ".Process-main-sec",
+          pinSpacing: true,
+          onEnter: () => console.log("Process section pinned and scrolling started"),
+          onLeave: () => console.log("Process section unpinned, next section can scroll"),
+          onLeaveBack: () => console.log("Scroll has passed back through the Process section"),
+        },
+        x: offset,
+        ease: "linear"
+      });
+
+      let initialPos = boxes[0].getBoundingClientRect().left;
+
+      function scaleItems() {
+        const currentPos = boxes[0].getBoundingClientRect().left;
+        const scaleAmount = Math.min(Math.abs((initialPos - currentPos) * 0.0175), 1);
+        gsap.to(boxes, { scale: 1 - scaleAmount / 2 });
+
+        initialPos = currentPos;
+        requestAnimationFrame(scaleItems);
+      }
+
+      scaleItems();
+    }
   }
 
-  scaleItems();
+  // Run on load
+  initializeAnimationOrSlider();
+
+  // Run on window resize
+  window.addEventListener("resize", initializeAnimationOrSlider);
 }
+
 
 /* Animated Section JS End */
 
@@ -2222,3 +2290,45 @@ if (teamMobile) {
 }
 
 /* Join Team Mobile JS End */
+
+
+/* Opportunities Section JS Start */
+
+let opportunities = document.querySelector(".career-area");
+
+if (opportunities) {
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('.career-area-block-wrap').forEach(wrapper => {
+      const topBlock = wrapper.querySelector('.career-area-block-top');
+      const otherInfo = wrapper.querySelector('.other-info');
+      const buttonWrapper = wrapper.querySelector('.button-wraaper');
+      const cardText = wrapper.querySelector('.card-text');
+
+      const originalOtherInfoParent = otherInfo.parentElement;
+      const originalButtonWrapperParent = buttonWrapper.parentElement;
+
+      function moveElements() {
+        if (window.innerWidth <= 767) {
+          if (!cardText.contains(otherInfo)) {
+            cardText.appendChild(otherInfo);
+            cardText.appendChild(buttonWrapper);
+          }
+        } else {
+          if (!originalOtherInfoParent.contains(otherInfo)) {
+            originalOtherInfoParent.appendChild(otherInfo);
+          }
+          if (!originalButtonWrapperParent.contains(buttonWrapper)) {
+            originalButtonWrapperParent.appendChild(buttonWrapper);
+          }
+        }
+      }
+
+      window.addEventListener('load', moveElements);
+      window.addEventListener('resize', moveElements);
+    });
+  });
+
+}
+
+/* Opportunities Section JS End */
