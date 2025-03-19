@@ -82,10 +82,6 @@ devInformationList :
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
-industriesTitle: "Industries"
-industriesTitlePart: "We Power"
-industriesSubTitle: "Industries We’ve Empowered Through UI/UX Design"
-
 
 secTitle: "Core UI/UX Design Services"
 secSubTitle: "Comprehensive UI/UX Design Services Tailored to Your Needs"  

@@ -1,6 +1,6 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Front end web development services - Cypherox Technologies
 bodyClass: "front-end-web-development-services"
 permalink: front-end-web-development-services.html
 bannersubTitle: "Service"   
@@ -27,50 +27,50 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
+featuresSecSubTitle: Why Cypherox
+featuresSecTitle: Why Choose Cypherox Technologies for Frontend Development Services?
 featuresBoxList:
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  - title: "Precision in Every Visual Detail"
+    description: "Our team transforms designs into flawless front-end code, ensuring pixel-perfect accuracy and consistency across all devices and browsers."
+  - title: "Mastery of Front-End Technologies"
+    description: "We leverage frameworks like React, Vue.js, and Angular to create dynamic, interactive, and high-performance user interfaces tailored to your needs."
+  - title: "Crafting Intuitive User Journeys"
+    description: "Our front-end solutions prioritize usability and accessibility, ensuring smooth navigation, fast load times, and an engaging experience for every user."
+  - title: "Seamless Performance Everywhere"
+    description: "We ensure your website functions flawlessly across all major browsers, delivering a consistent experience to users regardless of their choice."
+  - title: "Optimized for Every Screen Size"
+    description: "Our mobile-first approach ensures your website adapts seamlessly to various devices, enhancing user engagement and improving search rankings."
+  - title: "Partnering for Success at Every Step"
+    description: "We involve you in iterative reviews and feedback loops, ensuring transparency, alignment with your vision, and delivery of exceptional results."
 
 
-processSubtitle : "Process"
-processTitle : "Lorem ipsum dolor sit "
+processSubtitle : "Our Development Process"
+processTitle : "Our Front End Development Process"
 processBoxList :
 
 - stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
+  stepTitle: "Pixel-Perfect Design Implementation"
+  stepDescription: "Transform creative designs into flawless web interfaces. Our meticulous coding ensures every detail aligns perfectly with your vision."
 
 - stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
+  stepTitle: "Interactive UI Components for Engagement"
+  stepDescription: "LDevelop dynamic and interactive elements that captivate users. Our expertise in crafting engaging UI components enhances user satisfaction."
 
 - stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
+  stepTitle: "Optimized Code for Faster Load Times"
+  stepDescription: "Deliver lightning-fast websites with clean, optimized code. Our focus on performance ensures minimal load times and maximum efficiency."
 
 - stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
+  stepTitle: "Responsive Layouts for All Screen Sizes"
+  stepDescription: "Create seamless experiences across devices. Our responsive layouts adapt effortlessly to desktops, tablets, and mobile screens."
 
 - stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
+  stepTitle: "Cross-Browser Compatibility Assurance"
+  stepDescription: "Ensure consistent functionality on every browser. Our rigorous testing guarantees your website performs flawlessly on Chrome, Edge, Safari, and more."
 
 - stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
+  stepTitle: "Accessibility Standards for Inclusivity"
+  stepDescription: "LBuild websites that everyone can use. We adhere to WCAG standards, ensuring accessibility for users with diverse needs and abilities."
 
 devSubTitle : What We Do
 devTitle: We Create user-focused experiences 
@@ -84,32 +84,21 @@ devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
   
 secTitle: "Our Front-End Development Services"
-secSubTitle: "What We Provide"  
+secSubTitle: "What We Provide" 
 servicesList:
 
   - count: "01."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+    title: "AngularJS Development Services"
+    description: "Build dynamic, single-page applications with AngularJS’s robust framework. Ensure seamless performance and scalability for modern web solutions. Transform your UI today."
 
   - count: "02."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+    title: "ReactJS Development Services"
+    description: "Create interactive and component-based interfaces using ReactJS. Leverage reusable code and virtual DOM for faster rendering and enhanced user experiences. Start building now. "
 
   - count: "03."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+    title: "VueJS Development Services"
+    description: "Develop lightweight, flexible, and progressive web applications with VueJS. Combine simplicity and power to deliver highly responsive and engaging front-end solutions. Elevate your project today."
 
-  - count: "04."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-  - count: "05."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
-  - count: "06."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 
 phases:
   - title: "Platform"
@@ -133,42 +122,43 @@ phases:
           - icon: "../../../assets/img/"
             alt: ""
             title: ""
+      
+    
+hireCtaTitle: "Hire Skilled Front-End Developers"
+hireCtaSubTitle: "Need expert front-end developers to bring your ideas to life?"
+hireCtaDesc: "We provide flexible hiring models customized to your business needs. Our skilled front-end developers excel in the latest frameworks and tools, delivering innovative solutions that match your vision. Whether you need one developer or a full team, we offer scalable resources to help you reach your goals efficiently and cost-effectively."
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
 
-developmentPhasesSubTitle: "Phases"
-developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
-developmentPhases:
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
-
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
-
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
-
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
-
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"          
+faqTitle: Frequently Asked Question for Front End Development Services
+faqBoxList:
+  - faqTitle: "What exactly is front-end development, and why is it important?"
+    faqDescription: "We offer comprehensive UX/UI design services, including wireframing, prototyping, user research, interface design, usability testing, and branding. Our team ensures that your website or application is visually appealing, functional, and optimized for an exceptional user experience."
+  
+  - faqTitle: "How do you ensure my website will look great on all devices?"
+    faqDescription: "We prioritize responsive design , ensuring your website adapts flawlessly to all screen sizes-desktops, tablets, and smartphones. Using modern frameworks like Bootstrap, Tailwind CSS, or custom media queries, we deliver a consistent and visually appealing experience across devices."
+  
+  - faqTitle: "Which technologies do you use for front-end development?"
+    faqDescription: "Our team at Cypherox Technologies uses cutting-edge technologies such as HTML5, CSS3, JavaScript (ES6+), React, Angular, Vue.js, SASS, and Webpack . We also integrate tools like Figma or Adobe XD for design-to-code conversion, ensuring clean, scalable, and maintainable code."
+  
+  - faqTitle: "Can you optimize my website for faster loading speeds?"
+    faqDescription: "Absolutely! We implement advanced optimization techniques like code minification, image compression, lazy loading, browser caching, and CDN integration to ensure your website loads quickly. Faster websites improve user experience and boost search engine rankings."
+  
+  - faqTitle: "Will my website be compatible with all browsers?"
+    faqDescription: "Yes! We rigorously test your website for cross-browser compatibility , ensuring it works seamlessly on major browsers like Chrome, Firefox, Safari, Edge, and more. Our team resolves any inconsistencies to deliver a uniform experience for all users."
+  
+  - faqTitle: "Do you offer post-launch support for front-end updates or fixes?"
+    faqDescription: "Yes! At Cypherox Technologies, we provide ongoing post-launch support to address bugs, update dependencies, or add new features. Whether it’s minor tweaks or major enhancements, our team ensures your website stays up-to-date and performs optimally."
+  
+  - faqTitle: "How do you handle design-to-development conversion for custom designs?"
+    faqDescription: "We meticulously convert static designs (from tools like Figma, Adobe XD, or Sketch) into pixel-perfect, semantic, and SEO-friendly code . Our process ensures accuracy, responsiveness, and adherence to best practices, delivering a polished final product."
+  
+  - faqTitle: "Can you make my website accessible to users with disabilities?"
+    faqDescription: "Yes! Accessibility is a priority for us. We follow WCAG (Web Content Accessibility Guidelines) to ensure your website is usable for people with disabilities. This includes keyboard navigation, screen reader compatibility, proper color contrast, and ARIA roles for enhanced usability."
+  
+  - faqTitle: "What is the typical timeline for completing a front-end project?"
+    faqDescription: "The timeline depends on the project’s complexity. A standard front-end project can take 4–10 weeks , depending on features, interactivity, and revisions. During the initial consultation, we’ll provide a detailed timeline and keep you updated throughout the process."
+  
+  - faqTitle: "How can I get started with Cypherox Technologies for my front-end development needs?"
+    faqDescription: "Getting started is easy! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to understand your requirements, goals, and vision. From there, we’ll create a customized plan to bring your ideas to life."
 ---

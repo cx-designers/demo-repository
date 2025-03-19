@@ -1394,7 +1394,7 @@ body.open-menu {
     h2 {
       position: relative;
       color: $primaryColor;
-      font-size: 2rem;
+      font-size: 0rem;
       opacity: 0;
       z-index: 3;
       margin: 0;
@@ -3365,10 +3365,10 @@ div#lottie-animation {
 
     h4,
     h2.seo-title {
-      font-size: 150px;
+      font-size: 130px;
       line-height: 1;
       text-align: left;
-      max-width: 1170px;
+      max-width: 100%;
       opacity: 1 !important;
 
       span {
@@ -3376,8 +3376,12 @@ div#lottie-animation {
         transform: none !important;
       }
 
+      @include desktopLargemax {
+        font-size: 120px;
+      }
+
       @include desktopSmall {
-        font-size: 130px;
+        font-size: 100px;
       }
 
       @include mdScreenLarge {
@@ -3411,6 +3415,10 @@ div#lottie-animation {
 
             @include mdScreen {
               padding-left: 10%;
+            }
+
+            @include mobileSmall {
+              padding-left: 0;
             }
 
           }
@@ -5233,7 +5241,7 @@ svg:not(:root) {
       line-height: 30px;
       text-align: left;
       color: $white;
-      margin: 40px 0 30px 0;
+      margin: 0px 0 30px 0;
 
       @include ipadLarge {
         margin-top: 0;
@@ -5252,6 +5260,20 @@ svg:not(:root) {
       // h3{
       //   order: -1;
       // }
+    }
+  }
+}
+
+.angularjs, .front-end-web-development-services, .reactjs {
+  .work-culture {
+    padding-bottom: 0;
+
+    @include ipadLarge {
+      padding-bottom: 0;
+    }
+
+    @include mobileLarge {
+      padding-bottom: 0;
     }
   }
 }
@@ -6059,7 +6081,7 @@ svg:not(:root) {
     h4,
     .seo-title {
       color: $primaryColor;
-      max-width: 650px;
+      max-width: 100%;
       margin-bottom: 40px;
 
       span {
@@ -6303,7 +6325,7 @@ svg:not(:root) {
           }
         }
 
-        h4 {
+        h4, h3 {
           max-width: none;
           font-size: 40px;
           line-height: 50px;
@@ -10928,10 +10950,10 @@ section.sevice-bg-sec {
         border-radius: 15px;
       }
 
-      h4.cust-inner-title {
+      h4.cust-inner-title, h3.cust-inner-title {
         font-size: 40px;
         line-height: 50px;
-        max-width: 268px;
+        max-width: 100%;
         margin-bottom: 30px;
 
         @include mdScreen {

@@ -630,7 +630,7 @@ bannerTimeline
   })
   .to(".content-inside-x", {
     opacity: 1,
-    duration: 0.5,
+    duration: 0,
   }, 0)
   .to("#x-path", {
     fill: "#F26E65",
@@ -672,9 +672,9 @@ bannerTimeline
   }, 0.8)
   .to(".content-inside-x h2", {
     opacity: 0,
-    duration: 0.8,
+    duration: 0,
     ease: "power1.inOut",
-  }, 1);
+  }, 0);
 
 
 /* Service Section JS End */
