@@ -5264,7 +5264,7 @@ svg:not(:root) {
   }
 }
 
-.angularjs, .front-end-web-development-services, .reactjs {
+.angularjs, .front-end-web-development-services, .reactjs, .nodejs, .expressjs {
   .work-culture {
     padding-bottom: 0;
 
@@ -6098,8 +6098,7 @@ svg:not(:root) {
         .service-item-inner {
           padding: 50px 20px;
           border-top: 1px solid $borderBottomColor;
-          // border-bottom: 1px solid $borderBottomColor;
-          display: grid;
+          display: flex;
 
           @include mdScreen {
             padding: 25px 20px;
