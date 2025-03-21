@@ -139,7 +139,7 @@ phases:
             alt: ""
             title: ""
 
-hasDevelopmentPhases: "no"
+hasDevelopmentPhases: "yes"
 developmentPhasesSubTitle: "Phases"
 developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
 developmentPhases:

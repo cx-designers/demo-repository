@@ -22,8 +22,4 @@ awardsList:
   alt: "Top mobile app developers"
   awardLink: "https://www.topdevelopers.co/profile/cypherox-technologies"
 
-industriesSubTitle: "Empowering Industries "
-industriesTitle: "Industries"
-industriesTitlePart: "We Focus"
-
 ---

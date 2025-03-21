@@ -1,3 +1,26 @@
+// Import Bootstrap core files (these must be first)
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/utilities";
+
+// Import only required Bootstrap components
+@import "../../../node_modules/bootstrap/scss/root"; 
+@import "../../../node_modules/bootstrap/scss/reboot"; 
+@import "../../../node_modules/bootstrap/scss/grid"; 
+@import "../../../node_modules/bootstrap/scss/utilities/api";
+@import "../../../node_modules/bootstrap/scss/containers";
+@import "../../../node_modules/bootstrap/scss/accordion";
+@import "../../../node_modules/bootstrap/scss/transitions";
+@import "../../../node_modules/bootstrap/scss/images";
+@import "../../../node_modules/bootstrap/scss/navbar";  
+@import "../../../node_modules/bootstrap/scss/dropdown"; 
+@import "../../../node_modules/bootstrap/scss/forms/form-control";
+@import "../../../node_modules/bootstrap/scss/card"; 
+@import "../../../node_modules/bootstrap/scss/buttons";
+@import "../../../node_modules/bootstrap/scss/nav";
+
 $primaryFonts: 'QAEFQS+TTFirsNeue';
 $secondryFornts: "Poppins", serif;
 $primaryColor: #000000;
@@ -164,7 +187,7 @@ $screen-mobile-small : 480px;
 body {
   font-family: $secondryFornts;
   background-color: $primaryColor;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 h1,
@@ -182,6 +205,10 @@ h1 {
   position: relative;
   font-weight: 400;
   line-height: 1.2;
+
+  @include desktopmid {
+    font-size: 120px;
+  }
 
   @include desktopSmall {
     font-size: 100px;
@@ -399,8 +426,8 @@ h1 {
 
   .glow {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 0px;
+    height: 0px;
     filter: blur(10px);
     border-radius: 50%;
     background: radial-gradient(50% 50% at 50% 50%, rgba(242, 110, 101, 0.58), rgba(242, 110, 101, 0.58) 100%);
@@ -623,6 +650,7 @@ p {
 .gloabl-banner-inner-page {
   .loaderWrapper {
     top: 0;
+    overflow: visible !important;
 
     @include ipadLarge {
       height: 100%;
@@ -962,6 +990,10 @@ body.open-menu {
   overflow: hidden;
   min-height: 900px;
 
+  @include desktopmid {
+    min-height: auto;
+  }
+
   @include mdScreenLarge {
     padding: 100px 0px 40px 0px;
     min-height: auto;
@@ -983,12 +1015,17 @@ body.open-menu {
     text-align: center;
     margin-top: 40px;
     opacity: 1;
+
+    @include desktopmid {
+      margin-top: 20px;
+      font-size: 18px;
+    }
   }
 
   .btn-wrapper {
     margin-top: 40px;
 
-    @include mobileLarge {
+    @include desktopmid {
       margin-top: 20px;
       // flex-direction: column;
       // gap: 20px;
@@ -1031,12 +1068,20 @@ body.open-menu {
       &.right-center {
         top: 50%;
         right: 0;
-        transform: translateY("-50%");
+        transform: translateY(-50%);
+
+        @include desktopmid {
+          top: 20%;
+        }
       }
 
       &.left-bottom {
         bottom: -130px;
         left: 10%;
+
+        @include desktopmid {
+          bottom: -110px;
+        }
       }
 
       &.left-top {
@@ -1048,6 +1093,10 @@ body.open-menu {
         right: 0;
         left: auto;
         bottom: -40px;
+
+        @include desktopmid {
+          bottom: -10px;
+        }
       }
     }
   }
@@ -1576,11 +1625,15 @@ body.open-menu {
 
         h2 {
           font-size: 80px;
-          line-height: 90px;
+          line-height: 1.2;
           text-align: left;
           color: $white;
           margin: 0 0 30px 0;
           flex-wrap: wrap;
+
+          @include desktopmid {
+            font-size: 70px;
+          }
 
           span {
             text-shadow: unset;
@@ -1637,10 +1690,20 @@ body.open-menu {
       left: auto;
       right: 0;
 
+      @include desktopmid {
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+      }
+
       @include mobileLarge {
         position: unset;
         margin-top: 40px;
         max-height: 250px;
+        height: auto;
+        display: block;
       }
 
       svg {
@@ -1658,6 +1721,14 @@ body.open-menu {
         svg {
           margin: 0 auto;
           display: block;
+
+          @include desktopmid {
+            height: 80%;
+          }
+
+          @include mobileLarge {
+            height: 100%;
+          }
         }
       }
     }
@@ -1817,6 +1888,11 @@ body.open-menu {
   width: 54px;
   left: 60px;
 
+  @include desktopmid {
+    left: 20px;
+    width: 20px;
+  }
+
   @include desktopSmall2 {
     display: none;
   }
@@ -1829,12 +1905,30 @@ body.open-menu {
     @include mdScreen {
       width: 100%;
     }
+
+    svg {
+      @include desktopmid {
+        width: 20px;
+        height: auto;
+      }
+    }
   }
 
   .line-two {
     position: absolute;
     top: 20px;
     left: 8px;
+
+    @include desktopmid {
+      left: 0;
+    }
+
+    svg {
+      @include desktopmid {
+        width: 20px;
+        height: auto;
+      }
+    }
   }
 
   .line-three {
@@ -1866,6 +1960,11 @@ body.open-menu {
   right: 60px;
   width: 54px;
 
+  @include desktopmid {
+    right: 20px;
+    width: 20px;
+  }
+
   @include desktopSmall2 {
     display: none;
   }
@@ -1883,6 +1982,11 @@ body.open-menu {
     }
 
     svg {
+
+      @include desktopmid {
+        width: 20px;
+        height: auto;
+      }
       @include mdScreen {
         width: 100%;
       }
@@ -1893,6 +1997,17 @@ body.open-menu {
     position: absolute;
     top: 0px;
     left: 8px;
+
+    @include desktopmid {
+      left: 0;
+    }
+
+    svg {
+      @include desktopmid {
+        width: 20px;
+        height: auto;
+      }
+    }
   }
 
   .line-three {
@@ -1928,6 +2043,7 @@ body.open-menu {
   overflow: hidden;
   z-index: 9;
   background-color: $primaryColor;
+  max-height: 1105px;
 
   @include desktopSmall {
     padding: 95px;
@@ -1973,7 +2089,7 @@ body.open-menu {
   .swiper {
     width: 100%;
     height: 100%;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
     position: relative;
 
     &.swiper-slide-prev,
@@ -1983,15 +2099,15 @@ body.open-menu {
     }
 
     @include desktopSmall {
-      padding: 60px 0px;
+      padding: 60px 0px 0 0;
     }
 
     @include ipadLarge {
-      padding: 50px 0px;
+      padding: 50px 0px 0 0;
     }
 
     @include mobileLarge {
-      padding: 30px 0px;
+      padding: 30px 0px 0 0;
       margin-top: 30px;
     }
 
@@ -2022,13 +2138,13 @@ body.open-menu {
       }
 
       .bottom-text {
-        padding: 30px 90px 60px 30px;
+        padding: 30px 30px 40px 30px;
         background-color: $primaryColor;
         margin-top: -10px;
         border-radius: 0 0 10px 10px !important;
 
         @include desktopSmall {
-          padding: 20px 60px 30px 20px;
+          padding: 20px 20px 30px 20px;
         }
 
         @include mobileLarge {
@@ -2195,7 +2311,7 @@ body.open-menu {
 }
 
 .swiper-button-prev-main {
-  bottom: 75px;
+  bottom: -20px;
   top: auto;
   right: 213px;
   left: auto;
@@ -2203,6 +2319,10 @@ body.open-menu {
   width: 50px;
   height: 50px;
   border-radius: 50px;
+
+  @include desktopSmall {
+    right: 80px;
+  }
 
   @include mobileLarge {
     left: 0px;
@@ -2244,7 +2364,7 @@ body.open-menu {
 }
 
 .swiper-button-next-main {
-  bottom: 75px;
+  bottom: -20px;
   top: auto;
   right: 120px;
   left: auto;
@@ -2252,6 +2372,10 @@ body.open-menu {
   width: 50px;
   height: 50px;
   border-radius: 50px;
+
+  @include desktopSmall {
+    right: 0;
+  }
 
   @include mobileLarge {
     right: 0px;
@@ -2362,9 +2486,13 @@ div#lottie-animation {
   background-color: $menuMainText;
   overflow: hidden;
   margin-top: 10px;
-  max-width: 1241px;
+  max-width: 60%;
   margin: 0 auto;
   margin-top: 116px;
+
+  @include ipadLarge {
+    max-width: 0%;
+  }
 
   .progress {
     height: 100%;
@@ -2882,10 +3010,11 @@ div#lottie-animation {
         border-radius: 0 0 20px 20px;
         background-image: url(../img/team-member-shap.webp);
         overflow: hidden;
-        background-size: 100%;
+        background-size: auto;
         background-color: $primaryColor;
         border-radius: 20px;
         z-index: 2;
+        background-position: bottom;
 
         img {
           margin: 0 auto;
@@ -2902,7 +3031,7 @@ div#lottie-animation {
       }
 
       .member-details {
-        padding: 30px;
+        padding: 50px 30px 30px 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -3334,6 +3463,10 @@ div#lottie-animation {
   z-index: 9;
   background-color: $primaryColor;
 
+  @include desktopmid {
+    padding: 70px 0 0 0;
+  }
+
   .industries-shap {
     position: absolute;
     top: -30%;
@@ -3378,6 +3511,10 @@ div#lottie-animation {
 
       @include desktopLargemax {
         font-size: 120px;
+      }
+
+      @include desktopmid {
+        font-size: 110px;
       }
 
       @include desktopSmall {
@@ -5264,7 +5401,11 @@ svg:not(:root) {
   }
 }
 
-.angularjs, .front-end-web-development-services, .reactjs, .nodejs, .expressjs {
+.angularjs,
+.front-end-web-development-services,
+.reactjs,
+.nodejs,
+.expressjs {
   .work-culture {
     padding-bottom: 0;
 
@@ -6267,7 +6408,7 @@ svg:not(:root) {
 
   .heading-main-sec {
     .cust-center-text {
-      max-width: 629px;
+      max-width: 100%;
       margin: 0px auto;
     }
   }
@@ -6324,7 +6465,8 @@ svg:not(:root) {
           }
         }
 
-        h4, h3 {
+        h4,
+        h3 {
           max-width: none;
           font-size: 40px;
           line-height: 50px;
@@ -10876,7 +11018,7 @@ section.sevice-bg-sec {
           z-index: 1;
         }
 
-        h4 {
+        h4, h3 {
           &.cust-inner-title {
             color: $secondaryColor !important;
             max-width: 100%;
@@ -10949,7 +11091,8 @@ section.sevice-bg-sec {
         border-radius: 15px;
       }
 
-      h4.cust-inner-title, h3.cust-inner-title {
+      h4.cust-inner-title,
+      h3.cust-inner-title {
         font-size: 40px;
         line-height: 50px;
         max-width: 100%;
@@ -12485,7 +12628,7 @@ body.overflow-hidden-x {
         margin: 0 0px;
 
         @include desktopmid {
-          margin: 0px 10px;
+          // margin: 0px 10px;
         }
 
         @include desktopSmall {

@@ -228,9 +228,6 @@ hireCtaDesc: "At Cypherox Technologies, we provide highly skilled web applicatio
 hireCtaButtonLink : "/hire-developer.html"
 hireCtaButtonText: "Connect With Our Team"
 
-industriesSubTitle: "Industries We Serve Our Web Application Services"
-industriesTitle: "Industries"
-industriesTitlePart: "We Focus"
 
 faqBoxList :
 - faqTitle: "What types of web applications do you develop?"

@@ -1,4 +1,3 @@
-
 /* menu js start */
 $(document).ready(function () {
   $(".menuButton a.primary-btn").on("click", function (e) {
@@ -1909,12 +1908,24 @@ if ($(".hero-wrapper").length > 0) {
 
 document.addEventListener("DOMContentLoaded", function () {
   const cardBodies = document.querySelectorAll(".card-body");
+
   cardBodies.forEach(cardBody => {
-    const firstCardInfoBlockUl = cardBody.querySelector(".card-info-block:first-child ul");
-    if (firstCardInfoBlockUl) {
-      firstCardInfoBlockUl.classList.add("show");
-      firstCardInfoBlockUl.style.height = `${firstCardInfoBlockUl.scrollHeight}px`;
-    }
+    const cardInfoBlocks = cardBody.querySelectorAll(".card-info-block");
+
+    cardInfoBlocks.forEach((cardInfoBlock, index) => {
+      const ul = cardInfoBlock.querySelector("ul");
+      const heading = cardInfoBlock.querySelector("h4");
+
+      // Always show the first item regardless of heading value
+      if (index === 0 && ul) {
+        ul.classList.add("show");
+        ul.style.height = `${ul.scrollHeight}px`;
+      } else if (ul && (!heading || heading.textContent.trim() === "")) {
+        // If heading is empty, show this item
+        ul.classList.add("show");
+        ul.style.height = `${ul.scrollHeight}px`;
+      }
+    });
   });
 
   const headers = document.querySelectorAll(".card-info-block h4");
@@ -1947,6 +1958,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
 
 /* Phases On Demands App Info Section JS Start */
 
