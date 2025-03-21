@@ -1,3 +1,4 @@
+
 /* menu js start */
 $(document).ready(function () {
   $(".menuButton a.primary-btn").on("click", function (e) {
@@ -639,8 +640,11 @@ bannerTimeline
 
 // Responsive font size handling
 gsap.matchMedia()
-  .add("(min-width: 992px)", () => {
+  .add("(min-width: 1661px)", () => {
     bannerTimeline.to(".content-inside-x h2", { fontSize: "6rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+  })
+  .add("(max-width: 1660px)", () => {
+    bannerTimeline.to(".content-inside-x h2", { fontSize: "5rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
   })
   .add("(max-width: 991px)", () => {
     bannerTimeline.to(".content-inside-x h2", { fontSize: "4rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
@@ -716,7 +720,7 @@ function initIndustriesSection() {
       scrollTrigger: {
         trigger: ".industries-section",
         pin: true,
-        start: "top top",
+        start: "top",
         scrub: 2,
         end: "+=" + (sliderItems.length * 50) + "vw",
       },
@@ -774,7 +778,6 @@ initIndustriesSection();
 $(window).resize(function () {
   initIndustriesSection();
 });
-
 
 /* Industries Section Start */
 
@@ -951,6 +954,9 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: ".swiper-button-prev",
     },
     breakpoints: {
+      1661: {
+        spaceBetween: 40,
+      },
       1440: {
         slidesPerView: 3,
         spaceBetween: 40,
@@ -1099,9 +1105,9 @@ if (document.querySelector('.hire-main-sec')) {
 /* Animated Section JS Start */
 
 if (document.querySelector(".Process-main-sec")) {
-  
+
   let swiperInstance;
-  
+
   function initializeAnimationOrSlider() {
     const screenWidth = window.innerWidth;
     const boxes = gsap.utils.toArray(".animated-section .item");
@@ -1110,7 +1116,7 @@ if (document.querySelector(".Process-main-sec")) {
 
     // Swiper for smaller screens (below 1260px)
     if (screenWidth <= 1260) {
-      
+
       // Destroy GSAP animation if active
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
       gsap.globalTimeline.clear();
@@ -1125,7 +1131,7 @@ if (document.querySelector(".Process-main-sec")) {
       if (sliderContainer) {
         sliderContainer.classList.add("swiper-container");
         let slides = document.querySelectorAll(".animated-section .item");
-        
+
         slides.forEach(slide => {
           slide.classList.add("swiper-slide");
         });
@@ -1133,7 +1139,7 @@ if (document.querySelector(".Process-main-sec")) {
         // Create Swiper wrapper
         let wrapper = document.createElement("div");
         wrapper.classList.add("swiper-wrapper");
-        
+
         slides.forEach(slide => {
           wrapper.appendChild(slide);
         });
