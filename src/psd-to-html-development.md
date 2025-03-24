@@ -72,7 +72,7 @@ processBoxList :
   stepTitle: "Deployment & CMS Integration"
   stepDescription: "Delivering final HTML files and integrating them into CMS platforms like WordPress, Shopify, and Magento."
 
-devSubTitle : What We Do – Bringing Designs to Life with Code
+devSubTitle : What We Do
 devTitle: Transform Designs into Seamless, 
 devTitlePart : High-Performance PSD to HTML Solutions
 devInformationList :
@@ -83,8 +83,8 @@ devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
     
-secTitle: "Complete PSD to HTML Development Services We Offer"
-secSubTitle: "Our Core PSD to HTML Services"  
+secTitle: "Our Core PSD to HTML Services"
+secSubTitle: "Complete PSD to HTML Development Services We Offer "  
 servicesList:
   - count: "01."
     title: "Responsive HTML Conversion"

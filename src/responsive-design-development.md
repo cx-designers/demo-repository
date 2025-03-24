@@ -83,7 +83,7 @@ devBgAlt : "bg-img"
 
     
 secTitle: "Creative UI UX Design Services"
-secSubTitle: " Responsive Web Design & Development Solutions"  
+secSubTitle: "Responsive Web Design & Development Solutions"  
 servicesList:
   - count: "01."
     title: "Mobile-First Website Design"

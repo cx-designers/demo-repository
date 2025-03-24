@@ -85,8 +85,8 @@ devBgAlt : "bg-img"
 
 
 
-secTitle: "Cloud & DevOps Services"
-secSubTitle: "Cloud & DevOps Solutions for Scalable Success"  
+secTitle: "Cloud & DevOps Solutions for Scalable Success"
+secSubTitle: "Cloud & DevOps Services"  
 servicesList:
   - count: "01."
     title: "Cloud strategy consulting"
