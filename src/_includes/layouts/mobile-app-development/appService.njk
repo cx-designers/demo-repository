@@ -10,7 +10,7 @@
     <div class="listion-container">
       {% for service in servicesList %}
       <div class="service-item">
-        <a href="javascript:;">
+        <a href="{{ service.pageLink }}" aria-label="{{ service.pageAriaLabel }}">
           <div class="service-item-inner">
             <span class="count">{{ service.count }}</span>
             <h3 class="development-service-title">

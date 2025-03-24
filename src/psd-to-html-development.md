@@ -1,11 +1,11 @@
 ---
 layout: layouts/service-template/web-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: PSD to HTML Development Company - Cypherox Technologies
 bodyClass: "psd-to-html-development"
 permalink: psd-to-html-development.html
-bannersubTitle: "Service"
-bannerTitle: "PSD To HTML Development"
-bannerdesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+bannersubTitle: "UI UX Design Services"
+bannerTitle: "Pixel-Perfect PSD to HTML Conversion Services"
+bannerdesc: "Transform your creative designs into high-quality, hand-coded, responsive, and SEO-friendly HTML with our expert PSD to HTML conversion services. We ensure pixel-perfect precision, clean and W3C-validated code, and seamless integration for fast, high-performing websites. Our team leverages the latest front-end technologies to deliver cross-browser compatible, lightweight, and fully optimized HTML that enhances user experience."
 bannerbuttontext: Hire Now
 buttonLink: "hire-ui-ux-designers.html"
 bannerHTML: '<svg width="1000" height="771" viewBox="0 0 1000 771" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,115 +26,184 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
+featuresSecSubTitle: 
+featuresSecTitle: Why Choose Us for PSD to HTML Development?
 featuresBoxList:
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  - title: "Pixel-Perfect Precision"
+    description: "Our expert developers meticulously convert every detail of your design into clean, structured HTML."
+  - title: "Fully Responsive & Mobile-First"
+    description: "We ensure seamless adaptability across all screen sizes, enhancing accessibility and user engagement."
+  - title: "SEO & Speed Optimized Code"
+    description: "Our HTML is W3C-validated, SEO-friendly, and performance-optimized for faster page loading and higher rankings."
+  - title: "Cross-Browser & Platform Compatibility "
+    description: "We guarantee a flawless browsing experience on Chrome, Safari, Edge, and all major browsers."
+  - title: "Interactive & Dynamic Elements"
+    description: "We enhance static designs with JavaScript, CSS animations, and smooth transitions for a modern experience."
+  - title: "Fast Turnaround & Dedicated Support"
+    description: "We provide quick project delivery with post-launch support, ensuring hassle-free integration and maintenance."
+  
 
 
-processSubtitle : "Lorem ipsum"
-processTitle : "Lorem ipsum dolor sit amet consectetur"
+processSubtitle : "Development Procedure"
+processTitle : "PSD to HTML Development Process"
 processBoxList :
 
 - stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  stepTitle: "Design Analysis & Planning"
+  stepDescription: "Understanding your design structure, functionality needs, and optimization strategy."
 
 - stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  stepTitle: "HTML & CSS Coding"
+  stepDescription: "Writing clean, well-structured HTML5 and CSS3 for a responsive and visually accurate layout."
 
 - stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  stepTitle: "Mobile & Cross-Browser Testing"
+  stepDescription: "Ensuring seamless functionality across multiple devices, platforms, and browsers. "
 
 - stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  stepTitle: "JavaScript & Interactive Features"
+  stepDescription: "Adding animations, transitions, and interactive elements for enhanced user engagement."
 
 - stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  stepTitle: "Optimization & Validation"
+  stepDescription: "Conducting W3C validation, speed optimization, and code minification for peak performance."
 
 - stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
+  stepTitle: "Deployment & CMS Integration"
+  stepDescription: "Delivering final HTML files and integrating them into CMS platforms like WordPress, Shopify, and Magento."
 
-devSubTitle : Lorem ipsum
-devTitle: Lorem ipsum dolor sit amet consectetur,
-devTitlePart : adipisicing elit.
+devSubTitle : What We Do – Bringing Designs to Life with Code
+devTitle: Transform Designs into Seamless, 
+devTitlePart : High-Performance PSD to HTML Solutions
 devInformationList :
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: We specialize in converting PSD, Figma, Sketch, and Adobe XD designs into clean, efficient, and pixel-perfect HTML code. Every conversion is optimized for performance, responsiveness, and SEO, ensuring an enhanced user experience.
+- infoItem: Our approach focuses on delivering mobile-first, high-speed, cross-browser-compatible HTML, ensuring your website functions smoothly across all platforms. With the right blend of CSS, JavaScript, and Bootstrap frameworks, we create a flexible and scalable structure that grows with your business.
+- infoItem: From simple landing pages to complex web applications, we ensure that every project meets the highest coding standards. Our agile development process ensures on-time delivery with meticulous attention to every detail.
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
-
-
-
-
-
     
-secTitle: "Services"
-secSubTitle: "Lorem ipsum dolor."  
+secTitle: "Complete PSD to HTML Development Services We Offer"
+secSubTitle: "Our Core PSD to HTML Services"  
 servicesList:
   - count: "01."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: "Responsive HTML Conversion"
+    description: "Transforming PSD designs into fully responsive, mobile-first HTML for seamless device experiences."
 
   - count: "02."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: "Pixel-Perfect HTML Coding"
+    description: "Ensuring absolute precision in design-to-code conversion, and maintaining layout, typography, and spacing accuracy."
 
   - count: "03."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: "W3C-Validated & SEO-Optimized Code"
+    description: "Writing clean, structured, and error-free HTML markup that enhances search rankings and site performance."
 
   - count: "04."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: "Cross-Browser & Cross-Platform Compatibility"
+    description: "Delivering HTML that works flawlessly across all browsers and devices, ensuring consistency."
 
   - count: "05."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: "JavaScript & CSS Animation Integration"
+    description: "Adding interactive elements, animations, and smooth transitions using modern front-end technologies."
+  
+  - count: "06."
+    title: "CMS & eCommerce Integration"
+    description: "Converting designs into CMS-ready HTML, seamlessly integrating with WordPress, Shopify, Magento, and more."
 
 phases:
-  - title: "Platform"
+  - title: "Front-End Development"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "HTML5"
+            title: "HTML5"
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "CSS3"
+            title: "CSS3"
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "JavaScript"
+            title: "JavaScript"
+          - icon: "../../../assets/img/icon-bootstrap.svg"
+            alt: "Bootstrap"
+            title: "Bootstrap"
+          - icon: "../../../assets/img/icon-tailwind-css.svg"
+            alt: "Tailwind CSS"
+            title: "Tailwind CSS"
 
-  - title: "Back-End Development"
+  - title: "JavaScript Frameworks"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "React.js"
+            title: "React.js"
+          - icon: "../../../assets/img/icon-vuejs.svg"
+            alt: "Vue.js"
+            title: "Vue.js" 
+          - icon: "../../../assets/img/icon-angular.svg"
+            alt: "Angular"
+            title: "Angular" 
+          - icon: "../../../assets/img/icon-jQuery.svg"
+            alt: "jQuery"
+            title: "jQuery" 
 
-  - title: "App Design"
+  - title: "CMS & eCommerce Integration"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
+          - icon: "../../../assets/img/icon-Wordpress.svg"
+            alt: "WordPress"
+            title: "WordPress" 
+          - icon: "../../../assets/img/shopify-logo-svgrepo-com-1.svg"
+            alt: "Shopify"
+            title: "Shopify"
+          - icon: "../../../assets/img/icon-magento.svg"
+            alt: "Magento"
+            title: "Magento"
+          - icon: "../../../assets/img/icon-Drupal.svg"
+            alt: "Drupal"
+            title: "Drupal"
+            
 blogRelatedCtegory:
   - "Design"
   - "Web Development"
+
+hireCtaTitle: "Hire Expert PSD to HTML Developers"
+hireCtaSubTitle: "Hire a Dedicated Developer  "
+hireCtaDesc: "Looking for a skilled PSD to HTML developer to convert your designs into high-quality, pixel-perfect, and SEO-friendly code? Our expert developers ensure hand-coded, responsive, and W3C-compliant HTML for seamless performance. With experience in HTML, CSS, JavaScript, and modern frameworks, we create robust and scalable solutions tailored to your business needs. Get fast, reliable, and high-performance HTML conversion today!"
+hireCtaButtonLink : "/hire-ui-ux-designers.html"
+hireCtaButtonText: "hire now"
+
+faqTitle: FAQs for PSD to HTML Development
+faqBoxList:
+  - faqTitle: "What is PSD to HTML conversion, and why do I need it?"
+    faqDescription: "PSD to HTML conversion transforms static design files into fully functional, responsive websites, ensuring a seamless user experience."
+  
+  - faqTitle: "How long does it take to convert PSD to HTML?"
+    faqDescription: "A standard PSD to HTML conversion takes 2-5 business days, depending on design complexity and required functionality."
+  
+  - faqTitle: "Will my HTML be fully responsive?  "
+    faqDescription: "Yes! We use mobile-first frameworks like Bootstrap and Tailwind CSS to ensure seamless responsiveness on all devices."
+  
+  - faqTitle: "Do you integrate HTML with CMS platforms?"
+    faqDescription: "Absolutely! We deliver CMS-compatible HTML, making integrating with WordPress, Shopify, Magento, and more easy."
+  
+  - faqTitle: "Is the HTML code SEO-friendly?"
+    faqDescription: "Yes! We write W3C-validated, lightweight, and structured code optimized for better search engine visibility."
+  
+  - faqTitle: "Which design formats do you accept?"
+    faqDescription: "We work with PSD, Figma, Sketch, Adobe XD, AI, and other popular design formats for conversion."
+  
+  - faqTitle: "Can you add animations or interactive elements?"
+    faqDescription: "Yes! We integrate CSS animations, JavaScript effects, and smooth transitions for a dynamic user experience."
+  
+  - faqTitle: "Do you provide post-development support?"
+    faqDescription: "Yes, we offer dedicated support for bug fixes, optimizations, and further enhancements after project completion."
+  
+  - faqTitle: "Will my HTML be optimized for speed?"
+    faqDescription: "Absolutely! We use optimized images, minified CSS/JS, and efficient coding to ensure fast load times."
+
+  - faqTitle: "What’s the difference between PSD to HTML and direct web development?"
+    faqDescription: "PSD to HTML focuses on converting designs into front-end code, while full web development includes both front-end and back-end functionalities."
 ---

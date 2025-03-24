@@ -110,16 +110,16 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/wordpress.svg"
+          - icon: "../../../assets/img/icon-Wordpress.svg"
             alt: "WordPress"
             title: "WordPress"
           - icon: "../../../assets/img/shopify-logo-svgrepo-com-1.svg"
             alt: "Shopify"
             title: "Shopify"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-webflow.svg"
             alt: "Webflow"
             title: "Webflow"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-magento.svg"
             alt: "Magento"
             title: "Magento"
 
@@ -127,13 +127,13 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/Node.js_logo-1.svg"
+          - icon: "../../../assets/img/icon-Node-js.svg"
             alt: "node"
             title: "Node.js" 
           - icon: "../../../assets/img/Laravel-1.svg"
             alt: "laravel"
             title: "Laravel (PHP)" 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-django.svg"
             alt: "Django "
             title: "Django"
        
@@ -148,7 +148,7 @@ phases:
           - icon: "../../../assets/img/icon-Figma.svg"
             alt: "Figma"
             title: "Figma"
-          - icon: ""
+          - icon: "../../../assets/img/icon-inVision.svg"
             alt: "InVision "
             title: "InVision"
 

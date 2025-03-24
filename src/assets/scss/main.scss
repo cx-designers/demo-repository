@@ -6,18 +6,18 @@
 @import "../../../node_modules/bootstrap/scss/utilities";
 
 // Import only required Bootstrap components
-@import "../../../node_modules/bootstrap/scss/root"; 
-@import "../../../node_modules/bootstrap/scss/reboot"; 
-@import "../../../node_modules/bootstrap/scss/grid"; 
+@import "../../../node_modules/bootstrap/scss/root";
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/grid";
 @import "../../../node_modules/bootstrap/scss/utilities/api";
 @import "../../../node_modules/bootstrap/scss/containers";
 @import "../../../node_modules/bootstrap/scss/accordion";
 @import "../../../node_modules/bootstrap/scss/transitions";
 @import "../../../node_modules/bootstrap/scss/images";
-@import "../../../node_modules/bootstrap/scss/navbar";  
-@import "../../../node_modules/bootstrap/scss/dropdown"; 
+@import "../../../node_modules/bootstrap/scss/navbar";
+@import "../../../node_modules/bootstrap/scss/dropdown";
 @import "../../../node_modules/bootstrap/scss/forms/form-control";
-@import "../../../node_modules/bootstrap/scss/card"; 
+@import "../../../node_modules/bootstrap/scss/card";
 @import "../../../node_modules/bootstrap/scss/buttons";
 @import "../../../node_modules/bootstrap/scss/nav";
 
@@ -182,6 +182,10 @@ $screen-mobile-small : 480px;
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
@@ -653,11 +657,11 @@ p {
     overflow: visible !important;
 
     @include ipadLarge {
-      height: 100%;
+      height: 100% !important;
     }
 
     @include mobileLarge {
-      height: 100%;
+      height: 100% !important;
     }
   }
 }
@@ -704,8 +708,9 @@ p {
     @include mobileLarge {
       left: auto;
       height: 100%;
-      bottom: -40%;
-      right: -50%;
+      bottom: -50%;
+      right: -60%;
+      filter: blur(50px);
 
       svg {
         height: 100%;
@@ -1987,6 +1992,7 @@ body.open-menu {
         width: 20px;
         height: auto;
       }
+
       @include mdScreen {
         width: 100%;
       }
@@ -3177,16 +3183,16 @@ div#lottie-animation {
       max-height: 500px;
 
       @include mobileLarge {
-        height: 166px;
-        max-height: 166px;
+        height: 200px;
+        max-height: 200px;
         border-radius: 20px;
       }
 
-      @include mobileSmall {
-        height: 140px;
-        max-height: 140px;
-        border-radius: 15px;
-      }
+      // @include mobileSmall {
+      //   height: 180px;
+      //   max-height: 180px;
+      //   border-radius: 15px;
+      // }
 
       &:nth-child(1n) {
         background-color: $primaryColor;
@@ -4605,6 +4611,14 @@ svg:not(:root) {
       position: unset;
       height: 100%;
 
+      .content-col {
+        padding-top: 120px !important;
+
+        @include ipadLarge {
+          padding-top: 0 !important;
+        }
+      }
+
       @include mdScreen {
         margin: 0;
       }
@@ -4941,6 +4955,10 @@ svg:not(:root) {
 
     .experience-bg {
       background-image: url(../../assets/img/experience.webp);
+
+      @include mobileLarge {
+        background-image: none;
+      }
     }
 
     .commitment-bg {
@@ -5225,6 +5243,10 @@ svg:not(:root) {
         text-align: left;
         padding: 87px 87px 87px 241px;
 
+        @include desktopmid {
+          padding: 87px 87px 87px 121px;
+        }
+
         @include desktopSmall {
           padding: 60px 60px 60px 150px;
         }
@@ -5401,20 +5423,25 @@ svg:not(:root) {
   }
 }
 
-.angularjs,
-.front-end-web-development-services,
-.reactjs,
-.nodejs,
-.expressjs {
+.media-and-entertainment,
+.before_load {
   .work-culture {
-    padding-bottom: 0;
+    padding: 0;
+  }
+}
 
-    @include ipadLarge {
-      padding-bottom: 0;
-    }
+.work-culture {
+  &.hire-cta {
+    +.features-main-sec {
+      padding-top: 0;
 
-    @include mobileLarge {
-      padding-bottom: 0;
+      @include ipadLarge {
+        padding-top: 0;
+      }
+
+      @include mobileLarge {
+        padding-top: 0;
+      }
     }
   }
 }
@@ -5616,6 +5643,10 @@ svg:not(:root) {
       position: absolute;
       top: 0;
     }
+
+    img {
+      width: 100%;
+    }
   }
 }
 
@@ -5629,11 +5660,11 @@ svg:not(:root) {
   overflow: hidden;
 
   @include ipadLarge {
-    padding: 100px 0 80px 0;
+    padding: 100px 0 150px 0;
   }
 
   @include mobileLarge {
-    padding: 60px 0 40px 0;
+    padding: 60px 0 110px 0;
   }
 
   .heading-main-sec {
@@ -5687,6 +5718,7 @@ svg:not(:root) {
 
       @include ipadLarge {
         width: 100%;
+        padding-bottom: 0;
       }
 
       .swiper-pagination {
@@ -5700,7 +5732,7 @@ svg:not(:root) {
         border-bottom: 1px solid $white;
 
         @include ipadLarge {
-          bottom: 200px;
+          bottom: -50px;
         }
 
         .swiper-pagination-current {
@@ -5740,7 +5772,11 @@ svg:not(:root) {
 
           @include ipadLarge {
             width: 100% !important;
-            max-width: max-content;
+            // max-width: max-content;
+            background-color: transparent;
+            position: absolute;
+            top: 0;
+            bottom: 0;
           }
 
           .main-title {
@@ -5750,7 +5786,7 @@ svg:not(:root) {
             opacity: 0;
 
             @include ipadLarge {
-              left: auto;
+              left: 0;
               right: 0;
             }
 
@@ -5759,6 +5795,10 @@ svg:not(:root) {
               color: $white;
               font-weight: 400;
               opacity: 1 !important;
+
+              @include desktopmid {
+                font-size: 50px;
+              }
 
               @include mdScreen {
                 font-size: 50px;
@@ -5785,6 +5825,7 @@ svg:not(:root) {
 
             @include ipadLarge {
               width: 70px;
+              display: none;
             }
 
             .thumb-img-inner {
@@ -6389,8 +6430,10 @@ svg:not(:root) {
 
 /* process section start */
 .Process-main-sec {
-  padding: 150px 0px;
+  padding: 100px 0px 100px 0;
   position: relative;
+  max-height: 900px !important;
+  overflow: hidden;
 
   @include ipadLarge {
     padding: 100px 0 !important;
@@ -6434,7 +6477,7 @@ svg:not(:root) {
       .item {
         width: 500px;
         margin-right: 60px;
-        padding: 60px;
+        padding: 40px;
         height: auto;
         background-color: $primaryColor;
         border-radius: 25px;
@@ -6442,6 +6485,12 @@ svg:not(:root) {
         opacity: 1;
         transition: transform 0.3s ease-out;
         transform: none;
+
+        @include desktopmid {
+          width: 450px;
+          padding: 40px;
+          margin-right: 40px;
+        }
 
         .rule-number {
           display: block;
@@ -6468,8 +6517,8 @@ svg:not(:root) {
         h4,
         h3 {
           max-width: none;
-          font-size: 40px;
-          line-height: 50px;
+          font-size: 34px;
+          line-height: 1.4;
           margin-bottom: 30px;
           color: $white;
           font-weight: 400;
@@ -6934,6 +6983,16 @@ svg:not(:root) {
   }
 }
 
+.faq-page {
+  .faq-area {
+    padding-bottom: 80px;
+
+    @include ipadLarge {
+      padding-bottom: 0;
+    }
+  }
+}
+
 /*FAQ css end*/
 
 /*lets talk css start*/
@@ -7174,7 +7233,10 @@ svg:not(:root) {
   }
 }
 
-.hireDeveloper-page {
+
+
+.hireDeveloper-page,
+.our-work-page {
   .lets-talk-area {
     padding-top: 70px;
 
@@ -8568,6 +8630,10 @@ svg:not(:root) {
               height: 540px;
               object-fit: contain;
 
+              @include desktopmid {
+                height: 440px;
+              }
+
               @include ipadLarge {
                 width: 60%;
                 height: auto;
@@ -9118,6 +9184,10 @@ svg:not(:root) {
       padding: 0 0 20px;
       border-bottom: 1px solid $borderBottomColor;
 
+      @include desktopmid {
+        font-size: 22px;
+      }
+
       @include desktopSmall {
         font-size: 24px;
       }
@@ -9139,6 +9209,10 @@ svg:not(:root) {
 
       span {
         width: calc(100% - 53px);
+
+        @include desktopmid {
+          width: calc(100% - 40px);
+        }
 
         @include mdScreen {
           width: calc(100% - 40px);
@@ -9171,7 +9245,7 @@ svg:not(:root) {
         background-size: contain;
         margin-right: 10px;
 
-        @include mdScreen {
+        @include desktopmid {
           width: 30px;
           height: 30px;
         }
@@ -9193,6 +9267,11 @@ svg:not(:root) {
         background: url(../../../assets/img/tabicon-2.webp) no-repeat center;
         background-size: contain;
         margin-right: 10px;
+
+        @include desktopmid {
+          width: 30px;
+          height: 30px;
+        }
 
         @include mdScreen {
           width: 30px;
@@ -9946,6 +10025,7 @@ h6+p+p {
   }
 
   .different-item {
+    height: 100%;
     border: 1px solid $borderGray;
     border-radius: 20px;
     position: relative;
@@ -10029,7 +10109,22 @@ h6+p+p {
         line-height: 23px;
         color: $white;
         font-weight: 400;
+        max-height: 115px;
       }
+    }
+  }
+}
+
+.on-demand-app-development-page {
+  .different-categories {
+    padding-bottom: 150px;
+
+    @include ipadLarge {
+      padding-bottom: 100px;
+    }
+
+    @include mobileLarge {
+      padding-bottom: 60px;
     }
   }
 }
@@ -10044,6 +10139,20 @@ h6+p+p {
 
     @include mobileLarge {
       padding-bottom: 60px;
+    }
+  }
+}
+
+.features-main-sec {
+  +.different-categories {
+    padding: 0 0 150px 0;
+
+    @include ipadLarge {
+      padding: 0 0 100px 0;
+    }
+
+    @include mobileLarge {
+      padding: 0 0 60px 0;
     }
   }
 }
@@ -11018,7 +11127,8 @@ section.sevice-bg-sec {
           z-index: 1;
         }
 
-        h4, h3 {
+        h4,
+        h3 {
           &.cust-inner-title {
             color: $secondaryColor !important;
             max-width: 100%;
@@ -11556,6 +11666,7 @@ body.overflow-hidden-x {
   position: relative;
   background-color: $white;
   z-index: 9;
+  overflow: hidden;
 
   @include mdScreenSmall {
     display: none;
@@ -12297,7 +12408,10 @@ body.overflow-hidden-x {
         padding: 0 0 0 50px;
 
         img {
-          width: 100%;
+
+          @include mobileLarge {
+            width: 100%;
+          }
         }
 
         @include desktopSmall {
@@ -12512,6 +12626,10 @@ body.overflow-hidden-x {
 
     .industries-list-box {
       padding: 0 35px 70px 35px;
+
+      @include desktopmid {
+        padding: 0 25px 50px 25px;
+      }
 
       @include desktopSmall {
         padding: 0 15px 30px 15px;
@@ -13672,6 +13790,18 @@ body.overflow-hide {
         border: 1px solid $secondaryColor;
         border-radius: 50rem;
         transition: all ease 0.5s;
+      }
+    }
+  }
+}
+
+.blog-post-sec {
+  &.related-blog {
+    +.lets-talk-area {
+      padding-top: 72px;
+
+      @include ipadLarge {
+        padding-top: 0;
       }
     }
   }

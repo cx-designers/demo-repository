@@ -1,6 +1,6 @@
 ---
 layout: layouts/service-template/web-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Design Prototyping & Development Company - Cypherox Technologies
 bodyClass: "design-prototyping-development"
 permalink: design-prototyping-development.html
 bannersubTitle: "UI UX Design Services"
@@ -111,30 +111,144 @@ servicesList:
     description: "Developing consistent visual guidelines, typography, color schemes, and UI components to strengthen brand identity and recognition."
 
 phases:
-  - title: "Platform"
+  - title: " Design & Wireframing Tools"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "Figma"
+            title: "Figma"
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "Adobe_XD"
+            title: "Adobe XD"
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "Sketch"
+            title: "Sketch"
+          - icon: "../../../assets/img/icon-Balsamiq.svg"
+            alt: "Balsamiq"
+            title: "Balsamiq"
+          - icon: "../../../assets/img/icon-inVision.svg"
+            alt: "InVision"
+            title: "InVision"
+          - icon: "../../../assets/img/icon-Axure.svg"
+            alt: "Axure RP"
+            title: "Axure RP"
+          - icon: "../../../assets/img/icon-photosho.svg"
+            alt: "Adobe Photoshop"
+            title: "Adobe Photoshop"
+          - icon: "../../../assets/img/icon-iiiustrator.svg"
+            alt: "Adobe Illustrator"
+            title: "Adobe Illustrator"
+          - icon: "../../../assets/img/icon-Corel-draw.svg"
+            alt: "CorelDRAW"
+            title: "CorelDRAW"
 
-  - title: "Back-End Development"
+  - title: "Prototyping & Interaction Tools"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
+          - icon: "../../../assets/img/icon-Protoio.svg"
+            alt: "Proto.io"
+            title: "Proto.io"
+          - icon: "../../../assets/img/icon-Framer.svg"
+            alt: "Framer"
+            title: "Framer"
+          - icon: "../../../assets/img/icon-Marvel.svg"
+            alt: "Marvel"
+            title: "Marvel"
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "Principle"
+            title: "Principle"
+          - icon: "../../../assets/img/icon-After-effect.svg"
+            alt: "After Effects"
+            title: "After Effects"
+          - icon: "../../../assets/img/icon-Lottie.svg"
+            alt: "Lottie"
+            title: "Lottie"
+          - icon: "../../../assets/img/icon-Rive.svg"
+            alt: "Rive"
+            title: "Rive"
+          - icon: "../../../assets/img/icon-Maze.svg"
+            alt: "Maze"
+            title: "Maze"
+          - icon: "../../../assets/img/icon-Usertesting.svg"
+            alt: "UserTesting"
+            title: "UserTesting"
+          - icon: "../../../assets/img/icon-Hotzar.svg"
+            alt: "Hotjar"
+            title: "Hotjar" 
 
-  - title: "App Design"
+  - title: "Front-End Technologies"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
+          - icon: "../../../assets/img/icon-bootstrap.svg"
+            alt: "Bootstrap"
+            title: "Bootstrap"
+          - icon: "../../../assets/img/icon-tailwind-css.svg"
+            alt: "Tailwind CSS"
+            title: "Tailwind CSS"
+          - icon: "../../../assets/img/icon-material-ui.svg"
+            alt: "Material UI"
+            title: "Material UI"
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "React.js"
+            title: "React.js"
+          - icon: "../../../assets/img/icon-vuejs.svg"
+            alt: "Vue.js"
+            title: "Vue.js"
+          - icon: "../../../assets/img/icon-angular.svg"
+            alt: "Angular"
+            title: "Angular"
+          - icon: "../../../assets/img/icon-storybook.svg"
+            alt: "Storybook"
+            title: "Storybook"
+          - icon: "../../../assets/img/icon-Chakra-Ui.svg"
+            alt: "Chakra UI"
+            title: "Chakra UI"
+          - icon: "../../../assets/img/icon-Ant-design.svg"
+            alt: "Ant Design"
+            title: "Ant Design" 
 blogRelatedCtegory:
   - "Design"
   - "Web Development"
+
+faqSubtitle : Simplifying the Design Process
+faqTitle: Comprehensive UI/UX Design & Prototyping FAQs
+faqBoxList:
+  - faqTitle: "What is Design & Prototype Development, and why is it important?"
+    faqDescription: "Design & Prototype Development is the process of creating wireframes, UI designs, and interactive prototypes to visualize and test a digital product before development. It helps improve usability, reduce errors, and ensure a seamless user experience."
+  
+  - faqTitle: "How does prototyping improve the final product?"
+    faqDescription: "Prototyping allows early testing of design concepts, gathers user feedback, and identifies potential issues before coding begins, saving time and development costs."
+  
+  - faqTitle: "What tools do you use for UI/UX design and prototyping?"
+    faqDescription: "We use industry-leading tools like Figma, Adobe XD, Sketch, InVision, and Axure RP to create wireframes, mockups, and interactive prototypes."
+  
+  - faqTitle: "How long does the design and prototyping process take?"
+    faqDescription: "The timeline depends on project complexity, but typically, it takes 2-6 weeks for wireframing, UI design, and prototyping, followed by revisions and testing."
+  
+  - faqTitle: "Can I request changes during the design phase?"
+    faqDescription: "Yes! We follow an agile and iterative approach, allowing you to review designs, provide feedback, and request refinements to ensure the best outcome."
+  
+  - faqTitle: "What is the difference between wireframing and prototyping?"
+    faqDescription: "Wireframes are basic structural layouts that define functionality, while prototypes are interactive, clickable versions that simulate real user experiences."
+  
+  - faqTitle: "Do you offer user testing as part of the process?"
+    faqDescription: "Absolutely! We conduct user research, A/B testing, and usability testing to refine designs and enhance user engagement before final development."
+  
+  - faqTitle: "Will the design be mobile-friendly and responsive?"
+    faqDescription: "Yes, we create responsive and adaptive designs, ensuring seamless experiences across desktops, tablets, and mobile devices."
+  
+  - faqTitle: "Can I use the prototype to pitch to investors or stakeholders?"
+    faqDescription: "Definitely! A high-fidelity prototype is a great way to showcase your idea, demonstrate functionality, and gain investor confidence."
+  
+  - faqTitle: "What happens after the design and prototyping phase?"
+    faqDescription: "Once finalized, we provide design assets, style guides, and developer handoff files, ensuring a smooth transition into development."
+
+hireCtaTitle: "Hire Experienced Developer"
+hireCtaSubTitle: "Hire UI UX Design and Prototype Developer"
+hireCtaDesc: "Boost your digital presence with expert UI/UX design and prototyping that enhances user engagement and conversions. Our designers craft intuitive interfaces, wireframes, and interactive prototypes for seamless user experiences. Hire our dedicated experts today to bring your vision to life!"
+hireCtaButtonLink : "/hire-ui-ux-designers.html"
+hireCtaButtonText: "Connect With us"
 ---

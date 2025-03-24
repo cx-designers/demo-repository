@@ -175,7 +175,7 @@ $(document).ready(function () {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1000,
     coverflowEffect: {
       rotate: -5,
@@ -190,10 +190,10 @@ $(document).ready(function () {
       767: {
         coverflowEffect: {
           rotate: -5,
-          stretch: 50,
-          depth: 100
+          stretch: 120,
+          depth: 130
         }
-      }
+      },
     }
   });
 
@@ -833,35 +833,42 @@ sections.forEach((section) => {
 /* SVG Draw JS End */
 
 /* for homepage service section js start */
-document.addEventListener("DOMContentLoaded", function () {
-  const serviceSections = document.querySelectorAll(".inner-service-list .inner-service-sec");
 
-  if (serviceSections.length > 0) {
-    let activeSection = null;
+function initStickyServiceObserver() {
+  if (window.innerWidth > 1024) {
+    const serviceSections = document.querySelectorAll(".inner-service-list .inner-service-sec");
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            if (activeSection && activeSection !== entry.target) {
-              activeSection.classList.remove("sticky");
+    if (serviceSections.length > 0) {
+      let activeSection = null;
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              if (activeSection && activeSection !== entry.target) {
+                activeSection.classList.remove("sticky");
+              }
+
+              activeSection = entry.target;
+              activeSection.scrollIntoView({ behavior: "smooth", block: "start" });
+              activeSection.classList.add("sticky");
             }
+          });
+        },
+        {
+          root: null,
+          threshold: 0.1,
+        }
+      );
 
-            activeSection = entry.target;
-            activeSection.scrollIntoView({ behavior: "smooth", block: "start" });
-            activeSection.classList.add("sticky");
-          }
-        });
-      },
-      {
-        root: null,
-        threshold: 0.1,
-      }
-    );
-
-    serviceSections.forEach((section) => observer.observe(section));
+      serviceSections.forEach((section) => observer.observe(section));
+    }
   }
-});
+}
+
+document.addEventListener("DOMContentLoaded", initStickyServiceObserver);
+
+window.addEventListener("resize", initStickyServiceObserver);
+
 
 /* for homepage service section js end */
 
@@ -1586,6 +1593,10 @@ $(document).ready(function () {
     breakpoints: {
       1920: {
         slidesPerView: 6,
+        spaceBetween: 25
+      },
+      1660: {
+        slidesPerView: 5,
         spaceBetween: 25
       },
       1028: {
