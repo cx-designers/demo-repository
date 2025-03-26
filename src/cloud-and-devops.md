@@ -263,8 +263,8 @@ phases:
             alt: "AWS CloudWatch & Azure Monitor"
             title: "AWS CloudWatch & Azure Monitor"
 
-hireCtaTitle: "Hire Dedicated Developers"
-hireCtaSubTitle: "Hire Cloud & DevOps Experts"
+hireCtaTitle: "Hire Cloud & DevOps Experts "
+hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Looking for top-tier Cloud and DevOps professionals to streamline your infrastructure and boost efficiency? Our specialists design, implement, and manage cloud environments and DevOps workflows tailored to your business needs. Whether it's cloud migration, security enhancement, or automation, we ensure seamless operations with cutting-edge tools and best practices. Scale your IT ecosystem with confidence!"
 hireCtaButtonLink : "/hire-devops-developer.html"
 hireCtaButtonText: "hire now"

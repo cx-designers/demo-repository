@@ -6428,6 +6428,7 @@ svg:not(:root) {
 
 
 
+
 /* process section start */
 .Process-main-sec {
   padding: 100px 0px 100px 0;
@@ -6447,6 +6448,10 @@ svg:not(:root) {
     position: absolute;
     inset: 0;
     width: 100%;
+
+    @include mobileLarge {
+      height: 100vh;
+    }
   }
 
   .heading-main-sec {
@@ -6464,6 +6469,10 @@ svg:not(:root) {
     position: relative;
     overflow: hidden;
 
+    @include mdScreenLarge {
+      display: none;
+    }
+
     .animated-box-main {
       display: flex;
       height: auto;
@@ -6473,6 +6482,10 @@ svg:not(:root) {
       position: absolute;
       top: 10%;
       z-index: 2;
+
+      @include mdScreenLarge {
+        margin-left: 0px;
+      }
 
       .item {
         width: 500px;
@@ -6534,9 +6547,105 @@ svg:not(:root) {
       }
     }
   }
+
+  .animated-section-slider {
+    display: none;
+
+    @include mdScreenLarge {
+      display: block;
+      margin-top: 40px;
+    }
+
+    .animated-box {
+      margin: 0px 30px;
+
+      .swiper-pagination {
+        display: none;
+      }
+
+      &.swiper-container-initialized {
+        .swiper-pagination {
+          position: absolute;
+          bottom: 0;
+          z-index: 9999;
+          display: block;
+
+          @include mdScreenLarge {
+            bottom: 0px;
+          }
+
+          span.swiper-pagination-bullet {
+            background: #fff;
+            opacity: 0.5;
+            transition: 0.3s ease;
+
+            &.swiper-pagination-bullet-active {
+              background: #f26e65;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      .item.swiper-slide {
+        padding: 40px;
+        height: auto;
+        background-color: #000;
+        border: 1px solid #262626;
+        border-radius: 25px;
+        color: #fff;
+        opacity: 1;
+        transition: transform .3s ease-out;
+
+        .rule-number {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: #f26e65;
+          margin-bottom: 15px;
+          font-size: 16px;
+          line-height: 1;
+          font-weight: 600;
+
+          &::before {
+            content: "";
+            width: 16px;
+            height: 16px;
+            border: 3px solid #fff;
+            display: inline-block;
+            border-radius: 50%;
+            background: #f26e65;
+          }
+        }
+
+        h4,
+        h3 {
+          max-width: none;
+          font-size: 34px;
+          line-height: 1.4;
+          margin-bottom: 30px;
+          color: #fff;
+          font-weight: 400;
+          opacity: 1;
+          transition: 0.3s ease;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 1.5;
+          color: hsla(0, 0%, 100%, .8);
+          margin-bottom: 0;
+          opacity: 1;
+          transition: 0.3s ease;
+        }
+      }
+    }
+  }
 }
 
 /* process section start */
+
 
 /*service review client start*/
 
@@ -7247,7 +7356,7 @@ svg:not(:root) {
 }
 
 .site_wrapper {
-  + .lets-talk-area {
+  +.lets-talk-area {
     &.cta-button-bar {
       padding: 150px 0 0 0;
 
@@ -7430,18 +7539,42 @@ svg:not(:root) {
       text-align: left;
     }
 
-    h4 {
+    h4,
+    h2 {
+      font-size: 60px;
+      color: $white;
+      line-height: 1.2;
+      text-shadow: none;
+      text-align: left;
+
+      @include mdScreen {
+        font-size: 50px !important;
+      }
+
       @include mobileLarge {
         text-align: left;
+        font-size: 40px !important;
+        line-height: 1.1;
+      }
+
+      span {
+        color: $white;
+        text-shadow: none;
       }
     }
 
     b {
-      h4 {
+
+      h4,
+      h2 {
         color: $secondaryColor;
 
         @include mobileLarge {
           text-align: left;
+        }
+
+        span {
+          color: $secondaryColor;
         }
       }
     }
@@ -7695,8 +7828,29 @@ svg:not(:root) {
       padding: 0 0 40px;
     }
 
-    h4 {
+    h4,
+    h2 {
       color: $primaryColor;
+      font-size: 60px;
+      line-height: 1.2;
+
+      span {
+        color: $primaryColor;
+        text-shadow: none;
+      }
+
+      @include mdScreen {
+        font-size: 50px !important;
+      }
+
+      @include ipadLarge {
+        text-align: left;
+      }
+
+      @include mobileLarge {
+        font-size: 40px !important;
+        line-height: 1.1;
+      }
     }
 
     strong {
@@ -7762,7 +7916,8 @@ svg:not(:root) {
           padding: 20px 20px 0 20px;
         }
 
-        h5 {
+        h5,
+        h3 {
           margin: 0 0 30px;
           font-size: 30px;
           line-height: 30px;
@@ -10038,6 +10193,30 @@ h6+p+p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    h3 {
+      font-size: 60px;
+      color: $white;
+      line-height: 1.2;
+
+      span {
+        color: $white;
+        text-shadow: none;
+      }
+
+      @include mdScreen {
+        font-size: 50px !important;
+      }
+
+      @include ipadLarge {
+        text-align: left;
+      }
+
+      @include mobileLarge {
+        font-size: 40px !important;
+        line-height: 1.1;
+      }
+    }
   }
 
   .different-item {

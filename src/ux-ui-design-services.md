@@ -3,8 +3,8 @@ layout: layouts/service-template/web-app-development-services.njk
 title: Website Design & Development Company - Cypherox Technologies
 bodyClass: "ux-ui-design-services"
 permalink: ux-ui-design-services.html
-bannersubTitle: "Elevate Your Digital Presence with UI/UX Design Agency"
-bannerTitle: "UI/UX Design Services"
+bannersubTitle: "UI/UX Design Services"
+bannerTitle: "Elevate Your Digital Presence with UI/UX Design Agency"
 bannerdesc: "Transform user experiences into business success. Our expert UI/UX design services blend creativity and functionality to craft intuitive, visually stunning interfaces that engage users and drive conversions."
 bannerbuttontext: "Talk To Our Experts"
 buttonLink: "/contact-us.html"
@@ -162,8 +162,8 @@ faqBoxList:
   - faqTitle: "How can I get started with Cypherox Technologies for my UX/UI design project?"
     faqDescription: "Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to understand your requirements, goals, and vision. From there, we’ll create a customized plan to bring your ideas to life."
 
-hireCtaTitle: "Hire UI/UX Designers"
-hireCtaSubTitle: "Hire Dedicated UI/UX Designers for Your Business Success"
+hireCtaTitle: "Hire Dedicated UI/UX Designers for Your Business Success "
+hireCtaSubTitle: "Hire UI/UX Designers"
 hireCtaDesc: "Looking to scale your projects? Our talented pool of UI/UX designers brings expertise in crafting innovative, user-centric designs. Whether you need a single designer or an entire team, we provide flexible hiring models tailored to your requirements. Boost productivity, save costs, and achieve faster time-to-market by partnering with us today!"
 hireCtaButtonLink : "/hire-ui-ux-designers.html"
 hireCtaButtonText: "Connect With Our Team"

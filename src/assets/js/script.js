@@ -1112,113 +1112,102 @@ if (document.querySelector('.hire-main-sec')) {
 /* Animated Section JS Start */
 
 if (document.querySelector(".Process-main-sec")) {
+  let swiperProcess;
 
-  let swiperInstance;
-
-  function initializeAnimationOrSlider() {
-    const screenWidth = window.innerWidth;
-    const boxes = gsap.utils.toArray(".animated-section .item");
-    const containerWidth = boxes.reduce((acc, el) => acc + el.offsetWidth, 0);
-    const offset = -containerWidth + window.innerWidth / 20;
-
-    // Swiper for smaller screens (below 1260px)
-    if (screenWidth <= 1260) {
-
-      // Destroy GSAP animation if active
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
-      gsap.globalTimeline.clear();
-
-      // Destroy previous Swiper instance if it exists
-      if (swiperInstance) {
-        swiperInstance.destroy(true, true);
+  function initProcessSection() {
+    if ($(window).width() > 1260) {
+      // Destroy Swiper if it exists
+      if (swiperProcess) {
+        swiperProcess.destroy(true, true);
+        swiperProcess = null;
       }
-
-      // Check if Swiper class is present
-      let sliderContainer = document.querySelector(".animated-box-main");
-      if (sliderContainer) {
-        sliderContainer.classList.add("swiper-container");
-        let slides = document.querySelectorAll(".animated-section .item");
-
-        slides.forEach(slide => {
-          slide.classList.add("swiper-slide");
-        });
-
-        // Create Swiper wrapper
-        let wrapper = document.createElement("div");
-        wrapper.classList.add("swiper-wrapper");
-
-        slides.forEach(slide => {
-          wrapper.appendChild(slide);
-        });
-
-        // Remove existing content & add Swiper wrapper
-        sliderContainer.innerHTML = "";
-        sliderContainer.appendChild(wrapper);
-
-        // Add Swiper pagination & navigation
-        let pagination = document.createElement("div");
-        pagination.classList.add("swiper-pagination");
-
-        sliderContainer.appendChild(pagination);
-
-        // Initialize Swiper
-        swiperInstance = new Swiper(".animated-box-main", {
-          slidesPerView: 1.2,
-          spaceBetween: 10,
-          loop: true,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-        });
-
-        console.log("Swiper initialized");
+  
+      // Remove Swiper-related classes
+      $(".animated-box-main-slider").removeClass("swiper-wrapper");
+      $(".animated-box-main-slider .item").removeClass("swiper-slide");
+  
+      // Remove GSAP ScrollTrigger if exists
+      ScrollTrigger.getAll().forEach(trigger => {
+        if (trigger.trigger === document.querySelector(".Process-main-sec")) {
+          trigger.kill();
+        }
+      });
+  
+      if ($(".Process-main-sec").parent().hasClass("pin-spacer")) {
+        $(".Process-main-sec").unwrap();
       }
-
-    } else {
-      // Destroy Swiper if active
-      if (swiperInstance) {
-        swiperInstance.destroy(true, true);
-        swiperInstance = null;
-      }
-
-      // Initialize GSAP animation
+  
+      // GSAP Animation Setup
+      const boxes = gsap.utils.toArray(".animated-section .item");
+      const containerWidth = boxes.reduce((acc, el) => acc + el.offsetWidth, 0);
+      const offset = -containerWidth + window.innerWidth / 20;
+  
       gsap.to(boxes, {
         scrollTrigger: {
           trigger: ".Process-main-sec",
           start: "top top",
-          end: () => `+=${containerWidth}`,
+          end: `+=${containerWidth}`,
           scrub: true,
           pin: ".Process-main-sec",
           pinSpacing: true,
-          onEnter: () => console.log("Process section pinned and scrolling started"),
-          onLeave: () => console.log("Process section unpinned, next section can scroll"),
-          onLeaveBack: () => console.log("Scroll has passed back through the Process section"),
         },
         x: offset,
         ease: "linear"
       });
-
-      let initialPos = boxes[0].getBoundingClientRect().left;
-
-      function scaleItems() {
-        const currentPos = boxes[0].getBoundingClientRect().left;
-        const scaleAmount = Math.min(Math.abs((initialPos - currentPos) * 0.0175), 1);
-        gsap.to(boxes, { scale: 1 - scaleAmount / 2 });
-
-        initialPos = currentPos;
-        requestAnimationFrame(scaleItems);
+  
+    } else {
+      // Kill GSAP ScrollTrigger
+      ScrollTrigger.getAll().forEach(trigger => {
+        if (trigger.trigger === document.querySelector(".Process-main-sec")) {
+          trigger.kill();
+        }
+      });
+  
+      if ($(".Process-main-sec").parent().hasClass("pin-spacer")) {
+        $(".Process-main-sec").unwrap();
       }
-
-      scaleItems();
+  
+      // Initialize Swiper
+      if (!$(".animated-box-main-slider").hasClass("swiper-wrapper")) {
+        $(".animated-box-main-slider").addClass("swiper-wrapper");
+        $(".animated-box-main-slider .item").addClass("swiper-slide");
+      }
+  
+      if (!swiperProcess) {
+        swiperProcess = new Swiper(".animated-box", {
+          slidesPerView: 3,
+          spaceBetween: 20,
+          slidesPerGroup: 1,
+          loop: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+          },
+          breakpoints: {
+            991: {
+              slidesPerView: 2,
+            },
+            520: {
+              slidesPerView: 1,
+            }
+          }
+        });
+      }
     }
   }
-
-  // Run on load
-  initializeAnimationOrSlider();
-
-  // Run on window resize
-  window.addEventListener("resize", initializeAnimationOrSlider);
+  
+  // Initialize on load
+  initProcessSection();
+  
+  // Re-check on resize
+  $(window).resize(function () {
+    initProcessSection();
+  });
+  
 }
 
 

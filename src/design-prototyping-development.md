@@ -85,8 +85,8 @@ devBgAlt : "bg-img"
 
 
     
-secTitle: "Innovative UI/UX Design Solutions"
-secSubTitle: "Bringing Your Vision to Life with Prototyping"  
+secTitle: "Bringing Your Vision to Life with Prototyping"
+secSubTitle: "Innovative UI/UX Design Solutions"  
 servicesList:
   - count: "01."
     title: "Creative UI/UX Design"
@@ -244,8 +244,8 @@ faqBoxList:
   - faqTitle: "What happens after the design and prototyping phase?"
     faqDescription: "Once finalized, we provide design assets, style guides, and developer handoff files, ensuring a smooth transition into development."
 
-hireCtaTitle: "Hire Experienced Developer"
-hireCtaSubTitle: "Hire UI UX Design and Prototype Developer"
+hireCtaTitle: "Hire UI UX Design and Prototype Developer"
+hireCtaSubTitle: "Hire Experienced Developer"
 hireCtaDesc: "Boost your digital presence with expert UI/UX design and prototyping that enhances user engagement and conversions. Our designers craft intuitive interfaces, wireframes, and interactive prototypes for seamless user experiences. Hire our dedicated experts today to bring your vision to life!"
 hireCtaButtonLink : "/hire-ui-ux-designers.html"
 hireCtaButtonText: "Connect With us"

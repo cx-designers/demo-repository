@@ -83,8 +83,8 @@ devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
     
-secTitle: "Our Core PSD to HTML Services"
-secSubTitle: "Complete PSD to HTML Development Services We Offer "  
+secTitle: "Complete PSD to HTML Development Services We Offer"
+secSubTitle: "Our Core PSD to HTML Services"  
 servicesList:
   - count: "01."
     title: "Responsive HTML Conversion"
