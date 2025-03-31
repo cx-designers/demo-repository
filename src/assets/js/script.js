@@ -1,55 +1,210 @@
 
 /* menu js start */
+// $(document).ready(function () {
+//   $(".menuButton a.primary-btn").on("click", function (e) {
+//     e.preventDefault(); // Prevent default action if necessary
+//     const $svg = $(".menu svg");
+
+//     if ($svg.hasClass("expanded")) {
+//       setTimeout(function () {
+//         $svg.removeClass("expanded");
+//       }, 300);
+//     } else {
+//       $svg.addClass("expanded");
+//     }
+//   });
+// });
+
+// $(document).ready(function () {
+//   $(".menuButton a.primary-btn").on("click", function (e) {
+//     e.preventDefault();
+//     const $menudate = $(".menu-date");
+
+//     if ($menudate.hasClass("open")) {
+//       $menudate.removeClass("open");
+//     } else {
+//       setTimeout(function () {
+//         $menudate.addClass("open");
+//       }, 300); // Adds the class after 1 second
+//     }
+//   });
+// });
+
+// $(document).ready(function () {
+//   $(".menu-date-bar > ul > li").on("click", function () {
+//     const $this = $(this);
+
+//     if ($this.hasClass("active")) {
+//       $this.removeClass("active");
+//     } else {
+//       $(".menu-date-bar ul li").removeClass("active"); // Remove active from all siblings
+//       $this.addClass("active"); // Add active to the clicked element
+//     }
+//   });
+// });
+
+// $(document).ready(function () {
+//   $(".menuButton a.primary-btn").on("click", function (e) {
+//     e.preventDefault(); // Prevent default action (if it's a link)
+//     $("body").toggleClass("open-menu"); // Replace 'custom-class' with the desired class name
+//   });
+// });
+
+
 $(document).ready(function () {
+  
+
+  // Toggle main menu and SVG
   $(".menuButton a.primary-btn").on("click", function (e) {
-    e.preventDefault(); // Prevent default action if necessary
+    e.preventDefault(); // Prevent default action
+    $(this).toggleClass("active");
     const $svg = $(".menu svg");
+    const $menuDate = $(".menu-date");
 
     if ($svg.hasClass("expanded")) {
-      setTimeout(function () {
-        $svg.removeClass("expanded");
-      }, 300);
+      $svg.removeClass("expanded");
     } else {
       $svg.addClass("expanded");
     }
-  });
-});
 
-$(document).ready(function () {
-  $(".menuButton a.primary-btn").on("click", function (e) {
+    // Toggle menu date open state with delay
+    if ($menuDate.hasClass("open")) {
+      $menuDate.removeClass("open");
+    } else {
+      $menuDate.addClass("open");
+    }
+
+    // Toggle body class for full-screen menu
+    $("body").toggleClass("open-menu overflow-hide");
+  });
+
+  // Submenu Arrow Click - Add 'active' class and set styles inline
+  $(".menu-date-bar > ul > li > .arrow-icon").on("click", function (e) {
     e.preventDefault();
-    const $menudate = $(".menu-date");
+    
+    let $parentMenu = $(this).closest("ul"); // Get the parent UL element
+    let $submenu = $(this).next("ul.sub-menu"); // Get the corresponding submenu
 
-    if ($menudate.hasClass("open")) {
-      $menudate.removeClass("open");
-    } else {
-      setTimeout(function () {
-        $menudate.addClass("open");
-      }, 300); // Adds the class after 1 second
-    }
+    // Remove active class and inline styles from all other submenus
+    $(".arrow-icon").removeClass("active").next("ul.sub-menu").removeAttr("style");
+
+    // Add active class to clicked arrow
+    $(this).addClass("active");
+
+    // Move the parent menu to the left (hide it)
+    $parentMenu.css({
+      "transform": "translateX(-100%)",
+    });
+
+    // Animate the submenu from the right to the center
+    $submenu.css({
+      "transform": "translateX(0%)",
+      "opacity": "1",
+      "background": "#000",
+      "z-index": "9"
+    }).animate({
+      "transform": "translateX(0)"
+    }, 300); // Adding animation for smooth transition
+  });
+
+  // Submenu Back Button Click - Hide the parent ul smoothly and show previous level menu
+  $(".menu-back-icon").on("click", function (e) {
+    e.preventDefault();
+
+    let $parentUl = $(this).closest("ul.sub-menu"); // Target the closest ul.sub-menu
+    let $previousMenu = $parentUl.closest("li").parents("ul").first(); // Get the previous menu (level above)
+
+    // Remove active class from the corresponding arrow icon
+    $parentUl.closest("li").find(".arrow-icon").removeClass("active");
+
+    // Hide the submenu with smooth transition
+    $parentUl.css({
+      "transform": "translateX(120%)",
+      "opacity": "0"
+    });
+
+    // Show the previous level menu with a transition
+    $previousMenu.css({
+      "transform": "translateX(0)",
+      "opacity": "1",
+    }).animate({
+      "transform": "translateX(0)"
+    }, 300); // Adding animation to go back
+  });
+
+  // Handling Level 2 to Level 3 submenus (add similar logic for more levels)
+  $(".menu-date-bar > ul > li .has-sub-menu-level-3 .arrow-icon").on("click", function (e) {
+    e.preventDefault();
+    
+    let $parentMenu = $(this).closest("ul"); // Get the parent UL element
+    let $submenu = $(this).next("ul.third-sub-menu"); // Get the third-level submenu
+
+    // Remove active class and inline styles from all other submenus
+    $(".has-sub-menu-level-3 .arrow-icon").removeClass("active").next("ul.third-sub-menu").removeAttr("style");
+
+    // Add active class to clicked arrow
+    $(this).addClass("active");
+
+    // Move the parent menu to the left (hide it)
+    $parentMenu.css({
+      "transform": "translateX(-100%)",
+    });
+
+    // Animate the third-level submenu from the right to the center
+    $submenu.css({
+      "transform": "translateX(0)",
+      "opacity": "1",
+      "background": "#000",
+      "z-index": "9"
+    }).animate({
+      "transform": "translateX(0)"
+    }, 300); // Adding animation for smooth transition
+  });
+
+  // Back button for 3rd-level submenu to go back to 2nd-level submenu
+  $(".third-sub-menu .menu-back-icon").on("click", function (e) {
+    e.preventDefault();
+
+    let $parentUl = $(this).closest("ul.third-sub-menu");
+
+    // Remove active class from the corresponding arrow icon
+    $parentUl.closest("li").find(".arrow-icon").removeClass("active");
+
+    // Set styles to hide the third-level submenu
+    $parentUl.css({
+      "transform": "translateX(120%)",
+      "opacity": "0"
+    });
+
+    // Show the second-level menu with smooth transition
+    $parentUl.closest("li").find(".sub-menu").css({
+      "transform": "translateX(0)",
+      "opacity": "1"
+    });
+  });
+
+  // Back button for 2nd-level submenu to go back to the first-level menu
+  $(".sub-menu .menu-back-icon").on("click", function (e) {
+    e.preventDefault();
+
+    let $parentUl = $(this).closest("ul.sub-menu");
+
+    // Remove active class from the corresponding arrow icon
+    $parentUl.closest("li").find(".arrow-icon").removeClass("active");
+
+    // Set styles to hide the second-level submenu
+    $parentUl.css({
+      "transform": "translateX(120%)",
+      "opacity": "0"
+    });
+
+    // Show the first-level menu with smooth transition
+    $parentUl.closest("li").find(".menu-box-level-1").css({
+      "transform": "translateX(0)",
+      "opacity": "1"
+    });
   });
 });
-
-$(document).ready(function () {
-  $(".menu-date-bar > ul > li").on("click", function () {
-    const $this = $(this);
-
-    if ($this.hasClass("active")) {
-      $this.removeClass("active");
-    } else {
-      $(".menu-date-bar ul li").removeClass("active"); // Remove active from all siblings
-      $this.addClass("active"); // Add active to the clicked element
-    }
-  });
-});
-
-$(document).ready(function () {
-  $(".menuButton a.primary-btn").on("click", function (e) {
-    e.preventDefault(); // Prevent default action (if it's a link)
-    $("body").toggleClass("open-menu"); // Replace 'custom-class' with the desired class name
-  });
-});
-
 /* menu js end */
 
 /* swiper-ourClient js start */
@@ -603,7 +758,7 @@ document.addEventListener('DOMContentLoaded', () => {
 /* Service Section JS Start */
 
 gsap.registerPlugin(ScrollTrigger);
-
+if ($('.inner-service-wrapper').length > 0) {
 // Initial styles for elements
 gsap.set([".content-inside-x", ".content-inside-x h2", ".content-inside-x p", ".first-svg", ".second-svg"], { opacity: 0 });
 gsap.set("#x-path", { fill: "black" });
@@ -678,7 +833,7 @@ bannerTimeline
     duration: 0,
     ease: "power1.inOut",
   }, 0);
-
+}
 
 /* Service Section JS End */
 
@@ -688,7 +843,7 @@ bannerTimeline
 /* Industries Section Start */
 
 let swiperIndustries;
-
+if ($('.inner-service-wrapper').length > 0) {
 function initIndustriesSection() {
   if ($(window).width() > 1260) {
     // Destroy Swiper if it exists
@@ -770,7 +925,6 @@ function initIndustriesSection() {
     }
   }
 }
-
 // Initialize on load
 initIndustriesSection();
 
@@ -778,6 +932,7 @@ initIndustriesSection();
 $(window).resize(function () {
   initIndustriesSection();
 });
+}
 
 /* Industries Section Start */
 
@@ -992,7 +1147,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 gsap.registerPlugin(ScrollTrigger);
-
+if ($('.animated-img-sec').length > 0) {
 gsap.fromTo(
   ".section_integration .animated-img-sec img",
   {
@@ -1013,6 +1168,7 @@ gsap.fromTo(
     },
   }
 );
+}
 
 
 /* Service SEction Shap Animation Start */
@@ -1753,72 +1909,76 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* Header Mega Menu JS End */
 
-/* Mobile  Menu js start */
+/* Mobile Menu JS start */  
 jQuery(document).ready(function ($) {
-  // Toggle Mobile Menu
-  $('.menu-toggle-link').click(function (event) {
-    event.stopPropagation(); // Prevent event bubbling
-    $(this).toggleClass('active');
-    $('.mobile-menu').toggleClass('open');
-    $('body').toggleClass('overflow-hide');
-  });
+  // Check if body has the 'cust-header-v1' class
+  if (!$('body').hasClass('homepage-v2')) {
+    
+    // Toggle Mobile Menu
+    $('.menu-toggle-link').click(function (event) {
+      event.stopPropagation(); // Prevent event bubbling
+      $(this).toggleClass('active');
+      $('.mobile-menu').toggleClass('open');
+      $('body').toggleClass('overflow-hide');
+    });
 
-  // Toggle first-level menu (Fix applied)
-  $(".list-item-1 > .link-item-level-1 .submenu-toggle").click(function (e) {
-    e.preventDefault();
-    e.stopPropagation();
+    // Toggle first-level menu (Fix applied)
+    $(".list-item-1 > .link-item-level-1 .submenu-toggle").click(function (e) {
+      e.preventDefault();
+      e.stopPropagation();
 
-    let $parentLi = $(this).closest(".list-item-1");
-    let $submenu = $parentLi.find(".second-sub-menu").first();
+      let $parentLi = $(this).closest(".list-item-1");
+      let $submenu = $parentLi.find(".second-sub-menu").first();
 
-    // Toggle only the clicked submenu, without closing parents
-    if ($submenu.is(":visible")) {
-      $submenu.slideUp(300);
-      $parentLi.removeClass("active");
-    } else {
-      $(".second-sub-menu").not($submenu).slideUp(300);
-      $(".list-item-1").removeClass("active");
-      $submenu.stop(true, true).slideDown(300);
-      $parentLi.addClass("active");
-    }
-  });
+      // Toggle only the clicked submenu, without closing parents
+      if ($submenu.is(":visible")) {
+        $submenu.slideUp(300);
+        $parentLi.removeClass("active");
+      } else {
+        $(".second-sub-menu").not($submenu).slideUp(300);
+        $(".list-item-1").removeClass("active");
+        $submenu.stop(true, true).slideDown(300);
+        $parentLi.addClass("active");
+      }
+    });
 
-  // Toggle second-level menu (Fix applied)
-  $(".second-sub-menu-li > a .submenu-toggle").click(function (e) {
-    e.preventDefault();
-    e.stopPropagation();
+    // Toggle second-level menu (Fix applied)
+    $(".second-sub-menu-li > a .submenu-toggle").click(function (e) {
+      e.preventDefault();
+      e.stopPropagation();
 
-    let $parentLi = $(this).closest(".second-sub-menu-li");
-    let $submenu = $parentLi.find(".third-sub-menu").first();
+      let $parentLi = $(this).closest(".second-sub-menu-li");
+      let $submenu = $parentLi.find(".third-sub-menu").first();
 
-    // Toggle only the clicked submenu, without closing parents
-    if ($submenu.is(":visible")) {
-      $submenu.slideUp(300);
-      $parentLi.removeClass("active");
-    } else {
-      $(".third-sub-menu").not($submenu).slideUp(300);
-      $(".second-sub-menu-li").removeClass("active");
-      $submenu.stop(true, true).slideDown(300);
-      $parentLi.addClass("active");
-    }
-  });
+      // Toggle only the clicked submenu, without closing parents
+      if ($submenu.is(":visible")) {
+        $submenu.slideUp(300);
+        $parentLi.removeClass("active");
+      } else {
+        $(".third-sub-menu").not($submenu).slideUp(300);
+        $(".second-sub-menu-li").removeClass("active");
+        $submenu.stop(true, true).slideDown(300);
+        $parentLi.addClass("active");
+      }
+    });
 
-  // Click outside to close menu and submenus
-  $(document).click(function (event) {
-    if (!$('.menu-toggle-link').is(event.target) && !$('.mobile-menu').is(event.target) && $('.mobile-menu').has(event.target).length === 0) {
-      $('.menu-toggle-link').removeClass('active');
-      $('.mobile-menu').removeClass('open');
-      $(".second-sub-menu, .third-sub-menu").slideUp(300);
-      $(".list-item-1, .second-sub-menu-li").removeClass("active");
-      $('body').removeClass('overflow-hide');
-    }
-  });
+    // Click outside to close menu and submenus
+    $(document).click(function (event) {
+      if (!$('.menu-toggle-link').is(event.target) && !$('.mobile-menu').is(event.target) && $('.mobile-menu').has(event.target).length === 0) {
+        $('.menu-toggle-link').removeClass('active');
+        $('.mobile-menu').removeClass('open');
+        $(".second-sub-menu, .third-sub-menu").slideUp(300);
+        $(".list-item-1, .second-sub-menu-li").removeClass("active");
+        $('body').removeClass('overflow-hide');
+      }
+    });
+
+  } else {
+    // Optionally, you can add a fallback or log if the class isn't present
+    console.log("The 'cust-header-v1' class is not present on the body element.");
+  }
 });
-
-
-
-
-/* Mobile  Menu js end */
+/* Mobile Menu JS end */
 
 document.addEventListener("DOMContentLoaded", function () {
   let activeBtn = document.querySelector(".btn-gal.on");
@@ -2267,8 +2427,8 @@ if (industries) {
   });
 }
 
-
-
+let loaderHeight = document.querySelector(".loaderWrapper.home");
+if(loaderHeight) {
 function setLoaderHeight() {
   if ($(window).width() <= 767) {
     let heroHeight = $('.hero-wrapper').outerHeight();
@@ -2290,7 +2450,7 @@ $(document).ready(function () {
 $(window).resize(function () {
   setLoaderHeight();
 });
-
+}
 
 /* Join Team Mobile JS Start */
 

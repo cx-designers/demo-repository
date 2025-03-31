@@ -172,7 +172,7 @@ blogRelatedCtegory:
 hireCtaTitle: "Hire Expert PSD to HTML Developers"
 hireCtaSubTitle: "Hire a Dedicated Developer  "
 hireCtaDesc: "Looking for a skilled PSD to HTML developer to convert your designs into high-quality, pixel-perfect, and SEO-friendly code? Our expert developers ensure hand-coded, responsive, and W3C-compliant HTML for seamless performance. With experience in HTML, CSS, JavaScript, and modern frameworks, we create robust and scalable solutions tailored to your business needs. Get fast, reliable, and high-performance HTML conversion today!"
-hireCtaButtonLink : "/hire-ui-ux-designers.html"
+hireCtaButtonLink : "/contact-us.html"
 hireCtaButtonText: "hire now"
 
 faqTitle: FAQs for PSD to HTML Development

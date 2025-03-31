@@ -165,6 +165,6 @@ faqBoxList:
 hireCtaTitle: "Hire Dedicated UI/UX Designers for Your Business Success "
 hireCtaSubTitle: "Hire UI/UX Designers"
 hireCtaDesc: "Looking to scale your projects? Our talented pool of UI/UX designers brings expertise in crafting innovative, user-centric designs. Whether you need a single designer or an entire team, we provide flexible hiring models tailored to your requirements. Boost productivity, save costs, and achieve faster time-to-market by partnering with us today!"
-hireCtaButtonLink : "/hire-ui-ux-designers.html"
+hireCtaButtonLink : "/contact-us.html"
 hireCtaButtonText: "Connect With Our Team"
 ---

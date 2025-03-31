@@ -12,8 +12,9 @@
    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body class="{{ bodyClass }} before_load">
-{% if bodyClass == "homepage" %}
-  {% include "layouts/loaderSection.njk" %}
+  {% set validClasses = ["homepage", "homepage-v2"] %}
+  {% if validClasses.indexOf(bodyClass) != -1 %}
+    {% include "layouts/loaderSection.njk" %}
   {% endif %}
   <div class="site_wrapper" {% if bodyClass == "homepage" %} style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %} style="flex-direction: column;" {% endif %}>
     {% include "layouts/header.njk" %}
@@ -23,7 +24,8 @@
     {% include "layouts/footer.njk" %}
 
   </div>
-  {% if bodyClass == "homepage"%}
+  {% set validClasses = ["homepage", "homepage-v2"] %}
+  {% if validClasses.indexOf(bodyClass) != -1 %}
   <script>
 
 const div = document.querySelector('.site_wrapper');
@@ -151,7 +153,6 @@ function runSeparatedAnimations() {
   const paths = document.querySelectorAll('.neon'); 
   neonFlicker(paths);
 }
-
 </script>
 {% else %}
 <script>
@@ -211,7 +212,7 @@ function runSeparatedAnimations() {
         ease: "power1.inOut"
       });
   }
-  
+
   </script>
 {% endif %}
 </body>

@@ -159,7 +159,7 @@ blogRelatedCtegory:
 hireCtaTitle: "Hire a Responsive Design Expert for a Flawless Web Experience "
 hireCtaSubTitle: "Hire Dedicated Design Developer"
 hireCtaDesc: "A seamless, user-friendly, and fully responsive website is key to engaging modern audiences. Our skilled developers specialize in crafting adaptive, fast-loading, and visually compelling designs that work flawlessly on desktops, tablets, and smartphones. By leveraging the latest front-end technologies, we ensure your site is optimized for performance, accessibility, and SEO. Stay ahead in the digital space with a future-ready, mobile-first web solution built to captivate and convert."
-hireCtaButtonLink : "/hire-ui-ux-designers.html"
+hireCtaButtonLink : "/contact-us.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqTitle: Frequently Asked Questions 

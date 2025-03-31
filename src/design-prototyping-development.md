@@ -247,6 +247,6 @@ faqBoxList:
 hireCtaTitle: "Hire UI UX Design and Prototype Developer"
 hireCtaSubTitle: "Hire Experienced Developer"
 hireCtaDesc: "Boost your digital presence with expert UI/UX design and prototyping that enhances user engagement and conversions. Our designers craft intuitive interfaces, wireframes, and interactive prototypes for seamless user experiences. Hire our dedicated experts today to bring your vision to life!"
-hireCtaButtonLink : "/hire-ui-ux-designers.html"
+hireCtaButtonLink : "/contact-us.html"
 hireCtaButtonText: "Connect With us"
 ---

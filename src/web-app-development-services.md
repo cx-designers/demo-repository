@@ -225,7 +225,7 @@ blogRelatedCtegory:
 hireCtaTitle: "Hire Web Application Developers"
 hireCtaSubTitle: "Hire Dedicated Web App Developers"
 hireCtaDesc: "At Cypherox Technologies, we provide highly skilled web application developers who use cutting-edge technologies to deliver robust, scalable, and secure solutions. Whether you need a dynamic web app, a custom enterprise solution, or an e-commerce platform, our developers ensure seamless performance, intuitive UI/UX, and top-tier security. Partner with us to accelerate your project, reduce development costs, and achieve business success with tailored web solutions."
-hireCtaButtonLink : "/hire-developer.html"
+hireCtaButtonLink : "/contact-us.html"
 hireCtaButtonText: "Connect With Our Team"
 
 
