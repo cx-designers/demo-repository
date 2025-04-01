@@ -12,20 +12,22 @@
    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body class="{{ bodyClass }} before_load">
-  {% set validClasses = ["homepage", "homepage-v2"] %}
-  {% if validClasses.indexOf(bodyClass) != -1 %}
-    {% include "layouts/loaderSection.njk" %}
+  {% if "homepage" in bodyClass %}
+  {% include "layouts/loaderSection.njk" %}
   {% endif %}
-  <div class="site_wrapper" {% if bodyClass == "homepage" %} style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %} style="flex-direction: column;" {% endif %}>
+  <div class="site_wrapper" {% if "homepage" in bodyClass %} style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %} style="flex-direction: column;" {% endif %}>
+    {% if "version-2" in bodyClass %}
+    {% include "layouts/header-v2.njk" %}
+  {% else %}
     {% include "layouts/header.njk" %}
+  {% endif %}
     {% block content %}
       {{ content | safe }}
     {% endblock content %}
     {% include "layouts/footer.njk" %}
 
   </div>
-  {% set validClasses = ["homepage", "homepage-v2"] %}
-  {% if validClasses.indexOf(bodyClass) != -1 %}
+  {% if "homepage" in bodyClass %}
   <script>
 
 const div = document.querySelector('.site_wrapper');
@@ -153,6 +155,7 @@ function runSeparatedAnimations() {
   const paths = document.querySelectorAll('.neon'); 
   neonFlicker(paths);
 }
+
 </script>
 {% else %}
 <script>
@@ -212,7 +215,7 @@ function runSeparatedAnimations() {
         ease: "power1.inOut"
       });
   }
-
+  
   </script>
 {% endif %}
 </body>

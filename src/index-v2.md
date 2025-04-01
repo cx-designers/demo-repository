@@ -1,7 +1,7 @@
 ---
 layout: layouts/homepage-v2.njk
 title: Website Design & Development Company - Cypherox Technologies
-bodyClass: "homepage-v2"
+bodyClass: "homepage version-2"
 headerClass: "new-header"
 permalink: "homepage-v2.html"
 awardTopLamp: "assets/img/lamp.webp"
