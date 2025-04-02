@@ -12,23 +12,19 @@
    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body class="{{ bodyClass }} before_load">
-  {% if "homepage" in bodyClass %}
-  {% include "layouts/loaderSection.njk" %}
-  {% endif %}
-  <div class="site_wrapper" {% if "homepage" in bodyClass %} style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %} style="flex-direction: column;" {% endif %}>
-    {% if "version-2" in bodyClass %}
-    {% include "layouts/header-v2.njk" %}
-  {% else %}
-    {% include "layouts/header.njk" %}
-  {% endif %}
-    {% block content %}
-      {{ content | safe }}
-    {% endblock content %}
-    {% include "layouts/footer.njk" %}
-
-  </div>
-  {% if "homepage" in bodyClass %}
-  <script>
+  {% if bodyClass == "homepage" %}
+    {% include "layouts/loaderSection.njk" %}
+    {% endif %}
+    <div class="site_wrapper" {% if bodyClass == "homepage" %} style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %} style="flex-direction: column;" {% endif %}>
+      {% include "layouts/header.njk" %}
+      {% block content %}
+        {{ content | safe }}
+      {% endblock content %}
+      {% include "layouts/footer.njk" %}
+  
+    </div>
+    {% if bodyClass == "homepage"%}
+<script>
 
 const div = document.querySelector('.site_wrapper');
 const glowRotate = document.querySelector('.rotateGlow');
