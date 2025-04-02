@@ -2031,14 +2031,14 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Event Name JS Start */
 
 document.addEventListener('DOMContentLoaded', function () {
-  const sections = document.querySelectorAll('.join-team-image-wrapper');
+  const teamSections = document.querySelectorAll('.join-team-image-wrapper');
 
   const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('is-visible');
 
-        sections.forEach(section => {
+        teamSections.forEach(section => {
           if (section !== entry.target) {
             section.classList.remove('is-visible');
           }
@@ -2049,7 +2049,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }, { threshold: 0 });
 
-  sections.forEach(section => {
+  teamSections.forEach(section => {
     observer.observe(section);
   });
 });

@@ -208,6 +208,12 @@ body {
   }
 }
 
+body {
+  &.life-at-cypherox-page {
+    overflow: unset;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -12365,7 +12371,7 @@ body.overflow-hidden-x {
   position: relative;
   background-color: $white;
   z-index: 9;
-  overflow: hidden;
+  // overflow: hidden;
 
   @include mdScreenSmall {
     display: none;
@@ -12496,6 +12502,14 @@ body.overflow-hidden-x {
           width: 28vw;
         }
       }
+    }
+  }
+}
+
+body {
+  &.life-at-cypherox-page {
+    .gloabl-banner-inner-page {
+      overflow: hidden;
     }
   }
 }
