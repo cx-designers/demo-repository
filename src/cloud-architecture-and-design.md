@@ -121,6 +121,7 @@ servicesList:
 
 hasTechnologyStack: "no" 
 
+awesomeFeaturesSubTitle : "Cutting-Edge Technology Stack for Cloud Architecture & Design"
 phases:
   - title: "Cloud Platforms"
     blocks:
@@ -138,24 +139,24 @@ phases:
             alt: "google cloud"
             title: "Google Cloud Platform (GCP)"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ibm-cloud.svg"
+            alt: "icon-ibm-cloud"
             title: "IBM Cloud"
             
   - title: "DevOps & Cloud Management Tools"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-terraform.svg"
+            alt: "icon-terraform"
             title: "Terraform & Ansible" 
 
           - icon: "../../../assets/img/icon-kubernetes.svg"
             alt: "kubernetes"
             title: "Kubernetes & Docker"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-aws-cloudformation.svg"
+            alt: "icon-aws-cloudformation"
             title: "AWS CloudFormation"
 
           - icon: "../../../assets/img/icon-jenkins.svg"
@@ -166,23 +167,24 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-aws-iam.svg"
+            alt: "icon-aws-iam"
             title: "AWS IAM & Azure Active Directory"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-aws-cloudwatch.svg"
+            alt: "cloudwatch"
             title: "CloudWatch & Azure Monitor"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-elk.svg"
+            alt: "icon-elk"
             title: "ELK Stack (Elasticsearch, Logstash, Kibana)"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-cloud-vpn.svg"
+            alt: "icon-cloud-vpn"
             title: "Cloud VPN & SD-WAN"
 
-hireCtaSubTitle: "Hire Cloud Architects & Engineers – Build a Scalable Cloud Infrastructure"
+hireCtaTitle: "Build a Scalable Cloud Infrastructure"
+hireCtaSubTitle: "Hire Cloud Developers"
 hireCtaDesc: "Need expert cloud architects to design a secure, scalable, and high-performance cloud environment? Our specialists ensure seamless integration, automation, and security, optimizing your cloud for agility, cost-efficiency, and reliability. Build the future-ready cloud infrastructure today!"
 hireCtaButtonLink : "/contact-us.html"
 hireCtaButtonText: "Connect With Our Team"

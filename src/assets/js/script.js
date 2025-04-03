@@ -52,7 +52,7 @@
 
 
 $(document).ready(function () {
-  
+
 
   // Toggle main menu and SVG
   $(".menuButton a.primary-btn").on("click", function (e) {
@@ -81,7 +81,7 @@ $(document).ready(function () {
   // Submenu Arrow Click - Add 'active' class and set styles inline
   $(".menu-date-bar > ul > li > .arrow-icon").on("click", function (e) {
     e.preventDefault();
-    
+
     let $parentMenu = $(this).closest("ul"); // Get the parent UL element
     let $submenu = $(this).next("ul.sub-menu"); // Get the corresponding submenu
 
@@ -135,7 +135,7 @@ $(document).ready(function () {
   // Handling Level 2 to Level 3 submenus (add similar logic for more levels)
   $(".menu-date-bar > ul > li .has-sub-menu-level-3 .arrow-icon").on("click", function (e) {
     e.preventDefault();
-    
+
     let $parentMenu = $(this).closest("ul"); // Get the parent UL element
     let $submenu = $(this).next("ul.third-sub-menu"); // Get the third-level submenu
 
@@ -759,80 +759,80 @@ document.addEventListener('DOMContentLoaded', () => {
 
 gsap.registerPlugin(ScrollTrigger);
 if ($('.inner-service-wrapper').length > 0) {
-// Initial styles for elements
-gsap.set([".content-inside-x", ".content-inside-x h2", ".content-inside-x p", ".first-svg", ".second-svg"], { opacity: 0 });
-gsap.set("#x-path", { fill: "black" });
+  // Initial styles for elements
+  gsap.set([".content-inside-x", ".content-inside-x h2", ".content-inside-x p", ".first-svg", ".second-svg"], { opacity: 0 });
+  gsap.set("#x-path", { fill: "black" });
 
-const bannerTimeline = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".main-service-sec",
-    start: "top top",
-    end: "+=300%",
-    scrub: 1,
-    pin: true,
-    pinSpacing: true,
-  },
-});
-
-// Animation sequence
-bannerTimeline
-  .set([".letter-x > svg"], { width: "100vw" }) // Set initial width without animation
-  .to([".letter-x > svg"], {
-    opacity: 1,
-    duration: 2,
-    width: "1400vw",
-    ease: "power1.inOut"
-  })
-  .to(".content-inside-x", {
-    opacity: 1,
-    duration: 0,
-  }, 0)
-  .to("#x-path", {
-    fill: "#F26E65",
-    duration: 0.5,
-    ease: "power1.inOut",
-  }, 0.5);
-
-// Responsive font size handling
-gsap.matchMedia()
-  .add("(min-width: 1661px)", () => {
-    bannerTimeline.to(".content-inside-x h2", { fontSize: "6rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
-  })
-  .add("(max-width: 1660px)", () => {
-    bannerTimeline.to(".content-inside-x h2", { fontSize: "5rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
-  })
-  .add("(max-width: 991px)", () => {
-    bannerTimeline.to(".content-inside-x h2", { fontSize: "4rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
-  })
-  .add("(max-width: 767px)", () => {
-    bannerTimeline.to(".content-inside-x h2", { fontSize: "3rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+  const bannerTimeline = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".main-service-sec",
+      start: "top top",
+      end: "+=300%",
+      scrub: 1,
+      pin: true,
+      pinSpacing: true,
+    },
   });
 
-// Continue animation
-bannerTimeline
-  .to(".first-svg", {
-    opacity: 1,
-    x: 200,
-    y: 200,
-    duration: 1,
-    ease: "power1.inOut",
-  }, 0)
-  .to(".second-svg", {
-    opacity: 1,
-    x: -200,
-    y: 200,
-    duration: 1,
-    ease: "power1.inOut",
-  }, 0)
-  .to([".first-svg", ".second-svg"], {
-    opacity: 0,
-    duration: 0.5,
-  }, 0.8)
-  .to(".content-inside-x h2", {
-    opacity: 0,
-    duration: 0,
-    ease: "power1.inOut",
-  }, 0);
+  // Animation sequence
+  bannerTimeline
+    .set([".letter-x > svg"], { width: "100vw" }) // Set initial width without animation
+    .to([".letter-x > svg"], {
+      opacity: 1,
+      duration: 2,
+      width: "1400vw",
+      ease: "power1.inOut"
+    })
+    .to(".content-inside-x", {
+      opacity: 1,
+      duration: 0,
+    }, 0)
+    .to("#x-path", {
+      fill: "#F26E65",
+      duration: 0.5,
+      ease: "power1.inOut",
+    }, 0.5);
+
+  // Responsive font size handling
+  gsap.matchMedia()
+    .add("(min-width: 1661px)", () => {
+      bannerTimeline.to(".content-inside-x h2", { fontSize: "6rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+    })
+    .add("(max-width: 1660px)", () => {
+      bannerTimeline.to(".content-inside-x h2", { fontSize: "5rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+    })
+    .add("(max-width: 991px)", () => {
+      bannerTimeline.to(".content-inside-x h2", { fontSize: "4rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+    })
+    .add("(max-width: 767px)", () => {
+      bannerTimeline.to(".content-inside-x h2", { fontSize: "3rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+    });
+
+  // Continue animation
+  bannerTimeline
+    .to(".first-svg", {
+      opacity: 1,
+      x: 200,
+      y: 200,
+      duration: 1,
+      ease: "power1.inOut",
+    }, 0)
+    .to(".second-svg", {
+      opacity: 1,
+      x: -200,
+      y: 200,
+      duration: 1,
+      ease: "power1.inOut",
+    }, 0)
+    .to([".first-svg", ".second-svg"], {
+      opacity: 0,
+      duration: 0.5,
+    }, 0.8)
+    .to(".content-inside-x h2", {
+      opacity: 0,
+      duration: 0,
+      ease: "power1.inOut",
+    }, 0);
 }
 
 /* Service Section JS End */
@@ -844,95 +844,95 @@ bannerTimeline
 
 let swiperIndustries;
 if ($('.industries-section').length > 0) {
-function initIndustriesSection() {
-  if ($(window).width() > 1260) {
-    // Destroy Swiper if it exists
-    if (swiperIndustries) {
-      swiperIndustries.destroy(true, true);
-      swiperIndustries = null;
-    }
-
-    // Remove Swiper-related classes
-    $(".product-industries-slider").removeClass("swiper-wrapper");
-    $(".industries-slider-small").removeClass("swiper-slide");
-
-    // Remove any existing GSAP pin spacers
-    if ($(".industries-section").parent().hasClass("pin-spacer")) {
-      $(".industries-section").unwrap();
-    }
-
-    // GSAP Animation
-    const sliderItems = document.querySelectorAll('.slider-item');
-    const visibleWidth = 300 / sliderItems.length * 1;
-
-    gsap.set(".slider", {
-      xPercent: 100 - visibleWidth,
-    });
-
-    gsap.to(".slider", {
-      xPercent: -(100 - visibleWidth),
-      ease: "none",
-      scrollTrigger: {
-        trigger: ".industries-section",
-        pin: true,
-        start: "top",
-        scrub: 2,
-        end: "+=" + (sliderItems.length * 50) + "vw",
-      },
-    });
-
-  } else {
-    // Kill GSAP ScrollTrigger and remove pin spacer
-    ScrollTrigger.getAll().forEach(trigger => {
-      if (trigger.trigger === document.querySelector(".industries-section")) {
-        trigger.kill();
+  function initIndustriesSection() {
+    if ($(window).width() > 1260) {
+      // Destroy Swiper if it exists
+      if (swiperIndustries) {
+        swiperIndustries.destroy(true, true);
+        swiperIndustries = null;
       }
-    });
 
-    if ($(".industries-section").parent().hasClass("pin-spacer")) {
-      $(".industries-section").unwrap();
-    }
+      // Remove Swiper-related classes
+      $(".product-industries-slider").removeClass("swiper-wrapper");
+      $(".industries-slider-small").removeClass("swiper-slide");
 
-    // Initialize Swiper
-    if (!$(".product-industries-slider").hasClass("swiper-wrapper")) {
-      $(".product-industries-slider").addClass("swiper-wrapper");
-      $(".industries-slider-small").addClass("swiper-slide");
-    }
+      // Remove any existing GSAP pin spacers
+      if ($(".industries-section").parent().hasClass("pin-spacer")) {
+        $(".industries-section").unwrap();
+      }
 
-    if (!swiperIndustries) {
-      swiperIndustries = new Swiper(".product-industries-slider", {
-        slidesPerView: 3,
-        spaceBetween: 0,
-        slidesPerGroup: 1,
-        loop: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false
+      // GSAP Animation
+      const sliderItems = document.querySelectorAll('.slider-item');
+      const visibleWidth = 300 / sliderItems.length * 1;
+
+      gsap.set(".slider", {
+        xPercent: 100 - visibleWidth,
+      });
+
+      gsap.to(".slider", {
+        xPercent: -(100 - visibleWidth),
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".industries-section",
+          pin: true,
+          start: "top",
+          scrub: 2,
+          end: "+=" + (sliderItems.length * 50) + "vw",
         },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true
-        },
-        breakpoints: {
-          991: {
-            slidesPerView: 2,
-          },
-          520: {
-            slidesPerView: 1,
-          }
+      });
+
+    } else {
+      // Kill GSAP ScrollTrigger and remove pin spacer
+      ScrollTrigger.getAll().forEach(trigger => {
+        if (trigger.trigger === document.querySelector(".industries-section")) {
+          trigger.kill();
         }
       });
+
+      if ($(".industries-section").parent().hasClass("pin-spacer")) {
+        $(".industries-section").unwrap();
+      }
+
+      // Initialize Swiper
+      if (!$(".product-industries-slider").hasClass("swiper-wrapper")) {
+        $(".product-industries-slider").addClass("swiper-wrapper");
+        $(".industries-slider-small").addClass("swiper-slide");
+      }
+
+      if (!swiperIndustries) {
+        swiperIndustries = new Swiper(".product-industries-slider", {
+          slidesPerView: 3,
+          spaceBetween: 0,
+          slidesPerGroup: 1,
+          loop: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+          },
+          breakpoints: {
+            991: {
+              slidesPerView: 2,
+            },
+            520: {
+              slidesPerView: 1,
+            }
+          }
+        });
+      }
     }
   }
-}
 
-// Initialize on load
-initIndustriesSection();
-
-// Re-check on resize
-$(window).resize(function () {
+  // Initialize on load
   initIndustriesSection();
-});
+
+  // Re-check on resize
+  $(window).resize(function () {
+    initIndustriesSection();
+  });
 }
 /* Industries Section Start */
 
@@ -1061,7 +1061,7 @@ var observer = new IntersectionObserver((entries, observer) => {
           delay: (el, i) => 200 + 25 * i
         })
         .add({
-          targets: entry.target.nextElementSiblings('p, a'),
+          targets: entry.target.nextElementSiblings('p, a, ul, .cust-summary-wrapper'),
           opacity: [0, 1],
           duration: 500,
           easing: "easeOutExpo",
@@ -1623,6 +1623,62 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.scrollTo(0, 0);
 });
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const sections = document.querySelectorAll(".cust-summary-wrapper");
+//   const navItems = document.querySelectorAll(".summary-list li");
+
+//   const observer = new IntersectionObserver(
+//     (entries) => {
+//       entries.forEach((entry) => {
+//         if (entry.isIntersecting) {
+//           const id = entry.target.getAttribute("id");
+//           navItems.forEach((li) => {
+//             li.classList.remove("active");
+//             if (li.querySelector(`a[href="#${id}"]`)) {
+//               li.classList.add("active");
+//             }
+//           });
+//         }
+//       });
+//     },
+//     {
+//       root: null, 
+//       threshold: 1,
+//     }
+//   );
+
+//   sections.forEach((section) => {
+//     observer.observe(section);
+//   });
+// });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const sections = document.querySelectorAll(".cust-summary-wrapper");
+  const navItems = document.querySelectorAll(".summary-list li");
+
+  function updateActiveSection() {
+    let currentActive = null;
+
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= 100 && rect.bottom >= 100) { // Checking if the section is near the top
+        currentActive = section.id;
+      }
+    });
+
+    if (currentActive) {
+      navItems.forEach((li) => li.classList.remove("active"));
+      document.querySelector(`.summary-list a[href="#${currentActive}"]`)?.parentElement.classList.add("active");
+    }
+  }
+
+  window.addEventListener("scroll", updateActiveSection);
+  updateActiveSection(); // Run on page load
+});
+
+
+
 /* summary js end  */
 /* Product details page  js end  */
 
@@ -1921,69 +1977,69 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* Header Mega Menu JS End */
 
-/* Mobile Menu JS start */  
+/* Mobile Menu JS start */
 jQuery(document).ready(function ($) {
   // Check if body has the 'cust-header-v1' class
   // if (!$('body').hasClass('homepage-v2')) {
-    
-    // Toggle Mobile Menu
-    $('.menu-toggle-link').click(function (event) {
-      event.stopPropagation(); // Prevent event bubbling
-      $(this).toggleClass('active');
-      $('.mobile-menu').toggleClass('open');
-      $('body').toggleClass('overflow-hide');
-    });
 
-    // Toggle first-level menu (Fix applied)
-    $(".list-item-1 > .link-item-level-1 .submenu-toggle").click(function (e) {
-      e.preventDefault();
-      e.stopPropagation();
+  // Toggle Mobile Menu
+  $('.menu-toggle-link').click(function (event) {
+    event.stopPropagation(); // Prevent event bubbling
+    $(this).toggleClass('active');
+    $('.mobile-menu').toggleClass('open');
+    $('body').toggleClass('overflow-hide');
+  });
 
-      let $parentLi = $(this).closest(".list-item-1");
-      let $submenu = $parentLi.find(".second-sub-menu").first();
+  // Toggle first-level menu (Fix applied)
+  $(".list-item-1 > .link-item-level-1 .submenu-toggle").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
 
-      // Toggle only the clicked submenu, without closing parents
-      if ($submenu.is(":visible")) {
-        $submenu.slideUp(300);
-        $parentLi.removeClass("active");
-      } else {
-        $(".second-sub-menu").not($submenu).slideUp(300);
-        $(".list-item-1").removeClass("active");
-        $submenu.stop(true, true).slideDown(300);
-        $parentLi.addClass("active");
-      }
-    });
+    let $parentLi = $(this).closest(".list-item-1");
+    let $submenu = $parentLi.find(".second-sub-menu").first();
 
-    // Toggle second-level menu (Fix applied)
-    $(".second-sub-menu-li > a .submenu-toggle").click(function (e) {
-      e.preventDefault();
-      e.stopPropagation();
+    // Toggle only the clicked submenu, without closing parents
+    if ($submenu.is(":visible")) {
+      $submenu.slideUp(300);
+      $parentLi.removeClass("active");
+    } else {
+      $(".second-sub-menu").not($submenu).slideUp(300);
+      $(".list-item-1").removeClass("active");
+      $submenu.stop(true, true).slideDown(300);
+      $parentLi.addClass("active");
+    }
+  });
 
-      let $parentLi = $(this).closest(".second-sub-menu-li");
-      let $submenu = $parentLi.find(".third-sub-menu").first();
+  // Toggle second-level menu (Fix applied)
+  $(".second-sub-menu-li > a .submenu-toggle").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
 
-      // Toggle only the clicked submenu, without closing parents
-      if ($submenu.is(":visible")) {
-        $submenu.slideUp(300);
-        $parentLi.removeClass("active");
-      } else {
-        $(".third-sub-menu").not($submenu).slideUp(300);
-        $(".second-sub-menu-li").removeClass("active");
-        $submenu.stop(true, true).slideDown(300);
-        $parentLi.addClass("active");
-      }
-    });
+    let $parentLi = $(this).closest(".second-sub-menu-li");
+    let $submenu = $parentLi.find(".third-sub-menu").first();
 
-    // Click outside to close menu and submenus
-    $(document).click(function (event) {
-      if (!$('.menu-toggle-link').is(event.target) && !$('.mobile-menu').is(event.target) && $('.mobile-menu').has(event.target).length === 0) {
-        $('.menu-toggle-link').removeClass('active');
-        $('.mobile-menu').removeClass('open');
-        $(".second-sub-menu, .third-sub-menu").slideUp(300);
-        $(".list-item-1, .second-sub-menu-li").removeClass("active");
-        $('body').removeClass('overflow-hide');
-      }
-    });
+    // Toggle only the clicked submenu, without closing parents
+    if ($submenu.is(":visible")) {
+      $submenu.slideUp(300);
+      $parentLi.removeClass("active");
+    } else {
+      $(".third-sub-menu").not($submenu).slideUp(300);
+      $(".second-sub-menu-li").removeClass("active");
+      $submenu.stop(true, true).slideDown(300);
+      $parentLi.addClass("active");
+    }
+  });
+
+  // Click outside to close menu and submenus
+  $(document).click(function (event) {
+    if (!$('.menu-toggle-link').is(event.target) && !$('.mobile-menu').is(event.target) && $('.mobile-menu').has(event.target).length === 0) {
+      $('.menu-toggle-link').removeClass('active');
+      $('.mobile-menu').removeClass('open');
+      $(".second-sub-menu, .third-sub-menu").slideUp(300);
+      $(".list-item-1, .second-sub-menu-li").removeClass("active");
+      $('body').removeClass('overflow-hide');
+    }
+  });
 
   // } else {
   //   // Optionally, you can add a fallback or log if the class isn't present
@@ -2442,28 +2498,28 @@ if (industries) {
 
 
 let loaderHeight = document.querySelector(".loaderWrapper.home");
-if(loaderHeight) {
-function setLoaderHeight() {
-  if ($(window).width() <= 767) {
-    let heroHeight = $('.hero-wrapper').outerHeight();
-    $('.loaderWrapper').css('height', heroHeight);
-  } else {
-    $('.loaderWrapper').css('height', '100vh');
+if (loaderHeight) {
+  function setLoaderHeight() {
+    if ($(window).width() <= 767) {
+      let heroHeight = $('.hero-wrapper').outerHeight();
+      $('.loaderWrapper').css('height', heroHeight);
+    } else {
+      $('.loaderWrapper').css('height', '100vh');
+    }
   }
-}
 
-$(document).ready(function () {
-  setLoaderHeight();
-  const observer = new MutationObserver(function () {
+  $(document).ready(function () {
     setLoaderHeight();
+    const observer = new MutationObserver(function () {
+      setLoaderHeight();
+    });
+
+    observer.observe(document.querySelector('.hero-wrapper'), { attributes: true, childList: true, subtree: true });
   });
 
-  observer.observe(document.querySelector('.hero-wrapper'), { attributes: true, childList: true, subtree: true });
-});
-
-$(window).resize(function () {
-  setLoaderHeight();
-});
+  $(window).resize(function () {
+    setLoaderHeight();
+  });
 }
 
 
@@ -2525,3 +2581,26 @@ if (opportunities) {
 }
 
 /* Opportunities Section JS End */
+
+/* Disable Click JS Start */
+
+document.addEventListener("contextmenu", (event) => event.preventDefault());
+
+document.addEventListener("keydown", (event) => {
+  if (
+    event.key === "F12" ||
+    (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
+    (event.ctrlKey && event.key === "U")
+  ) {
+    event.preventDefault();
+  }
+});
+
+document.addEventListener("keyup", (event) => {
+  if (event.ctrlKey && event.key === "u") {
+    event.preventDefault();
+    alert("Viewing source code is disabled!");
+  }
+});
+
+/* Disable Click JS End */

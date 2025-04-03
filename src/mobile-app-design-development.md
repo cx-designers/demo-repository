@@ -176,8 +176,8 @@ blogRelatedCtegory:
   - "Design"
   - "Web Development"
 
-hireCtaTitle: "Get Expert Mobile App Development for Your Business"
-hireCtaSubTitle: "Hire a Dedicated Mobile App Developer"
+hireCtaTitle: " Get Expert Mobile App Development"
+hireCtaSubTitle: "Hire Dedicated Developer"
 hireCtaDesc: "Hire skilled mobile app developers to build high-performance, feature-rich applications tailored to your needs. Our developers ensure smooth functionality, intuitive design, and seamless cross-platform compatibility, helping you stay ahead in the competitive mobile landscape."
 hireCtaButtonLink : "/contact-us.html"
 hireCtaButtonText: "Connect With Our Team"

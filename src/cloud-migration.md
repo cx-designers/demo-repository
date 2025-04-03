@@ -123,6 +123,7 @@ animatedImageAlt: "Technologies"
 
 hasTechnologyStack: "no" 
 
+awesomeFeaturesSubTitle : "Advanced Cloud Technologies Powering Seamless Migrations"
 phases:
   - title: "Cloud Platforms"
     blocks:
@@ -140,24 +141,24 @@ phases:
             alt: "google cloud"
             title: "Google Cloud Platform (GCP)"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ibm-cloud.svg"
+            alt: "icon-ibm-cloud"
             title: "IBM Cloud"
             
   - title: "Cloud Migration & Automation Tools"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-aws-migrationhub.svg"
+            alt: "icon-aws-migrationhub"
             title: "AWS Migration Hub & Azure Migrate" 
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-security-command-center.svg"
+            alt: "icon-google-security-command-center"
             title: "Google Cloud Transfer Service"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-terraform.svg"
+            alt: "icon-terraform"
             title: "Terraform & Ansible"
 
           - icon: "../../../assets/img/icon-kubernetes.svg"
@@ -168,20 +169,20 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-aws-iam.svg"
+            alt: "icon-aws-iam"
             title: "AWS IAM & Azure Active Directory"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-cloud-monitor-logging.svg"
+            alt: "icon-cloud-monitor-logging"
             title: "Cloud Monitoring & Logging (AWS CloudWatch, Azure Monitor)"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-load-balaning.svg"
+            alt: "icon-load-balaning.svg"
             title: "Load Balancers & Auto Scaling"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-id-iam.svg"
+            alt: "icon-id-iam"
             title: "Identity & Access Management (IAM)"
 
 hireCtaTitle: "Hire Dedicated Cloud Developers"

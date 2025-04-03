@@ -116,6 +116,7 @@ servicesList:
 
 hasTechnologyStack: "no" 
 
+awesomeFeaturesSubTitle : "Advanced Cloud Technologies for Smarter Optimization"
 phases:
   - title: "Cloud Computing Platforms"
     blocks:
@@ -133,8 +134,8 @@ phases:
             alt: "google cloud"
             title: "Google Cloud Platform (GCP)"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ibm-cloud.svg"
+            alt: "icon-ibm-cloud"
             title: "IBM Cloud"
             
   - title: "Automation & DevOps Tools"
@@ -145,40 +146,40 @@ phases:
             alt: "kubernetes"
             title: "Kubernetes" 
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-docker.svg"
+            alt: "icon-docker"
             title: "Docker"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-terraform.svg"
+            alt: "icon-terraform"
             title: "Terraform"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-jenkins.svg"
+            alt: "icon-jenkins"
             title: "Jenkins"
 
   - title: "Security & Performance Optimization"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-cloudflare.svg"
+            alt: "icon-cloudflare"
             title: "Cloudflare"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-aws-sc.svg"
+            alt: "icon-aws-sc"
             title: "AWS Security Hub"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-splunk.svg"
+            alt: "icon-splunk"
             title: "Splunk"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-datadog.svg"
+            alt: "icon-datadog"
             title: "Datadog"
           
-hireCtaTitle: "Hire Cloud Optimization Experts"
-hireCtaSubTitle: "Work with Our Expert Cloud Optimization Professionals"
+hireCtaTitle: "Work with Our Expert Cloud Optimization Professionals"
+hireCtaSubTitle: "Hire Cloud Optimization Experts"
 hireCtaDesc: "Unlock the full potential of your cloud infrastructure with our optimization specialists. We ensure maximum performance, security, and cost savings by fine-tuning your cloud environment. Hire now to enhance your cloud efficiency today!"
 hireCtaButtonLink : "/contact-us.html"
 hireCtaButtonText: "Hire An Expert Now"

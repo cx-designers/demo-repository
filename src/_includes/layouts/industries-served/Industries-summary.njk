@@ -1,11 +1,10 @@
-
 <section class="summary-sec">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <div class="summary-intro">
                     <h3><span>{{summaryIntroTitle}}</span></h3>
-                  </div>
+                </div>
             </div>
             <div class="col-md-8 summary-paragraph">
                 <h3><span></span></h3>
@@ -18,38 +17,46 @@
 
         <div class="row">
             <!-- Sidebar with Summary -->
+
+            <!-- <div class="heading-main-sec">
+                <h3>{{ IndustriesSummarySubtitle }}</h3>
+                <h2>{{ IndustriesSummaryTitle }}</h2>
+            </div> -->
+
             <div class="col-md-4 summary-col">
-                <h3>{{summaryInnerTitle}}</h3>
+                <h3>{{ summaryInnerTitle }}</h3>
                 <ul class="summary-list">
                     {% for section in sections %}
-                        <li class="item">
-                            <a href="#{{ section.id }}" class="link-item">{{ section.summary }}</a>
-                        </li>
+                    <li class="item{% if loop.first %} active{% endif %}">
+                        <a href="#{{ section.id }}" class="link-item">{{ section.summary }}</a>
+                    </li>
                     {% endfor %}
                 </ul>
             </div>
-        
+
+
             <!-- Main Content -->
             <div class="col-md-8">
+                <h1 class="dummy-tag"></h1>
                 {% for section in sections %}
-                    <div id="{{ section.id }}" class="cust-summary-wrapper">
-                        <div class="content">
-                            {{ section.contentHTML | safe }}
-                        </div>
-        
-                        {% if section.images %}
-                            <div class="the-vision-images">
-                                {% for image in section.images %}
-                                    <img src="{{ image.src }}" class="the-vision-img" alt="the-vision-img">
-                                {% endfor %}
-                            </div>
-                        {% endif %}
+                <div id="{{ section.id }}" class="cust-summary-wrapper">
+                    <div class="content">
+                        {{ section.contentHTML | safe }}
                     </div>
+
+                    {% if section.images %}
+                    <div class="the-vision-images">
+                        {% for image in section.images %}
+                        <img src="{{ image.src }}" class="the-vision-img" alt="the-vision-img">
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
                 {% endfor %}
             </div>
         </div>
-        
-        
+
+
 
     </div>
 </section>

@@ -1,8 +1,8 @@
 ---
 layout: layouts/mobile-app-development.njk
 title: Cloud And Devops - Cypherox Technologies
-bodyClass: "continuous-testing-and-monitorin"
-permalink: continuous-testing-and-monitorin.html
+bodyClass: "continuous-testing-and-monitoring"
+permalink: continuous-testing-and-monitoring.html
 bannersubTitle: "Cloud/DevOps Services"
 bannerTitle: "Continuous Testing & Monitoring Services"
 bannerdesc: "At Cypherox Technologies, we enhance software performance, reliability, and security with advanced Continuous Testing & Monitoring. By integrating automated testing and real-time monitoring into DevOps, we detect issues early and optimize performance. With AI-driven insights, we ensure zero-downtime deployments and seamless user experiences."

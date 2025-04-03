@@ -115,6 +115,8 @@ animatedImageAlt: "Technologies"
 
 hasTechnologyStack: "no" 
 
+
+awesomeFeaturesSubTitle : "Cutting-Edge Technologies Powering Cloud Success"
 phases:
   - title: "Cloud Platforms"
     blocks:
@@ -132,7 +134,7 @@ phases:
             alt: "google cloud"
             title: "Google Cloud Platform (GCP)"
 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-ibm-cloud.svg"
             alt: ""
             title: "IBM Cloud"
             
@@ -140,16 +142,16 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-terraform.svg"
+            alt: "icon-terraform"
             title: "Terraform & Ansible" 
 
           - icon: "../../../assets/img/icon-kubernetes.svg"
             alt: "kubernetes"
             title: "Kubernetes & Docker"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-aws-cloudformation.svg"
+            alt: "icon-aws-cloudformation"
             title: "AWS CloudFormation"
 
           - icon: "../../../assets/img/icon-jenkins.svg"
@@ -160,20 +162,20 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-aws-iam.svg"
+            alt: "icon-aws-iam"
             title: "AWS IAM & Azure Active Directory"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-azure.svg"
+            alt: "icon-azure"
             title: "CloudWatch & Azure Monitor"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-elk.svg"
+            alt: "icon-elk"
             title: "ELK Stack (Elasticsearch, Logstash, Kibana)"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-siem.svg"
+            alt: "icon-siem"
             title: "Security Information and Event Management (SIEM)"
 
 hireCtaTitle: "Dedicated Developers for Hire"
