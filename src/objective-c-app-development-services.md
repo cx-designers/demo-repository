@@ -8,9 +8,8 @@ bannerTitle: "Objective-C App Development Services"
 bannerdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum, metus at aliquet imperdiet, metus arcu pellentesque nulla..."
 bannerbuttontext: Hire Now
 buttonLink: "javascript:;"
-bannerHTML: '<svg width="930" height="820" viewBox="0 0 930 820" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M930 818.639H688.837L720.463 609.432C720.463 609.432 713.482 667.266 632.171 670.125C620.314 670.467 608.469 669.089 597.008 666.034C578.623 661.222 553.746 648.182 553.094 626.401C552.745 614.778 559.378 601.598 565.289 591.045C570.982 581.107 577.269 571.52 584.115 562.337C587.311 558.168 590.608 554.092 594.006 550.11C596.891 546.693 600.359 543.624 602.151 539.417C604.478 533.931 603.757 527.655 604.362 521.89C604.967 516.125 605.386 507.431 605.572 501.946C605.839 495.981 605.793 490.006 605.432 484.047C604.687 473.47 602.896 464.033 604.269 453.409C605.339 444.995 606.596 436.603 608.457 428.305C611.064 416.054 614.764 393.623 627.656 387.463C627.656 387.463 651.463 380.489 654.349 427.235C654.349 427.235 657.235 503.945 671.197 528.143C685.16 552.341 697.471 601.18 716.367 607.316C716.367 607.316 722.93 608.153 723.745 591.742C723.745 591.742 725.397 551.946 735.66 541.695C745.922 531.444 728.259 507.641 728.259 507.641C728.259 507.641 695.423 445.297 696.656 420.68C697.89 396.063 638.338 334.952 638.338 334.952L631.636 325.909L709.386 101.127C709.386 101.127 716.507 75.4182 695.144 66.1201L549.418 14.748C549.418 14.748 528.054 4.45038 512.742 37.1797L457.146 190.18C457.146 190.18 515.325 204.383 543.413 200.106C546.187 199.641 549.018 199.641 551.791 200.106C599.498 208.73 610.901 163.494 610.901 163.494C569.85 163.983 563.613 198.06 563.613 198.06H563.311C550.116 193.899 537.153 188.762 523.028 191.087C515.811 192.187 508.971 195.029 503.103 199.368C497.235 203.706 492.515 209.409 489.354 215.982C485.68 224.431 483.666 233.506 483.419 242.714C482.605 260.334 482.209 282.812 495.777 296.178C500.594 300.828 507.412 305.314 514.394 304.361C516.773 303.87 519.206 303.691 521.631 303.826C525.229 304.266 528.624 305.735 531.405 308.057C538.038 313.752 543.972 320.028 553.42 320.075C561.451 319.854 569.28 317.512 576.11 313.287C585.495 307.484 593.449 299.642 599.382 290.344C607.038 279 616.253 263.496 616.346 249.432C616.346 236.415 612.39 223.281 601.616 215.238C596.601 211.499 590.714 209.098 584.511 208.265C575.901 207.079 567.034 208.265 558.61 205.94C556.114 205.141 553.736 204.015 551.535 202.593C550.533 201.959 549.33 201.719 548.161 201.919C539.481 203.29 502.758 207.684 455.819 192.853L400.154 345.249C400.154 345.249 380.862 384.766 392.149 404.106C403.435 423.446 562.031 465.241 562.031 465.241C562.031 465.241 576.831 470.983 590.375 444.507L632.264 325.003L638.222 333.417L587.024 474.26C587.024 474.26 578.809 495.995 547.463 490.881C516.116 485.767 388.635 435.906 388.635 435.906C388.635 435.906 363.92 423.865 374.858 392.158C385.795 360.452 452.073 187.042 452.073 187.042L459.473 166.633L476.671 119.212L496.172 65.4924C500.827 52.4054 506.109 39.388 510.461 26.1382C511.865 20.7195 514.817 15.8254 518.955 12.0516C523.793 7.74713 529.904 5.13567 536.362 4.6131C544.786 4.03197 552.978 6.93762 560.89 10.006L684.765 56.4965C695.633 60.5877 707.524 65.5622 712.435 76.069C717.345 86.5759 713.621 98.6634 709.875 109.519L636.29 323.933C635.452 326.258 634.847 329.582 636.988 331.046C662.246 260.21 687.596 189.366 713.04 118.515C716.484 108.891 720.021 99.0354 720.277 88.8075C720.533 78.5795 717.135 67.6775 709.014 61.4478C704.907 58.6352 700.394 56.464 695.633 55.0088L563.334 6.93762C553.676 3.42759 543.53 -0.0359557 533.337 1.28902C516.209 3.61355 505.993 19.2576 501.781 34.7157C501.781 34.7157 457.425 190.598 427.033 216.308L379.326 261.985C379.326 261.985 389.891 337.183 371.879 358.499C371.879 358.499 381.793 312.566 373.578 281.929C373.578 281.929 373.043 272.91 359.615 280.023C359.615 280.023 325.662 313.938 304.578 310.916C304.578 310.916 282.959 315.844 286.519 276.048C286.519 276.048 295.548 246.503 330.316 224.351C330.316 224.351 378.046 179.441 426.963 158.985C426.963 158.985 470.504 145.038 493.217 52.3356C493.217 52.3356 502.525 19.5133 486.933 31.2754C471.342 43.0375 402.877 122.071 396.314 137.669C389.752 153.267 333.062 215.61 308.138 231.743C283.215 247.875 274.208 274.932 272.556 292.18C270.904 309.428 269.81 358.894 269.81 358.894C269.81 358.894 251.751 415.775 223.011 429.188C223.011 429.188 210.142 433 228.759 476.213C228.759 476.213 270.904 544.577 281.05 554.433C291.197 564.289 264.062 572.751 264.062 572.751C264.062 572.751 226.292 593.276 190.966 651.785C190.966 651.785 151.265 713.315 123.06 717.15C123.06 717.15 113.216 717.964 97.0656 685.978L49.7778 581.654C49.7778 581.654 46.7525 573.959 57.4342 562.337C68.1158 550.714 153.266 467.984 208.559 440.09C208.559 440.09 221.708 435.999 234.019 451.317C234.019 451.317 273.999 516.125 283.843 547.576C283.843 547.576 288.497 565.08 310.675 557.967C316.027 556.246 321.287 554.247 326.5 552.132C334.257 549.033 341.921 545.6 349.492 541.834C358.498 537.395 367.318 532.536 375.835 527.283C384.923 521.708 393.602 515.493 401.806 508.687C409.872 502.025 417.177 494.495 423.588 486.232C427.572 481.112 431.019 475.597 433.874 469.774C435.288 466.83 436.433 463.765 437.295 460.616C437.737 459.035 437.761 456.617 439.622 455.966C442.182 454.99 445.557 456.478 447.884 457.454C450.211 458.43 452.794 459.779 455.331 460.894C473.948 468.263 480.115 466.566 491.309 485.906C495.567 496.018 500.198 505.967 505.085 515.8C508.948 523.61 512.974 531.351 517.489 538.789C520.863 544.345 524.47 549.226 526.169 555.572C530.381 571.333 530.451 589.929 529.101 606.108C527.217 628.307 530.405 753.32 531.568 795.952C531.699 800.748 530.04 805.422 526.913 809.065C523.786 812.708 519.416 815.06 514.65 815.664C504.41 817.035 488.167 817.825 462.429 816.733C397.268 814.013 44.6348 818.383 0.279297 810.178" stroke="#F26E65" stroke-miterlimit="10"/>
-</svg>'
+bannerHTML: '<svg width="1146" height="1011" viewBox="0 0 1146 1011" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1146 1009.57H848.889L887.892 751.402C887.892 751.402 879.288 822.827 779.2 826.27C764.86 826.843 749.947 824.835 735.895 821.106C713.239 815.083 682.553 799.019 681.692 772.342C681.119 758 689.435 741.649 696.605 728.741C702.341 718.702 712.665 702.638 719.835 693.459C723.85 688.296 727.865 683.419 732.167 678.256C735.608 673.953 739.91 670.224 742.204 665.061C745.072 658.177 744.212 650.432 745.072 643.547C745.646 636.663 746.219 625.763 746.506 618.878C746.793 611.42 746.793 604.249 746.219 596.791C745.359 583.596 743.065 572.122 744.785 558.927C746.219 548.601 747.653 538.274 749.947 527.948C753.102 512.745 757.691 485.207 773.751 477.462C773.751 477.462 803.003 468.857 806.731 526.513C806.731 526.513 810.173 621.173 827.38 651.005C844.587 680.838 859.787 741.076 883.016 748.821C883.016 748.821 891.047 749.968 892.194 729.602C892.194 729.602 894.201 680.551 906.82 667.929C919.438 655.308 897.643 626.05 897.643 626.05C897.643 626.05 857.206 549.174 858.64 518.768C860.074 488.363 786.656 412.922 786.656 412.922L778.339 401.734L874.126 124.352C874.126 124.352 883.017 92.5122 856.632 81.0383L677.104 17.3581C677.104 17.3581 650.719 4.44989 631.791 44.8955L563.249 233.642C563.249 233.642 634.946 251.139 669.647 245.976C673.089 245.402 676.53 245.402 679.971 245.976C738.763 256.589 752.815 200.941 752.815 200.941C702.341 201.515 694.598 243.681 694.598 243.681H694.311C677.964 238.518 662.191 232.207 644.697 235.076C626.916 237.944 610.856 249.131 603.113 265.768C598.524 276.095 596.23 287.569 595.943 298.756C594.796 320.556 594.509 348.094 611.143 364.731C617.165 370.468 625.482 375.918 634.086 374.771C636.953 374.484 640.108 373.623 642.976 374.197C647.278 374.771 651.58 376.492 655.021 379.36C663.338 386.532 670.507 393.99 682.266 394.276C692.016 394.276 701.767 390.834 710.371 385.958C722.129 379.073 731.593 368.747 739.05 357.56C748.514 343.504 759.985 324.285 759.985 307.075C759.985 291.011 755.11 274.948 741.917 264.908C735.608 260.318 728.438 257.45 720.695 256.302C710.084 254.868 699.186 256.302 688.862 253.434C685.707 252.573 682.553 251.139 679.971 249.418C678.824 248.558 677.104 248.271 675.67 248.558C675.67 248.558 685.42 268.35 697.465 273.513C701.48 275.234 704.062 269.211 700.047 267.203C682.553 259.171 647.278 249.705 636.667 297.609C622.327 362.149 698.326 363.584 698.326 357.847L701.48 350.389C701.48 350.389 713.525 348.954 710.371 356.412C707.216 363.871 702.628 381.655 659.896 364.731C646.704 359.568 633.799 348.668 627.489 336.046C619.459 320.556 622.041 302.198 629.497 286.708C635.519 273.8 643.836 259.458 659.036 256.016C681.979 250.566 640.682 250.852 640.682 250.852C620.32 250.566 593.075 247.41 562.102 237.657L493.56 425.83C493.56 425.83 469.757 474.594 483.809 498.402C497.862 522.211 693.164 573.843 693.164 573.843C693.164 573.843 711.518 581.014 728.152 548.314L779.773 400.874L787.23 411.2L724.137 585.03C724.137 585.03 714.099 611.994 675.383 605.397C636.667 599.086 480.081 537.7 480.081 537.7C480.081 537.7 449.682 522.784 463.161 483.773C476.64 444.762 558.374 230.773 558.374 230.773C561.528 222.454 564.396 213.849 567.551 205.53C574.721 186.025 581.604 166.519 588.773 147.013C596.803 124.926 604.833 102.839 612.863 80.7515C618.599 64.688 625.195 48.6245 630.357 32.2742C632.652 25.3898 635.233 19.9397 640.968 14.7764C646.991 9.61316 654.447 6.17098 662.477 5.59728C672.802 4.73674 682.839 8.46576 692.59 12.1948C743.351 31.4136 794.399 50.3456 845.161 69.5644C858.64 74.7277 873.266 80.7515 879.288 93.6596C885.311 106.568 880.722 121.484 876.134 134.966C846.021 223.028 815.622 311.377 785.509 399.44C784.362 402.308 783.788 406.324 786.369 408.332C817.629 320.843 848.889 233.641 880.149 146.153C884.45 134.392 888.752 122.058 889.039 109.436C889.326 96.815 885.311 83.3331 875.273 75.5882C870.398 71.8592 864.662 69.8512 858.926 67.5565C803.003 47.4771 748.513 27.6846 694.311 7.89207C682.266 3.58935 669.934 -0.713375 657.315 1.00771C636.093 3.87619 623.761 23.095 618.312 42.3138C618.312 42.3138 563.536 234.789 526.254 266.342L467.462 322.564C467.462 322.564 480.368 415.503 458.285 441.606C458.285 441.606 470.617 384.81 460.293 347.233C460.293 347.233 459.719 336.046 443.086 344.939C443.086 344.939 401.215 386.818 375.404 383.089C375.404 383.089 348.733 389.113 353.035 339.775C353.035 339.775 364.219 303.346 406.95 276.095C406.95 276.095 465.742 220.733 525.967 195.491C525.967 195.491 579.596 178.28 607.701 63.8274C607.701 63.8274 619.173 23.3819 599.958 37.7243C580.743 52.0667 496.428 149.882 488.398 169.101C480.368 188.319 410.392 265.195 379.706 285.274C349.019 305.354 337.835 338.628 335.827 359.855C333.82 381.081 332.386 442.18 332.386 442.18C332.386 442.18 310.017 512.458 274.742 528.808C274.742 528.808 258.968 533.398 281.911 586.751C281.911 586.751 333.82 671.085 346.438 683.132C359.057 695.18 325.503 705.793 325.503 705.793C325.503 705.793 279.044 731.036 235.452 803.322C235.452 803.322 186.411 879.336 151.71 883.926C151.71 883.926 139.665 885.073 119.59 845.488L61.0856 716.98C61.0856 716.98 57.3574 707.514 70.5495 692.885C83.7417 678.256 188.706 576.425 256.674 542.003C256.674 542.003 272.734 536.84 287.934 555.772C287.934 555.772 337.261 635.802 349.306 674.527C349.306 674.527 355.042 696.041 382.287 687.435C388.883 685.427 395.479 682.846 401.788 680.264C411.252 676.248 420.716 672.232 430.18 667.643C441.365 662.193 452.263 656.169 462.587 649.571C473.772 642.687 484.383 634.942 494.707 626.623C504.458 618.305 513.635 609.126 521.665 598.799C526.54 592.488 530.842 585.604 534.284 578.433C536.004 574.704 537.438 570.975 538.586 567.246C539.159 565.238 539.159 562.369 541.453 561.509C544.608 560.361 548.91 562.083 551.778 563.23C554.932 564.664 557.8 566.098 560.955 567.533C583.898 576.712 591.354 574.417 605.407 598.512C610.569 610.847 616.305 623.181 622.327 635.516C627.203 645.268 632.078 654.734 637.527 663.914C641.542 670.798 646.131 676.822 648.138 684.567C653.3 704.072 653.3 727.02 651.866 746.813C649.572 774.35 653.587 928.674 655.021 981.168C655.308 993.502 646.417 1003.83 634.086 1005.55C621.467 1007.27 601.392 1008.13 569.559 1006.98C489.258 1003.54 54.7763 1008.99 0 998.952" stroke="#F26E65" stroke-miterlimit="10"/></svg>'
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -26,143 +25,300 @@ clients:
   - clientLogoImg: "../../../assets/img/nexus-forge-systems.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
-featuresBoxList:
-
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-
-processSubtitle : "Process"
-processTitle : "Lorem ipsum dolor sit "
-processBoxList :
-
-- stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-devSubTitle : Lorem ipsum
-devTitle: Lorem ipsum dolor
-devTitlePart : sit amet consectetur, adipisicing elit.
+devSubTitle : What We Do
+devTitle: Craft Reliable iOS Solutions with
+devTitlePart : Objective-C App Development Services
 devInformationList :
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: In the dynamic world of mobile app development, businesses often seek reliable and time-tested solutions to build robust applications that stand the test of time. At Cypherox Technologies, we are a trusted Objective-C app development company, specializing in creating high-performance, scalable, and feature-rich applications tailored to meet your specific business needs. With years of expertise in Objective-C—the foundational programming language for iOS development—we bring a wealth of knowledge and experience to every project. Whether you’re modernizing a legacy application, building a new enterprise solution, or developing an on-demand platform, our team is committed to delivering excellence at every stage of the development process.
+
+- infoItem: Our Objective-C app development services are designed to provide businesses with cutting-edge applications that combine functionality, reliability, and seamless user experiences. Objective-C’s proven track record and compatibility with Apple’s ecosystem make it an ideal choice for projects requiring stability and long-term support. Our developers leverage the language’s powerful features, such as dynamic runtime and object-oriented capabilities, to create apps that are not only efficient but also highly customizable. From crafting intuitive user interfaces to implementing complex backend integrations, we ensure your application meets the highest standards of quality and performance while aligning with your business goals.
+
+- infoItem: As a leader in Objective-C app development, we take pride in offering end-to-end solutions that cater to diverse industries, including finance, healthcare, retail, and more. Our process begins with a thorough understanding of your requirements, target audience, and market trends, enabling us to design and develop applications that deliver tangible results. We specialize in integrating advanced functionalities such as real-time data processing, secure authentication, geolocation services, and third-party APIs, ensuring your app provides a seamless and engaging experience for users. With a strong focus on clean code architecture, rigorous testing, and optimization, we guarantee a polished, bug-free product that performs flawlessly across all Apple devices.
+
+- infoItem: At Cypherox Technologies, we understand that launching your app is just the beginning. To ensure its continued success, we offer comprehensive post-development support and maintenance services. Our team stays up-to-date with the latest advancements in Objective-C and iOS technologies, ensuring your app remains compatible with future updates and evolving industry standards. Whether you need performance enhancements, feature upgrades, or security patches, we are here to help your app grow alongside your business. Partner with us today and harness the power of Objective-C app development services—where reliability meets innovation, and your vision becomes reality.
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
-    
-secTitle: "Services"
-secSubTitle: "Lorem ipsum dolor."  
+
+secTitle: "Core Services of Objective-C App Development Services"
+secSubTitle: "What We Provide"  
 servicesList:
   - count: "01."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: Custom Objective-C App Development
+    pageLink: "javascript:;"
+    description: Develop tailored iOS apps using Objective-C’s robust framework. Ensure compatibility, stability, and advanced features to meet your unique business requirements. Start innovating today.
 
   - count: "02."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: Objective-C Mobile App Development
+    pageLink: "javascript:;"
+    description: Craft high-performance mobile apps with Objective-C for seamless functionality and user engagement. Focus on scalability and reliability for long-term success. Elevate your app now.
 
   - count: "03."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: Objective-C Enterprise App Deployment
+    pageLink: "javascript:;"
+    description: Deploy secure, scalable enterprise apps with Objective-C for internal workflows and data management. Ensure compliance, performance, and ease of integration with existing systems. Empower your team today.
 
   - count: "04."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: Objective-C App Code Optimization
+    pageLink: "javascript:;"
+    description: Optimize Objective-C code for faster performance, reduced memory usage, and improved efficiency. Ensure clean, maintainable code for a smoother user experience. Boost app performance now.
 
   - count: "05."
-    title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+    title: Objective-C App UI/UX Design
+    pageLink: "javascript:;"
+    description: Design intuitive, visually appealing interfaces for Objective-C apps. Focus on usability, responsiveness, and engaging designs to enhance user satisfaction and retention. Transform your app today.
+
+  - count: "06."
+    title: Objective-C App Migration
+    pageLink: "javascript:;"
+    description: Migrate legacy apps or update existing projects to modern standards using Objective-C. Ensure minimal disruption, data integrity, and enhanced functionality for a future-ready app. Modernize now.
+
+  - count: "07."
+    title: Objective-C Support, Optimization, & Maintenance
+    pageLink: "javascript:;"
+    description: Provide ongoing support, bug fixes, and performance tuning for Objective-C apps. Ensure smooth operations, quick issue resolution, and scalability as your business grows. Get expert support today.
+
+  - count: "08."
+    title: Objective-C Consulting Services
+    pageLink: "javascript:;"
+    description: Leverage expert guidance for Objective-C app development, from strategy to execution. Align your project with best practices and industry standards for maximum impact. Consult with experts now.
+
+
+hireCtaTitle: "Hire Objective-C Developer"
+hireCtaSubTitle: "Hire Developer"
+hireCtaDesc: "Need a reliable team to build robust applications using Objective-C ? Our experienced developers excel in Objective-C App Development Services , crafting high-performance, scalable, and secure apps tailored to your business needs. Whether you’re maintaining legacy iOS applications or building new projects, we ensure seamless functionality, clean code architecture, and optimal user experiences. "
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
+
+featuresSecSubTitle: Why Cypherox
+featuresSecTitle: Why Choose Cypherox for iOS Development Services?
+featuresBoxList:
+  - title: Decades of Objective-C Expertise
+    description: Our seasoned developers bring years of experience in Objective-C, crafting reliable and efficient apps with a deep understanding of legacy systems.
+
+  - title: Seamless Integration with Existing Apps
+    description: Enhance or maintain older applications by leveraging Objective-C’s compatibility, ensuring smooth integration and uninterrupted functionality for your business.
+
+  - title: Robust & Scalable Application Design
+    description: Build powerful apps using Objective-C’s proven architecture, designed to handle complex functionalities and scale as your user base grows over time.
+
+  - title: Optimized Performance for iOS Ecosystems
+    description: Deliver high-performance apps with optimized memory management and runtime efficiency, tailored specifically for Apple’s native environments.
+
+  - title: Custom Solutions for Legacy Systems
+    description: Modernize or extend the life of legacy systems with custom Objective-C solutions, bridging the gap between older codebases and new technologies.
+
+  - title: Comprehensive Testing & Debugging Services
+    description: Ensure flawless app performance through rigorous testing and debugging, addressing issues proactively to deliver a polished and error-free product.
+
+
+processSubtitle : "Our Development Process"
+processTitle : "Our Objective-C Development Process"
+processBoxList :
+- stepSubTitle: "Step 1"
+  stepTitle: Legacy System Integration
+  stepDescription: Leverage Objective-C’s compatibility to integrate with existing systems. Our developers ensure seamless migration and support for older iOS applications.
+
+- stepSubTitle: "Step 2"
+  stepTitle: Robust Backend Development
+  stepDescription: Build strong, scalable backends using Objective-C’s proven architecture. We create stable frameworks that handle complex data operations with ease.
+
+- stepSubTitle: "Step 3"
+  stepTitle: Dynamic UI/UX Customization
+  stepDescription: Design intuitive interfaces tailored to your brand. With Objective-C’s flexibility, we craft engaging user experiences that align with your business goals.
+
+- stepSubTitle: "Step 4"
+  stepTitle: Comprehensive Testing & Debugging
+  stepDescription: Ensure app reliability through meticulous testing. Our team identifies and resolves issues using Objective-C’s advanced debugging tools for error-free performance.
+
+- stepSubTitle: "Step 5"
+  stepTitle: API Connectivity & Data Management
+  stepDescription: Streamline data flow by integrating APIs effectively. We utilize Objective-C’s capabilities to connect apps with databases, analytics tools, and external services.
+
+- stepSubTitle: "Step 6"
+  stepTitle: Ongoing Maintenance & Support
+  stepDescription: Provide consistent updates to keep apps functional and secure. Our team ensures long-term stability by addressing bugs, updates, and evolving user demands.
+
+
+
+faqSubtitle : "FAQs"
+faqTitle : "FAQ for Objective-C App Development Services"
+faqBoxList :
+- faqTitle: hat is Objective-C, and why is it still relevant for app development?</h3>
+  faqDescription: Objective-C is a mature, object-oriented programming language that has been widely used for developing iOS and macOS applications before Swift. It remains relevant for maintaining legacy apps and integrating with existing systems. At Cypherox Technologies, we leverage Objective-C’s robustness and compatibility to deliver stable, high-performance applications tailored to your business needs.
+
+- faqTitle: an Objective-C be used alongside Swift in app development?</h3>
+  faqDescription: Yes! Objective-C and Swift are interoperable, meaning they can coexist in the same project. This allows us to enhance or maintain legacy Objective-C codebases while gradually adopting Swift for new features. At Cypherox Technologies, we ensure seamless integration between the two languages to modernize your app without disrupting functionality.
+
+- faqTitle: ow do you ensure my Objective-C app is compatible with the latest iOS versions?</h3>
+  faqDescription: We stay updated with Apple’s latest releases and guidelines to ensure your Objective-C app remains compatible with new iOS versions. By using tools like Xcode and adhering to Apple’s best practices, we future-proof your app while maintaining its performance and stability. At Cypherox Technologies, compatibility is a top priority.
+
+- faqTitle: an Objective-C apps integrate with third-party APIs and services?</h3>
+  faqDescription: Absolutely! Objective-C supports seamless integration with third-party APIs and services such as payment gateways (Stripe, PayPal), analytics tools (Google Analytics), cloud storage (AWS, Firebase), and CRM systems. At Cypherox Technologies, we ensure smooth communication between your app and external services to enhance functionality.
+
+- faqTitle: ow do you optimize the performance of Objective-C-based applications?</h3>
+  faqDescription: We optimize Objective-C apps by using techniques like memory management (ARC - Automatic Reference Counting), efficient data handling, and leveraging native libraries for faster execution. Additionally, we conduct rigorous testing to minimize resource usage and ensure smooth performance. At Cypherox Technologies, optimization is embedded into every stage of development.
+
+- faqTitle: o you provide ongoing support and maintenance for Objective-C apps?</h3>
+  faqDescription: Yes! We offer comprehensive post-launch support, including bug fixes, performance tuning, feature enhancements, and updates to keep your app aligned with the latest iOS versions. Whether it’s maintaining legacy code or adding new functionalities, our team at Cypherox Technologies ensures your app remains reliable and secure.
+
+- faqTitle: an Objective-C apps be customized to match my brand identity?</h3>
+  faqDescription: Absolutely! We design Objective-C apps with fully customized user interfaces that align with your brand’s colors, typography, and style. From intuitive navigation to engaging animations, our team ensures your app reflects your brand identity while delivering a seamless user experience.
+
+- faqTitle: hat industries benefit most from Objective-C app development?</h3>
+  faqDescription: Objective-C app development is widely used in industries such as healthcare, finance, retail, and enterprise solutions, especially for maintaining legacy systems. Its ability to handle complex data securely makes it ideal for businesses with long-standing iOS applications. At Cypherox Technologies, we tailor Objective-C solutions to meet the unique needs of each industry.
+
+- faqTitle: ow long does it take to develop an Objective-C-based application?</h3>
+  faqDescription: The timeline depends on the complexity of the project. A basic Objective-C app may take 10–12 weeks, while more advanced projects with custom features, integrations, or real-time functionality can take 16–24 weeks. During the initial consultation, we’ll provide a detailed timeline based on your specific requirements.
+
+- faqTitle: How can I get started with Cypherox Technologies for my Objective-C app project?</h3>
+  faqDescription: Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your goals, target audience, and desired features. From there, we’ll create a customized plan to bring your Objective-C app vision to life.
+
+
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: "Tech Stack"
 
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-objective-c.svg"
+            alt: "icon-objective-c"
+            title: "Objective-C"
+
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
           
-developmentPhasesSubTitle: "Phases"
-developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
-developmentPhases:
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Xcode.svg"
+            alt: "icon-Xcode"
+            title: "Xcode"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-uikit.svg"
+            alt: "icon-uikit"
+            title: "UIKit"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-core-data.svg"
+            alt: "icon-core-data"
+            title: "Core Data"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"      
+          - icon: "../../../assets/img/icon-core-animation.svg"
+            alt: "icon-core-animation"
+            title: "Core Animation"
+
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
+
+          - icon: "../../../assets/img/icon-cocoapods.svg"
+            alt: "icon-cocoapods"
+            title: "CocoaPods"
+          
+
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-core-data.svg"
+            alt: "icon-core-data"
+            title: "CoreData"
+
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
+
+          - icon: "../../../assets/img/icon-realm.svg"
+            alt: "icon-realm"
+            title: "Realm"
+
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase Realtime"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-xctest.svg"
+            alt: "icon-xctest"
+            title: "XCTest"
+
+          - icon: "../../../assets/img/icon-xctest-ui.svg"
+            alt: "icon-xctest-ui"
+            title: "XCTest UI"
+
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "OCMock"
+
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+          
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+
+  - title: "Frameworks"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-uikit.svg"
+            alt: "icon-uikit"
+            title: "UIKit"
+
+          - icon: "../../../assets/img/icon-core-animation.svg"
+            alt: "icon-core-animation"
+            title: "Core Animation"
+
+          - icon: "../../../assets/img/icon-foundation.svg"
+            alt: "icon-foundation"
+            title: "Foundation"
+
+          - icon: "../../../assets/img/icon-afnetworking.svg"
+            alt: "icon-afnetworking"
+            title: "AFNetworking"
+
+          - icon: "../../../assets/img/icon-reactivecocoa.svg"
+            alt: "icon-reactivecocoa"
+            title: "ReactiveCocoa"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
+
 ---

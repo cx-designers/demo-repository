@@ -180,7 +180,7 @@ phases:
           - icon: "../../../assets/img/"
             alt: ""
             title: "BERT"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-ibm-watson.svg"
             alt: ""
             title: "IBM Watson"
           - icon: "../../../assets/img/"

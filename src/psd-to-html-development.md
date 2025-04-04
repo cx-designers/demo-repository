@@ -115,8 +115,8 @@ devInformationList :
 - infoItem: We specialize in converting PSD, Figma, Sketch, and Adobe XD designs into clean, efficient, and pixel-perfect HTML code. Every conversion is optimized for performance, responsiveness, and SEO, ensuring an enhanced user experience.
 - infoItem: Our approach focuses on delivering mobile-first, high-speed, cross-browser-compatible HTML, ensuring your website functions smoothly across all platforms. With the right blend of CSS, JavaScript, and Bootstrap frameworks, we create a flexible and scalable structure that grows with your business.
 - infoItem: From simple landing pages to complex web applications, we ensure that every project meets the highest coding standards. Our agile development process ensures on-time delivery with meticulous attention to every detail.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-psd-to-html-development.png"
+devBgAlt : "bg-psd-to-html-development"
 
     
 secTitle: " Complete PSD to HTML Development Services"
@@ -124,26 +124,32 @@ secSubTitle: "Core PSD to HTML Services"
 servicesList:
   - count: "01."
     title: "Responsive HTML Conversion"
+    pageLink: "javascript:;"
     description: "Transforming PSD designs into fully responsive, mobile-first HTML for seamless device experiences."
 
   - count: "02."
     title: "Pixel-Perfect HTML Coding"
+    pageLink: "javascript:;"
     description: "Ensuring absolute precision in design-to-code conversion, and maintaining layout, typography, and spacing accuracy."
 
   - count: "03."
     title: "W3C-Validated & SEO-Optimized Code"
+    pageLink: "javascript:;"
     description: "Writing clean, structured, and error-free HTML markup that enhances search rankings and site performance."
 
   - count: "04."
     title: "Cross-Browser & Cross-Platform Compatibility"
+    pageLink: "javascript:;"
     description: "Delivering HTML that works flawlessly across all browsers and devices, ensuring consistency."
 
   - count: "05."
     title: "JavaScript & CSS Animation Integration"
+    pageLink: "javascript:;"
     description: "Adding interactive elements, animations, and smooth transitions using modern front-end technologies."
   
   - count: "06."
     title: "CMS & eCommerce Integration"
+    pageLink: "javascript:;"
     description: "Converting designs into CMS-ready HTML, seamlessly integrating with WordPress, Shopify, Magento, and more."
 
 phases:

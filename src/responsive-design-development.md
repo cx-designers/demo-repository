@@ -79,8 +79,8 @@ devInformationList :
 - infoItem: We specialize in responsive web design and development, ensuring that your website delivers a seamless, engaging, and high-performance experience across all devices. Our team leverages the latest HTML5, CSS3, JavaScript, and front-end frameworks to craft fluid, mobile-friendly, and scalable digital solutions tailored to your business needs.
 - infoItem: We focus on intuitive user interfaces, fast-loading pages, and adaptive layouts that enhance user engagement and boost SEO rankings. By implementing flexible grids, media queries, and optimized graphics, we ensure that your website looks stunning and performs flawlessly on desktops, tablets, and smartphones.
 - infoItem: Whether you need a brand-new responsive website or want to revamp your existing platform, our expert developers are ready to bring your vision to life. With a mobile-first approach and future-proof design strategies, we help businesses stay ahead in the competitive digital landscape. Partner with us and experience the difference of a truly responsive web solution!
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-responsive-design-development.png"
+devBgAlt : "bg-responsive-design-development"
 
     
 secTitle: "Responsive Web Design Solutions"
@@ -88,22 +88,27 @@ secSubTitle: "Creative UI UX Design Services"
 servicesList:
   - count: "01."
     title: "Mobile-First Website Design"
+    pageLink: "javascript:;"
     description: "With mobile traffic dominating the web, we craft fast, lightweight, and touch-friendly designs that ensure seamless user experiences across all devices. Our mobile-first approach guarantees superior performance and accessibility on smartphones and tablets."
 
   - count: "02."
     title: "Custom UI/UX Designs"
+    pageLink: "javascript:;"
     description: "We design intuitive, visually engaging, and interactive user experiences that enhance engagement and drive conversions. Our responsive UI/UX solutions adapt flawlessly to different screen sizes, ensuring consistency across platforms."
 
   - count: "03."
     title: "Front-End Development with Modern Frameworks"
+    pageLink: "javascript:;"
     description: "Using HTML5, CSS3, JavaScript, Bootstrap, and Tailwind CSS, we build scalable and pixel-perfect websites. Our optimized front-end development ensures smooth adaptability and high performance across all screen resolutions."
 
   - count: "04."
     title: "Cross-Browser & Cross-Device Compatibility"
+    pageLink: "javascript:;"
     description: "We ensure your website functions flawlessly on all major browsers and devices, eliminating inconsistencies. Through rigorous testing and adaptive layouts, we deliver a uniform and reliable user experience across platforms."
 
   - count: "05."
     title: "Website Performance Optimization"
+    pageLink: "javascript:;"
     description: "Speed is crucial for SEO and user retention, and we optimize loading time, caching, and code structure for lightning-fast performance. Our performance-focused approach ensures smooth navigation and reduced bounce rates."
 
 phases:

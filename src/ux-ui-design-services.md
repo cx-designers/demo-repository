@@ -79,8 +79,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in creating impactful digital solutions through our tailored UI/UX design services. As a leading UI/UX design company, we focus on understanding your audience’s needs, behaviors, and pain points to deliver designs that are aesthetically pleasing and highly functional. From wireframes to prototypes, every step is meticulously planned to ensure seamless navigation and optimal performance across devices.
 - infoItem: Our team of skilled UI/UX designers collaborates closely with you to align your brand identity with user expectations. Whether designing an engaging website or developing a mobile app, we prioritize usability testing, accessibility standards, and cutting-edge trends to create products that stand out in the market.
 - infoItem: By choosing us for your UI/UX design needs, you’re investing in a partner who understands how great design can elevate your brand, improve user retention, and ultimately grow your business. Let us turn your vision into reality!
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-ux-ui-design-services.png"
+devBgAlt : "bg-ux-ui-design-services"
 
 
 secTitle: "Core UI/UX Design Services"
@@ -88,18 +88,22 @@ secSubTitle: "Comprehensive UI/UX Design Services Tailored to Your Needs"
 servicesList:
   - count: "01."
     title: "Responsive Web Design Development"
+    pageLink: "/responsive-design-development.html"
     description: "Build websites that adapt flawlessly to all screen sizes, ensuring a seamless user experience across devices—desktops, tablets, and smartphones alike."
 
   - count: "02."
     title: "Mobile App Design Development"
+    pageLink: "/mobile-app-design-development.html"
     description: " Create intuitive, feature-rich apps that captivate users with seamless navigation, stunning visuals, and functionality tailored to meet their needs. "
 
   - count: "03."
     title: "Design and Prototype Development"
+    pageLink: "/design-prototyping-development.html"
     description: "Turn ideas into interactive mockups before development begins, allowing you to visualize, test, and refine your concepts for a flawless final product. "
 
   - count: "04."
     title: "PSD To HTML Development"
+    pageLink: "/psd-to-html-development.html"
     description: "Convert static designs into dynamic, SEO-friendly code effortlessly, ensuring your website is both visually stunning and optimized for search engines to drive maximum visibility."
 
 phases:

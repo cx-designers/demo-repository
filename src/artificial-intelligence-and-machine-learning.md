@@ -115,7 +115,7 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in providing innovative AI and ML solutions tailored to meet diverse business needs. Our expertise spans across multiple industries, ensuring businesses can harness AI-powered insights for smarter decision-making.
 - infoItem: We develop custom AI models that optimize operations, improve customer experiences, and enhance automation processes. Our data-driven approach ensures accurate predictions and actionable insights, helping businesses stay ahead of the competition.
 - infoItem: From chatbots and virtual assistants to deep learning and computer vision applications, we build AI-driven systems that enhance efficiency and drive measurable business growth.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-artificial-intelligence-and-machine-learning.png"
 devBgAlt : "bg-img"
 
 secTitle: "AI & ML Services We Offer"
@@ -180,28 +180,28 @@ phases:
           - icon: "../../../assets/img/icon-google-ai.svg"
             alt: "icon-google-ai"
             title: "Google AI"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ibm-watson.svg"
+            alt: "icon-ibm-cloud"
             title: "IBM Watson"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-azure.svg"
+            alt: "icon-azure"
             title: "Microsoft Azure AI"
       
   - title: "Big Data & Cloud Services"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Aws.svg"
+            alt: "icon-Aws"
             title: "AWS AI Services"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-ai.svg"
+            alt: "icon-google-ai"
             title: "Google Cloud AI"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-hadoop.svg"
+            alt: "icon-hadoop"
             title: "Hadoop"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-apache-spark.svg"
+            alt: "icon-apache-spark"
             title: "Apache Spark"
 
 hireCtaTitle: "Get Expert AI & ML Development for Your Business"

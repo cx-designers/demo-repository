@@ -49,7 +49,7 @@ processBoxList :
   stepTitle: "Sharing Your App"
   stepDescription: "We put your app where everyone can find it—on servers and big app stores. It’s all set for people to start using, and that’s when we celebrate a job well done!"
 
-devSubTitle : Lorem ipsum
+devSubTitle : What We Do
 devTitle: The Top App
 devTitlePart : Development Company
 devInformationList :
@@ -61,31 +61,32 @@ devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
 
-
-
-
-
-
-secTitle: "Services"
-secSubTitle: "Mobile App Development Services"  
+secTitle: "Mobile App Development Services"
+secSubTitle: "Services"  
 servicesList:
   - count: "01."
     title: "iPhone App Development"
+    pageLink: "/ios-app-development-services.html"
     description: "Ever wished for an app that rocks your iPhone? We’ve built 800+ of them! Our super-smart team takes your ideas and turns them into real iPhone wonders. Your app dreams? We’ll make ’em happen!"
   - count: "02."
     title: "iPad App Development"
+    pageLink: "javascript:;"
     description: "Picture this: iPad apps that add magic to your business! Our geniuses in iPad app development create apps that make your users' lives awesome. We're all about turning ideas into incredible iPad reality!"
   - count: "03."
     title: "Android App Development"
+    pageLink: "/android-app-development-services.html"
     description: "Wanna rock the Android world? Our Android app whizzes cook up apps featured in big leagues like TechCrunch and BBC News! Whether it's Java or Kotlin, we speak the language of cool Android apps."
   - count: "04."
     title: "Cross-platform App Development"
+    pageLink: "/cross-platform-app-development-services.html"
     description: "Want an app that speaks both iOS and Android? Our heroes code in React Native and Flutter—giving you that magical native feel on both platforms. It’s like having two awesome apps in one go!"
   - count: "05."
     title: "Hire Dedicated App Developers"
+    pageLink: "/hire-mobile-app-developer.html"
     description: "Need a tech genius? Hire our dedicated app heroes! With 1000+ apps like Skyrise and WaveTech under their belts, they’ll turn your app dreams into jaw-dropping reality!"
   - count: "06."
     title: "App Development Consulting"
+    pageLink: "/mobile-app-development-consulting.html"
     description: "Building a giant app empire? Our app developers help you plan for success! We'll cook up a strategy that fits your business dreams and guides you to the treasure chest of ROI. Think of us as your app roadmap makers!"
 
 clientTitle: "Our Clients"
@@ -102,112 +103,199 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-stackSubHeading: "Lorem ipsum"
-stackMainHeading: "App Development Technology Stack"
-stackContent: "We’ve got a variety of tools and languages that help us create awesome digital stuff. Here’s what we use:"
-animatedImage: "../../../assets/img/technologies-shap.svg"
-animatedImageAlt: "Technologies"
+hasTechnologyStack: "no" 
 
-tabs:
-  - tabCount: "01."
-    tabTitle: "Languages We Speak"
-    dataTab: "tab1"
-    tabId: "tab1"
-    tabImage: "../../../assets/img/technology-stack-1.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Swift & Objective–C: For making cool things for iPhones and Macs."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Java & Kotlin: Crafting strong apps for Android and other platforms."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "C#: Handy for making apps for Windows and more."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "HTML5/CSS & JavaScript: Basics for making things look great and work well."
+hasTechnologyIconsList: "yes" 
 
-  - tabCount: "02."
-    tabTitle: "Building Blocks"
-    dataTab: "tab2"
-    tabId: "tab2"
-    tabImage: "../../../assets/img/technology-stack-2.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Swift & Objective–C: For making cool things for iPhones and Macs."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Angular: Perfect for enterprise-grade applications."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Node.js: Backend magic with JavaScript."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Django & Flask: Python frameworks for efficient development."
+awesomeFeaturesSubTitle: "Tech Stack"
 
-  - tabCount: "03."
-    tabTitle: "Behind the Scenes"
-    dataTab: "tab3"
-    tabId: "tab3"
-    tabImage: "../../../assets/img/technology-stack-3.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Swift & Objective–C: For making cool things for iPhones and Macs."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Angular: Perfect for enterprise-grade applications."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Node.js: Backend magic with JavaScript."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Django & Flask: Python frameworks for efficient development."
+phases:
+  - title: "Programming"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+          - icon: "../../../assets/img/icon-Kotlin.svg"
+            alt: "icon-Kotlin"
+            title: "Kotlin"
+          - icon: "../../../assets/img/icon-c-has.svg"
+            alt: "icon-c#"
+            title: "C#"
+          - icon: "../../../assets/img/icon-go.svg"
+            alt: "icon-go"
+            title: "Go"
+          
 
-  - tabCount: "04."
-    tabTitle: "Testing and Keeping Watch"
-    dataTab: "tab4"
-    tabId: "tab4"
-    tabImage: "../../../assets/img/technology-stack-1.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Swift & Objective–C: For making cool things for iPhones and Macs."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Angular: Perfect for enterprise-grade applications."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Node.js: Backend magic with JavaScript."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Django & Flask: Python frameworks for efficient development."
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "icon-reactjs"
+            title: "React.js"
+          - icon: "../../../assets/img/icon-angular.svg"
+            alt: "icon-angular"
+            title: "Angular"
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+          - icon: "../../../assets/img/icon-django.svg"
+            alt: "icon-django"
+            title: "Django"
+          - icon: "../../../assets/img/icon-spring-boot.svg"
+            alt: "icon-spring-boot"
+            title: "Spring Boot"
+          - icon: "../../../assets/img/icon-Aws.svg"
+            alt: "icon-Aws"
+            title: "AWS"
+          - icon: "../../../assets/img/icon-docker.svg"
+            alt: "icon-docker"
+            title: "Docker"
+          - icon: "../../../assets/img/icon-kubernetes.svg"
+            alt: "icon-kubernetes"
+            title: "Kubernetes"
+          
+          
 
-  - tabCount: "05."
-    tabTitle: "Tools for Making It Happen"
-    dataTab: "tab5"
-    tabId: "tab5"
-    tabImage: "../../../assets/img/technology-stack-2.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Swift & Objective–C: For making cool things for iPhones and Macs."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Angular: Perfect for enterprise-grade applications."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Node.js: Backend magic with JavaScript."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Django & Flask: Python frameworks for efficient development."
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+          - icon: "../../../assets/img/icon-Postgre-sql.svg"
+            alt: "icon-Postgre-sql"
+            title: "PostgreSQL"
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
 
-  - tabCount: "06."
-    tabTitle: "Designing and Teamwork"
-    dataTab: "tab6"
-    tabId: "tab6"
-    tabImage: "../../../assets/img/technology-stack-3.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Swift & Objective–C: For making cool things for iPhones and Macs."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Angular: Perfect for enterprise-grade applications."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Node.js: Backend magic with JavaScript."
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Django & Flask: Python frameworks for efficient development."
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+          - icon: "../../../assets/img/icon-pytest.svg"
+            alt: "icon-pytest"
+            title: "PyTest"
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+          - icon: "../../../assets/img/icon-jmeter.svg"
+            alt: "icon-jmeter"
+            title: "JMeter"
+          - icon: "../../../assets/img/icon-owasp-zap.svg"
+            alt: "icon-owasp-zap"
+            title: "OWASP ZAP"
+          
+
+  - title: "Frameworks"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "icon-reactjs"
+            title: "React.js"
+          - icon: "../../../assets/img/icon-expressjs.svg"
+            alt: "icon-expressjs"
+            title: "Express.js"
+          - icon: "../../../assets/img/icon-django.svg"
+            alt: "icon-django"
+            title: "Django"
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+          - icon: "../../../assets/img/icon-laravel.svg"
+            alt: "icon-laravel"
+            title: "Laravel"
+          
+          
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+          - icon: "../../../assets/img/icon-photosho.svg"
+            alt: "icon-photosho"
+            title: "Photoshop"
+          - icon: "../../../assets/img/icon-iiiustrator.svg"
+            alt: "icon-iiiustrator"
+            title: "Illustrator"
+          
+
+hireCtaTitle: "Hire Web Application Developers"
+hireCtaSubTitle: "Hire Dedicated Web App Developers"
+hireCtaDesc: "At Cypherox Technologies, we provide highly skilled web application developers who use cutting-edge technologies to deliver robust, scalable, and secure solutions. Whether you need a dynamic web app, a custom enterprise solution, or an e-commerce platform, our developers ensure seamless performance, intuitive UI/UX, and top-tier security. Partner with us to accelerate your project, reduce development costs, and achieve business success with tailored web solutions."
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
+
+faqSubtitle : "FAQs"
+faqTitle : "Frequently asked questions"
+faqBoxList :
+- faqTitle: What types of web applications do you develop?
+  faqDescription: At Cypherox Technologies, we specialize in developing custom web applications, including enterprise solutions, e-commerce platforms, SaaS applications, CRM systems, ERP solutions, and progressive web apps (PWAs). Our team ensures that every web app is tailored to meet your unique business needs.
+
+- faqTitle: What technologies do you use for web application development?
+  faqDescription: We build secure, high-performance web applications using the latest and most robust technologies, including React.js, Angular, Vue.js, Node.js, Python, PHP, Laravel, .NET, and Django, as well as cloud platforms like AWS, Azure, and Google Cloud.
+
+- faqTitle: Can I hire dedicated web application developers from Cypherox Technologies?
+  faqDescription: Absolutely! We offer dedicated web application developers for hire on a full-time, part-time, or hourly basis. Our developers work exclusively on your project, ensuring high efficiency, flexibility, and timely delivery.
+
+- faqTitle: How secure will my web application be?
+  faqDescription: Security is a top priority at Cypherox Technologies. We implement SSL encryption, secure authentication (OAuth, JWT), data encryption, firewalls, and regular security audits to protect your application from cyber threats and vulnerabilities.
+
+- faqTitle: Will my web application be mobile-friendly and responsive?
+  faqDescription: Yes! All our web applications are developed with a mobile-first approach, ensuring seamless performance across desktops, tablets, and smartphones. We use responsive design frameworks like Bootstrap and Tailwind CSS to enhance user experience.
+
+- faqTitle: How long does it take to develop a custom web application?
+  faqDescription: The development timeline depends on the complexity, features, and customization required. A simple web app may take 4-6 weeks, while a complex enterprise solution may require 3-6 months. We provide a detailed project timeline after analyzing your requirements.
+
+- faqTitle: Do you offer post-development support and maintenance?
+  faqDescription: Yes! We provide comprehensive post-launch support, regular updates, bug fixes, security patches, and performance enhancements to keep your web application running smoothly.
+
+- faqTitle: Can you integrate third-party APIs and services into my web application?
+  faqDescription: Of course! We specialize in seamless API integrations, including payment gateways, CRM systems, cloud storage, social media APIs, and AI/ML solutions, to enhance the functionality of your web application.
+
+- faqTitle: What makes Cypherox Technologies different from other web development companies?
+  faqDescription: We stand out with our client-centric approach, agile development process, transparent communication, and commitment to innovation. Our team ensures that your web application is built using the latest technologies while focusing on scalability, security, and user experience.
+
+- faqTitle:  How do I get started with Cypherox Technologies for my web application development?
+  faqDescription: It’s simple! Contact us today for a free consultation. Our experts will discuss your project, understand your needs, and provide a detailed roadmap for development.
+
+
 ---

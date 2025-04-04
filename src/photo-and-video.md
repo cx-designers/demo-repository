@@ -257,6 +257,12 @@ phases:
             alt: "icon-google-cloud"
             title: "Google Cloud Platform"
 
+hireCtaTitle: "Transform Visual Storytelling Projects  with Our Expert Developers"
+hireCtaSubTitle: "Hire Dedicated Developers"
+hireCtaDesc: "Partner with our team of skilled developers to create innovative, scalable, and efficient software solutions tailored to your business needs. From photo editing tools to live streaming platforms, we ensure seamless integration and exceptional performance."
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
+
 faqSubtitle : "FAQ"
 faqTitle : "Find Answers to Photo & Video Industry Software Development Queries"
 faqBoxList :

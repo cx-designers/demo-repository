@@ -76,8 +76,8 @@ devInformationList :
 - infoItem: We specialize in modernizing IT infrastructure through cloud adoption and DevOps automation, ensuring businesses can scale efficiently.
 - infoItem: Our experts architect, deploy and manage cloud environments that enhance security, performance, and cost efficiency. By integrating CI/CD pipelines, containerization, and infrastructure as code (IaC), we streamline development cycles for faster and more reliable software delivery.
 - infoItem: From cloud migration and serverless computing to continuous monitoring and security optimization, our solutions align with your business goals, helping you stay ahead in the digital landscape.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-cloud-and-devops.png"
+devBgAlt : "bg-cloud-and-devops"
 
 
 
@@ -219,6 +219,7 @@ tabs:
 
 hasTechnologyStack: "no" 
 
+awesomeFeaturesSubTitle : "Cloud and DevOps Technology Stack"
 phases:
   - title: "Cloud Platforms"
     blocks:
@@ -241,10 +242,10 @@ phases:
           - icon: "../../../assets/img/icon-docker.svg"
             alt: "Docker & Kubernetes"
             title: "Docker & Kubernetes"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-jenkins.svg"
             alt: "Jenkins & GitLab CI/CD"
             title: "Jenkins & GitLab CI/CD" 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-terraform.svg"
             alt: "Terraform & Ansible"
             title: "Terraform & Ansible" 
            
@@ -253,13 +254,13 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-prometheus.svg"
             alt: "Prometheus & Grafana"
             title: "Prometheus & Grafana" 
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-elk.svg"
             alt: "ELK Stack (Elasticsearch, Logstash, Kibana)"
             title: "ELK Stack (Elasticsearch, Logstash, Kibana)"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-Aws.svg"
             alt: "AWS CloudWatch & Azure Monitor"
             title: "AWS CloudWatch & Azure Monitor"
 
