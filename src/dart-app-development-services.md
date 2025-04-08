@@ -211,8 +211,8 @@ phases:
             alt: "icon-graphql"
             title: "GraphQL"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-riverpod-provider.svg"
+            alt: "icon-riverpod-provider"
             title: "Riverpod/Provider"
          
  
@@ -228,8 +228,8 @@ phases:
             alt: "icon-sqlite"
             title: "SQLite"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-hive.svg"
+            alt: "icon-hive"
             title: "Hive (NoSQL for Flutter)"
 
           - icon: "../../../assets/img/icon-PostgreSQL.svg"
@@ -248,8 +248,8 @@ phases:
             alt: "icon-mockito"
             title: "Mockito"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-integration.svg"
+            alt: "icon-integration"
             title: "Integration Testing"
 
           - icon: "../../../assets/img/icon-appium.svg"
@@ -269,16 +269,16 @@ phases:
             alt: "icon-flutter"
             title: "Flutter"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-riverpod-provider.svg"
+            alt: "icon-riverpod-provider"
             title: "Riverpod/Provider"
 
-          - icon: "../../../assets/img/icon-retrofit.svg"
-            alt: "icon-retrofit"
+          - icon: "../../../assets/img/icon-dio-retrofit.svg"
+            alt: "icon-dio-retrofit"
             title: "Retrofit/Dio"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-bloc.svg"
+            alt: "icon-bloc"
             title: "BLoC"
          
  

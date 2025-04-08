@@ -198,16 +198,16 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-xamarin.svg"
+            alt: "icon-xamarin"
             title: "Xamarin.Forms"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-xamarin.svg"
+            alt: "icon-xamarin"
             title: "Xamarin.iOS"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-xamarin.svg"
+            alt: "icon-xamarin.svg"
             title: "Xamarin.Android"
 
           - icon: "../../../assets/img/icon-restful-apis.svg"
@@ -251,12 +251,12 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-nunit.svg"
+            alt: "icon-nunit"
             title: "NUnit"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-xamarin-uitest.svg"
+            alt: "icon-xamarin-uitest"
             title: "Xamarin.UITest"
 
           - icon: "../../../assets/img/icon-appium.svg"
@@ -275,20 +275,20 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-xamarin.svg"
+            alt: "icon-xamarin"
             title: "Xamarin.Forms"    
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-mvvm.svg"
+            alt: "icon-mvvm"
             title: "MVVM"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-prism.svg"
+            alt: "icon-prism"
             title: "Prism"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-refit.svg"
+            alt: "icon-refit"
             title: "Refit"
 
   - title: "Design"

@@ -158,7 +158,7 @@ phases:
           - icon: "../../../assets/img/icon-openaigym.svg"
             alt: "icon-openaigym"
             title: "OpenAI Gym"
-          - icon: "../../../assets/img/icon-stable-aseline3.svg"
+          - icon: "../../../assets/img/icon-stable-baseline3.svg"
             alt: "icon-stable-aseline3"
             title: "Stable Baselines3"
           - icon: "../../../assets/img/icon-RLlib.svg"

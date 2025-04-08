@@ -188,16 +188,16 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-dart.svg"
+            alt: "icon-dart"
             title: "Dart"
 
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "Python "
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
             title: "JavaScript/TypeScript"
          
  
@@ -205,28 +205,28 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
             title: "Flutter"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
             title: "Firebase"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
             title: "REST APIs"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
             title: "GraphQL"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-websocket.svg"
+            alt: "icon-websocket"
             title: "WebSocket"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-riverpod-provider.svg"
+            alt: "icon-riverpod-provider"
             title: "Riverpod/Provider"
          
  
@@ -242,8 +242,8 @@ phases:
             alt: "icon-sqlite"
             title: "SQLite"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-hive.svg"
+            alt: "icon-hive"
             title: "Hive (NoSQL)"
 
           - icon: "../../../assets/img/icon-PostgreSQL.svg"
@@ -266,12 +266,12 @@ phases:
             alt: "icon-mockito"
             title: "Mockito"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-integration.svg"
+            alt: "icon-integration"
             title: "Integration Testing"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
             title: "Widget Testing"
 
           - icon: "../../../assets/img/icon-appium.svg"
@@ -290,16 +290,16 @@ phases:
             alt: "icon-flutter"
             title: "Flutter"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-riverpod-provider.svg"
+            alt: "icon-riverpod-provider"
             title: "Riverpod/Provider"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-bloc.svg"
+            alt: "icon-bloc"
             title: "BLoC"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-dio-retrofit.svg"
+            alt: "icon-dio-retrofit"
             title: "Dio/Retrofit"
 
   - title: "Design"

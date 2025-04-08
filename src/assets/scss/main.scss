@@ -5196,7 +5196,7 @@ svg:not(:root) {
           width: 100%;
           margin-left: auto;
           margin-right: 0;
-          margin-top: auto;
+          // margin-top: auto;
           display: flex;
           align-items: flex-end;
           height: auto;
@@ -5204,7 +5204,7 @@ svg:not(:root) {
 
 
           @include desktopSmall {
-            // width: 80%;
+            width: 100%;
             margin-top: auto !important;
             margin-bottom: auto !important;
             height: 100%;

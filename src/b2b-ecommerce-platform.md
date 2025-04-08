@@ -1,15 +1,16 @@
 ---
 layout: layouts/service-template/b2b-mobile-app-development-services.njk
-title: B2B Mobile App Development Services - Cypherox Technologies
+title: B2B eCommerce Platform | B2B eCommerce Development Services
+metaDescription: Custom catalogs, secure payments, ERP integration & scalable solutions—streamline transactions with B2B eCommerce platform development. Start today!
 bodyClass: "b2b-ecommerce-platform"
 permalink: b2b-ecommerce-platform.html
 bannersubTitle: "Service"
 bannerTitle: "B2B eCommerce Platform"
-bannerdesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-bannerbuttontext: Hire Now
-buttonLink: "javascript:;"
-bannerHTML: '<svg width="1276" height="950" viewBox="0 0 1476 660" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1475 604.054H1465.8H1441.67H1407.38H1368.15H1328.99H1294.92C1286.9 604.054 1279.01 604.054 1270.86 604.054C1265.14 603.596 1259.38 603.842 1253.73 604.786C1247.3 606.534 1241.33 609.65 1236.22 613.921C1232.04 617.345 1228.23 621.196 1224.85 625.412C1218.33 635.052 1210.57 643.795 1201.77 651.416C1198.35 654.379 1194.41 656.668 1190.15 658.164C1185.77 659.279 1181.18 659.279 1176.81 658.164C1172.68 657.382 1168.8 655.613 1165.51 653.008C1162.22 650.403 1159.6 647.039 1157.89 643.204C1155.18 637.153 1153.13 630.824 1151.78 624.33C1150.41 617.2 1149.84 608.415 1154.62 602.399C1155.76 600.935 1158.05 601.603 1159.23 602.399C1163.4 605.582 1164.33 611.47 1165.76 616.245C1166.82 620.02 1169.05 623.363 1172.13 625.794C1175.05 627.99 1180.75 628.977 1182.41 624.616C1184.07 620.255 1179.38 614.431 1176.55 611.884C1173.99 610.03 1171.27 608.4 1168.43 607.014C1163.21 603.831 1155.7 599.725 1153.25 593.773C1153.25 593.773 1141.66 577.604 1147.48 572.702C1148.53 571.811 1149.52 572.002 1150.67 572.702C1152.73 573.904 1154.56 575.48 1156.05 577.349C1159.04 580.532 1161.08 585.37 1165.41 586.898C1169.74 588.426 1173.62 590.081 1177.63 591.736C1179.88 592.697 1182.01 593.892 1184 595.301C1184.57 595.715 1185.15 596.447 1184.77 597.052C1184.68 597.171 1184.57 597.271 1184.44 597.348C1184.32 597.424 1184.18 597.475 1184.03 597.497C1182.32 597.827 1180.55 597.569 1179 596.765C1166.49 591.641 1157.23 580.85 1149.78 569.933C1149.78 569.933 1142.74 560.989 1148.57 557.456C1148.57 557.456 1154.93 555.164 1162.38 564.108C1164.48 566.286 1166.85 568.171 1169.45 569.71C1172.47 571.75 1175.61 573.61 1178.84 575.28C1180.91 576.362 1183.01 577.349 1185.21 578.304C1187.41 579.259 1191.58 579.705 1193.14 581.742C1194.7 583.779 1191.58 583.906 1190.18 583.62C1187.69 582.824 1185.37 581.583 1183.33 579.959C1179.61 577.54 1176.04 574.898 1172.57 572.161C1169.1 569.424 1165.22 566.272 1161.71 563.121C1158.75 560.479 1154.49 557.901 1153.47 553.795C1153.16 553.034 1153.02 552.215 1153.05 551.393C1153.09 550.572 1153.31 549.769 1153.69 549.041C1154.08 548.313 1154.61 547.678 1155.27 547.179C1155.92 546.681 1156.68 546.332 1157.48 546.156C1157.48 546.156 1160.51 544.183 1171.36 550.358C1171.36 550.358 1201.74 566.877 1212.53 569.869C1223.32 572.861 1232.52 586.452 1225.26 594.123C1223 596.278 1220.96 598.656 1219.18 601.221C1217.89 604.016 1217.02 606.987 1216.6 610.038C1215.9 612.602 1214.66 614.987 1212.96 617.034C1211.27 619.081 1209.15 620.744 1206.77 621.91C1204.83 622.985 1202.58 623.366 1200.4 622.993C1200.11 622.952 1199.84 622.818 1199.63 622.611C1199.32 622.165 1199.63 621.529 1200.02 621.115C1201.41 619.622 1203.03 618.365 1204.82 617.391C1208.62 615.099 1212.51 612.977 1216.48 611.025C1217.03 610.833 1217.52 610.505 1217.91 610.07C1218.17 609.656 1218.33 609.188 1218.39 608.701C1218.55 606.578 1218.48 604.445 1218.2 602.335C1217.89 600.167 1218.44 597.967 1219.72 596.192C1221.3 594.543 1222.71 592.741 1223.93 590.813C1226.15 586.803 1226.9 582.138 1226.03 577.636C1226.03 577.222 1227.59 576.076 1227.81 575.885C1230.99 573.243 1235.99 571.97 1237.2 567.546C1237.62 565.691 1237.64 563.769 1237.27 561.906C1236.89 560.042 1236.13 558.277 1235.04 556.724C1235.04 556.724 1227.87 545.933 1216.38 543.673C1211.48 541.127 1206.67 538.358 1201.86 535.621C1197.88 533.361 1192.95 529.446 1188.04 530.241C1181.04 531.355 1186.26 540.554 1188.9 543.355C1194.24 549.657 1201.42 554.113 1209.44 556.087C1209.44 556.087 1217.53 560.479 1210.87 563.026C1210.87 563.026 1203.77 567.291 1212.27 552.108C1220.77 536.926 1233 512.544 1233 512.544L1268.02 442.806C1268.02 442.806 1272.99 435.103 1260.51 436.09L1132.58 444.493C1132.58 444.493 1121.98 442.233 1113.67 460.567L1042.74 603.799C1042.74 603.799 1038.18 611.566 1049.1 611.757L1141.78 604.754C1148.15 604.277 1150.54 598.866 1148.63 593.264C1146.5 586.898 1139.46 582.378 1134.21 578.845C1134.21 578.845 1092.98 556.151 1090.53 526.645C1090.53 526.645 1087.69 515.854 1100.94 496.757C1100.94 496.757 1107.3 485.807 1087.88 481.638C1083.84 480.778 1069.42 477.373 1075.15 470.243C1077.09 467.887 1081.83 468.779 1084.51 468.779C1086.92 468.626 1089.31 469.324 1091.26 470.752C1092.19 471.487 1092.86 472.507 1093.16 473.657C1093.45 474.806 1093.37 476.022 1092.91 477.118C1092.52 477.772 1092 478.338 1091.38 478.782C1090.76 479.225 1090.06 479.537 1089.32 479.696C1087.83 480.018 1086.3 480.072 1084.79 479.855C1073.78 478.356 1063.05 475.224 1052.96 470.561C1046.94 468.078 1037.04 465.214 1032.58 460.025C1028.12 454.837 1013.1 461.521 1017.04 475.526C1020.31 481.302 1024.76 486.324 1030.1 490.263C1038.84 497.4 1044.8 507.381 1046.94 518.464C1047.03 519.61 1047.37 520.721 1047.94 521.72C1048.51 522.719 1049.29 523.581 1050.23 524.246C1051.17 524.91 1052.24 525.361 1053.37 525.567C1054.5 525.772 1055.67 525.727 1056.78 525.435C1056.78 525.435 1063.14 522.411 1054.33 494.242C1054.33 494.242 1020.83 459.071 1005.14 447.516L995.585 438.445C993.165 436.09 974.986 422.53 983.996 418.583C990.618 415.655 996.03 423.23 1000.42 427.177L1012.75 438.222L1043.12 465.373L1073.68 492.714C1073.68 492.714 1085.97 504.269 1085.02 510.125C1084.06 515.982 1070.66 505.955 1070.66 505.955C1070.66 505.955 1053.82 486.667 1047 496.12C1045.06 498.826 1042.86 501.149 1040.64 503.664C1040.03 504.428 1039.36 504.428 1039.01 505.383C1037.71 509.075 1040.41 514.358 1039.68 518.528C1039.53 520.81 1038.64 522.98 1037.14 524.705C1035.64 526.43 1033.61 527.615 1031.37 528.077C1029.44 528.094 1027.58 527.348 1026.2 526C1024.81 524.653 1024.02 522.814 1023.98 520.884C1024.96 518.64 1025.32 516.176 1025.02 513.747C1024.73 511.318 1023.78 509.012 1022.3 507.069C1022.3 507.069 1005.26 494.019 1006.22 490.423C1006.7 488.577 1010.36 491.632 1010.68 491.919C1012.39 494.046 1013.93 496.314 1015.26 498.698C1018.04 501.921 1021.02 504.972 1024.18 507.833C1027.36 511.239 1023.79 528.236 1016.6 530.337C1011.22 531.897 1010.68 524.639 1010.04 521.106C1009.02 515.823 1003.42 508.725 997.304 512.544C990.682 516.714 986.543 524.48 977.469 523.525C968.395 522.57 951.171 514.836 954.577 498.062C954.577 498.062 953.049 485.967 968.363 481.033C983.677 476.099 1003.38 463.272 1003.38 463.272C1003.38 463.272 1011.12 460.598 1007.91 470.625C1004.69 480.651 999.787 486.317 986.734 485.776C973.68 485.234 976.323 478.391 959.671 477.436C959.671 477.436 951.903 474.794 942.638 494.847C932.519 505.192 919.978 512.85 906.152 517.128C906.152 517.128 844.737 537.212 827.194 591.704C827.194 591.704 815 628.022 859.414 628.595C859.414 628.595 876.288 630.409 901.695 613.126C912.085 605.849 921.813 597.669 930.763 588.68C936.633 583.469 942.153 577.877 947.287 571.938C948.91 569.869 951.776 567.036 950.47 564.235C949.165 561.434 946.045 561.912 943.625 562.771C943.625 562.771 856.357 606.028 838.56 613.985C821.223 621.162 802.716 625.1 783.958 625.603C770.682 626.207 755.813 625.189 744.288 617.9C739.486 614.94 735.623 610.68 733.145 605.614C733.145 605.614 712.705 574.389 749.446 545.456C756.886 540.105 764.613 535.165 772.592 530.655C780.143 526.266 787.91 522.261 795.865 518.655C800.259 516.682 804.685 514.836 809.206 513.181C813.185 511.717 818.247 511.048 821.399 507.961C821.805 507.634 822.077 507.169 822.164 506.656C822.164 504.841 818.088 505.414 817.133 505.478C806.499 506.178 761.098 521.074 761.098 521.074C761.098 521.074 745.784 524.257 758.679 517.096C771.573 509.934 812.166 498.221 812.166 498.221C812.166 498.221 823.246 496.247 822.96 489.309C822.96 489.309 810.702 447.93 809.206 409.735C808.491 387.737 805.189 365.901 799.368 344.675C799.368 344.675 796.693 332.198 813.344 337.132C829.996 342.065 915.512 385.926 963.938 464.195C963.938 464.195 972.63 478.2 972.63 464.195C972.178 443.036 970.627 421.916 967.981 400.918C966.708 388.632 965.275 376.346 963.142 364.187C960.627 349.641 953.017 337.768 948.656 323.954C944.771 311.795 943.498 297.504 951.839 286.873C952.845 285.27 954.261 283.965 955.94 283.092C957.619 282.219 959.501 281.81 961.391 281.907C965.625 282.671 967.758 287.223 969.7 291.106C974.108 300.249 980.175 308.495 987.593 315.424C982.881 298.013 973.617 282.257 966.103 265.865C958.589 249.473 952.667 231.489 955.31 213.665C961.932 216.02 969.541 212.71 974.19 207.299C978.482 201.704 981.531 195.258 983.136 188.392C985.81 179.353 988.198 170.249 990.236 161.082C991.382 155.958 994.47 146.632 991.637 141.635C989.472 137.783 979.793 152.998 978.583 154.366C975.367 157.909 971.333 160.611 966.832 162.237C962.331 163.863 957.501 164.362 952.763 163.692C948.21 162.356 948.878 158.409 949.834 154.716C953.272 141.985 956.679 129.253 964.256 117.985C969.104 134.69 972.114 151.873 973.234 169.231C973.548 170.768 973.504 172.356 973.107 173.874C972.709 175.391 971.969 176.798 970.942 177.984C969.113 179.146 966.96 179.692 964.797 179.544C951.772 180.017 938.733 179.132 925.891 176.902C924.505 176.486 923.015 176.577 921.689 177.156C919.747 178.27 919.651 180.976 919.97 183.172C920.991 189.406 923.569 195.282 927.464 200.256C931.36 205.23 936.447 209.141 942.256 211.628C946.554 213.41 951.807 215.065 953.113 219.521C953.538 221.527 953.45 223.607 952.858 225.569C950.844 234.633 947.844 243.449 943.912 251.86C941.619 256.73 937.99 262.141 932.609 262.173C930.699 261.972 928.856 261.359 927.206 260.375C925.557 259.391 924.142 258.061 923.058 256.476C916.404 248.518 912.742 238.524 908.285 229.102C901.308 214.399 892.224 200.792 881.318 188.71C879.567 186.737 876.861 184.668 874.601 185.973C873.543 186.738 872.815 187.876 872.563 189.156C870.207 196.063 871.035 204.593 865.686 209.559C859.737 190.452 851.831 172.009 842.094 154.526C833.912 139.757 824.265 125.401 820.444 108.946C817.684 97.083 818.079 84.7044 821.59 73.0419C824.997 61.8061 831.97 50.7612 842.826 46.4642C845.51 45.1477 848.593 44.8974 851.454 45.764C852.859 46.2372 854.023 47.2421 854.696 48.563C855.368 49.884 855.496 51.4159 855.052 52.8301C853.365 56.6815 846.933 55.663 844.991 51.9707C844.239 50.0068 843.932 47.9005 844.091 45.8036C844.251 43.7067 844.874 41.6712 845.915 39.8437C854.543 20.2048 874.569 7.1229 895.55 2.85775C916.531 -1.40741 938.499 2.1575 958.971 8.61889C970.687 12.3111 982.499 17.181 991.191 25.9023C995.967 30.6768 999.819 37.361 998.164 43.886C997.59 46.1141 996.412 48.1512 995.871 50.2519C994.502 55.7584 997.049 61.3604 998.227 66.8988C999.405 72.4371 998.227 79.6306 992.815 81.4767C992.48 78.0154 992.48 74.5298 992.815 71.0685C992.963 69.3318 992.591 67.5904 991.746 66.0657C990.901 64.541 989.622 63.302 988.071 62.5063C984.887 61.3923 981.48 63.4612 978.52 65.1482C966.51 71.3456 952.843 73.5745 939.486 71.5141C926.227 69.4147 913.228 65.9151 900.708 61.074L879.344 53.6895C881.796 49.679 888.609 51.0477 890.997 55.09C891.956 57.2418 892.478 59.5624 892.532 61.9174C892.587 64.2723 892.173 66.6147 891.316 68.8086C889.074 76.8974 885.583 84.5866 880.968 91.5985C877.618 96.1522 874.546 100.903 871.767 105.826C864.412 120.563 867.342 138.038 866.068 154.43C865.718 159.141 862.598 165.348 858.204 163.661C856.908 163.018 855.809 162.04 855.02 160.828C850.459 154.792 846.28 148.478 842.508 141.921C838.948 136.747 836.948 130.66 836.745 124.383C837.096 118.017 841.871 111.651 848.111 111.81C854.352 111.969 859.127 118.399 861.483 124.542C867.278 139.629 867.341 156.372 867.341 172.286C867.341 188.201 867.342 205.23 863.043 221.017C860.656 229.834 856.931 238.651 857.758 247.754C858.554 256.316 863.298 263.955 867.883 271.244L902.172 325.355C900.417 315.336 900.171 305.112 901.44 295.021C901.466 293.189 901.863 291.382 902.608 289.708C903.352 288.034 904.427 286.528 905.77 285.281C907.426 284.372 909.268 283.853 911.155 283.765C913.042 283.676 914.925 284.021 916.658 284.772C927.121 288.408 935.91 295.714 941.397 305.334C941.397 305.334 910.355 236.518 855.689 226.874C855.689 226.874 856.644 221.94 828.467 253.897C828.467 253.897 802.997 276.178 781.729 281.716C760.462 287.255 719.868 315.074 719.868 315.074C715.22 317.376 710.267 319.005 705.159 319.912C695.162 321.694 686.438 315.965 677.206 313.228C669.787 311.063 662.337 309.122 654.919 306.575C640.178 301.419 622.858 293.175 618.719 276.592C611.174 246.354 618.528 244.253 631.773 236.869C645.017 229.484 675.104 214.588 676.983 181.835C677.428 174.196 678.638 164.043 675.55 156.69C674.436 154.08 671.793 151.756 670.933 155.417C669.724 160.509 676.155 161.146 679.275 160.287C689.622 157.454 691.755 136.446 692.01 128.234C692.52 104.68 678.32 87.5562 658.994 75.9065C654.301 72.7939 649.036 70.6427 643.506 69.5773C637.975 68.5119 632.289 68.5536 626.774 69.6998C619.425 71.3309 612.834 75.3763 608.054 81.1902C602.514 88.511 603.119 97.487 604.36 106.145C605.297 113.593 608.018 120.706 612.291 126.879C616.564 133.051 622.265 138.102 628.907 141.603C638.841 146.823 653.741 151.979 660.3 139.025C670.042 119.736 649.093 95.1952 633.237 86.7286C627.151 83.5483 620.628 81.2851 613.88 80.0126C609.531 79.1062 605.108 78.5949 600.667 78.4847C595.651 78.8637 590.613 78.1581 585.894 76.4158C584.016 75.6201 582.106 74.8243 580.164 74.1241C574.689 72.2288 569.018 70.9582 563.258 70.3364C546.75 68.7518 530.224 73.1704 516.711 82.7817C506.343 90.4408 497.49 99.9605 490.603 110.855C490.603 110.855 464.878 150.579 485.669 194.09C486.305 195.426 488.407 198.991 490.126 198.96C494.87 198.96 491.24 175.788 491.845 171.236C492.921 164.743 495.358 158.551 498.996 153.065C502.634 147.58 507.39 142.925 512.954 139.406C522.396 133.274 532.853 128.866 543.836 126.388C543.836 126.388 576.375 119.577 580.928 118.813C585.48 118.049 597.961 109.741 589.237 105.572C580.514 101.402 567.301 111.938 574.496 131.672C578.699 141.832 585.441 150.742 594.077 157.549C599.585 162.165 606.557 166.111 609.072 173.241C611.779 181.008 610.187 190.557 608.181 198.227C608.181 198.227 601.813 233.049 618.019 227.351C634.224 221.654 642.216 195.204 639.955 186.896C638.618 182.026 634.447 176.042 628.844 176.265C612.288 176.902 612.511 201.92 611.651 213.537C610.059 234.991 602.291 257.812 583.188 269.717C549.981 290.533 531.101 286.363 531.101 286.363C531.101 286.363 535.654 301.864 522.41 329.492C509.165 357.121 495.093 384.43 508.815 391.91C522.537 399.39 570.485 401.459 577.68 387.741C581.66 380.197 582.965 370.489 585.003 362.277C588.569 348.113 592.103 333.885 596.369 319.88C599.871 308.262 603.182 296.262 609.359 285.695C611.81 281.494 615.726 275.287 621.203 275.032C622.549 275.078 623.869 275.415 625.073 276.019C626.276 276.623 627.335 277.481 628.175 278.533C634.084 283.355 640.844 287.025 648.106 289.355C655.938 292.316 663.547 295.88 671.22 299.254C689.198 307.084 707.239 314.893 725.344 322.681C731.337 325.729 736.295 330.479 739.598 336.334C742.9 342.189 744.399 348.889 743.906 355.593C742.76 379.783 760.907 551.504 738.589 596.16C716.271 640.817 675.423 627.99 675.423 627.99C675.423 627.99 622.062 601.508 616.777 553.859C616.14 548.161 614.803 541.318 616.427 535.716C622.126 515.854 638.077 546.92 639.127 554.145C640.624 564.617 639.987 590.208 627.729 595.524C613.434 601.635 592.357 564.522 585.321 556.119C573.414 541.987 554.884 532.629 539.984 521.775C539.984 521.775 485.86 476.386 505.535 454.423C513.8 446.414 524.387 441.222 535.781 439.591C538.62 439.15 541.525 439.606 544.091 440.896C546.209 442.297 547.948 444.199 549.153 446.434C557.781 460.407 560.233 477.245 561.252 493.606C561.859 498.691 561.481 503.846 560.137 508.788C559.418 511.243 558.071 513.468 556.228 515.243C554.385 517.019 552.112 518.282 549.631 518.91C543.423 519.992 537.278 515.25 534.954 509.361C533.059 503.288 533.059 496.782 534.954 490.709C536.805 484.678 538.21 478.518 539.156 472.28C539.379 469.415 538.456 465.627 535.622 465.532C533.425 465.532 531.961 467.728 531.197 469.765C529.783 473.407 528.976 477.257 528.809 481.16C529.019 483.074 528.496 484.996 527.344 486.539C526.644 487.127 525.779 487.485 524.868 487.565C523.956 487.645 523.043 487.442 522.25 486.985C520.698 486.008 519.46 484.605 518.685 482.943C517.068 479.706 516.345 476.097 516.591 472.487C516.838 468.878 518.044 465.4 520.085 462.413C521.719 459.886 524.099 457.931 526.894 456.819C529.69 455.707 532.763 455.493 535.686 456.206C536.355 456.429 537.087 456.842 537.214 457.543C537.342 458.243 536.577 459.007 535.909 459.421C531.776 462.007 527.051 463.495 522.182 463.746C517.312 463.997 512.459 463.001 508.083 460.853C507.041 460.134 505.774 459.817 504.517 459.962C503.084 460.376 502.383 461.935 501.938 463.336C500.622 467.452 499.946 471.746 499.932 476.068C500.083 477.904 499.878 479.752 499.327 481.51C499.027 482.373 498.44 483.107 497.663 483.588C496.886 484.069 495.967 484.269 495.061 484.152C492.641 483.579 492.1 480.396 492.1 477.786C492.1 465.405 488.534 448.503 497.512 438.286C503.179 431.92 512.317 429.978 520.754 428.482C523.237 428.037 526.74 428.482 527.122 430.838C527.504 433.193 523.492 434.244 520.754 434.021C510.287 432.462 500.012 429.816 490.094 426.127C483.524 424.141 477.579 420.489 472.838 415.528C471.851 414.35 470.928 412.695 471.628 411.294C472.04 410.753 472.569 410.311 473.175 410.003C473.782 409.694 474.45 409.526 475.13 409.512C478.505 408.971 483.09 409.13 484.013 412.44C484.208 413.492 484.208 414.571 484.013 415.623C482.931 426.286 490.381 435.676 497.544 443.697C498.826 445.512 500.503 447.013 502.447 448.089C504.522 448.681 506.713 448.736 508.815 448.249C515.275 447.162 521.474 444.873 527.09 441.501C531.229 439.018 535.368 435.135 535.049 430.328C534.731 425.522 529.446 421.894 524.702 419.825C509.397 413.21 492.851 409.954 476.181 410.276C471.176 410.039 466.198 411.137 461.758 413.459C468.761 439.306 477.483 464.656 487.865 489.34C490.249 494.136 491.748 499.323 492.291 504.65C492.462 506.054 492.135 507.473 491.368 508.661C490.576 509.429 489.62 510.009 488.573 510.356C487.525 510.703 486.413 510.809 485.318 510.666C446.922 511.43 408.525 511.165 370.129 509.871C368.657 509.941 367.188 509.68 365.831 509.107C363.284 507.833 362.265 504.81 360.896 502.327C359.017 498.953 356.088 496.279 354.146 492.937C352.583 489.923 351.437 486.711 350.74 483.388L345.423 462.89C344.435 460.439 344.435 457.702 345.423 455.251C346.24 453.971 347.326 452.885 348.606 452.068L362.997 442.105C364.504 440.875 366.266 439.994 368.155 439.527C369.104 439.3 370.101 439.378 371.004 439.749C371.907 440.121 372.67 440.767 373.185 441.596C373.492 442.468 373.591 443.4 373.475 444.317C373.359 445.234 373.031 446.112 372.517 446.88C368.983 453.691 362.329 458.147 356.407 462.986C355.262 463.764 354.383 464.875 353.891 466.169C353.775 466.496 353.731 466.845 353.762 467.191C353.792 467.538 353.897 467.873 354.07 468.176C354.242 468.478 354.477 468.739 354.76 468.942C355.042 469.145 355.365 469.285 355.706 469.351C356.178 469.299 356.634 469.154 357.05 468.925C357.465 468.695 357.831 468.386 358.126 468.015C365.174 461.259 373.41 455.864 382.418 452.1C387.863 449.872 394.389 448.312 399.356 451.495C400.589 452.19 401.511 453.328 401.935 454.678C402.572 457.415 400.056 459.834 397.7 461.362C385.666 469.129 369.492 472.662 362.679 485.33C362.233 486.157 361.851 487.208 362.392 487.94C362.933 488.672 364.43 488.608 365.576 488.258C380.54 483.229 394.962 475.526 410.722 474.285C412.601 474.285 414.957 474.285 415.53 476.195C415.731 477.089 415.607 478.026 415.179 478.837C412.997 483.032 409.69 486.537 405.628 488.958C395.062 496.161 383.04 500.953 370.415 502.995C379.816 496.688 390.278 492.127 401.298 489.531C404.705 488.736 409.321 488.736 410.467 492.046C411.423 494.783 409.003 497.489 406.742 499.335C398.458 505.895 389.349 511.342 379.648 515.536C388.754 515.536 397.828 509.934 406.647 514.9C413.428 518.719 415.784 527.218 416.899 534.92C417.371 536.913 417.17 539.006 416.326 540.872C416.109 541.33 415.787 541.729 415.385 542.037C414.983 542.345 414.514 542.552 414.016 542.642C413.518 542.733 413.005 542.703 412.521 542.556C412.037 542.408 411.595 542.148 411.232 541.796C410.732 541.018 410.477 540.109 410.499 539.185C410.134 532.478 411.367 525.78 414.097 519.642C414.658 518.116 415.627 516.772 416.899 515.759C418.409 514.925 420.109 514.497 421.834 514.518C436.006 513.589 450.222 513.536 464.401 514.358C474.207 514.931 484.204 515.886 493.724 513.435C495.984 512.831 498.563 511.685 499.072 509.393C499.226 508.075 499.005 506.74 498.436 505.542C497.098 505.542 490.412 483.579 489.075 480.078L480.797 457.447L461.535 404.96L439.663 345.216C439.663 345.216 439.663 340.665 418.459 340.315C397.255 339.964 317.819 339.169 317.819 339.169C317.819 339.169 311.006 341.811 314.03 350.118C317.055 358.426 348.479 441.278 348.479 441.278C348.479 441.278 350.357 451.495 338.928 458.307C338.928 458.307 334.757 461.49 341.188 469.67C348.32 478.9 335.712 479.887 336.922 487.272C337.527 490.773 338.737 494.051 339.373 497.521C341.029 506.91 347.333 513.626 349.689 522.666C352.045 531.706 365.608 530.401 372.389 534.347C381.941 540.013 386.78 544.915 384.329 570.633C381.877 596.351 381.463 628.881 395.854 629.263C411.009 629.677 421.038 610.356 422.661 597.434C423.457 591.068 427.724 561.912 414.192 572.479C399.452 584.002 406.074 600.839 360.068 603.29C314.062 605.741 1 602.494 1 602.494" stroke="#F26E65" stroke-linecap="round" stroke-linejoin="round"/>
+bannerdesc: "Transform your business operations with our robust B2B eCommerce platform solutions. Designed to streamline transactions, enhance customer experiences, and scale with your growth, our platforms offer advanced features like bulk ordering, custom pricing, and seamless integrations with ERP and CRM systems. Empower your business with secure, mobile-friendly, and data-driven eCommerce solutions that optimize procurement processes, improve supplier relationships, and drive higher revenue. Simplify complexity and unlock new opportunities in the digital marketplace."
+bannerbuttontext: Talk To Us
+buttonLink: "/contact-us.html"
+bannerHTML: '<svg width="1181" height="572" viewBox="0 0 1181 572" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1180.7 484.93L562.18 391.02L228.66 456.76C228.66 456.76 215.75 463.41 223.18 470.46C230.61 477.51 484.96 526.42 484.96 526.42L712.31 570.64C712.31 570.64 724.44 572.99 738.53 568.68C752.62 564.37 1013.75 490.94 1013.75 490.94C1013.75 490.94 1020.01 492.23 1021.84 481.15L1021.58 468.24C1021.58 468.24 1045.32 459.37 1044.54 442.41C1043.76 425.45 1071.15 32.8405 1071.15 32.8405L1045.58 40.9305C1045.58 40.9305 1039.58 42.2305 1039.06 50.8405C1038.54 59.4504 1014.8 426.75 1014.8 426.75L978.8 422.58L570.28 369.88C570.28 369.88 567.02 370.53 566.37 365.45C565.72 360.37 566.57 305.32 566.57 305.32C566.57 305.32 567.16 300.82 576.35 300.62C585.54 300.42 726.42 315.1 726.42 315.1L1012.27 339.75C1012.27 339.75 1025.97 336.03 1013.44 332.9C1000.91 329.77 570.29 292.66 570.29 292.66C570.29 292.66 567.29 292.44 567.29 286.55C567.29 280.66 582.62 80.5105 582.62 80.5105L451.53 74.4405C451.53 74.4405 446.05 73.2705 450.16 69.1605L587.25 26.5705L628.73 28.9205L510.3 64.9204L559.08 66.2205L686.65 29.1805L735.43 30.7505L611.52 69.8804L662.39 70.9204L793.09 30.7505L846.83 31.5305L729.96 71.9604L782.66 77.1805L907.36 31.5305L969.45 32.3105L849.45 78.2205L892.75 81.6105L445.49 69.0904C445.49 69.0904 440.66 104.18 453.84 109.52C467.02 114.86 496.88 119.69 496.88 71.9504C496.88 71.9504 493.03 115.52 521.21 114.54C549.39 113.56 547.04 72.8705 547.04 72.8705C547.04 72.8705 541.76 116.3 571.69 118.07C601.62 119.84 601.43 74.6404 601.43 74.6404C601.43 74.6404 593.28 122.71 632.54 120.75C632.54 120.75 655.89 121.79 657.71 75.8804C657.71 75.8804 649.62 123.36 686.93 123.62C686.93 123.62 718.82 124.34 715.1 79.9204C715.1 79.9204 704.34 122.96 742.3 127.66C780.26 132.36 776.15 82.0704 776.15 82.0704C776.15 82.0704 775.56 133.14 807.45 128.05C839.34 122.96 837.78 96.7504 838.36 82.8504C838.36 82.8504 835.36 136.39 873.45 132.74C911.54 129.09 903.97 84.2205 903.97 84.2205L1066.23 28.1305C1066.23 28.1305 1077.19 26.3005 1066.75 13.5205C1056.31 0.740452 1012.49 5.17045 1012.49 5.17045L608.35 1.01045C608.35 1.01045 576.52 -4.72955 573.13 22.1405C569.74 49.0105 550.7 307.27 550.7 307.27L547.96 373.79C547.96 373.79 541.83 407.44 569.48 410.57C597.13 413.7 904.05 458.7 904.05 458.7C904.05 458.7 926.35 460.27 916.57 464.57C906.79 468.87 807.4 497.05 807.4 497.05C807.4 497.05 796.05 498.62 781.57 496.27C767.09 493.92 437.61 435.23 437.61 435.23C437.61 435.23 423.13 434.06 439.57 428.58C456.01 423.1 574.57 400.8 574.57 400.8L942.27 457.28C942.27 457.28 1021.57 463.8 1012.7 469.02C1003.83 474.24 732.53 545.19 732.53 545.19C732.53 545.19 712.7 554.06 679.31 543.62C645.92 533.18 483.14 505.01 483.14 505.01C483.14 505.01 471.14 500.84 468.27 507.62C465.4 514.4 452.62 509.71 452.62 509.71L409.05 501.75C409.05 501.75 404.16 496.66 408.85 490.79L223.57 455.96C223.57 455.96 214.18 454.13 228.53 449.96C242.88 445.79 539.75 392.18 539.75 392.18L0 392.32" stroke="#F26E65" stroke-miterlimit="10"/>
 </svg>'
 
 clientTitle: "Our Clients"
@@ -26,158 +27,342 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
-featuresBoxList:
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-
-processSubtitle : "Process"
-processTitle : "Lorem ipsum dolor sit "
-processBoxList :
-
-- stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-devSubTitle : Lorem ipsum
-devTitle: Lorem ipsum dolor sit  
-devTitlePart : Awesome Android Apps
+devSubTitle : What We Do
+devTitle: B2B eCommerce Platform Driving
+devTitlePart : Seamless Online Transactions and Growth
 devInformationList :
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: In the fast-evolving world of digital commerce, businesses need robust, scalable B2B eCommerce solutions to meet unique operational demands. At Cypherox Technologies, we specialize in designing and developing cutting-edge B2B eCommerce platforms that streamline operations, enhance customer experiences, and drive revenue growth. Unlike B2C, B2B transactions require specialized features like bulk ordering, tiered pricing, custom catalogs, and ERP/CRM integrations. Our expert developers leverage the latest technologies to create tailored platforms aligned with your business needs.
+- infoItem: Our B2B eCommerce services deliver comprehensive solutions for industries like manufacturing, wholesale, healthcare, and technology. We build platforms with intuitive interfaces, personalized experiences, and efficient workflows. Features include real-time inventory management, automated order processing, payment gateway integrations, multi-channel selling, and advanced analytics for actionable insights into buyer behavior and sales trends.
+- infoItem: We take a strategic approach, starting with a deep understanding of your audience, products, and workflows. Whether building a new platform, migrating from legacy systems, or enhancing existing solutions with AI-driven recommendations, subscription billing, or blockchain security, our team handles projects of any scale. With a focus on scalability, security, and user-centric design, we deliver polished platforms that drive measurable results.
+- infoItem: Beyond launch, we provide ongoing support and maintenance, staying updated with eCommerce advancements. Partner with us to experience B2B eCommerce where innovation meets efficiency, propelling your business to new heights of success.
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
-   
-secTitle: "Services"
-secSubTitle: "Lorem ipsum dolor"  
-servicesList:
 
+secSubTitle: "What We Provide"  
+secTitle: "Core Services of B2B eCommerce Platform"
+servicesList:
   - count: "01."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+    title: Custom Catalog Management
+    pageLink: "javascript:;"
+    description: Organize and personalize product catalogs for B2B clients. Enable custom pricing, bulk ordering, and dynamic filtering to enhance the buying experience. Learn More
 
   - count: "02."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+    title: Secure Payment Gateways
+    pageLink: "javascript:;"
+    description: Integrate reliable, multi-currency payment solutions tailored for B2B transactions. Ensure secure, seamless payments with support for invoices and recurring billing. Explore Now
 
   - count: "03."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+    title: CRM & ERP Integration
+    pageLink: "javascript:;"
+    description: Sync your eCommerce platform with existing CRMs and ERPs for real-time data flow. Streamline order processing, inventory management, and customer insights. Get Started
 
   - count: "04."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+    title: Advanced Analytics Dashboard
+    pageLink: "javascript:;"
+    description: Gain actionable insights with detailed sales and customer behavior analytics. Track performance metrics, optimize strategies, and drive revenue growth effectively. Discover More
 
   - count: "05."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+    title: Mobile-Optimized B2B Storefronts
+    pageLink: "javascript:;"
+    description: Provide a seamless shopping experience with mobile-friendly B2B storefronts. Enable easy access to catalogs, orders, and account management on any device.
 
-  - count: "06."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+
+hireCtaTitle: "Hire Developer"
+hireCtaSubTitle: "Hire App Developer"
+hireCtaDesc: "Looking to elevate your business with a B2B eCommerce Platform ? Our expert developers specialize in building robust, scalable, and secure eCommerce solutions tailored for B2B operations. From bulk ordering and custom pricing to inventory management and seamless payment integrations, we design platforms that streamline transactions, enhance customer experiences, and drive growth. With a focus on intuitive design, advanced analytics, and mobile responsiveness, we ensure your platform meets the unique needs of your business and clients."
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
+
+featuresSecSubTitle: Why Cypherox
+featuresSecTitle: Why Choose Cypherox for B2B eCommerce Platform?
+featuresBoxList:
+  - title: Scalable Solutions for Wholesale Businesses
+    description: Build robust eCommerce platforms designed to handle bulk orders, complex pricing models, and large-scale transactions with ease and precision.
+
+  - title: Customizable Features for Unique Needs
+    description: Offer tailored functionalities like custom catalogs, tiered pricing, and role-based access to meet the specific requirements of your B2B clients.
+
+  - title: Seamless Integration with ERP & CRM Systems
+    description: Connect your platform with existing ERP, CRM, and payment gateways to streamline operations, automate workflows, and enhance data accuracy.
+
+  - title: Advanced Analytics for Strategic Insights
+    description: Provide real-time analytics and reporting tools to track sales performance, customer behavior, and inventory levels for data-driven decision-making.
+
+  - title: Secure Transactions & Data Protection
+    description: Ensure secure payments and protect sensitive business data with advanced encryption, fraud detection, and compliance with global security standards.
+
+  - title: Ongoing Support & Platform Optimization
+    description: Deliver long-term success with dedicated support, including updates, feature enhancements, and performance tuning to keep your platform ahead of the curve.
+
+
+processSubtitle : "Our Development Process"
+processTitle : "Our B2B eCommerce Platform Development Process"
+processBoxList :
+- stepSubTitle: "Step 1"
+  stepTitle: Customizable Product Catalogs
+  stepDescription: Design dynamic catalogs tailored to B2B buyers, enabling bulk ordering, tiered pricing, and personalized product recommendations for seamless transactions.
+
+- stepSubTitle: "Step 2"
+  stepTitle: Wholesale Order Management
+  stepDescription: Streamline large-scale orders with advanced order management features like purchase approvals, recurring orders, and automated invoicing for B2B efficiency.
+
+- stepSubTitle: "Step 3"
+  stepTitle: Secure Payment Gateways
+  stepDescription: Integrate secure, scalable payment solutions that support multiple currencies, payment terms, and net billing options to meet the unique needs of B2B transactions.
+
+- stepSubTitle: "Step 4"
+  stepTitle: Personalized Buyer Portals
+  stepDescription: Create dedicated portals for each business client, offering role-based access, order history, and negotiated pricing to enhance customer satisfaction and retention.
+
+- stepSubTitle: "Step 5"
+  stepTitle: Real-Time Inventory Tracking
+  stepDescription: Provide real-time visibility into stock levels, backorders, and shipping statuses to ensure transparency and eliminate delays in the supply chain.
+
+- stepSubTitle: "Step 6"
+  stepTitle: Data-Driven Insights & Reporting
+  stepDescription: Leverage analytics tools to track sales trends, customer behavior, and inventory performance, empowering businesses to make informed decisions and optimize operations.
+
+
+faqSubtitle : "FAQs"
+faqTitle : "FAQ for B2B eCommerce Platform"
+faqBoxList :
+- faqTitle: What is a B2B eCommerce platform, and how can it benefit my business?
+  faqDescription: A B2B eCommerce platform enables businesses to sell products or services to other businesses online, streamlining transactions, order management, and customer relationships. It offers features like bulk ordering, custom pricing, and inventory management, making it ideal for wholesalers, distributors, and manufacturers. At Cypherox Technologies, we develop scalable B2B eCommerce platforms that enhance operational efficiency and drive revenue growth.
+
+- faqTitle: Can your B2B eCommerce platform be customized to fit my business model?
+  faqDescription: Absolutely! We design fully customized B2B eCommerce platforms tailored to your specific workflows, whether it’s integrating tiered pricing, subscription models, or multi-vendor marketplaces. Our team ensures the platform aligns with your business goals and provides a seamless experience for both buyers and sellers.
+
+- faqTitle: How do you ensure my B2B eCommerce platform integrates with existing systems?
+  faqDescription: We use APIs and middleware to integrate your platform with existing systems like ERPs, CRMs, payment gateways, and shipping providers. At Cypherox Technologies, we ensure smooth data synchronization and interoperability, minimizing disruptions and maximizing functionality across your operations.
+
+- faqTitle: What security measures do you implement to protect sensitive B2B transactions?
+  faqDescription: We prioritize security by implementing measures such as SSL encryption, PCI-DSS compliance, two-factor authentication, and role-based access control. Additionally, we conduct regular vulnerability assessments to safeguard sensitive data. At Cypherox Technologies, protecting your B2B transactions and customer information is a top priority.
+
+- faqTitle: Do you provide ongoing support and maintenance for B2B eCommerce platforms?
+  faqDescription: Yes! We offer comprehensive post-launch support, including bug fixes, performance optimization, feature enhancements, and updates to keep your platform aligned with the latest technologies. Whether it’s minor tweaks or major upgrades, our team at Cypherox Technologies ensures your platform remains secure, reliable, and up-to-date.
+
+- faqTitle: Can my B2B eCommerce platform handle high traffic and large order volumes?
+  faqDescription: Yes! Our platforms are built to handle high traffic and large order volumes using scalable cloud infrastructure and optimized databases. Features like caching, load balancing, and CDN integration ensure fast loading times and seamless performance, even during peak sales periods. At Cypherox Technologies, scalability is a core focus of every project.
+
+- faqTitle: How long does it take to develop a B2B eCommerce platform?
+  faqDescription: The timeline depends on the complexity of the project. A basic B2B eCommerce platform may take 12–16 weeks, while more advanced projects with custom features, integrations, or multi-language support can take 20–30 weeks. During the initial consultation, we’ll provide a detailed timeline based on your specific requirements and goals.
+
+- faqTitle: What industries benefit most from a B2B eCommerce platform?
+  faqDescription: B2B eCommerce platforms are widely used in industries such as manufacturing, wholesale distribution, healthcare, logistics, and technology. Their ability to streamline procurement processes, manage complex catalogs, and automate workflows makes them ideal for businesses targeting other businesses. At Cypherox Technologies, we create industry-specific solutions that address your unique challenges.
+
+- faqTitle: Can my B2B eCommerce platform be accessed on mobile devices?
+  faqDescription: Yes! Our platforms are fully responsive and optimized for both desktop and mobile devices, ensuring your customers can place orders and manage accounts on the go. Additionally, we can develop dedicated mobile apps for iOS and Android to enhance accessibility. At Cypherox Technologies, mobility and user experience are key priorities.
+
+- faqTitle:  How can I get started with Cypherox Technologies for my B2B eCommerce platform project?
+  faqDescription: Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your business needs, target audience, and desired features. From there, we’ll create a customized plan to bring your B2B eCommerce vision to life.
+
+  
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript/TypeScript"
+
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java/Kotlin"
+
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+
+          - icon: "../../../assets/img/icon-php.svg"
+            alt: "icon-php"
+            title: "PHP"
+
+          - icon: "../../../assets/img/icon-ruby.svg"
+            alt: "icon-ruby"
+            title: "Ruby"
+          
+  - title: "Technologies"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "icon-reactjs"
+            title: "React.js/Angular/Vue.js"
+
+          - icon: "../../../assets/img/icon-nodejs.svg"
+            alt: "icon-nodejs"
+            title: "Node.js/Django/Spring Boot"
+
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+          
+  - title: "Database"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
 
-developmentPhasesSubTitle: "Phases"
-developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
-developmentPhases:
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-elasticsearch-payment-gateways.svg"
+            alt: "icon-elasticsearch-payment-gateways"
+            title: "Elasticsearch Payment Gateways Stripe"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-PayPal.svg"
+            alt: "icon-PayPal"
+            title: "PayPal"
 
-hireSectionSubTitle: "Lorem ipsum"
-hireSectionTitle: "Lorem ipsum dolor"
-hireServicesList:
-  - "Lorem ipsum dolor sit"
-  - "Lorem ipsum dolor sit"
-  - "Lorem ipsum dolor sit"
-  - "Lorem ipsum dolor sit"
-  - "Lorem ipsum dolor sit"
-  - "Lorem ipsum dolor sit"
-hireButtonText: "Hire Now"
-hireButtonLink: "/hire"
-hireBgImage: "/assets/img/squad-bg-shap.webp"
+          - icon: "../../../assets/img/icon-braintree.svg"
+            alt: "icon-braintree"
+            title: "Braintree"
+
+          - icon: "../../../assets/img/icon-authorize.net.svg"
+            alt: "icon-authorize.net"
+            title: "Authorize.Net"
+
+          - icon: "../../../assets/img/icon-adyen.svg"
+            alt: "icon-adyen"
+            title: "Adyen"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+
+          - icon: "../../../assets/img/icon-mocha.svg"
+            alt: "icon-mocha"
+            title: "Mocha"
+
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+
+          - icon: "../../../assets/img/icon-postman.svg"
+            alt: icon-postman""
+            title: "Postman"
+
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Frameworks"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
+            title: "React Native/Flutter"
+
+          - icon: "../../../assets/img/icon-expressjs.svg"
+            alt: "icon-expressjs"
+            title: "Express.js"
+
+          - icon: "../../../assets/img/icon-django.svg"
+            alt: "icon-django"
+            title: "Django"
+
+          - icon: "../../../assets/img/icon-Ruby-On-Rails.svg"
+            alt: "icon-Ruby-On-Rails"
+            title: "Ruby on Rails"
+          
+  - title: "Cloud Hosting"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Aws.svg"
+            alt: "icon-Aws"
+            title: "AWS"
+
+          - icon: "../../../assets/img/icon-azure.svg"
+            alt: "icon-azure"
+            title: "Microsoft Azure"
+
+          - icon: "../../../assets/img/icon-google-cloud-platform.svg"
+            alt: "icon-google-cloud-platform"
+            title: "Google Cloud Platform"
+
+          - icon: "../../../assets/img/icon-heroku.svg"
+            alt: "icon-heroku"
+            title: "Heroku"
+
+  - title: "Analytics"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-google-analytics.svg"
+            alt: "icon-google-analytics"
+            title: "Google Analytics"
+
+          - icon: "../../../assets/img/icon-mixpanel.svg"
+            alt: "icon-mixpanel"
+            title: "Mixpanel"
+
+          - icon: "../../../assets/img/icon-amplitude.svg"
+            alt: "icon-amplitude"
+            title: "Amplitude"
+
+          - icon: "../../../assets/img/icon-tableau.svg"
+            alt: "icon-tableau"
+            title: "Tableau"
+
+          - icon: "../../../assets/img/icon-power-bi.svg"
+            alt: "icon-power-bi"
+            title: "Power BI"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
+
 ---

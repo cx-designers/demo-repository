@@ -179,16 +179,16 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
             title: "JavaScript"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
             title: "TypeScript"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
             title: "Python"
          
  
@@ -196,28 +196,24 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
             title: "React Native"
 
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "React Native"
-
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
             title: "Firebase"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
             title: "REST APIs"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
             title: "GraphQL"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-redux.svg"
+            alt: "icon-redux"
             title: "Redux"
          
  
@@ -241,7 +237,7 @@ phases:
             alt: "icon-mongodb"
             title: "MongoDB"
 
-          - icon: "../../../assets/img/icon-PostgreSQL"
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
             alt: "icon-PostgreSQL"
             title: "PostgreSQL"
 
