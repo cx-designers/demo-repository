@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Blockchain Development - Cypherox Technologies
+title: Blockchain Strategy Consulting for Smarter Adoption
+metaDescription: Maximize efficiency with blockchain strategy consulting. Get expert guidance to design, implement & scale secure, high-performance blockchain solutions.
 bodyClass: "blockchain-strategy-consulting"
 permalink: blockchain-strategy-consulting.html
 bannersubTitle: "Blockchain Development"
@@ -122,7 +123,7 @@ devInformationList :
 - infoItem: At Cypherox, we offer strategic consulting services to help businesses understand, adopt, and integrate blockchain technology.
 - infoItem: Our experts analyze business objectives, assess feasibility, and develop tailored blockchain strategies that align with your industry needs.
 - infoItem: We guide enterprises through technology selection, system architecture, and regulatory compliance to ensure a seamless blockchain implementation.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-blockchain-strategy-consulting.png"
 devBgAlt : "bg-img"
 
 secTitle: "Blockchain Strategy Consulting Services We Offer"

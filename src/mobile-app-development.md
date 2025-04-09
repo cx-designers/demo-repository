@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Mobile App Design & Development | Sleek, Scalable, Powerful
+metaDescription: Get expert mobile app design and development for iOS & Android. Create intuitive, high-performance apps with seamless UI/UX and robust functionality.
 bodyClass: "mobile-app-development"
 permalink: mobile-app-development.html
 bannersubTitle: "Service"

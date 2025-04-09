@@ -1,6 +1,7 @@
 ---
 layout: layouts/life-at-cypherox.njk
-title: life at Cypherox Technologies
+title: Life at Cypherox | Innovate, Grow & Thrive With Us
+metaDescription: Passion meets purpose at Cypherox! A workplace where ideas thrive, teamwork drives success, and innovation fuels growth. See the culture built for excellence.
 bodyClass: "life-at-cypherox-page"
 permalink: life-at-cypherox.html
 bannersubTitle: "Welcome"

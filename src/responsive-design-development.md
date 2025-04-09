@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/web-app-development-services.njk
-title: Responsive Design Development - Cypherox Technologies
+title: Responsive Web Design & Development | Pixel-Perfect & Fast
+metaDescription: Flawless on any device! Get responsive web design & development that’s fast, user-friendly, and built for performance, engagement, and seamless experiences.
 bodyClass: "responsive-design-development"
 permalink: responsive-design-development.html
 bannersubTitle: "UI UX Design Services"
@@ -79,7 +80,7 @@ devInformationList :
 - infoItem: We specialize in responsive web design and development, ensuring that your website delivers a seamless, engaging, and high-performance experience across all devices. Our team leverages the latest HTML5, CSS3, JavaScript, and front-end frameworks to craft fluid, mobile-friendly, and scalable digital solutions tailored to your business needs.
 - infoItem: We focus on intuitive user interfaces, fast-loading pages, and adaptive layouts that enhance user engagement and boost SEO rankings. By implementing flexible grids, media queries, and optimized graphics, we ensure that your website looks stunning and performs flawlessly on desktops, tablets, and smartphones.
 - infoItem: Whether you need a brand-new responsive website or want to revamp your existing platform, our expert developers are ready to bring your vision to life. With a mobile-first approach and future-proof design strategies, we help businesses stay ahead in the competitive digital landscape. Partner with us and experience the difference of a truly responsive web solution!
-devBgImg: "/assets/img/bg-responsive-design-development.png"
+devBgImg: "/assets/img/bg-responsive-web-design-development.png"
 devBgAlt : "bg-responsive-design-development"
 
     

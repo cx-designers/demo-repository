@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Cloud And Devops - Cypherox Technologies
+title: Continuous Testing & Monitoring | Improve Quality & Speed
+metaDescription: Ensure software quality with continuous testing and monitoring. Detect issues early, enhance security & boost performance with real-time insights.
 bodyClass: "continuous-testing-and-monitoring"
 permalink: continuous-testing-and-monitoring.html
 bannersubTitle: "Cloud/DevOps Services"
@@ -121,7 +122,7 @@ devInformationList :
 - infoItem: We implement automated functional, performance, and security testing to detect issues before they impact users. Our robust CI/CD-driven testing strategies ensure every release meets the highest quality standards while reducing manual effort and deployment risks.
 - infoItem: With real-time monitoring, log analysis, and AI-based anomaly detection, we provide end-to-end visibility into application health, performance bottlenecks, and security threats. Our proactive approach ensures seamless operations, reduced downtime, and an optimized user experience.
 - infoItem: By integrating automated feedback loops, cloud-based testing, and continuous observability, we help businesses improve efficiency, maintain compliance, and accelerate software delivery.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-continuous-testing-and-monitoring.png"
 devBgAlt : "bg-img"
 
 secTitle: "Comprehensive Continuous Testing & Monitoring Services"

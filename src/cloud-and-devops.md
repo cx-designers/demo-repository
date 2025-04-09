@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Cloud And Devops - Cypherox Technologies
+title: Cloud & DevOps Services | Cypherox - Accelerate Innovation
+metaDescription: Optimize infrastructure with Cloud & DevOps services for automation, scalability, and security. Streamline deployments & accelerate development efficiently.
 bodyClass: "cloud-and-devops"
 permalink: cloud-and-devops.html
 bannersubTitle: "Cloud Services"

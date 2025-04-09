@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: AR/VR App Development for Interactive Experiences
+metaDescription: Revolutionize user interaction with AR/VR app development. Build immersive, high-performance apps for gaming, retail, training & more with cutting-edge tech. 
 bodyClass: "vr-ar-app-development"
 permalink: vr-ar-app-development.html
 bannersubTitle: "Virtual Reality and Augmented Reality"
@@ -129,7 +130,7 @@ devInformationList :
 - infoItem: We create interactive AR/VR apps for training, gaming, education, real estate, and retail, enhancing engagement and user experience.
 - infoItem: Our team integrates AI, spatial computing, and 3D modeling to develop high-performance, scalable AR/VR solutions that run seamlessly across devices.
 - infoItem: With expertise in gesture-based interactions, real-time rendering, and haptic feedback, we ensure that every application delivers a realistic and immersive user experience.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-vr-ar-app-development.png"
 devBgAlt : "bg-img"
 
 secTitle: "AR/VR App Development Services We Offer"

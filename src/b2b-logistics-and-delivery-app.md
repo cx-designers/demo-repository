@@ -197,8 +197,8 @@ phases:
             alt: "icon-firebase"
             title: "Firebase"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-gps.svg"
+            alt: "icon-gps"
             title: "GPS APIs"
           
   - title: "Database"
@@ -265,68 +265,68 @@ phases:
             alt: "icon-react-native"
             title: "React Native"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
             title: "Flutter"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-xamarin.svg"
+            alt: "icon-xamarin"
             title: "Xamarin.Forms"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ionic.svg"
+            alt: "icon-ionic"
             title: "Ionic"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-retrofit.svg"
+            alt: "icon-retrofit"
             title: "Retrofit/Dio"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-redux.svg"
+            alt: "icon-redux"
             title: "Redux/Provider"
           
   - title: "Mapping & GPS"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-maps.svg"
+            alt: "icon-google-maps"
             title: "Google Maps API"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-mapbox.svg"
+            alt: "icon-mapbox"
             title: "Mapbox"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-here-technologies.svg"
+            alt: "icon-here-technologies"
             title: "HERE Technologies"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-openstreetmap.svg"
+            alt: "icon-openstreetmap"
             title: "OpenStreetMap"
 
   - title: "Analytics"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-analytics.svg"
+            alt: "icon-google-analytics"
             title: "Google Analytics"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-mixpanel.svg"
+            alt: "icon-mixpanel"
             title: "Mixpanel"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-amplitude.svg"
+            alt: "icon-amplitude"
             title: "Amplitude"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-tableau.svg"
+            alt: "icon-tableau"
             title: "Tableau"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-power-bi.svg"
+            alt: "icon-power-bi"
             title: "Power BI"
           
   - title: "Design"

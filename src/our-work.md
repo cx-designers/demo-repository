@@ -1,6 +1,7 @@
 ---
 layout: layouts/our-work.njk
-title: our-work - Cypherox Technologies
+title: Our Work | Cypherox Success Stories & Client Trust
+metaDescription: See how Cypherox delivers excellence! Explore our projects & client success stories—innovative software & app solutions backed by real results & testimonials.
 bodyClass: "our-work-page"
 permalink: our-work.html
 bannersubTitle: "Welcome"

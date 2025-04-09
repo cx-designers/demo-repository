@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Blockchain Development - Cypherox Technologies
+title: Blockchain Integration Services for Secure Systems
+metaDescription: Turn disruption into opportunity. Our blockchain integration seamlessly connects legacy systems with decentralized tech, bringing security, speed & innovation.
 bodyClass: "blockchain-integration"
 permalink: blockchain-integration.html
 bannersubTitle: "Blockchain Development"
@@ -92,7 +93,7 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in blockchain integration, enabling businesses to adopt decentralized technology without disrupting existing workflows.
 - infoItem: We seamlessly connect blockchain networks, smart contracts, and decentralized applications (DApps) with traditional IT infrastructure. Our solutions improve security, transparency, and operational efficiency.
 - infoItem: By leveraging Ethereum, Hyperledger, Binance Smart Chain, and Polygon, we help businesses integrate blockchain into finance, supply chain, healthcare, and more.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-blockchain-integration.png"
 devBgAlt : "bg-img"
 
 secTitle: "Blockchain Integration Services We Offer"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/news.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Cypherox News | Breaking Tech Updates & Company Highlights
+metaDescription: Stay ahead with the latest from Cypherox! Discover industry trends, breakthrough innovations & company milestones—insights that shape the future of technology.
 bodyClass: "news-page"
 permalink: news.html
 bannersubTitle: "Stay Ahead with the Latest Trends and Insights"

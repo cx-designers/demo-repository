@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Blockchain Development - Cypherox Technologies
+title: Smart Contract Development to Automate Transactions
+metaDescription: No middlemen, no delays—just secure, self-executing contracts. Our smart contract development ensures transparency, automation & reliability on the blockchain.
 bodyClass: "smart-contract-development"
 permalink: smart-contract-development.html
 bannersubTitle: "Blockchain Development"
@@ -90,7 +91,7 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in smart contract development, helping businesses automate and secure their transactions using blockchain technology.
 - infoItem: We design and develop custom smart contracts for various industries, ensuring trustless and tamper-proof agreements. Our expertise spans multiple  blockchain platforms, delivering optimized, gas-efficient, and high-performance contracts.
 - infoItem: By utilizing Ethereum, Binance Smart Chain, Hyperledger, and Polygon, we create smart contracts that streamline business processes and minimize risks.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-smart-contract-development.png"
 devBgAlt : "bg-img"
 
 

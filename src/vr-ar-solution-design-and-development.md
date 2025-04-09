@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: VR/AR Solution Design & Development for Businesses
+metaDescription: Bring ideas to life with VR/AR solution design and development. Create immersive, interactive applications for gaming, training, healthcare, and more. 
 bodyClass: "vr-ar-solution-design-and-development"
 permalink: vr-ar-solution-design-and-development.html
 bannersubTitle: "Virtual Reality and Augmented Reality"
@@ -129,7 +130,7 @@ devInformationList :
 - infoItem: At Cypherox, we design and develop immersive Virtual and Augmented Reality experiences to revolutionize businesses.
 - infoItem: We create tailor-made AR/VR solutions that enhance training, marketing, product visualization, and entertainment experiences.
 - infoItem: Our expertise spans across 3D modeling, interactive simulations, spatial computing, and real-time rendering for next-gen applications.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-vr-ar-solution-design-and-development.png"
 devBgAlt : "bg-img"
 
 secTitle: "VR/AR Solution Design & Development Services We Offer"

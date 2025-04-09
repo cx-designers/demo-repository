@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: AR/VR Consulting & Strategy for Future-Ready Solutions
+metaDescription: Maximize potential with AR/VR consulting strategy. Get expert guidance to design, implement & scale interactive solutions for business growth and engagement.
 bodyClass: "vr-ar-strategy-consulting"
 permalink: vr-ar-strategy-consulting.html
 bannersubTitle: "VR/AR Solutions"
@@ -121,7 +122,7 @@ devInformationList :
 - infoItem: Our experts analyze industry trends, user behavior, and technology feasibility to create immersive experiences that drive engagement.
 - infoItem: We assist in concept validation, technology selection, and roadmap planning to ensure a seamless AR/VR implementation process.
 - infoItem: With a focus on business scalability, cost-effectiveness, and innovation, we guide you in making the right AR/VR investment decisions.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/vr-ar-strategy-consulting.png"
 devBgAlt : "bg-img"
 
 secTitle: "AR/VR Consulting Services We Offer"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: VR/AR Support & Maintenance for Reliable Performance
+metaDescription: Get expert VR/AR support and maintenance to fix issues, update software & ensure smooth performance for immersive applications across industries.
 bodyClass: "vr-ar-support-and-maintenance"
 permalink: vr-ar-support-and-maintenance.html
 bannersubTitle: "VR and AR Solutions"
@@ -127,7 +128,7 @@ devInformationList :
 - infoItem: Our team conducts regular system monitoring, troubleshooting, and bug fixes to prevent downtime and improve functionality.
 - infoItem: We offer performance tuning, feature enhancements, and compatibility updates to ensure your AR/VR solutions evolve with emerging technologies.
 - infoItem: With our proactive support and real-time issue resolution, we help businesses deliver flawless, immersive experiences to their users.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-vr-ar-support-and-maintenance.png"
 devBgAlt : "bg-img"
 
 secTitle: "VR/AR Support and Maintenance Services We Offer"

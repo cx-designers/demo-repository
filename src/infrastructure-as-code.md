@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Cloud And Devops - Cypherox Technologies
+title: Infrastructure as Code (IaC) | Automate & Scale Effortlessly
+metaDescription: Manage infrastructure with Infrastructure as Code (IaC). Automate deployments, reduce errors & scale efficiently with code-driven cloud management.
 bodyClass: "infrastructure-as-code"
 permalink: infrastructure-as-code.html
 bannersubTitle: "Cloud/DevOps Services"
@@ -161,7 +162,7 @@ devInformationList :
 - infoItem: We transform IT operations by implementing Infrastructure as Code to automate and standardize infrastructure management. Our approach ensures seamless deployments, enhanced security, and optimized performance.
 - infoItem: Our solutions provide version-controlled, reusable infrastructure configurations, ensuring consistency across multi-cloud and hybrid environments. We minimize risks, improve compliance, and empower businesses to innovate faster.
 - infoItem: With IaC, we enable rapid provisioning, cost optimization, and automated scaling, helping organizations achieve high efficiency, security, and operational excellence.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-infrastructure-as-code.png"
 devBgAlt : "bg-img"
 
 secTitle: "Advanced Infrastructure as Code (IaC) Services for Scalable Automation"

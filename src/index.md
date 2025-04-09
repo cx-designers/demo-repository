@@ -1,6 +1,7 @@
 ---
 layout: layouts/homepage.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Cypherox | Custom Software Development & AI Solutions
+metaDescription: Forget average—build extraordinary! Cypherox crafts next-gen software & apps engineered for speed, scale & success.  Let’s build something great!
 bodyClass: "homepage"
 
 awardTopLamp: "assets/img/lamp.webp"

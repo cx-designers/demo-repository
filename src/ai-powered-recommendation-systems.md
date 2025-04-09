@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Artificial Intelligence And Machine Learning - Cypherox Technologies
+title: AI Recommendation System Development for Engagement
+metaDescription: Boost sales & user engagement with an AI-powered recommendation system. Deliver personalized content, predict preferences & enhance customer experiences.
 bodyClass: "ai-powered-recommendation-systems"
 permalink: ai-powered-recommendation-systems.html
 bannersubTitle: "AI & ML Services"

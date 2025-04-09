@@ -1,6 +1,7 @@
 ---
 layout: layouts/blog.njk
-title: Blog - Cypherox Technologies
+title: Cypherox Blog | Expert Insights & Tech Innovations
+metaDescription: Unlock cutting-edge software & app development insights! Our Blog delivers expert tips, deep tech trends, and innovation strategies to fuel your growth.
 bodyClass: "blog-page"
 permalink: blog.html
 bannersubTitle: "Explore Our Blogs"

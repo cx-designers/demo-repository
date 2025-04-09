@@ -1,6 +1,7 @@
 ---
 layout: layouts/faq.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Cypherox Q&A | Ask Us Anything About IT—We’ve Got Answers
+metaDescription: No fluff, just expert insights! Ask us anything about software, apps, or IT—we answer with the best of knowledge. Cypherox makes IT simple, powerful & clear.
 bodyClass: "faq-page"
 permalink: faq.html
 bannersubTitle: "Welcome"

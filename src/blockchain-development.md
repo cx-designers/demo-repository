@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Blockchain Development - Cypherox Technologies
+title: Blockchain Development for Secure Digital Solutions
+metaDescription: Build trust with blockchain development. Create secure, transparent & decentralized applications for finance, supply chain, NFTs & more with expert solutions.
 bodyClass: "blockchain-development"
 permalink: blockchain-development.html
 bannersubTitle: "Blockchain Development"
@@ -77,7 +78,7 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in blockchain development that helps businesses adopt decentralized technology for improved security and transparency.
 - infoItem: We design and develop custom blockchain applications, smart contracts, and decentralized finance (DeFi) platforms to meet specific business needs. Our expertise spans multiple blockchain ecosystems, ensuring seamless integration and maximum efficiency.
 - infoItem: Using Ethereum, Hyperledger, Binance Smart Chain, and Polygon, we deliver secure, scalable, and high-performance blockchain solutions that drive digital transformation.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-blockchain-development.png"
 devBgAlt : "bg-img"
 
 secTitle: "What We Offer"

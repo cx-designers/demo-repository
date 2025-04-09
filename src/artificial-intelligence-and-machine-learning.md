@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Artificial Intelligence And Machine Learning - Cypherox Technologies
+title: AI & Machine Learning Solutions for Business Growth
+metaDescription: Leverage AI & Machine Learning to automate processes, gain insights & enhance decision-making. Build intelligent, data-driven solutions for business success.
 bodyClass: "artificial-intelligence"
 permalink: artificial-intelligence-and-machine-learning.html
 bannersubTitle: "AI & ML Services"

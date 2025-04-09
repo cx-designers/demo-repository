@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/web-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: UI/UX Design Services | Crafting Seamless Digital Experience
+metaDescription: Stunning designs, seamless experiences! Elevate your brand with intuitive UI/UX that captivates users, boosts engagement & enhances digital interactions.
 bodyClass: "ux-ui-design-services"
 permalink: ux-ui-design-services.html
 bannersubTitle: "UI/UX Design Services"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/web-app-development-services.njk
-title: Design Prototyping & Development Company - Cypherox Technologies
+title: Design & Prototype Development | From Vision to Reality
+metaDescription: Transform ideas into interactive prototypes! Get expert UI/UX design and prototype development for seamless, user-friendly, and high-performing digital product.
 bodyClass: "design-prototyping-development"
 permalink: design-prototyping-development.html
 bannersubTitle: "UI UX Design Services"

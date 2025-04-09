@@ -1,6 +1,7 @@
 ---
 layout: layouts/about.njk
-title: About US - Cypherox Technologies
+title: Inside Cypherox | Crafting Code and Creating Impact
+metaDescription: More than a tech company—Cypherox is where innovation meets impact. We build game-changing software & apps that drive digital transformation worldwide.
 bodyClass: "about-page"
 permalink: about.html
 bannersubTitle: "Welcome"

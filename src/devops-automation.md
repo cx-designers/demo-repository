@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Cloud And Devops - Cypherox Technologies
+title: DevOps Automation Services | Accelerate Deployment & Growth
+metaDescription: Streamline workflows with DevOps automation services. Speed up deployments, improve collaboration & enhance efficiency with cutting-edge automation tools.
 bodyClass: "devops-automation"
 permalink: devops-automation.html
 bannersubTitle: "Welcome"
@@ -129,7 +130,7 @@ devInformationList :
 - infoItem: At Cypherox Technologies, we transform software development and IT operations with advanced DevOps Automation, ensuring seamless workflows, faster deployments, and enhanced collaboration. By automating repetitive tasks and optimizing CI/CD pipelines, we help businesses accelerate growth and innovation.
 - infoItem: Our expertise in Infrastructure as Code (IaC), cloud orchestration, and security integration streamlines operations, reduces manual errors and improves system reliability. We enable agile, scalable, and secure DevOps environments tailored to your business needs.
 - infoItem: With cutting-edge tools and AI-driven monitoring, we create high-performance ecosystems that enhance efficiency, minimize risks, and drive long-term success.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-devops-automation.png"
 devBgAlt : "bg-img"
 
 

@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Data Analytics Services | Actionable Insights for Growth
+metaDescription: Turn raw data into actionable insights with data analytics. Optimize strategies, improve efficiency & make informed decisions with advanced data solutions.
 bodyClass: "data-analytics"
 permalink: data-analytics.html
 bannersubTitle: "Data Analytics Solutions"

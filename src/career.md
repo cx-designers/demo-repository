@@ -1,6 +1,7 @@
 ---
 layout: layouts/career.njk
-title: Career - Cypherox Technologies
+title: Build the Future with Cypherox | Career in Tech & Innovation
+metaDescription: Not just a job—a tech revolution! At Cypherox, you’ll build cutting-edge software, solve complex challenges & shape the future of digital innovation.
 bodyClass: "career-page"
 permalink: career.html
 bannersubTitle: "Build a Rewarding Career with Us"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Artificial Intelligence And Machine Learning - Cypherox Technologies
+title: AI Model Interpretation for Transparency & Trust
+metaDescription: Understand AI decisions with model interpretation & explanation. Gain insights, ensure transparency & build trust in ML models with clear analysis.
 bodyClass: "model-interpretation-and-explanation"
 permalink: model-interpretation-and-explanation.html
 bannersubTitle: "AI/ML Services"
@@ -115,7 +116,7 @@ devInformationList :
 - infoItem: At Cypherox, we build explainable AI (XAI) solutions that help businesses understand and trust AI-generated decisions.
 - infoItem: Our model interpretation techniques uncover how AI models process data and make predictions, improving transparency and reducing bias. We apply these solutions in industries like healthcare, finance, legal, and autonomous systems.
 - infoItem: Using advanced algorithms and visualization tools, we provide clear and interpretable AI insights, ensuring responsible AI adoption for businesses.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-model-interpretation-and-explanation.png"
 devBgAlt : "bg-img"
 
 secTitle: "Model Interpretation and Explanation Services We Offer"

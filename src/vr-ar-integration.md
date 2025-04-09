@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: AR/VR Integration Services for Digital Transformation
+metaDescription: Integrate augmented and virtual reality into your platforms with our AR/VR integration services. Create interactive experiences that blend digital environments.
 bodyClass: "vr-ar-integration"
 permalink: vr-ar-integration.html
 bannersubTitle: "VR/AR Solutions"
@@ -125,7 +126,7 @@ devInformationList :
 - infoItem: We connect AR/VR capabilities with existing software, IoT systems, and AI-driven platforms, ensuring smooth functionality and high performance.
 - infoItem: Our team enhances digital experiences with real-time data overlays, interactive 3D elements, and intuitive user controls, making applications more dynamic and engaging.
 - infoItem: Whether it’s enterprise applications, eCommerce, training simulations, or interactive marketing, we make AR/VR integration effortless and impactful.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-vr-ar-integration.png"
 devBgAlt : "bg-img"
 
 secTitle: "AR/VR Integration Services We Offer"

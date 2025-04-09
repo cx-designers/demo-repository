@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Blockchain Development - Cypherox Technologies
+title: Blockchain Maintenance for Updates & Performance
+metaDescription: Keep your blockchain running at peak performance. Our blockchain maintenance services ensure security, efficiency & seamless upgrades for long-term reliability.
 bodyClass: "blockchain-support-and-maintenance"
 permalink: blockchain-support-and-maintenance.html
 bannersubTitle: "Blockchain Development"
@@ -126,7 +127,7 @@ devInformationList :
 - infoItem: At Cypherox, we offer ongoing blockchain maintenance to enhance system performance, security, and scalability.
 - infoItem: We conduct regular monitoring, security patching, and performance tuning to prevent downtime and vulnerabilities. Our experts ensure that your blockchain network remains efficient, compliant, and fully functional.
 - infoItem: With expertise in Ethereum, Hyperledger, Binance Smart Chain, and Polygon, we provide custom maintenance solutions for businesses across industries.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-blockchain-support-and-maintenance.png"
 devBgAlt : "bg-img"
 
 secTitle: "Blockchain Maintenance Services We Offer"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Cloud And Devops - Cypherox Technologies
+title: Cloud Strategy Consulting | Optimize, Innovate, Transform
+metaDescription: Maximize cloud potential with expert cloud strategy consulting. Optimize architecture, reduce costs & enhance performance for a smarter digital transformation.
 bodyClass: "cloud-strategy-consulting"
 permalink: cloud-strategy-consulting.html
 bannersubTitle: "Cloud and DevOps Services"
@@ -77,7 +78,7 @@ devInformationList :
 - infoItem: A successful cloud journey begins with a well-structured strategy that ensures scalability, security, and efficiency. We help businesses navigate the complexities of cloud adoption and make informed decisions for the best possible outcomes.
 - infoItem: Our experts analyze your current infrastructure, identify challenges, and craft a tailored cloud adoption plan that maximizes benefits while minimizing risks. Whether you need cloud-native solutions, hybrid cloud setups, or a multi-cloud approach, we ensure that every decision supports your business goals.
 - infoItem: From cloud readiness assessment to workload optimization, our strategy ensures businesses achieve enhanced performance, cost efficiency, and operational agility in the cloud. With a focus on automation, security, and compliance, we ensure that cloud solutions not only meet today’s needs but are also future-proof.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-cloud-strategy-consulting.png"
 devBgAlt : "bg-img"
 
 secTitle: "Cloud and DevOps Services"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/web-app-development-services.njk
-title: PSD to HTML Development Company - Cypherox Technologies
+title: PSD to HTML Development | Pixel-Perfect, Responsive Code
+metaDescription: Convert your PSD designs into clean, fast, and SEO-friendly HTML with Cypherox. Get a responsive, pixel-perfect website for a seamless user experience.
 bodyClass: "psd-to-html-development"
 permalink: psd-to-html-development.html
 bannersubTitle: "UI UX Design Services"
