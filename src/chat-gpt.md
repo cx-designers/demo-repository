@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Chat Gpt - Cypherox Technologies
+title: ChatGPT & Generative AI Services | Cypherox AI Solutions
+metaDescription: Cypherox provides ChatGPT & generative AI services to automate workflows, enhance customer engagement & create AI-powered business solutions. 
 bodyClass: "chat-gpt"
 permalink: chat-gpt.html
 bannersubTitle: "Generative AI Platforms"
@@ -114,7 +115,7 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in ChatGPT-based AI solutions to create highly interactive, context-aware, and personalized conversational experiences.
 - infoItem: Our team develops chatbots, virtual assistants, and AI-driven communication tools to help businesses automate support, enhance customer engagement, and improve workflow efficiency.
 - infoItem: With advanced natural language processing (NLP), machine learning, and AI-driven automation, we ensure seamless human-like interactions, real-time responses, and multilingual communication.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-chat-GPT.png"
 devBgAlt : "bg-img"
 
 secTitle: "AI-Powered ChatGPT Services We Offer"
@@ -123,42 +124,52 @@ servicesList:
   - count: "01."
     title: "AI Chatbot App"
     description: "Build smart chatbots for automated customer interactions."
+    pageLink: "/chatbots-apps.html"
 
   - count: "02."
     title: "Virtual Assistant Services"
     description: "Develop AI-driven virtual assistants for businesses and individuals."
+    pageLink: "/virtual-assistants.html"
 
   - count: "03."
     title: "Dialogue Systems"
     description: "Enable context-aware and dynamic conversations with AI."
+    pageLink: "/dialogue-systems.html"
 
   - count: "04."
     title: "Voice User Interface (VUI)"
     description: "Create voice-enabled AI systems for hands-free interaction."
+    pageLink: "/voice-user-interfaces.html"
 
   - count: "05."
     title: "Language Translator App"
     description: "Offer real-time AI-powered language translation for global communication."
+    pageLink: "/language-translation-apps.html"
 
   - count: "06."
     title: "AI Content Generator (Automated Writing)"
     description: "Leverage AI to generate high-quality content for marketing and business needs."
+    pageLink: "/automated-writing-and-content-generation.html"
 
   - count: "07."
     title: "Text-to-Speech (TTS) & Speech-to-Text (STT) Systems"
     description: "Convert text to speech and vice versa for accessibility and automation."
+    pageLink: "/text-to-speech-and-speech-to-text-systems.html"
 
   - count: "08."
     title: "Text Generation for Game Design"
     description: "Develop AI-generated dialogues and narratives for immersive gaming experiences."  
+    pageLink: "/text-generation-for-game-design.html"
     
   - count: "09."
     title: "Question and Answer System"
     description: "Provide instant AI-powered answers for customer support and research."
+    pageLink: "/question-answering-systems.html"
 
   - count: "10."
     title: "Virtual Research Assistant"
     description: "Automate data gathering, summarization, and research tasks with AI."
+    pageLink: "/virtual-research-assistants.html"
 
 
 hasTechnologyStack: "no" 
@@ -172,8 +183,8 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-openai.svg"
+            alt: "icon-openai"
             title: "OpenAI GPT-4"
           - icon: "../../../assets/img/"
             alt: ""
@@ -181,8 +192,8 @@ phases:
           - icon: "../../../assets/img/"
             alt: ""
             title: "Hugging Face Transformers"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ibm-watson.svg"
+            alt: "icon-ibm-watson"
             title: "IBM Watson NLP"
       
   - title: "Voice & Speech Processing"
@@ -206,17 +217,17 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-tensorflow.svg"
+            alt: "icon-tensorflow"
             title: "TensorFlow"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-pytorch.svg"
+            alt: "icon-pytorch"
             title: "PyTorch"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-openai.svg"
+            alt: "icon-openai"
             title: "OpenAI API"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-dialogflow.svg"
+            alt: "icon-dialogflow"
             title: "Dialogflow"
 
 hireCtaTitle: "Hire Developers To Build AI-Powered Chatbots & Virtual Assistants"

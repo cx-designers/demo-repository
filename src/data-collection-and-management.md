@@ -125,7 +125,7 @@ devInformationList :
 - infoItem: We ensure structured and unstructured data is captured accurately from multiple sources and stored in optimized, scalable systems for quick retrieval and analysis.
 - infoItem: Our automated data management processes enhance efficiency, reduce redundancy, and improve data accuracy, helping businesses stay organized, compliant, and ready for future growth.
 - infoItem: With our expertise in data pipelines, cloud storage, and governance, we guarantee your data remains accessible, secure, and insightful.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-data-collection-and-management.png"
 devBgAlt : "bg-img"
 
 secTitle: "Our Data Collection & Management Services"

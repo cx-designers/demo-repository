@@ -124,7 +124,7 @@ devInformationList :
 - infoItem: Our approach focuses on end-to-end data encryption, access control, regulatory compliance, and risk mitigation to ensure your data is always secure and accessible only to authorized users.
 - infoItem: With AI-driven threat detection, real-time monitoring, and compliance-focused strategies, we help businesses maintain trust, prevent data leaks, and comply with industry regulations like GDPR, HIPAA, and ISO 27001.
 - infoItem: By integrating advanced security measures, cloud security solutions, and AI-powered risk assessments, we empower organizations to mitigate risks and maintain a strong security posture.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-data-security-and-privacy.png"
 devBgAlt : "bg-img"
 
 secTitle: "Comprehensive Data Security & Privacy Services"
@@ -166,25 +166,25 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-aes-encryption.svg"
+            alt: "icon-aes-encryption"
             title: "AES-256 Encryption"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ssl-tls.svg"
+            alt: "icon-ssl-tls"
             title: "SSL/TLS Security Protocols"
           - icon: "../../../assets/img/"
             alt: ""
             title: "Public Key Infrastructure (PKI)"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-sha.svg"
+            alt: "icon-sha"
             title: "Hashing Algorithms (SHA-256, bcrypt)"
       
   - title: "Security Compliance & Risk Management"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-gdpr.svg"
+            alt: "icon-gdpr"
             title: "GDPR & HIPAA Compliance Solutions"
           - icon: "../../../assets/img/"
             alt: ""
@@ -200,8 +200,8 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-siem.svg"
+            alt: "icon-siem"
             title: "SIEM (Security Information & Event Management)"
           - icon: "../../../assets/img/"
             alt: ""

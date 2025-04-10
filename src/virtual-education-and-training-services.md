@@ -1,13 +1,21 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Virtual Education & Training Services | AI-Powered Learning
+metaDescription: Get virtual education and training services to develop interactive e-learning platforms, AI-driven courses & immersive training experiences for businesses.
 bodyClass: "virtual-education-and-training-services"
 permalink: virtual-education-and-training-services.html
-bannersubTitle: "Welcome"
+bannersubTitle: "Metaverse Services"
 bannerTitle: "Virtual Education and Training Services"
-bannerdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum, metus at aliquet imperdiet, metus arcu pellentesque nulla..."
-bannerHTML: '<svg width="1213" height="869" viewBox="0 0 1213 869" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1211.9 766.5C1211.9 766.5 1110.9 693.013 1003.99 693.013C1003.99 693.013 961.311 692.821 902.924 701.585C902.924 701.585 791.642 724.314 785.957 676.64C785.957 676.64 773.239 615.29 784.512 477.374L789.522 395.51C789.522 395.51 788.366 358.43 782.97 380.196C782.97 380.196 771.794 450.696 807.443 489.798C807.443 489.798 854.654 554.807 933.274 563.764C933.274 563.764 977.305 562.609 979.136 509.927C979.136 509.927 978.461 462.349 957.65 456.089C957.65 456.089 953.892 455.607 955.145 466.587C955.145 466.587 957.072 501.162 920.171 501.644C920.171 501.644 846.657 501.355 854.75 446.747C854.75 446.747 853.208 424.114 862.361 435.671C862.361 435.671 882.691 461.675 910.536 461.868C910.536 461.868 928.746 462.253 925.759 436.73C925.759 436.73 920.556 408.319 908.512 386.938C908.512 386.938 897.914 372.78 898.107 354.77C898.107 354.77 896.276 306.807 898.878 290.916C898.878 290.916 912.944 242.472 904.755 232.552C904.755 232.552 899.167 224.558 894.831 236.019C894.831 236.019 886.545 256.148 879.704 281.959C879.704 281.959 873.152 295.154 869.973 277.818C869.973 277.818 873.731 247.287 873.827 229.759C873.827 229.759 876.814 197.206 864.288 197.302C864.288 197.302 853.594 196.05 855.232 214.927L853.497 270.498C853.497 270.498 850.607 286.486 845.404 271.75L847.62 199.036C847.62 199.036 846.657 189.983 837.696 189.694C837.696 189.694 828.254 189.694 827.772 199.614L828.061 273.195C828.061 273.195 828.158 290.242 822.955 278.492C822.955 278.492 810.526 249.31 808.888 222.439C808.888 222.439 806.287 203.948 796.941 204.14C796.941 204.14 786.342 204.237 790.1 226.773L794.05 252.873C794.05 252.873 800.024 279.551 799.349 294.672C799.349 294.672 794.628 315.283 802.625 325.588C802.625 325.588 812.164 336.375 809.37 341.865C809.37 341.865 802.433 343.02 798.771 324.625C798.771 324.625 781.043 289.568 763.219 289.375C763.219 289.375 738.65 295.635 765.531 319.135C765.531 319.135 779.116 333.967 785.668 351.688C785.668 351.688 804.167 388.094 829.121 390.598C829.121 390.598 853.016 395.317 856.292 386.071C856.292 386.071 850.222 380.774 835.769 393.102C835.769 393.102 832.879 395.798 842.514 402.444C842.514 402.444 860.434 416.216 857.159 439.523C857.159 439.523 854.75 466.876 860.242 493.168C860.242 493.168 868.431 580.137 930.094 569.928C930.094 569.928 990.312 567.424 986.555 497.31C986.555 497.31 988.578 450.118 904.755 389.923C904.755 389.923 817.945 320.098 806.287 310.66C806.287 310.66 792.123 293.998 781.14 287.834C781.14 287.834 713.985 249.599 686.911 272.424C686.911 272.424 643.554 307.674 640.182 409.86C640.182 409.86 626.789 537.76 648.371 606.719C648.371 606.719 636.039 469.476 660.318 364.016C660.318 364.016 663.594 337.531 676.12 321.158C676.12 321.158 686.814 302.473 691.921 289.76C691.921 289.76 702.519 270.98 722.271 283.693C722.271 283.693 747.225 307.963 752.331 295.154C752.331 295.154 752.235 283.982 716.779 259.134C716.779 259.134 703.001 244.976 684.598 243.628C684.598 243.628 659.837 250.177 658.006 230.24C658.006 230.24 659.259 210.593 674.867 184.686C674.867 184.686 687.2 163.786 690.765 151.362C690.765 151.362 676.794 183.433 675.06 158.585C675.06 158.585 675.349 122.276 677.758 108.793C677.758 108.793 679.588 75.7581 669.857 53.7993C669.857 53.7993 658.681 17.4902 645.385 8.91856C645.385 8.91856 544.7 11.1337 512.905 21.3426C512.905 21.3426 496.044 22.7873 498.26 54.1846C498.26 54.1846 496.044 78.5512 515.699 77.5881C515.699 77.5881 601.257 74.5061 637.773 70.8463C637.773 70.8463 653.189 72.291 653.189 51.0063C653.189 51.0063 661.86 4.00672 640.278 1.31002C640.278 1.31002 579.867 -1.96455 513.483 12.771C513.483 12.771 495.081 10.2669 493.346 50.3321C493.346 50.3321 487.662 83.1741 500.091 93.2867C500.091 93.2867 504.523 103.496 516.277 110.141C516.277 110.141 522.636 112.26 525.431 118.135C525.431 118.135 538.438 146.45 537.089 131.137C537.089 131.137 531.501 119.098 527.55 115.149C527.55 115.149 523.504 108.119 534.006 108.022C534.006 108.022 552.794 107.733 557.322 107.348C557.322 107.348 564.163 106.866 569.269 95.2129C569.269 95.2129 579.289 83.2704 593.645 92.0347C593.645 92.0347 603.666 102.147 619.756 102.918C619.756 102.918 657.524 105.807 664.269 95.5981C664.269 95.5981 668.701 90.3974 668.701 80.8626C668.701 80.8626 664.558 44.3609 675.831 64.4898C675.831 64.4898 692.788 100.51 692.595 129.499C692.595 129.499 693.944 149.051 686.429 138.842L680.07 116.209C680.07 116.209 677.468 107.348 673.807 114.186C673.807 114.186 671.784 120.928 652.803 119.098C652.803 119.098 610.217 116.209 596.632 100.895C596.632 100.895 587.19 90.9752 579.578 99.4506C579.578 99.4506 574.857 101.569 571.871 108.985C571.871 108.985 570.136 114.957 562.717 115.246C562.717 115.246 539.69 116.016 540.172 141.635C540.172 141.635 541.81 177.173 558.767 198.651C558.767 198.651 564.741 202.021 561.754 222.536C561.754 222.536 557.996 247.673 556.358 229.952C556.358 229.952 557.129 210.208 578.133 201.829C578.133 201.829 597.307 205.392 608.387 203.659C608.387 203.659 637.869 202.31 661.186 189.308C661.186 189.308 673.518 180.352 670.724 202.696C670.724 202.696 660.993 238.812 676.505 250.273C676.505 250.273 688.838 261.83 679.492 269.824C679.492 269.824 660.8 289.375 595.187 292.939C595.187 292.939 559.538 293.324 553.083 265.49C553.083 265.49 559.827 351.688 557.322 411.882C557.322 411.882 547.494 494.806 533.717 528.707C533.717 528.707 503.367 633.493 520.517 606.045C520.517 606.045 554.624 509.252 567.824 406.393C567.824 406.393 581.505 306.807 531.886 294.576C531.886 294.576 524.274 296.406 524.66 286.486C524.66 286.486 523.504 282.152 513.098 288.508C513.098 288.508 470.127 318.75 480.243 299.295C480.243 299.295 523.118 249.695 552.023 240.16C552.023 240.16 565.03 239.197 552.794 252.873C552.794 252.873 527.839 266.261 486.024 283.211L438.621 303.725C438.621 303.725 432.069 306.518 431.491 321.639C431.491 321.639 429.467 385.59 438.717 385.975C438.717 385.975 450.664 388.19 437.753 309.023C437.753 309.023 433.61 305.844 427.637 310.178C427.637 310.178 414.052 320.58 395.167 348.799C395.167 348.799 366.745 393.872 355.472 414.579C355.472 414.579 330.325 448.095 321.172 457.534C321.172 457.534 299.782 481.419 316.74 480.167C316.74 480.167 345.837 475.929 336.587 502.511C336.587 502.511 321.942 523.41 329.361 522.929C329.361 522.929 353.256 526.396 354.99 511.756C354.99 511.756 354.412 491.531 349.594 505.978C349.594 505.978 344.97 520.713 360.867 519.943C360.867 519.943 384.087 522.351 384.087 504.822C384.087 504.822 381.486 494.613 364.529 488.257C364.529 488.257 354.123 485.656 364.529 457.341C364.529 457.341 381.486 421.417 396.998 402.059C396.998 402.059 405.38 383.278 390.061 384.626C390.061 384.626 383.702 383.374 373.489 402.059C373.489 402.059 357.302 435.478 343.428 438.849C343.428 438.849 336.298 436.249 342.85 411.112C342.85 411.112 360.386 372.684 345.259 370.276C345.259 370.276 335.142 367.098 331.481 388.575L323.099 432.204C323.099 432.204 316.354 449.732 318.089 429.411C318.089 429.411 319.534 413.423 327.82 400.132C327.82 400.132 330.228 388.19 319.245 389.731C319.245 389.731 308.646 388.094 302.673 424.017C302.673 424.017 300.649 452.14 293.327 442.991C293.327 442.991 289.184 440.776 289.377 432.397C289.377 432.397 285.812 421.417 279.26 431.626C279.26 431.626 277.526 437.597 290.822 426.81C290.822 426.81 295.639 417.854 284.077 418.046C284.077 418.046 270.685 417.854 272.901 435.575C272.901 435.575 272.323 441.546 276.273 450.118C276.273 450.118 279.453 457.726 275.31 466.009C275.31 466.009 248.429 490.568 276.273 517.054C276.273 517.054 293.616 529.959 302.576 516.09C302.576 516.09 308.55 526.01 322.713 525.625C322.713 525.625 312.308 552.496 287.642 550.57C287.642 550.57 243.997 543.635 262.495 500.392C262.495 500.392 265.097 484.404 256.329 492.398C256.329 492.398 245.538 500.199 246.116 525.914C246.116 525.914 246.694 573.106 302.48 577.151C302.48 577.151 358.459 574.744 416.749 507.422C416.749 507.422 458.179 460.038 440.644 450.021C440.644 450.021 431.876 447.614 436.308 489.123L441.511 623.477L444.498 691.568C444.498 691.568 447.003 703.511 418.869 704.763C418.869 704.763 376.09 705.245 346.993 702.259C346.993 702.259 95.9043 630 0.904297 868" stroke="#F26E65"/>
+bannerdesc: "Transform Learning with Virtual Education and Training Services"
+bannerHTML: '<svg width="1542" height="555" viewBox="0 0 1542 555" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_349_28)">
+<path d="M1542 521.582L1116.51 514.774C1116.51 514.774 1072.96 511.989 1110.11 507.967L1401.34 512.711C1401.34 512.711 1411.35 511.164 1410.11 529.833C1410.11 529.833 1408.87 537.775 1404.95 544.169C1404.95 544.169 1141.38 550.977 912.899 548.811C912.899 548.811 870.381 551.08 878.637 520.55C878.637 520.55 883.178 514.981 885.552 532.411C885.552 532.411 887.719 542.622 881.836 547.16C881.836 547.16 864.086 549.636 839.318 549.12L497.11 547.676C497.11 547.676 510.113 547.367 509.597 539.941C509.597 539.941 505.16 527.254 500.826 515.187C500.826 515.187 495.562 511.886 514.654 511.68C533.849 511.474 715.686 514.052 715.686 514.052L1056.86 511.68C1056.86 511.68 1058.41 452.58 1036.53 384.301L980.598 133.566H909.907C909.907 133.566 904.127 141.199 907.946 152.544L952.115 151.719L1023.12 503.429L723.013 502.088C723.013 502.088 710.423 510.03 727.554 504.563C727.554 504.563 754.489 491.671 752.115 440.1C752.115 440.1 740.351 371.924 732.92 362.332C732.92 362.332 726.831 344.076 733.746 345.417C733.746 345.417 742.621 345.314 735.087 375.122C735.087 375.122 695.562 426.795 669.143 429.271C669.143 429.271 650.051 418.338 644.891 394.306C644.891 394.306 634.675 330.978 635.707 284.667C635.707 284.667 630.134 244.649 651.393 236.088C651.393 236.088 676.47 234.232 674.613 219.173C674.613 219.173 671.31 182.352 663.674 189.365C663.674 189.365 658.926 190.19 654.902 221.545C654.902 221.545 632.301 167.5 617.234 170.181C617.234 170.181 611.558 176.576 620.124 204.527C620.124 204.527 629.824 244.442 647.575 243.411L673.271 242.792L673.787 347.789C673.787 347.789 674.406 362.539 681.217 352.534C681.217 352.534 726.315 272.909 733.643 260.532C733.643 260.532 741.382 255.479 739.009 265.277C739.009 265.277 731.269 283.223 732.301 292.815C732.301 292.815 732.92 307.771 739.319 298.488C739.319 298.488 745.717 252.797 762.126 250.218C762.126 250.218 827.863 239.595 856.553 238.254C856.553 238.254 868.524 238.873 864.189 228.662C864.189 228.662 859.029 212.675 838.39 205.868C838.39 205.868 792.672 182.352 807.43 181.527C807.43 181.527 846.749 209.272 867.182 209.065C867.182 209.065 897.316 211.231 899.174 148.212C899.174 148.212 907.12 105.306 887.616 86.9467C887.616 86.9467 890.402 103.552 879.256 107.678C879.256 107.678 853.044 116.857 841.898 130.678C841.898 130.678 822.703 154.401 818.369 142.436C818.369 142.436 814.344 124.284 804.437 125.418C804.437 125.418 797.007 130.575 805.056 142.024C805.056 142.024 822.187 162.033 806.088 162.342C806.088 162.342 783.488 166.365 779.153 129.956C779.153 129.956 782.765 80.8614 846.026 68.2782C846.026 68.2782 871.826 63.1212 896.594 96.023C896.594 96.023 915.995 120.158 917.75 101.18C917.75 101.18 907.946 42.493 850.67 42.493C850.67 42.493 825.283 44.2464 813.519 48.4752C813.519 48.4752 807.946 58.0673 819.917 52.2914C819.917 52.2914 817.337 47.5469 818.679 41.4616C818.679 41.4616 826.315 -0.413502 794.117 2.16501C794.117 2.16501 743.55 19.4927 744.169 54.8699C744.169 54.8699 744.582 72.1975 776.573 69.4127C776.573 69.4127 766.976 59.4081 807.533 48.6815C807.533 48.6815 838.08 40.3271 815.479 55.4887C815.479 55.4887 765.944 65.4934 767.698 116.135C767.698 116.135 765.531 156.567 800.103 194.11C800.103 194.11 811.248 228.559 798.761 237.532L791.331 240.214C791.331 240.214 819.814 444.226 817.647 478.675C817.647 478.675 784.21 423.598 757.069 339.332C757.069 339.332 754.282 332.937 759.442 327.161L771.826 310.556L749.226 309.524C749.226 309.524 734.881 309.937 742.415 300.551L777.399 241.451L798.142 240.833L833.126 287.968C833.126 287.968 839.938 302.098 844.891 291.165L868.421 246.402C868.421 246.402 878.018 259.192 878.018 275.385C878.018 275.385 878.018 289.928 870.278 314.372L830.959 482.697L904.231 340.054L875.954 323.242L902.063 309.112C902.063 309.112 888.235 287.555 889.576 268.681C889.576 268.681 892.466 254.55 908.771 265.793L994.53 342.426C994.53 342.426 1039.01 286.524 1045.92 277.241C1045.92 277.241 1067.18 264.452 1077.4 267.443C1077.4 267.443 1099.28 268.474 1095.46 257.335C1095.46 257.335 1082.46 254.447 1084.31 241.142C1084.31 241.142 1104.33 93.2382 1121.05 33.8292C1121.05 33.8292 1145.82 21.8649 1184.93 23.8246C1184.93 23.8246 1228.07 20.6272 1256.86 52.6008L1212.49 255.788C1212.49 255.788 1189.27 233.819 1150.98 231.034C1150.98 231.034 1118.27 229.487 1099.9 233.406C1099.9 233.406 1083.49 233.819 1079.15 226.599C1079.15 226.599 1068.73 215.46 1025.18 215.047C1025.18 215.047 975.644 215.46 957.275 219.482L992.672 9.28172C992.672 9.28172 1052.63 -23.1045 1132.09 32.7978L1091.74 238.048C1091.74 238.048 1070.17 241.658 1062.23 231.24C1062.23 231.24 1054.59 198.751 1041.59 200.092C1041.59 200.092 1035.71 202.671 1039.83 223.299C1039.83 223.299 1050.67 257.232 1048.5 271.053C1048.5 271.053 1087.62 255.066 1079.36 278.788C1079.36 278.788 1046.34 369.036 1015.17 402.557C1015.17 402.557 1002.89 407.095 984.003 397.194L924.045 362.023C924.045 362.023 911.764 363.879 913.106 346.861C913.106 346.861 915.273 327.471 915.789 320.56C915.789 320.56 927.244 354.906 925.077 377.803C925.077 377.803 929.102 395.337 919.194 425.764C919.194 425.764 906.707 462.276 921.878 496.518C921.878 496.518 859.339 510.133 781.217 510.339L500 511.68L493.086 494.662L413.829 132.225L410.63 143.777L763.777 146.975L756.553 132.225L396.285 118.301C396.285 118.301 389.061 132.225 391.847 148.212L476.058 510.855L491.331 511.061C491.331 511.061 482.972 501.469 483.282 513.433L491.331 546.026L369.35 544.479C369.35 544.479 332.611 516.012 360.268 459.8L137.875 462.998C137.875 462.998 120.537 465.886 125.387 444.123C125.387 444.123 138.7 393.274 186.068 384.508L387.719 384.198C387.719 384.198 413.829 383.682 413.519 370.893C413.519 370.893 411.868 344.076 387.1 343.561C387.1 343.561 284.933 341.91 185.036 351.09C185.036 351.09 154.902 354.081 137.875 353.462C137.875 353.462 153.045 372.853 151.703 387.808C151.703 387.808 141.899 411.324 142.312 424.114C142.312 424.114 140.351 443.091 135.914 450.827L374.613 450.414C374.613 450.414 353.354 443.091 353.973 429.477C353.973 429.477 352.529 413.593 381.631 397.813C381.631 397.813 232.508 399.875 189.577 406.27L129.619 414.831C129.619 414.831 108.463 415.243 107.844 441.029C107.844 441.029 108.669 456.809 119.402 467.536C119.402 467.536 113.416 523.025 156.966 523.644C156.966 523.644 241.074 535.402 370.485 527.873C370.485 527.873 384.623 527.461 377.709 521.478C377.709 521.478 360.888 512.196 360.888 499.303C360.888 499.303 359.649 478.675 378.431 469.186L114.552 477.85C114.552 477.85 108.153 486.101 113.52 509.514C113.52 509.514 108.463 550.667 184.933 549.326C184.933 549.326 290.919 559.228 390.299 552.627C390.299 552.627 402.58 548.914 355.934 547.573L94.6341 543.551L-0.205811 542.519" stroke="#F26E65" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_349_28">
+<rect width="1542" height="555" fill="white"/>
+</clipPath>
+</defs>
 </svg>
 '
 
@@ -25,191 +33,184 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
+featuresSecSubTitle: Why Cypherox?
+featuresSecTitle: Empowering Learning with Advanced Virtual Solutions
 featuresBoxList:
+  - title: "Immersive Learning Environments"
+    description: "We develop realistic, interactive VR/AR classrooms and training simulations."
 
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  - title: "AI-Driven Personalized Training"
+    description: "Our AI solutions adapt content to each learner’s progress and needs."
+
+  - title: "Scalable & Cloud-Based Solutions"
+    description: "Access virtual training anytime, anywhere, across multiple devices."
+
+  - title: "Enhanced Engagement & Knowledge Retention"
+    description: "We use gamification, simulations, and interactive storytelling for better learning."
+
+  - title: "Real-World Application & Hands-On Training"
+    description: "Develop practical skills safely through virtual experiences and scenarios."
+
+  - title: "Customizable & Industry-Specific Training"
+    description: "We tailor solutions for corporate, academic, healthcare, and industrial training needs."
 
 
-processSubtitle : "Lorem ipsum"
-processTitle : "Lorem ipsum dolor sit amet consectetur"
-processBoxList :
-- stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
 
-- stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+processSubtitle : "Our Process"
+processTitle : "How We Create Immersive Virtual Learning Experiences"
+processBoxList:
+  - stepSubTitle: "Step 1"
+    stepTitle: "Understanding Learning Objectives"
+    stepDescription: "We analyze your training and education goals to craft tailored virtual solutions."
 
-- stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  - stepSubTitle: "Step 2"
+    stepTitle: "Designing Interactive Learning Modules"
+    stepDescription: "We create immersive AR/VR content, gamified experiences, and AI-driven lessons."
 
-- stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  - stepSubTitle: "Step 3"
+    stepTitle: "Developing Engaging Virtual Environments"
+    stepDescription: "Our 3D and AI-powered systems bring learning to life with realistic simulations."
 
-- stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  - stepSubTitle: "Step 4"
+    stepTitle: "AI-Driven Personalization & Adaptation"
+    stepDescription: "We integrate intelligent learning pathways to provide customized educational experiences."
 
-- stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
+  - stepSubTitle: "Step 5"
+    stepTitle: "Seamless Platform Integration & Deployment"
+    stepDescription: "We ensure smooth integration with LMS platforms, mobile apps, and cloud systems."
 
-devSubTitle : Lorem ipsum
-devTitle: Lorem ipsum dolor sit amet consectetur,
-devTitlePart : adipisicing elit.
+  - stepSubTitle: "Step 6"
+    stepTitle: "Continuous Optimization & Support"
+    stepDescription: "We offer ongoing updates, improvements, and maintenance to enhance learning impact."
+
+
+devSubTitle : What We Do
+devTitle: Revolutionizing Training & Education with
+devTitlePart : VR & AR
 devInformationList :
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-devBgImg: "/assets/img/top-development.webp"
+- infoItem: We specialize in creating cutting-edge virtual education platforms that provide real-time, interactive learning experiences. Whether for corporate training, skill development, or academic institutions, our AR/VR-powered solutions make learning more engaging and effective.
+- infoItem: Through simulations, AI-driven content, and immersive storytelling, we enable organizations to train employees, students, and professionals in a risk-free, controlled virtual environment.
+devBgImg: "/assets/img/bg-Virtual-Education-and-Training-Services.png"
 devBgAlt : "bg-img"
     
-secTitle: "Lorem ipsum"
-secSubTitle: "Lorem ipsum dolor"  
+secTitle: "Virtual Education & Training Services We Offer"
+secSubTitle: "Our Services"  
 servicesList:
   - count: "01."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
-  - count: "02."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
-  - count: "03."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
-  - count: "04."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
-  - count: "05."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
-  - count: "06."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
-  - count: "07."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
-  - count: "08."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
-stackSubHeading: "Lorem ipsum"
-stackMainHeading: "Lorem ipsum dolor sit amet consectetur"
-stackContent: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-animatedImage: "../../../assets/img/technologies-shap.svg"
-animatedImageAlt: "Technologies"
+    title: "Immersive Virtual Classrooms"
+    description: "Create 3D learning spaces for real-time interaction and collaboration."
+    pageLink: "javascript:;"
 
-tabs:
-  - tabCount: "01."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab1"
-    tabId: "tab1"
-    tabImage: "../../../assets/img/technology-stack-1.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "02."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab2"
-    tabId: "tab2"
-    tabImage: "../../../assets/img/technology-stack-2.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "03."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab3"
-    tabId: "tab3"
-    tabImage: "../../../assets/img/technology-stack-3.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "04."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab4"
-    tabId: "tab4"
-    tabImage: "../../../assets/img/technology-stack-1.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "05."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab5"
-    tabId: "tab5"
-    tabImage: "../../../assets/img/technology-stack-2.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "06."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab6"
-    tabId: "tab6"
-    tabImage: "../../../assets/img/technology-stack-3.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
+  - count: "02."
+    title: "AR-Powered Learning Modules"
+    description: "Enhance education with augmented reality overlays and simulations."
+    pageLink: "javascript:;"
+
+  - count: "03."
+    title: "VR-Based Employee Training"
+    description: "Develop real-world workplace training scenarios in virtual environments."
+    pageLink: "javascript:;"
+
+  - count: "04."
+    title: "AI-Powered Personalized Learning"
+    description: "Use AI algorithms to customize learning paths for each student or trainee."
+    pageLink: "javascript:;"
+
+  - count: "05."
+    title: "Simulated Hands-On Training"
+    description: "Enable safe, practical skill development through interactive simulations."
+    pageLink: "javascript:;"
+
+  - count: "06."
+    title: "Gamified Learning Experiences"
+    description: "Boost engagement with game-based education modules and challenges."
+    pageLink: "javascript:;"
+
+  - count: "07."
+    title: "Remote Learning & Virtual Workshops"
+    description: "Deliver seamless remote learning solutions for students and professionals."
+    pageLink: "javascript:;"
+
+  - count: "08."
+    title: "Compliance & Safety Training"
+    description: "Ensure effective workplace compliance training through virtual simulations."
+    pageLink: "javascript:;"
+
+hasTechnologyStack: "no" 
+
+hasTechnologyIconsList: "yes" 
+
+awesomeFeaturesSubTitle: "Technology Stack for Virtual Education & Training"
+
+phases:
+  - title: "Virtual Reality & Augmented Reality"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "3D virtual classrooms & environments"
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Interactive AR learning modules"
+      
+  - title: "Artificial Intelligence & Machine Learning"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Personalized learning recommendations"
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Automated assessment & feedback systems"
+      
+  - title: "Cloud-Based Learning Platforms"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Scalable e-learning & LMS integration"
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Seamless remote access & collaboration"
+
+hireCtaTitle: "Bring Learning to Life with Virtual Education and Training"
+hireCtaSubTitle: "Hire Experts"
+hireCtaDesc: "Our team specializes in designing and implementing virtual education solutions that enhance engagement, improve retention, and make learning more accessible. Let’s build the future of education together!"
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
+
+faqSubtitle : "FAQs"
+faqTitle : "Everything You Need to Know About Virtual Learning"
+faqBoxList:
+  - faqTitle: "What is Virtual Education & Training?"
+    faqDescription: "Virtual education combines VR, AR, and AI-driven platforms to create interactive, digital learning experiences."
+
+  - faqTitle: "How does VR training improve learning?"
+    faqDescription: "VR enables hands-on simulations that enhance knowledge retention and real-world application."
+
+  - faqTitle: "Can AR be used for classroom education?"
+    faqDescription: "Yes! AR enhances traditional learning with interactive overlays, 3D models, and real-time guidance."
+
+  - faqTitle: "Is virtual training effective for corporate teams?"
+    faqDescription: "Absolutely! Companies use VR/AR training to improve employee skills, safety training, and productivity."
+
+  - faqTitle: "What industries benefit from virtual education?"
+    faqDescription: "Education, corporate training, healthcare, manufacturing, aviation, and defense industries use virtual learning."
+
+  - faqTitle: "Can AI personalize learning experiences?"
+    faqDescription: "Yes, AI analyzes learner behavior and adapts content for personalized training paths."
+
+  - faqTitle: "How secure are virtual learning platforms?"
+    faqDescription: "We implement secure cloud infrastructure to ensure data privacy and seamless learning access."
+
+  - faqTitle: "What’s the future of virtual education?"
+    faqDescription: "The future involves hyper-realistic VR classrooms, AI-driven tutors, and adaptive e-learning experiences."
+
+  - faqTitle: "How do I get started with a virtual training solution?"
+    faqDescription: "Contact Cypherox today to discuss customized virtual education development for your business or institution."
+
 
 ---

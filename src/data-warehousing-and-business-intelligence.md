@@ -125,7 +125,7 @@ devInformationList :
 - infoItem: Our business intelligence solutions provide real-time analytics, reports, and dashboards that empower businesses to make data-driven decisions with confidence.
 - infoItem: We integrate AI-driven analytics and predictive modeling to help organizations extract deep insights, track key metrics, and enhance operational efficiency.
 - infoItem: By streamlining data warehousing and BI processes, we enable businesses to gain a competitive edge and drive success.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-data-warehousing-and-business-intelligence.png"
 devBgAlt : "bg-img"
 
 secTitle: "Comprehensive Data Warehousing & BI Services"
@@ -167,16 +167,16 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Amazon-Redshift.svg"
+            alt: "icon-Amazon-Redshift"
             title: "Amazon Redshift"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Google-BigQuery.svg"
+            alt: "icon-Google-BigQuery"
             title: "Google BigQuery"
           - icon: "../../../assets/img/"
             alt: ""
             title: "Microsoft Azure Synapse"
-          - icon: "../../../assets/img/"
+          - icon: "../../../assets/img/icon-snowflake.svg"
             alt: ""
             title: "Snowflake"
       
@@ -184,17 +184,17 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-tableau.svg"
+            alt: "icon-tableau"
             title: "Tableau"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-power-bi.svg"
+            alt: "icon-power-bi"
             title: "Power BI"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-looker.svg"
+            alt: "icon-looker"
             title: "Looker"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-datastudio.svg"
+            alt: "icon-google-datastudio"
             title: "Google Data Studio"
       
   - title: "ETL & Data Integration"

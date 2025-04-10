@@ -131,7 +131,7 @@ devInformationList :
 - infoItem: Our team leverages advanced visualization tools, AI-powered analytics, and real-time data processing to create intuitive reports and interactive dashboards for businesses.
 - infoItem: From graphs and heatmaps to interactive charts, we bring data to life, making it easier for businesses to spot opportunities, mitigate risks, and drive strategy.
 - infoItem: With real-time visual analytics, companies can streamline decision-making, improve forecasting, and enhance business efficiency.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-data-visualization.png"
 devBgAlt : "bg-img"
 
 secTitle: "Comprehensive Data Visualization Services"
@@ -173,17 +173,17 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-tableau.svg"
+            alt: "icon-tableau"
             title: "Tableau"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-power-bi.svg"
+            alt: "icon-power-bi"
             title: "Power BI"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-datastudio.svg"
+            alt: "icon-google-datastudio"
             title: "Google Data Studio"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-looker.svg"
+            alt: "icon-looker"
             title: "Looker"
       
   - title: "AI & Analytics Platforms"
@@ -216,8 +216,8 @@ phases:
           - icon: "../../../assets/img/"
             alt: ""
             title: "Microsoft Azure Data Services"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-apache-spark.svg"
+            alt: "icon-apache-spark"
             title: "Apache Spark"
 
 hireCtaTitle: "Hire Data Visualization Experts for Business Intelligence"

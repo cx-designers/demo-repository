@@ -124,7 +124,7 @@ devInformationList :
 - infoItem: Our machine-learning models analyze data patterns, predict outcomes, and improve efficiency through self-learning algorithms.
 - infoItem: We implement AI-driven automation, natural language processing (NLP), and deep learning techniques to build powerful, scalable, and adaptive AI systems for various industries.
 - infoItem: Integrating AI and ML technologies, we help businesses streamline workflows, enhance customer experiences, and gain a competitive edge.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-ai-and-machine-learning.png"
 devBgAlt : "bg-img"
 
 secTitle: "AI & Machine Learning Services We Offer"
@@ -166,25 +166,25 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-tensorflow.svg"
+            alt: "icon-tensorflow"
             title: "TensorFlow"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-pytorch.svg"
+            alt: "icon-pytorch"
             title: "PyTorch"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-scikit.svg"
+            alt: "icon-scikit"
             title: "Scikit-Learn"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-keras.svg"
+            alt: "icon-keras"
             title: "Keras"
       
   - title: "NLP & Speech Processing"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-openai.svg"
+            alt: "icon-openai"
             title: "OpenAI GPT"
           - icon: "../../../assets/img/"
             alt: ""
@@ -200,17 +200,17 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Aws.svg"
+            alt: "icon-Aws"
             title: "AWS AI & ML"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-ai.svg"
+            alt: "icon-google-ai"
             title: "Google AI Platform"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-azure.svg"
+            alt: "icon-azure"
             title: "Microsoft Azure AI"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-apache-spark.svg"
+            alt: "icon-apache-spark"
             title: "Apache Spark"
 
 hireCtaTitle: "Accelerate Innovation with AI-Driven Intelligence"

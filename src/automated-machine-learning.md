@@ -126,7 +126,7 @@ devBgImg: "/assets/img/bg-automated-machine-learning.png"
 devBgAlt : "bg-img"
 
 secTitle: "Automated Machine Learning Services We Offer"
-secSubTitle: "Lorem ipsum dolor"  
+secSubTitle: "Our AI/ML Services"  
 servicesList:
   - count: "01."
     title: "End-to-End AutoML Model Development"

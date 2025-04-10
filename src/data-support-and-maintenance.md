@@ -122,7 +122,7 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in data maintenance and ongoing support to help businesses enhance data accuracy, prevent downtime, and optimize database performance.
 - infoItem: Our team ensures consistent data updates, error corrections, and system monitoring to maintain high-quality, reliable data. We also implement backup solutions, disaster recovery strategies, and security measures to keep your data safe and accessible at all times.
 - infoItem: With real-time data monitoring, automated updates, and AI-driven optimization, we help businesses streamline operations, prevent data corruption, and improve overall efficiency.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-data-maintenance-and-support.png"
 devBgAlt : "bg-img"
 
 secTitle: "Comprehensive Data Maintenance & Support Services"
@@ -164,28 +164,28 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
             title: "MySQL"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
             title: "PostgreSQL"
           - icon: "../../../assets/img/"
             alt: ""
             title: "Microsoft SQL Server"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
             title: "MongoDB"
       
   - title: "Backup & Disaster Recovery Solutions"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Aws.svg"
+            alt: "icon-Aws"
             title: "AWS Backup"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-cloud.svg"
+            alt: "icon-google-cloud"
             title: "Google Cloud Storage"
           - icon: "../../../assets/img/"
             alt: ""

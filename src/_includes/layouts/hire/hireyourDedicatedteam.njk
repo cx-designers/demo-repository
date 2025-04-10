@@ -1,15 +1,16 @@
+{% if dedicatedteamSubtitle %}
 <section class="our-dedicated-team">
     <img src="../../../assets/img/dedicated-ba.webp" alt="" class="img-fluid">
     <div class="container">
         <div class="row">
             <div class="col-full">
                 <div class="heading-main-sec">
-                    <h3>{{dedicatedteamSubtitle}}</h3>
+                    <h3>{{ dedicatedteamSubtitle }}</h3>
                     <strong>
-                        <h2>{{dedicatedteamTitle}}</h2>
+                        <h2>{{ dedicatedteamTitle }}</h2>
                     </strong>        
-                    <h2>{{dedicatedteamTitletwo}}</h2>
-                    <p>{{dedicatedteamTitledescription}}</p>   
+                    <h2>{{ dedicatedteamTitletwo }}</h2>
+                    <p>{{ dedicatedteamTitledescription }}</p>   
                 </div>
             </div>
         </div>
@@ -30,9 +31,9 @@
                           {% endfor %}
                         </div>
                     </div>  
-
                 </div>
             </div>
         </div>
     </div>
 </section>
+{% endif %}

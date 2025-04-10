@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Metaverse Development Services | Build Virtual Worlds
+metaDescription: Cypherox offers Metaverse development services to create immersive virtual spaces, digital experiences & interactive environments for businesses.
 bodyClass: "metaverse-services"
 permalink: metaverse-services.html
 bannersubTitle: "Metaverse Services"
@@ -110,7 +111,7 @@ devInformationList :
 - infoItem: At Cypherox, we create dynamic, immersive Metaverse experiences using AI, blockchain, and AR/VR technologies.
 - infoItem: Our expertise spans virtual real estate, commerce, events, and social engagement, delivering seamless digital interactions that redefine business operations.
 - infoItem: By integrating cutting-edge 3D modeling, AI-powered avatars, and secure blockchain transactions, we ensure scalability, efficiency, and user engagement. Whether you need a virtual showroom, a metaverse training hub, or a digital economy, we design solutions tailored to your vision.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-Metaverse-Development-Services.png"
 devBgAlt : "bg-img"
     
 secTitle: "Explore Our Comprehensive Metaverse Development Services"
@@ -119,24 +120,31 @@ servicesList:
   - count: "01."
     title: "Real Estate Virtual Assistant Development and Management"
     description: "Automate property management in virtual environments."
+    pageLink: "/virtual-real-estate-development-and-management.html"
   - count: "02."
     title: "Virtual Commerce and Transactions"
     description: "Enable secure e-commerce experiences within the Metaverse."
+    pageLink: "/virtual-commerce-and-transactions.html"
   - count: "03."
     title: "Virtual Event Hosting and Management"
     description: "Create interactive digital events, conferences, and networking spaces."
+    pageLink: "/virtual-event-hosting-and-management.html"
   - count: "04."
     title: "Virtual Community Building"
     description: "Develop engaging online communities with social features."
+    pageLink: "/virtual-social-and-community-building.html"
   - count: "05."
     title: "Virtual Identity and Avatar Management"
     description: "Design personalized avatars and digital identities for users."
+    pageLink: "/virtual-identity-and-avatar-management.html"
   - count: "06."
     title: "Virtual Education and Training Services"
     description: "Offer immersive learning experiences through interactive VR platforms."
+    pageLink: "/virtual-education-and-training-services.html"
   - count: "07."
     title: "Virtual Marketing Services"
     description: "Enhance brand engagement with innovative Metaverse marketing strategies."
+    pageLink: "/virtual-advertising-and-marketing-services.html"
 
 hasTechnologyStack: "no" 
 
