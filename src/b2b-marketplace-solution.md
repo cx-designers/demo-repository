@@ -232,8 +232,8 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-stripe.svg"
+            alt: "icon-stripe"
             title: "Stripe"
 
           - icon: "../../../assets/img/icon-PayPal.svg"

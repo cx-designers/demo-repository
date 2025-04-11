@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Consulting Services - Cypherox Technologies
+title: Expert Consulting Services | Tailored Strategies for Growth
+metaDescription: Discover professional consulting services to optimize operations, implement innovative solutions & drive business success with expert guidance and strategy.
 bodyClass: "consulting-services"
 permalink: consulting-services.html
 bannersubTitle: "Consulting Services"
@@ -75,7 +76,7 @@ devTitlePart : Insights and Tailored Solutions
 devInformationList :
 - infoItem: At Cypherox, we provide comprehensive consulting services designed to address business challenges, enhance efficiency, and foster digital transformation. Our team of industry experts and technology specialists offers strategic guidance in AI, blockchain, cloud computing, data analytics, and more.
 - infoItem: From process optimization to technology implementation, we work closely with organizations to develop customized strategies that align with their goals, market trends, and future ambitions.
-devBgImg: "/assets/img/top-development.webp"
+devBgImg: "/assets/img/bg-Consulting-Services.png"
 devBgAlt : "bg-img"
 
 
@@ -90,31 +91,39 @@ servicesList:
   - count: "01."
     title: "AI & Machine Learning Consulting"
     description: "Develop intelligent AI strategies to automate processes and enhance decision-making."
+    pageLink: "javascript:;"
 
   - count: "02."
     title: "Blockchain Strategy & Implementation"
     description: "Leverage secure, decentralized solutions to improve business transparency and efficiency."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "Data Analytics & Business Intelligence"
     description: "Turn data into actionable insights for improved operations and strategic planning."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "Cloud Computing & Digital Transformation"
     description: "Optimize IT infrastructure with cloud migration, security, and scalability strategies."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "Cybersecurity & Risk Management"
     description: "Protect your business with advanced security frameworks and risk assessment solutions."
+    pageLink: "javascript:;"
   - count: "06."
     title: "IT Infrastructure & System Optimization"
     description: "Enhance business performance with streamlined IT solutions and system upgrades."
+    pageLink: "javascript:;"
   - count: "07."
     title: "Metaverse & Virtual Reality Consulting"
     description: "Explore new opportunities in immersive digital experiences and virtual commerce."
+    pageLink: "javascript:;"
   - count: "08."
     title: "Custom Software & Product Development Strategy"
     description: "Design and deploy tailored software solutions that drive business innovation."
+    pageLink: "javascript:;"
 
 stackSubHeading: "Lorem ipsum"
 stackMainHeading: "Lorem ipsum dolor sit amet consectetur"
@@ -227,36 +236,36 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-tensorflow.svg"
+            alt: "icon-tensorflow"
             title: "TensorFlow"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-pytorch.svg"
+            alt: "icon-pytorch"
             title: "PyTorch"
           - icon: "../../../assets/img/icon-ibm-watson.svg"
-            alt: ""
+            alt: "icon-ibm-watson"
             title: "IBM Watson"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-ai.svg"
+            alt: "icon-google-ai"
             title: "Google AI"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-openai.svg"
+            alt: "icon-openai"
             title: "OpenAI"
   - title: "Blockchain & Cybersecurity"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ethereum.svg"
+            alt: "icon-ethereum"
             title: "Ethereum" 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-hyperledger.svg"
+            alt: "icon-hyperledger"
             title: "Hyperledger" 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-binance-smart-chain.svg"
+            alt: "icon-binance-smart-chain"
             title: "Binance Smart Chain" 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-solidity.svg"
+            alt: "icon-solidity"
             title: "Solidity" 
           - icon: "../../../assets/img/"
             alt: ""

@@ -218,17 +218,17 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-r-programming.svg"
+            alt: "icon-r-programming"
             title: "R Programming"
           - icon: "../../../assets/img/icon-Python.svg"
             alt: "icon-Python"
             title: "Python (Pandas, NumPy)"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-matlab.svg"
+            alt: "icon-matlab"
             title: "MATLAB"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-sas.svg"
+            alt: "icon-sas"
             title: "SAS"
 
 hireCtaTitle: "Enhance Your Business with AI-Powered Analytics"

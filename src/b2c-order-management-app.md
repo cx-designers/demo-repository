@@ -288,12 +288,12 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-firebase-cloud-messaging.svg"
+            alt: "icon-firebase-cloud-messaging"
             title: "Firebase Cloud Messaging (FCM)"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-onesignal.svg"
+            alt: "icon-onesignal"
             title: "OneSignal"
             
 
@@ -325,8 +325,8 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-stripe.svg"
+            alt: "icon-stripe"
             title: "Stripe"
 
           - icon: "../../../assets/img/icon-PayPal.svg"

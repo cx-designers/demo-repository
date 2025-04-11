@@ -294,28 +294,28 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-web-rtc.svg"
+            alt: "icon-web-rtc"
             title: "WebRTC"
           
           - icon: "../../../assets/img/icon-twilio.svg"
             alt: "icon-twilio"
             title: "Twilio"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-agora.io.svg"
+            alt: "icon-agora.io"
             title: "Agora.io"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-socket.io.svg"
+            alt: "icon-socket.io"
             title: "Socket.IO"
 
   - title: "Push Notifications"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-firebase-cloud-messaging.svg"
+            alt: "icon-firebase-cloud-messaging"
             title: "Firebase Cloud Messaging (FCM)"
 
           - icon: "../../../assets/img/"
