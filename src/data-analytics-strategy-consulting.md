@@ -125,27 +125,43 @@ servicesList:
   - count: "01."
     title: "Data Strategy Development"
     description: "Define a clear roadmap for data collection, management, and utilization."
+    pageLink: "javascript:;"
+ 
   - count: "02."
     title: "Business Intelligence (BI) Consulting"
     description: "Leverage BI tools to gain actionable insights from structured and unstructured data."
+    pageLink: "javascript:;"
+ 
   - count: "03."
     title: "Predictive & Prescriptive Analytics"
     description: "Use AI-powered analytics for forecasting trends and optimizing decision-making."
+    pageLink: "javascript:;"
+ 
   - count: "04."
     title: "Data Governance & Compliance Strategy"
     description: "Ensure data security, privacy, and regulatory compliance for risk-free analytics."
+    pageLink: "javascript:;"
+ 
   - count: "05."
     title: "Big Data & Cloud Analytics Solutions"
     description: "Implement scalable analytics solutions using cloud and big data platforms."
+    pageLink: "javascript:;"
+ 
   - count: "06."
     title: "AI & Machine Learning Integration"
     description: "Enhance data strategy with automated AI models and machine learning insights."
+    pageLink: "javascript:;"
+ 
   - count: "07."
     title: "Real-Time Data Processing & Monitoring"
     description: "Enable instant data analysis to track trends and improve efficiency."
+    pageLink: "javascript:;"
+ 
   - count: "08."
     title: "Data Visualization & Reporting Consulting"
     description: "Develop custom dashboards for clear, interactive, and actionable reporting."
+    pageLink: "javascript:;"
+ 
 
 hasTechnologyStack: "no" 
 
@@ -175,8 +191,8 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-AWS-Data-Analytics.svg"
+            alt: "icon-AWS-Data-Analytics"
             title: "AWS Data Analytics"
           - icon: "../../../assets/img/icon-Google-BigQuery.svg"
             alt: "icon-Google-BigQuery"

@@ -1,14 +1,16 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Chat Gpt - Cypherox Technologies
+title: AI Chatbot App Development Company | AI ChatBot App Solution
+metaDescription: Build intelligent AI chatbot apps with NLP, voice & text support, and real-time responses. Enhance user engagement & automate support—get started today!
 bodyClass: "chatbot-app"
 permalink: chatbot-app.html
-bannersubTitle: "Welcome"
-bannerTitle: "Chatbot App"
-bannerdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum, metus at aliquet imperdiet, metus arcu pellentesque nulla..."
-bannerHTML: '<svg width="1143" height="798" viewBox="0 0 1143 798" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1141.9 567.5C1141.9 567.5 1013.4 476.5 921.807 523.326C921.807 523.326 884.355 544.835 884.72 531.812C884.72 531.812 892.621 505.548 877.917 504.524L866.213 503.426H214.81C214.81 503.426 208.226 505.036 208.226 500.207C208.226 500.207 207.129 492.013 212.103 488.794L251.677 460.774L748.88 458.359C748.88 458.359 751.587 456.969 750.124 453.385C750.124 453.385 734.982 431.583 725.472 421.048L344.505 420.316C344.505 420.316 325.047 437.582 309.027 473.869C309.027 473.869 301.785 486.526 311.953 487.185L333.825 487.624L858.02 487.038L782.895 407.22H279.328C279.328 407.22 273.11 145.233 283.717 85.5346C283.717 85.5346 326.437 78.7307 380.641 83.0472C380.641 83.0472 379.544 91.7532 370.62 103.825H304.565C304.565 103.825 298.933 259.217 303.468 394.783C303.468 394.783 415.973 403.855 762.779 395.881C762.779 395.881 773.532 228.197 765.778 106.605C765.778 106.605 763.51 103.386 749.758 102.435L684.654 104.483C684.654 104.483 632.352 3.44878 532.721 1.03449C532.721 1.03449 376.399 -5.54994 367.767 163.231C367.767 163.231 356.794 321.842 510.483 331.28C510.483 331.28 520.359 328.866 525.04 341.888C525.04 341.888 531.258 358.569 535.793 358.569C535.793 358.569 540.182 360.69 543.694 342.693C543.694 342.693 544.425 331.792 554.154 331.207C554.154 331.207 600.092 324.33 614.21 315.697C614.21 315.697 603.53 262.29 567.833 249.414C567.833 249.414 560.811 247.585 549.619 250.877C549.619 250.877 501.339 263.899 500.608 233.757H590.363C590.363 233.757 595.85 232.66 595.85 226.222C595.85 226.222 596.142 217.296 592.851 213.053L494.024 214.297C494.024 214.297 481.589 216.565 481.882 206.615C481.882 206.615 480.638 202.957 488.392 202.957L530.161 201.128C530.161 201.128 553.935 200.396 556.934 180.058C556.934 180.058 548.302 175.814 517.433 178.229C517.433 178.229 503.022 181.887 524.821 199.445C524.821 199.445 531.624 201.567 546.766 202.445C546.766 202.445 575.807 202.591 585.17 202.884C585.17 202.884 593.509 203.542 594.533 197.031C594.606 196.738 594.606 196.519 594.606 196.226C595.045 188.837 592.997 168.059 590.949 159.28C590.949 159.28 589.705 152.403 580.634 151.745C580.634 151.745 562.201 147.501 555.91 156.354C555.91 156.354 547.571 169.011 565.127 167.986C565.127 167.986 572.661 167.328 573.466 158.183C573.466 158.183 572.368 148.379 552.398 150.062C552.398 150.062 513.263 148.087 503.241 154.232C503.241 154.232 496.292 166.816 508.435 167.182C508.435 167.182 516.921 166.23 516.628 159.061C516.628 159.061 515.604 148.891 500.608 149.696C500.608 149.696 482.174 147.648 481.077 155.988C481.077 155.988 476.103 193.958 478.956 216.345C478.956 216.345 502.437 224.1 591.095 217.077C591.095 217.077 599.141 216.492 600.019 206.176C600.019 206.176 613.918 120.505 536.525 112.165C536.525 112.165 483.857 110.263 472.738 164.475C472.738 164.475 469.519 190.154 471.787 219.418C471.787 219.418 471.055 235.074 482.394 235.44C482.394 235.44 551.301 241.293 601.702 236.537C601.702 236.537 615.454 236.757 616.624 224.466C616.624 224.466 621.525 169.888 613.991 150.647C613.991 150.647 594.533 90.2169 534.55 90.0706C534.55 90.0706 522.187 89.7779 514.507 92.0459C514.507 92.0459 513.117 75.5848 537.988 70.6831L537.403 37.8341C537.403 37.8341 526.284 40.8337 525.772 31.6155C525.772 31.6155 525.772 24.6653 535.866 23.8605C535.866 23.8605 544.352 23.7873 544.059 31.9813C544.059 31.9813 544.791 40.3947 532.063 40.3216L531.99 70.6099C531.99 70.6099 533.965 74.6337 543.328 75.3653C543.328 75.3653 561.25 80.7792 561.176 92.558C561.176 92.558 524.821 90.5095 505.582 99.6546C505.582 99.6546 457.888 111.872 452.695 176.473L452.768 219.857C452.768 219.857 454.304 241.366 472.226 242.683L573.978 243.268C573.978 243.268 562.054 257.242 539.597 257.022C539.597 257.022 512.239 258.412 503.388 250.584C503.388 250.584 468.056 260.973 458.254 308.747C458.254 308.747 454.889 323.964 464.691 324.769L512.093 339.474L535.501 375.323C535.501 375.323 549.326 356.667 555.91 340.571C555.91 340.571 609.529 340.206 661.904 283.58C661.904 283.58 703.234 243.634 703.82 177.131C703.82 177.131 704.112 110.263 678.583 82.5351C678.583 82.5351 733.811 77.7065 771.996 81.6571C771.996 81.6571 788.162 80.2671 788.454 94.387L789.04 412.122L282.474 413.366L200.326 492.745H864.238C864.238 492.745 872.943 496.915 865.335 509.206L210.64 511.035C210.64 511.035 205.812 511.035 203.983 514.181C203.983 514.181 187.525 532.763 170.846 532.471C170.846 532.471 157.094 535.031 138.148 514.766C138.148 514.766 129.663 506.133 118.178 505.841C118.178 505.841 19.4043 473.869 1.4043 797" stroke="#F26E65"/>
-</svg>'
+bannersubTitle: "App Solutions"
+bannerTitle: "AI Chatbot App Development Company"
+bannerdesc: "Transform customer engagement with our expert AI Chatbot App Development services. We design intelligent, intuitive chatbots that combine advanced AI technology with sleek designs and seamless functionality. From lead generation to real-time assistance, our comprehensive on-demand solutions make interactions smarter and more efficient. "
+bannerbuttontext: Inquire Now
+buttonLink: "/contact-us.html"
+bannerHTML: '<svg width="1172" height="1037" viewBox="0 0 1172 1037" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1171.14 632L411.624 801.631C411.624 801.631 368.15 805.536 354.76 778.197C341.37 750.858 323.536 276.199 323.536 276.199C323.536 276.199 314.619 219.297 368.691 219.297L528.942 241.049C528.942 241.049 532.845 239.652 533.13 244.669C533.187 245.923 533.301 247.149 533.216 248.261C533.045 251.597 531.506 253.934 524.213 253.307C514.47 252.48 506.379 247.463 505.809 258.895C505.239 270.326 506.094 271.153 488.801 270.041C471.508 268.929 434.187 263.912 434.187 263.912C434.187 263.912 424.159 264.739 423.304 252.48C422.45 240.222 408.262 239.652 408.262 239.652L370.628 234.064C370.628 234.064 353.905 228.477 354.731 247.719C355.557 266.962 373.135 600.221 373.135 600.221L385.955 764.77C385.955 764.77 383.448 788.203 410.199 781.219C436.951 774.235 581.049 748.577 581.049 748.577C581.049 748.577 606.404 748.292 605.863 729.049C605.293 709.806 590.336 586.623 590.336 586.623C590.336 586.623 611.133 639.049 626.005 656.525C640.876 674 704.777 746.325 777.795 677.165C850.812 608.004 870.327 383.788 870.327 383.788C870.327 383.788 868.105 364.26 879.814 379.313C891.523 394.365 907.135 399.952 907.135 496.994C907.135 594.035 884.828 623.598 865.342 587.906C848.334 556.804 837.251 440.947 834.687 411.698C834.061 404.628 834.488 397.501 836.254 390.63C838.904 380.396 844.801 368.537 857.878 369.192C860.413 369.335 861.98 366.427 860.527 364.346C853.975 354.881 838.448 337.206 811.81 333.557C775.031 328.54 642.927 330.763 642.927 330.763C642.927 330.763 582.16 335.98 572.502 290.596C562.844 245.239 564.326 222.176 564.326 222.176L536.463 222.547L537.204 283.896C537.204 283.896 536.834 301.372 562.474 300.26C562.474 300.26 575.095 323.323 587.373 334.469C599.624 345.616 639.395 355.28 639.395 355.28C639.395 355.28 682.128 369.791 703.694 370.532C725.261 371.273 811.469 365.315 847.137 293.931C847.137 293.931 855.029 251.825 850.841 236.487C846.653 221.15 856.282 213.966 856.282 213.966C856.282 213.966 843.604 144.463 755.544 129.383C667.485 114.33 585.55 153.358 567.716 214.707H543.187L544.241 155.41C544.298 152.987 545.238 150.621 547.118 149.053C548.799 147.656 551.05 146.972 553.414 149.566C554.81 151.077 555.437 153.158 555.437 155.211V209.889C555.437 209.889 565.465 125.477 699.25 112.107C833.035 98.7079 867.592 211.4 867.592 211.4C867.592 211.4 858.96 213.909 857.279 216.133L879.301 215.306C879.301 215.306 885.426 215.306 886.281 224.514C887.136 233.722 885.996 282.813 885.996 282.813C885.996 282.813 887.392 295.641 876.253 295.927C876.253 295.927 853.12 302.341 849.502 291.194C849.502 291.194 857.593 242.959 843.661 215.904C829.73 188.85 806.027 145.917 712.669 140.871C619.31 135.825 577.773 214.394 577.773 214.394C577.773 214.394 569.226 223.687 584.468 215.505C599.709 207.324 663.61 208.065 663.61 208.065H784.376C784.376 208.065 810.386 215.505 811.127 236.316C811.867 257.127 802.951 269.414 792.182 271.267C781.413 273.12 637.97 274.603 637.97 274.603C637.97 274.603 614.922 273.861 610.848 241.505C610.848 241.505 614.552 218.071 626.831 215.106C626.831 215.106 599.709 213.994 587.06 221.064C580.166 224.913 576.576 224.343 574.753 223.031C573.812 222.347 572.502 222.974 572.331 224.115C571.078 232.952 568.627 255.702 573.3 274.973C579.254 299.519 570.337 299.889 563.271 297.295C563.271 297.295 556.206 272.008 550.252 288.372C544.298 304.736 567.716 328.91 567.716 328.91C567.716 328.91 594.838 355.309 615.093 360.526C635.349 365.743 637.571 360.896 637.571 360.896C637.571 360.896 614.153 333.757 600.792 334.127C587.402 334.498 566.975 355.309 566.975 355.309C566.975 355.309 553.585 360.896 556.577 383.19C559.568 405.483 569.197 473.19 569.197 473.19C569.197 473.19 562.132 493.259 538.714 512.616C515.296 531.973 500.823 544.232 486.322 544.973C471.821 545.714 465.526 547.938 468.118 526.756C470.711 505.575 484.841 463.183 509 425.98C533.159 388.806 546.52 376.519 546.52 376.519C546.52 376.519 550.993 376.148 551.734 391.4C552.474 406.652 569.197 505.546 574.781 518.204C580.365 530.861 597.829 591.84 602.558 598.796L612.672 722.35C612.672 722.35 619.737 755.448 589.994 761.406C560.252 767.364 96.1354 854 96.1354 854C58.302 864 5.33537 914.4 96.1354 1036" stroke="#F26E65" stroke-miterlimit="10"/></svg>'
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -24,194 +26,264 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
-featuresBoxList:
-
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-
-processSubtitle : "Lorem ipsum"
-processTitle : "Lorem ipsum dolor sit amet consectetur"
-processBoxList :
-- stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-- stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-- stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-- stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-- stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-- stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum dolor sit amet consectetur"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-devSubTitle : Lorem ipsum
-devTitle: Lorem ipsum dolor sit amet consectetur,
-devTitlePart : adipisicing elit.
+devSubTitle : What we do
+devTitle: Transform customer interactions with
+devTitlePart : our cutting-edge AI ChatBot App Development Service.
 devInformationList :
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: AI chatbot apps have transformed how businesses interact with customers, automating queries and delivering 24/7 support. At Cypherox Technologies, we specialize in developing intelligent chatbot apps that leverage natural language processing (NLP) and machine learning to provide seamless, context-aware conversations. With years of experience in on-demand app development, our team ensures your app is equipped with cutting-edge features like real-time recommendations, personalized responses, and multi-platform integration. 
+- infoItem: In an already competitive market, we focus on enhancing user satisfaction by addressing pain points such as slow response times or irrelevant answers. By reducing technical shortcomings and prioritizing scalability, we create chatbot apps that elevate customer experiences and streamline operations for businesses.
+- infoItem: Let us help you build a future-ready chatbot app that drives engagement and efficiency while ensuring your brand stays ahead of the curve.
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
 
-
-
-secTitle: "Lorem ipsum"
-secSubTitle: "Lorem ipsum dolor"  
+secSubTitle: "What We Provide"  
+secTitle: "Our Mobile Application Solutions"
 servicesList:
   - count: "01."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
+    title: Smart Query Resolver
+    pageLink: "javascript:;"
+    description: Get instant answers to complex questions with AI-driven accuracy, ensuring seamless problem-solving and reliable information at your fingertips.
   - count: "02."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
+    title: Personalized User Interaction
+    pageLink: "javascript:;"
+    description: Tailor conversations based on user preferences and past interactions, creating a customized experience that feels intuitive and engaging.
   - count: "03."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
+    title: Automated Customer Support
+    pageLink: "javascript:;"
+    description: Streamline supports workflows by resolving common queries instantly, reducing wait times, and improving overall customer satisfaction efficiently.
   - count: "04."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
+    title: Real-Time Sentiment Analysis
+    pageLink: "javascript:;"
+    description: Analyze user emotions during chats to adapt responses dynamically, fostering positive interactions and enhancing emotional intelligence in communication.
   - count: "05."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
+    title: Multi-Language Communication Hub
+    pageLink: "javascript:;"
+    description: Break language barriers by enabling conversations in multiple languages, making global interactions effortless and inclusive for diverse audiences.
   - count: "06."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
+    title: Task Automation Assistant
+    pageLink: "javascript:;"
+    description: Simplify daily tasks like booking appointments or sending reminders through conversational AI, saving time and boosting productivity effortlessly.
   - count: "07."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."
+    title: Data-Driven Insights Generator
+    pageLink: "javascript:;"
+    description: Extract actionable insights from chat histories to identify trends, improve services, and make informed decisions for better business outcomes.
   - count: "08."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur."  
+    title: Secure Chat Encryption System
+    pageLink: "javascript:;"
+    description: Ensure privacy and compliance with end-to-end encryption, safeguarding sensitive conversations while maintaining trust and data security.
 
-stackSubHeading: "Lorem ipsum"
-stackMainHeading: "Lorem ipsum dolor sit amet consectetur"
-stackContent: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-animatedImage: "../../../assets/img/technologies-shap.svg"
-animatedImageAlt: "Technologies"
 
-tabs:
-  - tabCount: "01."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab1"
-    tabId: "tab1"
-    tabImage: "../../../assets/img/technology-stack-1.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "02."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab2"
-    tabId: "tab2"
-    tabImage: "../../../assets/img/technology-stack-2.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "03."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab3"
-    tabId: "tab3"
-    tabImage: "../../../assets/img/technology-stack-3.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "04."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab4"
-    tabId: "tab4"
-    tabImage: "../../../assets/img/technology-stack-1.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "05."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab5"
-    tabId: "tab5"
-    tabImage: "../../../assets/img/technology-stack-2.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-  - tabCount: "06."
-    tabTitle: "Lorem ipsum dolor"
-    dataTab: "tab6"
-    tabId: "tab6"
-    tabImage: "../../../assets/img/technology-stack-3.webp"
-    tabImageAlt: "technology-stack-1"
-    tabIconImageAlt: "list-icon"
-    additionalContent:
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
-      - icon: "../../../assets/img/right-arrow.svg"
-        text: "Lorem ipsum dolor sit amet consectetur"
+hireCtaTitle: "Hire Developers"
+hireCtaSubTitle: "Hire App Developers"
+hireCtaDesc: "Create advanced AI Chatbot apps tailored for businesses and projects. Enhance customer engagement and streamline operations with intelligent, conversational solutions designed to meet your specific needs."
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
+
+featuresSecSubTitle: Why Cypherox
+featuresSecTitle: Why Choose Cypherox for Mobile Application Solutions?
+featuresBoxList:
+  - title: Smarter Conversations with AI Chatbots
+    description: Build intelligent chatbot apps that deliver human-like interactions, enhancing customer engagement and satisfaction.
+
+  - title: Customizable Solutions for Diverse Industries
+    description: Develop tailored AI chatbot apps designed to meet the unique needs of businesses across healthcare, retail, and more.
+
+  - title: Seamless Integration with Existing Systems
+    description: Ensure your AI chatbot app works effortlessly with CRM, ERP, and other platforms for streamlined operations.
+
+  - title: Real-Time Support & Instant Query Resolution
+    description: Create chatbots capable of providing 24/7 assistance, resolving user queries quickly and improving response times.
+
+  - title: Advanced NLP for Contextual Understanding
+    description: Leverage cutting-edge Natural Language Processing to enable chatbots that understand context and intent accurately.
+
+  - title: Scalable Architecture for Growing Demands
+    description: Design robust AI chatbot apps that scale efficiently as your business expands and user interactions increase.
+
+ 
+processSubtitle : "Our Development Process"
+processTitle : "Our Mobile Application Solutions Process"
+processBoxList :
+- stepSubTitle: "Step 1"
+  stepTitle: Intelligent Chatbots for Seamless Customer Support
+  stepDescription: Deploy advanced AI chatbots to provide instant, accurate responses to customer queries, ensuring round-the-clock support and enhanced satisfaction.
+- stepSubTitle: "Step 2"
+  stepTitle: Customizable AI Chatbots for Every Industry
+  stepDescription: Build tailored chatbot solutions designed to meet the unique needs of industries like healthcare, retail, and finance, ensuring optimal performance and relevance.
+- stepSubTitle: "Step 3"
+  stepTitle: Natural Language Processing for Human-Like Conversations
+  stepDescription: Leverage cutting-edge NLP technology to enable chatbots to understand context, tone, and intent, delivering conversations that feel genuinely human.
+- stepSubTitle: "Step 4"
+  stepTitle: Multi-Channel Integration for Unified Communication
+  stepDescription: Streamline interactions by integrating AI chatbots across platforms like websites, social media, and messaging apps for consistent and efficient communication.
+- stepSubTitle: "Step 5"
+  stepTitle: Data-Driven Insights to Enhance User Engagement
+  stepDescription: Utilize chatbot analytics to track user behavior, identify trends, and refine strategies, ensuring continuous improvement in engagement and service delivery.
+- stepSubTitle: "Step 6"
+  stepTitle: Secure and Scalable Chatbot Solutions for Growth
+  stepDescription: Ensure your business scales securely with robust, scalable AI chatbots that protect sensitive data while adapting to increasing user demands effortlessly.
+
+
+faqSubtitle : "FAQs"
+faqTitle : "Frequently Asked Question for Mobile Application Solutions"
+faqBoxList :
+- faqTitle: What is the AI ChatBot app, and how does it work?
+  faqDescription: The AI ChatBot app, developed by Cypherox Technologies, uses advanced AI to provide instant, accurate responses to user queries. It understands context and learns from interactions to deliver personalized assistance for tasks like answering questions, scheduling, or troubleshooting.
+
+- faqTitle: Can the ChatBot integrate with my existing systems?
+  faqDescription: Yes, the ChatBot seamlessly integrates with platforms like Slack, Microsoft Teams, and CRM systems. Cypherox Technologies ensures compatibility with popular tools, allowing businesses to enhance workflows without disrupting existing processes.
+
+- faqTitle: Is the AI ChatBot app suitable for customer support?
+  faqDescription: Absolutely! The app is designed to handle customer inquiries 24/7, reducing response times and improving satisfaction. Cypherox Technologies equips the ChatBot with natural language processing to ensure human-like, empathetic interactions.
+
+- faqTitle: How secure is the data shared with the ChatBot?
+  faqDescription: Your data is protected using end-to-end encryption and GDPR-compliant protocols. Cypherox Technologies prioritizes privacy and ensures that all interactions and stored information remain secure.
+
+- faqTitle: Can I customize the ChatBot for my business needs?
+  faqDescription: Yes, the ChatBot can be tailored to reflect your brand’s tone and handle specific workflows. Cypherox Technologies offers customization options to meet unique business requirements and improve user engagement.
+
+- faqTitle: Does the app require coding knowledge to set up?
+  faqDescription: No, the app is designed for easy setup without coding. Cypherox Technologies provides an intuitive interface and drag-and-drop tools, making it accessible even for non-technical users.
+
+- faqTitle: How does the ChatBot learn and improve over time?
+  faqDescription: The ChatBot uses machine learning to analyze past interactions and improve accuracy. Cypherox Technologies ensures continuous updates and refinements to enhance its performance and adaptability.
+
+- faqTitle: Is the app available on multiple platforms?
+  faqDescription: Yes, the ChatBot works on web, mobile, and desktop platforms. Cypherox Technologies ensures cross-platform functionality, allowing users to access the app from any device.
+
+- faqTitle: What kind of support is available for the app?
+  faqDescription: Cypherox Technologies offers 24/7 customer support via chat, email, and phone. Our team is dedicated to resolving technical issues and guiding you through app optimization.
+
+- faqTitle: Are there pricing plans for businesses?
+  faqDescription: We offer scalable subscription plans, including free and premium tiers. Cypherox Technologies provides flexible pricing to accommodate startups and enterprises, ensuring value for every user.
+
+  
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:
+  - title: "Programming"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+          
+          - icon: "../../../assets/img/icon-Kotlin.svg"
+            alt: "icon-Kotlin"
+            title: "Kotlin"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-tensorflow.svg"
+            alt: "icon-tensorflow"
+            title: "TensorFlow"
+            
+          - icon: "../../../assets/img/icon-pytorch.svg"
+            alt: "icon-pytorch"
+            title: "PyTorch"
+            
+          - icon: "../../../assets/img/icon-dialogflow.svg"
+            alt: "icon-dialogflow"
+            title: "Dialog Flow"
+            
+          - icon: "../../../assets/img/icon-rasa.svg"
+            alt: "icon-rasa"
+            title: "Rasa"
+            
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+          
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-pytest.svg"
+            alt: "icon-pytest"
+            title: "PyTest"
+
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-flask.svg"
+            alt: "icon-flask"
+            title: "Flask"
+
+          - icon: "../../../assets/img/icon-fastapi.svg"
+            alt: "icon-fastapi"
+            title: "FastAPI"
+
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
+            title: "React Native"
+
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
 
 ---

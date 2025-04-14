@@ -1,17 +1,16 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Custom News App Development Services | App Solutions
+metaDescription: Build dynamic news apps with real-time updates, personalized feeds, push notifications & multi-source integration. Keep users informed—start today!
 bodyClass: "news-app"
 permalink: news-app.html
-bannersubTitle: "Service"
-bannerTitle: "News App"
-bannerdesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-bannerbuttontext: Hire Now
-buttonLink: "javascript:;"
-bannerHTML: '<svg width="826" height="811" viewBox="0 0 826 811" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M825 277.179C825 277.179 771.707 308.53 775.557 253.133C779.407 197.735 787.918 115.654 743.135 115.146C698.352 114.639 640.195 172.472 654.887 192.053C669.578 211.635 701.189 163.847 683.053 123.263C664.917 82.679 621.553 -13.8099 447.083 2.93107C447.083 2.93107 370.689 7.69971 306.959 93.4338C306.655 93.8397 306.149 94.1441 305.642 94.2455L132.388 128.539C132.388 128.539 78.0814 140.917 93.2791 177.24L305.44 683.833C305.44 683.833 330.668 753.536 380.314 736.795L504.53 702.501C504.631 702.501 504.834 702.4 504.935 702.4C506.86 702.197 521.957 701.081 501.896 709.604C480.416 718.634 379.807 751.608 379.807 751.608C379.807 751.608 334.113 765.407 314.964 729.287C314.964 729.186 314.862 729.186 314.862 729.084L97.3319 238.319C97.3319 238.319 64.8087 162.63 85.4776 136.453C85.7816 136.149 86.0855 135.844 86.4908 135.743C100.067 130.974 337.76 48.2839 357.416 113.016C357.517 113.523 357.517 114.03 357.315 114.436C355.086 120.219 340.091 159.789 344.751 171.051C344.751 171.051 355.086 208.186 365.521 218.433C365.927 218.839 366.231 219.346 366.231 219.955C366.535 223.912 366.433 238.319 347.588 207.273C326.109 171.863 337.862 133.917 358.936 97.7967C358.936 97.6952 359.037 97.6952 359.037 97.5937C360.557 94.0426 401.692 3.74275 538.776 42.0948C539.08 42.1963 539.485 42.3992 539.688 42.6021C541.815 44.6313 548.806 55.792 525.604 103.478L495.918 169.022C495.513 169.935 494.601 170.442 493.588 170.341C487.407 169.631 465.725 166.688 464.813 159.079C463.699 150.15 465.219 112.914 419.423 112.508C373.627 112.103 347.892 158.673 373.323 193.068C397.943 226.347 436.343 216.303 448.4 201.286C449.109 200.475 450.224 200.17 451.135 200.678L494.905 223.1C495.31 223.303 495.715 223.709 495.918 224.216C499.262 231.623 529.86 294.021 590.752 241.769C598.25 235.276 602.708 225.84 602.606 215.998C602.606 202.098 598.351 182.618 577.986 170.645C577.885 170.544 577.682 170.544 577.581 170.442C574.44 169.428 538.877 158.064 511.622 175.921C510.913 176.327 510.103 176.429 509.292 176.023C505.138 173.791 492.169 165.775 495.513 153.397C499.464 138.685 529.455 35.9057 556.304 45.2401C583.153 54.5745 661.776 105 631.786 230.406C602.708 351.752 456.1 283.165 419.524 268.656C418.612 268.25 417.599 268.758 417.396 269.772C414.357 282.759 402.908 341.606 447.893 332.779C448.197 332.678 448.501 332.576 448.805 332.373C452.25 329.938 473.527 313.502 478.897 307.313C482.443 303.254 525.098 319.488 514.358 415.977C514.257 416.89 513.547 417.702 512.636 417.905C505.746 419.427 477.58 425.311 453.263 421.659C452.351 421.557 451.642 420.847 451.439 419.832C449.514 409.991 436.85 356.521 393.587 367.377C351.134 378.031 354.782 413.542 364.204 428.659C365.319 430.486 368.054 429.877 368.358 427.746C369.878 415.977 376.059 389.394 401.793 391.626C427.022 393.858 436.039 415.977 432.797 425.514C431.885 428.254 427.731 426.833 428.541 424.094C431.277 414.658 434.519 396.091 420.943 388.785C402.3 378.741 326.514 372.45 348.905 443.676C348.905 443.676 360.05 476.346 391.662 479.39C392.371 479.491 392.979 479.897 393.384 480.506C396.424 485.579 406.555 507.596 334.619 470.968C254.071 429.877 301.691 275.657 408.987 279.512C408.987 279.512 424.691 279.005 426.616 301.428C428.541 323.851 447.083 336.229 480.315 297.37C480.416 297.268 480.518 297.065 480.619 296.964L482.24 293.92C482.747 292.905 482.341 291.891 481.328 291.485C436.748 275.86 339.483 247.552 329.756 184.038C329.553 182.821 328.439 182.009 327.223 182.212C306.757 184.85 150.017 205.446 122.256 222.39C121.243 222.999 120.939 224.216 121.344 225.231L307.871 644.364C308.277 645.379 309.391 645.886 310.506 645.582C324.994 641.828 421.044 616.463 431.277 605.607C441.409 594.852 436.647 580.14 435.735 577.705C435.634 577.502 435.634 577.198 435.634 576.893L435.938 515.002C435.938 513.785 436.951 512.77 438.167 512.77L525.908 511.045C526.719 511.045 527.428 510.538 527.833 509.828C530.062 505.668 536.141 491.463 525.402 477.259C524.996 476.65 524.186 476.346 523.477 476.447C517.904 476.853 496.019 479.085 494.297 481.013C492.879 482.535 477.174 508.915 492.473 517.945C506.759 526.264 573.731 512.872 582.951 511.045C583.66 510.944 584.166 510.437 584.47 509.828C586.598 505.262 594.703 486.188 581.431 481.825C566.638 476.853 539.282 478.172 551.542 517.437C551.846 518.351 552.758 519.061 553.771 518.959C564.713 518.452 625.2 515.713 639.182 512.973C640.094 512.77 640.803 512.06 640.905 511.147C641.715 505.668 644.248 486.999 640.297 483.955C635.636 480.404 607.774 481.419 607.774 494.71C607.774 508.002 603.518 523.728 627.125 522.307C650.732 520.887 692.881 527.685 690.044 501.508C687.207 475.331 688.626 449.256 659.243 448.85C630.773 448.546 460.355 441.748 450.528 441.342C450.224 441.342 449.92 441.342 449.616 441.443C446.677 442.56 429.555 449.256 424.083 454.938C423.577 455.546 422.766 455.749 421.956 455.648L407.67 452.3C405.644 451.792 404.124 454.126 405.34 455.851C409.494 461.533 416.079 470.563 419.625 475.331C424.995 482.535 404.934 596.374 443.942 595.968C482.949 595.562 631.989 603.476 667.045 596.678C702.101 589.88 700.277 592.417 705.343 577.299C710.308 562.283 720.743 433.732 676.062 431.196C633.103 428.761 457.417 428.051 443.435 427.949C442.827 427.949 442.321 428.152 441.915 428.558C438.775 431.5 424.59 444.487 421.145 443.777C417.194 442.965 383.556 434.747 383.556 434.747C383.556 434.747 372.512 432.211 383.556 447.633C394.6 463.055 403.921 471.273 401.793 493.797C399.666 516.321 383.151 604.795 445.056 607.331C503.01 609.665 577.682 607.027 586.801 606.621C587.409 606.621 588.016 606.824 588.422 607.23C593.69 612.303 624.795 645.582 584.876 688.5C584.673 688.804 584.369 689.007 583.964 689.109L402.401 757.189C402.401 757.189 362.786 774.335 312.025 751.811H311.924C310.607 751.202 279.3 735.78 257.617 753.638C235.429 771.9 189.329 785.192 162.885 769.364C136.441 753.637 40.7168 739.891 1 810" stroke="#F26E65" stroke-miterlimit="10"/>
-</svg>
-'
+bannersubTitle: "App Solutions"
+bannerTitle: "News App Development Company"
+bannerdesc: "Stay ahead in the digital age with our News App Development solutions. We create dynamic, real-time news apps with sleek designs and engaging storytelling. From breaking headlines to personalized feeds, our apps deliver content that resonates. Partner with us to provide users with seamless access to trusted, up-to-date news anytime, anywhere."
+bannerbuttontext: Inquire Now
+buttonLink: "/contact-us.html"
+bannerHTML: '<svg width="779" height="548" viewBox="0 0 779 548" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M777.99 328.512C777.99 328.512 753.586 257.384 496.395 306.006L467.111 496.458L280.584 482.869L301.592 324.053L268.064 499.006C268.064 499.006 263.183 527.669 292.468 532.128L463.928 546.778C463.928 546.778 481.541 543.805 483.027 523.422C483.027 523.422 562.815 91.1373 561.966 53.1318C561.966 53.1318 566.847 7.27055 546.051 9.18144C546.051 9.18144 544.141 14.4895 551.356 29.3519C551.356 29.3519 550.72 149.525 520.374 270.336C520.374 270.336 517.616 290.082 508.915 291.143C508.915 291.143 502.974 289.445 505.732 267.151L537.139 47.3992L348.489 63.7479L310.929 289.02C310.929 289.02 297.56 294.541 306.049 253.563L339.789 52.4949C339.789 52.4949 340.85 28.078 384.988 19.7975L547.749 0.688609C547.749 0.688609 581.913 -0.79764 571.515 47.3992L531.621 306.218C525.68 344.648 479.419 360.785 450.772 334.669C450.135 334.245 449.711 333.608 449.074 333.183C428.915 314.286 402.814 302.821 375.227 300.698C357.19 299.212 336.394 298.999 316.447 302.184C265.942 310.252 232.414 357.175 244.085 407.071C244.934 410.468 245.995 413.653 247.056 416.837C255.332 437.22 227.109 452.083 214.801 433.823C214.589 433.611 214.377 433.398 214.377 432.974C214.377 432.974 209.071 429.789 195.066 435.309C185.729 438.919 175.119 435.097 170.875 426.179C170.875 425.967 170.663 425.967 170.663 425.755C170.663 425.755 147.745 380.743 142.864 365.243C142.864 365.243 141.378 362.059 149.23 358.874C149.23 358.874 175.968 349.956 172.997 340.402L142.227 250.378L116.975 265.877L38.0353 274.158L6.20469 190.291L83.2347 177.552L115.914 259.508L192.095 217.468L161.962 131.478L85.5689 173.518L59.68 176.915C59.0434 176.915 58.8312 176.066 59.4678 175.853C67.1072 172.456 87.4787 163.326 112.731 152.286C112.731 152.286 133.315 147.827 131.617 127.656C131.617 127.656 124.614 59.5015 88.1153 37.6324C81.3248 33.5983 73.4733 32.1121 65.6217 32.9614C62.2265 33.1737 58.4068 33.8107 53.9505 34.8723C17.0271 43.7897 -5.46652 81.5828 3.02163 118.739C4.08265 123.622 5.56808 128.718 7.69012 134.238C7.69012 134.238 22.12 177.34 48.221 169.271C48.221 169.271 122.068 152.073 127.585 135.088C127.585 135.088 115.914 59.7138 80.6882 41.4542C79.6272 40.8172 78.354 40.6049 77.0807 40.3926C69.6536 39.331 43.5526 37.2078 24.8786 58.8645C15.5417 69.6929 11.0854 83.9184 11.5098 98.1439C11.9342 115.342 15.5417 142.307 32.7302 155.47C39.9451 160.991 49.4943 162.265 57.9824 159.08C77.0807 151.861 118.036 135.725 118.673 129.567C118.673 129.567 113.155 125.321 75.8075 135.937C73.4733 136.574 71.139 136.999 68.8048 137.423C60.3167 138.697 42.0671 141.245 50.9797 135.937C52.6773 135.088 54.3749 134.238 56.0726 133.814C66.6828 130.841 111.67 117.04 103.182 110.034C103.182 110.034 103.606 107.911 73.4733 112.582C71.9879 112.794 70.7146 113.006 69.2292 113.006C61.8021 113.643 40.1573 114.705 53.7383 106.212C53.7383 106.212 69.2292 96.233 86.4177 91.7742C88.9642 91.1373 91.2984 89.8633 92.996 88.1648C95.5425 85.6169 96.1791 82.2198 83.0224 82.0075C81.537 82.0075 80.0516 82.2198 78.5662 82.6444L54.5871 90.0757C52.4651 90.7126 50.3431 91.1373 48.0088 90.9249C43.977 90.7126 39.7329 89.2264 47.3722 82.4321C47.7966 82.0075 48.4332 81.5828 49.0699 81.1582C52.6773 78.6103 67.5316 68.2066 75.8075 64.5972C77.7174 63.7479 79.415 62.6863 80.9004 61.4124C84.5079 58.2275 87.9031 52.9195 70.2902 54.4058C69.017 54.6181 67.5316 54.8304 66.2584 55.2551C56.2848 58.2275 11.9342 73.727 18.3003 102.39C18.3003 102.39 26.1518 148.252 42.7037 167.997C46.3112 172.244 51.8285 174.155 57.1336 172.881C68.8048 170.333 92.5716 164.6 111.67 155.046C111.67 155.046 84.7201 168.422 88.3275 177.764L118.46 260.782L98.3011 264.603L140.105 359.511L167.267 346.772C167.267 346.772 170.026 344.224 172.572 352.504L176.604 364.819C177.029 366.305 178.302 367.579 179.787 367.791C181.485 368.216 183.183 367.367 182.334 362.271L176.18 349.107C176.18 349.107 174.907 356.538 185.941 380.743C185.941 380.743 188.276 384.989 178.514 389.873C178.514 389.873 160.265 399.639 156.657 392.42C156.657 392.42 147.108 380.743 154.96 379.257C154.96 379.257 167.48 377.983 180 372.675C180 372.675 190.398 389.873 193.581 427.453C193.793 430.214 192.944 433.186 190.822 435.097C188.063 437.645 183.183 439.343 174.058 434.248C165.782 429.577 155.384 429.364 147.532 434.672C140.742 439.131 134.588 447.836 133.739 464.61C131.617 504.526 71.7757 512.382 71.7757 512.382" stroke="#D27165" stroke-miterlimit="10"/></svg>'
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -27,147 +26,257 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
-featuresBoxList:
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-
-processSubtitle : "Process"
-processTitle : "Lorem ipsum dolor sit "
-processBoxList :
-
-- stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-devSubTitle : Lorem ipsum
-devTitle: Lorem ipsum dolor sit 
-devTitlePart : Awesome Android Apps
+devSubTitle : What we do
+devTitle: Stay ahead in the digital age with
+devTitlePart : our dynamic News App Development Service.
 devInformationList :
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: News apps have revolutionized how people stay informed, providing real-time updates and personalized content at their fingertips. At Cypherox Technologies, we design apps that blend dynamic storytelling with intuitive navigation, ensuring users stay engaged and informed. Our team leverages advanced technologies like AI-driven news aggregation, push notifications, and customizable feeds to address the needs of modern readers. 
+- infoItem: In a saturated market, we differentiate your app by focusing on speed, accuracy, and relevance. By eliminating common issues like cluttered interfaces or outdated content, we create apps that deliver a superior user experience. 
+- infoItem: Partner with us to build a news app that captivates audiences and keeps them connected to the world around them. Stay ahead in the digital age with an app that combines innovation, reliability, and user satisfaction seamlessly.
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
-  
-secTitle: "Services"
-secSubTitle: "Lorem ipsum dolor"  
+
+secSubTitle: "What We Provide"  
+secTitle: "Our Mobile Application Solutions"
 servicesList:
-
   - count: "01."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+    title: Real-Time News Alerts
+    pageLink: "javascript:;"
+    description: Stay updated with instant notifications on breaking news, ensuring you never miss critical updates from around the globe.
+  - count: "01."
+    title: Personalized Content Feed
+    pageLink: "javascript:;"
+    description: Receive tailored news stories based on your interests, offering a customized reading experience that matches your preferences.
+  - count: "01."
+    title: Global News Aggregator
+    pageLink: "javascript:;"
+    description: Access articles from thousands of trusted sources worldwide, providing diverse perspectives on current events in one centralized platform.
+  - count: "01."
+    title: Offline Reading Mode
+    pageLink: "javascript:;"
+    description: Download news articles for offline access, allowing you to stay informed even without an internet connection during travel or commutes.
+  - count: "01."
+    title: Fact-Checking Assistant
+    pageLink: "javascript:;"
+    description: Verify the authenticity of news stories with integrated fact-checking tools, helping combat misinformation and ensure reliable information.
+  - count: "01."
+    title: Multimedia Storytelling Hub
+    pageLink: "javascript:;"
+    description: Explore news through videos, podcasts, and interactive visuals, making complex stories engaging and easier to understand for all audiences.
+  - count: "01."
+    title: Topic-Based News Digest
+    pageLink: "javascript:;"
+    description: Get concise summaries on specific topics like tech, sports, or politics, delivering focused insights without overwhelming details.
+  - count: "01."
+    title: Push Notification Scheduler
+    pageLink: "javascript:;"
+    description: Customize when and how often you receive news alerts, balancing staying informed with avoiding notification overload throughout the day.
 
-  - count: "02."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
 
-  - count: "03."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+hireCtaTitle: "Hire Developers"
+hireCtaSubTitle: "Hire App Developers"
+hireCtaDesc: "Develop dynamic News apps tailored for businesses and media projects. Deliver real-time updates, personalized content, and seamless user experiences to keep audiences informed and engaged."
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
 
-  - count: "04."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+featuresSecSubTitle: Why Cypherox
+featuresSecTitle: Why Choose Cypherox for Mobile Application Solutions?
+featuresBoxList:
+  - title: Real-Time News Updates at Your Fingertips
+    description: Develop apps delivering breaking news and live updates instantly, keeping users informed with minimal delay.
 
-  - count: "05."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
+  - title: Personalized Content Recommendations
+    description: Create apps that use AI to curate news stories tailored to individual user preferences and reading habits.
 
-  - count: "06."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."  
+  - title: Multi-Source Aggregation for Diverse Perspectives
+    description: Build apps that aggregate news from multiple trusted sources, offering users a well-rounded view of current events.
 
+  - title: Offline Reading for Uninterrupted Access
+    description: Enable users to download articles and access news offline, ensuring they stay informed even without an internet connection.
+
+  - title: Push Notifications for Breaking Alerts
+    description: Design apps with customizable alerts to notify users about critical news and updates in real time.
+
+  - title: Immersive Multimedia Storytelling Experience
+    description: Incorporate videos, images, and interactive graphics to create engaging and visually compelling news content.
+
+ 
+
+processSubtitle : "Our Development Process"
+processTitle : "Our Mobile Application Solutions Process"
+processBoxList :
+- stepSubTitle: "Step 1"
+  stepTitle: Real-Time News Updates from Around the Globe
+  stepDescription: Stay informed with instant access to breaking news, ensuring users never miss important events happening locally or internationally.
+- stepSubTitle: "Step 2"
+  stepTitle: Personalized News Feeds for Tailored Content
+  stepDescription: Deliver a customized reading experience by curating news topics based on user preferences, ensuring relevance and engagement.
+- stepSubTitle: "Step 3"
+  stepTitle: Offline Reading for Uninterrupted Access
+  stepDescription: Enable users to save articles and read them offline, providing flexibility and convenience even without an internet connection.
+- stepSubTitle: "Step 4"
+  stepTitle: Multimedia Integration for Immersive Stories
+  stepDescription: Enhance storytelling with videos, images, and infographics, offering users a richer and more engaging way to consume news content.
+- stepSubTitle: "Step 5"
+  stepTitle: Push Notifications for Breaking Alerts
+  stepDescription: Keep users updated with timely push notifications for critical news alerts, ensuring they stay ahead of the latest developments.
+- stepSubTitle: "Step 6"
+  stepTitle: Fact-Checked Articles for Reliable Information
+  stepDescription: Provide trustworthy news by verifying facts and sourcing credible information, helping users make informed decisions in a world of misinformation.
+
+
+faqSubtitle : "FAQs"
+faqTitle : "Frequently Asked Question for Mobile Application Solutions"
+faqBoxList :
+- faqTitle: What features does the News App offer?
+  faqDescription: The app, developed by Cypherox Technologies, provides real-time news updates, personalized feeds, topic-based filters, and offline reading. It ensures users stay informed with accurate, relevant content from trusted sources worldwide.
+
+- faqTitle: Can I customize the news topics I see?
+  faqDescription: Yes, the app allows you to select interests like sports, technology, or politics. Cypherox Technologies uses AI to curate content tailored to your preferences, ensuring a personalized news experience.
+
+- faqTitle: Does the app support offline reading?
+  faqDescription: Absolutely! You can save articles for offline access. Cypherox Technologies ensures flexibility for users to read news anytime, even without an internet connection, making it ideal for travel or remote areas.
+
+- faqTitle: Are notifications available for breaking news?
+  faqDescription: Yes, the app sends real-time alerts for breaking news. Cypherox Technologies ensures you stay updated on critical events with timely, customizable notifications based on your selected topics.
+
+- faqTitle: How reliable are the news sources in the app?
+  faqDescription: The app aggregates content from verified and reputable sources. Cypherox Technologies prioritizes accuracy and credibility, ensuring users receive trustworthy information free from misinformation.
+
+- faqTitle: Can I share news articles with others?
+  faqDescription: Yes, the app includes sharing options via social media, email, or messaging apps. Cypherox Technologies makes it easy to spread important stories and engage in meaningful discussions.
+
+- faqTitle: Is the app compatible with multiple devices?
+  faqDescription: Yes, the app works seamlessly on smartphones, tablets, and desktops. Cypherox Technologies ensures cross-platform compatibility for a consistent and accessible user experience.
+
+- faqTitle: How does the app handle user privacy?
+  faqDescription: Your data is protected using advanced encryption and GDPR compliance. Cypherox Technologies prioritizes user privacy, ensuring no personal information is shared with third parties without consent.
+
+- faqTitle: Are there premium features or subscription plans?
+  faqDescription: Yes, we offer free and premium plans. The premium plan includes ad-free browsing, exclusive articles, and advanced customization. Visit Cypherox Technologies’ website for pricing and benefits.
+
+- faqTitle: What kind of customer support is available?
+  faqDescription: Cypherox Technologies provides 24/7 email and chat support to assist with technical issues or feature inquiries. Our team is committed to delivering a smooth and satisfying user experience.
+
+  
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+          
+          - icon: "../../../assets/img/icon-Kotlin.svg"
+            alt: "icon-Kotlin"
+            title: "Kotlin"
+          
+  - title: "Technologies"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
+            
+          - icon: "../../../assets/img/icon-push-notifications.svg"
+            alt: "icon-push-notifications"
+            title: "Push Notifications"
+          
+  - title: "Database"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
 
-developmentPhasesSubTitle: "Phases"
-developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
-developmentPhases:
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-detox.svg"
+            alt: "icon-detox"
+            title: "Detox"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"            
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
+            title: "React Native"
+
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+
+          - icon: "../../../assets/img/icon-swiftui.svg"
+            alt: "icon-swiftui"
+            title: "SwiftUI"
+
+          - icon: "../../../assets/img/icon-compose.svg"
+            alt: "icon-compose"
+            title: "Jetpack Compose"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+
 ---

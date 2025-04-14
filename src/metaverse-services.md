@@ -157,11 +157,11 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-unity-3d.svg"
+            alt: "icon-unity-3d"
             title: "Unity 3D"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-unreal-engine.svg"
+            alt: "icon-unreal-engine"
             title: "Unreal Engine"
           - icon: "../../../assets/img/"
             alt: ""
@@ -171,22 +171,22 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ethereum.svg"
+            alt: "icon-ethereum"
             title: "Ethereum"
           - icon: "../../../assets/img/"
             alt: ""
             title: "Solana"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-binance-smart-chain.svg"
+            alt: "icon-binance-smart-chain"
             title: "Binance Smart Chain"
       
   - title: "AI & 3D Asset Development"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-blender.svg"
+            alt: "icon-blender"
             title: "Blender"
           - icon: "../../../assets/img/"
             alt: ""

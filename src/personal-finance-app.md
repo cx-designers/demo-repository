@@ -1,17 +1,17 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Personal Finance App Development | Fintech App Solutions
+metaDescription: Build secure personal finance apps with budgeting tools, expense tracking, and real-time insights. Empower users to manage money smarter—start today!
 bodyClass: "personal-finance-app"
 permalink: personal-finance-app.html
-bannersubTitle: "Service"
-bannerTitle: "Personal Finance App"
-bannerdesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-bannerbuttontext: Hire Now
-buttonLink: "javascript:;"
-bannerHTML: '<svg width="826" height="811" viewBox="0 0 826 811" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M825 277.179C825 277.179 771.707 308.53 775.557 253.133C779.407 197.735 787.918 115.654 743.135 115.146C698.352 114.639 640.195 172.472 654.887 192.053C669.578 211.635 701.189 163.847 683.053 123.263C664.917 82.679 621.553 -13.8099 447.083 2.93107C447.083 2.93107 370.689 7.69971 306.959 93.4338C306.655 93.8397 306.149 94.1441 305.642 94.2455L132.388 128.539C132.388 128.539 78.0814 140.917 93.2791 177.24L305.44 683.833C305.44 683.833 330.668 753.536 380.314 736.795L504.53 702.501C504.631 702.501 504.834 702.4 504.935 702.4C506.86 702.197 521.957 701.081 501.896 709.604C480.416 718.634 379.807 751.608 379.807 751.608C379.807 751.608 334.113 765.407 314.964 729.287C314.964 729.186 314.862 729.186 314.862 729.084L97.3319 238.319C97.3319 238.319 64.8087 162.63 85.4776 136.453C85.7816 136.149 86.0855 135.844 86.4908 135.743C100.067 130.974 337.76 48.2839 357.416 113.016C357.517 113.523 357.517 114.03 357.315 114.436C355.086 120.219 340.091 159.789 344.751 171.051C344.751 171.051 355.086 208.186 365.521 218.433C365.927 218.839 366.231 219.346 366.231 219.955C366.535 223.912 366.433 238.319 347.588 207.273C326.109 171.863 337.862 133.917 358.936 97.7967C358.936 97.6952 359.037 97.6952 359.037 97.5937C360.557 94.0426 401.692 3.74275 538.776 42.0948C539.08 42.1963 539.485 42.3992 539.688 42.6021C541.815 44.6313 548.806 55.792 525.604 103.478L495.918 169.022C495.513 169.935 494.601 170.442 493.588 170.341C487.407 169.631 465.725 166.688 464.813 159.079C463.699 150.15 465.219 112.914 419.423 112.508C373.627 112.103 347.892 158.673 373.323 193.068C397.943 226.347 436.343 216.303 448.4 201.286C449.109 200.475 450.224 200.17 451.135 200.678L494.905 223.1C495.31 223.303 495.715 223.709 495.918 224.216C499.262 231.623 529.86 294.021 590.752 241.769C598.25 235.276 602.708 225.84 602.606 215.998C602.606 202.098 598.351 182.618 577.986 170.645C577.885 170.544 577.682 170.544 577.581 170.442C574.44 169.428 538.877 158.064 511.622 175.921C510.913 176.327 510.103 176.429 509.292 176.023C505.138 173.791 492.169 165.775 495.513 153.397C499.464 138.685 529.455 35.9057 556.304 45.2401C583.153 54.5745 661.776 105 631.786 230.406C602.708 351.752 456.1 283.165 419.524 268.656C418.612 268.25 417.599 268.758 417.396 269.772C414.357 282.759 402.908 341.606 447.893 332.779C448.197 332.678 448.501 332.576 448.805 332.373C452.25 329.938 473.527 313.502 478.897 307.313C482.443 303.254 525.098 319.488 514.358 415.977C514.257 416.89 513.547 417.702 512.636 417.905C505.746 419.427 477.58 425.311 453.263 421.659C452.351 421.557 451.642 420.847 451.439 419.832C449.514 409.991 436.85 356.521 393.587 367.377C351.134 378.031 354.782 413.542 364.204 428.659C365.319 430.486 368.054 429.877 368.358 427.746C369.878 415.977 376.059 389.394 401.793 391.626C427.022 393.858 436.039 415.977 432.797 425.514C431.885 428.254 427.731 426.833 428.541 424.094C431.277 414.658 434.519 396.091 420.943 388.785C402.3 378.741 326.514 372.45 348.905 443.676C348.905 443.676 360.05 476.346 391.662 479.39C392.371 479.491 392.979 479.897 393.384 480.506C396.424 485.579 406.555 507.596 334.619 470.968C254.071 429.877 301.691 275.657 408.987 279.512C408.987 279.512 424.691 279.005 426.616 301.428C428.541 323.851 447.083 336.229 480.315 297.37C480.416 297.268 480.518 297.065 480.619 296.964L482.24 293.92C482.747 292.905 482.341 291.891 481.328 291.485C436.748 275.86 339.483 247.552 329.756 184.038C329.553 182.821 328.439 182.009 327.223 182.212C306.757 184.85 150.017 205.446 122.256 222.39C121.243 222.999 120.939 224.216 121.344 225.231L307.871 644.364C308.277 645.379 309.391 645.886 310.506 645.582C324.994 641.828 421.044 616.463 431.277 605.607C441.409 594.852 436.647 580.14 435.735 577.705C435.634 577.502 435.634 577.198 435.634 576.893L435.938 515.002C435.938 513.785 436.951 512.77 438.167 512.77L525.908 511.045C526.719 511.045 527.428 510.538 527.833 509.828C530.062 505.668 536.141 491.463 525.402 477.259C524.996 476.65 524.186 476.346 523.477 476.447C517.904 476.853 496.019 479.085 494.297 481.013C492.879 482.535 477.174 508.915 492.473 517.945C506.759 526.264 573.731 512.872 582.951 511.045C583.66 510.944 584.166 510.437 584.47 509.828C586.598 505.262 594.703 486.188 581.431 481.825C566.638 476.853 539.282 478.172 551.542 517.437C551.846 518.351 552.758 519.061 553.771 518.959C564.713 518.452 625.2 515.713 639.182 512.973C640.094 512.77 640.803 512.06 640.905 511.147C641.715 505.668 644.248 486.999 640.297 483.955C635.636 480.404 607.774 481.419 607.774 494.71C607.774 508.002 603.518 523.728 627.125 522.307C650.732 520.887 692.881 527.685 690.044 501.508C687.207 475.331 688.626 449.256 659.243 448.85C630.773 448.546 460.355 441.748 450.528 441.342C450.224 441.342 449.92 441.342 449.616 441.443C446.677 442.56 429.555 449.256 424.083 454.938C423.577 455.546 422.766 455.749 421.956 455.648L407.67 452.3C405.644 451.792 404.124 454.126 405.34 455.851C409.494 461.533 416.079 470.563 419.625 475.331C424.995 482.535 404.934 596.374 443.942 595.968C482.949 595.562 631.989 603.476 667.045 596.678C702.101 589.88 700.277 592.417 705.343 577.299C710.308 562.283 720.743 433.732 676.062 431.196C633.103 428.761 457.417 428.051 443.435 427.949C442.827 427.949 442.321 428.152 441.915 428.558C438.775 431.5 424.59 444.487 421.145 443.777C417.194 442.965 383.556 434.747 383.556 434.747C383.556 434.747 372.512 432.211 383.556 447.633C394.6 463.055 403.921 471.273 401.793 493.797C399.666 516.321 383.151 604.795 445.056 607.331C503.01 609.665 577.682 607.027 586.801 606.621C587.409 606.621 588.016 606.824 588.422 607.23C593.69 612.303 624.795 645.582 584.876 688.5C584.673 688.804 584.369 689.007 583.964 689.109L402.401 757.189C402.401 757.189 362.786 774.335 312.025 751.811H311.924C310.607 751.202 279.3 735.78 257.617 753.638C235.429 771.9 189.329 785.192 162.885 769.364C136.441 753.637 40.7168 739.891 1 810" stroke="#F26E65" stroke-miterlimit="10"/>
-</svg>
-'
+bannersubTitle: "App Solutions"
+bannerTitle: "Personal Finance App Development Company"
+bannerdesc: "Empower financial freedom with our expert Personal Finance App Development services. We craft secure, intuitive apps designed to simplify budgeting, investments, and expense tracking. Combining sleek designs with advanced features, we ensure your app radiates trust and innovation. Partner with us to create a seamless finance management experience that helps users achieve their financial goals effortlessly.."
+bannerbuttontext: Inquire Now
+buttonLink: "/contact-us.html"
+bannerHTML: '<svg width="1087" height="696" viewBox="0 0 1087 696" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1086 490.237C1086 490.237 713.977 536.242 700.568 545.639C687.142 555.036 678.431 549.669 685.804 535.574C693.178 521.479 689.834 505.292 671.04 490.237C652.247 475.181 622.051 458.411 617.369 439.618C612.671 420.825 605.966 358.426 605.966 358.426L565.258 255.098C565.258 255.098 559.891 235.413 538.869 206.794C538.869 206.794 526.351 180.182 521.207 166.31C516.063 152.438 501.522 152.438 497.269 174.369C493.017 196.283 491.01 225.81 510.695 252.646C510.695 252.646 525.236 260.705 529.712 249.954C534.187 239.219 511.364 251.068 510.918 258.681C510.473 266.278 516.954 274.56 516.954 274.56C516.954 274.56 518.96 273.668 518.96 285.071C518.96 296.474 523.882 317.496 513.594 316.827C503.305 316.159 501.522 310.792 501.522 303.847C501.522 296.902 500.853 210.138 500.853 210.138L498.95 71.2459V22.2736C498.95 22.2736 496.6 2.14286 476.812 1.47412C457.024 0.805382 299.56 1.47412 299.56 1.47412C299.56 1.47412 281.212 -4.33876 275.845 24.7428C270.478 53.8244 275.845 202.336 275.845 202.336C275.845 202.336 270.032 222.021 264.665 207.703C259.298 193.385 236.938 172.808 236.938 172.808C236.938 172.808 223.511 157.153 234.709 147.311C245.889 137.468 276.754 132.101 277.646 170.579L278.537 251.994C278.537 251.994 274.954 258.253 274.731 247.296C274.508 236.339 275.399 226.496 275.399 226.496C275.399 226.496 237.607 230.303 223.837 246.061C210.085 261.836 216.464 277.938 226.855 288.672C237.264 299.406 255.028 316.519 263.43 318.868C271.815 321.217 295.633 315.181 290.266 295.376C284.899 275.571 260.413 272.571 255.371 273.239C250.347 273.908 242.511 280.167 244.294 289.118C246.077 298.068 263.191 314.735 267.563 316.845C271.936 318.954 291.501 322.435 295.29 296.045C295.29 296.045 299.543 275.023 277.165 262.265C277.165 262.265 267.769 260.482 264.871 251.754C264.871 251.754 269.346 253.314 274.49 260.036C274.49 260.036 278.297 254.223 281.418 259.367C284.539 264.511 291.261 270.101 291.038 262.282C290.986 260.67 290.952 254.48 290.901 239.254L351.877 238.139C351.877 238.139 355.014 261.854 374.014 265.197V275.691H382.073V165.658H373.345L375.351 265.626C375.351 265.626 399.289 268.318 407.554 244.381C415.836 220.443 388.092 214.407 388.092 214.407C388.092 214.407 356.781 213.962 362.816 193.608C368.852 173.254 393.459 184.657 393.905 196.746L408.892 194.054C408.892 194.054 393.236 159.382 367.515 177.061C341.794 194.74 357.672 212.401 357.672 212.401C357.672 212.401 367.463 224.833 387.2 226.05C387.2 226.05 413.813 237.23 386.755 254.463C386.755 254.463 368.475 265.506 361.702 236.802L358.564 228.965H290.575L290.866 224.713C290.712 161.8 290.575 42.4387 290.575 42.4387C290.575 42.4387 287.883 18.9471 314.392 18.6213C340.902 18.2783 370.087 18.9642 370.087 18.9642C370.087 18.9642 371.768 34.7396 386.189 35.4083C400.609 36.0771 400.952 18.9642 400.952 18.9642H460.677C460.677 18.9642 481.476 20.6446 482.145 44.805C482.814 68.9653 487.169 404.449 487.169 404.449C487.169 404.449 491.868 439.344 460.334 446.048C428.8 452.753 321.783 448.397 321.783 448.397C321.783 448.397 294.948 445.037 291.587 417.19L293.593 315.198L283.87 321.234L282.859 366.863C282.859 366.863 262.059 333.992 258.372 324.252C254.685 314.53 233.886 317.873 229.187 328.95C224.489 340.027 217.441 355.46 238.241 388.331C259.041 421.202 278.503 421.545 273.805 411.48C273.805 411.48 246.626 393.355 251.668 374.579C256.692 355.786 281.195 375.916 281.195 375.916C281.195 375.916 316.09 403.095 284.882 413.829C284.882 413.829 259.727 412.817 255.028 424.237C250.33 435.64 277.834 445.705 277.834 445.705C277.834 445.705 289.906 452.41 279.515 453.079C269.106 453.747 257.703 444.694 250.656 444.025C243.608 443.356 229.856 429.604 229.513 405.787C229.17 381.969 237.898 396.064 237.898 396.064C237.898 396.064 249.97 420.225 286.545 421.219C286.545 421.219 307.345 424.58 299.972 444.368C292.598 464.156 308.7 464.499 308.7 464.499H468.17C468.17 464.499 494.56 473.004 500.373 428.713C506.186 384.421 496.343 366.091 506.186 358.478C516.028 350.882 507.077 401.86 507.077 401.86C507.077 401.86 498.572 464.927 544.647 485.95C544.647 485.95 575.067 485.504 574.621 491.763C574.175 498.021 543.755 492.654 543.755 492.654C543.755 492.654 503.939 472.078 484.717 470.74C465.478 469.403 420.758 481.474 420.758 481.474C420.758 481.474 387.2 486.396 371.099 479.245C354.997 472.095 325.469 474.77 325.469 474.77C325.469 474.77 306.231 470.74 324.578 484.612C342.926 498.484 432.383 554.847 432.383 554.847L481.596 573.194C481.596 573.194 517.383 579.007 531.701 576.332C546.019 573.64 456.99 582.591 456.99 582.591C456.99 582.591 440.888 596.463 379.158 574.995C317.427 553.527 191.275 530.258 116.135 543.684C80.9232 550.956 8.6 591.4 1 695" stroke="#F26E65" stroke-miterlimit="10"/>
+</svg>'
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -27,147 +27,276 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
-featuresBoxList:
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-
-processSubtitle : "Process"
-processTitle : "Lorem ipsum dolor sit "
-processBoxList :
-
-- stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-devSubTitle : Lorem ipsum
-devTitle: Lorem ipsum dolor sit 
-devTitlePart : Awesome Android Apps
+devSubTitle : What we do
+devTitle: Simplify money management with our
+devTitlePart : intuitive Personal Finance App Development Service.
 devInformationList :
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: Personal finance apps have redefined how individuals manage their money, offering tools for budgeting, investing, and expense tracking. At Cypherox Technologies, we design apps that combine sleek interfaces with robust security measures to ensure trust and reliability. Our team of experts crafts apps equipped with features like real-time analytics, automated savings plans, and personalized financial advice to address the evolving needs of users. 
+- infoItem: In a crowded market, we stand out by adding value through intuitive design, actionable insights, and seamless integrations with banking systems. By eliminating common pitfalls like complex navigation or data breaches, we create apps that empower users to take control of their finances confidently. 
+- infoItem: Partner with us to develop a personal finance app that delivers exceptional user experiences and drives long-term engagement while helping users achieve their financial goals effortlessly.
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
-  
-secTitle: "Services"
-secSubTitle: "Lorem ipsum dolor"  
+
+secSubTitle: "What We Provide"  
+secTitle: "Our Mobile Application Solutions"
 servicesList:
-
   - count: "01."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Budget Planner Tool
+    pageLink: "javascript:;"
+    description: Track income and expenses effortlessly, categorizing spending to create realistic budgets that help you achieve financial goals with clarity.
   - count: "02."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Investment Tracker Dashboard
+    pageLink: "javascript:;"
+    description: Monitor portfolios, analyze performance, and receive tailored advice to grow wealth strategically while staying informed about market trends.
   - count: "03."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Expense Categorization System
+    pageLink: "javascript:;"
+    description: Automatically sort transactions into categories like food, travel, or bills, providing a clear view of spending habits for smarter financial decisions.
   - count: "04."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Debt Management Assistant
+    pageLink: "javascript:;"
+    description: Create customized repayment plans, track progress, and get reminders to eliminate debt faster, empowering users to achieve financial freedom.
   - count: "05."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Savings Goal Motivator
+    pageLink: "javascript:;"
+    description: Set achievable savings targets, track milestones, and receive motivational alerts to stay disciplined and reach dreams like vacations or home ownership.
   - count: "06."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."  
+    title: Real-Time Spending Alerts
+    pageLink: "javascript:;"
+    description: Get instant notifications on unusual transactions or overspending, helping users stay within limits and avoid unnecessary financial stress.
+  - count: "07."
+    title: Tax Optimization Guide
+    pageLink: "javascript:;"
+    description: Simplify tax preparation by organizing deductible expenses, offering tips to maximize refunds, and ensuring compliance with updated regulations.
+  - count: "08."
+    title: Financial Education Hub
+    pageLink: "javascript:;"
+    description: Access articles, videos, and interactive tools to improve money management skills, empowering users with knowledge for long-term financial success.
 
+
+hireCtaTitle: "Hire Developers"
+hireCtaSubTitle: "Hire App Developers"
+hireCtaDesc: "Build smart Personal Finance apps to help businesses and individuals manage money effectively. Offer intuitive budgeting, expense tracking, and investment tools for a seamless financial journey."
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
+
+featuresSecSubTitle: Why Cypherox
+featuresSecTitle: Why Choose Cypherox for Mobile Application Solutions?
+featuresBoxList:
+  - title: Effortless Budgeting & Expense Tracking
+    description: Develop personal finance apps that simplify money management with intuitive tools for tracking expenses and budgets.
+
+  - title: Smart Savings Goals & Investment Plans
+    description: Create apps that empower users to set achievable savings goals and explore personalized investment strategies.
+
+  - title: Real-Time Financial Insights & Reports
+    description: Offer dynamic dashboards providing users with actionable insights and detailed financial performance reports.
+
+  - title: Secure Transactions with Advanced Encryption
+    description: Build apps ensuring top-notch security for all transactions, protecting user data with advanced encryption protocols.
+
+  - title: AI-Powered Spending Behavior Analysis
+    description: Leverage AI to analyze spending patterns, helping users make smarter financial decisions and optimize their habits.
+
+  - title: Multi-Platform Sync for Seamless Access
+    description: Design apps that sync across devices, enabling users to manage their finances anytime, anywhere, with ease.
+
+ 
+
+processSubtitle : "Our Development Process"
+processTitle : "Our Mobile Application Solutions Process"
+processBoxList :
+- stepSubTitle: "Step 1"
+  stepTitle: Effortless Budgeting for Smart Financial Planning
+  stepDescription: Simplify money management with intuitive budgeting tools that help users track expenses, set goals, and achieve financial stability effortlessly.
+- stepSubTitle: "Step 2"
+  stepTitle: Real-Time Expense Tracking to Stay on Top
+  stepDescription: Monitor spending habits instantly with real-time expense tracking, empowering users to make informed decisions and avoid overspending.
+- stepSubTitle: "Step 3"
+  stepTitle: Automated Savings Plans for Future Goals
+  stepDescription: Enable users to grow their savings automatically with personalized plans designed to align with their financial aspirations and timelines.
+- stepSubTitle: "Step 4"
+  stepTitle: Investment Insights for Wealth Building
+  stepDescription: Provide actionable investment advice and portfolio analysis, helping users maximize returns while minimizing risks in their financial journey.
+- stepSubTitle: "Step 5"
+  stepTitle: Secure Payment Integration for Hassle-Free Transactions
+  stepDescription: Ensure safe and seamless transactions with advanced payment gateways, allowing users to manage bills, subscriptions, and transfers securely.
+- stepSubTitle: "Step 6"
+  stepTitle: Credit Score Monitoring for Better Financial Health
+  stepDescription: Offer tools to monitor and improve credit scores, enabling users to maintain strong financial health and unlock better borrowing opportunities.
+
+
+faqSubtitle : "FAQs"
+faqTitle : "Frequently Asked Question for Mobile Application Solutions"
+faqBoxList :
+- faqTitle: ""
+  faqDescription: ""
+
+- faqTitle: What features does the Personal Finance App offer?
+  faqDescription: The app, developed by Cypherox Technologies, includes budget tracking, expense categorization, bill reminders, and financial goal setting. It empowers users to manage their finances effectively with real-time insights and customizable reports.
+
+- faqTitle: Can I link my bank accounts to the app?
+  faqDescription: Yes, the app supports secure integration with multiple banks. Cypherox Technologies uses bank-grade encryption to ensure your account information is safe while providing a seamless way to track transactions automatically.
+
+- faqTitle: Is the app suitable for beginners in personal finance?
+  faqDescription: Absolutely! The app is designed with user-friendly interfaces and guided tutorials. Cypherox Technologies ensures even those new to finance can easily understand and utilize its tools to build better money habits.
+
+- faqTitle: How does the app help with saving money?
+  faqDescription: The app analyzes spending patterns and suggests areas to cut costs. Cypherox Technologies also offers savings goal trackers and automated saving plans to help users achieve their financial objectives efficiently.
+
+- faqTitle: Does the app work offline?
+  faqDescription: Basic features like viewing budgets and adding expenses are available offline. However, syncing data with linked accounts requires an internet connection. Cypherox Technologies ensures flexibility for users on the go.
+
+- faqTitle: Can I set financial goals within the app?
+  faqDescription: Yes, you can create personalized goals like saving for vacations or debt repayment. Cypherox Technologies provides progress tracking and actionable tips to keep you motivated toward achieving your targets.
+
+- faqTitle: Is my financial data secure in the app?
+  faqDescription: Your data is protected using advanced encryption and multi-factor authentication. Cypherox Technologies prioritizes security to safeguard sensitive financial information from unauthorized access.
+
+- faqTitle: Can businesses use this app for expense management?
+  faqDescription: Yes, the app includes features for tracking business expenses and generating reports. Cypherox Technologies offers solutions tailored for freelancers and small businesses to streamline financial management.
+
+- faqTitle: Are there subscription plans for advanced features?
+  faqDescription: We offer free and premium plans. The premium plan unlocks advanced analytics, investment tracking, and priority support. Visit Cypherox Technologies’ website for detailed pricing and benefits.
+
+- faqTitle: What kind of customer support is available?
+  faqDescription: Cypherox Technologies provides 24/7 email and chat support to assist with any queries or technical issues. Our team is committed to ensuring a smooth experience for all app users.
+
+  
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+          
+          - icon: "../../../assets/img/icon-Kotlin.svg"
+            alt: "icon-Kotlin"
+            title: "Kotlin"
+          
+  - title: "Technologies"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-stripe.svg"
+            alt: "icon-stripe"
+            title: "Stripe"
+            
+          - icon: "../../../assets/img/icon-PayPal.svg"
+            alt: "icon-PayPal"
+            title: "PayPal"
+            
+          - icon: "../../../assets/img/icon-braintree.svg"
+            alt: "icon-braintree"
+            title: "Braintree"
+            
+          - icon: "../../../assets/img/icon-authorize.net.svg"
+            alt: "icon-authorize.net"
+            title: "Authorize.Net"
+            
+          - icon: "../../../assets/img/icon-adyen.svg"
+            alt: "icon-adyen"
+            title: "Adyen"
+            
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
+          
+  - title: "Database"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
 
-developmentPhasesSubTitle: "Phases"
-developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
-developmentPhases:
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-detox.svg"
+            alt: "icon-detox"
+            title: "Detox"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"            
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
+            title: "React Native"
+
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+
+          - icon: "../../../assets/img/icon-swiftui.svg"
+            alt: "icon-swiftui"
+            title: "SwiftUI"
+
+          - icon: "../../../assets/img/icon-compose.svg"
+            alt: "icon-compose"
+            title: "Jetpack Compose"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+
 ---
