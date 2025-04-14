@@ -1,17 +1,16 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Transport App Development Solutions | Logistic App Solutions
+metaDescription: Create transport apps with GPS tracking, route planning, fare calculation & real-time updates. Enhance travel experience—build your app today!
 bodyClass: "transportation-app"
 permalink: transportation-app.html
-bannersubTitle: "Service"
-bannerTitle: "Transportation App"
-bannerdesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-bannerbuttontext: Hire Now
-buttonLink: "javascript:;"
-bannerHTML: '<svg width="826" height="811" viewBox="0 0 826 811" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M825 277.179C825 277.179 771.707 308.53 775.557 253.133C779.407 197.735 787.918 115.654 743.135 115.146C698.352 114.639 640.195 172.472 654.887 192.053C669.578 211.635 701.189 163.847 683.053 123.263C664.917 82.679 621.553 -13.8099 447.083 2.93107C447.083 2.93107 370.689 7.69971 306.959 93.4338C306.655 93.8397 306.149 94.1441 305.642 94.2455L132.388 128.539C132.388 128.539 78.0814 140.917 93.2791 177.24L305.44 683.833C305.44 683.833 330.668 753.536 380.314 736.795L504.53 702.501C504.631 702.501 504.834 702.4 504.935 702.4C506.86 702.197 521.957 701.081 501.896 709.604C480.416 718.634 379.807 751.608 379.807 751.608C379.807 751.608 334.113 765.407 314.964 729.287C314.964 729.186 314.862 729.186 314.862 729.084L97.3319 238.319C97.3319 238.319 64.8087 162.63 85.4776 136.453C85.7816 136.149 86.0855 135.844 86.4908 135.743C100.067 130.974 337.76 48.2839 357.416 113.016C357.517 113.523 357.517 114.03 357.315 114.436C355.086 120.219 340.091 159.789 344.751 171.051C344.751 171.051 355.086 208.186 365.521 218.433C365.927 218.839 366.231 219.346 366.231 219.955C366.535 223.912 366.433 238.319 347.588 207.273C326.109 171.863 337.862 133.917 358.936 97.7967C358.936 97.6952 359.037 97.6952 359.037 97.5937C360.557 94.0426 401.692 3.74275 538.776 42.0948C539.08 42.1963 539.485 42.3992 539.688 42.6021C541.815 44.6313 548.806 55.792 525.604 103.478L495.918 169.022C495.513 169.935 494.601 170.442 493.588 170.341C487.407 169.631 465.725 166.688 464.813 159.079C463.699 150.15 465.219 112.914 419.423 112.508C373.627 112.103 347.892 158.673 373.323 193.068C397.943 226.347 436.343 216.303 448.4 201.286C449.109 200.475 450.224 200.17 451.135 200.678L494.905 223.1C495.31 223.303 495.715 223.709 495.918 224.216C499.262 231.623 529.86 294.021 590.752 241.769C598.25 235.276 602.708 225.84 602.606 215.998C602.606 202.098 598.351 182.618 577.986 170.645C577.885 170.544 577.682 170.544 577.581 170.442C574.44 169.428 538.877 158.064 511.622 175.921C510.913 176.327 510.103 176.429 509.292 176.023C505.138 173.791 492.169 165.775 495.513 153.397C499.464 138.685 529.455 35.9057 556.304 45.2401C583.153 54.5745 661.776 105 631.786 230.406C602.708 351.752 456.1 283.165 419.524 268.656C418.612 268.25 417.599 268.758 417.396 269.772C414.357 282.759 402.908 341.606 447.893 332.779C448.197 332.678 448.501 332.576 448.805 332.373C452.25 329.938 473.527 313.502 478.897 307.313C482.443 303.254 525.098 319.488 514.358 415.977C514.257 416.89 513.547 417.702 512.636 417.905C505.746 419.427 477.58 425.311 453.263 421.659C452.351 421.557 451.642 420.847 451.439 419.832C449.514 409.991 436.85 356.521 393.587 367.377C351.134 378.031 354.782 413.542 364.204 428.659C365.319 430.486 368.054 429.877 368.358 427.746C369.878 415.977 376.059 389.394 401.793 391.626C427.022 393.858 436.039 415.977 432.797 425.514C431.885 428.254 427.731 426.833 428.541 424.094C431.277 414.658 434.519 396.091 420.943 388.785C402.3 378.741 326.514 372.45 348.905 443.676C348.905 443.676 360.05 476.346 391.662 479.39C392.371 479.491 392.979 479.897 393.384 480.506C396.424 485.579 406.555 507.596 334.619 470.968C254.071 429.877 301.691 275.657 408.987 279.512C408.987 279.512 424.691 279.005 426.616 301.428C428.541 323.851 447.083 336.229 480.315 297.37C480.416 297.268 480.518 297.065 480.619 296.964L482.24 293.92C482.747 292.905 482.341 291.891 481.328 291.485C436.748 275.86 339.483 247.552 329.756 184.038C329.553 182.821 328.439 182.009 327.223 182.212C306.757 184.85 150.017 205.446 122.256 222.39C121.243 222.999 120.939 224.216 121.344 225.231L307.871 644.364C308.277 645.379 309.391 645.886 310.506 645.582C324.994 641.828 421.044 616.463 431.277 605.607C441.409 594.852 436.647 580.14 435.735 577.705C435.634 577.502 435.634 577.198 435.634 576.893L435.938 515.002C435.938 513.785 436.951 512.77 438.167 512.77L525.908 511.045C526.719 511.045 527.428 510.538 527.833 509.828C530.062 505.668 536.141 491.463 525.402 477.259C524.996 476.65 524.186 476.346 523.477 476.447C517.904 476.853 496.019 479.085 494.297 481.013C492.879 482.535 477.174 508.915 492.473 517.945C506.759 526.264 573.731 512.872 582.951 511.045C583.66 510.944 584.166 510.437 584.47 509.828C586.598 505.262 594.703 486.188 581.431 481.825C566.638 476.853 539.282 478.172 551.542 517.437C551.846 518.351 552.758 519.061 553.771 518.959C564.713 518.452 625.2 515.713 639.182 512.973C640.094 512.77 640.803 512.06 640.905 511.147C641.715 505.668 644.248 486.999 640.297 483.955C635.636 480.404 607.774 481.419 607.774 494.71C607.774 508.002 603.518 523.728 627.125 522.307C650.732 520.887 692.881 527.685 690.044 501.508C687.207 475.331 688.626 449.256 659.243 448.85C630.773 448.546 460.355 441.748 450.528 441.342C450.224 441.342 449.92 441.342 449.616 441.443C446.677 442.56 429.555 449.256 424.083 454.938C423.577 455.546 422.766 455.749 421.956 455.648L407.67 452.3C405.644 451.792 404.124 454.126 405.34 455.851C409.494 461.533 416.079 470.563 419.625 475.331C424.995 482.535 404.934 596.374 443.942 595.968C482.949 595.562 631.989 603.476 667.045 596.678C702.101 589.88 700.277 592.417 705.343 577.299C710.308 562.283 720.743 433.732 676.062 431.196C633.103 428.761 457.417 428.051 443.435 427.949C442.827 427.949 442.321 428.152 441.915 428.558C438.775 431.5 424.59 444.487 421.145 443.777C417.194 442.965 383.556 434.747 383.556 434.747C383.556 434.747 372.512 432.211 383.556 447.633C394.6 463.055 403.921 471.273 401.793 493.797C399.666 516.321 383.151 604.795 445.056 607.331C503.01 609.665 577.682 607.027 586.801 606.621C587.409 606.621 588.016 606.824 588.422 607.23C593.69 612.303 624.795 645.582 584.876 688.5C584.673 688.804 584.369 689.007 583.964 689.109L402.401 757.189C402.401 757.189 362.786 774.335 312.025 751.811H311.924C310.607 751.202 279.3 735.78 257.617 753.638C235.429 771.9 189.329 785.192 162.885 769.364C136.441 753.637 40.7168 739.891 1 810" stroke="#F26E65" stroke-miterlimit="10"/>
-</svg>
-'
+bannersubTitle: "App Solutions"
+bannerTitle: "Transport App Development Company"
+bannerdesc: "Simplify commutes with our Transport App Development expertise. We design apps that offer real-time tracking, seamless booking, and route optimization. Our focus on innovation ensures your app radiates convenience and reliability. Partner with us to make transportation smarter and hassle-free."
+bannerbuttontext: Inquire Now
+buttonLink: "/contact-us.html"
+bannerHTML: '<svg width="998" height="614" viewBox="0 0 998 614" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M997.713 379.632C997.713 379.632 606.128 296.83 431.231 417.166C423.789 422.323 417.492 428.913 413.484 436.935C406.614 450.115 404.61 467.305 442.967 466.159C459.856 465.586 476.458 466.159 493.061 468.738C532.849 474.755 588.953 489.367 552.886 520.597C552.886 520.597 467.585 580.765 241.164 542.372C241.164 542.372 131.531 513.721 209.677 481.345C209.677 481.345 286.391 456.991 345.644 461.289C345.644 461.289 243.454 392.525 196.223 287.088C168.743 225.201 170.461 153.572 204.81 95.1235C232.863 47.2756 285.818 -0.285767 384.859 1.1468C384.859 1.1468 550.31 6.30406 552.027 175.347C552.027 175.347 553.745 317.459 387.436 330.352C387.436 330.352 275.227 326.054 253.472 212.594C247.461 181.937 252.9 149.848 270.361 124.061C282.097 106.871 300.417 89.9662 329.041 80.7978C354.517 72.7754 382.283 73.6349 407.473 82.8034C446.975 97.1291 503.079 134.376 482.756 227.493C482.756 227.493 468.73 283.363 413.198 311.155C413.198 311.155 365.395 333.79 368.83 399.975C368.83 399.975 385.432 499.395 254.045 503.979C254.045 503.979 -2.43201 498.249 1.00295 613.141" stroke="#DC7065" stroke-miterlimit="10"/></svg>'
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -27,147 +26,274 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
-featuresBoxList:
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-
-processSubtitle : "Process"
-processTitle : "Lorem ipsum dolor sit "
-processBoxList :
-
-- stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-devSubTitle : Lorem ipsum
-devTitle: Lorem ipsum dolor sit 
-devTitlePart : Awesome Android Apps
+devSubTitle : What we do
+devTitle: Streamline commutes with our
+devTitlePart : smart Transport App Development Service. 
 devInformationList :
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: Transport apps have transformed commuting, offering tools for ride-sharing, route optimization, and real-time tracking. At Cypherox Technologies, we design apps that combine convenience, reliability, and innovation. 
+- infoItem: Our team focuses on features like fare estimation, driver ratings, and multi-language support to address user needs effectively. In a crowded market, we ensure your app stands out by delivering unique value through seamless usability and advanced functionalities. By eliminating common pitfalls like poor navigation or delayed updates, we create apps that simplify transportation and enhance user satisfaction. 
+- infoItem: Let us help you build a transport app that redefines mobility and sets new standards in the industry, making commutes smarter and stress-free.
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
-  
-secTitle: "Services"
-secSubTitle: "Lorem ipsum dolor"  
+
+secSubTitle: "What We Provide"  
+secTitle: "Our Transport App Solutions"
 servicesList:
-
   - count: "01."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Real-Time Ride Tracker
+    pageLink: "javascript:;"
+    description: Track your ride’s location and arrival time with live updates, ensuring seamless commutes and reducing wait times for passengers.
   - count: "02."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Multi-Mode Journey Planner
+    pageLink: "javascript:;"
+    description: Plan trips combining buses, trains, bikes, or rideshares, offering the fastest and most efficient routes for hassle-free travel.
   - count: "03."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Smart Parking Locator
+    pageLink: "javascript:;"
+    description: Find nearby parking spots with availability alerts, saving time and eliminating the stress of searching for parking in busy areas.
   - count: "04."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Fare Splitting Tool
+    pageLink: "javascript:;"
+    description: Easily split fares among passengers during shared rides, ensuring fair payments and simplifying group travel expenses.
   - count: "05."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Eco-Friendly Route Finder
+    pageLink: "javascript:;"
+    description: Discover energy-efficient routes and green transport options, helping reduce your carbon footprint while commuting sustainably.
   - count: "06."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."  
+    title: Emergency Ride Assistance
+    pageLink: "javascript:;"
+    description: Access 24/7 support for urgent travel needs, providing reliable transportation solutions during late nights or unexpected situations.
+  - count: "07."
+    title: Vehicle Health Monitor
+    pageLink: "javascript:;"
+    description: Track fuel levels, tire pressure, and maintenance alerts for personal vehicles, ensuring safety and optimal performance on the road.
+  - count: "08."
+    title: Transit Schedule Sync
+    pageLink: "javascript:;"
+    description: Receive real-time updates on public transport schedules, delays, and cancellations, keeping you informed and prepared for smooth journeys.
 
+
+hireCtaTitle: "Hire Developers"
+hireCtaSubTitle: "Hire App Developers"
+hireCtaDesc: "Build seamless Transport apps to elevate businesses and user experiences. Offer real-time tracking, route optimization, and hassle-free booking for smarter and more efficient travel solutions."
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
+
+featuresSecSubTitle: Why Cypherox
+featuresSecTitle: Why Choose Cypherox for Transport App Solutions?
+featuresBoxList:
+  - title: Real-Time Ride Tracking for Hassle-Free Commutes
+    description: Develop apps that provide live tracking of rides, ensuring users stay informed about vehicle location and arrival times.
+
+  - title: Smart Route Optimization for Faster Travel
+    description: Create apps with AI-powered route planning to minimize travel time and avoid traffic congestion effectively.
+
+  - title: Seamless Payment Options for Convenient Fares
+    description: Build apps offering secure in-app payments, including cashless transactions and fare-splitting features for shared rides.
+
+  - title: Multi-Mode Transport Integration in One App
+    description: Design apps that combine buses, taxis, bikes, and trains, enabling users to plan and book multi-mode journeys effortlessly.
+
+  - title: Push Notifications for Updates & Alerts
+    description: Enable real-time alerts for delays, cancellations, or schedule changes, keeping users informed at every step of their journey.
+
+  - title: Eco-Friendly Ride Options for Sustainable Travel
+    description: Incorporate features promoting green transportation choices like carpooling, electric vehicles, or bike-sharing services.
+
+ 
+
+processSubtitle : "Our Development Process"
+processTitle : "Our Transport App Solutions Process"
+processBoxList :
+- stepSubTitle: "Step 1"
+  stepTitle: Hassle-Free Ride Booking Anytime, Anywhere
+  stepDescription: Book rides instantly with just a few taps, ensuring safe, reliable, and convenient transportation options for daily commutes or special trips.
+- stepSubTitle: "Step 2"
+  stepTitle: Real-Time Tracking for Transparent Journeys
+  stepDescription: Track your ride in real-time with GPS updates, providing accurate ETAs and peace of mind knowing exactly where your vehicle is located.
+- stepSubTitle: "Step 3"
+  stepTitle: Multiple Payment Options for Flexibility
+  stepDescription: Choose from cashless payments like credit cards, digital wallets, or prepaid balances to ensure seamless and secure transactions for every ride.
+- stepSubTitle: "Step 4"
+  stepTitle: Shared Rides for Cost-Effective Travel
+  stepDescription: Opt for shared rides to split costs with other passengers, making commutes more affordable while reducing your carbon footprint.
+- stepSubTitle: "Step 5"
+  stepTitle: Scheduled Rides for Planned Commutes
+  stepDescription: Schedule rides in advance for appointments, airport transfers, or events, ensuring timely pickups and stress-free travel planning.
+- stepSubTitle: "Step 6"
+  stepTitle: Safety Features for Secure Travel
+  stepDescription: Access safety tools like SOS buttons, driver verification, and trip sharing to ensure a secure and worry-free travel experience for all users.
+
+faqSubtitle : "FAQs"
+faqTitle : "Frequently Asked Question for Transport App Solutions"
+faqBoxList :
+- faqTitle: ""
+  faqDescription: ""
+
+- faqTitle: What features does the Transport App offer?
+  faqDescription: The app, developed by Cypherox Technologies, includes real-time transit tracking, ride-hailing services, route planning, fare estimates, and payment integration. It ensures a seamless and efficient travel experience for commuters.
+
+- faqTitle: Can I track buses or trains in real-time?
+  faqDescription: Yes, the app provides live updates on public transit schedules and delays. Cypherox Technologies ensures users stay informed about their transportation options to minimize wait times and plan efficiently.
+
+- faqTitle: Is the app compatible with ride-hailing services?
+  faqDescription: Absolutely! The app integrates with popular ride-hailing platforms for added convenience. Cypherox Technologies ensures users can book rides directly within the app for a hassle-free experience.
+
+- faqTitle: Does the app help with route planning?
+  faqDescription: Yes, it offers optimized routes based on traffic, time, and mode of transport. Cypherox Technologies uses advanced algorithms to provide the fastest and most cost-effective travel options.
+
+- faqTitle: Are there options for cashless payments?
+  faqDescription: Yes, the app supports secure digital payments for fares and ride-hailing services. Cypherox Technologies ensures transactions are encrypted and user-friendly, eliminating the need for cash.
+
+- faqTitle: Can I save favorite routes or locations?
+  faqDescription: Yes, you can bookmark frequently used routes and destinations. Cypherox Technologies simplifies daily commutes by allowing users to access their preferred routes quickly.
+
+- faqTitle: Does the app work offline?
+  faqDescription: Basic features like saved routes and schedules are accessible offline. Cypherox Technologies ensures users can access critical information even without an internet connection.
+
+- faqTitle: How does the app handle unexpected delays or changes?
+  faqDescription: The app sends real-time alerts for delays, cancellations, or alternative routes. Cypherox Technologies keeps users informed to help them adapt to unforeseen disruptions during their travels.
+
+- faqTitle: Are there subscription plans for frequent travelers?
+  faqDescription: We offer free and premium tiers. The premium plan includes discounted transit passes and exclusive perks. Visit Cypherox Technologies’ website for pricing and benefits.
+
+- faqTitle: What kind of customer support is available?
+  faqDescription: Cypherox Technologies provides 24/7 email and chat support for technical issues or inquiries. Our team is committed to ensuring a smooth and reliable commuting experience for all users.
+
+  
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+          
+          - icon: "../../../assets/img/icon-Kotlin.svg"
+            alt: "icon-Kotlin"
+            title: "Kotlin"
+          
+  - title: "Technologies"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-google-maps.svg"
+            alt: "icon-google-maps"
+            title: "Maps APIs"
+            
+          - icon: "../../../assets/img/icon-stripe.svg"
+            alt: "icon-stripe"
+            title: "Stripe"
+            
+          - icon: "../../../assets/img/icon-PayPal.svg"
+            alt: "icon-PayPal"
+            title: "PayPal"
+            
+          - icon: "../../../assets/img/icon-braintree.svg"
+            alt: "icon-braintree"
+            title: "Braintree"
+            
+          - icon: "../../../assets/img/icon-authorize.net.svg"
+            alt: "icon-authorize.net"
+            title: "Authorize.Net"
+            
+          - icon: "../../../assets/img/icon-adyen.svg"
+            alt: "icon-adyen"
+            title: "Adyen"
+          
+  - title: "Database"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
 
-developmentPhasesSubTitle: "Phases"
-developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
-developmentPhases:
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-detox.svg"
+            alt: "icon-detox"
+            title: "Detox"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"            
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
+            title: "React Native"
+
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+
+          - icon: "../../../assets/img/icon-swiftui.svg"
+            alt: "icon-swiftui"
+            title: "SwiftUI"
+
+          - icon: "../../../assets/img/icon-compose.svg"
+            alt: "icon-compose"
+            title: "Jetpack Compose"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+         
 ---

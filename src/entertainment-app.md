@@ -200,8 +200,8 @@ phases:
             alt: "icon-graphql"
             title: "GraphQL"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-video-streaming-apis.svg"
+            alt: "icon-video-streaming-apis"
             title: "Video Streaming APIs"
             
           - icon: "../../../assets/img/icon-push-notifications.svg"

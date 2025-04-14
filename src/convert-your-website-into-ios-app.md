@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Convert Website Into App - Cypherox Technologies
+title: Convert Your Website Into an iOS App | iOS App Development
+metaDescription: Turn your website into a powerful iOS app with website-to-iOS conversion services, ensuring seamless performance, better engagement & App Store readiness.
 bodyClass: "convert-your-website-into-ios-app"
 permalink: convert-your-website-into-ios-app.html
 bannersubTitle: "Web To iOS App"

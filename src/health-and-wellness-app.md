@@ -195,12 +195,12 @@ phases:
             alt: "icon-restful-apis"
             title: "REST APIs"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-healthkit.svg"
+            alt: "icon-healthkit"
             title: "HealthKit"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-fit.svg"
+            alt: "icon-google-fit"
             title: "Google Fit"
             
           - icon: "../../../assets/img/icon-integration.svg"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Convert Website Into App - Cypherox Technologies
+title: Convert Your Website to an Android App | Mobile App Services
+metaDescription: Transform your website into a feature-rich Android app with website-to-app conversion services, improving user experience, engagement & mobile reach.
 bodyClass: "convert-your-website-to-android-app"
 permalink: convert-your-website-to-android-app.html
 bannersubTitle: "Web To Andriod App"

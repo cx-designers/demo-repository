@@ -1,17 +1,16 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Mental Health App Development Services | App Solutions
+metaDescription: Create mental health apps with mood tracking, guided therapy, meditation & AI chat support. Empower users to manage well-being with digital care tools.
 bodyClass: "mental-health-app"
 permalink: mental-health-app.html
-bannersubTitle: "Service"
-bannerTitle: "Mental Health App"
-bannerdesc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-bannerbuttontext: Hire Now
-buttonLink: "javascript:;"
-bannerHTML: '<svg width="826" height="811" viewBox="0 0 826 811" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M825 277.179C825 277.179 771.707 308.53 775.557 253.133C779.407 197.735 787.918 115.654 743.135 115.146C698.352 114.639 640.195 172.472 654.887 192.053C669.578 211.635 701.189 163.847 683.053 123.263C664.917 82.679 621.553 -13.8099 447.083 2.93107C447.083 2.93107 370.689 7.69971 306.959 93.4338C306.655 93.8397 306.149 94.1441 305.642 94.2455L132.388 128.539C132.388 128.539 78.0814 140.917 93.2791 177.24L305.44 683.833C305.44 683.833 330.668 753.536 380.314 736.795L504.53 702.501C504.631 702.501 504.834 702.4 504.935 702.4C506.86 702.197 521.957 701.081 501.896 709.604C480.416 718.634 379.807 751.608 379.807 751.608C379.807 751.608 334.113 765.407 314.964 729.287C314.964 729.186 314.862 729.186 314.862 729.084L97.3319 238.319C97.3319 238.319 64.8087 162.63 85.4776 136.453C85.7816 136.149 86.0855 135.844 86.4908 135.743C100.067 130.974 337.76 48.2839 357.416 113.016C357.517 113.523 357.517 114.03 357.315 114.436C355.086 120.219 340.091 159.789 344.751 171.051C344.751 171.051 355.086 208.186 365.521 218.433C365.927 218.839 366.231 219.346 366.231 219.955C366.535 223.912 366.433 238.319 347.588 207.273C326.109 171.863 337.862 133.917 358.936 97.7967C358.936 97.6952 359.037 97.6952 359.037 97.5937C360.557 94.0426 401.692 3.74275 538.776 42.0948C539.08 42.1963 539.485 42.3992 539.688 42.6021C541.815 44.6313 548.806 55.792 525.604 103.478L495.918 169.022C495.513 169.935 494.601 170.442 493.588 170.341C487.407 169.631 465.725 166.688 464.813 159.079C463.699 150.15 465.219 112.914 419.423 112.508C373.627 112.103 347.892 158.673 373.323 193.068C397.943 226.347 436.343 216.303 448.4 201.286C449.109 200.475 450.224 200.17 451.135 200.678L494.905 223.1C495.31 223.303 495.715 223.709 495.918 224.216C499.262 231.623 529.86 294.021 590.752 241.769C598.25 235.276 602.708 225.84 602.606 215.998C602.606 202.098 598.351 182.618 577.986 170.645C577.885 170.544 577.682 170.544 577.581 170.442C574.44 169.428 538.877 158.064 511.622 175.921C510.913 176.327 510.103 176.429 509.292 176.023C505.138 173.791 492.169 165.775 495.513 153.397C499.464 138.685 529.455 35.9057 556.304 45.2401C583.153 54.5745 661.776 105 631.786 230.406C602.708 351.752 456.1 283.165 419.524 268.656C418.612 268.25 417.599 268.758 417.396 269.772C414.357 282.759 402.908 341.606 447.893 332.779C448.197 332.678 448.501 332.576 448.805 332.373C452.25 329.938 473.527 313.502 478.897 307.313C482.443 303.254 525.098 319.488 514.358 415.977C514.257 416.89 513.547 417.702 512.636 417.905C505.746 419.427 477.58 425.311 453.263 421.659C452.351 421.557 451.642 420.847 451.439 419.832C449.514 409.991 436.85 356.521 393.587 367.377C351.134 378.031 354.782 413.542 364.204 428.659C365.319 430.486 368.054 429.877 368.358 427.746C369.878 415.977 376.059 389.394 401.793 391.626C427.022 393.858 436.039 415.977 432.797 425.514C431.885 428.254 427.731 426.833 428.541 424.094C431.277 414.658 434.519 396.091 420.943 388.785C402.3 378.741 326.514 372.45 348.905 443.676C348.905 443.676 360.05 476.346 391.662 479.39C392.371 479.491 392.979 479.897 393.384 480.506C396.424 485.579 406.555 507.596 334.619 470.968C254.071 429.877 301.691 275.657 408.987 279.512C408.987 279.512 424.691 279.005 426.616 301.428C428.541 323.851 447.083 336.229 480.315 297.37C480.416 297.268 480.518 297.065 480.619 296.964L482.24 293.92C482.747 292.905 482.341 291.891 481.328 291.485C436.748 275.86 339.483 247.552 329.756 184.038C329.553 182.821 328.439 182.009 327.223 182.212C306.757 184.85 150.017 205.446 122.256 222.39C121.243 222.999 120.939 224.216 121.344 225.231L307.871 644.364C308.277 645.379 309.391 645.886 310.506 645.582C324.994 641.828 421.044 616.463 431.277 605.607C441.409 594.852 436.647 580.14 435.735 577.705C435.634 577.502 435.634 577.198 435.634 576.893L435.938 515.002C435.938 513.785 436.951 512.77 438.167 512.77L525.908 511.045C526.719 511.045 527.428 510.538 527.833 509.828C530.062 505.668 536.141 491.463 525.402 477.259C524.996 476.65 524.186 476.346 523.477 476.447C517.904 476.853 496.019 479.085 494.297 481.013C492.879 482.535 477.174 508.915 492.473 517.945C506.759 526.264 573.731 512.872 582.951 511.045C583.66 510.944 584.166 510.437 584.47 509.828C586.598 505.262 594.703 486.188 581.431 481.825C566.638 476.853 539.282 478.172 551.542 517.437C551.846 518.351 552.758 519.061 553.771 518.959C564.713 518.452 625.2 515.713 639.182 512.973C640.094 512.77 640.803 512.06 640.905 511.147C641.715 505.668 644.248 486.999 640.297 483.955C635.636 480.404 607.774 481.419 607.774 494.71C607.774 508.002 603.518 523.728 627.125 522.307C650.732 520.887 692.881 527.685 690.044 501.508C687.207 475.331 688.626 449.256 659.243 448.85C630.773 448.546 460.355 441.748 450.528 441.342C450.224 441.342 449.92 441.342 449.616 441.443C446.677 442.56 429.555 449.256 424.083 454.938C423.577 455.546 422.766 455.749 421.956 455.648L407.67 452.3C405.644 451.792 404.124 454.126 405.34 455.851C409.494 461.533 416.079 470.563 419.625 475.331C424.995 482.535 404.934 596.374 443.942 595.968C482.949 595.562 631.989 603.476 667.045 596.678C702.101 589.88 700.277 592.417 705.343 577.299C710.308 562.283 720.743 433.732 676.062 431.196C633.103 428.761 457.417 428.051 443.435 427.949C442.827 427.949 442.321 428.152 441.915 428.558C438.775 431.5 424.59 444.487 421.145 443.777C417.194 442.965 383.556 434.747 383.556 434.747C383.556 434.747 372.512 432.211 383.556 447.633C394.6 463.055 403.921 471.273 401.793 493.797C399.666 516.321 383.151 604.795 445.056 607.331C503.01 609.665 577.682 607.027 586.801 606.621C587.409 606.621 588.016 606.824 588.422 607.23C593.69 612.303 624.795 645.582 584.876 688.5C584.673 688.804 584.369 689.007 583.964 689.109L402.401 757.189C402.401 757.189 362.786 774.335 312.025 751.811H311.924C310.607 751.202 279.3 735.78 257.617 753.638C235.429 771.9 189.329 785.192 162.885 769.364C136.441 753.637 40.7168 739.891 1 810" stroke="#F26E65" stroke-miterlimit="10"/>
-</svg>
-'
+bannersubTitle: "App Solutions"
+bannerTitle: "Mental Health App Development Company"
+bannerdesc: "Support mental well-being with our Mental Health App Development expertise. We design apps that offer guided meditation, therapy sessions, and mood tracking in a compassionate, user-friendly format. Our focus on empathy and innovation ensures your app radiates care and trust. Partner with us to make mental health support accessible to all."
+bannerbuttontext: Inquire Now
+buttonLink: "/contact-us.html"
+bannerHTML: '<svg width="956" height="590" viewBox="0 0 956 590" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M954.926 352.913C954.926 352.913 928.634 276.232 651.487 328.783L620.097 533.892L419.146 519.145L441.683 348.087L405.463 536.305C405.463 536.305 400.097 567.138 431.756 571.964L616.609 587.783C616.609 587.783 635.39 584.566 637 562.58C637 562.58 723.122 97.3988 722.048 56.3771C722.048 56.3771 727.414 7.04376 704.878 9.18868C704.878 9.18868 702.731 15.0872 710.78 30.9061C710.78 30.9061 709.975 160.138 677.512 290.442C677.512 290.442 674.561 311.623 665.17 312.696C665.17 312.696 659 310.819 661.951 286.689L695.756 50.2104L492.39 67.9061L451.878 310.551C451.878 310.551 437.658 316.45 446.512 272.479L483 56.109C483 56.109 484.073 29.8336 531.829 20.9858L707.024 0.608974C707.024 0.608974 743.78 -0.999719 732.78 51.0148L680.195 390.45C680.195 390.45 647.731 415.116 575.292 332.268L502.048 362.029C502.048 362.029 484.609 331.464 417.268 343.797C417.268 343.797 357.707 352.913 338.39 341.652C338.39 341.652 322.024 334.95 323.634 352.377C323.634 352.377 329.536 370.609 355.561 386.16C355.561 386.16 379.439 398.761 397.951 426.109L409.219 440.319L419.146 426.109C419.146 426.109 400.365 402.515 388.829 373.022C388.829 373.022 384.268 359.616 366.829 361.225C366.829 361.225 356.634 364.71 359.585 371.95C359.585 371.95 365.487 381.87 395 370.609C395 370.609 436.317 360.421 440.609 314.037C440.609 314.037 445.17 293.66 429.341 296.877C429.341 296.877 417.536 315.109 443.292 312.964C443.292 312.964 469.585 304.921 460.731 268.993C460.731 268.993 499.097 229.044 455.365 208.131C455.365 208.131 439.268 206.254 439.268 218.855C439.268 218.855 448.122 231.993 456.707 205.181C456.707 205.181 464.756 170.594 417.805 175.957C417.805 175.957 413.78 136.008 359.317 145.392C359.317 145.392 338.658 114.29 304.585 143.783C304.585 143.783 284.731 115.899 255.219 146.732C255.219 146.732 244.756 165.232 259.78 171.667C259.78 171.667 276.683 167.377 257.634 145.928C257.634 145.928 225.975 126.892 194.585 164.428C194.585 164.428 188.414 179.174 202.902 187.486C202.902 187.486 209.341 190.703 212.561 185.877C212.561 185.877 220.878 171.131 194.317 168.45C194.317 168.45 150.048 172.203 162.658 220.732C162.658 220.732 139.585 242.181 165.341 264.703C165.341 264.703 181.707 275.696 194.317 274.087C194.317 274.087 210.414 271.406 206.658 263.094C206.658 263.094 199.683 251.297 185.195 270.602C185.195 270.602 169.097 296.341 185.195 313.768C185.195 313.768 191.634 319.131 192.439 324.225C192.439 324.225 196.195 332.268 212.829 328.247C212.829 328.247 217.926 327.979 220.341 334.145C220.341 334.145 230.536 348.087 251.195 336.826C251.195 336.826 273.463 353.45 292.512 329.587C292.512 329.587 305.926 340.848 323.365 329.587C323.365 329.587 333.829 321.812 372.731 336.022C372.731 336.022 410.561 341.116 413.243 320.739C413.243 320.739 421.024 302.508 381.585 307.066C381.585 307.066 357.975 307.602 350.731 292.587C350.731 292.587 317.463 318.058 294.122 289.102C294.122 289.102 283.658 272.479 297.878 270.066C297.878 270.066 312.902 272.479 289.292 296.341C289.292 296.341 271.317 313.5 243.951 292.855C243.951 292.855 226.512 281.326 214.439 295C214.439 295 208.536 303.312 215.78 307.066C215.78 307.066 231.341 312.964 232.146 282.667C232.146 282.667 228.926 248.616 270.512 255.587C270.512 255.587 275.609 256.928 278.829 258.537C278.829 258.537 280.975 259.073 284.195 253.979C284.195 253.979 296.805 238.428 325.244 252.638C325.244 252.638 349.658 266.848 364.146 259.877C364.146 259.877 384 252.102 373.536 238.428C373.536 238.428 358.78 229.044 354.219 249.152C354.219 249.152 353.683 279.45 386.683 278.377C386.683 278.377 399.829 278.913 414.048 256.123C414.048 256.123 423.707 241.109 437.926 244.863C437.926 244.863 444.634 248.08 440.341 256.66C440.341 256.66 426.658 267.116 418.878 244.863C418.878 244.863 414.317 194.189 380.512 188.29C380.512 188.29 353.683 185.609 350.731 203.037C350.731 203.037 349.658 221.537 370.585 210.812C370.585 210.812 393.926 188.826 379.975 167.645C379.975 167.645 364.146 142.71 329 173.008C329 173.008 310.756 166.841 293.853 197.138C293.853 197.138 283.39 217.247 269.975 210.544C269.975 210.544 263.805 205.718 266.756 197.406C266.756 197.406 289.829 183.464 285 212.957C285 212.957 278.829 245.935 253.341 234.138C253.341 234.138 246.097 230.652 238.853 215.638C238.853 215.638 231.341 199.283 210.414 217.247C210.414 217.247 203.17 225.826 205.585 237.087C208 248.08 222.219 231.189 210.146 219.66C210.146 219.66 193.244 206.254 181.975 219.928C179.292 223.145 176.609 226.363 173.39 229.044C154.878 244.863 98.5362 298.218 106.585 360.957C106.585 360.957 161.585 603.602 0.609375 588.051" stroke="#D27165" stroke-miterlimit="10"/></svg>'
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -27,147 +26,258 @@ clients:
   - clientLogoImg: "../../../assets/img/our-clients-5.svg"
     clientLogoalt: "our-client-5"
 
-featuresSecSubTitle: Lorem ipsum
-featuresSecTitle: Lorem ipsum
-featuresBoxList:
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-  - title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis."
-
-
-processSubtitle : "Process"
-processTitle : "Lorem ipsum dolor sit "
-processBoxList :
-
-- stepSubTitle: "Step 1"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 2"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 3"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 4"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 5"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-- stepSubTitle: "Step 6"
-  stepTitle: "Lorem ipsum"
-  stepDescription: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam..."
-
-devSubTitle : Lorem ipsum
-devTitle: Lorem ipsum dolor sit 
-devTitlePart : Awesome Android Apps
+devSubTitle : What we do
+devTitle: Support mental well-being with our
+devTitlePart : compassionate Mental Health App Development Service.
 devInformationList :
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
-- infoItem: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione.
+- infoItem: Mental health apps have become vital tools for supporting well-being, offering guided meditations, therapy sessions, and mood tracking. At Cypherox Technologies, we design apps that prioritize empathy, accessibility, and innovation. 
+- infoItem: Our team ensures your app is equipped with features like daily check-ins, progress tracking, and resource libraries to address user needs effectively. In a sensitive market, we focus on creating trustworthy apps by eliminating common issues like intrusive ads or lack of privacy. 
+- infoItem: By combining thoughtful design with advanced functionalities, we craft apps that empower users to prioritize their mental health. Let us help you build an app that makes a meaningful impact on users’ lives while fostering trust and loyalty.
 devBgImg: "/assets/img/top-development.webp"
 devBgAlt : "bg-img"
-  
-secTitle: "Services"
-secSubTitle: "Lorem ipsum dolor"  
+
+secSubTitle: "What We Provide"  
+secTitle: "Our Mental health App Solutions"
 servicesList:
-
   - count: "01."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Mindfulness Meditation Hub
+    pageLink: "javascript:;"
+    description: Access guided meditations and breathing exercises to reduce stress, improve focus, and foster a calm, balanced state of mind daily.
   - count: "02."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Mood Tracking Journal
+    pageLink: "javascript:;"
+    description: Log your emotions and identify patterns with a digital journal, helping you understand triggers and take proactive steps for better mental health.
   - count: "03."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Cognitive Behavioral Tools
+    pageLink: "javascript:;"
+    description: Engage in structured exercises based on CBT techniques to reframe negative thoughts and build resilience against anxiety or depression.
   - count: "04."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Sleep Enhancement Program
+    pageLink: "javascript:;"
+    description: Overcome insomnia with relaxing sounds, sleep stories, and bedtime routines designed to improve rest and restore mental clarity.
   - count: "05."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."
-
+    title: Personalized Therapy Matches
+    pageLink: "javascript:;"
+    description: Connect with licensed therapists tailored to your needs, offering virtual sessions that provide professional support from the comfort of home.
   - count: "06."
-    title: "Lorem ipsum dolor sit"
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quibusdam, laudantium quae repellendus accusamus odio itaque corporis ab nobis, soluta consequatur, quaerat beatae cum incidunt praesentium eum consectetur quod ratione."  
+    title: Stress Management Coach
+    pageLink: "javascript:;"
+    description: Learn practical coping strategies like visualization and relaxation techniques to manage stress effectively and maintain emotional well-being.
+  - count: "07."
+    title: Gratitude Practice Builder
+    pageLink: "javascript:;"
+    description: Cultivate positivity by recording daily gratitudes, fostering a mindset of appreciation and improving overall mental and emotional resilience.
+  - count: "08."
+    title: Crisis Support Hotline
+    pageLink: "javascript:;"
+    description: Access immediate help through confidential chat or call options, ensuring timely assistance during moments of emotional distress or emergencies.
 
+
+hireCtaTitle: "Hire Developers"
+hireCtaSubTitle: "Hire App Developers"
+hireCtaDesc: "Design impactful Mental Health apps to support businesses and user well-being. Provide tools for mindfulness, therapy, and stress management to foster mental wellness and resilience."
+hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonText: "Connect With Our Team"
+
+featuresSecSubTitle: Why Cypherox
+featuresSecTitle: Why Choose Cypherox for Mental Health App Solutions?
+featuresBoxList:
+  - title: Guided Therapy Sessions for Emotional Well-Being
+    description: Build apps offering professional therapy and counseling sessions to support users' mental health journeys.
+
+  - title: Personalized Mood Tracking & Insights
+    description: Create tools that allow users to monitor their moods daily and gain actionable insights into their mental well-being.
+
+  - title: Meditation & Mindfulness Exercises On-Demand
+    description: Develop apps with guided meditations, breathing exercises, and mindfulness practices for stress relief and relaxation.
+
+  - title: AI-Powered Mental Health Assessments
+    description: Integrate AI to provide users with self-assessment tools and personalized recommendations for improving mental health.
+
+  - title: Secure Journaling for Emotional Expression
+    description: Enable private digital journaling features where users can safely express thoughts and track progress over time.
+
+  - title: Community Support Groups for Connection
+    description: Design apps with safe spaces for users to connect, share experiences, and find encouragement from like-minded individuals.
+
+processSubtitle : "Our Development Process"
+processTitle : "Our Mental health App Solutions Process"
+processBoxList :
+- stepSubTitle: "Step 1"
+  stepTitle: Guided Therapy for Emotional Well-Being
+  stepDescription: Access professional therapy sessions and self-help tools designed to manage stress, anxiety, and depression for improved mental health.
+- stepSubTitle: "Step 2"
+  stepTitle: Mood Tracking to Understand Emotional Patterns
+  stepDescription: Monitor daily moods and emotions with easy-to-use tracking tools, helping users identify triggers and gain insights into their mental well-being.
+- stepSubTitle: "Step 3"
+  stepTitle: Mindfulness Exercises for Stress Reduction
+  stepDescription: Practice mindfulness through guided meditations, breathing exercises, and relaxation techniques to reduce stress and enhance focus.
+- stepSubTitle: "Step 4"
+  stepTitle: Personalized Self-Care Plans for Balance
+  stepDescription: Receive customized self-care routines tailored to individual needs, promoting healthier habits and a balanced lifestyle for long-term wellness.
+- stepSubTitle: "Step 5"
+  stepTitle: Crisis Support for Immediate Assistance
+  stepDescription: Connect with helplines, chatbots, or counselors during emergencies, ensuring users have access to support whenever they need it most.
+- stepSubTitle: "Step 6"
+  stepTitle: Progress Reports for Measurable Growth
+  stepDescription: Track improvements over time with detailed progress reports, empowering users to celebrate milestones and stay motivated on their wellness journey.
+
+
+faqSubtitle : "FAQs"
+faqTitle : "Frequently Asked Question for Mental health App Solutions"
+faqBoxList :
+- faqTitle: ""
+  faqDescription: ""
+
+- faqTitle: What features does the Mental Health App offer?
+  faqDescription: The app, developed by Cypherox Technologies, includes mood tracking, guided meditation, stress management exercises, journaling tools, and progress reports. It provides a comprehensive approach to support mental well-being and personal growth.
+
+- faqTitle: Can I track my mood and emotions daily?
+  faqDescription: Yes, the app allows you to log your mood and identify patterns over time. Cypherox Technologies ensures users gain insights into their emotional health, helping them manage stress and improve self-awareness.
+
+- faqTitle: Are there guided meditations for beginners?
+  faqDescription: Absolutely! The app offers beginner-friendly meditations and breathing exercises. Cypherox Technologies ensures accessibility for all experience levels, making mindfulness practices easy to adopt.
+
+- faqTitle: Does the app include tools for anxiety or depression?
+  faqDescription: Yes, it provides coping strategies, CBT-based exercises, and relaxation techniques. Cypherox Technologies prioritizes evidence-based tools to help users manage symptoms of anxiety and depression effectively.
+
+- faqTitle: Is my data secure within the app?
+  faqDescription: Your data is protected using advanced encryption and HIPAA compliance. Cypherox Technologies prioritizes privacy, ensuring sensitive information remains confidential and secure.
+
+- faqTitle: Can I set reminders for self-care activities?
+  faqDescription: Yes, the app allows you to schedule reminders for meditation, journaling, or breaks. Cypherox Technologies encourages consistent self-care routines to promote long-term mental wellness.
+
+- faqTitle: Does the app offer professional support or therapy options?
+  faqDescription: Yes, it includes access to licensed therapists via chat or video sessions (in select regions). Cypherox Technologies bridges the gap between self-help tools and professional care when needed.
+
+- faqTitle: Are there community features to connect with others?
+  faqDescription: Yes, the app offers moderated support groups and discussion forums. Cypherox Technologies fosters a safe, inclusive space for users to share experiences and find encouragement.
+
+- faqTitle: Can businesses use this app for employee wellness programs?
+  faqDescription: Yes, the app supports corporate wellness initiatives with group tracking and resources. Cypherox Technologies tailors solutions to help organizations enhance workplace mental health.
+
+- faqTitle: What kind of customer support is available?
+  faqDescription: Cypherox Technologies provides 24/7 email and chat support for technical assistance or inquiries. Our team is committed to ensuring a smooth and supportive user experience for everyone.
+
+  
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+          
+          - icon: "../../../assets/img/icon-Kotlin.svg"
+            alt: "icon-Kotlin"
+            title: "Kotlin"
+
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+          
+  - title: "Technologies"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
+        - icon: "../../../assets/img/icon-firebase.svg"
+          alt: "icon-firebase"
+          title: "Firebase"
+          
+        - icon: "../../../assets/img/icon-restful-apis.svg"
+          alt: "icon-restful-apis"
+          title: "REST APIs"
+          
+        - icon: "../../../assets/img/icon-push-notifications.svg"
+          alt: "icon-push-notifications"
+          title: "Push Notifications"
+          
+        - icon: "../../../assets/img/icon-integration.svg"
+          alt: "icon-integration"
+          title: "Wearable Integration"
+          
+  - title: "Database"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
 
-developmentPhasesSubTitle: "Phases"
-developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
-developmentPhases:
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-xctest.svg"
+            alt: "icon-xctest"
+            title: "XCTest"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"
+          - icon: "../../../assets/img/icon-espresso.svg"
+            alt: "icon-espresso"
+            title: "Espresso"
 
-  - title: "Lorem ipsum dolor sit"
-    pointsList:
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-      - item: "Lorem ipsum dolor"
-    image: "../../assets/img/phases-developing-app01.webp"            
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+
+          - icon: "../../../assets/img/icon-detox.svg"
+            alt: "icon-detox"
+            title: "Detox"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-swiftui.svg"
+            alt: "icon-swiftui"
+            title: "SwiftUI"
+
+          - icon: "../../../assets/img/icon-compose.svg"
+            alt: "icon-compose"
+            title: "Jetpack Compose"
+
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
+            title: "React Native"
+
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+         
 ---

@@ -200,7 +200,7 @@ phases:
           - icon: "../../../assets/img/icon-ibm-watson.svg"
             alt: "icon-ibm-watson"
             title: "IBM Watson Assistant"
-          - icon: "../../../assets/img/icon-microsoft-bot-frameworksvg"
+          - icon: "../../../assets/img/icon-microsoft-bot-framework.svg"
             alt: "icon-microsoft-bot-framework"
             title: "Microsoft Bot Framework"
 
