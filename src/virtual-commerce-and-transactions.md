@@ -166,11 +166,11 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-nlp-natural-language-processing.svg"
+            alt: "icon-nlp-natural-language-processing"
             title: "Natural Language Processing (NLP)"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-deep-learning.svg"
+            alt: "icon-deep-learning"
             title: "Deep Learning Algorithms"
           - icon: "../../../assets/img/"
             alt: ""

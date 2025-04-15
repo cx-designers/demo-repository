@@ -211,8 +211,13 @@ body {
 body {
 
   &.life-at-cypherox-page,
-  &.industries-details {
+  &.industries-details,
+  &.about-page {
     overflow: unset;
+
+    .gloabl-banner-inner-page {
+      overflow: hidden;
+    }
   }
 }
 
@@ -10341,6 +10346,9 @@ h5,
 h6,
 h1+p,
 h2+p,
+h2+p+p,
+h2+p+p+p,
+h2+p+p+p+p,
 h1+a,
 h2+a,
 h3+p,

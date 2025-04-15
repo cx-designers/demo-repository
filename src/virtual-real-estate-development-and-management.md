@@ -166,22 +166,22 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-nlp-natural-language-processing.svg"
+            alt: "icon-nlp-natural-language-processing"
             title: "Natural Language Processing (NLP)"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-deep-learning.svg"
+            alt: "icon-deep-learning"
             title: "Deep Learning Models"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-chatbot-frame-work.svg"
+            alt: "icon-chatbot-frame-work"
             title: "AI Chatbot Frameworks"
       
   - title: "Real Estate API & Data Integration"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-MLS.svg"
+            alt: "icon-MLS"
             title: "MLS & Property Listings APIs"
           - icon: "../../../assets/img/"
             alt: ""

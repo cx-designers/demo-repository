@@ -193,8 +193,8 @@ phases:
           - icon: "../../../assets/img/icon-rasa.svg"
             alt: "icon-rasa"
             title: "Rasa"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-deepmind.svg"
+            alt: "icon-deepmind"
             title: "DeepMind AI"
       
   - title: "Game Development & Integration"
@@ -210,8 +210,8 @@ phases:
           - icon: "../../../assets/img/icon-Aws.svg"
             alt: "icon-Aws"
             title: "AWS Game AI"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-speech-to-text.svg"
+            alt: "icon-google-speech-to-text"
             title: "Speech-to-Text APIs"
 
 hireCtaTitle: "Elevate Game Storytelling with AI-Powered Text Generation"
