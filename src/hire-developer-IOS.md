@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire Expert iOS App Developers | Hire Dedicated iOS Expert
+metaDescription: Hire experienced iOS developers for custom, high-performance iPhone & iPad apps. Swift, Objective-C, UI/UX, and App Store deployment—start your project now!
 bodyClass: "hireDeveloper-page IOS-developer"
 permalink: hire-developer-ios.html
 bannersubTitle: "Hire Developers"
@@ -155,19 +156,7 @@ faqBoxList :
 
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
+
 
 
 

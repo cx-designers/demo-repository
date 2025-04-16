@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Ai App Development Services Using Open Ai - Cypherox Technologies
+title: AI App Development Company | AI Development Services
+metaDescription: Transform your business with cutting-edge AI app development—intelligent automation, personalized experiences, and innovative solutions start here!
 bodyClass: "ai-app-development-services-using-open-ai"
 permalink: ai-app-development-services-using-open-ai.html
 bannersubTitle: "Service"

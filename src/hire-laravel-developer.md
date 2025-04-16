@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire Expert Laravel Developers | Hire Laravel Experts
+metaDescription: Build secure and scalable PHP web apps using Laravel. Enjoy rapid development, MVC structure, RESTful APIs, and clean, maintainable code.
 bodyClass: "hireDeveloper-page laravel-developer"
 permalink: hire-laravel-developer.html
 bannersubTitle: "Hire Developers"
@@ -205,25 +206,7 @@ faqBoxList :
 
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-05.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-06.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-07.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-08.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-09.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-10.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 
 

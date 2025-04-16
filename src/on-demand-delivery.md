@@ -1,6 +1,7 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: On-Demand Delivery Solutions | Scalable Tech for Logistics
+metaDescription: Power real-time services with on-demand delivery solutions, featuring AI-driven dispatch, route optimization & seamless order management.
 bodyClass: "on-demand-delivery industries-details"
 permalink: on-demand-delivery.html
 

@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: iOS App Development Company | iOS Development Services
+metaDescription: Top-notch iOS app development services with UI/UX design & tailored solutions to elevate your business. Turn ideas into reality—contact us today!
 bodyClass: "ios-app-development-services"
 permalink: ios-app-development-services.html
 bannersubTitle: "Service"

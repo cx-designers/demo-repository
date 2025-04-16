@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire Graphic Designer | Hire Our Graphics Experts | Cypherox
+metaDescription: Enhance your brand with stunning visuals crafted by expert designers. Logos, banners, packaging, social media assets, and marketing creatives.
 bodyClass: "hireDeveloper-page hire-graphic-designer"
 permalink: hire-graphic-designer.html
 bannersubTitle: "Hire Designers"
@@ -175,25 +176,6 @@ featuresBoxList:
 
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
 
 
 

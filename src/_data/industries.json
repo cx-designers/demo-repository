@@ -6,34 +6,40 @@
   "industriesTitlePart": "Industries",
   "industriesData": [
     {
-      "img": "assets/img/business.webp",
-      "alt": "Business",
-      "title": "Business"
+      "img": "assets/img/entertainment.webp",
+      "alt": "Entertainment",
+      "title": "Entertainment",
+      "pageLink" : ""
     },
     {
       "img": "assets/img/education.webp",
       "alt": "Education",
-      "title": "Education"
+      "title": "Education",
+      "pageLink" : ""
     },
     {
       "img": "assets/img/health-care.webp",
       "alt": "Health Care",
-      "title": "Health Care"
+      "title": "Health Care",
+      "pageLink" : ""
     },
     {
       "img": "assets/img/transportation.webp",
       "alt": "Transportation",
-      "title": "Transportation"
+      "title": "Transportation",
+      "pageLink" : ""
     },
     {
       "img": "assets/img/real-estate.webp",
       "alt": "Real Estate",
-      "title": "Real Estate"
+      "title": "Real Estate",
+      "pageLink" : ""
     },
     {
       "img": "assets/img/social-network.webp",
       "alt": "Social Network",
-      "title": "Social Network"
+      "title": "Social Network",
+      "pageLink" : ""
     }
   ]
 }

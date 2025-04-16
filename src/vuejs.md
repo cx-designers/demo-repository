@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Top VueJS Development Company | VueJS Web Solutions
+metaDescription: Build modern, high-performance web apps with our VueJS development services. Get scalable, fast, and interactive front-end solutions tailored to your needs.
 bodyClass: "vuejs"
 permalink: vuejs.html
 bannersubTitle: "Service"   

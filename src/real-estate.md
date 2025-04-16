@@ -1,6 +1,7 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: Real Estate Solutions | Smart Property Management Tech
+metaDescription: Simplify property transactions with real estate industry solutions, featuring AI-powered listings, virtual tours & smart contract systems.
 bodyClass: "real-estate industries-details"
 permalink: real-estate.html
 
@@ -144,25 +145,7 @@ sections:
 
 ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 featuresSecSubTitle: Real Estate Software Solutions
 featuresSecTitle: Comprehensive Real Estate Software Solutions

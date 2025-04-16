@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire Skilled NodeJS Developers | Hire NodeJS Experts
+metaDescription: Build scalable, event-driven web apps and APIs using NodeJS. Perfect for real-time features, cloud apps, and microservices architecture.
 bodyClass: "hire-nodejs-developers"
 permalink: hire-nodejs-developers.html
 bannersubTitle: "Hire Developers"
@@ -174,25 +175,7 @@ featuresBoxList:
 
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 
 

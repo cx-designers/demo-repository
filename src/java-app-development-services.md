@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Android App Development Services - Cypherox Technologies
+title: Java App Development Company | Java App Development Services
+metaDescription: Expert Java App Development Services for Scalable, Secure, and High-Performance Solutions. Transform Your Ideas into Reality—Get Started Today!
 bodyClass: "java-app-development-services"
 permalink: java-app-development-services.html
 bannersubTitle: "Service"

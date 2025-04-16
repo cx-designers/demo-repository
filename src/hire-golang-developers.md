@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire Top Golang Web App Developers | Hire Golang Experts
+metaDescription: Hire top Golang developers for secure, scalable web apps, APIs, and microservices. Build fast, cloud-ready solutions with proven Go expertise—get started now!
 bodyClass: "hire-golang-developers"
 permalink: hire-golang-developers.html
 bannersubTitle: "Hire App Developers"
@@ -184,25 +185,7 @@ featuresBoxList:
 
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 
 

@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire WooCommerce Developers | Hire WooCommerce Experts
+metaDescription: Develop secure, high-performance WooCommerce stores on WordPress. Custom plugins, themes, and seamless payment integrations—built to scale.
 bodyClass: "hire-woocommerce-developers"
 permalink: hire-woocommerce-developers.html
 bannersubTitle: "Hire Developers"
@@ -175,25 +176,6 @@ featuresBoxList:
 
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
 
 
 
@@ -241,4 +223,7 @@ categories:
     image: "/assets/img/finance.webp"
     description: "Manage your money smarter with apps like PayNow for Stripe and Pocket Wallet, keeping your financial documents secure."
 
+blogRelatedCtegory:
+  - "Web Development"
+  - "Development"    
 ---

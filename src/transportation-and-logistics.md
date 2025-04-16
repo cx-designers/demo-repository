@@ -1,6 +1,7 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: Transportation & Logistics Solutions | Smart Mobility Tech
+metaDescription: Improve efficiency with transportation & logistics solutions, featuring AI-powered fleet tracking, route planning & supply chain automation.
 bodyClass: "transportation-and-logistics industries-details"
 permalink: transportation-and-logistics.html
 

@@ -13,19 +13,7 @@ bannerHTML: '<svg width="956" height="892" viewBox="0 0 956 892" fill="none" xml
 
 ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
+
 
 phases:
   - title: "Platform"
@@ -109,4 +97,8 @@ phases:
 
 hireCtaTitle: "Hire Dedicated Developers to Elevate Your Vision"
 hireCtaDesc: "Are you looking for top-tier talent to bring your project to life? Hire dedicated developers who combine expertise, innovation, and a passion for excellence. From custom software to scalable web applications, our team delivers tailored solutions that align with your goals. Partner with us today and turn your vision into reality—let’s build something extraordinary together!"
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"
 ---

@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire VR Developers for Immersive Apps | Cypherox
+metaDescription: Create immersive virtual reality experiences for gaming, training, or education with expert VR developers using Unity, Unreal, and WebXR.
 bodyClass: "hire-vr-developers"
 permalink: hire-vr-developers.html
 bannersubTitle: "Hire Developers"
@@ -174,25 +175,7 @@ featuresBoxList:
 
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 
 
@@ -239,5 +222,9 @@ categories:
   - title: "Finance "
     image: "/assets/img/finance.webp"
     description: "Manage your money smarter with apps like PayNow for Stripe and Pocket Wallet, keeping your financial documents secure."
+
+blogRelatedCtegory:
+  - "Development"
+  - "Design"
 
 ---

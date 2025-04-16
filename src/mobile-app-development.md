@@ -1,7 +1,7 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Mobile App Design & Development | Sleek, Scalable, Powerful
-metaDescription: Get expert mobile app design and development for iOS & Android. Create intuitive, high-performance apps with seamless UI/UX and robust functionality.
+title: Best Mobile App Development Company | Application Solutions
+metaDescription: Transform ideas into reality with custom application development. Expert developers, secure platforms & scalable solutions tailored to your business.
 bodyClass: "mobile-app-development"
 permalink: mobile-app-development.html
 bannersubTitle: "Service"

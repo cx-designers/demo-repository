@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire Expert E-Commerce Developers | Hire Dedicated Developer
+metaDescription: Build high-converting eCommerce platforms tailored to your brand using Shopify, Magento, WooCommerce, and more. Scalable, secure, and fast.
 bodyClass: "hire-e-commerce-developers"
 permalink: hire-e-commerce-developers.html
 bannersubTitle: "Hire Developers"
@@ -173,26 +174,7 @@ buttonQuoteLink: "javascript:;"
 
 
 ourProjectsSubTitle: Worked For
-ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 
 phases:

@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Headless Web Development Services | Headless Web Solutions
+metaDescription: Build fast, flexible digital experiences with headless development. Integrate APIs, CMS, and front-end frameworks for scalable, future-ready solutions.
 bodyClass: "headless-web-development"
 permalink: headless-web-development.html
 bannersubTitle: "Service"   

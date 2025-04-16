@@ -1,6 +1,7 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: Education Industry Solutions | Smart Learning Technologies
+metaDescription: Empower learning with education industry solutions, featuring e-learning platforms, AI-driven tutoring & virtual classroom development.
 bodyClass: "education industries-details"
 permalink: education.html
 
@@ -126,25 +127,7 @@ sections:
 
 ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 featuresSecSubTitle: Education Software Solutions
 featuresSecTitle: Tailored Digital Solutions for Learning

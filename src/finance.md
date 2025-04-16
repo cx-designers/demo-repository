@@ -1,6 +1,7 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: Finance Industry Solutions | Secure FinTech Services
+metaDescription: Discover finance industry solutions, from AI-driven analytics to secure transaction systems, designed to optimize financial operations & security.
 bodyClass: "finance industries-details"
 permalink: finance.html
 
@@ -126,25 +127,7 @@ sections:
 
 ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 featuresSecSubTitle: Financial Software Solutions
 featuresSecTitle: Innovative Solutions for a Smarter Finance Industry

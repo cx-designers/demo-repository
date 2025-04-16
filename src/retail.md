@@ -1,6 +1,7 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: Retail Industry Solutions | Digital Transformation Services
+metaDescription: Optimize retail operations with custom retail industry solutions, including eCommerce, POS systems & AI-driven customer engagement tools.
 bodyClass: "retail industries-details"
 permalink: retail.html
 
@@ -126,25 +127,7 @@ ections:
 
 ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 featuresSecSubTitle: Retail Software Solutions
 featuresSecTitle: Innovative Tech for Retail Growth

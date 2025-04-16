@@ -1,6 +1,7 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: Manufacturing Industry Solutions | Smart & Scalable Tech
+metaDescription: Enhance productivity with manufacturing industry solutions, from automation & IoT to ERP systems & AI-powered production management.
 bodyClass: "manufacturing industries-details"
 permalink: manufacturing.html
 
@@ -126,25 +127,7 @@ sections:
 
 ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 featuresSecSubTitle: Manufacturing Software Solutions
 featuresSecTitle: Custom Solutions for Industrial Growth

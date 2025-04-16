@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Backend Framework App Development Services - Cypherox Technologies
+title: Ruby on Rails App Development Services | Cypherox
+metaDescription: Build secure, scalable web apps with expert Ruby on Rails development. From MVPs to full-stack solutions, we turn your vision into high-performing apps.
 bodyClass: "ruby-on-rails-app-development-services"
 permalink: ruby-on-rails-app-development-services.html
 bannersubTitle: "Service"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/industries-served.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Service Industry Solutions | Explore Our Range of Services
+metaDescription: Browse our service industry solutions, from software development to cloud computing, designed to streamline operations & drive business success. 
 bodyClass: "industries-served-page"
 permalink: industries-served.html
 bannersubTitle: "Industry Focused Solutions"
@@ -12,25 +13,7 @@ bannerHTML: ' <svg width="1150" height="754" viewBox="0 0 1300 854" fill="none" 
 
 ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 industriesList:
   - listURL: "/healthcare.html"
@@ -212,5 +195,6 @@ faqBoxList :
 
 - faqTitle: "How do I get started with industry software development?"
   faqDescription: "Contact us to discuss your industry needs, and we’ll guide you through the process."
+
 
 ---

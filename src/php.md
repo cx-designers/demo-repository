@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Back End Web Development Services - Cypherox Technologies
+title: Trusted PHP Development Company | PHP Web Solutions
+metaDescription: Get custom PHP development services for dynamic, scalable websites and web apps. Secure coding, fast delivery, and expert developers—start your project now!
 bodyClass: "php"
 permalink: php.html
 bannersubTitle: "Service"   

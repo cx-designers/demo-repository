@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire Skilled WordPress Developers | Hire Dedicated Experts
+metaDescription: Get custom WordPress websites and themes with fast loading, SEO optimization, and easy CMS control—built by expert WordPress developers.
 bodyClass: "hireDeveloper-page hire-wordpress-developer"
 permalink: hire-wordpress-developer.html
 bannersubTitle: "Hire Developers"
@@ -177,25 +178,7 @@ buttonQuoteLink: "javascript:;"
 
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 
 
@@ -243,4 +226,7 @@ categories:
     image: "/assets/img/finance.webp"
     description: "Manage your money smarter with apps like PayNow for Stripe and Pocket Wallet, keeping your financial documents secure."
 
+blogRelatedCtegory:
+  - "Web Development"
+  - "Development"    
 ---

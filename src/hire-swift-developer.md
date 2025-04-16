@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire Swift Developers for iOS Apps | Hire Swift Experts
+metaDescription: Hire skilled Swift developers to build fast, secure, and modern iOS apps. From concept to App Store, get high-quality mobile solutions tailored to your needs.
 bodyClass: "hireDeveloper-page swift-developer"
 permalink: hire-swift-developer.html
 bannersubTitle: "Hire Developers"
@@ -201,25 +202,7 @@ faqBoxList :
 
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-05.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-06.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 
 
@@ -320,4 +303,8 @@ phases:
           - icon: "../../../assets/img/icon-jenkins.svg"
             alt: "Jenkins"
             title: "Jenkins"  
+
+blogRelatedCtegory:
+  - "Web Development"
+  - "App Development"            
 ---

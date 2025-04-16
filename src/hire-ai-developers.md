@@ -1,6 +1,7 @@
 ---
 layout: layouts/hire-templates/hireIosDevloper.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Hire Expert AI Developers for Smart Solutions | Cypherox
+metaDescription: Develop intelligent applications with AI developers skilled in NLP, computer vision, and automation. Build custom AI solutions for your business.
 bodyClass: "hire-ai-developers"
 permalink: hire-ai-developers.html
 bannersubTitle: "Hire Developers"
@@ -125,25 +126,7 @@ buttonQuoteLink: "javascript:;"
 
 ourProjectsSubTitle: Lorem ipsum
 ourProjectsTitle: Lorem ipsum
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 
 

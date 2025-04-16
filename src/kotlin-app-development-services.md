@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Android App Development Services - Cypherox Technologies
+title: Kotlin App Development Company | Kotlin App Services
+metaDescription: Cutting-edge Kotlin app development for modern, high-performance Android apps. Scalable solutions tailored to your needs—elevate your business today!
 bodyClass: "kotlin-app-development-services"
 permalink: kotlin-app-development-services.html
 bannersubTitle: "Service"

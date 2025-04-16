@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Android App Development Services - Cypherox Technologies
+title: Android App Development Company | Android App Services
+metaDescription: Transform ideas into reality with Android app development. We build feature-rich, user-friendly apps aligned with your business goals. Start today!
 bodyClass: "android-app-development-services"
 permalink: android-app-development-services.html
 bannersubTitle: "Service"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Backend Framework App Development Services - Cypherox Technologies
+title: Framework App Development Services | Cypherox
+metaDescription: Build powerful, scalable apps with leading frameworks. Expert development for fast, secure, cross-platform solutions tailored to your business needs.
 bodyClass: "backend-framework-app-development-services"
 permalink: backend-framework-app-development-services.html
 bannersubTitle: "Service"
@@ -287,8 +288,8 @@ phases:
             alt: "icon-flutter"
             title: "Flutter"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-xamarin.svg"
+            alt: "icon-xamarin"
             title: "Xamarin.Forms"
 
           - icon: "../../../assets/img/icon-ionic.svg"

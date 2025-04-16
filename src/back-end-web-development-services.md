@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Back End Web Development Services - Cypherox Technologies
+title: Back-End Development Services Company | Backend Solutions
+metaDescription: Get secure, scalable back-end development with APIs, databases & cloud integration. Power your web and mobile apps with high-performance server-side solutions.
 bodyClass: "back-end-web-development-services"
 permalink: back-end-web-development-services.html
 bannersubTitle: "Service"   

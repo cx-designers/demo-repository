@@ -31,23 +31,8 @@ successstory:
 
 ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
 
 
-
-  
 faqBoxList :
 - faqTitle: "What services do you offer?"
   faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."

@@ -1,6 +1,6 @@
 ---
 layout: layouts/mobile-app-development.njk
-title: Real Estate Virtual Assistant | AI-Powered Automation  
+title: Real Estate Virtual Assistant | AI-Powered Automation
 metaDescription: Cypherox provides real estate virtual assistant development to automate client interactions, manage listings & enhance property sales with AI.
 bodyClass: "virtual-real-estate-development-and-management"
 permalink: virtual-real-estate-development-and-management.html
@@ -166,12 +166,15 @@ phases:
     blocks:
       - heading: ""
         items:
+          
           - icon: "../../../assets/img/icon-nlp-natural-language-processing.svg"
             alt: "icon-nlp-natural-language-processing"
             title: "Natural Language Processing (NLP)"
+          
           - icon: "../../../assets/img/icon-deep-learning.svg"
             alt: "icon-deep-learning"
             title: "Deep Learning Models"
+          
           - icon: "../../../assets/img/icon-chatbot-frame-work.svg"
             alt: "icon-chatbot-frame-work"
             title: "AI Chatbot Frameworks"
@@ -180,26 +183,32 @@ phases:
     blocks:
       - heading: ""
         items:
+          
           - icon: "../../../assets/img/icon-MLS.svg"
             alt: "icon-MLS"
             title: "MLS & Property Listings APIs"
-          - icon: "../../../assets/img/"
-            alt: ""
+          
+          - icon: "../../../assets/img/icon-crm-erp-system-integration.svg"
+            alt: "icon-crm-erp-system-integration"
             title: "CRM & ERP System Integration"
-          - icon: "../../../assets/img/"
-            alt: ""
+          
+          - icon: "../../../assets/img/icon-geolocation-mapping-tools.svg"
+            alt: "icon-geolocation-mapping-tools"
             title: "Geolocation & Mapping Tools"
       
   - title: "Virtual & Augmented Reality"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          
+          - icon: "../../../assets/img/icon-3d-property-visualization.svg"
+            alt: "icon-3d-property-visualization"
             title: "3D Property Visualization"
-          - icon: "../../../assets/img/"
-            alt: ""
+          
+          - icon: "../../../assets/img/icon-interactive-virtual-tours.svg"
+            alt: "icon-interactive-virtual-tours"
             title: "Interactive Virtual Tours"
+          
           - icon: "../../../assets/img/"
             alt: ""
             title: "Metaverse Integration"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Modern Web Development Services | Modern Web Solutions
+metaDescription: Build fast, responsive, and scalable websites using modern web technologies. From UI/UX to performance—create future-ready digital experiences today!
 bodyClass: "modern-web-development-approaches"
 permalink: modern-web-development-approaches.html
 bannersubTitle: "Service"   

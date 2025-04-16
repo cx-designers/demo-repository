@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Front end web development services - Cypherox Technologies
+title: Front-End Web Development Services | Front-End Solutions
+metaDescription: Get high-performance front-end development services with responsive UI, modern frameworks & fast load speeds. Build seamless, user-friendly websites today!
 bodyClass: "front-end-web-development-services"
 permalink: front-end-web-development-services.html
 bannersubTitle: "Service"   

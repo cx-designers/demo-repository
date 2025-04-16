@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Cross Platform App Development Services - Cypherox Technologies
+title: Cross Platform App Development Services | Cypherox
+metaDescription: Top cross-platform app development services to build and deploy high-performance mobile apps for iOS & Android. Start your project journey today!
 bodyClass: "cross-platform-app-development-services"
 permalink: cross-platform-app-development-services.html
 bannersubTitle: "Service"

@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: Objective-c Development Company | Objective-C Services
+metaDescription: Reliable Objective-C development for robust, scalable apps tailored to your business. Unlock your project's full potential—contact us today!
 bodyClass: "objective-c-app-development-services"
 permalink: objective-c-app-development-services.html
 bannersubTitle: "Service"
@@ -261,8 +262,8 @@ phases:
             alt: "icon-xctest-ui"
             title: "XCTest UI"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ocmock.svg"
+            alt: "icon-ocmock"
             title: "OCMock"
 
           - icon: "../../../assets/img/icon-appium.svg"

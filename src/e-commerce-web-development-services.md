@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Website Design & Development Company - Cypherox Technologies
+title: E-Commerce Development Services | eCommerce Web Solutions
+metaDescription: Build scalable, secure eCommerce platforms with custom features, payment integration & mobile optimization. Drive sales with expert online store solutions.
 bodyClass: "e-commerce-web-development-services"
 permalink: e-commerce-web-development-services.html
 bannersubTitle: "Service"   

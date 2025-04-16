@@ -1,6 +1,7 @@
 ---
 layout: layouts/Industries-details-inner.njk
-title: Industries Website Design & Development Company - Cypherox Technologies
+title: E-Commerce Solutions | Scalable Online Shopping Platforms
+metaDescription: Enhance digital sales with eCommerce & shopping industry solutions, offering AI-driven recommendations, secure payments & mobile commerce.
 bodyClass: "ecommerce-and-shopping industries-details"
 permalink: ecommerce-and-shopping.html
 
@@ -144,25 +145,7 @@ sections:
 
 ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
-ourProjectList:
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-03.webp"
-  alt: "our Project 03"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-04.webp"
-  alt: "our Project 04"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-01.webp"
-  alt: "our Project 01"
-  projectLink: "#"
-- projectImg: "assets/img/our-project-02.webp"
-  alt: "our Project 02"
-  projectLink: "#"
+
 
 featuresSecSubTitle: E-Commerce Software Solutions
 featuresSecTitle: Comprehensive Ecommerce & Shopping Software Solutions

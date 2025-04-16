@@ -1,6 +1,7 @@
 ---
 layout: layouts/service-template/ios-app-development-services.njk
-title: Backend Framework App Development Services - Cypherox Technologies
+title: Expert Golang App Development Services | Cypherox
+metaDescription: Scalable, high-performance Golang development for web apps, APIs & microservices. Build fast, secure backend systems tailored to your business.
 bodyClass: "golang-app-development-services"
 permalink: golang-app-development-services.html
 bannersubTitle: "Service"
