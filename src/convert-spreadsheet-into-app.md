@@ -178,14 +178,14 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-zapier.svg"
+            alt: "icon-zapier"
             title: "Zapier"
           - icon: "../../../assets/img/icon-restful-apis.svg"
             alt: "icon-restful-apis"
             title: "RESTful APIs"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-google-sheets-api.svg"
+            alt: "icon-google-sheets-api"
             title: "Google Sheets API"
 
 hireCtaTitle: "Get a Smarter, Scalable Business Solution"

@@ -90,42 +90,52 @@ differentcategoriesTitle : "Different Categories for Your Special App Solutions"
 categories:
   - title: "Fitness & Wellness"
     image: "/assets/img/categories-1.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
   - title: "Delivery Solutions"
     image: "/assets/img/categories-2.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
   - title: "Food Services"
     image: "/assets/img/categories-3.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
   - title: "Transportation"
     image: "/assets/img/categories-4.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
   - title: "Grocery & Essentials"
     image: "/assets/img/categories-5.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
   - title: "Home Maintenance"
     image: "/assets/img/categories-6.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
   - title: "Logistics Management"
     image: "/assets/img/categories-7.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
   - title: "Beauty & Personal Care"
     image: "/assets/img/categories-8.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
   - title: "Household Services"
     image: "/assets/img/categories-9.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
   - title: "Laundry & Cleaning"
     image: "/assets/img/categories-10.webp"
+    catLink: "javascript:void(0);"
     description: "Craft a delivery app, similar to our SwiftSend or PackItNow, for swift and efficient courier services, ensuring timely and secure package deliveries."
 
 servicesDescsubTitle: Services

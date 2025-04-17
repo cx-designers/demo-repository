@@ -77,31 +77,6 @@ pertnershipTitle : "Hire an Expert IOS Developer"
 pertnershipTitletwo : "on a Monthly or Hourly Basis"
 pertnershipTitledescription : "Elevate your business with our skilled iOS developers who specialize in building high-performance, intuitive applications for Apple devices. Leveraging the latest technologies and adhering to Apple’s design principles, we deliver secure, scalable, and user-friendly apps tailored to your business goals. Whether you need a consumer app or an enterprise solution, our team ensures timely delivery and exceptional quality. Explore flexible engagement models to align with your project needs."
 
-plans:
-  - title: "Part Time Developer"
-    details:
-      - "XYZ DAYS OR WEEKS"
-      - "Billing Cycle: xyz"
-      - "Minimum: xyz month"
-      - "XYZ HOURS/MONTH"
-    cta: "Choose Now"
-
-  - title: "Full-Time Developer"
-    details:
-      - "XYZ DAYS OR WEEKS"
-      - "Billing Cycle: xyz"
-      - "Minimum: xyz month"
-      - "XYZ HOURS/MONTH"
-    cta: "Choose Now"
-    tag: "MOST POPULAR"
-
-  - title: "Hourly Developer"
-    details:
-      - "Billing Cycle:"
-      - "Minimum: xyz hour"
-      - "Pay based on hours"
-      - "CUSTOM HOURS"
-    cta: "Choose Now"
 
 featuresSecSubTitle: Hiring Developers
 featuresSecTitle: Why Hire iOS Developers From Cypherox?
@@ -244,41 +219,7 @@ phases:
             alt: "Sublime Text"
             title: "Sublime Text"
 
-differentcategoriesSubtitle: "Industries"
-differentcategoriesTitle : "Various Industries We've Served"
 
-categories:
-  - title: "Real Estate"
-    image: "/assets/img/real-estate.webp"
-    description: "We make property buying and selling easier with apps like Bada Property and Reposit, managing documents and property details."
-
-  - title: "Food & Beverages"
-    image: "/assets/img/categories-3.webp"
-    description: "From grocery to food delivery, our apps like Glovo, Lacy, and Bevy streamline the entire process, making it easier to get what you need."
-
-  - title: "Social Networking"
-    image: "/assets/img/social-network.webp"
-    description: "We've built apps like Swype, Loop, and My Circle that connect people worldwide, helping them make new connections and plan events."
-
-  - title: "E-commerce"
-    image: "/assets/img/business.webp"
-    description: "Want something delivered? Our apps, like those for taxis, photographers, and groceries, offer easy, on-demand services like Uber."
-
-  - title: "Health and Fitness"
-    image: "/assets/img/health-care.webp"
-    description: "Stay fit with apps like Ryan Spiteri Fitness, Conduet Med for connecting patients and doctors, and Get Fit Buddy for tracking your fitness journey."
-
-  - title: "Education "
-    image: "/assets/img/education.webp"
-    description: "Our apps, such as School Reviewer and Counting in Japanese, help in learning new things or connecting students, teachers, and parents."
-
-  - title: "Hospitality "
-    image: "/assets/img/hospitality.webp"
-    description: "Need a place to stay or dine? Our apps like Nuzhah, Gr8dine, and Travel Cutter make it easy to book, find, and manage expenses."
-
-  - title: "Finance "
-    image: "/assets/img/finance.webp"
-    description: "Manage your money smarter with apps like PayNow for Stripe and Pocket Wallet, keeping your financial documents secure."
 
 blogRelatedCtegory:
   - "Web Development"

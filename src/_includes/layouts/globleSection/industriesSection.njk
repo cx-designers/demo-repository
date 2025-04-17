@@ -46,6 +46,7 @@
             {% if item.img or item.title %}
             <div class="slider-item">
               <div class="industries-item">
+                <a href="{{ item.pageLink }}" class="industries-item-link">
                 {% if item.img %}
                   <div class="image-sec">
                     <img src="{{ item.img }}" alt="{{ item.alt or '' }}">
@@ -56,6 +57,7 @@
                     <p>{{ item.title }}</p>
                   </div>
                 {% endif %}
+              </a>
               </div>
             </div>
             {% endif %}
@@ -76,16 +78,18 @@
                 {% if item.img or item.title %}
                 <div class="cust-slider-item swiper-slide">
                   <div class="industries-item">
-                    {% if item.img %}
-                      <div class="image-sec">
-                        <img src="{{ item.img }}" alt="{{ item.alt or '' }}">
-                      </div>
-                    {% endif %}
-                    {% if item.title %}
-                      <div class="industries-title">
-                        <p>{{ item.title }}</p>
-                      </div>
-                    {% endif %}
+                    <a href="{{ item.pageLink }}" class="industries-item-link">
+                      {% if item.img %}
+                        <div class="image-sec">
+                          <img src="{{ item.img }}" alt="{{ item.alt or '' }}">
+                        </div>
+                      {% endif %}
+                      {% if item.title %}
+                        <div class="industries-title">
+                          <p>{{ item.title }}</p>
+                        </div>
+                      {% endif %}
+                    </a>
                   </div>
                 </div>
                 {% endif %}

@@ -318,8 +318,8 @@ phases:
             alt: "icon-firebase-cloud-messaging"
             title: "Firebase Cloud Messaging (FCM)"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-onesignal.svg"
+            alt: "icon-onesignal"
             title: "OneSignal"
 
   - title: "Analytics"

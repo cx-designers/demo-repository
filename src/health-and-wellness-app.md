@@ -245,20 +245,42 @@ phases:
 
   - title: "Framework"
     blocks:
-      - icon: "../../../assets/img/icon-swiftui.svg"
-        alt: "icon-swiftui"
-        title: "SwiftUI"
-        
-      - icon: "../../../assets/img/icon-compose.svg"
-        alt: "icon-compose"
-        title: "Jetpack Compose"
-        
-      - icon: "../../../assets/img/icon-react-native.svg"
-        alt: "icon-react-native"
-        title: "React Native"
-        
-      - icon: "../../../assets/img/icon-flutter.svg"
-        alt: "icon-flutter"
-        title: "Flutter"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-swiftui.svg"
+            alt: "icon-swiftui"
+            title: "SwiftUI"
+            
+          - icon: "../../../assets/img/icon-compose.svg"
+            alt: "icon-compose"
+            title: "Jetpack Compose"
+            
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
+            title: "React Native"
+            
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
 
 ---

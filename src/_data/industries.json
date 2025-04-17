@@ -9,37 +9,37 @@
       "img": "assets/img/entertainment.webp",
       "alt": "Entertainment",
       "title": "Entertainment",
-      "pageLink" : ""
+      "pageLink" : "/entertainment.html"
     },
     {
       "img": "assets/img/education.webp",
       "alt": "Education",
       "title": "Education",
-      "pageLink" : ""
+      "pageLink" : "/Education.html"
     },
     {
       "img": "assets/img/health-care.webp",
       "alt": "Health Care",
       "title": "Health Care",
-      "pageLink" : ""
+      "pageLink" : "/healthcare.html"
     },
     {
       "img": "assets/img/transportation.webp",
       "alt": "Transportation",
       "title": "Transportation",
-      "pageLink" : ""
+      "pageLink" : "/transportation.html"
     },
     {
       "img": "assets/img/real-estate.webp",
       "alt": "Real Estate",
       "title": "Real Estate",
-      "pageLink" : ""
+      "pageLink" : "/real-estate.html"
     },
     {
       "img": "assets/img/social-network.webp",
       "alt": "Social Network",
       "title": "Social Network",
-      "pageLink" : ""
+      "pageLink" : "/social-networking.html"
     }
   ]
 }

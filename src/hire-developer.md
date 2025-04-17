@@ -27,31 +27,6 @@ pertnershipTitle : "Our Partnership"
 pertnershipTitletwo : "Approaches"
 pertnershipTitledescription : "We have different ways for us to work together. It's like picking a game to play! Whether you want to work together for a short time or for a long one, we have options for you. Our team is here to help if you're not sure which way to go. Let's make working together fun!"
 
-plans:
-  - title: "Part Time Developer"
-    details:
-      - "XYZ DAYS OR WEEKS"
-      - "Billing Cycle: xyz"
-      - "Minimum: xyz month"
-      - "XYZ HOURS/MONTH"
-    cta: "Choose Now"
-
-  - title: "Full-Time Developer"
-    details:
-      - "XYZ DAYS OR WEEKS"
-      - "Billing Cycle: xyz"
-      - "Minimum: xyz month"
-      - "XYZ HOURS/MONTH"
-    cta: "Choose Now"
-    tag: "MOST POPULAR"
-
-  - title: "Hourly Developer"
-    details:
-      - "Billing Cycle:"
-      - "Minimum: xyz hour"
-      - "Pay based on hours"
-      - "CUSTOM HOURS"
-    cta: "Choose Now"
 
 dedicatedteamSubtitle: "Process to Hire"
 dedicatedteamTitle : "Have a Look at"

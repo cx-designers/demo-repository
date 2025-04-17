@@ -249,8 +249,8 @@ phases:
           - icon: "../../../assets/img/icon-Kotlin.svg"
             alt: "icon-Kotlin"
             title: "Kotlin"
-          - icon: ""
-            alt: ""
+          - icon: "../../../assets/img/icon-xamarin.svg"
+            alt: "icon-xamarin"
             title: "Xamarin"
 
   - title: "Backend & API Integration"
@@ -278,17 +278,17 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-material-design.svg"
+            alt: "icon-material-design"
             title: "Material Design"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-apple-human-interface-guidelines.svg"
+            alt: "icon-apple-human-interface-guidelines"
             title: "Apple Human Interface Guidelines"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-responsive-design.svg"
+            alt: "icon-responsive-design"
             title: "Responsive Design"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-caching-offline-storage.svg"
+            alt: "icon-caching-offline-storage"
             title: "Caching & Offline Storage"
           
           

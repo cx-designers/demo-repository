@@ -209,8 +209,8 @@ phases:
             alt: "icon-interactive-virtual-tours"
             title: "Interactive Virtual Tours"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-metaverse-virtual-reality.svg"
+            alt: "icon-metaverse-virtual-reality"
             title: "Metaverse Integration"
 
 hireCtaTitle: "Enhance Property Management with Virtual Assistant Developments"

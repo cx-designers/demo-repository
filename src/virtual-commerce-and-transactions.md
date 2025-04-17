@@ -172,8 +172,8 @@ phases:
           - icon: "../../../assets/img/icon-deep-learning.svg"
             alt: "icon-deep-learning"
             title: "Deep Learning Algorithms"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ai-chatbot-frameworks.svg"
+            alt: "icon-ai-powered-recommendation-systems"
             title: "AI-Powered Recommendation Systems"
       
   - title: "E-Commerce & Payment Integration"

@@ -174,33 +174,33 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ai-powered-avatar-customization.svg"
+            alt: "icon-ai-powered-avatar-customization"
             title: "AI-powered avatar customization"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-facial-recognition-expression-mapping.svg"
+            alt: "icon-facial-recognition-expression-mapping"
             title: "Facial recognition & expression mapping"
       
   - title: "Blockchain & NFT Integration"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-secure-digital-identity-authentication.svg"
+            alt: "icon-secure-digital-identity-authentication"
             title: "Secure digital identity authentication"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-nft-based-avatar-ownership.svg"
+            alt: "icon-nft-based-avatar-ownership"
             title: "NFT-based avatar ownership"
       
   - title: "3D Modeling & Motion Capture"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-high-quality-3d-avatar-rendering.svg"
+            alt: "icon-high-quality-3d-avatar-rendering"
             title: "High-quality 3D avatar rendering"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-real-time-motion-tracking-animation.svg"
+            alt: "icon-real-time-motion-tracking-animation"
             title: "Real-time motion tracking & animation"
 
 hireCtaTitle: "Revolutionize Virtual Interactions with Lifelike Avatars"

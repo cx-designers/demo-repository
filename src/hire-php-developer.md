@@ -101,31 +101,7 @@ pertnershipTitle : "Hire PHP Developers"
 pertnershipTitletwo : "on a Monthly or Hourly Basis"
 pertnershipTitledescription : "Build robust, dynamic websites and applications with our skilled PHP developers who specialize in creating secure and scalable solutions. Leveraging PHP’s versatility, we deliver custom CMS, e-commerce platforms, and web apps tailored to your business goals. Our team ensures clean code, rapid deployment, and long-term support. Choose flexible engagement models to align with your project scope."
 
-plans:
-  - title: "Part Time Developer"
-    details:
-      - "XYZ DAYS OR WEEKS"
-      - "Billing Cycle: xyz"
-      - "Minimum: xyz month"
-      - "XYZ HOURS/MONTH"
-    cta: "Choose Now"
 
-  - title: "Full-Time Developer"
-    details:
-      - "XYZ DAYS OR WEEKS"
-      - "Billing Cycle: xyz"
-      - "Minimum: xyz month"
-      - "XYZ HOURS/MONTH"
-    cta: "Choose Now"
-    tag: "MOST POPULAR"
-
-  - title: "Hourly Developer"
-    details:
-      - "Billing Cycle:"
-      - "Minimum: xyz hour"
-      - "Pay based on hours"
-      - "CUSTOM HOURS"
-    cta: "Choose Now"
 
 featuresSecSubTitle: Hiring Developers
 featuresSecTitle: Why Hire PHP Developers From Cypherox?
@@ -148,41 +124,7 @@ featuresBoxList:
   - title: "Comprehensive Support & Maintenance Plans"
     description: "Provide ongoing assistance, including updates, bug fixes, and performance tuning, ensuring your PHP application remains functional and future-ready."
 
-differentcategoriesSubtitle: "Industries"
-differentcategoriesTitle : "Various Industries We've Served"
 
-categories:
-  - title: "Real Estate"
-    image: "/assets/img/real-estate.webp"
-    description: "We make property buying and selling easier with apps like Bada Property and Reposit, managing documents and property details."
-
-  - title: "Food & Beverages"
-    image: "/assets/img/categories-3.webp"
-    description: "From grocery to food delivery, our apps like Glovo, Lacy, and Bevy streamline the entire process, making it easier to get what you need."
-
-  - title: "Social Networking"
-    image: "/assets/img/social-network.webp"
-    description: "We've built apps like Swype, Loop, and My Circle that connect people worldwide, helping them make new connections and plan events."
-
-  - title: "E-commerce"
-    image: "/assets/img/business.webp"
-    description: "Want something delivered? Our apps, like those for taxis, photographers, and groceries, offer easy, on-demand services like Uber."
-
-  - title: "Health and Fitness"
-    image: "/assets/img/health-care.webp"
-    description: "Stay fit with apps like Ryan Spiteri Fitness, Conduet Med for connecting patients and doctors, and Get Fit Buddy for tracking your fitness journey."
-
-  - title: "Education "
-    image: "/assets/img/education.webp"
-    description: "Our apps, such as School Reviewer and Counting in Japanese, help in learning new things or connecting students, teachers, and parents."
-
-  - title: "Hospitality "
-    image: "/assets/img/hospitality.webp"
-    description: "Need a place to stay or dine? Our apps like Nuzhah, Gr8dine, and Travel Cutter make it easy to book, find, and manage expenses."
-
-  - title: "Finance "
-    image: "/assets/img/finance.webp"
-    description: "Manage your money smarter with apps like PayNow for Stripe and Pocket Wallet, keeping your financial documents secure."
 
 
 faqSubtitle : "Have a Look at"

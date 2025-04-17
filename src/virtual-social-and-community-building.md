@@ -158,33 +158,33 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ai-driven-content-recommendations.svg"
+            alt: "icon-ai-driven-content-recommendations"
             title: "AI-driven content recommendations"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-behavioral-analytics-tools.svg"
+            alt: "icon-behavioral-analytics-tools"
             title: "Behavioral analytics tools"
       
   - title: "Community Platforms & Integrations"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-custom-forum.svg"
+            alt: "icon-custom-forum"
             title: "Custom forum and group building"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-social-media-api-integration.svg"
+            alt: "icon-social-media-api-integration"
             title: "Social media API integration"
       
   - title: "Engagement Tools"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-live-chat-and-real-time-messaging.svg"
+            alt: "icon-live-chat-and-real-time-messaging"
             title: "Live chat and real-time messaging"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-event-hosting-platforms.svg"
+            alt: "icon-event-hosting-platforms"
             title: "Event hosting platforms"
 
 hireCtaTitle: "Create, Grow, and Engage Your Virtual Community"

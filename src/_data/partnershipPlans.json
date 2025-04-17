@@ -1,0 +1,35 @@
+{
+  "plans": [
+    {
+      "title": "Part Time Developer:",
+      "details": [
+        "8 Hours Per Day",
+        "30 days / month ( i.e. 4 weeks Per Month )",
+        "Billing Cycle: Weekly",
+        "Minimum: 80 hours/month"
+      ],
+      "cta": ""
+    },
+    {
+      "title": "Full Time Developer:",
+      "details": [
+        "8 Hours Per Day",
+        "30 days / month ( i.e. 4 weeks Per Month )",
+        "Billing Cycle: Weekly",
+        "Minimum: 160 hours/month"
+      ],
+      "cta": "",
+      "tag": "MOST POPULAR"
+    },
+    {
+      "title": "Hourly Developer:",
+      "details": [
+        "Custom Hours ( As Per Your Needs )",
+        "Payment based on hours.",
+        "Billing Cycle: Weekly",
+        "Minimum Hours: 80/month"
+      ],
+      "cta": ""
+    }
+  ]
+}

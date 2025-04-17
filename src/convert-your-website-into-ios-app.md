@@ -260,8 +260,8 @@ phases:
           - icon: "../../../assets/img/icon-graphql.svg"
             alt: "icon-graphql"
             title: "GraphQL"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-core-data.svg"
+            alt: "icon-core-data"
             title: "Core Data"
 
       
@@ -269,17 +269,17 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-uikit.svg"
+            alt: "icon-uikit"
             title: "UIKit & SwiftUI"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-adaptive-layouts.svg"
+            alt: "icon-adaptive-layouts"
             title: "Adaptive Layouts"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-offline-storage.svg"
+            alt: "icon-offline-storage"
             title: "Offline Storage"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-fast-load-time.svg"
+            alt: "icon-fast-load-time"
             title: "Fast Load Time"
           
           

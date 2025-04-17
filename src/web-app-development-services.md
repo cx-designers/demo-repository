@@ -42,37 +42,37 @@ secSubTitle: "What We Provide"
 secTitle: "Our Web Development Services"
 servicesList:
   - count: "01."
-    title: "Front-End Development Services:"
+    title: "Front-End Development Services"
     pageLink: "/hire-a-front-end-web-developer.html"
     description: Transform your vision into stunning, responsive, and user-friendly interfaces with seamless navigation. Our expertise in HTML, CSS, and JavaScript ensures pixel-perfect designs that engage users. Elevate your website today.
 
   - count: "02."
-    title: "Back-End Development Services:"
+    title: "Back-End Development Services"
     pageLink: "/back-end-web-development-services.html"
     description: Build robust server-side architectures with secure APIs, database management, and scalable logic. From Node.js to Python, we ensure high performance and reliability for your applications. Empower your backend now.
 
   - count: "03."
-    title: "Full Stack Development Services:"
+    title: "Full Stack Development Services"
     pageLink: "/full-stack-and-specialized-platforms.html"
     description: From concept to deployment, our full-stack developers craft dynamic, end-to-end solutions using cutting-edge technologies. Whether it’s frontend or backend, we deliver seamless integration and functionality. Start your project today.
 
   - count: "04."
-    title: "E-Commerce Development Services:"
+    title: "E-Commerce Development Services"
     pageLink: "/e-commerce-web-development-services.html"
     description: Create feature-rich online stores with secure payment gateways, mobile optimization, and advanced SEO tools. Drive sales and enhance customer experience with custom e-commerce platforms. Boost your business now.
 
   - count: "05."
-    title: "CMS Development Services:"
+    title: "CMS Development Services"
     pageLink: "/content-management-system-web-development-services.html"
     description: Customize WordPress, Drupal, or Joomla for easy content management. Add unique themes, plugins, and SEO-friendly features to scale your website effortlessly. Simplify content updates today.
 
   - count: "06."
-    title: "Modern Web Development Services:"
+    title: "Modern Web Development Services"
     pageLink: "/modern-web-development-approaches.html"
     description: Leverage modern frameworks like React, Angular, and Vue.js to build progressive web apps (PWAs) and cloud-integrated solutions. Stay ahead with high-performance, future-ready websites. Innovate your web presence now.
 
   - count: "07."
-    title: "ERP and CRM Development Services:"
+    title: "ERP and CRM Development Services"
     pageLink: "//crm-and-erp-development.html"
     description: Streamline operations with custom ERP systems and enhance customer relationships through intuitive CRM platforms. Automate workflows, analyze data, and improve efficiency. Transform your business processes today.
 
@@ -349,12 +349,12 @@ phases:
             alt: "icon-google-cloud-platform"
             title: "Google Cloud Platform"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-netlify.svg"
+            alt: "icon-netlify"
             title: "Netlify"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-vercel.svg"
+            alt: "icon-vercel"
             title: "Vercel"
             
           - icon: "../../../assets/img/icon-heroku.svg"
@@ -373,16 +373,16 @@ phases:
             alt: "icon-Drupal"
             title: "Drupal"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-strapi.svg"
+            alt: "icon-strapi"
             title: "Strapi"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-contentful.svg"
+            alt: "icon-contentful"
             title: "Contentful"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-sanity.svg"
+            alt: "icon-sanity"
             title: "Sanity"
 
   - title: "Analytics"

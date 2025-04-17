@@ -166,33 +166,33 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ai-powered-matchmaking.svg"
+            alt: "icon-ai-powered-matchmaking"
             title: "AI-powered matchmaking for networking"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-smart-event-recommendations.svg"
+            alt: "icon-smart-event-recommendations"
             title: "Smart event recommendations based on interests"
       
   - title: "Live Streaming & Video Solutions"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-high-definition-streaming.svg"
+            alt: "icon-high-definition-streaming"
             title: "High-definition streaming platforms"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-interactive-session-hosting.svg"
+            alt: "icon-interactive-session-hosting"
             title: "Interactive session hosting and audience engagement tools"
       
   - title: "Web & Mobile Integration"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-cross-platform-accessibility.svg"
+            alt: "icon-cross-platform-accessibility"
             title: "Cross-platform accessibility for attendees"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-mobile-event-apps-for-real-time-updates.svg"
+            alt: "icon-mobile-event-apps-for-real-time-updates"
             title: "Mobile event apps for real-time updates"
 
 hireCtaTitle: "Host and Manage Your Virtual Events with Expert Solutions"

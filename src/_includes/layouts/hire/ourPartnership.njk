@@ -1,3 +1,4 @@
+{% set plansData = partnershipPlans %}
 <section class="our-Partnership">
     <div class="container">
         <div class="row">
@@ -17,30 +18,34 @@
         <div class="row">
             <div class="col-full">
                 <div class="developer-cards">
-                    {% for plan in plans %}
-                    <div class="card-box {% if plan.tag == 'MOST POPULAR' %} most-popular {% endif %}">
+                    {% for plan in plansData.plans %}
+                      <div class="card-box {% if plan.tag == 'MOST POPULAR' %} most-popular {% endif %}">
                         <div class="card">
-                            {% if plan.tag %}
-                                <div class="card-badge">{{ plan.tag }}</div>
-                            {% endif %}
-                            <h3>{{ plan.title }}</h3>
-                            <ul>
-                                {% for detail in plan.details %}
-                                <li>
-                                    <span>
-                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.0234375 13.7016C4.2041 18.225 8.25762 22.2973 12.1541 27.4477C16.3904 19.0219 20.7264 10.5668 27.8807 1.41035L25.9529 0.527344C19.9119 6.93398 15.2186 12.9984 11.1404 20.2055C8.30449 17.6508 3.72129 14.0355 0.922852 12.1781L0.0234375 13.7016Z" fill="#F26E65"/>
-                                        </svg>
-                                    </span>
-                                    {{ detail }}
-                                </li>
-                                {% endfor %}
-                            </ul>
-                            <a href="#">{{ plan.cta }}</a>
+                          {% if plan.tag %}
+                            <div class="card-badge">{{ plan.tag }}</div>
+                          {% endif %}
+                          <h3>{{ plan.title }}</h3>
+                          <ul>
+                            {% for detail in plan.details %}
+                              <li>
+                                <span>
+                                  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.0234375 13.7016C4.2041 18.225 8.25762 22.2973 12.1541 27.4477C16.3904 19.0219 20.7264 10.5668 27.8807 1.41035L25.9529 0.527344C19.9119 6.93398 15.2186 12.9984 11.1404 20.2055C8.30449 17.6508 3.72129 14.0355 0.922852 12.1781L0.0234375 13.7016Z" fill="#F26E65"/>
+                                  </svg>
+                                </span>
+                                {{ detail }}
+                              </li>
+                            {% endfor %}
+                          </ul>
+                  
+                          {% if plan.cta %}
+                            <a href="javascript:void(0);">{{ plan.cta }}</a>
+                          {% endif %}
                         </div>
-                    </div>
+                      </div>
                     {% endfor %}
                   </div>
+                  
                   
                   
             </div>              

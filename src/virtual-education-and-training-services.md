@@ -147,33 +147,33 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-3d-virtual-classrooms-environments.svg"
+            alt: "icon-3d-virtual-classrooms-environments"
             title: "3D virtual classrooms & environments"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-interactive-learning-modules.svg"
+            alt: "icon-interactive-learning-modules"
             title: "Interactive AR learning modules"
       
   - title: "Artificial Intelligence & Machine Learning"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-personalized-learning-recommendations.svg"
+            alt: "icon-personalized-learning-recommendations"
             title: "Personalized learning recommendations"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-automated-assessment-feedback-systems.svg"
+            alt: "icon-automated-assessment-feedback-systems"
             title: "Automated assessment & feedback systems"
       
   - title: "Cloud-Based Learning Platforms"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-scalable-e-learning-lms-integration.svg"
+            alt: "icon-scalable-e-learning-lms-integration"
             title: "Scalable e-learning & LMS integration"
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-seamless-remote-access-collaboration.svg"
+            alt: "icon-seamless-remote-access-collaboration"
             title: "Seamless remote access & collaboration"
 
 hireCtaTitle: "Bring Learning to Life with Virtual Education and Training"
