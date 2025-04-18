@@ -160,16 +160,125 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+            
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "icon-html"
+            title: "HTML5"
+            
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "icon-css"
+            title: "CSS3"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-vuex.svg"
+            alt: "icon-vuex"
+            title: "Vuex"
+            
+          - icon: "../../../assets/img/icon-vue-router.svg"
+            alt: "icon-vue-router"
+            title: "Vue Router"
 
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+            
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
 
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Vue Test Utils"
+            
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-vue.svg"
+            alt: "icon-vue"
+            title: "Vue.js"
+            
+          - icon: "../../../assets/img/icon-nuxt.svg"
+            alt: "icon-nuxt"
+            title: "Nuxt.js"
+
+          - icon: "../../../assets/img/icon-vite.svg"
+            alt: "icon-vite"
+            title: "Vite"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 blogRelatedCtegory:
   - "Web Development"

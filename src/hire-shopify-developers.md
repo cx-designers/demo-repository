@@ -168,18 +168,121 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-liquid.svg"
+            alt: "icon-liquid"
+            title: "Liquid"
 
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
 
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "icon-html"
+            title: "HTML5"
+          
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "icon-css"
+            title: "CSS3"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-shopify.svg"
+            alt: "icon-shopify"
+            title: "Shopify API"
+
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-webhooks.svg"
+            alt: "icon-webhooks"
+            title: "Webhooks"
+            
+          - icon: "../../../assets/img/icon-stripe.svg"
+            alt: "icon-stripe"
+            title: "Stripe"
+          
+          - icon: "../../../assets/img/icon-PayPal.svg"
+            alt: "icon-PayPal"
+            title: "PayPal"
+
+          - icon: "../../../assets/img/icon-braintree.svg"
+            alt: "icon-braintree"
+            title: "Braintree"
+
+          - icon: "../../../assets/img/icon-authorize.net.svg"
+            alt: "icon-authorize.net"
+            title: "Authorize.Net"
+
+          - icon: "../../../assets/img/icon-adyen.svg"
+            alt: "icon-adyen"
+            title: "Adyen"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/icon-manual-testing.svg"
+            alt: "icon-manual-testing"
+            title: "Manual Testing"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-shopify-themes.svg"
+            alt: "icon-shopify-themes"
+            title: "Shopify Themes"
+
+          - icon: "../../../assets/img/icon-shopify-app-development.svg"
+            alt: "icon-shopify-app-development"
+            title: "Shopify App Development"
+          
+          - icon: "../../../assets/img/icon-third-party-apps.svg"
+            alt: "icon-third-party-apps"
+            title: "Third-Party Apps"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Wordpress.svg"
+            alt: "icon-Wordpress"
+            title: "WordPress Theme Libraries"
+
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-photosho.svg"
+            alt: "icon-photoshop"
+            title: "Photoshop"
 
 blogRelatedCtegory:
   - "Web Development"

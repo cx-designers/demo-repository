@@ -159,18 +159,137 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-php.svg"
+            alt: "icon-php"
+            title: "PHP"
 
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
 
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "icon-html"
+            title: "HTML5"
+          
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "icon-css"
+            title: "CSS3"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-stripe.svg"
+            alt: "icon-stripe"
+            title: "Stripe"
+          
+          - icon: "../../../assets/img/icon-PayPal.svg"
+            alt: "icon-PayPal"
+            title: "PayPal"
+
+          - icon: "../../../assets/img/icon-braintree.svg"
+            alt: "icon-braintree"
+            title: "Braintree"
+
+          - icon: "../../../assets/img/icon-authorize.net.svg"
+            alt: "icon-authorize.net"
+            title: "Authorize.Net"
+
+          - icon: "../../../assets/img/icon-adyen.svg"
+            alt: "icon-adyen"
+            title: "Adyen"
+
+          - icon: "../../../assets/img/icon-Elasticsearch.svg"
+            alt: "icon-Elasticsearch"
+            title: "Elasticsearch"
+
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL/MariaDB"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/icon-PHPUnit.svg"
+            alt: "icon-PHPUnit"
+            title: "PHPUnit"
+
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+            
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+            
+          - icon: "../../../assets/img/icon-postman.svg"
+            alt: "icon-postman"
+            title: "Postman"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Magento Testing Framework"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Magento Open Source"
+
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Magento Commerce"
+          
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "PWA Studio"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Magento Theme Marketplace"
+
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
 
 blogRelatedCtegory:
   - "Web Development"

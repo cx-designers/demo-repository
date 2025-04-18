@@ -10,14 +10,14 @@ bannerdesc: "Looking to build fast, lightweight, and interactive web apps? Our V
 bannerbuttonlargeClass: "large-btn"
 bannerbuttontext: Talk To Our Developers
 buttonLink: "/contact-us.html"
-bannerHTML: '<svg width="570" height="488" viewBox="0 0 570 488" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_538_49)">
-<path d="M116.4 1H221.4L286.4 110L353.4 1L457.9 0.5L286.9 292.5L116.4 1Z" stroke="#F26E65" stroke-miterlimit="10"/>
-<path d="M568.9 0.5L286.9 486.5L0.900024 0.5H568.9Z" stroke="#F26E65" stroke-miterlimit="10"/>
+bannerHTML: '<svg width="891" height="419" viewBox="0 0 891 419" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_893_6)">
+<path d="M368.996 70.0117H410.984L436.96 113.546L463.647 70.0117L505.458 69.834L437.138 186.401L368.996 70.0117Z" stroke="#F26E65" stroke-miterlimit="10"/>
+<path d="M0.71167 410.649L43.7672 341.171C53.5525 325.356 69.2091 313.628 87.3564 309.364C102.835 305.81 122.762 306.876 145.891 320.025C145.891 320.025 197.486 350.411 199.443 316.294C199.443 282.354 199.443 248.415 199.443 214.476C199.443 151.928 199.443 89.3798 199.443 26.8318C199.443 22.3895 199.443 17.7695 199.443 13.3272C199.443 9.95101 199.621 6.21946 201.934 3.73176C204.425 1.06636 208.695 0.888672 212.431 0.888672C362.058 0.888672 511.685 0.888672 661.311 0.888672C664.336 0.888672 667.894 1.06636 670.207 3.02099C673.232 5.50869 673.41 9.95101 673.41 13.6826C673.41 119.41 673.41 225.137 673.41 330.864C673.41 332.997 673.41 335.129 672.164 336.728C670.385 339.216 666.827 339.394 663.802 339.394C515.777 340.638 367.929 341.881 219.903 343.125C214.922 343.125 209.406 342.948 206.382 338.683C203.357 334.418 204.069 328.554 207.449 324.645C213.676 317.36 223.284 317.182 232.002 317.004C370.42 315.761 508.66 314.694 647.078 313.451C650.992 313.451 655.618 313.095 657.753 309.719C658.998 307.764 658.998 305.277 658.998 302.967C658.643 212.521 658.287 122.075 657.931 31.6296C657.931 28.4311 657.753 24.6995 655.618 22.3895C653.127 19.7241 649.213 19.5464 645.477 19.5464C504.034 19.191 362.591 18.8357 221.149 18.4803C218.124 18.4803 214.566 18.658 212.431 20.968C210.652 22.9226 210.652 25.7657 210.652 28.4311C210.652 44.4234 210.652 60.4158 210.652 76.4082C210.652 84.4044 210.652 92.4005 210.652 100.397C210.652 105.194 208.873 114.612 212.965 117.988C217.413 121.542 223.64 122.075 229.155 122.253C252.996 122.964 276.658 121.364 300.499 121.009C316.689 120.654 332.702 120.298 348.892 119.943C350.137 119.943 351.383 119.943 352.628 119.943L322.916 69.6558H549.758L437.138 263.697L368.996 148.018L355.653 127.051H229.155C220.259 127.051 212.787 133.981 212.609 142.688V142.865L210.474 212.699C210.652 242.906 211.186 273.114 211.363 303.322C211.363 303.322 210.474 309.186 218.124 308.653L638.894 304.921C638.894 304.921 648.857 303.144 656.686 320.203C664.514 337.261 685.33 366.581 685.33 366.581C685.33 366.581 692.091 376.709 679.992 376.887H191.081C191.081 376.887 183.253 375.821 187.167 368.358L198.909 353.787C198.909 353.787 202.468 350.944 212.965 350.944C223.462 350.944 668.25 348.634 668.25 348.634C668.25 348.634 682.127 348.634 688.177 354.498C694.226 360.362 728.741 400.342 728.741 400.342C728.741 400.342 736.747 406.384 728.03 406.739L152.651 411.359C152.651 411.359 138.952 412.959 142.154 404.962L185.744 351.832C185.744 351.832 190.547 348.278 180.762 360.539C171.155 372.8 147.492 409.405 147.492 409.405C147.492 409.405 139.13 417.934 146.958 418.467C149.983 418.645 153.007 418.467 156.032 418.467C191.081 418.645 226.13 418.467 261.002 418.467C318.291 418.289 375.579 418.289 432.868 418.112C490.868 417.934 549.047 417.756 607.047 417.756C629.642 417.756 652.238 417.579 675.011 417.579C703.655 417.579 733.901 420.777 760.944 409.76C778.024 402.83 793.502 392.702 808.981 382.929C820.901 375.465 832.822 366.048 845.987 360.895C856.662 356.63 879.969 350.766 890.11 359.473" stroke="#F26E65" stroke-miterlimit="10"/>
 </g>
 <defs>
-<clipPath id="clip0_538_49">
-<rect width="569.7" height="487.5" fill="white"/>
+<clipPath id="clip0_893_6">
+<rect width="891" height="419" fill="white"/>
 </clipPath>
 </defs>
 </svg>'
@@ -124,29 +124,6 @@ servicesList:
   - count: "07."
     title: "VueJS Maintenance and Support Service"
     description: "Ensure long-term success with ongoing maintenance, bug fixes, and performance optimization for your VueJS applications. Keep your systems running smoothly."
-
-phases:
-  - title: "Platform"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
          
 hireCtaTitle: "Hire Vue.js Developers"
 hireCtaSubTitle: "Hire experienced Vue.js developers to ensure the success of your projects."
@@ -186,5 +163,125 @@ faqBoxList :
   
 - faqTitle: "How can I get started with Cypherox Technologies for my Vue.js project?"
   faqDescription: "Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your project goals, technical requirements, and budget. From there, we’ll create a customized plan to bring your vision to life."
+
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:
+  - title: "Programming"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+            
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "icon-html"
+            title: "HTML5"
+            
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "icon-css"
+            title: "CSS3"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-vuex.svg"
+            alt: "icon-vuex"
+            title: "Vuex"
+            
+          - icon: "../../../assets/img/icon-vue-router.svg"
+            alt: "icon-vue-router"
+            title: "Vue Router"
+          
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+            
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+            
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Vue Test Utils"
+            
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-vuejs.svg"
+            alt: "icon-vuejs"
+            title: "Vue.js"
+            
+          - icon: "../../../assets/img/icon-nuxt.svg"
+            alt: "icon-nuxt"
+            title: "Nuxt.js"
+            
+          - icon: "../../../assets/img/icon-vite.svg"
+            alt: "icon-vite"
+            title: "Vite"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+            
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 ---

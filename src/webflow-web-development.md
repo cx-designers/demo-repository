@@ -128,29 +128,6 @@ servicesList:
     pageLink: "javascript:;"
     description: "Convert your PSD designs into fully functional Webflow websites. Ensure clean code, responsive layouts, and optimized performance for a seamless user experience. Start converting today."
 
-phases:
-  - title: "Platform"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-
 hireCtaTitle: "Hire Webflow Developers"
 hireCtaSubTitle: "Looking for experienced Webflow developers to help bring your projects to life?"
 hireCtaDesc: "We provide flexible hiring models to connect you with skilled headless CMS developers who specialize in building scalable, API-driven content solutions. Whether you need a single developer or an entire team, we offer customized resources to help you achieve your project goals. Partner with us to accelerate your headless CMS journey and achieve measurable results."
@@ -189,5 +166,97 @@ faqBoxList :
 
 - faqTitle: "How can I get started with Cypherox Technologies for my Webflow project?"
   faqDescription: "Getting started is easy! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your goals, target audience, and desired features. From there, we’ll create a customized plan to bring your Webflow vision to life."
-         
+ 
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:
+  - title: "Programming"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "icon-html"
+            title: "HTML5"
+            
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "icon-css"
+            title: "CSS3"
+            
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-webflows-visual-editor.svg"
+            alt: "icon-webflows-visual-editor"
+            title: "Webflow's Visual Editor"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+
+          - icon: "../../../assets/img/icon-webhooks.svg"
+            alt: "icon-webhooks"
+            title: "Webhooks"
+            
+          - icon: "../../../assets/img/icon-third-party-apps.svg"
+            alt: "icon-third-party-apps"
+            title: "Third-Party Integrations"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-manual-testing.svg"
+            alt: "icon-manual-testing"
+            title: "Manual Testing"
+            
+          - icon: "../../../assets/img/icon-browserStack.svg"
+            alt: "icon-browserStack"
+            title: "BrowserStack"
+            
+          - icon: "../../../assets/img/icon-webflow.svg"
+            alt: "icon-webflow"
+            title: "Webflow Preview Mode"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-webflow.svg"
+            alt: "icon-webflow"
+            title: "Webflow CMS"
+            
+          - icon: "../../../assets/img/icon-webflow.svg"
+            alt: "icon-webflow"
+            title: "Webflow Templates"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Custom Code Embeds"
+          
+  - title: "Design Webflow"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Designer"
+
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
 ---

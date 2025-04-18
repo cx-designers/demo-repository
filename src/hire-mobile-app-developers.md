@@ -124,19 +124,6 @@ buttonQuoteLink: "javascript:;"
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
-phases:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
-
-
-
 blogRelatedCtegory:
   - "Web Development"
   - "App Development"
@@ -173,5 +160,169 @@ faqBoxList :
   
 - faqTitle: "How can I get started with hiring mobile app developers from Cypherox Technologies?"
   faqDescription: "Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your project requirements, timeline, and budget. From there, we’ll assign a qualified developer or team to bring your mobile app vision to life."
+
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:
+  - title: "Programming"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+            
+          - icon: "../../../assets/img/icon-Kotlin.svg"
+            alt: "icon-Kotlin"
+            title: "Kotlin"
+            
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+            
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+            
+          - icon: "../../../assets/img/icon-dart.svg"
+            alt: "icon-dart"
+            title: "Dart"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
+            title: "React Native"
+            
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+            
+          - icon: "../../../assets/img/icon-xamarin.svg"
+            alt: "icon-xamarin"
+            title: "Xamarin"
+            
+          - icon: "../../../assets/img/icon-ionic.svg"
+            alt: "icon-ionic"
+            title: "Ionic"
+            
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
+            
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
+            
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+            
+          - icon: "../../../assets/img/icon-realm.svg"
+            alt: "icon-realm"
+            title: "Realm"
+            
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+            
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-xctest.svg"
+            alt: "icon-xctest"
+            title: "XCTest"
+            
+          - icon: "../../../assets/img/icon-espresso.svg"
+            alt: "icon-espresso"
+            title: "Espresso"
+            
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+            
+          - icon: "../../../assets/img/icon-detox.svg"
+            alt: "icon-detox"
+            title: "Detox"
+            
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-swiftui.svg"
+            alt: "icon-swiftui"
+            title: "SwiftUI"
+            
+          - icon: "../../../assets/img/icon-compose.svg"
+            alt: "icon-compose"
+            title: "Jetpack Compose"
+            
+          - icon: "../../../assets/img/icon-react-native.svg"
+            alt: "icon-react-native"
+            title: "React Native"
+            
+          - icon: "../../../assets/img/icon-flutter.svg"
+            alt: "icon-flutter"
+            title: "Flutter"
+            
+          - icon: "../../../assets/img/icon-xamarin.svg"
+            alt: "icon-xamarin"
+            title: "Xamarin.Forms"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+            
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 ---

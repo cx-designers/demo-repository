@@ -136,7 +136,7 @@ phases:
           - icon: "../../../assets/img/icon-photosho.svg"
             alt: "Adobe Photoshop"
             title: "Adobe Photoshop"
-          - icon: "../../../assets/img/icon-iiiustrator.svg"
+          - icon: "../../../assets/img/icon-illustrator.svg"
             alt: "Adobe Illustrator"
             title: "Adobe Illustrator"
           - icon: "../../../assets/img/icon-Corel-draw.svg"

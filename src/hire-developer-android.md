@@ -134,96 +134,117 @@ ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
 
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
-      - heading: "Development"
+      - heading: ""
         items:
           - icon: "../../../assets/img/icon-Java.svg"
-            alt: "Java"
+            alt: "icon-Java"
             title: "Java"
+            
           - icon: "../../../assets/img/icon-Kotlin.svg"
-            alt: "Kotlin"
+            alt: "icon-Kotlin"
             title: "Kotlin"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
           - icon: "../../../assets/img/icon-Android-Studio.svg"
-            alt: "Android Studio"
+            alt: "icon-Android-Studio"
             title: "Android Studio"
-          - icon: "../../../assets/img/icon-flutter.svg"
-            alt: "Flutter"
-            title: "Flutter"
-          - icon: "../../../assets/img/icon-gradle.svg"
-            alt: "Gradle"
-            title: "Gradle"
-      - heading: "User Interface"
-        items:
-          - icon: "../../../assets/img/icon-xml.svg"
-            alt: "XML"
-            title: "XML"
-          - icon: "../../../assets/img/icon-material-design.svg"
-            alt: "Material Design"
-            title: "Material Design"
-          - icon: "../../../assets/img/icon-compose.svg"
-            alt: "Compose"
-            title: "Compose"
-
-  - title: "Back-End Development"
-    blocks:
-      - heading: "Libraries"
-        items:
-          - icon: "../../../assets/img/icon-retrofit.svg"
-            alt: "Retrofit"
-            title: "Retrofit"
-          - icon: "../../../assets/img/icon-okhttp.svg"
-            alt: "OkHttp"
-            title: "OkHttp"
-          - icon: "../../../assets/img/icon-gson.svg"
-            alt: "Gson"
-            title: "Gson"
-          - icon: "../../../assets/img/icon-coil.svg"
-            alt: "Coil"
-            title: "Coil"
-          - icon: "../../../assets/img/icon-hilt.svg"
-            alt: "Hilt"
-            title: "Hilt"
-          - icon: "../../../assets/img/icon-glide.svg"
-            alt: "Glide"
-            title: "Glide" 
-      - heading: "Backend"
-        items:
+            
           - icon: "../../../assets/img/icon-firebase.svg"
-            alt: "Firebase"
+            alt: "icon-firebase"
             title: "Firebase"
-          - icon: "../../../assets/img/icon-Aws.svg"
-            alt: "AWS"
-            title: "AWS (Amazon Web Services)"
-      - heading: "Data Management"
-        items:
-          - icon: "../../../assets/img/icon-room.svg"
-            alt: "Room"
-            title: "Room"
-          - icon: "../../../assets/img/icon-sqlite.svg"
-            alt: "SQLite"
-            title: "SQLite"
-          - icon: "../../../assets/img/icon-mongodb.svg"
-            alt: "MongoDB"
-            title: "MongoDB"
-  - title: "App Design"
+            
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+
+  - title: "Database"
     blocks:
-      - heading: "Other"
+      - heading: ""
         items:
-          - icon: "../../../assets/img/icon-git.svg"
-            alt: "Git"
-            title: "Git"
-          - icon: "../../../assets/img/icon-firebase-crashlytics.svg"
-            alt: "Firebase Crashlytics"
-            title: "Firebase Crashlytics"
-          - icon: "../../../assets/img/icon-google-analytics.svg"
-            alt: "Google Analytics"
-            title: "Google Analytics"
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
+            
+          - icon: "../../../assets/img/icon-room.svg"
+            alt: "icon-room"
+            title: "Room"
+            
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+            
+          - icon: "../../../assets/img/icon-realm.svg"
+            alt: "icon-realm"
+            title: "Realm"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-junit.svg"
+            alt: "icon-junit"
+            title: "JUnit"
+            
+          - icon: "../../../assets/img/icon-espresso.svg"
+            alt: "icon-espresso"
+            title: "Espresso"
+            
+          - icon: "../../../assets/img/icon-mockito.svg"
+            alt: "icon-mockito"
+            title: "Mockito"
+            
+          - icon: "../../../assets/img/icon-robolectric.svg"
+            alt: "icon-robolectric"
+            title: "Robolectric"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-compose.svg"
+            alt: "icon-compose"
+            title: "Jetpack Compose"
+            
+          - icon: "../../../assets/img/icon-retrofit.svg"
+            alt: "icon-retrofit"
+            title: "Retrofit"
+            
+          - icon: "../../../assets/img/icon-livedata.svg"
+            alt: "icon-livedata"
+            title: "LiveData"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "ViewModel"
 
-
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
 
 blogRelatedCtegory:
   - "Web Development"

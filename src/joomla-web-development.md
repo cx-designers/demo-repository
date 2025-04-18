@@ -223,8 +223,8 @@ phases:
             alt: "icon-adyen"
             title: "Adyen"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-joomla-extensions.svg"
+            alt: "icon-joomla-extensions"
             title: "Joomla Extensions"
           
   - title: "Database"
@@ -235,16 +235,16 @@ phases:
             alt: "icon-Mysql"
             title: "MySQL"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-mariaDB.svg"
+            alt: "icon-mariaDB"
             title: "MariaDB"
 
   - title: "Testing"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-PHPUnit.svg"
+            alt: "icon-PHPUnit"
             title: "PHPUnit"
 
           - icon: "../../../assets/img/icon-selenium.svg"
@@ -255,32 +255,32 @@ phases:
             alt: "icon-cypress"
             title: "Cypress"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-joomla-testing-framework.svg"
+            alt: "icon-joomla-testing-framework"
             title: "Joomla Testing Framework"
           
   - title: "Framework"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-joomla-extensions.svg"
+            alt: "icon-joomla-extensions"
             title: "Joomla Core"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-joomla-extensions.svg"
+            alt: "icon-joomla-extensions"
             title: "Joomla Templates"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-third-party-libraries.svg"
+            alt: "icon-third-party-libraries"
             title: "Third-Party Extensions"
           
   - title: "Design"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-joomla-testing-framework.svg"
+            alt: "icon-joomla-testing-framework"
             title: "Joomla Template Marketplace"
 
           - icon: "../../../assets/img/icon-Figma.svg"

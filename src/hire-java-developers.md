@@ -154,17 +154,109 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-spring-boot.svg"
+            alt: "icon-spring-boot"
+            title: "Spring Boot"
 
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Hibernate"
 
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+            
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-junit.svg"
+            alt: "icon-junit"
+            title: "JUnit"
+            
+          - icon: "../../../assets/img/icon-mockito.svg"
+            alt: "icon-mockito"
+            title: "Mockito"
+
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-spring-boot.svg"
+            alt: "icon-spring-boot"
+            title: "Spring Boot"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Hibernate"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "JavaFX"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
 
 blogRelatedCtegory:
   - "Web Development"

@@ -159,16 +159,65 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-phases:
-  - title: "Lorem ipsum"
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:   
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-photosho.svg"
+            alt: "icon-photoshop"
+            title: "Photoshop"
+            
+          - icon: "../../../assets/img/icon-illustrator.svg"
+            alt: "icon-illustrator"
+            title: "Illustrator"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "In Design"
+          
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Canva"
 
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "CorelDRAW"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Manual review"
+
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "client feedback"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-photosho.svg"
+            alt: "icon-photosho"
+            title: "Adobe Photoshop"
+            
+          - icon: "../../../assets/img/icon-illustrator.svg"
+            alt: "icon-illustrator"
+            title: "Adobe Illustrator"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Canva"
+
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "CorelDRAW"
 
 blogRelatedCtegory:
   - "Design"

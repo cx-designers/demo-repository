@@ -177,8 +177,8 @@ phases:
             alt: "icon-typescript"
             title: "TypeScript"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-stencil.svg"
+            alt: "icon-stencil"
             title: "Stencil"
             
           - icon: "../../../assets/img/icon-html.svg"
@@ -221,52 +221,52 @@ phases:
             alt: "icon-adyen"
             title: "Adyen"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-webhooks.svg"
+            alt: "icon-webhooks"
             title: "Webhooks"
           
   - title: "Testing"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-manual-testing.svg"
+            alt: "icon-manual-testing"
             title: "Manual Testing"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-browserStack.svg"
+            alt: "icon-browserStack"
             title: "BrowserStack"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-bigCommerce-preview-mode.svg"
+            alt: "icon-bigCommerce-preview-mode"
             title: "BigCommerce Preview Mode"
 
   - title: "Framework"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-bigCommerce-themes.svg"
+            alt: "icon-bigCommerce-themes"
             title: "BigCommerce Themes"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-bigCommerce-api.svg"
+            alt: "icon-bigCommerce-api"
             title: "BigCommerce API"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-shipStation.svg"
+            alt: "icon-shipStation"
             title: "ShipStation"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-yotpo.svg"
+            alt: "icon-yotpo"
             title: "Yotpo"
           
   - title: "Design"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-bigCommerce-theme-marketplace.svg"
+            alt: "icon-bigCommerce-theme-marketplace"
             title: "BigCommerce Theme Marketplace"
             
           - icon: "../../../assets/img/icon-Figma.svg"

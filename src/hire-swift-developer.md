@@ -144,106 +144,113 @@ faqBoxList :
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
-      - heading: "Development"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
         items:
           - icon: "../../../assets/img/icon-Xcode.svg"
-            alt: "Xcode"
+            alt: "icon-Xcode"
             title: "Xcode"
-          - icon: "../../../assets/img/icon-Swift.svg"
-            alt: "Swift"
-            title: "Swift"
-          - icon: "../../../assets/img/icon-swift-package-manager.svg"
-            alt: "Swift Package Manager"
-            title: "Swift Package Manager"
-          - icon: "../../../assets/img/icon-combine.svg"
-            alt: "Combine"
-            title: "Combine"
-      - heading: "User Interface"
-        items:
-          - icon: "../../../assets/img/icon-uikit.svg"
-            alt: "UIKit"
-            title: "UIKit"
+            
           - icon: "../../../assets/img/icon-swiftui.svg"
-            alt: "SwiftUI"
+            alt: "icon-swiftui"
             title: "SwiftUI"
-          - icon: "../../../assets/img/icon-storyboard.svg"
-            alt: "Storyboard"
-            title: "Storyboard"
-  - title: "Back-End Development"
-    blocks:
-      - heading: "Libraries"
-        items:
-          - icon: "../../../assets/img/icon-alamofire.svg"
-            alt: "Alamofire"
-            title: "Alamofire"
-          - icon: "../../../assets/img/icon-realm.svg"
-            alt: "Realm"
-            title: "Realm"
-          - icon: "../../../assets/img/icon-sdwebImage.svg"
-            alt: "SDWebImage"
-            title: "SDWebImage"
-          - icon: "../../../assets/img/icon-snapkit.svg"
-            alt: "SnapKit"
-            title: "SnapKit"
-          - icon: "../../../assets/img/icon-charts.svg"
-            alt: "Charts"
-            title: "Charts"
-          - icon: "../../../assets/img/icon-async-displaykit.svg"
-            alt: "AsyncDisplayKit"
-            title: "AsyncDisplayKit"
-      - heading: "Backend"
-        items:
+            
+          - icon: "../../../assets/img/icon-uikit.svg"
+            alt: "icon-uikit"
+            title: "UIKit"
+            
+          - icon: "../../../assets/img/icon-core-data.svg"
+            alt: "icon-core-data"
+            title: "Core Data"
+            
           - icon: "../../../assets/img/icon-firebase.svg"
-            alt: "Firebase"
+            alt: "icon-firebase"
             title: "Firebase"
-          - icon: "../../../assets/img/icon-expressjs.svg"
-            alt: "Express.js"
-            title: "Express.js"
-          - icon: "../../../assets/img/icon-django.svg"
-            alt: "Django"
-            title: "Django"
-          - icon: "../../../assets/img/icon-nodejs.svg"
-            alt: "Node.js"
-            title: "Node.js"  
-      - heading: "Data Management"
+
+  - title: "Database"
+    blocks:
+      - heading: ""
         items:
           - icon: "../../../assets/img/icon-core-data.svg"
-            alt: "Core Data"
-            title: "Core Data"
-          - icon: "../../../assets/img/icon-realm-database.svg"
-            alt: "Realm Database"
-            title: "Realm Database"
-          - icon: "../../../assets/img/icon-mongodb-realm.svg"
-            alt: "MongoDB Realm"
-            title: "MongoDB Realm"   
+            alt: "icon-core-data"
+            title: "CoreData"
+
           - icon: "../../../assets/img/icon-sqlite.svg"
-            alt: "SQLite"
+            alt: "icon-sqlite"
             title: "SQLite"
-  - title: "App Design"
+            
+          - icon: "../../../assets/img/icon-realm.svg"
+            alt: "icon-realm"
+            title: "Realm"
+            
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+          
+  - title: "Testing"
     blocks:
-      - heading: "Other"
+      - heading: ""
         items:
-          - icon: "../../../assets/img/icon-git.svg"
-            alt: "Git"
-            title: "Git"
-          - icon: "../../../assets/img/icon-fastlane.svg"
-            alt: "Fastlane"
-            title: "Fastlane"
-          - icon: "../../../assets/img/icon-carthage.svg"
-            alt: "Carthage"
-            title: "Carthage"
           - icon: "../../../assets/img/icon-xctest.svg"
-            alt: "XCTest"
+            alt: "icon-xctest"
             title: "XCTest"
-          - icon: "../../../assets/img/icon-jenkins.svg"
-            alt: "Jenkins"
-            title: "Jenkins"  
+            
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-swiftui.svg"
+            alt: "icon-swiftui"
+            title: "SwiftUI"
+            
+          - icon: "../../../assets/img/icon-uikit.svg"
+            alt: "icon-uikit"
+            title: "UIKit"
+            
+          - icon: "../../../assets/img/icon-combine.svg"
+            alt: "icon-combine"
+            title: "Combine"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
 
 blogRelatedCtegory:
   - "Web Development"

@@ -198,12 +198,12 @@ phases:
             alt: "icon-kubernetes"
             title: "Kubernetes"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-gitlab-cicd.svg"
+            alt: "icon-gitlab-cicd"
             title: "CI"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-gitlab-cicd.svg"
+            alt: "icon-gitlab-cicd"
             title: "CD"
           
   - title: "Database"

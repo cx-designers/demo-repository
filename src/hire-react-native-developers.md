@@ -146,18 +146,113 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-go.svg"
+            alt: "icon-go"
+            title: "Go"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-docker.svg"
+            alt: "icon-docker"
+            title: "Docker"
+
+          - icon: "../../../assets/img/icon-kubernetes.svg"
+            alt: "icon-kubernetes"
+            title: "Kubernetes"
+
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-grpc.svg"
+            alt: "icon-grpc"
+            title: "gRPC"
+
+  - title: "Database"
     blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
 
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+            
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
 
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Go Test"
+            
+          - icon: "../../../assets/img/icon-testify.svg"
+            alt: "icon-testify"
+            title: "Testify"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Gin"
+            
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Fiber"
+            
+          - icon: "../../../assets/img/icon-echo.svg"
+            alt: "icon-echo"
+            title: "Echo"
 
+          - icon: "../../../assets/img/icon-cobra.svg"
+            alt: "icon-cobra"
+            title: "Cobra"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
 
 blogRelatedCtegory:
   - "Web Development"

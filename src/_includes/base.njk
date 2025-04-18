@@ -23,20 +23,25 @@
 </head>
 
 <body class="{{ bodyClass }} before_load">
-  {% if bodyClass == "homepage" %}
+  {% if "homepage" in bodyClass %}
   {% include "layouts/loaderSection.njk" %}
   {% endif %}
-  <div class="site_wrapper" {% if bodyClass=="homepage" %}
-    style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %}
-    style="flex-direction: column;" {% endif %}>
+  <div class="site_wrapper" {% if "homepage" in bodyClass %}
+  style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %}
+  style="flex-direction: column;" {% endif %}>
+  <div class="desktop-header">
+    {% include "layouts/" ~ (headerVersion or 'header') ~ ".njk" %}
+  </div>
+  <div class="mobile-header">
     {% include "layouts/header.njk" %}
+  </div>
     {% block content %}
     {{ content | safe }}
     {% endblock content %}
     {% include "layouts/footer.njk" %}
 
   </div>
-  {% if bodyClass == "homepage"%}
+  {% if "homepage" in bodyClass %}
   <script>
 
     const div = document.querySelector('.site_wrapper');

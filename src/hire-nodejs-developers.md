@@ -159,18 +159,129 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-websocket.svg"
+            alt: "icon-websocket"
+            title: "WebSocket"
+            
+          - icon: "../../../assets/img/icon-jwt.svg"
+            alt: "icon-jwt"
+            title: "JWT"
 
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:            
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
 
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+            
+          - icon: "../../../assets/img/icon-mocha.svg"
+            alt: "icon-mocha"
+            title: "Mocha"
+
+          - icon: "../../../assets/img/icon-chai.svg"
+            alt: "icon-chai"
+            title: "Chai"
+
+          - icon: "../../../assets/img/icon-supertest.svg"
+            alt: "icon-supertest"
+            title: "Supertest"
+            
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-expressjs.svg"
+            alt: "icon-expressjs"
+            title: "Express.js"
+            
+          - icon: "../../../assets/img/icon-nuxt.svg"
+            alt: "icon-nuxt"
+            title: "Nuxt.js"
+
+          - icon: "../../../assets/img/icon-fastify.svg"
+            alt: "icon-fastify"
+            title: "Fastify"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 blogRelatedCtegory:
   - "Web Development"

@@ -51,31 +51,31 @@ secSubTitle: "What We Provide"
 secTitle: "Our Drupal Development Services"
 servicesList:
   - count: "01."
-    title: Drupal eCommerce Development</h3>
+    title: Drupal eCommerce Development
     pageLink: "javascript:;"
     description: Build robust eCommerce platforms with Drupal’s flexible architecture. Add secure payment gateways, product catalogs, and advanced SEO tools for a seamless shopping experience. Elevate your store today.
   - count: "02."
-    title: Custom Enterprise-Oriented Solutions</h3>
+    title: Custom Enterprise-Oriented Solutions
     pageLink: "javascript:;"
     description: Develop tailored Drupal solutions designed for enterprise needs. Ensure scalability, security, and integration with existing systems for large-scale operations. Empower your business now.
   - count: "03."
-    title: Drupal 8 Development</h3>
+    title: Drupal 8 Development
     pageLink: "javascript:;"
     description: Leverage Drupal 8’s advanced features like API-first architecture and responsive design. Build modern, high-performance websites and applications with cutting-edge technology. Innovate today.
   - count: "04."
-    title: Support And Maintenance</h3>
+    title: Support And Maintenance
     pageLink: "javascript:;"
     description: Provide ongoing support, security updates, and performance optimization for your Drupal site. Ensure smooth operations and quick issue resolution for long-term success. Get support now.
   - count: "05."
-    title: Drupal UI/UX</h3>
+    title: Drupal UI/UX
     pageLink: "javascript:;"
     description: Design intuitive, user-friendly interfaces with Drupal’s powerful theming capabilities. Focus on usability, accessibility, and visual appeal to enhance customer engagement. Transform your design today.
   - count: "06."
-    title: Drupal Theme Development</h3>
+    title: Drupal Theme Development
     pageLink: "javascript:;"
     description: Create custom, responsive themes tailored to your brand identity. Ensure pixel-perfect designs, mobile compatibility, and optimized performance for a professional look. Stand out now.
   - count: "07."
-    title: Drupal Web Apps Development</h3>
+    title: Drupal Web Apps Development
     pageLink: "javascript:;"
     description: Build dynamic, data-driven web applications using Drupal’s modular architecture. Add custom workflows, integrations, and interactive features for enhanced functionality. Streamline processes today.
 
@@ -89,22 +89,22 @@ hireCtaButtonText: "Connect With Our Team"
 featuresSecSubTitle: Why Cypherox
 featuresSecTitle: Why Choose Cypherox for Drupal Development Services?
 featuresBoxList:
-  - title: Mastery of Drupal Architecture</h3>
+  - title: Mastery of Drupal Architecture
     description: Our team excels in Drupal’s robust architecture, delivering secure, scalable, and high-performance websites tailored to meet complex business needs effectively.
 
-  - title: Tailored Designs for Your Brand</h3>
+  - title: Tailored Designs for Your Brand
     description: We create visually stunning and fully customized Drupal websites that align with your brand identity, ensuring an intuitive and engaging user experience.
 
-  - title: Enhanced Features with Modules</h3>
+  - title: Enhanced Features with Modules
     description: We leverage Drupal’s extensive library of modules and custom integrations to add advanced functionalities like multilingual support, e-commerce, and analytics.
 
-  - title: Fast and Search-Optimized Websites</h3>
+  - title: Fast and Search-Optimized Websites
     description: Our Drupal sites are mobile-responsive and optimized for SEO, ensuring fast load times, higher search rankings, and improved user engagement across devices.
 
-  - title: Future-Proof Drupal Solutions</h3>
+  - title: Future-Proof Drupal Solutions
     description: Whether you’re a startup or an enterprise, our Drupal solutions are designed to scale effortlessly as your business grows and evolves over time.
 
-  - title: Ongoing Maintenance and Updates</h3>
+  - title: Ongoing Maintenance and Updates
     description: Beyond development, we provide continuous technical support, security updates, and performance optimizations to ensure your Drupal site stays secure and functional.
 
  
@@ -113,56 +113,56 @@ processSubtitle : "Our Development Process"
 processTitle : "Our Drupal Development Process"
 processBoxList :
 - stepSubTitle: "Step 1"
-  stepTitle: Custom Drupal Modules for Unique Features</h3>
+  stepTitle: Custom Drupal Modules for Unique Features
   stepDescription: Develop bespoke modules to extend your Drupal site’s functionality. Our custom solutions ensure flexibility, scalability, and alignment with your goals.
 - stepSubTitle: "Step 2"
-  stepTitle: Responsive Themes for Seamless UX/UI</h3>
+  stepTitle: Responsive Themes for Seamless UX/UI
   stepDescription: Design responsive Drupal themes that adapt flawlessly to any device. Our user-centric designs enhance accessibility and engagement across platforms.
 - stepSubTitle: "Step 3"
-  stepTitle: Advanced SEO Tools for Improved Rankings</h3>
+  stepTitle: Advanced SEO Tools for Improved Rankings
   stepDescription: Leverage Drupal’s robust SEO capabilities to boost search engine visibility. Our strategies ensure higher rankings and increased organic traffic for your site.
 - stepSubTitle: "Step 4"
-  stepTitle: Multilingual Support for Global Reach</h3>
+  stepTitle: Multilingual Support for Global Reach
   stepDescription: Enable multilingual functionality to connect with diverse audiences worldwide. Our Drupal expertise ensures seamless localization and global accessibility.
 - stepSubTitle: "Step 5"
-  stepTitle: Secure Authentication for Data Protection</h3>
+  stepTitle: Secure Authentication for Data Protection
   stepDescription: Implement advanced authentication systems to safeguard sensitive data. Our secure Drupal solutions protect your site from unauthorized access and threats.
 - stepSubTitle: "Step 6"
-  stepTitle: Performance Optimization for Faster Websites</h3>
+  stepTitle: Performance Optimization for Faster Websites
   stepDescription: Enhance your Drupal site’s speed with caching, CDN integration, and code optimization. Our performance tuning ensures quick load times and better user experiences.
 
 
 faqSubtitle : "FAQs"
 faqTitle : "Frequently Asked Question for Drupal Development Services"
 faqBoxList :
-- faqTitle: What is Drupal, and why should I choose it for my website?</h3>
+- faqTitle: What is Drupal, and why should I choose it for my website?
   faqDescription: Drupal is a powerful, open-source Content Management System (CMS) known for its flexibility, scalability, and robust security. It’s ideal for building complex, high-performance websites and web applications, including e-commerce platforms, membership portals, and enterprise-level solutions. At Cypherox Technologies, we leverage Drupal’s advanced features to create custom, secure, and scalable websites tailored to your business needs.
 
-- faqTitle: Can Drupal handle large-scale, enterprise-level websites?</h3>
+- faqTitle: Can Drupal handle large-scale, enterprise-level websites?
   faqDescription: Yes! Drupal is specifically designed to handle large-scale, data-heavy websites with thousands of pages, users, and transactions. Its modular architecture and scalability make it a top choice for enterprises requiring complex functionality and high traffic handling. At Cypherox Technologies, we optimize Drupal sites to ensure they perform seamlessly, even as your business grows.
 
-- faqTitle: How do you ensure my Drupal website is secure?</h3>
+- faqTitle: How do you ensure my Drupal website is secure?
   faqDescription: We implement industry-standard security measures, including SSL certificates, two-factor authentication, regular updates, and vulnerability scanning. Additionally, Drupal’s built-in security features, such as granular user permissions and role-based access control, help protect sensitive data. At Cypherox Technologies, we follow best practices to ensure your Drupal website is fortified against cyber threats.
 
-- faqTitle: Can my Drupal website be customized to match my brand identity?</h3>
+- faqTitle: Can my Drupal website be customized to match my brand identity?
   faqDescription: We specialize in creating fully customized Drupal themes and designs that align with your brand’s colors, typography, and style. Whether you need a unique theme built from scratch or modifications to an existing one, our team ensures your Drupal website reflects your brand identity and provides a cohesive user experience.
 
-- faqTitle: Do you provide ongoing support and maintenance for Drupal websites?</h3>
+- faqTitle: Do you provide ongoing support and maintenance for Drupal websites?
   faqDescription: We offer comprehensive post-launch support, including regular updates, bug fixes, performance optimization, and security monitoring. Whether it’s adding new features, integrating third-party tools, or resolving technical issues, our team at Cypherox Technologies ensures your Drupal website remains secure, up-to-date, and scalable.
 
-- faqTitle: Is Drupal compatible with third-party tools and integrations?</h3>
+- faqTitle: Is Drupal compatible with third-party tools and integrations?
   faqDescription: Drupal integrates seamlessly with a wide range of third-party tools, including payment gateways (Stripe, PayPal), CRM systems (HubSpot, Salesforce), email marketing platforms (Mailchimp, ActiveCampaign), and analytics tools (Google Analytics). At Cypherox Technologies, we ensure smooth integration to enhance your website’s functionality and streamline your business processes.
 
-- faqTitle: How do you optimize Drupal websites for speed and performance?</h3>
+- faqTitle: How do you optimize Drupal websites for speed and performance?
   faqDescription: We optimize Drupal websites using techniques like caching (Boost, Memcached), image compression, minifying CSS/JS files, and leveraging Content Delivery Networks (CDNs). Additionally, we select lightweight modules and optimize server configurations to ensure fast loading times. At Cypherox Technologies, performance optimization is a priority.
 
-- faqTitle: Can Drupal websites be made mobile-friendly and responsive?</h3>
+- faqTitle: Can Drupal websites be made mobile-friendly and responsive?
   faqDescription: All Drupal websites developed by Cypherox Technologies are fully responsive and mobile-friendly. We use modern design frameworks and best practices to ensure your site adapts flawlessly to all screen sizes—desktops, tablets, and smartphones—providing an optimal user experience across devices.
 
-- faqTitle: How long does it take to develop a custom Drupal website?</h3>
+- faqTitle: How long does it take to develop a custom Drupal website?
   faqDescription: The timeline depends on the complexity of the project. A basic Drupal website may take 6–8 weeks, while more advanced projects with custom features, integrations, or multi-language support can take 10–16 weeks. During the initial consultation, we’ll provide a detailed timeline based on your specific requirements.
 
-- faqTitle: How can I get started with Cypherox Technologies for my Drupal project?</h3>
+- faqTitle: How can I get started with Cypherox Technologies for my Drupal project?
   faqDescription: Getting started is easy! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your goals, target audience, and desired features. From there, we’ll create a customized plan to bring your Drupal vision to life.
 
   
@@ -222,8 +222,8 @@ phases:
             alt: "icon-adyen"
             title: "Adyen"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-composer.svg"
+            alt: "icon-composer"
             title: "Composer"
           
   - title: "Database"
@@ -234,8 +234,8 @@ phases:
             alt: "icon-Mysql"
             title: "MySQL"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-mariaDB.svg"
+            alt: "icon-mariaDB"
             title: "MariaDB"
 
           - icon: "../../../assets/img/icon-PostgreSQL.svg"
@@ -246,12 +246,12 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-PHPUnit.svg"
+            alt: "icon-PHPUnit"
             title: "PHPUnit"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-behat.svg"
+            alt: "icon-behat"
             title: "Behat"
 
           - icon: "../../../assets/img/icon-selenium.svg"
@@ -262,8 +262,8 @@ phases:
             alt: "icon-cypress"
             title: "Cypress"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-drupal-testing-framework.svg"
+            alt: "icon-drupal-testing-framework"
             title: "Drupal Testing Framework"
           
   - title: "Framework"
@@ -282,8 +282,8 @@ phases:
             alt: ""
             title: "Panels"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-drush.svg"
+            alt: "icon-drush"
             title: "Drush"
 
           - icon: "../../../assets/img/"
@@ -294,8 +294,8 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Drupal.svg"
+            alt: "icon-Drupal"
             title: "Drupal Theme Marketplace"
 
           - icon: "../../../assets/img/icon-Figma.svg"

@@ -75,7 +75,7 @@ $(document).ready(function () {
     }
 
     // Toggle body class for full-screen menu
-    $("body").toggleClass("open-menu overflow-hide");
+    $("body").toggleClass("open-menu hidden-y");
   });
 
   // Submenu Arrow Click - Add 'active' class and set styles inline
@@ -137,10 +137,10 @@ $(document).ready(function () {
     e.preventDefault();
 
     let $parentMenu = $(this).closest("ul"); // Get the parent UL element
-    let $submenu = $(this).next("ul.third-sub-menu"); // Get the third-level submenu
+    let $submenu = $(this).next("ul.new-third-sub-menu"); // Get the third-level submenu
 
     // Remove active class and inline styles from all other submenus
-    $(".has-sub-menu-level-3 .arrow-icon").removeClass("active").next("ul.third-sub-menu").removeAttr("style");
+    $(".has-sub-menu-level-3 .arrow-icon").removeClass("active").next("ul.new-third-sub-menu").removeAttr("style");
 
     // Add active class to clicked arrow
     $(this).addClass("active");
@@ -162,10 +162,10 @@ $(document).ready(function () {
   });
 
   // Back button for 3rd-level submenu to go back to 2nd-level submenu
-  $(".third-sub-menu .menu-back-icon").on("click", function (e) {
+  $(".new-third-sub-menu .menu-back-icon").on("click", function (e) {
     e.preventDefault();
 
-    let $parentUl = $(this).closest("ul.third-sub-menu");
+    let $parentUl = $(this).closest("ul.new-third-sub-menu");
 
     // Remove active class from the corresponding arrow icon
     $parentUl.closest("li").find(".arrow-icon").removeClass("active");
@@ -1148,28 +1148,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
 gsap.registerPlugin(ScrollTrigger);
 
-// if ($('.animated-img-sec').length > 0) {
-//   gsap.fromTo(
-//     ".section_integration .animated-img-sec img",
-//     {
-//       scale: 0,
-//       y: 1000,
-//     },
-//     {
-//       scale: 1,
-//       y: 0,
-//       rotation: 0,
-//       duration: 1,
-//       ease: "power2.out",
-//       scrollTrigger: {
-//         trigger: ".section_integration",
-//         start: "top 0%",
-//         end: "bottom 0%",
-//         toggleActions: "play reverse play reverse",
-//       },
-//     }
-//   );
-//   }
+if ($('.section_integration').length > 0) {
+  gsap.fromTo(
+    ".section_integration .animated-img-sec img",
+    {
+      scale: 0,
+      y: 1000,
+    },
+    {
+      scale: 1,
+      y: 0,
+      rotation: 0,
+      duration: 1,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: ".section_integration",
+        start: "top 0%",
+        end: "bottom 0%",
+        toggleActions: "play reverse play reverse",
+      },
+    }
+  );
+  }
 
 
 /* Service SEction Shap Animation Start */
@@ -1320,12 +1320,25 @@ if (document.querySelector(".Process-main-sec")) {
 
         // Initialize Swiper
         swiperInstance = new Swiper(".animated-box-main", {
-          slidesPerView: 1.2,
-          spaceBetween: 10,
+          slidesPerView: 2.5,
+          slidesPerGroup: 1, 
+          spaceBetween: 20,
           loop: true,
+          autoplay: {
+            delay: 8000, 
+            disableOnInteraction: false, 
+          },
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
+          },
+          breakpoints: {
+            1025: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 1,
+            },
           },
         });
 
@@ -1975,78 +1988,85 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+$('.v3-sub-menu-level-2').css({
+  height: '0',
+});
 
+$('.mega-menu.menu-v3 > ul > li').hover(
+  function () {
+    var submenu = $(this).find('.v3-sub-menu-level-2');
+    var fullHeight = submenu.prop('scrollHeight') + 'px';
+    submenu.css('height', fullHeight);
+  },
+  function () {
+    var submenu = $(this).find('.v3-sub-menu-level-2');
+    submenu.css('height', '0');
+  }
+);
 /* Header Mega Menu JS End */
 
 /* Mobile Menu JS start */
 jQuery(document).ready(function ($) {
-  // Check if body has the 'cust-header-v1' class
-  // if (!$('body').hasClass('homepage-v2')) {
 
-  // Toggle Mobile Menu
-  $('.menu-toggle-link').click(function (event) {
-    event.stopPropagation(); // Prevent event bubbling
-    $(this).toggleClass('active');
-    $('.mobile-menu').toggleClass('open');
-    $('body').toggleClass('overflow-hide');
-  });
+    // Toggle Mobile Menu
+    $('.menu-toggle-link').click(function (event) {
+      event.stopPropagation(); 
+      $(this).toggleClass('active');
+      $('.mobile-menu').toggleClass('open');
+      $('body').toggleClass('overflow-hide');
+    });
 
-  // Toggle first-level menu (Fix applied)
-  $(".list-item-1 > .link-item-level-1 .submenu-toggle").click(function (e) {
-    e.preventDefault();
-    e.stopPropagation();
+    // Toggle first-level menu
+    $(".list-item-1 > .link-item-level-1 .submenu-toggle").click(function (e) {
+      e.preventDefault();
+      e.stopPropagation();
 
-    let $parentLi = $(this).closest(".list-item-1");
-    let $submenu = $parentLi.find(".second-sub-menu").first();
+      let $parentLi = $(this).closest(".list-item-1");
+      let $submenu = $parentLi.find(".second-sub-menu").first();
 
-    // Toggle only the clicked submenu, without closing parents
-    if ($submenu.is(":visible")) {
-      $submenu.slideUp(300);
-      $parentLi.removeClass("active");
-    } else {
-      $(".second-sub-menu").not($submenu).slideUp(300);
-      $(".list-item-1").removeClass("active");
-      $submenu.stop(true, true).slideDown(300);
-      $parentLi.addClass("active");
-    }
-  });
+      if ($submenu.is(":visible")) {
+        $submenu.slideUp(300);
+        $parentLi.removeClass("active");
+      } else {
+        $(".second-sub-menu").not($submenu).slideUp(300);
+        $(".list-item-1").removeClass("active");
+        $submenu.stop(true, true).slideDown(300);
+        $parentLi.addClass("active");
+      }
+    });
 
-  // Toggle second-level menu (Fix applied)
-  $(".second-sub-menu-li > a .submenu-toggle").click(function (e) {
-    e.preventDefault();
-    e.stopPropagation();
+    // Toggle second-level menu
+    $(".second-sub-menu-li > a .submenu-toggle").click(function (e) {
+      e.preventDefault();
+      e.stopPropagation();
 
-    let $parentLi = $(this).closest(".second-sub-menu-li");
-    let $submenu = $parentLi.find(".third-sub-menu").first();
+      let $parentLi = $(this).closest(".second-sub-menu-li");
+      let $submenu = $parentLi.find(".third-sub-menu").first();
 
-    // Toggle only the clicked submenu, without closing parents
-    if ($submenu.is(":visible")) {
-      $submenu.slideUp(300);
-      $parentLi.removeClass("active");
-    } else {
-      $(".third-sub-menu").not($submenu).slideUp(300);
-      $(".second-sub-menu-li").removeClass("active");
-      $submenu.stop(true, true).slideDown(300);
-      $parentLi.addClass("active");
-    }
-  });
+      if ($submenu.is(":visible")) {
+        $submenu.slideUp(300);
+        $parentLi.removeClass("active");
+      } else {
+        $(".third-sub-menu").not($submenu).slideUp(300);
+        $(".second-sub-menu-li").removeClass("active");
+        $submenu.stop(true, true).slideDown(300);
+        $parentLi.addClass("active");
+      }
+    });
 
-  // Click outside to close menu and submenus
-  $(document).click(function (event) {
-    if (!$('.menu-toggle-link').is(event.target) && !$('.mobile-menu').is(event.target) && $('.mobile-menu').has(event.target).length === 0) {
-      $('.menu-toggle-link').removeClass('active');
-      $('.mobile-menu').removeClass('open');
-      $(".second-sub-menu, .third-sub-menu").slideUp(300);
-      $(".list-item-1, .second-sub-menu-li").removeClass("active");
-      $('body').removeClass('overflow-hide');
-    }
-  });
+    // Click outside to close
+    $(document).click(function (event) {
+      if (!$('.menu-toggle-link').is(event.target) && !$('.mobile-menu').is(event.target) && $('.mobile-menu').has(event.target).length === 0) {
+        $('.menu-toggle-link').removeClass('active');
+        $('.mobile-menu').removeClass('open');
+        $(".second-sub-menu, .third-sub-menu").slideUp(300);
+        $(".list-item-1, .second-sub-menu-li").removeClass("active");
+        $('body').removeClass('overflow-hide');
+      }
+    });
 
-  // } else {
-  //   // Optionally, you can add a fallback or log if the class isn't present
-  //   console.log("The 'cust-header-v1' class is not present on the body element.");
-  // }
 });
+
 /* Mobile Menu JS end */
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -2585,23 +2605,23 @@ if (opportunities) {
 
 /* Disable Click JS Start */
 
-document.addEventListener("contextmenu", (event) => event.preventDefault());
+// document.addEventListener("contextmenu", (event) => event.preventDefault());
 
-document.addEventListener("keydown", (event) => {
-  if (
-    event.key === "F12" ||
-    (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
-    (event.ctrlKey && event.key === "U")
-  ) {
-    event.preventDefault();
-  }
-});
+// document.addEventListener("keydown", (event) => {
+//   if (
+//     event.key === "F12" ||
+//     (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
+//     (event.ctrlKey && event.key === "U")
+//   ) {
+//     event.preventDefault();
+//   }
+// });
 
-document.addEventListener("keyup", (event) => {
-  if (event.ctrlKey && event.key === "u") {
-    event.preventDefault();
-    alert("Viewing source code is disabled!");
-  }
-});
+// document.addEventListener("keyup", (event) => {
+//   if (event.ctrlKey && event.key === "u") {
+//     event.preventDefault();
+//     alert("Viewing source code is disabled!");
+//   }
+// });
 
 /* Disable Click JS End */

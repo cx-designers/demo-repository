@@ -160,17 +160,85 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-phases:
-  - title: "Lorem ipsum"
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:  
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "icon-html"
+            title: "HTML"
+            
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "icon-css"
+            title: "CSS"
+            
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+          
+          - icon: "../../../assets/img/icon-inVision.svg"
+            alt: "icon-inVision"
+            title: "InVision"
+
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
+
+  - title: "Testing"
     blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Usability testing tools"
 
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "A/B testing"
 
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
 
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+
+          - icon: "../../../assets/img/icon-inVision.svg"
+            alt: "icon-inVision"
+            title: "InVision"
 
 blogRelatedCtegory:
   - "Design"

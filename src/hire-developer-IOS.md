@@ -132,94 +132,117 @@ faqBoxList :
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
-      - heading: "iOS Development"
+      - heading: ""
         items:
           - icon: "../../../assets/img/icon-Swift.svg"
-            alt: "Swift"
+            alt: "icon-Swift"
             title: "Swift"
+            
+          - icon: "../../../assets/img/icon-objective-c.svg"
+            alt: "icon-objective-c"
+            title: "Objective-C"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
           - icon: "../../../assets/img/icon-Xcode.svg"
-            alt: "Xcode"
+            alt: "icon-Xcode"
             title: "Xcode"
-      - heading: "Android Development"
-        items:
-          - icon: "../../../assets/img/icon-Java.svg"
-            alt: "Java"
-            title: "Java"
-          - icon: "../../../assets/img/icon-Kotlin.svg"
-            alt: "Kotlin"
-            title: "Kotlin"
-          - icon: "../../../assets/img/icon-Android-Studio.svg"
-            alt: "Android Studio"
-            title: "Android Studio"
-  - title: "Back-End Development"
+            
+          - icon: "../../../assets/img/icon-swiftui.svg"
+            alt: "icon-swiftui"
+            title: "SwiftUI"
+            
+          - icon: "../../../assets/img/icon-uikit.svg"
+            alt: "icon-uikit"
+            title: "UIKit"
+            
+          - icon: "../../../assets/img/icon-core-data.svg"
+            alt: "icon-core-data"
+            title: "Core Data"
+            
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
+
+  - title: "Database"
     blocks:
-      - heading: "Web Development"
+      - heading: ""
         items:
-          - icon: "../../../assets/img/icon-nodejs.svg"
-            alt: "Node Js"
-            title: "JavaScript (Node.js)"
-          - icon: "../../../assets/img/icon-Python.svg"
-            alt: "Python"
-            title: "Python (Django or Flask)"
-          - icon: "../../../assets/img/icon-Ruby-On-Rails.svg"
-            alt: "Ruby on Rails"
-            title: "Ruby on Rails"
-      - heading: "Database"
-        items:
-          - icon: "../../../assets/img/icon-c.svg"
-            alt: "Relational Database"
-            title: "Relational Database"
-          - icon: "../../../assets/img/icon-Postgre-sql.svg"
-            alt: "PostgreSQL"
-            title: "PostgreSQL"
-          - icon: "../../../assets/img/icon-Mysql.svg"
-            alt: "MySQL"
-            title: "MySQL"
-      - heading: "Cloud Hosting"
-        items:
-          - icon: "../../../assets/img/icon-Aws.svg"
-            alt: "AWS"
-            title: "AWS (Amazon Web Services)"
-          - icon: "../../../assets/img/icon-DigitalOcean.svg"
-            alt: "DigitalOcean"
-            title: "DigitalOcean"
-          - icon: "../../../assets/img/icon-c.svg"
-            alt: "App Design Specification"
-            title: "App Design Specification"
-  - title: "App Design"
+          - icon: "../../../assets/img/icon-core-data.svg"
+            alt: "icon-core-data"
+            title: "CoreData"
+            
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
+            
+          - icon: "../../../assets/img/icon-realm.svg"
+            alt: "icon-realm"
+            title: "Realm"
+            
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+          
+  - title: "Testing"
     blocks:
-      - heading: "Mobile App Design"
+      - heading: ""
         items:
-          - icon: "../../../assets/img/icon-Adobe_XD.svg"
-            alt: "Adobe XD"
-            title: "Adobe XD"
+          - icon: "../../../assets/img/icon-xctest.svg"
+            alt: "icon-xctest"
+            title: "XCTest"
+            
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-swiftui.svg"
+            alt: "icon-swiftui"
+            title: "SwiftUI"
+            
+          - icon: "../../../assets/img/icon-uikit.svg"
+            alt: "icon-uikit"
+            title: "UIKit"
+            
+          - icon: "../../../assets/img/icon-combine.svg"
+            alt: "icon-combine"
+            title: "Combine"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
           - icon: "../../../assets/img/icon-Figma.svg"
-            alt: "Figma"
+            alt: "icon-Figma"
             title: "Figma"
-      - heading: "Wireframe Design Tool"
-        items:
-          - icon: "../../../assets/img/icon-Balsamiq.svg"
-            alt: "Balsamiq"
-            title: "Balsamiq"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
           - icon: "../../../assets/img/icon-Sketch.svg"
-            alt: "Sketch"
+            alt: "icon-Sketch"
             title: "Sketch"
-      - heading: "Integrated Development Environment (IDE)"
-        items:
-          - icon: "../../../assets/img/icon-VS_Code.svg"
-            alt: "Visual Studio Code"
-            title: "Visual Studio Code"
-          - icon: "../../../assets/img/icon-Sublime.svg"
-            alt: "Sublime Text"
-            title: "Sublime Text"
-
-
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
 
 blogRelatedCtegory:
   - "Web Development"

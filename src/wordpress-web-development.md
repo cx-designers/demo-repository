@@ -218,8 +218,8 @@ phases:
             alt: "icon-woocommerce"
             title: "WooCommerce"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-wp-cli.svg"
+            alt: "icon-wp-cli"
             title: "WP-CLI"
 
   - title: "Database"
@@ -230,20 +230,20 @@ phases:
             alt: "icon-Mysql"
             title: "MySQL"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-mariaDB.svg"
+            alt: "icon-mariaDB"
             title: "MariaDB"
           
   - title: "Testing"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-PHPUnit.svg"
+            alt: "icon-PHPUnit"
             title: "PHPUnit"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-codeception.svg"
+            alt: "icon-codeception"
             title: "Codeception"
             
           - icon: "../../../assets/img/icon-selenium.svg"
@@ -254,8 +254,8 @@ phases:
             alt: "icon-cypress"
             title: "Cypress"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-debug-bar.svg"
+            alt: "icon-debug-bar"
             title: "Debug Bar"
 
   - title: "Framework"
@@ -266,16 +266,16 @@ phases:
             alt: "icon-Wordpress"
             title: "WordPress Core"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-elementor.svg"
+            alt: "icon-elementor"
             title: "Elementor"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-divi.svg"
+            alt: "icon-divi"
             title: "Divi"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-advanced-custom-fields.svg"
+            alt: "icon-advanced-custom-fields"
             title: "Advanced Custom Fields"
           
           - icon: "../../../assets/img/icon-woocommerce.svg"

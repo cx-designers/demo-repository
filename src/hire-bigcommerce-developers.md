@@ -157,19 +157,125 @@ buttonQuoteLink: "javascript:;"
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "icon-html"
+            title: "HTML5"
+
+          - icon: "../../../assets/img/icon-stencil.svg"
+            alt: "icon-stencil"
+            title: "Stencil"
+          
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "icon-css"
+            title: "CSS3"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-stripe.svg"
+            alt: "icon-stripe"
+            title: "Stripe"
+          
+          - icon: "../../../assets/img/icon-PayPal.svg"
+            alt: "icon-PayPal"
+            title: "PayPal"
+
+          - icon: "../../../assets/img/icon-braintree.svg"
+            alt: "icon-braintree"
+            title: "Braintree"
+
+          - icon: "../../../assets/img/icon-authorize.net.svg"
+            alt: "icon-authorize.net"
+            title: "Authorize.Net"
+
+          - icon: "../../../assets/img/icon-adyen.svg"
+            alt: "icon-adyen"
+            title: "Adyen"
+
+          - icon: "../../../assets/img/icon-webhooks.svg"
+            alt: "icon-webhooks"
+            title: "Webhooks"
+
+  - title: "Testing"
     blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/icon-manual-testing.svg"
+            alt: "icon-manual-testing"
+            title: "Manual Testing"
 
+          - icon: "../../../assets/img/icon-browserStack.svg"
+            alt: "icon-browserStack"
+            title: "BrowserStack"
+            
+          - icon: "../../../assets/img/icon-bigCommerce-preview-mode.svg"
+            alt: "icon-bigCommerce-preview-mode"
+            title: "BigCommerce Preview Mode"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "gCommerce Themes"
 
+          - icon: "../../../assets/img/icon-bigCommerce-api.svg"
+            alt: "icon-bigCommerce-api"
+            title: "BigCommerce API"
+          
+          - icon: "../../../assets/img/icon-shipStation.svg"
+            alt: "icon-shipStation"
+            title: "ShipStation"
 
+          - icon: "../../../assets/img/icon-yotpo.svg"
+            alt: "icon-yotpo"
+            title: "Yotpo"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-bigCommerce-theme-marketplace.svg"
+            alt: "icon-bigCommerce-theme-marketplace"
+            title: "BigCommerce Theme Marketplace"
+
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
 
 blogRelatedCtegory:
   - "Web Development"

@@ -105,29 +105,6 @@ servicesList:
     pageAriaLabel: "Go to drupal web development page"
     description: "Develop high-performance, enterprise-grade websites with Drupal’s advanced CMS capabilities. Add custom modules, enhanced security, and scalability for complex business requirements. Transform your site today. Learn More About Drupal."
 
-phases:
-  - title: "Platform"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-
 hireCtaTitle: "Hire Skilled CMS Web Developers"
 hireCtaSubTitle: "Need expert CMS Developers to create your Powered website?"
 hireCtaDesc: "We offer flexible hiring models to connect you with skilled CMS web developers who specialize in creating dynamic, secure, and scalable websites. Whether you need a single developer or an entire team, we provide tailored resources to efficiently and cost-effectively meet your project goals. Partner with us to accelerate your CMS development journey and achieve measurable results."
@@ -166,5 +143,161 @@ faqBoxList :
 
 - faqTitle: "How can I get started with Cypherox Technologies for my CMS project?"
   faqDescription: "Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your goals, target audience, and desired features. From there, we’ll create a customized plan to bring your CMS vision to life."
+
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:
+  - title: "Programming"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-php.svg"
+            alt: "icon-php"
+            title: "PHP"
+
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+
+          - icon: "../../../assets/img/icon-webhooks.svg"
+            alt: "icon-webhooks"
+            title: "Webhooks"
+            
+          - icon: "../../../assets/img/icon-stripe.svg"
+            alt: "icon-stripe"
+            title: "Stripe"
+            
+          - icon: "../../../assets/img/icon-PayPal.svg"
+            alt: "icon-PayPal"
+            title: "PayPal"
+            
+          - icon: "../../../assets/img/icon-braintree.svg"
+            alt: "icon-braintree"
+            title: "Braintree"
+            
+          - icon: "../../../assets/img/icon-authorize.net.svg"
+            alt: "icon-authorize.net"
+            title: "Authorize.Net"
+            
+          - icon: "../../../assets/img/icon-adyen.svg"
+            alt: "icon-adyen"
+            title: "Adyen"
+          
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+
+          - icon: "../../../assets/img/icon-mariaDB.svg"
+            alt: "icon-mariaDB"
+            title: "MariaDB"
+
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-PHPUnit.svg"
+            alt: "icon-PHPUnit"
+            title: "PHPUnit"
+            
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+            
+          - icon: "../../../assets/img/icon-postman.svg"
+            alt: "icon-postman"
+            title: "Postman"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Wordpress.svg"
+            alt: "icon-Wordpress"
+            title: "WordPress"
+            
+          - icon: "../../../assets/img/icon-joomla-extensions.svg"
+            alt: "icon-joomla-extensions"
+            title: "Joomla"
+            
+          - icon: "../../../assets/img/icon-Drupal.svg"
+            alt: "icon-Drupal"
+            title: "Drupal"
+
+          - icon: "../../../assets/img/icon-strapi.svg"
+            alt: "icon-strapi"
+            title: "Strapi"
+
+          - icon: "../../../assets/img/icon-contentful.svg"
+            alt: "icon-contentful"
+            title: "Contentful"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+            
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 ---

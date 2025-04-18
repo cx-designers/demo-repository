@@ -156,97 +156,165 @@ faqBoxList :
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
-      - heading: "Frontend"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+            
+          - icon: "../../../assets/img/icon-php.svg"
+            alt: "icon-php"
+            title: "PHP"
+
+          - icon: "../../../assets/img/icon-ruby.svg"
+            alt: "icon-ruby"
+            title: "Ruby"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-websocket.svg"
+            alt: "icon-websocket"
+            title: "WebSocket"
+            
+          - icon: "../../../assets/img/icon-jwt.svg"
+            alt: "icon-jwt"
+            title: "JWT"
+
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+            
+          - icon: "../../../assets/img/icon-mocha.svg"
+            alt: "icon-mocha"
+            title: "Mocha"
+
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+
+          - icon: "../../../assets/img/icon-postman.svg"
+            alt: "icon-postman"
+            title: "Postman"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
         items:
           - icon: "../../../assets/img/icon-reactjs.svg"
-            alt: "ReactJS"
-            title: "ReactJS"
+            alt: "icon-reactjs"
+            title: "React.js"
+
           - icon: "../../../assets/img/icon-angular.svg"
-            alt: "Angular"
+            alt: "icon-angular"
             title: "Angular"
-          - icon: "../../../assets/img/icon-html.svg"
-            alt: "HTML"
-            title: "HTML"
-          - icon: "../../../assets/img/icon-css.svg"
-            alt: "CSS"
-            title: "CSS"
-          - icon: "../../../assets/img/icon-javascript.svg"
-            alt: "JavaScript"
-            title: "JavaScript"
-      - heading: "Technology"
-        items:
-          - icon: "../../../assets/img/icon-android.svg"
-            alt: "Android"
-            title: "Android"
-          - icon: "../../../assets/img/icon-ios.svg"
-            alt: "iOS"
-            title: "iOS"
-          - icon: "../../../assets/img/icon-flutter.svg"
-            alt: "Flutter"
-            title: "Flutter"
-          - icon: "../../../assets/img/icon-react-native.svg"
-            alt: "React Native"
-            title: "React Native"
-  - title: "Back-End Development"
-    blocks:
-      - heading: "Backend"
-        items:
+
+          - icon: "../../../assets/img/icon-vuejs.svg"
+            alt: "icon-vuejs"
+            title: "Vue.js"
+
           - icon: "../../../assets/img/icon-nodejs.svg"
-            alt: "NodeJS (Express, NestJs)"
-            title: "NodeJS (Express, NestJs)"
-          - icon: "../../../assets/img/icon-Ruby-On-Rails.svg"
-            alt: "ROR (Ruby on Rails)"
-            title: "ROR (Ruby on Rails)"
-          - icon: "../../../assets/img/icon-Python.svg"
-            alt: "Python"
-            title: "Python (Django or Flask)"
-          - icon: "../../../assets/img/icon-php.svg"
-            alt: "PHP (Laravel)"
-            title: "PHP (Laravel)"
-      - heading: "Database"
-        items:
-          - icon: "../../../assets/img/icon-mongodb.svg"
-            alt: "MongoDB"
-            title: "MongoDB"
-          - icon: "../../../assets/img/icon-Mysql.svg"
-            alt: "MySQL"
-            title: "MySQL"
-          - icon: "../../../assets/img/icon-Postgre-sql.svg"
-            alt: "PostgreSQL"
-            title: "PostgreSQL"
-      - heading: "Servers"
-        items:
-          - icon: "../../../assets/img/icon-Aws.svg"
-            alt: "AWS (Amazon Web Services)"
-            title: "AWS (Amazon Web Services)"
-          - icon: "../../../assets/img/icon-google-cloud.svg"
-            alt: "Google Cloud"
-            title: "Google Cloud"
-          - icon: "../../../assets/img/icon-microsoft-azure.svg"
-            alt: "Microsoft Azure"
-            title: "Microsoft Azure"    
-  - title: "App Design"
+            alt: "icon-nodejs"
+            title: "Node.js"
+
+          - icon: "../../../assets/img/icon-django.svg"
+            alt: "icon-django"
+            title: "Django"
+            
+          - icon: "../../../assets/img/icon-spring-boot.svg"
+            alt: "icon-spring-boot"
+            title: "Spring Boot"
+
+          - icon: "../../../assets/img/icon-laravel.svg"
+            alt: "icon-laravel"
+            title: "Laravel"
+
+  - title: "Design"
     blocks:
-      - heading: "Design"
+      - heading: ""
         items:
-          - icon: "../../../assets/img/icon-photosho.svg"
-            alt: "Photoshop"
-            title: "Photoshop"
-          - icon: "../../../assets/img/icon-iiiustrator.svg"
-            alt: "Illustrator"
-            title: "Illustrator"
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
           - icon: "../../../assets/img/icon-Adobe_XD.svg"
-            alt: "Adobe XD"
+            alt: "icon-Adobe_XD"
             title: "Adobe XD"
+            
           - icon: "../../../assets/img/icon-Sketch.svg"
-            alt: "Sketch"
+            alt: "icon-Sketch"
             title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 blogRelatedCtegory:
   - "Web Development"

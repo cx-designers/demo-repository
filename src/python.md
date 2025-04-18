@@ -118,30 +118,7 @@ servicesList:
 
   - count: "08."
     title: "Performance-driven Web Applications"
-    description: "Craft fast, secure, and scalable web apps using Python frameworks like Django and Flask. Focus on speed, usability, and SEO to meet modern business demands. Boost performance today."
-
-phases:
-  - title: "Platform"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""        
+    description: "Craft fast, secure, and scalable web apps using Python frameworks like Django and Flask. Focus on speed, usability, and SEO to meet modern business demands. Boost performance today."      
     
 hireCtaTitle: "Hire Our Python Developers"
 hireCtaSubTitle: "Let our Python development experts elevate your business to new heights"
@@ -181,5 +158,141 @@ faqBoxList :
   
 - faqTitle: "How can I get started with Cypherox Technologies for my Python web project?"
   faqDescription: "Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your project goals, technical requirements, and budget. From there, we’ll create a customized plan to bring your vision to life."    
+
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:
+  - title: "Programming"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-websocket.svg"
+            alt: "icon-websocket"
+            title: "WebSocket"
+            
+          - icon: "../../../assets/img/icon-jwt.svg"
+            alt: "icon-jwt"
+            title: "JWT"
+          
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+            
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+            
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-pytest.svg"
+            alt: "icon-pytest"
+            title: "PyTest"
+            
+          - icon: "../../../assets/img/icon-unittest.svg"
+            alt: "icon-unittest"
+            title: "Unittest"
+            
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+            
+          - icon: "../../../assets/img/icon-postman.svg"
+            alt: "icon-postman"
+            title: "Postman"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-django.svg"
+            alt: "icon-django"
+            title: "Django"
+            
+          - icon: "../../../assets/img/icon-flask.svg"
+            alt: "icon-flask"
+            title: "Flask"
+            
+          - icon: "../../../assets/img/icon-fastapi.svg"
+            alt: "icon-fastapi"
+            title: "FastAPI"
+
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "Pyramid"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+            
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 ---

@@ -164,17 +164,141 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
 
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
 
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-websocket.svg"
+            alt: "icon-websocket"
+            title: "WebSocket"
+          
+          - icon: "../../../assets/img/icon-rasa.svg"
+            alt: "icon-rasa"
+            title: "Rasa"
+
+          - icon: "../../../assets/img/icon-ibm-watson.svg"
+            alt: "icon-ibm-watson"
+            title: "IBM Watson"
+
+          - icon: "../../../assets/img/icon-microsoft-bot-framework.svg"
+            alt: "icon-microsoft-bot-framework"
+            title: "Microsoft Bot Framework"
+
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/icon-pytest.svg"
+            alt: "icon-pytest"
+            title: "PyTest"
+
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+            
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+          
+          - icon: "../../../assets/img/icon-postman.svg"
+            alt: "icon-postman"
+            title: "Postman"
+
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-flask.svg"
+            alt: "icon-flask"
+            title: "Flask/FastAPI"
+
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "icon-reactjs"
+            title: "React.js/Angular/Vue.js"
+          
+          - icon: "../../../assets/img/icon-dialogflow.svg"
+            alt: "icon-dialogflow"
+            title: "Dialogflow"
+
+          - icon: "../../../assets/img/icon-rasa.svg"
+            alt: "icon-rasa"
+            title: "Rasa"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 blogRelatedCtegory:
   - "Web Development"

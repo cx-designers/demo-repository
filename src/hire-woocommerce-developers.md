@@ -160,17 +160,121 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-php.svg"
+            alt: "icon-php"
+            title: "PHP"
 
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
 
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "icon-html"
+            title: "HTML5"
+          
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "icon-css"
+            title: "CSS3"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-elasticsearch-payment-gateways.svg"
+            alt: "icon-elasticsearch-payment-gateways"
+            title: "Payment Gateways"
+          
+          - icon: "../../../assets/img/icon-wp-cli.svg"
+            alt: "icon-wp-cli"
+            title: "WP-CLI"
+
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL/MariaDB"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:     
+          - icon: "../../../assets/img/icon-PHPUnit.svg"
+            alt: "icon-PHPUnit"
+            title: "PHPUnit"
+
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+            
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+          
+          - icon: "../../../assets/img/icon-debug-bar.svg"
+            alt: "icon-debug-bar"
+            title: "Debug Bar"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-wordpress-core.svg"
+            alt: "icon-wordpress-core"
+            title: "WordPress Core"
+
+          - icon: "../../../assets/img/icon-woocommerce.svg"
+            alt: "icon-woocommerce"
+            title: "WooCommerce Plugin"
+          
+          - icon: "../../../assets/img/icon-elementor.svg"
+            alt: "icon-elementor"
+            title: "Elementor"
+
+          - icon: "../../../assets/img/icon-advanced-custom-fields.svg"
+            alt: "icon-advanced-custom-fields"
+            title: "Advanced Custom Fields"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-woocommerce.svg"
+            alt: "icon-woocommerce"
+            title: "WooCommerce Themes"
+
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
 
 blogRelatedCtegory:
   - "Web Development"

@@ -116,29 +116,6 @@ servicesList:
     title: "ExpressJS Application Development"
     description: "Develop feature-rich, responsive applications with ExpressJS. Focus on performance, scalability, and user-centric design to meet modern business demands. Transform your ideas today."
 
-phases:
-  - title: "Platform"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-
 developmentPhasesSubTitle: "Phases"
 developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
 developmentPhases:
@@ -215,5 +192,129 @@ faqBoxList :
   
 - faqTitle: "How can I get started with Cypherox Technologies for my Express.js project?"
   faqDescription: "Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your project goals, technical requirements, and budget. From there, we’ll create a customized plan to bring your vision to life."
+
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:
+  - title: "Programming"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-websocket.svg"
+            alt: "icon-websocket"
+            title: "WebSocket"
+            
+          - icon: "../../../assets/img/icon-jwt.svg"
+            alt: "icon-jwt"
+            title: "JWT"
+          
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+            
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+            
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+            
+          - icon: "../../../assets/img/icon-mocha.svg"
+            alt: "icon-mocha"
+            title: "Mocha"
+            
+          - icon: "../../../assets/img/icon-chai.svg"
+            alt: "icon-chai"
+            title: "Chai"
+            
+          - icon: "../../../assets/img/icon-supertest.svg"
+            alt: "icon-supertest"
+            title: "Supertest"
+            
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-expressjs.svg"
+            alt: "icon-expressjs"
+            title: "Express.js"
+            
+          - icon: "../../../assets/img/icon-passportjs.svg"
+            alt: "icon-passportjs"
+            title: "Passport.js"
+            
+          - icon: "../../../assets/img/icon-socket.io.svg"
+            alt: "icon-socket.io"
+            title: "Socket.IO"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+            
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 ---

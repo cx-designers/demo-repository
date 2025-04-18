@@ -227,8 +227,8 @@ phases:
             alt: "icon-mongodb"
             title: "MongoDB"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-mongoose.svg"
+            alt: "icon-mongoose"
             title: "Mongoose"
             
           - icon: "../../../assets/img/icon-Mysql.svg"
@@ -247,16 +247,16 @@ phases:
             alt: "icon-mocha"
             title: "Mocha"
             
-          - icon: "../../../assets/img/icon-Chainlink.svg"
-            alt: "icon-Chainlink"
+          - icon: "../../../assets/img/icon-chai.svg"
+            alt: "icon-chai"
             title: "Chai"
             
           - icon: "../../../assets/img/icon-postman.svg"
             alt: "icon-postman"
             title: "Postman"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-browserStack.svg"
+            alt: "icon-browserStack"
             title: "BrowserStack"
           
   - title: "Frameworks"
@@ -271,8 +271,8 @@ phases:
             alt: "icon-angular"
             title: "Angular Modules"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-third-party-libraries.svg"
+            alt: "icon-third-party-libraries"
             title: "Third-Party Libraries"
 
   - title: "Design"
@@ -291,8 +291,8 @@ phases:
             alt: "icon-Sketch"
             title: "Sketch"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-material-design.svg"
+            alt: "icon-material-design"
             title: "Material Design"
        
 ---

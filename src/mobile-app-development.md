@@ -254,8 +254,8 @@ phases:
           - icon: "../../../assets/img/icon-photosho.svg"
             alt: "icon-photosho"
             title: "Photoshop"
-          - icon: "../../../assets/img/icon-iiiustrator.svg"
-            alt: "icon-iiiustrator"
+          - icon: "../../../assets/img/icon-illustrator.svg"
+            alt: "icon-illustrator"
             title: "Illustrator"
           
 

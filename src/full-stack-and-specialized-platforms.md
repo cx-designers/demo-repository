@@ -99,29 +99,6 @@ servicesList:
     pageAriaLabel: "Go to wordpress page"
     description: "Create dynamic, SEO-friendly websites with WordPress’s flexible CMS. Customize themes, plugins, and functionalities to build scalable and user-friendly web solutions. Elevate your site now."
 
-phases:
-  - title: "Platform"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-  - title: "Back-End Development"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
-  - title: "App Design"
-    blocks:
-      - heading: ""
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
-
 hireCtaTitle: "Hire Skilled Full Stack Developers"
 hireCtaSubTitle: "Need expert full stack developers to take your projects to the next level?"
 hireCtaDesc: "Cypherox Technologies provides flexible hiring models tailored to your business needs. Our full-stack developers are skilled in both front-end and back-end technologies, delivering innovative, end-to-end solutions. Whether you require a single developer or a full team, we offer scalable resources to help you achieve your goals efficiently and cost-effectively."
@@ -157,5 +134,165 @@ faqBoxList :
   
 - faqTitle: "How can I get started with Cypherox Technologies for my full stack project?"
   faqDescription: "Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your project goals, technical requirements, and budget."
-  
+ 
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
+phases:
+  - title: "Programming"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+          
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+
+          - icon: "../../../assets/img/icon-php.svg"
+            alt: "icon-php"
+            title: "PHP"
+
+          - icon: "../../../assets/img/icon-ruby.svg"
+            alt: "icon-ruby"
+            title: "Ruby"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+            
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
+            
+          - icon: "../../../assets/img/icon-websocket.svg"
+            alt: "icon-websocket"
+            title: "WebSocket"
+            
+          - icon: "../../../assets/img/icon-jwt.svg"
+            alt: "icon-jwt"
+            title: "JWT"
+          
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+            
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+            
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-jest.svg"
+            alt: "icon-jest"
+            title: "Jest"
+            
+          - icon: "../../../assets/img/icon-mocha.svg"
+            alt: "icon-mocha"
+            title: "Mocha"
+            
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+            
+          - icon: "../../../assets/img/icon-postman.svg"
+            alt: "icon-postman"
+            title: "Postman"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "icon-reactjs"
+            title: "React.js"
+            
+          - icon: "../../../assets/img/icon-angular.svg"
+            alt: "icon-angular"
+            title: "Angular.js"
+            
+          - icon: "../../../assets/img/icon-vue.svg"
+            alt: "icon-vue"
+            title: "Vue.js"
+
+          - icon: "../../../assets/img/icon-nodejs.svg"
+            alt: "icon-nodejs"
+            title: "Node.js"
+
+          - icon: "../../../assets/img/icon-django.svg"
+            alt: "icon-django"
+            title: "Django"
+
+          - icon: "../../../assets/img/icon-spring-boot.svg"
+            alt: "icon-spring-boot"
+            title: "Spring Boot"
+
+          - icon: "../../../assets/img/icon-laravel.svg"
+            alt: "icon-laravel"
+            title: "Laravel"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+            
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
+ 
 ---

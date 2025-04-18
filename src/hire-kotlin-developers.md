@@ -137,13 +137,113 @@ ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
 
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Kotlin.svg"
+            alt: "icon-Kotlin"
+            title: "Kotlin"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Android-Studio.svg"
+            alt: "icon-Android-Studio"
+            title: "Android Studio"
+
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
+            
+          - icon: "../../../assets/img/icon-restful-apis.svg"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
+
+  - title: "Database"
     blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
+
+          - icon: "../../../assets/img/icon-room.svg"
+            alt: "icon-room"
+            title: "Room"
+            
+          - icon: "../../../assets/img/icon-firebase realtime-database.svg"
+            alt: "icon-firebase realtime-database"
+            title: "Firebase Realtime Database"
+
+          - icon: "../../../assets/img/icon-realm.svg"
+            alt: "icon-realm"
+            title: "Realm"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-junit.svg"
+            alt: "icon-junit"
+            title: "JUnit"
+            
+          - icon: "../../../assets/img/icon-espresso.svg"
+            alt: "icon-espresso"
+            title: "Espresso"
+            
+          - icon: "../../../assets/img/icon-mockito.svg"
+            alt: "icon-mockito"
+            title: "Mockito"
+
+          - icon: "../../../assets/img/icon-robolectric.svg"
+            alt: "icon-robolectric"
+            title: "Robolectric"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-compose.svg"
+            alt: "icon-compose"
+            title: "Jetpack Compose"
+            
+          - icon: "../../../assets/img/icon-retrofit.svg"
+            alt: "icon-retrofit"
+            title: "Retrofit"
+            
+          - icon: "../../../assets/img/icon-livedata.svg"
+            alt: "icon-livedata"
+            title: "LiveData"
+
+          - icon: "../../../assets/img/"
+            alt: ""
+            title: "ViewModel"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+            
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
 
 
 
