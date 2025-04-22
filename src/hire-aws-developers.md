@@ -20,8 +20,8 @@ devInformationList:
   - infoItem: By hiring AWS developers from India , you gain access to skilled professionals who can design and implement a reliable, resilient, and always-available cloud infrastructure. Our developers specialize in integrating AWS solutions with various systems, ensuring scalability, security, and high performance.
   - infoItem: Partner with Cypherox Technologies to unlock the true power of AWS. Our team is committed to delivering customized cloud solutions that drive efficiency, reduce costs, and support your long-term growth objectives.
   - infoItem: Contact us today to hire our AWS developers and build a cutting-edge cloud ecosystem that propels your business forward in the digital era. Let us help you achieve a secure, scalable, and future-ready cloud environment!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-AWS-Developers.png"
+devBgAlt: "bg-Hire-AWS-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire AWS Developers Aligned With Your Specific Requirements"
@@ -137,16 +137,121 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
 
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
 
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-aws-lambda.svg"
+            alt: "icon-aws-lambda"
+            title: "AWS Lambda"
+            
+          - icon: "../../../assets/img/icon-aws-ec2.svg"
+            alt: "icon-aws-ec2"
+            title: "EC2"
+            
+          - icon: "../../../assets/img/icon-amazon-s3.svg"
+            alt: "icon-amazon-s3"
+            title: "S3"
+            
+          - icon: "../../../assets/img/icon-cloudFormation.svg"
+            alt: "icon-cloudFormation"
+            title: "CloudFormation"
+            
+          - icon: "../../../assets/img/icon-aws-iam.svg"
+            alt: "icon-aws-iam"
+            title: "IAM"
+            
+          - icon: "../../../assets/img/icon-cdnl-rds.svg"
+            alt: "icon-cdnl-rds"
+            title: "RDS"
+            
+          - icon: "../../../assets/img/icon-aws-dynamoDB.svg"
+            alt: "icon-aws-dynamoDB"
+            title: "DynamoDB"
+            
+          - icon: "../../../assets/img/icon-API-Gateway.svg"
+            alt: "icon-API-Gateway"
+            title: "API Gateway"
+          
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Amazon-RDS.svg"
+            alt: "icon-Amazon-RDS"
+            title: "Amazon RDS"
+
+          - icon: "../../../assets/img/icon-aws-dynamoDB.svg"
+            alt: "icon-aws-dynamoDB"
+            title: "DynamoDB"
+
+          - icon: "../../../assets/img/icon-Aurora.svg"
+            alt: "icon-Aurora"
+            title: "Aurora"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-aws-cloudwatch.svg"
+            alt: "icon-aws-cloudwatch"
+            title: "AWS CloudWatch"
+
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+
+          - icon: "../../../assets/img/icon-postman.svg"
+            alt: "icon-postman"
+            title: "Postman"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Serverless-Framework.svg"
+            alt: "icon-Serverless-Framework"
+            title: "Serverless Framework"
+
+          - icon: "../../../assets/img/icon-AWS-SDK.svg"
+            alt: "icon-AWS-SDK"
+            title: "AWS SDK"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-AWS-Architecture-Diagram-Tools.svg"
+            alt: "icon-AWS-Architecture-Diagram-Tools"
+            title: "AWS Architecture Diagram Tools"
+
+          - icon: "../../../assets/img/icon-Lucidchart.svg"
+            alt: "icon-Lucidchart"
+            title: "Lucidchart"
 
 blogRelatedCtegory:
   - "Web Development"

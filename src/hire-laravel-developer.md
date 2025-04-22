@@ -26,8 +26,8 @@ devInformationList:
   - infoItem: Our rigorous screening process ensures that you are connected only with experienced, reliable, and in-house Laravel developers. Our team comprises experts with deep knowledge and proficiency in Laravel, ensuring that your project is in capable hands. Whether you need custom web applications, API integrations, or complex enterprise solutions, our developers are equipped to deliver exceptional results.
   - infoItem: With a wide range of Laravel expertise and experience, we are committed to addressing all your development needs. From concept to deployment, we ensure seamless execution, timely delivery, and cost-effective solutions. Our team’s dedication to quality and innovation guarantees that your project aligns perfectly with your business goals.
   - infoItem: If you’re looking to hire Laravel developers who can transform your ideas into reality, look no further. Contact us today, and let Cypherox Technologies be your trusted partner in achieving success with Laravel development. We’re here to assist you every step of the way—reach out now, and let’s get started!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Laravel-Developers.png"
+devBgAlt: "bg-Hire-Laravel-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Laravel Developers Aligned with Your Project Goals"
@@ -251,8 +251,8 @@ phases:
             alt: "icon-laravel"
             title: "Laravel"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Lumen.svg"
+            alt: "icon-Lumen"
             title: "Lumen"
 
   - title: "Design"

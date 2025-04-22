@@ -20,6 +20,7 @@
 @import "../../../node_modules/bootstrap/scss/card";
 @import "../../../node_modules/bootstrap/scss/buttons";
 @import "../../../node_modules/bootstrap/scss/nav";
+@import "../../../node_modules/bootstrap/scss/modal"; 
 
 $primaryFonts: 'QAEFQS+TTFirsNeue';
 $secondryFornts: "Poppins", serif;
@@ -1061,21 +1062,37 @@ header {
           .cust-row.row {
               max-width: 1620px;
               margin: 50px auto;
+              max-height:700px;
               overflow-y: auto;
               opacity: 0;  
               transition: opacity 0.5s ease;
               gap: 30px 0px;
+
+              &::-webkit-scrollbar {
+                width: 8px;
+              }
+            
+              &::-webkit-scrollbar-track {
+                border-radius: 0px;
+                background-color: $primaryColor;
+              }
+            
+              &::-webkit-scrollbar-thumb {
+                background: $secondaryColor;
+                border-radius: 10px;
+              }
+
               &>div {
                 padding: 0;
               }
           
               ul.v3-inner-menu {
                 padding: 0;
+                border-left: 1px solid $secondaryColor;
           
                 &>li.v3-inner-menu-item {
                   margin: 0px 0px;
                   padding: 0px 0 0 20px;
-                  border-left: 1px solid $secondaryColor;
                   a {
                     padding: 0px 0 10px 0;
                     text-decoration: none;
@@ -1083,7 +1100,7 @@ header {
                     font-size: 16px;
                     color: $white;
                     transition: 0.3s ease;
-                    display: block;
+                    display: inline-block;
                     &:hover{
                       color:$secondaryColor;
                       transition: 0.3s ease;
@@ -1099,6 +1116,24 @@ header {
                 margin-bottom: 10px;
                 display: inline-block;
                 font-size: 20px;
+              }
+              ul.v3-inner-menu {
+                &.six-column-list {
+                  display: flex;
+                  flex-wrap: wrap;
+                  li.v3-inner-menu-item {
+                    width: calc(16% - 7px);
+                    margin: 0px;
+                  }
+                }
+                &.four-column-list{
+                  display: flex;
+                  flex-wrap: wrap;
+                  li.v3-inner-menu-item {
+                    width: calc(25% - 7px);
+                    margin: 0px;
+                  }
+                }
               }
               ul.v3-inner-menu.three-column-list{
                 display: flex;
@@ -1127,6 +1162,11 @@ header {
               opacity: 1;
               transition: opacity 0.5s ease;
             }
+          }
+        }
+        &.hovered{
+          &> a {
+            color:$secondaryColor;
           }
         }
       }
@@ -1772,11 +1812,7 @@ header {
   }
 
   @include mobileLarge {
-    padding-top: 55px;
-  }
-
-  @include mobileSmall {
-    padding-bottom: 0px;
+    padding-top: 60px;
   }
 
   img.cust-bg {
@@ -2004,6 +2040,10 @@ header {
   z-index: 1;
   background-color: $white !important;
 
+  @include mobileLarge {
+    overflow: hidden;
+  }
+
   .letter-x {
     font-size: 10vw;
     font-weight: bold;
@@ -2038,6 +2078,20 @@ header {
 
       @include mobileLarge {
         // height: 100vh;
+      }
+
+      &.mobile-svg {
+        display: none;
+
+        @include mobileLarge {
+          display: block;
+        }
+      }
+
+      &.desktop-svg {
+        @include mobileLarge {
+          display: none;
+        }
       }
     }
 
@@ -2081,6 +2135,10 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
     will-change: transform, opacity;
+
+    @include mobileLarge {
+      width: 100%;
+    }
 
     h2 {
       position: relative;
@@ -3269,6 +3327,8 @@ div#lottie-animation {
               height: 100%;
             }
 
+            
+
             .testimonial-item-icon-sec {
               margin: 0px;
               padding: 0px;
@@ -3287,7 +3347,7 @@ div#lottie-animation {
             }
 
             .testimonial-author-sec {
-              margin: 30px 0 0 0;
+              margin: 22px 0 0 0;
               padding: 0px;
 
               .testimonial-author-sec-inner {
@@ -3310,9 +3370,10 @@ div#lottie-animation {
                   max-width: calc(100% - 70px);
 
                   h3 {
+                    
                     font-size: 24px;
                     line-height: 26px;
-                    color: $white;
+                    color: $secondaryColor;
                     margin: 0 0 5px 0;
                   }
 
@@ -3425,9 +3486,16 @@ div#lottie-animation {
           width: calc(100% - 60px);
           max-width: calc(100% - 60px);
           padding-left: 10px;
-
+          &::before {
+            content:'';
+            width:30px;
+            height:1px;
+            background:$secondaryColor;
+            display:inline-block;
+            margin-right:10px;
+          }
           h3 {
-            color: #fff;
+            color: $secondaryColor;
             margin: 0;
             font-size: 24px;
             line-height: 1;
@@ -3462,7 +3530,68 @@ div#lottie-animation {
       }
     }
   }
+  .testimonial-thumbnail-img {
+    position: relative;
+    width: 100%;
+    margin-bottom:30px;
+
+    img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    a.cust-video-play-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background: #f26e65;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
+.video-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  .video-modal-content {
+    position: relative;
+    max-width: 90%;
+    width: 800px;
+    video{
+      width:100%;
+    }
+  }
+  .video-modal-close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    background: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index:9;
+  }
+}
+
+
+
+
 
 /* Testimonial Section CSS End */
 

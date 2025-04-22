@@ -27,8 +27,8 @@ devInformationList:
   - infoItem: Whether you need a single expert or an entire team, our flexible hiring models ensure scalability and cost-effectiveness, allowing you to align resources with your specific needs. Our transparent communication, proven expertise, and focus on measurable outcomes make us the ideal partner for your digital marketing journey.
   - infoItem: Partner with Cypherox Technologies to benefit from innovative strategies, data-backed insights, and unparalleled execution that drive growth and success for your business. Let us help you achieve exceptional results and take your brand to new heights in the ever-evolving digital world.
   - infoItem: Contact us today to hire our Digital Marketing Experts and transform your vision into impactful, measurable success!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Digital-Marketers.png"
+devBgAlt: "bg-Hire-Digital-Marketers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Digital Marketers For Your Evolving Project Needs"
@@ -141,19 +141,69 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-google-analytics.svg"
+            alt: "icon-google-analytics"
+            title: "Google Analytics"
+            
+          - icon: "../../../assets/img/icon-google-ads.svg"
+            alt: "icon-google-ads"
+            title: "Google Ads"
+            
+          - icon: "../../../assets/img/icon-facebook-ads.svg"
+            alt: "icon-facebook-ads"
+            title: "Facebook Ads"
+            
+          - icon: "../../../assets/img/icon-ahrefs-seo-tool.svg"
+            alt: "icon-ahrefs-seo-tool"
+            title: "Ahrefs"
+            
+          - icon: "../../../assets/img/icon-semrush.svg"
+            alt: "icon-semrush"
+            title: "SEMrush"
+            
+          - icon: "../../../assets/img/icon-mailchimp.svg"
+            alt: "icon-mailchimp"
+            title: "Mailchimp"
+            
+          - icon: "../../../assets/img/icon-hubspot.svg"
+            alt: "icon-hubspot"
+            title: "HubSpot"
+          
+  - title: "Testing"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-a-b-testing.svg"
+            alt: "icon-a-b-testing"
+            title: "A/B Testing Tools"
+
+          - icon: "../../../assets/img/icon-heatmap.svg"
+            alt: "icon-heatmap"
+            title: "Heatmaps"
+          
+  - title: "Design"
     blocks:
-
-
-
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-canva.svg"
+            alt: "icon-canva"
+            title: "Canva"
+            
+          - icon: "../../../assets/img/icon-adobe-spark.svg"
+            alt: "icon-adobe-spark"
+            title: "Adobe Spark"
+            
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
 
 blogRelatedCtegory:
   - "Web Development"

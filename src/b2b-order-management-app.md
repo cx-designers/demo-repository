@@ -35,8 +35,8 @@ devInformationList :
 - infoItem: Our solutions address the complexities of B2B transactions, which often involve intricate workflows, large data volumes, and multiple stakeholders. Leveraging cloud integration, real-time analytics, and automation, we simplify processes and improve supply chain visibility. Key features include automated order routing, inventory synchronization, customizable dashboards, and seamless ERP/CRM integrations. Advanced functionalities like tiered pricing, bulk ordering, and role-based access control ensure a seamless experience for teams and clients.
 - infoItem: We take a strategic approach, starting with a deep understanding of your challenges, audience, and industry needs. Whether building a new app, modernizing systems, or adding AI-driven forecasting, IoT tracking, or blockchain transparency, our team handles projects of any scale. With clean code, rigorous testing, and user-centric design, we deliver polished apps that boost productivity and growth.
 - infoItem: Beyond development, we provide ongoing support, staying updated with mobile and enterprise tech advancements. Partner with us to experience B2B Order Management Apps where efficiency meets innovation, empowering unstoppable operations.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-B2B-Order-Management-App.png"
+devBgAlt : "bg-B2B-Order-Management-App"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2B Order Management App"

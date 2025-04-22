@@ -150,22 +150,22 @@ ourProjectsTitle: Our Projects
 featuresSecSubTitle: Real Estate Software Solutions
 featuresSecTitle: Comprehensive Real Estate Software Solutions
 featuresBoxList:
-  - title: Mobile Real Estate Apps</h3>
+  - title: Mobile Real Estate Apps
     description: Engage users with intuitive mobile apps for property searches, bookings, and management.  
 
-  - title: Property Valuation Platforms</h3>
+  - title: Property Valuation Platforms
     description: Offer AI-driven tools for accurate property valuation based on market data.  
 
-  - title: Tenant Screening Systems</h3>  
+  - title: Tenant Screening Systems  
     description: Streamline background checks and credit evaluations for potential tenants.  
 
-  - title: Construction Project Management Tools</h3> 
+  - title: Construction Project Management Tools 
     description: Manage timelines, budgets, and resources for real estate development projects.  
 
-  - title: Data Analytics Dashboards</h3>
+  - title: Data Analytics Dashboards
     description: Unlock actionable insights into market trends, customer behavior, and operational efficiency.  
 
-  - title: Lease Management Software</h3>
+  - title: Lease Management Software
     description: Automate lease creation, renewals, and compliance tracking for landlords and tenants.  
 
 awesomeFeaturesSubTitle: "Tech Stack for Travel and Tourism Software Development"
@@ -250,34 +250,34 @@ hireCtaButtonText: "Connect With Our Team"
 faqSubtitle : "FAQs"
 faqTitle : "Find Answers to Entertainment Software Development Queries"
 faqBoxList :
-- faqTitle: What types of real estate software do you develop?  </h3> 
+- faqTitle: What types of real estate software do you develop?
   faqDescription: We specialize in property management systems, CRM tools, virtual tours, listing platforms, investment analysis tools, and smart home integration solutions.  
 
-- faqTitle: Are your solutions compliant with real estate regulations?  </h3> 
+- faqTitle: Are your solutions compliant with real estate regulations?
   faqDescription: Yes, all our solutions comply with local housing laws, data protection regulations, and fair housing standards.  
 
-- faqTitle: Can you integrate third-party tools with your software?  </h3> 
+- faqTitle: Can you integrate third-party tools with your software?
   faqDescription: Absolutely! We seamlessly integrate payment gateways, mapping tools, and third-party APIs into our solutions.  
 
-- faqTitle: How long does it take to develop a custom real estate solution?  </h3> 
+- faqTitle: How long does it take to develop a custom real estate solution?
   faqDescription: The timeline varies based on complexity, but most projects are completed within 4 to 12 months.  
 
-- faqTitle: Do you provide post-development support?  </h3> 
+- faqTitle: Do you provide post-development support?
   faqDescription: Yes, we offer ongoing maintenance, updates, and technical support to ensure optimal performance.  
 
-- faqTitle: Can your platform handle large-scale property listings?  </h3> 
+- faqTitle: Can your platform handle large-scale property listings?
   faqDescription: Yes, our solutions are designed to scale efficiently, supporting high volumes of listings and users without compromising performance.  
 
-- faqTitle: What industries do you serve besides real estate?  </h3> 
+- faqTitle: What industries do you serve besides real estate?
   faqDescription: In addition to real estate, we serve industries like healthcare, finance, retail, education, and logistics.  
 
-- faqTitle: Is your virtual tour platform compatible with VR headsets?  </h3> 
+- faqTitle: Is your virtual tour platform compatible with VR headsets?
   faqDescription: Yes, our virtual tour platforms support VR headsets for an immersive experience.  
 
-- faqTitle: Can I customize your software solutions? </h3>  
+- faqTitle: Can I customize your software solutions 
   faqDescription: Yes, all our solutions are fully customizable to meet your organization’s specific requirements and workflows.  
 
-- faqTitle: How do I get started with your services?  </h3> 
+- faqTitle: How do I get started with your services?
   faqDescription: Simply reach out to us through our website or contact our team directly to discuss your project needs, and we’ll guide you through the process.
 
 blogRelatedCtegory:

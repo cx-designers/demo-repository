@@ -28,8 +28,8 @@ devInformationList:
   - infoItem: Transparent and seamless communication is at the heart of our client relationships. At Cypherox Technologies, we ensure that your expectations, project scope, requirements, and goals are fully understood and consistently met. Our technical team works closely with you, providing regular updates and addressing any queries to ensure complete alignment and satisfaction.
   - infoItem: In today’s competitive digital landscape, finding skilled Golang developers can be challenging. However, at Cypherox Technologies, we have a pool of over 200+ tech professionals who have successfully delivered high-quality projects to our esteemed clients. With 14+ years of experience in software development and solutions, our senior Golang developers possess the expertise to guide and support your project, overcoming industry-specific challenges with ease.
   - infoItem: Partner with Cypherox Technologies today and let our Golang experts help you build a robust, scalable, and future-ready platform that drives your business forward in this competitive era. Hire our dedicated Golang developers and take the first step toward transforming your vision into reality!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Golang-Developers.png"
+devBgAlt: "bg-Hire-Golang-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Golang Developers For Your Evolving Project Development Needs"
@@ -225,8 +225,8 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-go-test.svg"
+            alt: "icon-go-test"
             title: "Go Test"
             
           - icon: "../../../assets/img/icon-testify.svg"
@@ -241,12 +241,12 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Gin.svg"
+            alt: "icon-Gin"
             title: "Gin"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Fiber.svg"
+            alt: "icon-Fiber"
             title: "Fiber"
             
           - icon: "../../../assets/img/icon-echo.svg"

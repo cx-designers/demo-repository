@@ -26,8 +26,8 @@ devInformationList:
   - infoItem: Our ML engineers specialize in transforming complex data into actionable insights, enabling smarter decision-making and streamlined operations. From automating repetitive tasks to building advanced recommendation engines and predictive models, we deliver innovative solutions that revolutionize how businesses operate and compete in today’s market.
   - infoItem: Skip the hassle of finding the right talent—hire your ideal ML engineer with just a click! At Cypherox Technologies , we make it seamless to access top-tier machine learning expertise, ensuring efficient collaboration and exceptional outcomes for your projects.
   - infoItem: Partner with us today to unlock the full potential of machine learning and drive innovation, efficiency, and growth for your business. Let our ML engineers help you stay ahead in the age of intelligent technologies. Contact us now and take the first step toward transforming your business with cutting-edge machine learning solutions!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-ML-Developers.png"
+devBgAlt: "bg-Hire-ML-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire ML Developers For Your Evolving Project Needs"
@@ -159,17 +159,117 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
 
+          - icon: "../../../assets/img/icon-r.svg"
+            alt: "icon-r"
+            title: "R"
+
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-tensorflow.svg"
+            alt: "icon-tensorflow"
+            title: "TensorFlow"
+            
+          - icon: "../../../assets/img/icon-pytorch.svg"
+            alt: "icon-pytorch"
+            title: "PyTorch"
+            
+          - icon: "../../../assets/img/icon-scikit.svg"
+            alt: "icon-scikit"
+            title: "Scikit-learn"
+            
+          - icon: "../../../assets/img/icon-Pandas.svg"
+            alt: "icon-Pandas"
+            title: "Pandas"
+            
+          - icon: "../../../assets/img/icon-NumPy.svg"
+            alt: "icon-NumPy"
+            title: "NumPy"
+
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-pytest.svg"
+            alt: "icon-pytest"
+            title: "PyTest"
+
+          - icon: "../../../assets/img/icon-tensorflow.svg"
+            alt: "icon-tensorflow"
+            title: "TensorFlow Testing"
+
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-tensorflow.svg"
+            alt: "icon-tensorflow"
+            title: "TensorFlow"
+
+          - icon: "../../../assets/img/icon-pytorch.svg"
+            alt: "icon-pytorch"
+            title: "PyTorch"
+
+          - icon: "../../../assets/img/icon-scikit.svg"
+            alt: "icon-scikit"
+            title: "Scikit-learn"
+
+          - icon: "../../../assets/img/icon-fastapi.svg"
+            alt: "icon-fastapi"
+            title: "FastAPI"
+
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 
 blogRelatedCtegory:

@@ -26,8 +26,8 @@ devInformationList:
   - infoItem: When you partner with Cypherox Technologies for BigCommerce services , you gain access to a highly skilled team with years of experience in developing and optimizing BigCommerce websites . From launching a new store to enhancing your existing platform, our developers provide the expertise and technical know-how to address your specific needs.
   - infoItem: Our team excels in delivering personalized solutions that align with your business goals, ensuring your e-commerce store stands out in the competitive digital marketplace. Whether it’s improving site performance, integrating third-party tools, or creating a unique user experience, we’ve got you covered.
   - infoItem: Choose Cypherox Technologies as your trusted BigCommerce development partner and unlock the full potential of your online store. Let us help you build, optimize, and scale your e-commerce platform to achieve exceptional results.Contact us today to hire our dedicated BigCommerce developers and take your online business to the next level!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-BigCommerce-Developers.png"
+devBgAlt: "bg-Hire-BigCommerce-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire BigCommerce Developers For Your Evolving Project Needs"
@@ -241,8 +241,8 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-gCommerce-Themes.svg"
+            alt: "icon-gCommerce-Themes"
             title: "gCommerce Themes"
 
           - icon: "../../../assets/img/icon-bigCommerce-api.svg"

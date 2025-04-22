@@ -107,30 +107,54 @@ servicesList:
     pageLink: "/psd-to-html-development.html"
     description: "Convert static designs into dynamic, SEO-friendly code effortlessly, ensuring your website is both visually stunning and optimized for search engines to drive maximum visibility."
 
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Tools"
     blocks:
-      - heading: "Lorem ipsum dolor"
+      - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: ""
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "icon-Figma"
 
-  - title: "Back-End Development"
-    blocks:
-      - heading: "Lorem ipsum dolor"
-        items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
 
-  - title: "App Design"
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+
+  - title: "Technologies"
     blocks:
-      - heading: "Lorem ipsum dolor"
+      - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
-            title: "" 
+          - icon: "../../../assets/img/icon-angular.svg"
+            alt: "icon-angular"
+            title: "Angular"
+
+          - icon: "../../../assets/img/icon-reactjs.svg"
+            alt: "icon-reactjs"
+            title: "ReactJS"
+
+          - icon: "../../../assets/img/icon-vue.svg"
+            alt: "icon-vue"
+            title: "Vue"
+
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+
+          - icon: "../../../assets/img/icon-css.svg"
+            alt: "icon-css"
+            title: "CSS3"
+
+          - icon: "../../../assets/img/icon-html.svg"
+            alt: "icon-html"
+            title: "HTML5"
+
 blogRelatedCtegory:
   - "Design"
   - "Web Development"

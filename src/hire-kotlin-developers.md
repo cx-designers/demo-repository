@@ -19,8 +19,8 @@ devInformationList:
   - infoItem: Kotlin’s versatility allows us to craft mobile applications that not only enhance brand loyalty but also drive higher conversions, making them profitable assets for your business. Our developers adhere to industry standards, ensuring the delivery of scalable, innovative, and future-ready solutions tailored to your unique requirements. Their extensive hands-on experience, combined with state-of-the-art infrastructure and deep knowledge of trending methodologies, ensures seamless alignment with your business objectives.
   - infoItem: At Cypherox Technologies, innovation is at the core of everything we do. We don’t just develop apps; we breathe life into your ideas while keeping your target audience in mind. Our focus on user-centric design guarantees maximum engagement and satisfaction, setting your product apart in today’s competitive market.
   - infoItem: Partner with us to collaborate with Kotlin developers who have a proven track record of delivering exceptional applications. We take pride in turning your app dreams into reality, empowering you to focus on nurturing your business. Let’s innovate together—hire Kotlin developers from Cypherox Technologies today and embark on a journey toward digital success!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Kotlin-Developers.png"
+devBgAlt: "bg-Hire-Kotlin-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Kotlin Developers Aligned With Your Specific Requirements"
@@ -221,8 +221,8 @@ phases:
             alt: "icon-livedata"
             title: "LiveData"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-ViewModel.svg"
+            alt: "icon-ViewModel"
             title: "ViewModel"
 
   - title: "Design"

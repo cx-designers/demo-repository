@@ -33,8 +33,8 @@ devInformationList :
 - infoItem: AI chatbot apps have transformed how businesses interact with customers, automating queries and delivering 24/7 support. At Cypherox Technologies, we specialize in developing intelligent chatbot apps that leverage natural language processing (NLP) and machine learning to provide seamless, context-aware conversations. With years of experience in on-demand app development, our team ensures your app is equipped with cutting-edge features like real-time recommendations, personalized responses, and multi-platform integration. 
 - infoItem: In an already competitive market, we focus on enhancing user satisfaction by addressing pain points such as slow response times or irrelevant answers. By reducing technical shortcomings and prioritizing scalability, we create chatbot apps that elevate customer experiences and streamline operations for businesses.
 - infoItem: Let us help you build a future-ready chatbot app that drives engagement and efficiency while ensuring your brand stays ahead of the curve.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-AI-ChatBot-App.png"
+devBgAlt : "bg-AI-ChatBot-App"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Mobile Application Solutions"

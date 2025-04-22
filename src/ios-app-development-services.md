@@ -89,8 +89,8 @@ devInformationList :
 
 - infoItem: Beyond development, we ensure long-term success through continuous support and maintenance, keeping your app updated with the latest iOS advancements. Partner with Cypherox Technologies to unlock innovation, drive growth, and elevate your business with a powerful on-demand iOS application.
 
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-iOS-App-Development-Services.png"
+devBgAlt : "bg-iOS-App-Development-Services"
 
     
 secTitle: "Core Services of iOS App Development Services"

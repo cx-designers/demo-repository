@@ -272,13 +272,13 @@ faqBoxList :
   - faqTitle: What industries do you serve besides e-learning?
     faqDescription: In addition to e-learning, we serve industries like healthcare, finance, retail, entertainment, and logistics.  
 
-  - faqTitle: Is your virtual classroom platform secure? </h3>  
+  - faqTitle: Is your virtual classroom platform secure?  
     faqDescription: Yes, our platforms use end-to-end encryption and secure authentication protocols to protect sensitive data.  
 
   - faqTitle: Can I customize your software solutions?
     faqDescription: Yes, all our solutions are fully customizable to meet your organization’s specific requirements and workflows.  
 
-  - faqTitle: How do I get started with your services?  </h3>
+  - faqTitle: How do I get started with your services? 
     faqDescription: Simply reach out to us through our website or contact our team directly to discuss your project needs, and we’ll guide you through the process.
 
 

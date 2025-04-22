@@ -86,8 +86,8 @@ devInformationList :
 - infoItem: Cypherox Technologies specializes in providing advanced headless CMS development services that empower businesses to manage content seamlessly across various platforms. As a trusted headless CMS development company, we focus on creating flexible, API-first solutions that adapt to your changing business needs.
 - infoItem: Our team of expert headless CMS developers utilizes platforms such as Contentful, Strapi, Sanity, and custom-built frameworks to design systems that integrate effortlessly with your front-end applications. Whether it's for websites, mobile apps, IoT devices, or digital kiosks, our solutions ensure your content is delivered consistently and efficiently, no matter where your audience engages.
 - infoItem: By hiring our headless CMS developers, you gain access to professionals who combine innovation with scalability. Whether you are launching a new platform, migrating from a traditional CMS, or integrating third-party tools, we provide customized solutions that drive growth. Our emphasis on clean APIs, robust security, and seamless integrations ensures your content management system remains agile, fast, and future-proof. Let us help you unlock the full potential of your content strategy and elevate your brand’s digital presence.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Headless-Development.png"
+devBgAlt : "bg-Headless-Development"
     
 secTitle: "Our Front-End Development Services"
 secSubTitle: "What We Provide"
@@ -198,8 +198,8 @@ phases:
             alt: "icon-graphql"
             title: "GraphQL"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-teaser-headless.svg"
+            alt: "icon-teaser-headless"
             title: "Headless CMS"
             
           - icon: "../../../assets/img/icon-cloudflare.svg"

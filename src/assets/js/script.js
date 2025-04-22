@@ -314,6 +314,8 @@ if (document.querySelector(".testimonial-con-sec")) {
   createContinuousMarquee(".column-3", -1, 0.7);
 }
 
+ 
+
 
 
 /* Testimonial Section Complete */
@@ -1997,10 +1999,12 @@ $('.mega-menu.menu-v3 > ul > li').hover(
     var submenu = $(this).find('.v3-sub-menu-level-2');
     var fullHeight = submenu.prop('scrollHeight') + 'px';
     submenu.css('height', fullHeight);
+    $(this).addClass('hovered');
   },
   function () {
     var submenu = $(this).find('.v3-sub-menu-level-2');
     submenu.css('height', '0');
+    $(this).removeClass('hovered');
   }
 );
 /* Header Mega Menu JS End */
@@ -2603,25 +2607,56 @@ if (opportunities) {
 
 /* Opportunities Section JS End */
 
+/* Dynamic Year Js Start */
+
+document.getElementById("footer-year").textContent = new Date().getFullYear();
+
+/* Dynamic Year Js End */
+
+
+/* testimoanil thumbnail js  */
+
+  $('.cust-video-play-icon').on('click', function () {
+    var videoSrc = $(this).closest('.testimonial-thumbnail-img').data('video');
+    if (videoSrc) {
+      $('#testimonialVideo source').attr('src', videoSrc);
+      $('#testimonialVideo')[0].load();
+      $('#videoModal').fadeIn();
+    }
+  });
+
+  $('.video-modal-close, #videoModal').on('click', function (e) {
+    if ($(e.target).is('#videoModal') || $(e.target).is('.video-modal-close')) {
+      $('#videoModal').fadeOut(function () {
+        var video = $('#testimonialVideo')[0];
+        video.pause();
+        video.currentTime = 0;
+      });
+    }
+  });
+
+/* testimoanil thumbnail js  */
+
+
 /* Disable Click JS Start */
 
-// document.addEventListener("contextmenu", (event) => event.preventDefault());
+document.addEventListener("contextmenu", (event) => event.preventDefault());
 
-// document.addEventListener("keydown", (event) => {
-//   if (
-//     event.key === "F12" ||
-//     (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
-//     (event.ctrlKey && event.key === "U")
-//   ) {
-//     event.preventDefault();
-//   }
-// });
+document.addEventListener("keydown", (event) => {
+  if (
+    event.key === "F12" ||
+    (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
+    (event.ctrlKey && event.key === "U")
+  ) {
+    event.preventDefault();
+  }
+});
 
-// document.addEventListener("keyup", (event) => {
-//   if (event.ctrlKey && event.key === "u") {
-//     event.preventDefault();
-//     alert("Viewing source code is disabled!");
-//   }
-// });
+document.addEventListener("keyup", (event) => {
+  if (event.ctrlKey && event.key === "u") {
+    event.preventDefault();
+    alert("Viewing source code is disabled!");
+  }
+});
 
 /* Disable Click JS End */

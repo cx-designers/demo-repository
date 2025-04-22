@@ -88,8 +88,8 @@ devInformationList :
 - infoItem: At Cypherox Technologies, we specialize in delivering top-tier VueJS development services that empower businesses to create dynamic, responsive, and user-friendly web applications. As a trusted Vue.js development company, we harness the simplicity and flexibility of Vue’s framework to craft tailored solutions that align with your business goals.
 - infoItem: Our team of expert Vue.js developers leverages Vue’s reactive data binding, component-based architecture, and seamless integration capabilities to deliver high-performance applications. Whether you’re building single-page applications (SPAs), progressive web apps (PWAs), or custom dashboards, our developers ensure your app is optimized for speed, scalability, and maintainability.
 - infoItem: By hiring our Vue.js developers, you gain access to professionals who understand how to balance innovation with technical precision. From migrating existing systems to Vue.js to integrating APIs, third-party tools, and real-time functionalities, we provide end-to-end solutions that drive business growth. Our focus on clean code, cross-browser compatibility, and mobile-first design ensures your application performs flawlessly across all devices. Let us help you build a modern, intuitive web presence that enhances user engagement and boosts conversions.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-vuejs-Development-Company.png"
+devBgAlt : "bg-vuejs-Development-Company"
 
 
     
@@ -232,8 +232,8 @@ phases:
             alt: "icon-jest"
             title: "Jest"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-vue.svg"
+            alt: "icon-vue"
             title: "Vue Test Utils"
             
           - icon: "../../../assets/img/icon-cypress.svg"

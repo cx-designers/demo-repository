@@ -36,8 +36,8 @@ devInformationList :
 - infoItem: Our services deliver cutting-edge applications combining functionality, scalability, and exceptional user experiences. Leveraging these frameworks, we create fast, reliable, and visually appealing apps. From intuitive UI/UX design to complex backend integrations, API connectivity, and cross-device performance, we ensure your app aligns with your brand and goals. Our expertise spans industries like e-commerce, healthcare, finance, and education, offering tailored solutions for diverse requirements.
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your business goals, audience, and market trends. This helps us select the best framework for optimal performance and cost-efficiency. Whether building new apps, modernizing existing ones, or adding advanced features, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that perform flawlessly across platforms.
 - infoItem: Beyond development, we offer comprehensive post-development support, staying updated with framework advancements. Partner with us to experience Framework App Development where adaptability meets innovation, turning your vision into reality.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Framework-App-Development-Services.png"
+devBgAlt : "bg-Framework-App-Development-Services"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Framework App Development Services"
@@ -106,34 +106,34 @@ processBoxList :
 faqSubtitle : "FAQs"
 faqTitle : "FAQ for Framework App Development Services"
 faqBoxList :
-- faqTitle: What is framework-based app development, and why should I choose it for my project?</h3>
+- faqTitle: What is framework-based app development, and why should I choose it for my project?
   faqDescription: Framework-based app development involves using pre-built libraries and tools to streamline the development process, reduce costs, and accelerate time-to-market. Frameworks like React, Angular, Vue.js, Django, Laravel, and others provide robust foundations for building scalable, secure, and high-performance applications. At Cypherox Technologies, we leverage the best frameworks to deliver tailored solutions that meet your business needs.
 
-- faqTitle: Which frameworks do you specialize in, and how do you choose the right one for my project?</h3>
+- faqTitle: Which frameworks do you specialize in, and how do you choose the right one for my project?
   faqDescription: We specialize in a wide range of frameworks, including React, Angular, Vue.js for front-end development, and Django, Laravel, Node.js, Ruby on Rails for back-end development. The choice of framework depends on your project requirements, such as scalability, performance, and integration needs. At Cypherox Technologies, we analyze your goals and select the most suitable framework to ensure optimal results.
 
-- faqTitle: Can framework-based apps be customized to match my brand identity?</h3>
+- faqTitle: Can framework-based apps be customized to match my brand identity?
   faqDescription: Absolutely! Frameworks provide a flexible foundation that allows us to fully customize the design, functionality, and user experience of your app. Whether it’s creating a unique UI/UX or integrating custom features, our team ensures your app reflects your brand identity while delivering a seamless user experience.
 
-- faqTitle: How do you ensure my framework-based app is compatible across devices and browsers?</h3>
+- faqTitle: How do you ensure my framework-based app is compatible across devices and browsers?
   faqDescription: We use responsive design principles and test extensively across multiple devices, screen sizes, and browsers to ensure compatibility. Frameworks like Bootstrap or Tailwind CSS help us create adaptive layouts, while rigorous testing ensures consistent performance. At Cypherox Technologies, cross-compatibility is a priority in every project.
 
-- faqTitle: Do you provide ongoing support and maintenance for framework-based apps?</h3>
+- faqTitle: Do you provide ongoing support and maintenance for framework-based apps?
   faqDescription: Yes! We offer comprehensive post-launch support, including bug fixes, performance tuning, feature enhancements, and updates to keep your app aligned with the latest framework versions. Whether it’s minor tweaks or major upgrades, our team at Cypherox Technologies ensures your app remains secure, reliable, and up-to-date.
 
-- faqTitle: Can framework-based apps integrate with third-party tools and services?</h3>
+- faqTitle: Can framework-based apps integrate with third-party tools and services?
   faqDescription: Absolutely! Frameworks are designed to work seamlessly with third-party APIs and services such as payment gateways (Stripe, PayPal), analytics platforms (Google Analytics), cloud storage (AWS, Firebase), and CRM systems. At Cypherox Technologies, we ensure smooth integration to enhance functionality and streamline workflows.
 
-- faqTitle: What industries benefit most from framework-based app development?</h3>
+- faqTitle: What industries benefit most from framework-based app development?
   faqDescription: Framework-based app development is widely used in industries such as e-commerce, healthcare, education, finance, and logistics. Its ability to handle complex functionalities like real-time data processing, secure transactions, and multimedia integration makes it ideal for businesses targeting diverse audiences. At Cypherox Technologies, we tailor framework-based solutions to meet the unique needs of each industry.
 
-- faqTitle: How long does it take to develop a framework-based application?</h3>
+- faqTitle: How long does it take to develop a framework-based application?
   faqDescription: The timeline depends on the complexity of the project. A basic framework-based app may take 8–12 weeks, while more advanced projects with custom features, integrations, or real-time functionality can take 16–24 weeks. During the initial consultation, we’ll provide a detailed timeline based on your specific requirements and goals.
 
-- faqTitle: How do you handle updates when new versions of frameworks are released?</h3>
+- faqTitle: How do you handle updates when new versions of frameworks are released?
   faqDescription: We stay updated with the latest releases and guidelines for the frameworks we use. Using modular architectures and testing tools, we implement updates efficiently without disrupting functionality. At Cypherox Technologies, future-proofing your app is a priority to keep it running smoothly across all platforms.
 
-- faqTitle:  How can I get started with Cypherox Technologies for my framework-based app project?</h3>
+- faqTitle:  How can I get started with Cypherox Technologies for my framework-based app project?
   faqDescription: Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your goals, target audience, and desired features. From there, we’ll create a customized plan to bring your framework-based app vision to life.
 
  

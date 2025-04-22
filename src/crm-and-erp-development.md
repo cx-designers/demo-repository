@@ -77,8 +77,8 @@ devInformationList :
 - infoItem: Our team of expert developers leverages industry-leading platforms such as Salesforce, Microsoft Dynamics, SAP, Odoo, and custom-built frameworks to design seamless, integrated systems. From automating repetitive tasks to providing real-time data analytics, our solutions empower you to make smarter, faster decisions.
 - infoItem: By partnering with us, you gain access to experienced ERP developers and CRM developers who expertly balance functionality, scalability, and security. Whether you need to implement a new ERP system, upgrade an existing CRM platform, or integrate third-party tools, we ensure your solution is future-proof and adaptable to evolving business needs.
 - infoItem: With a strong emphasis on user-friendly interfaces, advanced reporting, and seamless integrations, we help your teams work more efficiently while delivering exceptional customer experiences. Let us unlock the full potential of your business with tailored ERP and CRM solutions.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-ERP-and-CRM-Development.png"
+devBgAlt : "bg-ERP-and-CRM-Development"
     
 secTitle: "Our ERP and CRM development services"
 secSubTitle: "What We Provide"  
@@ -109,206 +109,173 @@ servicesList:
     pageLink: "javascript:;"
     description: "Ensure uninterrupted performance with expert ERP/CRM support. Receive timely updates, troubleshooting, and optimization services."
 
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Platform"
+  - title: "Programming"
     blocks:
-      - heading: "Front-end Development"
+      - heading: ""
         items:
           - icon: "../../../assets/img/icon-javascript.svg"
-            alt: "JavaScript"
-            title: "JavaScript (Angular, React, Vue.js)"
-
-          - icon: "../../../assets/img/icon-html.svg"
-            alt: "HTML"
-            title: "HTML"
-
-          - icon: "../../../assets/img/icon-css.svg"
-            alt: "CSS" 
-            title: "CSS"
+            alt: "icon-javascript"
+            title: "JavaScript"
             
-          - icon: "../../../assets/img/icon-bootstrap.svg"
-            alt: "Bootstrap"
-            title: "Bootstrap"
-
-  - title: "Back-End Development"
-    blocks:
-      - heading: "Back-end Development"
-        items:
-          - icon: "../../../assets/img/icon-Java.svg"
-            alt: "Java"
-            title: "Java" 
-
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+            
           - icon: "../../../assets/img/icon-Python.svg"
-            alt: "Python"
+            alt: "icon-Python"
             title: "Python"
-
+            
+          - icon: "../../../assets/img/icon-Java.svg"
+            alt: "icon-Java"
+            title: "Java"
+            
           - icon: "../../../assets/img/icon-php.svg"
-            alt: "PHP"
+            alt: "icon-php"
             title: "PHP"
             
-          - icon: "../../../assets/img/icon-c-sharp.svg"
-            alt: "C#"
-            title: "C#"
-            
-          - icon: "../../../assets/img/icon-nodejs.svg"
-            alt: "Node.js"
-            title: "Node.js"
-
-          - icon: "../../../assets/img/icon-django.svg"
-            alt: "Django"
-            title: "Django" 
-
-          - icon: "../../../assets/img/icon-flask.svg"
-            alt: "Flask"
-            title: "Flask"
-
-          - icon: "../../../assets/img/icon-laravel.svg"
-            alt: "Laravel"
-            title: "Laravel"
-                
-          - icon: "../../../assets/img/icon-.net.svg"
-            alt: ".NET"
-            title: ".NET"
-                
-          - icon: "../../../assets/img/icon-Mysql.svg"
-            alt: "MySQL"
-            title: "MySQL"
-                
-          - icon: "../../../assets/img/icon-Postgre-sql.svg"
-            alt: "PostgreSQL"
-            title: "PostgreSQL"
-                
-          - icon: "../../../assets/img/icon-mongodb.svg"
-            alt: "MongoDB"
-            title: "MongoDB"  
-            
-      - heading: "API Integration"
+          - icon: "../../../assets/img/icon-ruby.svg"
+            alt: "icon-ruby"
+            title: "Ruby"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
         items:
           - icon: "../../../assets/img/icon-restful-apis.svg"
-            alt: "RESTful APIs"
-            title: "RESTful APIs" 
-
-          - icon: "../../../assets/img/icon-swagger.svg"
-            alt: "Swagger"
-            title: "Swagger"
-
-          - icon: "../../../assets/img/icon-postman.svg"
-            alt: "Postman"
-            title: "Postman"
-
-      - heading: "Cloud Services"
-        items:
-          - icon: "../../../assets/img/icon-Aws.svg"
-            alt: "AWS"
-            title: "AWS" 
-
-          - icon: "../../../assets/img/icon-azure.svg"
-            alt: "Azure"
-            title: "Azure"
-
-          - icon: "../../../assets/img/icon-google-cloud-platform.svg"
-            alt: "GCP"
-            title: "GCP"
+            alt: "icon-restful-apis"
+            title: "REST APIs"
             
-          - icon: "../../../assets/img/icon-amazon-s3.svg"
-            alt: "Amazon S3"
-            title: "Amazon S3"
+          - icon: "../../../assets/img/icon-graphql.svg"
+            alt: "icon-graphql"
+            title: "GraphQL"
             
-          - icon: "../../../assets/img/icon-azure-blob-storage.svg"
-            alt: "Azure Blob Storage"
-            title: "Azure Blob Storage"
-
-          - icon: "../../../assets/img/google-cloud-storage.svg"
-            alt: "Google Cloud Storage"
-            title: "Google Cloud Storage"
-
-          - icon: "../../../assets/img/icon-aws-lambda.svg"
-            alt: "AWS Lambda"
-            title: "AWS Lambda"
+          - icon: "../../../assets/img/icon-webhooks.svg"
+            alt: "icon-webhooks"
+            title: "Webhooks"
             
-          - icon: "../../../assets/img/icon-azure-functions.svg"
-            alt: "Azure Functions"
-            title: "Azure Functions"
+          - icon: "../../../assets/img/icon-stripe.svg"
+            alt: "icon-stripe"
+            title: "Stripe"
             
-          - icon: "../../../assets/img/icon-google-cloud-functions.svg"
-            alt: "Google Cloud Functions"
-            title: "Google Cloud Functions"  
+          - icon: "../../../assets/img/icon-PayPal.svg"
+            alt: "icon-PayPal"
+            title: "PayPal"
             
-      - heading: "Security & Authentication"
-        items:
-          - icon: "../../../assets/img/icon-ssl-tls.svg"
-            alt: "SSL/TLS"
-            title: "SSL/TLS" 
-
-          - icon: "../../../assets/img/icon-oauth.svg"
-            alt: "OAuth"
-            title: "OAuth"
-
-          - icon: "../../../assets/img/icon-jwt.svg"
-            alt: "JWT"
-            title: "JWT"
+          - icon: "../../../assets/img/icon-braintree.svg"
+            alt: "icon-braintree"
+            title: "Braintree"
             
-          - icon: "../../../assets/img/icon-saml.svg"
-            alt: "SAML"
-            title: "SAML"
-
-      - heading: "CRM/ERP Specific Tools"
-        items:
-          - icon: "../../../assets/img/icon-salesforce.svg"
-            alt: "Salesforce"
-            title: "Salesforce" 
-
-          - icon: "../../../assets/img/icon-hubspot.svg"
-            alt: "HubSpot"
-            title: "HubSpot"
-
-          - icon: "../../../assets/img/icon-zoho-crm.svg"
-            alt: "Zoho CRM"
-            title: "Zoho CRM"
+          - icon: "../../../assets/img/icon-authorize.net.svg"
+            alt: "icon-authorize.net"
+            title: "Authorize.Net"
             
-          - icon: "../../../assets/img/icon-sap.svg"
-            alt: "SAP"
-            title: "SAP"
-            
-          - icon: "../../../assets/img/icon-oracle-erp-cloud.svg"
-            alt: "Oracle ERP Cloud"
-            title: "Oracle ERP Cloud"
-            
-          - icon: "../../../assets/img/icon-microsoft-dynamics.svg"
-            alt: "Microsoft Dynamics"
-            title: "Microsoft Dynamics"  
+          - icon: "../../../assets/img/icon-adyen.svg"
+            alt: "icon-adyen"
+            title: "Adyen"
 
-  - title: "App Design"
+  - title: "Database"
     blocks:
-      - heading: "Testing & Deployment"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+            
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+            
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+            
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
+            
+          - icon: "../../../assets/img/icon-Elasticsearch.svg"
+            alt: "icon-Elasticsearch"
+            title: "Elasticsearch"
+          
+  - title: "Testing"
+    blocks:
+      - heading: ""
         items:
           - icon: "../../../assets/img/icon-jest.svg"
-            alt: "Jest"
+            alt: "icon-jest"
             title: "Jest"
-           
+            
           - icon: "../../../assets/img/icon-mocha.svg"
-            alt: "Mocha"
+            alt: "icon-mocha"
             title: "Mocha"
             
           - icon: "../../../assets/img/icon-selenium.svg"
-            alt: "Selenium"
+            alt: "icon-selenium"
             title: "Selenium"
-           
-          - icon: "../../../assets/img/icon-docker.svg"
-            alt: "Docker"
-            title: "Docker"
             
-          - icon: "../../../assets/img/icon-jenkins.svg"
-            alt: "Jenkins"
-            title: "Jenkins"
+          - icon: "../../../assets/img/icon-cypress.svg"
+            alt: "icon-cypress"
+            title: "Cypress"
+            
+          - icon: "../../../assets/img/icon-postman.svg"
+            alt: "icon-postman"
+            title: "Postman"
+            
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-odoo.svg"
+            alt: "icon-odoo"
+            title: "Odoo"
+            
+          - icon: "../../../assets/img/icon-salesforce.svg"
+            alt: "icon-salesforce"
+            title: "Salesforce"
+            
+          - icon: "../../../assets/img/icon-microsoft-dynamics.svg"
+            alt: "icon-microsoft-dynamics"
+            title: "Microsoft Dynamics 365"
+            
+          - icon: "../../../assets/img/icon-zoho-crm.svg"
+            alt: "icon-zoho-crm"
+            title: "Zoho CRM"
+            
+          - icon: "../../../assets/img/icon-ERP.svg"
+            alt: "icon-ERP"
+            title: "ERP"
 
-          - icon: "../../../assets/img/icon-gitlab-cicd.svg"
-            alt: "GitLab CI/CD"
-            title: "GitLab CI/CD"
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
             
-          - icon: "../../../assets/img/icon-travis-ci.svg"
-            alt: "Travis CI"
-            title: "Travis CI"  
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+            
+          - icon: "../../../assets/img/icon-Sketch.svg"
+            alt: "icon-Sketch"
+            title: "Sketch"
+            
+          - icon: "../../../assets/img/icon-Principle.svg"
+            alt: "icon-Principle"
+            title: "Principle"
+            
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
             
 hireCtaTitle: "Hire Skilled ERP & CRM Developers"
 hireCtaSubTitle: "Need experienced developers to build your ERP & CRM systems?"

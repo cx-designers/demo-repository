@@ -35,8 +35,8 @@ devInformationList :
 - infoItem: Travel apps have transformed the way people explore the world, offering tools for booking flights, planning itineraries, and discovering local attractions. At Cypherox Technologies, we specialize in creating apps that combine convenience, functionality, and style. 
 - infoItem: Our team designs apps equipped with features like real-time navigation, personalized recommendations, and seamless payment integration to enhance the travel experience. In a competitive market, we ensure your app stands out by addressing common pain points such as poor usability or limited options. By focusing on innovation and user satisfaction, we craft apps that make travel effortless and enjoyable. 
 - infoItem: Let us help you build a travel app that inspires wanderlust and delights users at every step of their journey. Redefine how travelers connect with the world through an app that’s intuitive, reliable, and inspiring.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Travel-apps.png"
+devBgAlt : "bg-Travel-apps"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Mobile Application Solutions"

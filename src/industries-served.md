@@ -150,8 +150,8 @@ devInformationList :
 - infoItem: Our team ensures seamless integration, performance optimization, and security while crafting solutions tailored to industry needs.
 - infoItem: From enterprise-grade applications to AI-driven automation, we build scalable, future-ready technology for your business.
 - infoItem: With cutting-edge technologies and strategic planning, we help industries streamline operations, enhance customer experience, and drive revenue growth.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-service-industry.png"
+devBgAlt : "bg-industries-served"
 
 blogRelatedCtegory:
   - "Web Development"

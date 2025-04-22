@@ -27,8 +27,8 @@ devInformationList:
   - infoItem: By hiring our DevOps engineers , you gain access to professionals who can design and implement scalable, secure, and efficient infrastructure solutions tailored to your business needs. Whether it’s automating deployment pipelines, containerizing applications, or monitoring system performance, our team ensures your systems are resilient, agile, and future-ready.
   - infoItem: Partner with Cypherox Technologies to unlock the full potential of DevOps and transform your software development lifecycle. Let us help you achieve faster time-to-market, improved collaboration, and enhanced operational efficiency.
   - infoItem: Contact us today to hire our skilled DevOps engineers and take your development processes to the next level. Empower your business with a robust DevOps strategy that drives innovation and success!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-DevOps-Developers.png"
+devBgAlt: "bg-Hire-DevOps-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire DevOps Developers For Your Evolving Project Development Needs"
@@ -147,18 +147,101 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+            
+          - icon: "../../../assets/img/icon-bash-seeklogo.svg"
+            alt: "icon-bash-seeklogo"
+            title: "Bash"
+            
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+            
+          - icon: "../../../assets/img/icon-go.svg"
+            alt: "icon-go"
+            title: "Go"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-docker.svg"
+            alt: "icon-docker"
+            title: "Docker"
+            
+          - icon: "../../../assets/img/icon-kubernetes.svg"
+            alt: "icon-kubernetes"
+            title: "Kubernetes"
+            
+          - icon: "../../../assets/img/icon-jenkins.svg"
+            alt: "icon-jenkins"
+            title: "Jenkins"
+            
+          - icon: "../../../assets/img/icon-gitlab-cicd.svg"
+            alt: "icon-gitlab-cicd"
+            title: "GitLab CI/CD"
+            
+          - icon: "../../../assets/img/icon-terraform.svg"
+            alt: "icon-terraform"
+            title: "Terraform"
+            
+          - icon: "../../../assets/img/icon-ansible.svg"
+            alt: "icon-ansible"
+            title: "Ansible"
+          
+  - title: "Database"
     blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+            
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+          
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
 
+          - icon: "../../../assets/img/icon-redis.svg"
+            alt: "icon-redis"
+            title: "Redis"
 
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-selenium.svg"
+            alt: "icon-selenium"
+            title: "Selenium"
+            
+          - icon: "../../../assets/img/icon-junit.svg"
+            alt: "icon-junit"
+            title: "JUnit"
+          
+          - icon: "../../../assets/img/icon-pytest.svg"
+            alt: "icon-pytest"
+            title: "PyTest"
+
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
 
 blogRelatedCtegory:
   - "Web Development"

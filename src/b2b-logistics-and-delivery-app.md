@@ -36,8 +36,8 @@ devInformationList :
 - infoItem: Our apps meet the demands of modern logistics, including route optimization, load planning, inventory management, and last-mile delivery. Using GPS, IoT, AI analytics, and cloud platforms, we provide end-to-end visibility and control. Features include real-time tracking, automated dispatch, driver performance monitoring, geofencing, and ERP/TMS integrations. Multi-user access ensures seamless collaboration between drivers, teams, and clients.
 - infoItem: We take a strategic approach, starting with a deep understanding of your logistics challenges and goals. Whether building new apps, upgrading systems, or adding predictive analytics, dynamic routing, or blockchain transparency, our team handles projects of any scale. With clean code, rigorous testing, and user-centric design, we deliver polished apps that drive operational excellence.
 - infoItem: Beyond development, we offer ongoing support, staying updated with logistics tech advancements. Partner with us to experience B2B Logistics and Delivery Apps where innovation meets efficiency, making your operations smarter, faster, and more reliable.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-B2B-Logistics-and-Delivery-App.png"
+devBgAlt : "bg-B2B-Logistics-and-Delivery-App"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2B Logistics and Delivery App"

@@ -22,8 +22,8 @@ devInformationList:
   - infoItem: For enterprise-level Magento development, you can hire our Magento Commerce Cloud developers through flexible engagement models tailored to your needs. Whether it’s designing, feature development, execution, or ongoing maintenance and support, we deliver a comprehensive suite of services that align with your desired quality standards. Our team excels in crafting complex, highly customized solutions that meet even the most demanding business requirements.
   - infoItem: Take your business to the next level by maximizing your investment with a team of experienced Magento developers from Cypherox Technologies . Partner with us to create scalable, secure, and high-performing eCommerce platforms that drive growth and set you apart in the competitive digital marketplace.
   - infoItem: Contact us today to discuss your project and let us help you build a feature-rich, future-ready eCommerce solution that elevates your brand and boosts your revenue!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Magento-Developers.png"
+devBgAlt: "bg-Hire-Magento-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Magento Developers Aligned With Your Specific Requirements"
@@ -251,32 +251,32 @@ phases:
             alt: "icon-postman"
             title: "Postman"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-magento.svg"
+            alt: "icon-magento"
             title: "Magento Testing Framework"
           
   - title: "Framework"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-magento.svg"
+            alt: "icon-magento"
             title: "Magento Open Source"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-magento-commerce.svg"
+            alt: "icon-magento-commerce"
             title: "Magento Commerce"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-magento.svg"
+            alt: "icon-magento"
             title: "PWA Studio"
 
   - title: "Design"
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-magento.svg"
+            alt: "icon-magento"
             title: "Magento Theme Marketplace"
 
           - icon: "../../../assets/img/icon-Figma.svg"

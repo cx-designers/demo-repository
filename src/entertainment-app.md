@@ -33,8 +33,8 @@ devInformationList :
 - infoItem: Entertainment apps have become the go-to source for streaming movies, playing games, and consuming digital content. At Cypherox Technologies, we design apps that captivate audiences with immersive experiences, rich visuals, and seamless functionality. 
 - infoItem: Our team leverages cutting-edge technologies like AR/VR integration, offline modes, and recommendation algorithms to keep users engaged. In a crowded market, we focus on delivering unique value by addressing challenges like slow load times or repetitive content. By combining creativity with technical expertise, we create apps that entertain, inspire, and retain users. 
 - infoItem: Partner with us to build an entertainment app that sets new standards in the industry and keeps users coming back for more. Elevate your brand with an app that’s innovative, engaging, and unforgettable.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Entertainment-apps.png"
+devBgAlt : "bg-Entertainment-apps"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Mobile Application Solutions"

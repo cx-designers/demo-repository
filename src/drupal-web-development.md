@@ -44,8 +44,8 @@ devInformationList :
 - infoItem: We understand the complexities of modern digital ecosystems and work closely with you to navigate your unique requirements. Whether it’s building a scalable website, integrating advanced functionalities, or creating personalized user experiences, our team ensures tailored solutions that exceed your expectations.
 - infoItem: With a focus on innovation, performance, and security, we leverage Drupal’s flexibility to craft digital experiences that drive engagement and growth. From custom module development to seamless third-party integrations, we ensure your platform is optimized for success.
 - infoItem: Trust Cypherox Technologies to unlock the full potential of Drupal and transform your digital strategy into impactful results. Let us help you build a robust, feature-rich digital experience that aligns with your business goals and captivates your audience. Hire our Drupal experts and elevate your digital presence!
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Drupal-Development.png"
+devBgAlt : "bg-Drupal-Development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Drupal Development Services"
@@ -274,20 +274,20 @@ phases:
             alt: "icon-Drupal"
             title: "Drupal Core"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Views.svg"
+            alt: "icon-Views"
             title: "Views"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Panels.svg"
+            alt: "icon-Panels"
             title: "Panels"
 
           - icon: "../../../assets/img/icon-drush.svg"
             alt: "icon-drush"
             title: "Drush"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-twig.svg"
+            alt: "icon-twig"
             title: "Twig"
           
   - title: "Design"

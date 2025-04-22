@@ -27,8 +27,8 @@ devInformationList:
   - infoItem: Our developers have a proven track record of building custom backends using a variety of technologies, including PHP frameworks , Microsoft technologies , Node.js , and more. We ensure seamless custom API implementation and database integration that aligns perfectly with the information flow between the frontend and backend of your application. Our team excels in leveraging the latest technologies to deliver flexible, secure, and high-performance backend layers for your app or web solution.
   - infoItem: At Cypherox Technologies , we stay ahead of the curve by implementing cloud-based scalable backend solutions that cater to both mobile and web platforms. Quality code is at the heart of our development process, ensuring high-performance, data-driven systems that are free from errors. Our dynamic and innovative approach has enabled us to deliver exceptional web and app development solutions for clients across industries.
   - infoItem: Hire our dedicated Backend Developers to build a solution that offers a seamless user experience while driving efficiency and scalability for your business. Partner with us to unlock the full potential of your digital transformation journey and achieve success in this technology-driven era. Let Cypherox Technologies be your trusted ally in creating future-ready backend solutions.
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Back-End-Web-Developer.png"
+devBgAlt: "bg-Hire-Back-End-Web-Developer"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire a Back-End Web Developer Aligned With Your Specific Requirements"

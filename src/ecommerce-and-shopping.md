@@ -250,34 +250,34 @@ hireCtaButtonText: "Connect With Our Team"
 faqSubtitle : "FAQs"
 faqTitle : "Find Answers to E-Commerce Software Development Queries"
 faqBoxList :
-- faqTitle: What types of ecommerce software do you develop?  </h3>
+- faqTitle: What types of ecommerce software do you develop?
   faqDescription: We specialize in ecommerce platforms, shopping carts, recommendation engines, inventory systems, CRM tools, and marketplace solutions.  
 
-- faqTitle: Are your solutions secure for online transactions?  </h3>
+- faqTitle: Are your solutions secure for online transactions?
   faqDescription: Yes, all our solutions comply with PCI DSS standards and use encryption to protect sensitive data.  
 
-- faqTitle: Can you integrate third-party tools with your software?  </h3>
+- faqTitle: Can you integrate third-party tools with your software?
   faqDescription: Absolutely! We seamlessly integrate payment gateways, shipping providers, marketing tools, and analytics platforms.  
 
-- faqTitle: How long does it take to develop a custom ecommerce solution?  </h3>
+- faqTitle: How long does it take to develop a custom ecommerce solution?
   faqDescription: The timeline varies based on complexity, but most projects are completed within 4 to 12 months.  
 
-- faqTitle: Do you provide post-development support?  </h3>
+- faqTitle: Do you provide post-development support?
   faqDescription: Yes, we offer ongoing maintenance, updates, and technical support to ensure optimal performance.  
 
-- faqTitle: Can your platform handle high traffic during peak seasons?  </h3>
+- faqTitle: Can your platform handle high traffic during peak seasons?
   faqDescription: Yes, our solutions are designed to scale efficiently, ensuring smooth performance even during high-traffic periods like Black Friday.  
 
-- faqTitle: What industries do you serve besides ecommerce?  </h3>
+- faqTitle: What industries do you serve besides ecommerce?
   faqDescription: In addition to ecommerce, we serve industries like healthcare, finance, entertainment, logistics, and more.  
 
-- faqTitle: Is your marketplace solution secure for vendors and buyers?  </h3>
+- faqTitle: Is your marketplace solution secure for vendors and buyers?
   faqDescription: Yes, our marketplace platforms use end-to-end encryption and fraud detection mechanisms to ensure secure transactions.  
 
-- faqTitle: Can I customize your software solutions?</h3>  
+- faqTitle: Can I customize your software solution  
   faqDescription: Yes, all our solutions are fully customizable to meet your organization’s specific requirements and workflows.  
 
-- faqTitle: How do I get started with your services?  </h3>
+- faqTitle: How do I get started with your services?
   faqDescription: Simply reach out to us through our website or contact our team directly to discuss your project needs, and we’ll guide you through the process.
 
 blogRelatedCtegory:

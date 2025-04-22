@@ -149,22 +149,22 @@ ourProjectsTitle: Our Projects
 featuresSecSubTitle: Banking Software Development
 featuresSecTitle: Comprehensive Banking and Finance Software Solutions
 featuresBoxList:
-  - title: Digital Banking Platforms  </h3>
+  - title: Digital Banking Platforms
     description: Enable banks to offer seamless online and mobile banking experiences with secure interfaces.  
 
-  - title: Loan Management Systems  </h3>
+  - title: Loan Management Systems
     description: Simplify loan origination, underwriting, and servicing with automated workflows.  
 
-  - title: Fraud Detection Systems</h3>  
+  - title: Fraud Detection Syste  
     description: Protect financial institutions with AI-driven tools for identifying and preventing fraud.  
 
-  - title: Regulatory Compliance Software </h3> 
+  - title: Regulatory Compliance Softwar 
     description: Ensure adherence to global financial regulations with automated reporting and audit-ready solutions.  
 
-  - title: Customer Relationship Management (CRM) Tools  </h3>
+  - title: Customer Relationship Management (CRM) Tools
     description: Enhance client engagement with CRM systems tailored for financial institutions.  
 
-  - title: Data Analytics Platforms  </h3>
+  - title: Data Analytics Platforms
     description: Unlock actionable insights with advanced data analytics tools designed for banking and finance.  
 
 awesomeFeaturesSubTitle: "Tech Stack for Banking and Finance Software Development"
@@ -249,34 +249,34 @@ hireCtaButtonText: "Connect With Our Team"
 faqSubtitle : "FAQs"
 faqTitle : "Find Answers to Finance Software Development Queries"
 faqBoxList :
-- faqTitle: What types of banking and finance software do you develop?  </h3>
+- faqTitle: What types of banking and finance software do you develop?
   faqDescription: We specialize in core banking systems, payment processing platforms, investment tools, risk management solutions, wealth management software, and blockchain solutions.  
 
-- faqTitle: Are your solutions compliant with financial regulations? </h3> 
+- faqTitle: Are your solutions compliant with financial regulations 
   faqDescription: Yes, all our solutions are fully compliant with global standards like GDPR, PCI DSS, SEC, and Basel III to ensure data security and regulatory adherence.  
 
-- faqTitle: Can you integrate third-party tools with your software?  </h3>
+- faqTitle: Can you integrate third-party tools with your software?
   faqDescription: Absolutely! We seamlessly integrate payment gateways, CRMs, ERPs, and other third-party systems into our solutions.  
 
-- faqTitle: How long does it take to develop a custom banking solution?  </h3>
+- faqTitle: How long does it take to develop a custom banking solution?
   faqDescription: The timeline varies based on complexity, but most projects are completed within 4 to 12 months.  
 
-- faqTitle: Do you provide post-development support?  </h3>
+- faqTitle: Do you provide post-development support?
   faqDescription: Yes, we offer ongoing maintenance, updates, and technical support to ensure optimal performance.  
 
-- faqTitle: Can your software handle large-scale transactions?  </h3>
+- faqTitle: Can your software handle large-scale transactions?
   faqDescription: Yes, our solutions are designed to manage high-volume transactions efficiently and securely.  
 
-- faqTitle: What industries do you serve besides banking and finance? </h3> 
+- faqTitle: What industries do you serve besides banking and finance 
   faqDescription: In addition to banking and finance, we serve industries like healthcare, retail, education, logistics, and more.  
 
-- faqTitle: Is your payment processing platform secure?  </h3>
+- faqTitle: Is your payment processing platform secure?
   faqDescription: Yes, our platforms use end-to-end encryption, tokenization, and fraud detection mechanisms to protect sensitive data.  
 
-- faqTitle: Can I customize your software solutions?  </h3>
+- faqTitle: Can I customize your software solutions?
   faqDescription: Yes, all our solutions are fully customizable to meet your organization’s specific requirements and workflows.  
 
-- faqTitle: How do I get started with your services?  </h3>
+- faqTitle: How do I get started with your services?
   faqDescription: Simply reach out to us through our website or contact our team directly to discuss your project needs, and we’ll guide you through the process.
 
 

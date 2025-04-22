@@ -35,8 +35,8 @@ devInformationList :
 - infoItem: Our team of seasoned web developers works closely with you to understand your unique goals, target audience, and industry challenges. Whether you need a dynamic e-commerce platform, a custom CMS solution, or a full-stack enterprise application, we ensure every project is built with scalability, performance, and security in mind.
 - infoItem: From front-end designing to back-end functionality, our approach ensures seamless integration across all touchpoints. By leveraging the latest technologies such as React, Angular, Node.js, and Python, we create solutions that are future-proof and aligned with modern standards.
 - infoItem: Partnering with us means gaining access to a team that’s committed to helping your business grow. With years of experience serving diverse industries, we’ve helped startups, SMEs, and large enterprises achieve their digital transformation goals. Let us help you unlock new opportunities through exceptional web development services.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Web-Development.png"
+devBgAlt : "bg-Web-Development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Web Development Services"

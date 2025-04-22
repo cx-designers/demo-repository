@@ -26,8 +26,8 @@ devInformationList:
   - infoItem: Augmented Reality (AR), the younger sibling of Virtual Reality (VR), has quickly become a sensation among tech-savvy audiences, captivating users through their mobile devices. AR is revolutionizing mobile app development by superimposing images, animations, or videos onto the real-world environment, creating immersive and lifelike experiences. Imagine students using an AR app to enhance their learning—when the app recognizes specific images from a textbook, animations explaining complex concepts come to life on the page itself.
   - infoItem: Through AR, the possibilities are endless. Picture exploring historical landmarks from the comfort of your home or visualizing three-dimensional models of objects, such as body parts, to understand their functionality. AR apps are reshaping how we interact with the world, blending digital innovation with reality. In today’s tech-driven era, integrating AR into mobile apps isn’t just an option—it’s a necessity for staying competitive.
   - infoItem: Cypherox empowers businesses by integrating Augmented Reality into their mobile apps, offering a distinct competitive edge. Whether it’s enhancing user engagement, providing interactive learning tools, or creating immersive gaming experiences, our AR solutions are designed to captivate audiences and drive results. Partner with Cypherox Technologies to unlock the potential of Augmented Reality and elevate your business to new heights. Let us help you craft innovative, future-ready AR applications that resonate with modern users and set your brand apart in this dynamic digital landscape.
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-AR-Developers.png"
+devBgAlt: "bg-Hire-AR-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire AR Developers Aligned With Your Specific Requirements"
@@ -155,17 +155,117 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-c-has.svg"
+            alt: "icon-c-has"
+            title: "C#"
+            
+          - icon: "../../../assets/img/icon-C++.svg"
+            alt: "icon-C++"
+            title: "C++"
+            
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+            
+          - icon: "../../../assets/img/icon-Swift.svg"
+            alt: "icon-Swift"
+            title: "Swift"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-unity.svg"
+            alt: "icon-unity"
+            title: "Unity"
+            
+          - icon: "../../../assets/img/icon-arkit.svg"
+            alt: "icon-arkit"
+            title: "ARKit"
+            
+          - icon: "../../../assets/img/icon-arcore.svg"
+            alt: "icon-arcore"
+            title: "ARCore"
+            
+          - icon: "../../../assets/img/icon-vuforia.svg"
+            alt: "icon-vuforia"
+            title: "Vuforia"
+          
+  - title: "Database"
     blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
 
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
 
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-unity.svg"
+            alt: "icon-unity"
+            title: "Unity Test Runner"
+
+          - icon: "../../../assets/img/icon-xctest.svg"
+            alt: "icon-xctest"
+            title: "XCTest"
+
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-unity.svg"
+            alt: "icon-unity"
+            title: "Unity"
+
+          - icon: "../../../assets/img/icon-arkit.svg"
+            alt: "icon-arkit"
+            title: "ARKit"
+
+          - icon: "../../../assets/img/icon-arcore.svg"
+            alt: "icon-arcore"
+            title: "ARCore"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-blender.svg"
+            alt: "icon-blender"
+            title: "Blender"
+
+          - icon: "../../../assets/img/icon-maya.svg"
+            alt: "icon-maya"
+            title: "Maya"
+
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
 
 blogRelatedCtegory:
   - "Web Development"

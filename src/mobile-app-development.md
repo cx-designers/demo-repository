@@ -58,8 +58,8 @@ devInformationList :
 - infoItem: Our services are specifically designed to embed your business with digital magnificence. Having an online presence with a credible impression isn’t always enough to help you stay there forever. That is the reason we supervise safety and security concerns with the utmost care. Developing such a system that cannot be penetrated by devil coders and spammers is equally important along with the reliable performance and captivating design. Our quality control team assesses the measurements of quality acquired by the final product before live deployment.
 - infoItem: Our services are specifically designed to embed your business with digital magnificence. Having an online presence with a credible impression isn’t always enough to help you stay there forever. That is the reason we supervise safety and security concerns with the utmost care. Developing such a system that cannot be penetrated by devil coders and spammers is equally important along with the reliable performance and captivating design. Our quality control team assesses the measurements of quality acquired by the final product before live deployment.
 - infoItem: Our services are specifically designed to embed your business with digital magnificence. Having an online presence with a credible impression isn’t always enough to help you stay there forever. That is the reason we supervise safety and security concerns with the utmost care. Developing such a system that cannot be penetrated by devil coders and spammers is equally important along with the reliable performance and captivating design. Our quality control team assesses the measurements of quality acquired by the final product before live deployment.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-application-development.png"
+devBgAlt : "bg-application-development"
 
 
 secTitle: "Mobile App Development Services"

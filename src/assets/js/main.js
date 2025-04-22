@@ -5,6 +5,7 @@ import gsap from './gsap.min.js';
 import ScrollTrigger from './ScrollTrigger.min.js';
 import anime from './anime.min.js';
 import lottie from './lottie.min.js';
+
 import './script.js'; // Custom scripts
 
 // Expose libraries globally

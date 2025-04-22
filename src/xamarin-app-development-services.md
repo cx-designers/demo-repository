@@ -45,8 +45,8 @@ devInformationList :
 - infoItem: Our Xamarin services provide cutting-edge solutions that combine efficiency, scalability, and outstanding user experiences. Leveraging Xamarin’s advanced tools, we build fast, responsive, and customizable apps. From intuitive UI/UX design to complex features like real-time data sync, secure authentication, cloud integration, and IoT connectivity, we ensure your app aligns with your brand and goals. Our expertise spans industries such as healthcare, finance, retail, and education, delivering tailored solutions for diverse needs.
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your business goals, audience, and market trends. Whether building new apps, modernizing existing ones, or adding advanced features, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that perform flawlessly across devices.
 - infoItem: Beyond development, we offer comprehensive post-development support, staying updated with Xamarin and .NET advancements. Partner with us to experience Xamarin app development where versatility meets innovation, turning your vision into reality.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Xamarin-App-Development-Services.png"
+devBgAlt : "bg-Xamarin-App-Development-Services"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Xamarin App Development Services"

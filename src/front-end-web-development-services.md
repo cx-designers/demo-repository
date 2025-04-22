@@ -81,8 +81,8 @@ devInformationList :
 - infoItem: Our team of talented front-end developers leverages cutting-edge technologies like HTML5, CSS3, JavaScript, React, Angular, and Vue.js to build responsive, high-performance websites and applications. From crafting seamless navigation to ensuring cross-browser compatibility, every detail is meticulously executed to meet modern standards and exceed client expectations.
 - infoItem: We understand that the front end is the face of your brand online. That’s why we prioritize usability, accessibility, and speed—ensuring your website not only looks great but also performs flawlessly. By integrating advanced animations, interactive elements, and dynamic content, we create immersive experiences that keep users coming back.
 - infoItem: Our collaborative approach ensures that we align with your business goals while addressing the needs of your target audience. Whether you’re launching a new startup or revamping an existing platform, our front-end development services are designed to help you grow by improving engagement, reducing bounce rates, and boosting conversions. Let us help you build a digital presence that stands out in today’s competitive landscape.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Front-End-Development-Services.png"
+devBgAlt : "bg-Front-End-Development-Services"
   
 secTitle: "Our Front-End Development Services"
 secSubTitle: "What We Provide" 

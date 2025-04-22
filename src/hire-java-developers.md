@@ -27,8 +27,8 @@ devInformationList:
   - infoItem: Our dedicated Java developers possess strong technical expertise and deep industry knowledge, enabling them to craft cutting-edge applications for diverse sectors. When you hire a Java programmer from Cypherox Technologies , you can trust that your project will adhere to industry best practices and standards. Based in New York, our team specializes in creating custom solutions that align perfectly with your specific needs.
   - infoItem: We take pride in our ability to build websites, web services, software solutions, and mobile apps from scratch, ensuring complete customization. To safeguard your ideas, we sign an NDA and provide state-of-the-art IP protection in our secure development environment. Your vision is safe with us.
   - infoItem: As pioneers in accessible design, we deliver Java solutions, making your applications inclusive for users with vision impairments, cognitive challenges, or physical limitations. Our ADA-compliant web design services are available across all 50 states of the USA. Partner with Cypherox Technologies today and let our Java experts help you achieve your business goals with innovation and precision.
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Java-Developers.png"
+devBgAlt: "bg-Hire-Java-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Java Developers Aligned With Your Specific Requirements"
@@ -174,8 +174,8 @@ phases:
             alt: "icon-spring-boot"
             title: "Spring Boot"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-hibernate.svg"
+            alt: "icon-hibernate"
             title: "Hibernate"
 
           - icon: "../../../assets/img/icon-restful-apis.svg"
@@ -230,12 +230,12 @@ phases:
             alt: "icon-spring-boot"
             title: "Spring Boot"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-hibernate.svg"
+            alt: "icon-hibernate"
             title: "Hibernate"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-javaFX.svg"
+            alt: "icon-javaFX"
             title: "JavaFX"
 
   - title: "Design"

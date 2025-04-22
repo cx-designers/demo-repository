@@ -33,8 +33,8 @@ devInformationList :
 - infoItem: In the fast-paced world of consumer logistics, businesses need intelligent, scalable solutions to optimize deliveries and meet customer expectations. At Cypherox Technologies, we specialize in developing cutting-edge B2C Logistics and Delivery Apps that streamline workflows, enhance visibility, and improve efficiency across the logistics ecosystem.
 - infoItem: Our apps leverage advanced technologies like GPS tracking, IoT integration, AI-driven analytics, and cloud platforms to provide end-to-end control over logistics operations. Key features include real-time shipment tracking, automated dispatch systems, driver performance monitoring, geofencing, and seamless integration with ERP or TMS platforms.
 - infoItem: Partner with us today to experience the transformative power of a B2C Logistics and Delivery App , where innovation meets efficiency, making your logistics operations smarter, faster, and more reliable.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-B2C-Logistics-and-Delivery-App.png"
+devBgAlt : "bg-B2C-Logistics-and-Delivery-App"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2C Logistics and Delivery App"

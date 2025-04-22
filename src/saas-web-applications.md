@@ -35,8 +35,8 @@ devInformationList :
 - infoItem: Our SaaS web application development services provide scalable, secure, and high-performance solutions. Leveraging modern technologies like React, Angular, Node.js, and cloud platforms (AWS, Azure, Google Cloud), we build responsive, fast, and reliable applications. From intuitive UI/UX design to advanced backend functionalities like real-time data processing, API integrations, and machine learning, we ensure your application aligns with your brand and business goals.
 - infoItem: We take a client-centric approach, starting with a deep understanding of your objectives, audience, and workflows. This ensures applications that address current challenges while anticipating future needs. With clean code, rigorous testing, and performance optimization, we deliver polished products that perform flawlessly across devices and browsers.
 - infoItem: Partner with us to experience the transformative power of SaaS Web Application Development, where flexibility meets innovation, propelling your business to new heights of success
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-SAAS-Web-Application-Development.png"
+devBgAlt : "bg-SAAS-Web-Application-Development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of SAAS Web Application Development"

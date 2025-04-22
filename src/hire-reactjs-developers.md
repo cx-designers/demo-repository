@@ -26,8 +26,8 @@ devInformationList:
   - infoItem: Our ReactJS developers possess advanced skills and deep frontend expertise, enabling them to deliver speed, scalability, and efficiency for complex web applications and single-page applications (SPAs). Whether you’re building a dynamic user interface or a robust platform, our team ensures your application not only stands the test of time but also captivates users from the first interaction. Choose flexible hiring options to engage remote ReactJS developers or an entire team, and harness the full power of our ReactJS development services .
   - infoItem: Take your project to the next level by hiring top-tier ReactJS developers specializing in cutting-edge frontend solutions. At Cypherox Technologies , we offer best-in-class ReactJS programmers with various hiring models designed to bridge the gap between technical innovation and commercial success. Our developers are well-versed in the latest tools, frameworks, and practices, ensuring your project aligns with industry standards while exceeding expectations.
   - infoItem: Partner with us to access a talent pool that combines creativity, technical proficiency, and a results-driven approach. Let Cypherox Technologies empower your vision with scalable, high-performance ReactJS applications that drive user engagement and business growth. Hire our ReactJS developers today and transform your ideas into impactful digital experiences.
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-ReactJS-Developers.png"
+devBgAlt: "bg-Hire-ReactJS-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire ReactJS Developers For Your Evolving Project Needs"
@@ -219,12 +219,12 @@ phases:
             alt: "icon-jest"
             title: "Jest"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-enzyme-mln.svg"
+            alt: "icon-enzyme-mln"
             title: "Enzyme"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-testing-library.svg"
+            alt: "icon-testing-library"
             title: "React Testing Library"
             
           - icon: "../../../assets/img/icon-cypress.svg"

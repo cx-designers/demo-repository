@@ -33,8 +33,8 @@ devInformationList :
 - infoItem: Recipe apps have revolutionized home cooking, offering easy-to-follow instructions and inspiring culinary creativity. At Cypherox Technologies, we design apps that combine stunning visuals with practical features like meal planning, ingredient lists, and step-by-step guidance. 
 - infoItem: Our team ensures your app stands out in a competitive market by addressing user needs such as simplicity, variety, and personalization. By eliminating common pitfalls like cluttered layouts or outdated recipes, we create apps that make cooking delightful and accessible for all skill levels.
 - infoItem: Let us help you build a recipe app that inspires users to experiment in the kitchen while driving engagement and loyalty. Transform how people cook with an app that’s intuitive, visually appealing, and packed with value.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Recipe-app.png"
+devBgAlt : "bg-Recipe-app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Recipe App Solutions"

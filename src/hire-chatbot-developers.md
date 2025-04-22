@@ -27,8 +27,8 @@ devInformationList:
   - infoItem: Our end-to-end chatbot development services include conceptualization, design, development, integration, and ongoing support. We ensure your chatbot aligns with your business goals while delivering exceptional user experiences. With a focus on scalability, security, and performance, we build chatbot solutions that grow with your business and adapt to evolving demands.
   - infoItem: Partner with Cypherox Technologies to unlock the potential of AI-powered chatbots and elevate your customer interactions to the next level. Let us help you transform your vision into a fully functional, intelligent chatbot solution that drives efficiency and growth.
   - infoItem: Contact us today to hire our skilled Chatbot developers and embark on a journey toward innovation and success!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Chatbot-Developers.png"
+devBgAlt: "bg-Hire-Chatbot-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Chatbot Developers For Your Evolving Project Development Needs"

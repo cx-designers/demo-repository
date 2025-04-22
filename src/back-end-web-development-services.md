@@ -81,8 +81,8 @@ devInformationList :
 - infoItem: Our team of experienced back-end developers leverages cutting-edge technologies such as Node.js, Python, Ruby on Rails, PHP, Java, and .NET to build high-performance APIs, databases, and server logic. Whether you need custom API integrations, cloud-based solutions, or enterprise-grade systems, we ensure every component is optimized for speed, reliability, and scalability.
 - infoItem: We understand that the back end is the engine driving your application’s functionality. That’s why we prioritize clean code, efficient database management, and advanced security protocols to protect sensitive data and ensure uninterrupted performance. By implementing best practices like RESTful API design, microservices architecture, and real-time communication frameworks, we create solutions that are future-proof and adaptable to evolving business needs.
 - infoItem: From startups to large enterprises, our back-end development services empower businesses to streamline operations, enhance user experiences, and achieve their growth objectives. Whether you’re building an e-commerce platform, a SaaS product, or a complex ERP system, our developers work closely with you to deliver tailored solutions that align with your vision and goals. Let us help you build a strong technological foundation for long-term success.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Back-End-Development-Services.png"
+devBgAlt : "bg-Back-End-Development-Services"
     
 secTitle: "Our Back-End Development Services"
 secSubTitle: "What We Provide"  

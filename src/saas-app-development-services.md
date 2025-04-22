@@ -42,8 +42,8 @@ devInformationList :
 - infoItem: Our SaaS app development services focus on delivering robust functionality with intuitive user experiences. Using modern frameworks and cloud infrastructure, we build apps that support multi-tenancy, scalability, and real-time collaboration. Key features include role-based access control, automated billing, analytics dashboards, and seamless third-party integrations. Our expertise spans diverse industries, ensuring tailored solutions aligned with your business goals.
 - infoItem: We take a strategic approach, starting with a deep understanding of your audience, market trends, and technical requirements. This ensures applications that not only meet but exceed expectations. With clean code, rigorous testing, and performance optimization, we deliver polished, production-ready apps.
 - infoItem: Beyond development, we provide comprehensive post-development support and maintenance. Partner with us to experience the transformative power of SaaS App Development, where innovation meets scalability, turning your vision into reality.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-SAAS-App-Development.png"
+devBgAlt : "bg-SAAS-App-Development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of SAAS App Development"

@@ -26,8 +26,8 @@ devInformationList:
   - infoItem: Our skilled data analysts specialize in extracting meaningful information from complex datasets, enabling you to make informed decisions that propel your business forward. With expertise in advanced analytics, data visualization, predictive modeling, and trend forecasting, our team helps you uncover hidden opportunities, optimize processes, and enhance overall efficiency.
   - infoItem: Whether you’re looking to improve customer experiences, streamline operations, or identify new revenue streams, our data analysts deliver tailored solutions that align with your strategic goals. We leverage cutting-edge tools and methodologies to ensure your data is not just collected but transformed into a powerful asset for innovation and growth.
   - infoItem: Partner with Cypherox Technologies to harness the full potential of your data. Let us help you build a robust data-driven strategy that empowers your business to stay ahead in today’s competitive landscape. Contact us today to hire our expert data analysts and unlock the true value of your data!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Data-Analytics.png"
+devBgAlt: "bg-Hire-Data-Analytics"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Data Analytics For Your Evolving Project Needs"
@@ -147,16 +147,129 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
-    blocks:
-  - title: "Lorem ipsum"
-    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
 
+          - icon: "../../../assets/img/icon-r.svg"
+            alt: "icon-r"
+            title: "R"
 
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "SQL"
+
+          - icon: "../../../assets/img/icon-Scala.svg"
+            alt: "icon-Scala"
+            title: "Scala"
+          
+  - title: "Technologies"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Pandas.svg"
+            alt: "icon-Pandas"
+            title: "Pandas"
+            
+          - icon: "../../../assets/img/icon-NumPy.svg"
+            alt: "icon-NumPy"
+            title: "NumPy"
+            
+          - icon: "../../../assets/img/icon-matplotlib.svg"
+            alt: "icon-matplotlib"
+            title: "Matplotlib"
+            
+          - icon: "../../../assets/img/icon-seaborn.svg"
+            alt: "icon-seaborn"
+            title: "Seaborn"
+            
+          - icon: "../../../assets/img/icon-tableau.svg"
+            alt: "icon-tableau"
+            title: "Tableau"
+            
+          - icon: "../../../assets/img/icon-power-bi.svg"
+            alt: "icon-power-bi"
+            title: "Power BI"
+          
+  - title: "Database"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-PostgreSQL.svg"
+            alt: "icon-PostgreSQL"
+            title: "PostgreSQL"
+            
+          - icon: "../../../assets/img/icon-Mysql.svg"
+            alt: "icon-Mysql"
+            title: "MySQL"
+            
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+            
+          - icon: "../../../assets/img/icon-Amazon-Redshift.svg"
+            alt: "icon-Amazon-Redshift"
+            title: "Redshift"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-pytest.svg"
+            alt: "icon-pytest"
+            title: "PyTest"
+
+          - icon: "../../../assets/img/icon-junit.svg"
+            alt: "icon-junit"
+            title: "JUnit"
+          
+          - icon: "../../../assets/img/icon-sonarqube.svg"
+            alt: "icon-sonarqube"
+            title: "SonarQube"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Pandas.svg"
+            alt: "icon-Pandas"
+            title: "Pandas"
+
+          - icon: "../../../assets/img/icon-NumPy.svg"
+            alt: "icon-NumPy"
+            title: "NumPy"
+
+          - icon: "../../../assets/img/icon-scikit.svg"
+            alt: "icon-scikit"
+            title: "Scikit-learn"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-tableau.svg"
+            alt: "icon-tableau"
+            title: "Tableau"
+
+          - icon: "../../../assets/img/icon-power-bi.svg"
+            alt: "icon-power-bi"
+            title: "Power BI"
+
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
 
 blogRelatedCtegory:
   - "Web Development"

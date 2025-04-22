@@ -21,8 +21,8 @@ devInformationList:
   - infoItem: India is renowned as a talent-rich and cost-effective destination for hiring React Native developers, and Cypherox Technologies stands out as a leader in this space. Our team has a proven track record of solving complex mobile app development challenges using React Native, ensuring scalable, feature-rich, and performance-driven applications.
   - infoItem: By choosing us, you gain access to top-tier React Native experts who combine innovation, technical expertise, and industry best practices to craft cutting-edge solutions. Let us help you bring your ideas to life while optimizing costs and accelerating your time-to-market. Hire React Native developers from Cypherox Technologies today and embark on a journey to create impactful, cross-platform mobile apps that drive success.
 
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-React-Native-Developers.png"
+devBgAlt: "bg-Hire-React-Native-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire React Native Developers For Your Evolving Project Needs"
@@ -202,8 +202,8 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-go-test.svg"
+            alt: "icon-go-test"
             title: "Go Test"
             
           - icon: "../../../assets/img/icon-testify.svg"
@@ -218,12 +218,12 @@ phases:
     blocks:
       - heading: ""
         items:
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Gin.svg"
+            alt: "icon-Gin"
             title: "Gin"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Fiber.svg"
+            alt: "icon-Fiber"
             title: "Fiber"
             
           - icon: "../../../assets/img/icon-echo.svg"

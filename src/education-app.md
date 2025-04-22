@@ -33,8 +33,8 @@ devInformationList :
 - infoItem: Education apps have revolutionized learning, offering interactive lessons and personalized study plans. At Cypherox Technologies, we design apps that combine gamification, progress tracking, and multimedia content to engage learners of all ages. 
 - infoItem: Our team ensures your app addresses common challenges such as lack of motivation or one-size-fits-all solutions. In a competitive market, we focus on delivering unique value through intuitive design and actionable insights. 
 - infoItem: By leveraging cutting-edge technologies, we create apps that make education accessible, enjoyable, and impactful. Partner with us to build an education app that empowers learners and drives success, transforming how knowledge is shared and acquired.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Education-apps.png"
+devBgAlt : "bg-Education-apps"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Education App Solutions"

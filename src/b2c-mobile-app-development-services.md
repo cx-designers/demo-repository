@@ -36,8 +36,8 @@ devInformationList :
 - infoItem: Our services provide feature-rich apps that combine functionality, scalability, and stunning design. From intuitive UI/UX to advanced features like real-time notifications, geolocation, secure payments, and AI-driven personalization, we ensure your app aligns with your brand and goals. Our expertise spans industries like e-commerce, healthcare, travel, and education, offering tailored solutions for diverse needs.
 - infoItem: We take a client-centric approach, starting with a deep understanding of your audience, market trends, and objectives. Whether building new apps, modernizing existing ones, or adding advanced features, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that perform flawlessly across devices.
 - infoItem: Beyond development, we offer comprehensive post-development support, staying updated with mobile tech advancements. Partner with us to experience B2C Mobile App Development where innovation meets excellence, turning your vision into reality.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-B2C-Mobile-App-Development-Services.png"
+devBgAlt : "bg-B2C-Mobile-App-Development-Services"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2C Mobile App Development Services"

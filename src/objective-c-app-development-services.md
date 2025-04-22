@@ -37,8 +37,8 @@ devInformationList :
 - infoItem: As a leader in Objective-C app development, we take pride in offering end-to-end solutions that cater to diverse industries, including finance, healthcare, retail, and more. Our process begins with a thorough understanding of your requirements, target audience, and market trends, enabling us to design and develop applications that deliver tangible results. We specialize in integrating advanced functionalities such as real-time data processing, secure authentication, geolocation services, and third-party APIs, ensuring your app provides a seamless and engaging experience for users. With a strong focus on clean code architecture, rigorous testing, and optimization, we guarantee a polished, bug-free product that performs flawlessly across all Apple devices.
 
 - infoItem: At Cypherox Technologies, we understand that launching your app is just the beginning. To ensure its continued success, we offer comprehensive post-development support and maintenance services. Our team stays up-to-date with the latest advancements in Objective-C and iOS technologies, ensuring your app remains compatible with future updates and evolving industry standards. Whether you need performance enhancements, feature upgrades, or security patches, we are here to help your app grow alongside your business. Partner with us today and harness the power of Objective-C app development services—where reliability meets innovation, and your vision becomes reality.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Objective-C-App-Development-Services.png"
+devBgAlt : "bg-Objective-C-App-Development-Services"
 
 secTitle: "Core Services of Objective-C App Development Services"
 secSubTitle: "What We Provide"  
@@ -144,34 +144,34 @@ processBoxList :
 faqSubtitle : "FAQs"
 faqTitle : "FAQ for Objective-C App Development Services"
 faqBoxList :
-- faqTitle: hat is Objective-C, and why is it still relevant for app development?</h3>
+- faqTitle: hat is Objective-C, and why is it still relevant for app development?
   faqDescription: Objective-C is a mature, object-oriented programming language that has been widely used for developing iOS and macOS applications before Swift. It remains relevant for maintaining legacy apps and integrating with existing systems. At Cypherox Technologies, we leverage Objective-C’s robustness and compatibility to deliver stable, high-performance applications tailored to your business needs.
 
-- faqTitle: an Objective-C be used alongside Swift in app development?</h3>
+- faqTitle: an Objective-C be used alongside Swift in app development?
   faqDescription: Yes! Objective-C and Swift are interoperable, meaning they can coexist in the same project. This allows us to enhance or maintain legacy Objective-C codebases while gradually adopting Swift for new features. At Cypherox Technologies, we ensure seamless integration between the two languages to modernize your app without disrupting functionality.
 
-- faqTitle: ow do you ensure my Objective-C app is compatible with the latest iOS versions?</h3>
+- faqTitle: ow do you ensure my Objective-C app is compatible with the latest iOS versions?
   faqDescription: We stay updated with Apple’s latest releases and guidelines to ensure your Objective-C app remains compatible with new iOS versions. By using tools like Xcode and adhering to Apple’s best practices, we future-proof your app while maintaining its performance and stability. At Cypherox Technologies, compatibility is a top priority.
 
-- faqTitle: an Objective-C apps integrate with third-party APIs and services?</h3>
+- faqTitle: an Objective-C apps integrate with third-party APIs and services?
   faqDescription: Absolutely! Objective-C supports seamless integration with third-party APIs and services such as payment gateways (Stripe, PayPal), analytics tools (Google Analytics), cloud storage (AWS, Firebase), and CRM systems. At Cypherox Technologies, we ensure smooth communication between your app and external services to enhance functionality.
 
-- faqTitle: ow do you optimize the performance of Objective-C-based applications?</h3>
+- faqTitle: ow do you optimize the performance of Objective-C-based applications?
   faqDescription: We optimize Objective-C apps by using techniques like memory management (ARC - Automatic Reference Counting), efficient data handling, and leveraging native libraries for faster execution. Additionally, we conduct rigorous testing to minimize resource usage and ensure smooth performance. At Cypherox Technologies, optimization is embedded into every stage of development.
 
-- faqTitle: o you provide ongoing support and maintenance for Objective-C apps?</h3>
+- faqTitle: o you provide ongoing support and maintenance for Objective-C apps?
   faqDescription: Yes! We offer comprehensive post-launch support, including bug fixes, performance tuning, feature enhancements, and updates to keep your app aligned with the latest iOS versions. Whether it’s maintaining legacy code or adding new functionalities, our team at Cypherox Technologies ensures your app remains reliable and secure.
 
-- faqTitle: an Objective-C apps be customized to match my brand identity?</h3>
+- faqTitle: an Objective-C apps be customized to match my brand identity?
   faqDescription: Absolutely! We design Objective-C apps with fully customized user interfaces that align with your brand’s colors, typography, and style. From intuitive navigation to engaging animations, our team ensures your app reflects your brand identity while delivering a seamless user experience.
 
-- faqTitle: hat industries benefit most from Objective-C app development?</h3>
+- faqTitle: hat industries benefit most from Objective-C app development?
   faqDescription: Objective-C app development is widely used in industries such as healthcare, finance, retail, and enterprise solutions, especially for maintaining legacy systems. Its ability to handle complex data securely makes it ideal for businesses with long-standing iOS applications. At Cypherox Technologies, we tailor Objective-C solutions to meet the unique needs of each industry.
 
-- faqTitle: ow long does it take to develop an Objective-C-based application?</h3>
+- faqTitle: ow long does it take to develop an Objective-C-based application?
   faqDescription: The timeline depends on the complexity of the project. A basic Objective-C app may take 10–12 weeks, while more advanced projects with custom features, integrations, or real-time functionality can take 16–24 weeks. During the initial consultation, we’ll provide a detailed timeline based on your specific requirements.
 
-- faqTitle: How can I get started with Cypherox Technologies for my Objective-C app project?</h3>
+- faqTitle: How can I get started with Cypherox Technologies for my Objective-C app project?
   faqDescription: Getting started is simple! Visit our website at Cypherox Technologies and fill out the contact form, or email us directly at info@cypherox.com. Our team will schedule a consultation to discuss your goals, target audience, and desired features. From there, we’ll create a customized plan to bring your Objective-C app vision to life.
 
 

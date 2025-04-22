@@ -33,8 +33,8 @@ devInformationList :
 - infoItem: Mental health apps have become vital tools for supporting well-being, offering guided meditations, therapy sessions, and mood tracking. At Cypherox Technologies, we design apps that prioritize empathy, accessibility, and innovation. 
 - infoItem: Our team ensures your app is equipped with features like daily check-ins, progress tracking, and resource libraries to address user needs effectively. In a sensitive market, we focus on creating trustworthy apps by eliminating common issues like intrusive ads or lack of privacy. 
 - infoItem: By combining thoughtful design with advanced functionalities, we craft apps that empower users to prioritize their mental health. Let us help you build an app that makes a meaningful impact on users’ lives while fostering trust and loyalty.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Mental-health-apps.png"
+devBgAlt : "bg-Mental-health-apps"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Mental health App Solutions"

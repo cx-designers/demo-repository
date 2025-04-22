@@ -35,8 +35,8 @@ devInformationList :
 - infoItem: Our SaaS cloud solutions provide scalable, secure, and high-performance infrastructure. Key features include auto-scaling, disaster recovery, data encryption, and compliance with standards like GDPR and HIPAA. We build cloud-native applications, leverage containerization (Docker, Kubernetes), and design serverless architectures to ensure your application is future-proof.
 - infoItem: We take a strategic approach, starting with a deep understanding of your business goals, technical needs, and budget. This ensures solutions that meet and exceed expectations. With clean code, rigorous testing, and performance optimization, we deliver polished, production-ready results.
 - infoItem: Partner with us to experience the transformative power of SaaS Cloud Solutions, where scalability meets security, driving your business to new levels of efficiency.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-SAAS-Cloud-Solutions.png"
+devBgAlt : "bg-SAAS-Cloud-Solutions"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of SAAS Cloud Solutions"

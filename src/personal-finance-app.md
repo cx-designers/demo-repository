@@ -34,8 +34,8 @@ devInformationList :
 - infoItem: Personal finance apps have redefined how individuals manage their money, offering tools for budgeting, investing, and expense tracking. At Cypherox Technologies, we design apps that combine sleek interfaces with robust security measures to ensure trust and reliability. Our team of experts crafts apps equipped with features like real-time analytics, automated savings plans, and personalized financial advice to address the evolving needs of users. 
 - infoItem: In a crowded market, we stand out by adding value through intuitive design, actionable insights, and seamless integrations with banking systems. By eliminating common pitfalls like complex navigation or data breaches, we create apps that empower users to take control of their finances confidently. 
 - infoItem: Partner with us to develop a personal finance app that delivers exceptional user experiences and drives long-term engagement while helping users achieve their financial goals effortlessly.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Personal-finance-app.png"
+devBgAlt : "bg-Personal-finance-app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Mobile Application Solutions"

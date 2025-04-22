@@ -35,8 +35,8 @@ devInformationList :
 - infoItem: Our B2B Sales Enablement App solutions address the unique needs of modern sales teams. We ensure instant access to critical information like product catalogs, pricing sheets, customer data, and marketing collateral through an intuitive platform. Leveraging AI-driven analytics, real-time notifications, and cloud integration, we build apps that provide actionable insights, automate tasks, and enhance team collaboration. Features like lead management, pipeline tracking, CRM integration, and performance dashboards ensure your salesforce has everything they need to succeed.
 - infoItem: We take a strategic approach, starting with a deep understanding of your sales processes, audience, and challenges. Whether building a custom app, integrating with tools like Salesforce or HubSpot, or adding advanced features like predictive analytics and gamification, our team handles projects of any scale. With clean code, rigorous testing, and user-centric design, we deliver polished, reliable apps that drive productivity and sales growth.
 - infoItem: Beyond development, we offer comprehensive post-development support, staying updated with mobile and sales tech advancements. Partner with us to experience B2B Sales Enablement Apps where efficiency meets innovation, empowering your sales team to achieve unstoppable success.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-B2B-Sales-Enablement-App.png"
+devBgAlt : "bg-B2B-Sales-Enablement-App"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2B Sales Enablement App"

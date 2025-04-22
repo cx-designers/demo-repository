@@ -27,8 +27,8 @@ devInformationList:
   - infoItem: To achieve a clean, professional, and engaging look for your application, precision in design is key. A user’s first impression of your brand often starts with its interface and visuals. Our talented team of UI/UX designers specializes in creating captivating designs that grab attention and leave a lasting impact. With a pool of creative experts, we deliver unique and innovative designs tailored to your business needs, ensuring maximum user engagement and ROI.
   - infoItem: If you’re looking for creative solutions that provide a delightful user experience, hire UI/UX designers in India from Cypherox Technologies . Our skilled and experienced designers are equipped to deliver end-to-end UI/UX design services, ensuring your application aligns perfectly with your business objectives. From wireframes to final designs, we ensure every detail reflects your brand’s vision and resonates with your audience.
   - infoItem: Partner with us to elevate your digital presence with cutting-edge UI/UX design . Let Cypherox Technologies help you craft an application that is visually appealing, user-friendly, and designed to drive growth. Get in touch today to discuss your project requirements and let us bring your vision to life!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-UI-UX-Designers.png"
+devBgAlt: "bg-Hire-UI-UX-Designers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire UI/UX Designers Aligned with Your Project Goals"
@@ -208,12 +208,12 @@ phases:
     blocks:
       - heading: ""
         items:     
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Usability-testing-tools.svg"
+            alt: "icon-Usability-testing-tools"
             title: "Usability testing tools"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-a-b-testing.svg"
+            alt: "icon-a-b-testing"
             title: "A/B testing"
 
   - title: "Design"

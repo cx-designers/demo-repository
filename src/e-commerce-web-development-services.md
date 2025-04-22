@@ -82,8 +82,8 @@ devInformationList :
 - infoItem: Our team of expert eCommerce web developers utilizes platforms such as Shopify, WooCommerce, Magento, BigCommerce, and custom-built solutions to deliver feature-rich websites tailored to your specific needs. We focus on aspects like intuitive product catalogs, secure payment gateways, advanced search functionalities, and mobile responsiveness, ensuring that every element of your store is optimized for success.
 - infoItem: By choosing our eCommerce web developers, you gain access to professionals who know how to balance aesthetics with functionality. Whether you are launching a new store, migrating from an existing platform, or integrating third-party tools like CRM and ERP systems, we provide scalable solutions designed to grow your business.
 - infoItem: Our emphasis on SEO-friendly architecture, fast loading times, and personalized user experiences ensures that your store ranks higher in search results, attracts more customers, and maximizes revenue. Let us help you build an eCommerce platform that drives growth and enhances customer satisfaction.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-E-Commerce-Development-Services.png"
+devBgAlt : "bg-E-Commerce-Development-Services"
     
 secTitle: "Our ECommerce Development Services"
 secSubTitle: "What We Provide"  

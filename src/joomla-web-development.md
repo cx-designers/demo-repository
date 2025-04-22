@@ -43,8 +43,8 @@ devInformationList :
 - infoItem: Our Joomla development services empower you to achieve ultimate feasibility, ease of use, and authenticity in publishing content on the web. By following industry-leading content management practices, we help you effectively manage and control your enterprise’s content and business processes, ensuring seamless operations and scalability.
 - infoItem: From theme customization to component development , application development , and custom plugins , we offer an extensive range of customizable Joomla solutions designed to meet your unique requirements. Our team ensures that every aspect of your Joomla website is optimized for performance, security, and user engagement.
 - infoItem: Partner with Cypherox Technologies to unlock the full potential of Joomla’s open-source framework and create a dynamic, feature-rich website that drives growth and delivers results. Let us help you craft a digital presence that aligns with your business goals and resonates with your audience. Access our expertise in Joomla development and transform your vision into a high-performing online platform!
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Joomla-Development.png"
+devBgAlt : "bg-Joomla-Development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Joomla Web Development Services"

@@ -27,8 +27,8 @@ devInformationList:
   - infoItem: Our technical expertise ensures your website performs optimally at every level. We focus on critical aspects like reducing load times, enhancing security, ensuring compliance, integrating third-party extensions and APIs, and much more—all within the WordPress ecosystem.
   - infoItem: By hiring WordPress developers from our WordPress VIP Agency, you gain access to top-tier talent capable of delivering scalable, secure, and high-performing solutions tailored to your business needs. Whether you’re looking to revamp your existing site or build a new one from scratch, we’ve got you covered.
   - infoItem: Partner with Cypherox Technologies today and let our WordPress experts take your website to the next level. Get in touch now to discuss your project requirements and experience the power of exceptional WordPress development!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-WordPress-Developers.png"
+devBgAlt: "bg-Hire-WordPress-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire WordPress Developers For Your Evolving Project Needs"

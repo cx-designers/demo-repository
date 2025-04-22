@@ -32,8 +32,8 @@ devTitlePart : sit amet consectetur, adipisicing elit.
 devInformationList :
 - infoItem: A PHP-based website serves as a strong foundation for online presence, but a mobile app enhances user experience, speed, and functionality. By converting your PHP site into an iOS and Android app, you can offer faster navigation, offline access, and push notifications—boosting customer retention and engagement.
 - infoItem: At Cypherox, we specialize in turning PHP websites into scalable, user-friendly mobile applications. Our experts ensure seamless UI/UX design, secure data migration, and smooth integration with existing systems, making the transition hassle-free and effective.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Convert-PHP-Website-into-App.png"
+devBgAlt : "bg-Convert-PHP-Website-into-App"
 
 secSubTitle: "What We Offer"  
 secTitle: "PHP Website to App Conversion Services"

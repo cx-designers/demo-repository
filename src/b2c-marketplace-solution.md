@@ -34,8 +34,8 @@ devInformationList :
 - infoItem: In today’s interconnected consumer landscape, B2C marketplaces have become essential platforms for connecting buyers and sellers, streamlining transactions, and driving business growth. At Cypherox Technologies, we specialize in creating cutting-edge B2C Marketplace Solutions that empower organizations to build scalable, secure, and feature-rich platforms tailored to their unique needs.
 - infoItem: Our solutions include customizable product catalogs, tiered pricing, real-time inventory management, secure payment gateways, and multi-vendor support. Additionally, our platforms offer advanced tools like supplier onboarding, order tracking, performance analytics, and CRM integration, ensuring a seamless experience for all users.
 - infoItem: Partner with us today to experience the transformative power of a B2C Marketplace Solution , where innovation meets efficiency, turning your vision into reality.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-B2C-Marketplace-Solution.png"
+devBgAlt : "bg-B2C-Marketplace-Solution"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2C Marketplace Solution"

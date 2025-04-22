@@ -39,8 +39,8 @@ devInformationList :
 
 - infoItem: Beyond development, we ensure long-term success through comprehensive support and maintenance, staying updated with Java advancements. Partner with us to experience Java app development where reliability meets innovation, turning your vision into reality.
 
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Java-App-Development-Services.png"
+devBgAlt : "bg-Java-App-Development-Services"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Java App Development Services"

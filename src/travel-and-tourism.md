@@ -150,22 +150,22 @@ ourProjectsTitle: Our Projects
 featuresSecSubTitle: Tourism Software Solutions
 featuresSecTitle: Comprehensive Travel and Tourism Software Solutions
 featuresBoxList:
-  - title: Flight and Hotel Aggregation Platforms  </h3>
+  - title: Flight and Hotel Aggregation Platforms
     description: Aggregate real-time inventory from multiple providers for seamless bookings.  
 
-  - title: Virtual Tour Experiences  </h3>
+  - title: Virtual Tour Experiences
     description: Deliver immersive virtual tours using AR/VR technologies.  
 
-  - title: Dynamic Pricing Engines  </h3>
+  - title: Dynamic Pricing Engines
     description: Optimize pricing strategies based on demand, competition, and seasonality.  
 
-  - title: Travel Insurance Platforms  </h3>
+  - title: Travel Insurance Platforms
     description: Offer customizable insurance plans for flights, trips, and activities.  
 
-  - title: Event and Activity Booking Systems  </h3>
+  - title: Event and Activity Booking Systems
     description: Enable travelers to book local tours, concerts, and events effortlessly.  
 
-  - title: Sustainability Tracking Tools  </h3>
+  - title: Sustainability Tracking Tools
     description: Monitor and reduce the environmental impact of travel operations.  
 
 awesomeFeaturesSubTitle: "Tech Stack for Travel and Tourism Software Development"
@@ -250,34 +250,34 @@ hireCtaButtonText: "Connect With Our Team"
 faqSubtitle : "FAQs"
 faqTitle : "Find Answers to Tourism Software Development Queries "
 faqBoxList :
-- faqTitle: What types of travel and tourism software do you develop?  </h3>
+- faqTitle: What types of travel and tourism software do you develop?
   faqDescription: We specialize in travel booking platforms, hotel management systems, destination management tools, CRM solutions, analytics dashboards, and mobile travel apps.  
 
-- faqTitle: Are your solutions secure for online transactions?  </h3>
+- faqTitle: Are your solutions secure for online transactions?
   faqDescription: Yes, all our solutions comply with PCI DSS standards and use encryption to protect sensitive data.  
 
-- faqTitle: Can you integrate third-party tools with your software?  </h3>
+- faqTitle: Can you integrate third-party tools with your software?
   faqDescription: Absolutely! We seamlessly integrate payment gateways, mapping tools, and third-party APIs into our solutions.  
 
-- faqTitle: How long does it take to develop a custom travel solution?  </h3>
+- faqTitle: How long does it take to develop a custom travel solution?
   faqDescription: The timeline varies based on complexity, but most projects are completed within 4 to 12 months.  
 
-- faqTitle: Do you provide post-development support?  </h3>
+- faqTitle: Do you provide post-development support?
   faqDescription: Yes, we offer ongoing maintenance, updates, and technical support to ensure optimal performance.  
 
-- faqTitle: Can your platform handle large-scale bookings during peak seasons?  </h3>
+- faqTitle: Can your platform handle large-scale bookings during peak seasons?
   faqDescription: Yes, our solutions are designed to scale efficiently, ensuring smooth performance even during high-traffic periods like holidays.  
 
-- faqTitle: What industries do you serve besides travel and tourism?  </h3>
+- faqTitle: What industries do you serve besides travel and tourism?
   faqDescription: In addition to travel and tourism, we serve industries like healthcare, finance, retail, education, and logistics.  
 
-- faqTitle: Is your mobile travel app compatible with iOS and Android?  </h3>
+- faqTitle: Is your mobile travel app compatible with iOS and Android?
   faqDescription: Yes, our mobile apps are fully compatible with both iOS and Android devices.  
 
-- faqTitle: Can I customize your software solutions?  </h3>
+- faqTitle: Can I customize your software solutions?
   faqDescription: Yes, all our solutions are fully customizable to meet your organization’s specific requirements and workflows.  
 
-- faqTitle: How do I get started with your services?  </h3>
+- faqTitle: How do I get started with your services?
   faqDescription: Simply reach out to us through our website or contact our team directly to discuss your project needs, and we’ll guide you through the process.
 
 

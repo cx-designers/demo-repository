@@ -33,8 +33,8 @@ devInformationList :
 - infoItem: Personal shopping apps have transformed retail, offering curated recommendations and seamless purchasing experiences. At Cypherox Technologies, we design apps that combine AI-driven personalization with intuitive interfaces to enhance user satisfaction. 
 - infoItem: Our team focuses on features like virtual try-ons, wishlist management, and one-click checkout to address common pain points such as overwhelming choices or slow navigation. In a crowded market, we ensure your app stands out by delivering unique value through tailored experiences and frictionless usability. 
 - infoItem: Partner with us to build a personal shopping app that redefines convenience and elevates the retail experience for users. Create an app that shoppers love and trust, setting your brand apart in the e-commerce space.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Personal-shopping-app.png"
+devBgAlt : "bg-Personal-shopping-app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Personal shopping App Solutions"

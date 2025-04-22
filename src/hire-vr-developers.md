@@ -26,8 +26,8 @@ devInformationList:
   - infoItem: Virtual reality simulates real-world or fictional environments using advanced computers and sensory devices like VR gloves , headsets , and other equipment. Beyond gaming and entertainment, VR is transforming sectors such as healthcare, aviation, and education. Surgeons and pilots use VR for training, while scientists leverage it to interpret complex molecular structures. Imagine students exploring the moon’s surface virtually or fans performing live on stage with their favorite artists in a sold-out stadium—VR makes it all possible.
   - infoItem: Despite its potential, many businesses have yet to tap into VR’s power for advertising and promotional strategies. By integrating VR into your mobile app, you can captivate audiences, enhance engagement, and lead your industry with innovative solutions.
   - infoItem: At Cypherox Technologies , we specialize in crafting immersive VR applications tailored to your business needs. Whether you’re looking to create interactive educational tools, realistic simulations, or cutting-edge marketing campaigns, our team delivers high-quality, future-ready solutions. Partner with us to unlock the limitless possibilities of virtual reality and set your brand apart in this dynamic digital age. Contact Cypherox Technologies today to hire our expert VR developers and bring your vision to life!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-VR-Developers.png"
+devBgAlt: "bg-Hire-VR-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire VR Developers Aligned with Your Project Goals"
@@ -159,18 +159,113 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-c-has.svg"
+            alt: "icon-c-has"
+            title: "C#"
+            
+          - icon: "../../../assets/img/icon-C++.svg"
+            alt: "icon-C++"
+            title: "C++"
+            
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+            
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-unity.svg"
+            alt: "icon-unity"
+            title: "Unity"
+            
+          - icon: "../../../assets/img/icon-unreal-engine.svg"
+            alt: "icon-unreal-engine"
+            title: "Unreal Engine"
+            
+          - icon: "../../../assets/img/icon-Oculus-SDK.svg"
+            alt: "icon-Oculus-SDK"
+            title: "Oculus SDK"
+            
+          - icon: "../../../assets/img/icon-SteamVR.svg"
+            alt: "icon-SteamVR"
+            title: "SteamVR"
+          
+  - title: "Database"
     blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-sqlite.svg"
+            alt: "icon-sqlite"
+            title: "SQLite"
 
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
 
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-unity.svg"
+            alt: "icon-unity"
+            title: "Unity Test Runner"
+
+          - icon: "../../../assets/img/icon-unreal-engine.svg"
+            alt: "icon-unreal-engine"
+            title: "Unreal Engine Testing"
+
+          - icon: "../../../assets/img/icon-appium.svg"
+            alt: "icon-appium"
+            title: "Appium"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-unity.svg"
+            alt: "icon-unity"
+            title: "Unity"
+
+          - icon: "../../../assets/img/icon-unreal-engine.svg"
+            alt: "icon-unreal-engine"
+            title: "Unreal Engine"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-blender.svg"
+            alt: "icon-blender"
+            title: "Blender"
+
+          - icon: "../../../assets/img/icon-maya.svg"
+            alt: "icon-maya"
+            title: "Maya"
+
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
 
 blogRelatedCtegory:
   - "Development"

@@ -27,8 +27,8 @@ devInformationList:
   - infoItem: To achieve a polished and professional look for your application, precision in design is essential. A business’s first impression often comes from its logo and overall visual representation. Our talented team of graphic designers specializes in creating eye-catching designs that captivate users and leave a lasting impact. With a pool of creative minds, we deliver unique and innovative designs tailored to your business needs, helping you maximize ROI and user engagement.
   - infoItem: If you’re seeking creative solutions that provide a delightful user experience, hire graphic designers in India from Cypherox Technologies . Our skilled and experienced web and app designers are equipped to deliver end-to-end design solutions, ensuring your application aligns perfectly with your business goals. From concept to execution, we ensure every detail reflects your brand’s vision and resonates with your target audience.
   - infoItem: Partner with us to unlock the power of exceptional design. Let Cypherox Technologies help you craft a visually stunning and user-centric application that drives growth and sets your brand apart. Get in touch today to discuss your design needs and let us bring your ideas to life!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Graphic-Designers.png"
+devBgAlt: "bg-Hire-Graphic-Designers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Graphic Designers Aligned With Your Specific Requirements"
@@ -175,28 +175,28 @@ phases:
             alt: "icon-illustrator"
             title: "Illustrator"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-indesign.svg"
+            alt: "icon-indesign"
             title: "In Design"
           
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-canva.svg"
+            alt: "icon-canva"
             title: "Canva"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-coreldraw.svg"
+            alt: "icon-coreldraw"
             title: "CorelDRAW"
 
   - title: "Testing"
     blocks:
       - heading: ""
         items:     
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-Manual-review.svg"
+            alt: "icon-Manual-review"
             title: "Manual review"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-client-feedback.svg"
+            alt: "icon-client-feedback"
             title: "client feedback"
 
   - title: "Design"
@@ -211,12 +211,12 @@ phases:
             alt: "icon-illustrator"
             title: "Adobe Illustrator"
             
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-canva.svg"
+            alt: "icon-canva"
             title: "Canva"
 
-          - icon: "../../../assets/img/"
-            alt: ""
+          - icon: "../../../assets/img/icon-coreldraw.svg"
+            alt: "icon-coreldraw"
             title: "CorelDRAW"
 
 blogRelatedCtegory:

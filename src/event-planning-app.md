@@ -33,8 +33,8 @@ devInformationList :
 - infoItem: Event planning apps have transformed how hosts organize gatherings, offering tools for scheduling, guest management, and task organization. At Cypherox Technologies, we design apps that combine elegance, efficiency, and ease of use. Our team ensures your app addresses common challenges such as disorganized workflows or limited customization. 
 - infoItem: In a competitive market, we focus on delivering unique value through intuitive design and advanced functionalities. By eliminating common pitfalls like poor navigation or lack of integrations, we create apps that simplify event planning and ensure flawless execution.
 - infoItem: Let us help you build an event planning app that delights users and streamlines operations, making every event memorable and stress-free.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/bg-Event-planning-app.png"
+devBgAlt : "bg-Event-planning-app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Event planning App Solutions"

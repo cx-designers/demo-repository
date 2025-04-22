@@ -20,8 +20,8 @@ devInformationList:
   - infoItem: Whether you’re looking to engage your target audience, create virtual storefronts, or build interactive 3D environments, our end-to-end Metaverse development services are tailored to meet your unique business needs. Our developers are highly proficient in programming languages like C# , Unreal Engine , and Unity , enabling them to create unique, high-quality Metaverse applications that stand out in this rapidly evolving space.
   - infoItem: At Cypherox Technologies , our team has a proven track record of delivering top-notch Metaverse solutions that align with specific business objectives. Partner with us to unlock the limitless potential of the Metaverse and position your brand at the forefront of innovation.
   - infoItem: Contact us today to hire our Metaverse experts and embark on a journey to redefine how users interact with your business in the virtual world!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Metaverse-Developers.png"
+devBgAlt: "bg-Hire-Metaverse-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Metaverse Developers For Your Evolving Project Development Needs"
@@ -141,17 +141,129 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-c-has.svg"
+            alt: "icon-c-has"
+            title: "C#"
+            
+          - icon: "../../../assets/img/icon-C++.svg"
+            alt: "icon-C++"
+            title: "C++"
+            
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+            
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-unity.svg"
+            alt: "icon-unity"
+            title: "Unity"
+            
+          - icon: "../../../assets/img/icon-unreal-engine.svg"
+            alt: "icon-unreal-engine"
+            title: "Unreal Engine"
+            
+          - icon: "../../../assets/img/icon-web3js.svg"
+            alt: "icon-web3js"
+            title: "Web3.js"
+            
+          - icon: "../../../assets/img/icon-blockchain-explorer.svg"
+            alt: "icon-blockchain-explorer"
+            title: "Blockchain"
+            
+          - icon: "../../../assets/img/icon-nfts.svg"
+            alt: "icon-nfts"
+            title: "NFTs"
+          
+  - title: "Database"
     blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-ipfs.svg"
+            alt: "icon-ipfs"
+            title: "IPFS"
 
+          - icon: "../../../assets/img/icon-firebase.svg"
+            alt: "icon-firebase"
+            title: "Firebase"
 
+          - icon: "../../../assets/img/icon-mongodb.svg"
+            alt: "icon-mongodb"
+            title: "MongoDB"
+
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-unity.svg"
+            alt: "icon-unity"
+            title: "Unity Test Runner"
+
+          - icon: "../../../assets/img/icon-unreal-engine.svg"
+            alt: "icon-unreal-engine"
+            title: "Unreal Engine Testing"
+
+          - icon: "../../../assets/img/icon-mocha.svg"
+            alt: "icon-mocha"
+            title: "Mocha"
+
+          - icon: "../../../assets/img/icon-chai.svg"
+            alt: "icon-chai"
+            title: "Chai"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-unity.svg"
+            alt: "icon-unity"
+            title: "Unity"
+
+          - icon: "../../../assets/img/icon-unreal-engine.svg"
+            alt: "icon-unreal-engine"
+            title: "Unreal Engine"
+
+          - icon: "../../../assets/img/icon-web3js.svg"
+            alt: "icon-web3js"
+            title: "Web3.js"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-blender.svg"
+            alt: "icon-blender"
+            title: "Blender"
+
+          - icon: "../../../assets/img/icon-maya.svg"
+            alt: "icon-maya"
+            title: "Maya"
+
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
 
 blogRelatedCtegory:
   - "Web Development"

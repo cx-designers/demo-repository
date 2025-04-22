@@ -27,8 +27,8 @@ devInformationList:
   - infoItem: By consulting and partnering with our blockchain experts, you can implement secure, scalable, and innovative blockchain applications that resonate with your audience. To turn your blockchain idea into reality, hire our dedicated blockchain programmers who focus on designing feature-rich applications with efficient delivery strategies and quick turnaround times.
   - infoItem: Our talented and skilled team specializes in creating blockchain solutions that drive business growth, enhance operational efficiency, and ensure long-term success. Partner with Cypherox Technologies today to unlock the full potential of blockchain technology and stay ahead in this rapidly evolving digital landscape. Let us help you build a secure, cutting-edge solution that sets your business apart.
   - infoItem: Contact us now to hire our blockchain developers and embark on a transformative journey toward innovation and success!
-devBgImg: "/assets/img/hireDeveloper.webp"
-devBgAlt: "bg-img"
+devBgImg: "/assets/img/bg-Hire-Blockchain-Developers.png"
+devBgAlt: "bg-Hire-Blockchain-Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Blockchain Developers For Your Evolving Project Development Needs"
@@ -151,19 +151,125 @@ featuresBoxList:
 ourProjectsSubTitle: Worked For
 ourProjectsTitle: Our Portfolio
 
-
-
-
+hasTechnologyStack: "no" 
+hasTechnologyIconsList: "yes" 
+awesomeFeaturesSubTitle: ""
 phases:
-  - title: "Lorem ipsum"
+  - title: "Programming"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-solidity.svg"
+            alt: "icon-solidity"
+            title: "Solidity"
+            
+          - icon: "../../../assets/img/icon-javascript.svg"
+            alt: "icon-javascript"
+            title: "JavaScript"
+            
+          - icon: "../../../assets/img/icon-typescript.svg"
+            alt: "icon-typescript"
+            title: "TypeScript"
+            
+          - icon: "../../../assets/img/icon-Python.svg"
+            alt: "icon-Python"
+            title: "Python"
+            
+          - icon: "../../../assets/img/icon-go.svg"
+            alt: "icon-go"
+            title: "Go"
+          
+  - title: "Technologies"
     blocks:
-  - title: "Lorem ipsum"
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-ethereum.svg"
+            alt: "icon-ethereum"
+            title: "Ethereum"
+            
+          - icon: "../../../assets/img/icon-hyperledger.svg"
+            alt: "icon-hyperledger"
+            title: "Hyperledger"
+            
+          - icon: "../../../assets/img/icon-truffle.svg"
+            alt: "icon-truffle"
+            title: "Truffle"
+            
+          - icon: "../../../assets/img/icon-Ganache.svg"
+            alt: "icon-Ganache"
+            title: "Ganache"
+            
+          - icon: "../../../assets/img/icon-web3js.svg"
+            alt: "icon-web3js"
+            title: "Web3.js"
+          
+  - title: "Database"
     blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-ipfs.svg"
+            alt: "icon-ipfs"
+            title: "IPFS"
 
+          - icon: "../../../assets/img/icon-LevelDB.svg"
+            alt: "icon-LevelDB"
+            title: "LevelDB"
 
+          - icon: "../../../assets/img/icon-CouchDB.svg"
+            alt: "icon-CouchDB"
+            title: "CouchDB"
 
+  - title: "Testing"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-truffle.svg"
+            alt: "icon-truffle"
+            title: "Truffle Testing"
+            
+          - icon: "../../../assets/img/icon-mocha.svg"
+            alt: "icon-mocha"
+            title: "Mocha"
+            
+          - icon: "../../../assets/img/icon-chai.svg"
+            alt: "icon-chai"
+            title: "Chai"
+            
+          - icon: "../../../assets/img/icon-Ganache.svg"
+            alt: "icon-Ganache"
+            title: "Ganache"
+          
+  - title: "Framework"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-truffle.svg"
+            alt: "icon-truffle"
+            title: "Truffle"
+
+          - icon: "../../../assets/img/icon-Hardhat.svg"
+            alt: "icon-Hardhat"
+            title: "Hardhat"
+
+          - icon: "../../../assets/img/icon-web3js.svg"
+            alt: "icon-web3js"
+            title: "Web3.js"
+          
+  - title: "Design"
+    blocks:
+      - heading: ""
+        items:
+          - icon: "../../../assets/img/icon-Figma.svg"
+            alt: "icon-Figma"
+            title: "Figma"
+
+          - icon: "../../../assets/img/icon-Adobe_XD.svg"
+            alt: "icon-Adobe_XD"
+            title: "Adobe XD"
+
+          - icon: "../../../assets/img/icon-zeplin.svg"
+            alt: "icon-zeplin"
+            title: "Zeplin"
 
 blogRelatedCtegory:
   - "Web Development"
