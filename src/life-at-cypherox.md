@@ -16,30 +16,56 @@ eventSubtitle: "Squad"
 eventTitle: "Event"
 eventTitlevideo: "Videos"
 videos:
-  - src: "../../../assets/img/event-1.webp"
-    alt: "Event 1"
+  - src: "../../../assets/video/event-video-1.mp4"
     available: true
-  - src: "../../../assets/img/event-2.webp"
-    alt: "Event 2"
+    redirectLink: "https://www.instagram.com/reel/DGdKqLAN2ys/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
+  - src: "../../../assets/video/event-video-2.mp4"
     available: false
-  - src: "../../../assets/img/event-3.webp"
-    alt: "Event 3"
+    videoPoster: "../../../assets/img/event-poster-2.png"
+    redirectLink: "https://www.instagram.com/reel/DHU9-qKqDyy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
+  - src: "../../../assets/video/event-video-3.mp4"
     available: true
-  - src: "../../../assets/img/event-4.webp"
-    alt: "Event 4"
+    redirectLink: "https://www.instagram.com/reel/DEFMvHJg_eW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
+  - src: "../../../assets/video/event-video-4.mp4"
     available: false
-  - src: "../../../assets/img/event-5.webp"
-    alt: "Event 4"
+    videoPoster: "../../../assets/img/event-poster-4.png"
+    redirectLink: "https://www.instagram.com/reel/DCD6rqvgYx1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
+  - src: "../../../assets/video/event-video-5.mp4"
     available: true  
-  - src: "../../../assets/img/event-6.webp"
-    alt: "Event 4"
+    redirectLink: "https://www.instagram.com/reel/DBwCc3Qq9V6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
+  - src: "../../../assets/video/event-video-6.mp4"
     available: false  
-  - src: "../../../assets/img/event-7.webp"
-    alt: "Event 4"
+    redirectLink: "https://www.instagram.com/reel/C_Sf7GpAxe-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
+  - src: "../../../assets/video/event-video-7.mp4"
     available: true  
-  - src: "../../../assets/img/event-8.webp"
-    alt: "Event 4"
+    videoPoster: "../../../assets/img/event-poster-7.png"
+    redirectLink: "https://www.instagram.com/reel/C96b4_CCDh9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
+  - src: "../../../assets/video/event-video-8.mp4"
+    available: false
+    redirectLink: "https://www.instagram.com/reel/C9b-gDCggYR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        
+  - src: "../../../assets/video/event-video-9.mp4"
+    available: true  
+    videoPoster: "../../../assets/img/event-poster-9.png"
+    redirectLink: "https://www.instagram.com/reel/C8hX9GLN9Ki/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
+  - src: "../../../assets/video/event-video-10.mp4"
     available: false  
+    videoPoster: "../../../assets/img/event-poster-10.png"
+    redirectLink: "https://www.instagram.com/reel/C7v4yu8tk3a/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
+  - src: "../../../assets/video/event-video-11.mp4"
+    available: true
+    videoPoster: "../../../assets/img/event-poster-11.png"
+    redirectLink: "https://www.instagram.com/reel/C5xhdrwgOnS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    
 
 purposeSecSubTitle: "A Visionary Approach to Work & Enjoyment"
 purpoesSecTitle: "Driven by Purpose"

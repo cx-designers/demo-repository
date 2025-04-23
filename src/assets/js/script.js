@@ -457,7 +457,7 @@ $(document).ready(function () {
   function testimonailSwiper() {
 
     if ($('.testimonial-con-mobile-sec').length) {
-      if ($(window).width() <= 767) {
+      if ($(window).width() <= 1024) {
         if (!testimonailSliderMobile) {
           testimonailSliderMobile = new Swiper(".testimonial-con-mobile-sec", {
             slidesPerView: 3,
@@ -807,7 +807,10 @@ if ($('.inner-service-wrapper').length > 0) {
       bannerTimeline.to(".content-inside-x h2", { fontSize: "4rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
     })
     .add("(max-width: 767px)", () => {
-      bannerTimeline.to(".content-inside-x h2", { fontSize: "3rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+      bannerTimeline.to(".content-inside-x h2", { fontSize: "2.5rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
+    })
+    .add("(max-width: 575px)", () => {
+      bannerTimeline.to(".content-inside-x h2", { fontSize: "2.5rem", opacity: 1, duration: 0.5, ease: "power1.inOut" }, 0.5);
     });
 
   // Continue animation
@@ -1809,36 +1812,95 @@ jQuery(document).ready(function ($) {
 });
 
 /* Event Sec JS Start */
+
 $(document).ready(function () {
-  new Swiper('.event-video-swiper', {
-    loop: true, // Enables infinite looping
-    slidesPerView: 6, // Number of visible slides
-    spaceBetween: 25, // Space between slides
+  function setupVideoHover(swiperInstance) {
+    const videos = document.querySelectorAll('.event-video-img video');
+
+    videos.forEach(video => {
+      video.onmouseover = null;
+      video.onmouseout = null;
+
+      video.addEventListener('mouseover', () => {
+        video.play();
+        swiperInstance.autoplay.stop();
+      });
+
+      video.addEventListener('mouseout', () => {
+        video.pause();
+        swiperInstance.autoplay.start();
+      });
+    });
+  }
+
+  function playActiveVideoOnSingleSlide(swiperInstance) {
+    const currentBreakpoint = swiperInstance.currentBreakpoint;
+    const slidesPerView = swiperInstance.params.breakpoints[currentBreakpoint]?.slidesPerView || swiperInstance.params.slidesPerView;
+
+    if (slidesPerView === 1) {
+      const allVideos = document.querySelectorAll('.event-video-img video');
+      allVideos.forEach(video => video.pause());
+
+      const activeSlide = swiperInstance.slides[swiperInstance.activeIndex];
+      const video = activeSlide.querySelector('video');
+      if (video && swiperIsVisible) {
+        video.play();
+      }
+    }
+  }
+
+  let swiperIsVisible = false;
+
+  const swiper = new Swiper('.event-video-swiper', {
+    loop: true,
+    slidesPerView: 6,
+    spaceBetween: 25,
     autoplay: {
-      delay: 0, // No delay for continuous movement
-      disableOnInteraction: false // Keeps autoplay running even after user interaction
+      delay: 0,
+      disableOnInteraction: false
     },
-    speed: 5000, // Adjusts the speed of the linear rotation
+    speed: 3000,
     breakpoints: {
-      1920: {
-        slidesPerView: 6,
-        spaceBetween: 25
+      1920: { slidesPerView: 6, spaceBetween: 25 },
+      1660: { slidesPerView: 5, spaceBetween: 25 },
+      1028: { slidesPerView: 2, spaceBetween: 25 },
+      480: { slidesPerView: 1, spaceBetween: 25, autoplay: false, speed: 1000, }
+    },
+    on: {
+      init: function () {
+        setupVideoHover(this);
+        playActiveVideoOnSingleSlide(this);
       },
-      1660: {
-        slidesPerView: 5,
-        spaceBetween: 25
-      },
-      1028: {
-        slidesPerView: 2,
-        spaceBetween: 25
-      },
-      480: {
-        slidesPerView: 1,
-        spaceBetween: 25
+      slideChangeTransitionEnd: function () {
+        setupVideoHover(this);
+        playActiveVideoOnSingleSlide(this);
       }
     }
   });
+
+  // 👁️ IntersectionObserver to check visibility
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      swiperIsVisible = entry.isIntersecting;
+
+      if (swiperIsVisible) {
+        playActiveVideoOnSingleSlide(swiper); // Trigger video play if visible and slidePerView == 1
+      } else {
+        // Pause all videos when swiper is not visible
+        const allVideos = document.querySelectorAll('.event-video-img video');
+        allVideos.forEach(video => video.pause());
+      }
+    });
+  }, {
+    threshold: 0.5 // Adjust as needed
+  });
+
+  const swiperElement = document.querySelector('.event-video-swiper');
+  if (swiperElement) {
+    observer.observe(swiperElement);
+  }
 });
+
 
 /* Event Sec JS End */
 
@@ -2640,23 +2702,23 @@ document.getElementById("footer-year").textContent = new Date().getFullYear();
 
 /* Disable Click JS Start */
 
-document.addEventListener("contextmenu", (event) => event.preventDefault());
+// document.addEventListener("contextmenu", (event) => event.preventDefault());
 
-document.addEventListener("keydown", (event) => {
-  if (
-    event.key === "F12" ||
-    (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
-    (event.ctrlKey && event.key === "U")
-  ) {
-    event.preventDefault();
-  }
-});
+// document.addEventListener("keydown", (event) => {
+//   if (
+//     event.key === "F12" ||
+//     (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
+//     (event.ctrlKey && event.key === "U")
+//   ) {
+//     event.preventDefault();
+//   }
+// });
 
-document.addEventListener("keyup", (event) => {
-  if (event.ctrlKey && event.key === "u") {
-    event.preventDefault();
-    alert("Viewing source code is disabled!");
-  }
-});
+// document.addEventListener("keyup", (event) => {
+//   if (event.ctrlKey && event.key === "u") {
+//     event.preventDefault();
+//     alert("Viewing source code is disabled!");
+//   }
+// });
 
 /* Disable Click JS End */

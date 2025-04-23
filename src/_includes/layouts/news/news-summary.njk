@@ -32,6 +32,7 @@
             <!-- Main Content -->
             <div class="col-md-8">
                 {% for section in sections %}
+                    <h2></h2>
                     <div id="{{ section.id }}" class="cust-summary-wrapper">
                         <div class="content">
                             {{ section.contentHTML | safe }}
