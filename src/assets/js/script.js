@@ -75,7 +75,9 @@ $(document).ready(function () {
     }
 
     // Toggle body class for full-screen menu
-    $("body").toggleClass("open-menu hidden-y");
+    $("body").toggleClass("open-menu");
+
+    $("html").toggleClass("hidden-y");
   });
 
   // Submenu Arrow Click - Add 'active' class and set styles inline
@@ -2700,25 +2702,65 @@ document.getElementById("footer-year").textContent = new Date().getFullYear();
 /* testimoanil thumbnail js  */
 
 
+/* Browser specific class JS Start */
+
+(function() {
+  const ua = navigator.userAgent.toLowerCase();
+  const body = document.body;
+
+  // OS Detection
+  if (ua.indexOf('windows') !== -1) {
+    body.classList.add('os-windows');
+  } else if (ua.indexOf('mac') !== -1) {
+    body.classList.add('os-mac');
+  } else if (ua.indexOf('linux') !== -1) {
+    body.classList.add('os-linux');
+  } else if (/android/.test(ua)) {
+    body.classList.add('os-android');
+  } else if (/iphone|ipad|ipod/.test(ua)) {
+    body.classList.add('os-ios');
+  }
+
+  // Browser Detection
+  if (ua.indexOf('chrome') > -1 && ua.indexOf('edge') === -1 && ua.indexOf('opr') === -1) {
+    body.classList.add('browser-chrome');
+  } else if (ua.indexOf('firefox') > -1) {
+    body.classList.add('browser-firefox');
+  } else if (ua.indexOf('safari') > -1 && ua.indexOf('chrome') === -1) {
+    body.classList.add('browser-safari');
+  } else if (ua.indexOf('opr') > -1 || ua.indexOf('opera') > -1) {
+    body.classList.add('browser-opera');
+  } else if (ua.indexOf('edge') > -1) {
+    body.classList.add('browser-edge');
+  } else if (ua.indexOf('trident') > -1 || ua.indexOf('msie') > -1) {
+    body.classList.add('browser-ie');
+  }
+
+})();
+
+/* Browser specific class JS End */
+
+
+
 /* Disable Click JS Start */
 
-// document.addEventListener("contextmenu", (event) => event.preventDefault());
+document.addEventListener("contextmenu", (event) => event.preventDefault());
 
-// document.addEventListener("keydown", (event) => {
-//   if (
-//     event.key === "F12" ||
-//     (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
-//     (event.ctrlKey && event.key === "U")
-//   ) {
-//     event.preventDefault();
-//   }
-// });
+document.addEventListener("keydown", (event) => {
+  if (
+    event.key === "F12" ||
+    (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
+    (event.ctrlKey && event.key === "U")
+  ) {
+    event.preventDefault();
+  }
+});
 
-// document.addEventListener("keyup", (event) => {
-//   if (event.ctrlKey && event.key === "u") {
-//     event.preventDefault();
-//     alert("Viewing source code is disabled!");
-//   }
-// });
+document.addEventListener("keyup", (event) => {
+  if (event.ctrlKey && event.key === "u") {
+    event.preventDefault();
+    alert("Viewing source code is disabled!");
+  }
+});
 
 /* Disable Click JS End */

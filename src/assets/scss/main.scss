@@ -315,7 +315,7 @@ h1 {
 
   @include mobileLarge {
     max-width: none;
-    padding: 0px 30px;
+    padding: 0px 20px;
   }
 }
 
@@ -611,6 +611,10 @@ h1 {
   text-align: center;
   z-index: 99;
   position: relative;
+
+  @include ipadLarge {
+    padding: 0;
+  }
 
   h3,
   h2,
@@ -1081,14 +1085,16 @@ header {
             &::-webkit-scrollbar-thumb {
               background: $secondaryColor;
               border-radius: 10px;
-            }  
+            }
 
             &>div {
-              padding: 0;position: relative;
+              padding: 0;
+              position: relative;
             }
 
             ul.v3-inner-menu {
               padding: 0;
+
               &::before {
                 content: '';
                 width: 1px;
@@ -1098,7 +1104,7 @@ header {
                 top: 40px;
                 bottom: 0;
                 left: 0;
-            }
+              }
 
               &>li.v3-inner-menu-item {
                 margin: 0px 0px;
@@ -1173,6 +1179,7 @@ header {
               }
             }
           }
+
           &.sub-menu-small {
             width: 200px;
             left: 50%;
@@ -1180,13 +1187,16 @@ header {
             transform: translateX(-50%);
             padding: 20px;
             top: 70px;
+
             li.v3-inner-menu-item {
               padding: 0 !important;
             }
-            .cust-row.row.no-border{
+
+            .cust-row.row.no-border {
               margin: 0px;
-                height: auto !important;
-              ul.v3-inner-menu{
+              height: auto !important;
+
+              ul.v3-inner-menu {
                 &::before {
                   display: none;
                 }
@@ -1758,11 +1768,11 @@ header {
   @include mobileLarge {
     min-height: auto;
     height: auto;
-    padding: 100px 0px 80px 0px;
+    padding: 140px 0px 80px 0px;
   }
 
   @include mobileSmall {
-    padding: 100px 0px 70px 0px;
+    padding: 140px 0px 80px 0px;
   }
 
   p {
@@ -3331,6 +3341,14 @@ div#lottie-animation {
     width: 100%;
     padding: 0 15px;
 
+    @include desktopSmallMin {
+      max-width: 1320px;
+    }
+
+    @include desktopLarge {
+      max-width: 1440px;
+    }
+
     .row {
       margin-left: -15px;
       margin-right: -15px;
@@ -3444,6 +3462,7 @@ div#lottie-animation {
                   max-width: calc(100% - 70px);
                   display: flex;
                   align-items: center;
+
                   &::before {
                     content: '';
                     width: 30px;
@@ -3452,6 +3471,7 @@ div#lottie-animation {
                     display: inline-block;
                     margin-right: 5px;
                   }
+
                   h3 {
 
                     font-size: 24px;
@@ -3487,8 +3507,9 @@ div#lottie-animation {
       @include mdScreenSmall {
         display: block;
       }
-      .testimonial-item-block{
-        height:auto;
+
+      .testimonial-item-block {
+        height: auto;
       }
 
       &::before {
@@ -3528,6 +3549,10 @@ div#lottie-animation {
         border: 1px solid $borderGray;
         border-radius: 15px;
         height: 100%;
+
+        @include mobileLarge {
+          margin: 0;
+        }
 
         .testimonial-item-icon-sec {
           svg {
@@ -3663,9 +3688,11 @@ div#lottie-animation {
     position: relative;
     max-width: 90%;
     width: 800px;
+
     @include mobileLarge {
       max-width: 80%;
     }
+
     video {
       width: 100%;
     }
@@ -3687,7 +3714,8 @@ div#lottie-animation {
     line-height: 40px;
     z-index: 9;
     transition: 0.3s ease;
-    &:hover{
+
+    &:hover {
       border-color: $secondaryColor;
       color: $secondaryColor;
       transition: 0.3s ease;
@@ -3785,6 +3813,11 @@ div#lottie-animation {
   .swiper.team-intro-slider {
     overflow: hidden;
     position: relative;
+    padding: 0 2px;
+
+    @include mobileLarge {
+      padding: 0;
+    }
 
     .swiper-pagination {
       display: none;
@@ -4000,25 +4033,22 @@ div#lottie-animation {
 
       h4 {
         font-size: 80px;
-        line-height: 90px;
+        line-height: 1.2;
         color: $primaryColor;
         font-weight: 400;
         max-width: 600px;
         margin: 0;
 
-        @include mdScreen {
+        @include desktopSmall {
           font-size: 60px;
-          line-height: 70px;
         }
 
         @include ipadLarge {
           font-size: 50px;
-          line-height: 60px;
         }
 
         @include mobileSmall {
           font-size: 40px;
-          line-height: 50px;
         }
       }
     }
@@ -4238,6 +4268,7 @@ div#lottie-animation {
 
         a.industries-item-link {
           position: relative;
+          display: block;
 
           &::after {
             position: absolute;
@@ -4463,6 +4494,10 @@ div#lottie-animation {
         position: relative;
         overflow: hidden;
         min-width: 20%;
+
+        @include desktopSmall {
+          margin: 0 20px;
+        }
 
         .industries-item {
           position: relative;
@@ -5560,7 +5595,7 @@ svg:not(:root) {
           }
 
           @include mobileLarge {
-            margin-top: 40px;
+            // margin-top: 40px;
           }
         }
 
@@ -5907,6 +5942,10 @@ svg:not(:root) {
         margin-left: auto;
         margin-right: auto;
 
+        @include ipadLarge {
+          text-align: left;
+        }
+
         @include mobileLarge {
           margin: 20px 0 0 0;
         }
@@ -6019,7 +6058,6 @@ svg:not(:root) {
 
               &:before {
                 content: "";
-                content: "";
                 background-color: $videoBg;
                 width: 110px;
                 height: 110px;
@@ -6030,6 +6068,12 @@ svg:not(:root) {
                 top: 1px;
                 bottom: 0;
                 margin: auto auto;
+
+                @include mobileLarge {
+                  width: 80px;
+                  height: 80px;
+                  left: -55px;
+                }
               }
 
               .video-img {
@@ -6046,6 +6090,13 @@ svg:not(:root) {
                 bottom: 0;
                 margin: auto 0;
                 border: 10px solid $white;
+
+                @include mobileLarge {
+                  width: 70px;
+                  height: 70px;
+                  right: -20px;
+                  border: 5px solid $white;
+                }
 
                 .pouse-videos {
                   position: absolute;
@@ -6203,6 +6254,10 @@ svg:not(:root) {
     padding: 60px 0;
   }
 
+  .heading-main-sec {
+    padding-right: 0;
+  }
+
   .row {
     border: 1px solid $borderGray;
     border-radius: 40px;
@@ -6246,6 +6301,10 @@ svg:not(:root) {
           left: 0;
           bottom: -25%;
           object-position: top;
+        }
+
+        @include mobileLarge {
+          bottom: -20%;
         }
       }
     }
@@ -8781,6 +8840,7 @@ svg:not(:root) {
       }
 
       @include mobileLarge {
+        width: 100%;
         font-size: 40px !important;
         line-height: 1.1;
       }
@@ -10948,6 +11008,7 @@ h3+ul,
   .heading-main-sec {
     p {
       margin: 0;
+      text-align: left;
     }
 
     a {
@@ -11724,6 +11785,11 @@ section.sevice-bg-sec {
       z-index: 10;
       max-height: max-content;
 
+      @include mobileLarge {
+        position: relative;
+        top: 0;
+      }
+
       h3 {
         font-size: 25px;
         line-height: 30px;
@@ -12364,6 +12430,10 @@ section.sevice-bg-sec {
       border-radius: 25px;
       position: relative;
       background: linear-gradient(0deg, $primaryColor, $faqBg);
+
+      @include desktopSmall {
+        padding: 30px;
+      }
 
       @include mdScreen {
         padding: 30px;
@@ -15066,4 +15136,9 @@ body.overflow-hide {
   .different-categories {
     padding-bottom: 0;
   }
+}
+
+html.hidden-y {
+  overflow-y: hidden;
+  padding-right: 8px;
 }
