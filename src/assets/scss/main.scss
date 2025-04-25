@@ -266,7 +266,7 @@ h1 {
     }
 
     &.from-right {
-      text-align: right;
+      text-align: center;
 
       @include mobileLarge {
         text-align: center;
@@ -1812,6 +1812,7 @@ header {
 
     span {
       display: block;
+      text-align: center;
     }
 
     .flying {
