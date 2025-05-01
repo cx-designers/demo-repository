@@ -13,6 +13,14 @@ summaryIntroDesc : "Here's a list of the best WordPress Web Development Tools of
 
 summaryInnerTitle: "summary"
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services/
+  - title: UX UI Design Services
+    url: /
+
 sections:
   - id: "Lorem-Ipsum-Dolar"
     title: "Lorem Ipsum Dolar"

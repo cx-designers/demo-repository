@@ -2744,23 +2744,23 @@ document.getElementById("footer-year").textContent = new Date().getFullYear();
 
 /* Disable Click JS Start */
 
-document.addEventListener("contextmenu", (event) => event.preventDefault());
+// document.addEventListener("contextmenu", (event) => event.preventDefault());
 
-document.addEventListener("keydown", (event) => {
-  if (
-    event.key === "F12" ||
-    (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
-    (event.ctrlKey && event.key === "U")
-  ) {
-    event.preventDefault();
-  }
-});
+// document.addEventListener("keydown", (event) => {
+//   if (
+//     event.key === "F12" ||
+//     (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
+//     (event.ctrlKey && event.key === "U")
+//   ) {
+//     event.preventDefault();
+//   }
+// });
 
-document.addEventListener("keyup", (event) => {
-  if (event.ctrlKey && event.key === "u") {
-    event.preventDefault();
-    alert("Viewing source code is disabled!");
-  }
-});
+// document.addEventListener("keyup", (event) => {
+//   if (event.ctrlKey && event.key === "u") {
+//     event.preventDefault();
+//     alert("Viewing source code is disabled!");
+//   }
+// });
 
 /* Disable Click JS End */

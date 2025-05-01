@@ -11,6 +11,14 @@ IndustriesTitle: "SEO"
 summaryIntroTitle : "(Intro)"
 summaryIntroDesc : "Here's a list of the best WordPress Web Development Tools of 2022! Check this out if making your work easier is on your New Year's projects from start to finish."
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services/
+  - title: UX UI Design Services
+    url: /
+
 summaryInnerTitle: "summary"
 
 sections:

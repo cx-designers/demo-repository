@@ -9,6 +9,14 @@ imagePath: "/assets/img/banner-healthcare.png"
 projectdetailbannerTitle: " Industries banner"
 IndustriesSubTitle: "Healthcare Industry"
 IndustriesTitle: "Innovative Healthcare Software Development for Medical Solutions"
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services/
+  - title: UX UI Design Services
+    url: /
+
 
 summaryIntroTitle : "Health & Wellness Industry"
 summaryIntroDesc : "Providing innovative and secure healthcare software solutions, we help hospitals, clinics, and medical organizations enhance patient care, optimize workflows, and ensure regulatory compliance. At Cypherox, we leverage advanced technology to streamline healthcare operations and improve efficiency."

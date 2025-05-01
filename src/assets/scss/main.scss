@@ -5638,6 +5638,56 @@ svg:not(:root) {
         }
       }
     }
+    .cust-row-breadcurmb.row {
+      height: auto;
+      position: absolute;
+      top: 140px;
+      max-width: 1440px;
+      .col-md-12{
+        padding: 0;
+      }
+      ol.breadcrumb{
+        display:flex;
+        padding: 0;
+        margin: 0;
+        li.breadcrumb-item {
+          color: $white;
+          a{
+            text-decoration: none;
+            color: $secondaryColor;
+            text-shadow: 4px -1px 15px rgba(242,110,101,.74);
+          }
+          &::after {
+          content: '/';
+          margin:0px 10px;
+          color: $borderGray;
+          }
+          &.active {
+            color: $white;
+            text-shadow: 4px -1px 15px rgba(255,255,255,.74);
+            margin-right: 0;
+            &::after {
+              display:none;
+            }
+          }
+        }
+
+      }
+      &.for-mobile{
+        display: none;
+      }
+      @include mobileLarge{
+        display: none;
+        &.for-mobile{
+          display: flex;
+          position:unset;
+          margin-bottom: 40px;
+          .col-md-12{
+            padding: 0;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -13482,6 +13532,44 @@ body {
         .project-content-top {
           display: flex;
           justify-content: space-between;
+          .back-button {
+            order: 3;
+            @include mobileLarge {
+                order: -1;
+                margin-bottom: 40px;
+            }
+          }
+          ol.breadcrumb{
+            display:flex;
+            padding: 0;
+            margin: 0;
+            flex-wrap: wrap;
+            @include mobileLarge {
+              margin-bottom: 40px;
+            }
+            li.breadcrumb-item {
+              color: $white;
+              a{
+                text-decoration: none;
+                color: $secondaryColor;
+                text-shadow: 4px -1px 15px rgba(242,110,101,.74);
+              }
+              &::after {
+              content: '/';
+              margin:0px 10px;
+              color: $borderGray;
+              }
+              &.active {
+                color: $white;
+                text-shadow: 4px -1px 15px rgba(255,255,255,.74);
+                margin-right: 0;
+                &::after {
+                  display:none;
+                }
+              }
+            }
+    
+          }
 
           @include mobileLarge {
             flex-direction: column;
@@ -13498,7 +13586,7 @@ body {
               width: 60px;
               border-radius: 50%;
               background-color: $secondaryColor;
-              margin-right: 15px;
+              // margin-right: 15px;
 
               @include mobileLarge {
                 width: 50px;
@@ -13517,10 +13605,14 @@ body {
           }
 
           .project-content-bar {
+            margin-left: auto;
+            @include mobileLarge {
+              margin-left: 0px;
+            }
             .project-year {
 
               @include mobileLarge {
-                padding-top: 40px;
+                padding-top: 0px;
               }
 
               .heading-main-sec {
@@ -15142,4 +15234,15 @@ body.overflow-hide {
 html.hidden-y {
   overflow-y: hidden;
   padding-right: 8px;
+}
+
+section.cust-section-services {
+    background: $white;
+    .service-list-item-wrapper {
+      padding: 150px 0px;
+      background:$white;
+      &:nth-child(even) {
+       background:$primary-color; 
+      }
+  }
 }

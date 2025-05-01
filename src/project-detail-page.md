@@ -15,6 +15,13 @@ imagePath: "/assets/img/project-detail-banner.webp"
 
 summaryIntroTitle : "(Intro)"
 summaryIntroDesc : "SkyRise is a revolutionary app designed to redefine urban living. It's your ultimate companion, offering seamless access to building amenities, community updates, and exclusive events. From booking facilities to connecting with neighbors, SkyRise brings convenience and community together in the palm of your hand. Experience city living at its finest with SkyRise."
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services/
+  - title: UX UI Design Services
+    url: /
 
 summaryInnerTitle: "summary"
 

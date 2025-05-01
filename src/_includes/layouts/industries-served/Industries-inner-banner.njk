@@ -5,6 +5,21 @@
         <div class="container">
             <div class="project-content-box">
                 <div class="project-content-top">
+                    {% if breadcrumbOverride %}
+                    <div class="breadcurmb">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              {% for item in breadcrumbOverride %}
+                                {% if loop.last %}
+                                  <li class="breadcrumb-item active" aria-current="page">{{ item.title }}</li>
+                                {% else %}
+                                  <li class="breadcrumb-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+                                {% endif %}
+                              {% endfor %}
+                            </ol>
+                          </nav>
+                    </div>
+                    {% endif %}
                     <div class="back-button">
                         <a href="/industries-served.html">
                           <span>
@@ -13,7 +28,6 @@
                                 <path d="M9.46153 0.999913L1.00004 8.99989L9.46164 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                           </span>
-                          <strong>Back</strong>
                         </a>
                     </div>
                 </div>
