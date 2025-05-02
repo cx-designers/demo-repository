@@ -15241,8 +15241,8 @@ section.cust-section-services {
     .service-list-item-wrapper {
       padding: 150px 0px;
       background:$white;
-      &:nth-child(even) {
-       background:$primary-color; 
+      &:nth-child(2n) {
+       background:$primaryColor; 
       }
   }
 }
