@@ -15237,12 +15237,119 @@ html.hidden-y {
 }
 
 section.cust-section-services {
+  background: $white;
+
+  .service-list-item-wrapper {
+    padding: 150px 0px;
     background: $white;
-    .service-list-item-wrapper {
-      padding: 150px 0px;
-      background:$white;
-      &:nth-child(2n) {
-       background:$primaryColor; 
+
+    @include desktopSmall {
+      padding: 100px 0px;
+    }
+
+    @include mdScreenLarge {
+      padding: 70px 0px;
+    }
+
+    @include mobileLarge {  
+      padding: 60px 0px;
+    }
+
+    .left-content-col {
+      h2{
+        color:$primaryColor;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 400;
+        margin: 0 0 40px 0;
+        @include desktopSmall {
+          font-size: 50px;
+          line-height: 60px;
+        }
+        @include mdScreenLarge {
+        font-size: 40px;
+        line-height:50px;
+        }
+        @include mobileLarge {
+          font-size: 30px;
+        line-height:40px;
+        margin-bottom: 20px;
+        }
       }
+      .primary-btn{
+        margin-top:40px;
+        @include mobileLarge {
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .circle-listing-sec {
+      ul.cust-service-list {
+        gap:20px 0;
+        list-style: none;
+        padding:0;
+        margin:10px 0 0 0;
+        &:not(.flex-wrap){
+          li {
+          width:100%
+          }
+        }
+        li {
+          width: 50%;
+          display: flex;
+          align-items: start;
+          gap: 10px;
+
+          @include mobileLarge {
+            width:100%
+          }
+
+          &::before {
+            content: '';
+            width: 18px;
+            height: 18px;
+            border-radius: 12px;
+            display: inline-block;
+            border: 4px solid;
+            border-color: rgba(242, 110, 101, 0.3);
+            background-color: $secondaryColor;
+            background-clip: padding-box;
+          }
+
+          a.service-link {
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 20px;
+            color: $secondaryColor;
+            ;
+          }
+        }
+      }
+    }
+
+    &:nth-child(2n) {
+      background: $primaryColor;
+      color: $white;
+      .left-content-col {
+        h2{
+          color:$secondaryColor;
+        }
+      }
+      .circle-listing-sec {
+        ul.cust-service-list {
+          li {
+            a.service-link {
+              text-decoration: none;
+              font-size: 18px;
+              line-height: 20px;
+              color: $white;
+              ;
+            }
+          }
+        }
+      }
+    }
   }
 }
