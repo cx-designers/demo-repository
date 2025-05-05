@@ -179,7 +179,7 @@ phases:
 hireCtaTitle: "Bring Learning to Life with Virtual Education and Training"
 hireCtaSubTitle: "Hire Experts"
 hireCtaDesc: "Our team specializes in designing and implementing virtual education solutions that enhance engagement, improve retention, and make learning more accessible. Let’s build the future of education together!"
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

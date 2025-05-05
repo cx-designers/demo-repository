@@ -206,7 +206,7 @@ phases:
 hireCtaTitle: "Revolutionize Virtual Interactions with Lifelike Avatars"
 hireCtaSubTitle: "Hire Dedicated Experts"
 hireCtaDesc: "Our team at Cypherox specializes in crafting realistic digital identities that enhance virtual engagement across multiple platforms. Unlock the full potential of digital presence today!"
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

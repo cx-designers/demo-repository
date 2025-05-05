@@ -220,7 +220,7 @@ phases:
 hireCtaTitle: "Enhance Customer Support & Knowledge Retrieval with AI"
 hireCtaSubTitle: "Hire AI Developers"
 hireCtaDesc: "Our AI experts build advanced Q&A systems that automate responses, improve knowledge access, and enhance customer interaction. Whether you need a chatbot, virtual assistant, or AI-driven knowledge base, we provide custom solutions to fit your business needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

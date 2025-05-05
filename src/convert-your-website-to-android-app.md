@@ -291,7 +291,7 @@ phases:
 hireCtaTitle: "Your Trusted Android Development Partner"
 hireCtaSubTitle: "Hire Experts"
 hireCtaDesc: "At Cypherox, we specialize in effortless website-to-Android app conversion, ensuring a smooth transition, enhanced mobile experience, and optimized functionality. Whether it’s an eCommerce store, business website, or content platform, our experienced developers will help you build an engaging Android app."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team" 
 
 

@@ -213,7 +213,7 @@ phases:
 hireCtaTitle: "Build Secure & Scalable Financial Applications"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire experienced finance software developers to create custom fintech solutions that enhance security, compliance, and user experience. We specialize in digital banking, trading platforms, AI-driven financial analytics, and blockchain solutions to revolutionize the finance industry."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

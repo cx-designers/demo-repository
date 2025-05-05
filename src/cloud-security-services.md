@@ -3,13 +3,23 @@ layout: layouts/mobile-app-development.njk
 title: Cloud Security Services | Protect, Monitor & Defend
 metaDescription: Safeguard your cloud with advanced cloud security services. Prevent threats, ensure compliance & get 24/7 monitoring for a secure digital environment.
 bodyClass: "cloud-security"
-permalink: cloud-security.html
+permalink: cloud-security-services.html
 bannersubTitle: "Cloud and DevOps Services"
 bannerTitle: "Cloud Security Services To Protect Your Digital Future"
 bannerdesc: "In today’s evolving digital landscape, ensuring robust cloud security is critical for protecting sensitive data, maintaining compliance, and preventing cyber threats. Our Cloud Security Services offer advanced threat detection, data encryption, identity management, and compliance solutions to safeguard your cloud infrastructure. We help businesses mitigate risks, enhance security protocols, and maintain operational continuity with proactive security monitoring and incident response strategies."
 bannerHTML: '<svg width="399" height="248" viewBox="0 0 399 248" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M398.543 218.839C398.543 218.839 272.529 226.734 233.153 200.178H302.363C302.363 200.178 327.732 199.628 343.001 177.666C355.187 160.133 355.251 136.558 342.507 119.428C335.801 110.414 324.997 102.29 307.614 100.061C307.614 100.061 311.896 31.8464 252.905 7.49114C232.806 -0.807621 210.391 -1.68793 189.523 4.41922C166.743 11.0857 137.266 27.1331 122.894 65.7384C122.894 65.7384 41.7453 63.345 58.9356 136.071C58.9356 136.071 16.4584 129.854 15.4978 168.129C15.4978 168.129 13.11 199.225 66.0898 200.187H155.472V157.126H222.056L171.519 159.281C171.519 159.281 163.944 117.658 196.641 115.265C196.641 115.265 226.713 117.42 222.413 159.281H235.779V221.242L194.729 212.393V196.84C194.729 197.18 191.82 196.354 191.582 196.29C188.133 195.282 185.992 192.558 185.379 189.037C183.824 180.06 195.104 169.303 202.789 177.409C206.494 181.316 207.885 188.918 203.804 193.072C201.398 195.52 198.041 196.419 194.738 196.84V212.393L235.843 221.838V228.651H155.472V201.26C155.472 201.26 19.0749 203.058 0.466553 247.55" stroke="#F26E65" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: Cloud And DevOps Services
+    url: /cloud-and-devops-services.html
+  - title: Cloud Security Services
+    url: javscript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -215,7 +225,7 @@ phases:
 hireCtaTitle: "Hire Certified Cloud Security Experts"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Protect your business with our expert cloud security professionals who specialize in designing, implementing, and maintaining secure cloud architectures. Whether you need compliance support, proactive threat monitoring, or advanced security solutions, our team ensures your cloud infrastructure remains secure and resilient."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

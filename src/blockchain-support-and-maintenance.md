@@ -219,7 +219,7 @@ phases:
 hireCtaTitle: "Keep Your Blockchain Running Smoothly with Expert Support"
 hireCtaSubTitle: "Hire Blockchain Expert"
 hireCtaDesc: "Hire blockchain maintenance specialists to ensure continuous monitoring, security updates, and performance optimization for your blockchain applications. Our experts provide proactive solutions to minimize risks and maximize efficiency."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

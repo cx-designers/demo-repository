@@ -287,7 +287,7 @@ phases:
 hireCtaTitle: "Expert Developers for Smooth Blockchain Integration"
 hireCtaSubTitle: "Hire Blockchain Developer"
 hireCtaDesc: "Hire blockchain integration experts to seamlessly connect blockchain technology with your existing systems. Our team ensures secure, scalable, and efficient integration to optimize business performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqTitle:  Everything You Need to Know About Blockchain Integration

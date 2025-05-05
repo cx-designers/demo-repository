@@ -243,7 +243,7 @@ phases:
 hireCtaTitle: "Build your Bank and Finance Projects with Expert Developers"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Partner with our team of skilled developers to create innovative, secure, and scalable software solutions tailored to your business needs. From digital banking platforms to blockchain solutions, we ensure seamless integration and exceptional performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

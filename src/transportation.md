@@ -212,7 +212,7 @@ phases:
 hireCtaTitle: "Empower Your Mobility Solutions with Experts"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire experienced transportation software developers to build custom fleet management, logistics, and smart mobility solutions. Our experts specialize in real-time tracking, AI-driven traffic management, and automated transport systems to enhance your business operations."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

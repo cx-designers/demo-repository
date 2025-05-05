@@ -217,7 +217,7 @@ phases:
 hireCtaTitle: "Enhance Research Efficiency with AI-Powered Intelligence"
 hireCtaSubTitle: "Hire AI Experts"
 hireCtaDesc: "Our AI specialists design virtual research assistants that automate data retrieval, analysis, and reporting for faster and smarter decision-making. Whether you need business insights, legal research, or academic support, we deliver custom AI-driven solutions to meet your needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

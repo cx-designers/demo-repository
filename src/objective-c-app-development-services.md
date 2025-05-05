@@ -87,7 +87,7 @@ servicesList:
 hireCtaTitle: "Hire Objective-C Developer"
 hireCtaSubTitle: "Hire Developer"
 hireCtaDesc: "Need a reliable team to build robust applications using Objective-C ? Our experienced developers excel in Objective-C App Development Services , crafting high-performance, scalable, and secure apps tailored to your business needs. Whether you’re maintaining legacy iOS applications or building new projects, we ensure seamless functionality, clean code architecture, and optimal user experiences. "
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 featuresSecSubTitle: Why Cypherox

@@ -238,7 +238,7 @@ phases:
 hireCtaTitle: "Transform Your Health and Fitness Software with Expert Developers"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Partner with our team of skilled developers to create innovative, scalable, and engaging software solutions tailored to your business needs. From fitness apps to wellness platforms, we ensure seamless integration and exceptional performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

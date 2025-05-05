@@ -239,7 +239,7 @@ phases:
 hireCtaTitle: "Transform Your Entertainment Projects  with Expert Developers"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Partner with our team of skilled entertainment developers to create innovative, scalable, and engaging software solutions tailored to your needs. From streaming platforms to gaming tools, we ensure seamless integration and exceptional performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

@@ -232,7 +232,7 @@ phases:
 hireCtaTitle: "Keep Your Data Safe from Cyber Threats"
 hireCtaSubTitle: "Hire Data Experts"
 hireCtaDesc: "Our dedicated security professionals help businesses develop, implement, and maintain strong data protection strategies. Whether you need encryption, compliance audits, or real-time threat detection, we ensure your data remains secure and compliant with industry regulations."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

@@ -3,7 +3,7 @@ layout: layouts/mobile-app-development.njk
 title: AI Chatbot & Virtual Assistant Development Services
 metaDescription: Enhance customer interactions with AI-powered chatbots & virtual assistants. Automate support, boost engagement & provide instant responses anytime.
 bodyClass: "ai-powered-chatbots-and-virtual-assistants"
-permalink: ai-powered-chatbots-and-virtual-assistants.html
+permalink: ai-powered-chatbots-and-virtual-assistants-services.html
 bannersubTitle: "AI & ML Services"
 bannerTitle: "AI-Powered Chatbots and Virtual Assistants Solutions"
 bannerdesc: "AI-powered chatbots and virtual assistants are changing the way businesses communicate, automate tasks, and enhance customer experience. At Cypherox, we develop intelligent conversational AI solutions that drive efficiency and engagement."
@@ -18,6 +18,16 @@ bannerHTML: '<svg width="633" height="618" viewBox="0 0 633 618" fill="none" xml
 </defs>
 </svg>
 '
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: Artificial Intelligence And Machine Learning Services 
+    url : /artificial-intelligence-and-machine-learning-services.html
+  - title: AI-Powered Chatbots And Virtual Assistants Services
+    url : javascript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -318,7 +328,7 @@ phases:
 hireCtaTitle: "Build Intelligent Chatbots with Our AI Experts"
 hireCtaSubTitle: "Hire AI Developers"
 hireCtaDesc: "Looking to integrate an AI-powered chatbot or virtual assistant into your business? Hire our experienced developers to build custom, scalable, and efficient conversational AI solutions that improve customer interactions, automate workflows, and enhance user experiences."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Hier Our Expert Team"
 
 faqSubtitle : "FAQs"

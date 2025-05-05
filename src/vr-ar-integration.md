@@ -218,7 +218,7 @@ phases:
 hireCtaTitle: "Connect AR & VR with Your Business Like Never Before"
 hireCtaSubTitle: "Hire AR/VR Experts"
 hireCtaDesc: "Hire our AR/VR integration specialists to bridge the gap between immersive technologies and real-world applications. Our team ensures seamless implementation, enhanced performance, and future-ready solutions tailored to your needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

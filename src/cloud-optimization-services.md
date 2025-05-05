@@ -3,7 +3,7 @@ layout: layouts/mobile-app-development.njk
 title: Cloud Optimization Services | Boost Performance & Savings
 metaDescription: Improve speed, security & cost-efficiency with cloud optimization services. Fine-tune your infrastructure for maximum performance and reduced expenses.
 bodyClass: "cloud-optimization"
-permalink: cloud-optimization.html
+permalink: cloud-optimization-services.html
 bannersubTitle: "Cloud and DevOps Services"
 bannerTitle: "Cloud Optimization Services To Maximize Performance"
 bannerdesc: "Migrating to the cloud is just the beginning—optimizing performance, cost, and security is what ensures long-term success. Our Cloud Optimization Services help businesses fine-tune their cloud infrastructure, improve efficiency, and reduce operational costs. We analyze your cloud environment, identify inefficiencies, and implement tailored strategies for enhanced performance, scalability, and cost-effectiveness."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="451" height="252" viewBox="0 0 451 252" fill="none" xml
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: Cloud And DevOps Services
+    url: /cloud-and-devops-services.html
+  - title: Cloud Optimization Services
+    url: javscript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -189,7 +199,7 @@ phases:
 hireCtaTitle: "Work with Our Expert Cloud Optimization Professionals"
 hireCtaSubTitle: "Hire Cloud Optimization Experts"
 hireCtaDesc: "Unlock the full potential of your cloud infrastructure with our optimization specialists. We ensure maximum performance, security, and cost savings by fine-tuning your cloud environment. Hire now to enhance your cloud efficiency today!"
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Hire An Expert Now"
 
 faqSubtitle : "FAQs"

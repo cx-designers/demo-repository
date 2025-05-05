@@ -303,7 +303,7 @@ phases:
 hireCtaTitle: "Build a Strong IT Foundation with Our Expertise"
 hireCtaSubTitle: "Hire Expert Consultants"
 hireCtaDesc: "Cypherox offers custom IT consulting services tailored to help startups grow, scale, and optimize their technology. Whether you're launching a product or refining your infrastructure, our team provides the expertise and strategic insights needed to succeed."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"          
 
 blogRelatedCtegory:

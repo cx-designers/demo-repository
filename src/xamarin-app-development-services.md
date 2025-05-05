@@ -8,7 +8,7 @@ bannersubTitle: "Service"
 bannerTitle: "Xamarin App Development Services"
 bannerdesc: "Develop native-like apps for iOS, Android, and Windows using Xamarin. Our C# expertise ensures consistency, scalability, and platform-specific APIs. With shared codebases and robust testing tools, we deliver apps that are both efficient and reliable."
 bannerbuttontext: Talk To Us
-buttonLink: "/contact-us.html"
+buttonLink: "/get-in-touch.html"
 bannerHTML: '<svg width="1315" height="542" viewBox="0 0 1315 542" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_454_50)">
 <path d="M952.91 207.01L1006.75 290.415L964.661 379.564L876.94 386.127L847.973 388.041L850.432 443.554L1208.7 416.755C1226.73 411.285 1221.54 383.392 1221.54 383.392L1169.34 104.462C1163.61 86.6869 1145.02 87.5073 1145.02 87.5073L850.159 89.4215L812.174 25.7051L373.02 37.1904L354.711 308.19L468.94 319.949L529.06 242.013L494.355 149.036" stroke="#F26E65" stroke-miterlimit="10"/>
@@ -95,7 +95,7 @@ servicesList:
 hireCtaSubTitle: "Hire Developer"
 hireCtaTitle: "Hire Xamarin Developer"
 hireCtaDesc: "Looking to build robust, cross-platform applications with Xamarin ? Our expert developers specialize in Xamarin App Development Services , leveraging the power of C# and .NET to create high-performance apps for iOS, Android, and Windows. With Xamarin’s native UI and API access, we ensure seamless functionality, consistent performance, and a truly native user experience all from a single shared codebase. Whether you’re launching a new app or enhancing an existing one, we deliver scalable, cost-effective solutions tailored to your business needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
  
 featuresSecSubTitle: Why Cypherox

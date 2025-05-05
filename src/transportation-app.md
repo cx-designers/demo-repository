@@ -8,7 +8,7 @@ bannersubTitle: "App Solutions"
 bannerTitle: "Transport App Development Company"
 bannerdesc: "Simplify commutes with our Transport App Development expertise. We design apps that offer real-time tracking, seamless booking, and route optimization. Our focus on innovation ensures your app radiates convenience and reliability. Partner with us to make transportation smarter and hassle-free."
 bannerbuttontext: Inquire Now
-buttonLink: "/contact-us.html"
+buttonLink: "/get-in-touch.html"
 bannerHTML: '<svg width="998" height="614" viewBox="0 0 998 614" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M997.713 379.632C997.713 379.632 606.128 296.83 431.231 417.166C423.789 422.323 417.492 428.913 413.484 436.935C406.614 450.115 404.61 467.305 442.967 466.159C459.856 465.586 476.458 466.159 493.061 468.738C532.849 474.755 588.953 489.367 552.886 520.597C552.886 520.597 467.585 580.765 241.164 542.372C241.164 542.372 131.531 513.721 209.677 481.345C209.677 481.345 286.391 456.991 345.644 461.289C345.644 461.289 243.454 392.525 196.223 287.088C168.743 225.201 170.461 153.572 204.81 95.1235C232.863 47.2756 285.818 -0.285767 384.859 1.1468C384.859 1.1468 550.31 6.30406 552.027 175.347C552.027 175.347 553.745 317.459 387.436 330.352C387.436 330.352 275.227 326.054 253.472 212.594C247.461 181.937 252.9 149.848 270.361 124.061C282.097 106.871 300.417 89.9662 329.041 80.7978C354.517 72.7754 382.283 73.6349 407.473 82.8034C446.975 97.1291 503.079 134.376 482.756 227.493C482.756 227.493 468.73 283.363 413.198 311.155C413.198 311.155 365.395 333.79 368.83 399.975C368.83 399.975 385.432 499.395 254.045 503.979C254.045 503.979 -2.43201 498.249 1.00295 613.141" stroke="#DC7065" stroke-miterlimit="10"/></svg>'
 
@@ -76,7 +76,7 @@ servicesList:
 hireCtaTitle: "Hire Developers"
 hireCtaSubTitle: "Hire App Developers"
 hireCtaDesc: "Build seamless Transport apps to elevate businesses and user experiences. Offer real-time tracking, route optimization, and hassle-free booking for smarter and more efficient travel solutions."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 featuresSecSubTitle: Why Cypherox

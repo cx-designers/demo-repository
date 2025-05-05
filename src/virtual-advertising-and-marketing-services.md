@@ -206,7 +206,7 @@ phases:
 hireCtaTitle: "Elevate Your Brand with Cutting-Edge Digital Experiences"
 hireCtaSubTitle: "Hire Experts"
 hireCtaDesc: "At Cypherox, we design and implement immersive virtual marketing solutions that enhance engagement, brand loyalty, and digital transformation. Let’s bring your brand to the future of marketing!"
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

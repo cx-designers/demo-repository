@@ -3,7 +3,7 @@ layout: layouts/mobile-app-development.njk
 title: Cloud Strategy Consulting | Optimize, Innovate, Transform
 metaDescription: Maximize cloud potential with expert cloud strategy consulting. Optimize architecture, reduce costs & enhance performance for a smarter digital transformation.
 bodyClass: "cloud-strategy-consulting"
-permalink: cloud-strategy-consulting.html
+permalink: cloud-strategy-consulting-services.html
 bannersubTitle: "Cloud and DevOps Services"
 bannerTitle: "Cloud Strategy Consulting – Unlocking Secure Cloud Evolution"
 bannerdesc: "In today’s fast-evolving digital landscape, a well-defined cloud strategy is essential for businesses to stay competitive. Our Cloud Strategy Consulting Services help organizations assess, plan, and implement a cloud roadmap that aligns with their business objectives. Whether you're looking to migrate, optimize, or enhance security, we provide expert guidance, cost-effective solutions, and scalable cloud architectures to drive growth and innovation. With our cloud-first approach, we ensure a seamless transition, operational efficiency, and future-ready infrastructure tailored to your needs."
@@ -11,6 +11,16 @@ bannerHTML: '<svg width="440" height="301" viewBox="0 0 440 301" fill="none" xml
 <path d="M439.447 230.119C439.447 230.119 277.563 310.268 261.989 194.589C261.989 194.589 346.387 211.916 350.723 139.562C350.723 139.562 354.186 87.1364 288.392 80.2054C288.392 80.2054 297.485 11.748 229.955 0.919686C229.955 0.919686 171.518 -6.87492 151.607 49.0048C151.607 49.0048 107.893 29.0755 81.9206 80.1943C81.9206 80.1943 45.3074 79.9175 29.1024 109.369C20.0653 125.788 19.9547 145.873 28.8038 162.392C38.1838 179.908 60.0301 198.962 110.924 194.567C110.924 194.567 90.7365 167.861 104.641 124.006C108.048 113.266 113.744 103.346 121.476 95.1413C132.029 83.9587 150.003 70.3293 176.916 66.7641C187.214 65.4023 197.678 66.2548 207.7 69.0006C231.725 75.5884 275.075 95.2853 271.933 151.243C271.933 151.243 271.502 177.239 258.516 202.804L253.317 188.942C253.317 188.942 281.49 130.892 236.913 94.9088C223.407 84.003 206.516 78.0574 189.161 77.8249C172.347 77.6035 149.694 81.5672 131.553 100.09C117.417 114.528 110.205 134.28 110.37 154.498C110.492 168.803 113.534 186.163 125.193 198.486C125.193 198.486 137.316 212.348 136.885 235.311C136.885 235.311 135.59 256.326 155.789 257.156H181.761V213.943C181.761 213.943 157.094 211.772 157.094 183.473C157.094 183.473 159.837 157.188 186.528 156.037C186.528 156.037 214.082 156.756 215.244 183.905C215.244 183.905 214.381 211.197 190.72 214.806V257.156H214.901C220.774 257.156 226.515 254.942 230.564 250.69C233.13 248 235.231 244.313 235.596 239.364C235.596 239.364 236.891 204.709 250.452 193.581C250.452 193.581 239.236 204.177 238.826 233.961C238.727 241.556 236.902 249.074 233.318 255.772C230.84 260.411 227.488 264.663 223.175 266.08C223.175 266.08 221.737 277.927 209.613 278.503C209.613 278.503 212.213 300.015 193.453 300.458H179.493C172.226 300.458 165.744 295.631 163.919 288.578C163.211 285.843 162.835 282.477 163.012 278.359C163.012 278.359 149.45 277.351 148.731 265.936H221.88H152.205C145.49 265.936 138.831 264.884 132.449 262.792C106.665 254.333 31.8235 234.503 0.552979 276.465" stroke="#F26E65" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 '
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: Cloud And DevOps Services
+    url: /cloud-and-devops-services.html
+  - title: Cloud And DevOps Services
+    url: javscript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -183,7 +193,7 @@ phases:
 hireCtaTitle: "Dedicated Developers for Hire"
 hireCtaSubTitle: "Hire Cloud Strategy Consultants"
 hireCtaDesc: "Looking for expert cloud consultants to craft a tailored cloud adoption strategy for your business? Our specialists analyze, plan, and execute cloud transformation with a focus on scalability, security, and cost efficiency. Whether you're migrating, optimizing, or securing cloud workloads, we provide end-to-end consulting and implementation to help you leverage the full potential of the cloud."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

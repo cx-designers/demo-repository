@@ -217,7 +217,7 @@ phases:
 hireCtaTitle: "Enhance User Experience with AI-Powered Voice & Text Solutions"
 hireCtaSubTitle: "Hire AI Experts"
 hireCtaDesc: "Our AI specialists create highly accurate TTS and STT systems that improve accessibility, automate tasks, and enhance communication. Whether you need real-time speech recognition, voice synthesis, or AI-driven audio applications, we deliver custom solutions tailored to your needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

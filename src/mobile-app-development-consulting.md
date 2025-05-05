@@ -298,7 +298,7 @@ phases:
 hireCtaTitle: "Get the Right Strategy for a Successful Mobile App"
 hireCtaSubTitle: "Hire Expert Guidance"
 hireCtaDesc: "Cypherox offers comprehensive mobile app consulting services to help businesses build feature-rich, high-performing, and scalable applications. Our experts provide strategic insights, technology recommendations, and hands-on support for every stage of mobile app development."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

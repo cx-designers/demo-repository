@@ -19,7 +19,7 @@ turningappideas:
   - description: "At Cypherox Technologies, we're not just consultants – we're your partners in making your app dreams come true. We'll work closely with you to refine your ideas, create a solid plan, and make sure your app stands out in the busy world of mobile technology."
   - description: "Whether you're a new startup or a big company, let's team up and create an app that's perfect for your audience!"
 turningappideasbuttontext: "Get a Quote"
-buttonLink: "contact-us.html"
+buttonLink: "get-in-touch.html"
 
 successstorySubtitle: "Services"
 successstoryTitle : "Start Your App Success Story with Us!"

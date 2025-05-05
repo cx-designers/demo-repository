@@ -224,7 +224,7 @@ phases:
 hireCtaTitle: "Hire Data Strategy Consultants for Scalable Analytics Solutions"
 hireCtaSubTitle: "Hire Data Experts"
 hireCtaDesc: "Our expert data consultants help businesses build scalable, future-ready analytics strategies for growth and efficiency. Whether you need BI integration, AI-powered analytics, or real-time insights, we provide the expertise to optimize your data strategy for long-term success."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

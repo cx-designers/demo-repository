@@ -217,7 +217,7 @@ phases:
 hireCtaTitle: "Elevate Game Storytelling with AI-Powered Text Generation"
 hireCtaSubTitle: "Hire AI Experts"
 hireCtaDesc: "Our AI experts build intelligent text generation tools that create immersive dialogues, quests, and narratives for next-gen gaming. Whether you need procedural storytelling, AI-driven NPC conversations, or dynamic quest generation, we provide custom AI-powered solutions tailored to your game development needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

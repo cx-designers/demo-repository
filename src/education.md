@@ -213,7 +213,7 @@ phases:
 hireCtaTitle: "Build the Future of Learning with Experts"
 hireCtaSubTitle: "Hire Expert Developers"
 hireCtaDesc: "Hire experienced education software developers to create e-learning platforms, school management systems, and AI-based tutoring solutions. Our experts specialize in interactive learning, student engagement, and education analytics to transform your institution."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

@@ -207,7 +207,7 @@ phases:
 hireCtaTitle: "Enhance Online Shopping with Intelligent Virtual Assistant"
 hireCtaSubTitle: "Hire AI Experts"
 hireCtaDesc: "Our AI-powered virtual assistants enhance customer engagement, automate transactions, and optimize sales processes, helping businesses grow efficiently."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

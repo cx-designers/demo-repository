@@ -3,7 +3,7 @@ layout: layouts/engagement-model.njk
 title: Cypherox Engagement Models | Flexible & Scalable Partnership
 metaDescription: Choose how you work with us! Cypherox offers flexible engagement models—dedicated teams, fixed-price, or time & material—tailored to fit your project needs.
 bodyClass: "engagement-model-page"
-permalink: engagement-model.html
+permalink: our-engagement-models.html
 bannersubTitle: "Tailored for Your Success"
 bannerTitle: "Discover Our Engagement Models"
 bannerdesc: "Find the perfect collaboration framework to fuel your digital innovation journey with Cypherox Technologies flexible engagement models."

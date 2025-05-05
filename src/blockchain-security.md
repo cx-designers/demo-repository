@@ -274,7 +274,7 @@ phases:
 hireCtaTitle: "Protect Your Blockchain Infrastructure with Specialists"
 hireCtaSubTitle: "Hire Blockchain Expert"
 hireCtaDesc: "Hire blockchain security experts to safeguard your smart contracts, tokens, and networks from cyber threats. Our team ensures advanced encryption, compliance, and risk mitigation for blockchain applications."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"            
 
 faqTitle:  Everything You Need to Know About Blockchain Security

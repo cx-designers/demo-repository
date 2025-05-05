@@ -198,7 +198,7 @@ phases:
 hireCtaTitle: "Host and Manage Your Virtual Events with Expert Solutions"
 hireCtaSubTitle: "Hire Our Experts"
 hireCtaDesc: "Our virtual event hosting solutions ensure that your event is efficiently organized, engaging, and delivers valuable experiences to participants."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

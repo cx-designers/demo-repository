@@ -208,7 +208,7 @@ phases:
 hireCtaTitle: "Get Expert Data Solutions for Business Growth"
 hireCtaSubTitle: "Hire Data Analysts"
 hireCtaDesc: "Hire our dedicated data analysts and engineers to unlock the full potential of your business data. Our experts provide custom analytics solutions that enable data-driven decisions, leading to greater efficiency, cost savings, and improved business performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

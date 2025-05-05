@@ -213,7 +213,7 @@ phases:
 hireCtaTitle: "Build Scalable Energy Solutions with Our Experts"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire top energy software developers to build smart grid systems, AI-powered energy analytics, and IoT-based monitoring platforms. Our experts specialize in renewable energy software, smart metering, and predictive analytics to drive efficiency in the energy sector."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

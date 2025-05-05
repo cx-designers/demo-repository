@@ -216,7 +216,7 @@ phases:
 hireCtaTitle: "Enhance Property Management with Virtual Assistant Developments"
 hireCtaSubTitle: "Hire AI Experts"
 hireCtaDesc: "Our AI-driven real estate virtual assistants improve customer engagement, streamline operations, and automate property-related tasks, helping businesses scale efficiently."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

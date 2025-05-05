@@ -210,7 +210,7 @@ phases:
 hireCtaTitle: "Hire a Dedicated AI Recommendation System Developer"
 hireCtaSubTitle: "Build Intelligent, Data-Driven Recommendations"
 hireCtaDesc: "Hire expert AI developers to create intelligent, scalable recommendation systems that enhance user engagement and business performance. Our AI-powered solutions adapt to user behavior, improving personalization and increasing conversions."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

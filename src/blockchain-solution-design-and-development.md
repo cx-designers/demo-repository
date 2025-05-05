@@ -333,6 +333,6 @@ phases:
 hireCtaTitle: "Expert Blockchain Developers for Custom Solutions"
 hireCtaSubTitle: "Hire Blockchain Developer"
 hireCtaDesc: "Hire blockchain developers to design and build custom blockchain networks, smart contracts, and decentralized applications for your business. Our team ensures secure, scalable, and high-performance blockchain solutions tailored to your needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"              
 ---

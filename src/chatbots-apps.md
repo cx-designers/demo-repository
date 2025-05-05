@@ -216,7 +216,7 @@ phases:
 hireCtaTitle: "Build AI Chatbots That Enhance Customer Experience"
 hireCtaSubTitle: "Hire AI-Chatbot Developers"
 hireCtaDesc: "Our dedicated AI chatbot developers specialize in creating custom chatbot applications for customer support, automation, and business operations. Whether you need a simple FAQ bot or an advanced AI-powered conversational assistant, we develop scalable and efficient AI chatbot solutions."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

@@ -199,7 +199,7 @@ phases:
 hireCtaTitle: "Bring Your Ideas to Life with AR & VR Experts"
 hireCtaSubTitle: "Hire AR/VR Developer"
 hireCtaDesc: "Hire AR/VR development specialists to create interactive applications, immersive experiences, and custom 3D solutions tailored to your business needs. Our experts ensure seamless performance and high-end user engagement, delivering cutting-edge digital solutions."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

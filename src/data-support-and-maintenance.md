@@ -230,7 +230,7 @@ phases:
 hireCtaTitle: "Hire Experts To Keep Your Data Optimized & Secure"
 hireCtaSubTitle: "Hire Data Experts"
 hireCtaDesc: "Our dedicated data specialists ensure your databases run smoothly, remain secure, and stay up to date. Whether you need real-time monitoring, automated backups, or security enhancements, we provide end-to-end data support for long-term reliability."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

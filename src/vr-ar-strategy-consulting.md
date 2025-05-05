@@ -214,7 +214,7 @@ phases:
 hireCtaTitle: "Turn Your AR/VR Vision into Reality with Expert Guidance"
 hireCtaSubTitle: "Hire AR/VR Experts"
 hireCtaDesc: "Hire our dedicated AR/VR consultants to design, plan, and implement immersive experiences that maximize engagement and ROI. Our experts help you navigate the complexities of AR/VR adoption, ensuring smooth execution and long-term success."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

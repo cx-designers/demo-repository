@@ -5650,6 +5650,7 @@ svg:not(:root) {
         display:flex;
         padding: 0;
         margin: 0;
+        flex-wrap: wrap;
         li.breadcrumb-item {
           color: $white;
           a{

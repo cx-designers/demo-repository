@@ -206,7 +206,7 @@ phases:
 hireCtaTitle: "Build Secure & Scalable Healthcare Applications"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire expert healthcare software developers to create HIPAA-compliant, secure, and scalable solutions. We specialize in EHR systems, telemedicine apps, AI-driven diagnostics, and hospital management software to enhance patient care and healthcare operations."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

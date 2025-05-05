@@ -3,7 +3,7 @@ layout: layouts/mobile-app-development.njk
 title: Continuous Testing & Monitoring | Improve Quality & Speed
 metaDescription: Ensure software quality with continuous testing and monitoring. Detect issues early, enhance security & boost performance with real-time insights.
 bodyClass: "continuous-testing-and-monitoring"
-permalink: continuous-testing-and-monitoring.html
+permalink: continuous-testing-and-monitoring-services.html
 bannersubTitle: "Cloud/DevOps Services"
 bannerTitle: "Continuous Testing & Monitoring Services"
 bannerdesc: "At Cypherox Technologies, we enhance software performance, reliability, and security with advanced Continuous Testing & Monitoring. By integrating automated testing and real-time monitoring into DevOps, we detect issues early and optimize performance. With AI-driven insights, we ensure zero-downtime deployments and seamless user experiences."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="451" height="282" viewBox="0 0 451 282" fill="none" xml
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: Cloud And DevOps Services
+    url: /cloud-and-devops-services.html
+  - title: Continuous Testing And Monitoring Services
+    url: javscript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -214,7 +224,7 @@ phases:
 hireCtaTitle: "Hire Continuous Testing & Monitoring Experts"
 hireCtaSubTitle: "Hire Dedicated Developer"
 hireCtaDesc: "Ensure seamless performance, security, and reliability with our Continuous Testing & Monitoring specialists. We help businesses implement robust automation, real-time analytics, and predictive monitoring strategies for optimized IT operations."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

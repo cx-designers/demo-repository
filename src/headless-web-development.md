@@ -9,7 +9,7 @@ bannerTitle: "Headless CMS Development Services"
 bannerdesc: "Looking to build future-proof, omnichannel content solutions? Our headless CMS development services deliver scalable, API-driven platforms. Hire headless CMS developers today and revolutionize your content management!"
 bannerbuttonlargeClass: "large-btn"
 bannerbuttontext: Talk To Our Developers
-buttonLink: "/contact-us.html"
+buttonLink: "/get-in-touch.html"
 bannerHTML: '<svg width="998" height="539" viewBox="0 0 998 539" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M996.755 356.054C970.2 374.085 904.619 398.495 854.74 351.894C804.862 305.293 757.306 320.004 739.762 333.185V413.452C739.762 431.371 725.275 445.853 707.35 445.853H485.372V477.027C557.318 471.873 562.475 537.902 562.475 537.902H256.518C257.992 472.364 333.621 478.009 333.621 478.009V445.853H110.416C92.4904 445.853 78.0029 431.371 78.0029 413.452V54.8288C78.0029 27.3368 100.348 4.99958 127.85 4.99958H689.67C717.172 4.99958 739.517 27.3368 739.517 54.8288V91.8939V311.513H745.268V54.8288C746.535 37.7568 737.19 3.19656 689.67 1.53224C642.15 -0.132083 295.323 0.838772 127.85 1.53224C109.896 1.00316 73.8485 10.9218 73.2943 54.8288C72.7401 98.7359 73.0634 314.055 73.2943 416.226C73.5252 428.246 81.7457 452.009 112.781 450.899C143.817 449.79 252.718 450.437 303.289 450.899C299.825 461.07 276.826 490.011 212.538 524.407C132.178 567.402 49.7404 461.995 0.554688 475.864" stroke="#F26E65" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M703.109 64.1566C703.109 49.4288 691.077 37.6465 676.59 37.6465H138.588C123.855 37.6465 112.068 49.6742 112.068 64.1566V344.477C112.068 359.205 124.1 370.987 138.588 370.987H676.344C691.077 370.987 702.864 358.959 702.864 344.477L703.108 64.1573" stroke="#F26E65" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -126,7 +126,7 @@ servicesList:
 hireCtaTitle: "Hire Headless CMS Developers"
 hireCtaSubTitle: "Hire Experienced Headless CMS Developers to Ensure Your Business Success"
 hireCtaDesc: "We provide flexible hiring models to connect you with skilled headless CMS developers who specialize in building scalable, API-driven content solutions. Whether you need a single developer or an entire team, we offer customized resources to help you achieve your project goals. Partner with us to accelerate your headless CMS journey and achieve measurable results."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

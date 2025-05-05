@@ -283,7 +283,7 @@ phases:
 hireCtaTitle: "Expert Blockchain Developers for Secure Smart Contracts"
 hireCtaSubTitle: "Hire Dedicated Developer"
 hireCtaDesc: "Hire smart contract developers to build secure, optimized, and high-performance contracts for your business. Our experts ensure error-free and tamper-proof smart contract execution across multiple blockchain platforms."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqTitle:  Everything You Need to Know About Smart Contract Development

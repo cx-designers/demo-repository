@@ -212,7 +212,7 @@ phases:
 hireCtaTitle: "Build Next-Gen Social Platforms with Us"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire experienced developers to create AI-powered, secure, and scalable social networking applications. Our team specializes in custom social media platforms, live-streaming solutions, and blockchain-based networking for businesses and communities."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

@@ -239,7 +239,7 @@ phases:
 hireCtaTitle: "Hire Data Visualization Experts for Business Intelligence"
 hireCtaSubTitle: "Hire Data Experts"
 hireCtaDesc: "Our dedicated data visualization experts design custom dashboards, reports, and AI-driven analytics tools to help businesses understand complex data with ease. Whether it's real-time tracking, predictive analytics, or interactive reports, we create engaging visual solutions tailored to your needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

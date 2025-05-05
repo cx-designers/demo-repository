@@ -217,7 +217,7 @@ phases:
 hireCtaTitle: "Custom AI Translation Solutions for Businesses"
 hireCtaSubTitle: "Hire AI Developers"
 hireCtaDesc: "Our dedicated AI developers build high-performance language translation apps tailored to business, travel, and enterprise needs. Whether you require real-time translation, multilingual chatbot integration, or AI-powered localization, we provide custom solutions for seamless communication."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

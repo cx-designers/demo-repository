@@ -8,7 +8,7 @@ bannersubTitle: "Service"
 bannerTitle: "B2C Marketplace Solution"
 bannerdesc: "Unlock the potential of online retail with our robust B2C marketplace solution. Designed to connect sellers and buyers seamlessly, our platform offers features like intuitive product catalogs, secure payment gateways, personalized recommendations, and real-time notifications. With advanced tools for inventory management, order tracking, and marketing automation, businesses can scale efficiently while delivering exceptional customer experiences."
 bannerbuttontext: Talk To Us
-buttonLink: "/contact-us.html"
+buttonLink: "/get-in-touch.html"
 bannerHTML: '<svg width="773" height="568" viewBox="0 0 773 568" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 562.099H595.028L581.626 428.862H548.927C548.927 428.862 540.171 390.769 508.543 395.24C477.094 399.711 475.486 423.854 475.486 433.87C475.486 443.885 482.455 438.877 482.455 432.797C482.455 426.716 486.207 403.645 504.97 402.036C523.91 400.426 531.415 406.328 532.845 412.409C532.845 412.409 537.133 425.822 537.133 435.3C537.133 436.731 538.027 438.162 539.456 438.519C540.886 438.877 542.494 438.162 542.851 433.154C543.03 431.008 541.422 429.041 539.099 429.041H443.68L429.385 540.28L223.359 536.167L223.001 132.701H108.106C108.106 132.701 106.497 134.31 104.889 131.27C103.281 128.23 582.52 131.628 582.52 131.628C586.451 182.419 551.964 183.492 551.964 183.492C512.296 180.809 513.725 140.212 513.725 140.212C513.189 190.288 480.668 185.638 480.668 185.638C439.927 179.378 444.931 139.139 444.931 139.139C443.859 185.459 414.196 185.817 414.196 185.817C372.384 184.565 375.957 132.522 375.957 132.522C373.635 187.069 339.148 183.313 339.148 183.313C307.163 182.061 303.947 132.522 303.947 132.522C304.84 184.744 271.783 184.922 271.783 184.922C231.4 191.718 234.973 133.595 234.973 133.595C234.08 177.769 198.343 184.386 198.343 184.386C167.787 186.353 166.179 136.635 166.179 136.635C164.571 181.524 126.868 185.996 126.868 185.996C95.5976 185.817 100.779 132.701 100.779 132.701L216.747 25.9325H478.524C478.524 25.9325 478.524 3.57737 453.329 1.43127C428.134 -0.535981 225.324 3.57737 225.324 3.57737C225.324 3.57737 204.239 8.0484 199.236 38.2726L480.132 38.6303L479.775 28.4363L463.157 29.3305C463.157 29.3305 577.159 127.872 575.908 128.409C574.657 128.766 455.473 129.303 455.473 129.303L457.439 423.854L480.668 404.718L479.775 209.96H242.121L243.014 271.839L437.247 273.807L436.89 353.749L245.873 354.106V500.041L426.705 497.537L427.062 392.736L260.526 391.126L260.883 292.048L446.539 290.439L444.931 213.895H209.6V190.288H201.023L199.772 512.56C199.772 512.56 193.339 563.172 240.87 567.106H773" stroke="#F26E65" stroke-width="1.0453" stroke-miterlimit="10"/>
 </svg>'
@@ -65,7 +65,7 @@ servicesList:
 hireCtaTitle: "Hire Developer"
 hireCtaSubTitle: "Hire App Developer"
 hireCtaDesc: "Looking to create a thriving B2C Marketplace Solution ? Our expert developers specialize in building dynamic, scalable platforms that connect consumers with a wide range of products or services. From intuitive product catalogs, advanced search filters, and secure payment gateways to personalized recommendations, seller onboarding, and real-time order tracking, we design marketplaces that deliver exceptional user experiences."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 featuresSecSubTitle: Why Cypherox

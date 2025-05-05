@@ -210,7 +210,7 @@ phases:
 hireCtaTitle: "Hire A Model Interpretation And Explanation Developer"
 hireCtaSubTitle: "Hire Dedicated Expert"
 hireCtaDesc: "Hire expert AI explainability developers to build model interpretation solutions that improve transparency, detect biases, and ensure regulatory compliance. Our solutions help businesses trust AI-driven decisions with confidence."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

@@ -190,7 +190,7 @@ phases:
 hireCtaTitle: "Create, Grow, and Engage Your Virtual Community"
 hireCtaSubTitle: "Hire Dedicated Experts"
 hireCtaDesc: "Our team at Cypherox specializes in designing and managing virtual communities that foster strong connections and loyalty. Empower your brand with a thriving online presence."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

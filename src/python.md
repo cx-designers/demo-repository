@@ -8,7 +8,7 @@ bannersubTitle: "Service"
 bannerTitle: "Python Development Services"
 bannerdesc: "Looking to build scalable, data-driven applications? Our Python development services leverage the power of Python’s versatility and efficiency. Hire Python developers today and transform your ideas into innovative solutions!"
 bannerbuttontext: Talk To Us
-buttonLink: "/contact-us.html"
+buttonLink: "/get-in-touch.html"
 bannerHTML: '<svg width="1730" height="1372" viewBox="0 0 1730 1372" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_986_59)">
 <mask id="mask0_986_59" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1730" height="1372">
@@ -135,7 +135,7 @@ servicesList:
 hireCtaTitle: "Hire Our Python Developers"
 hireCtaSubTitle: "Let our Python development experts elevate your business to new heights"
 hireCtaDesc: "Unlock the power of Python with our expert developers. From smart AI apps to fast and scalable websites, we create high-quality solutions. Hire skilled Python developers to bring your ideas to life and grow your business with the latest technology. Elevate your business with cutting-edge technology and expertise hire Python developers who turn ideas into reality."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

@@ -213,7 +213,7 @@ phases:
 hireCtaTitle: "Empower Your Retail Business With Us"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire experienced retail software developers to build scalable, secure, and innovative solutions. We provide custom e-commerce platforms, POS systems, AI-powered analytics, and customer engagement tools to elevate your retail operations."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

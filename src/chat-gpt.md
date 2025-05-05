@@ -233,7 +233,7 @@ phases:
 hireCtaTitle: "Hire Developers To Build AI-Powered Chatbots & Virtual Assistants"
 hireCtaSubTitle: "Hire ChatGPT Experts"
 hireCtaDesc: "Our dedicated AI developers specialize in custom AI chatbot development, virtual assistants, and interactive AI-driven applications. Whether you need automated customer support, intelligent text generation, or AI-powered content creation, we ensure high-performance, scalable, and industry-specific solutions."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

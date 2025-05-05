@@ -3,7 +3,7 @@ layout: layouts/contact-Us.njk
 title: Contact Cypherox | Let’s Build Something Great Together
 metaDescription: Got an idea? Let’s make it happen! Reach out to Cypherox for expert software & app development solutions. Let’s innovate, collaborate & grow together. 
 bodyClass: "contact-us-page"
-permalink: contact-us.html
+permalink: get-in-touch.html
 bannersubTitle: "Let’s Connect and Build Together"
 bannerTitle: "Contact Us"
 bannerdesc: "Reach out to us for inquiries, support, or collaboration. We’re here to help you achieve your goals-get in touch today and let’s create something amazing together!"

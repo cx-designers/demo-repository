@@ -191,7 +191,7 @@ phases:
 hireCtaTitle: "Get a Smarter, Scalable Business Solution"
 hireCtaSubTitle: "Hire Experts "
 hireCtaDesc: "At Cypherox, we specialize in converting static spreadsheets into dynamic applications, helping businesses automate workflows and enhance productivity. Let us build an intuitive, feature-rich app tailored to your business needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

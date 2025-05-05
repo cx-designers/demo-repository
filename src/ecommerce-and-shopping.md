@@ -244,7 +244,7 @@ phases:
 hireCtaTitle: "Transform Your Ecommerce Projects with Expert Developers"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Partner with our team of skilled developers to create innovative, scalable, and efficient software solutions tailored to your business needs. From custom ecommerce platforms to AI-powered recommendation engines, we ensure seamless integration and exceptional performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

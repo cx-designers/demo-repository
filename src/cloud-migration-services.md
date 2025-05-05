@@ -3,7 +3,7 @@ layout: layouts/mobile-app-development.njk
 title: Cloud Migration Services | Fast & Risk-Free Transition
 metaDescription: Migrate to the cloud with confidence! Our cloud migration services ensure minimal downtime, optimized performance to a scalable infrastructure.
 bodyClass: "cloud-migration"
-permalink: cloud-migration.html
+permalink: cloud-migration-services.html
 bannersubTitle: "Cloud and DevOps Services"
 bannerTitle: "Cloud Migration Services – Secure & Scalable Transitions"
 bannerdesc: "Migrating to the cloud isn’t just about moving data—it’s about ensuring security, efficiency, and scalability with minimal downtime. Our Cloud Migration Services provide a smooth transition, whether you’re shifting from on-premise to another cloud, or adopting a hybrid model. With expertise in AWS, Azure, GCP, and hybrid cloud, we tailor migration strategies to optimize your business's performance, security, and cost-efficiency."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="427" height="268" viewBox="0 0 427 268" fill="none" xml
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: Cloud And DevOps Services
+    url: /cloud-and-devops-services.html
+  - title: Cloud Migration Services
+    url: javscript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -196,7 +206,7 @@ phases:
 hireCtaTitle: "Hire Dedicated Cloud Developers"
 hireCtaSubTitle: "Hire Cloud Migration Experts"
 hireCtaDesc: "Ensure a smooth, secure, and efficient cloud migration with our experienced professionals. From strategy and execution to optimization, we handle it all with minimal downtime. Hire now to transition your business to the cloud effortlessly!"
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

@@ -234,7 +234,7 @@ phases:
 hireCtaTitle: "Enhance Your Business with AI-Powered Analytics"
 hireCtaSubTitle: "Hire Data Experts"
 hireCtaDesc: "Our dedicated data analysts and AI experts help businesses unlock powerful insights, create accurate models, and drive better decisions. We offer custom data modeling solutions that ensure your business remains data-driven and future-ready."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

@@ -212,7 +212,7 @@ phases:
 hireCtaTitle: "Transform Your Media Vision into Reality"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire experienced media and entertainment software developers to build AI-driven content platforms, immersive AR/VR experiences, and cloud-based streaming solutions. Our team helps broadcasters, gaming studios, and content creators bring their ideas to life with innovative technology."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

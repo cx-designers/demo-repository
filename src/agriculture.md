@@ -211,7 +211,7 @@ phases:
 hireCtaTitle: "Build Smart Agricultural Solutions"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire skilled agriculture software developers to create IoT-powered farm management systems, AI-driven crop monitoring solutions, and blockchain-based supply chain platforms. Our experts help agribusinesses, farmers, and food producers achieve greater efficiency with technology-driven solutions."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

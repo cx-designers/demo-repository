@@ -213,7 +213,7 @@ phases:
 hireCtaTitle: "Boost Efficiency with Expert Developers"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire skilled manufacturing software developers to build scalable, efficient, and AI-powered industrial solutions. Our developers specialize in custom ERP systems, IoT solutions, factory automation, and predictive maintenance software to revolutionize your manufacturing operations."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

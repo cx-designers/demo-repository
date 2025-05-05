@@ -214,7 +214,7 @@ phases:
 hireCtaTitle: "Hire A Dedicated AI & ML Product Developer To Scale"
 hireCtaSubTitle: "Hire Dedicated Expert"
 hireCtaDesc: "Hire experienced AI and ML product developers to design, develop, and deploy AI-powered solutions tailored to your business needs. Our experts ensure seamless AI integration for maximum efficiency and growth."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

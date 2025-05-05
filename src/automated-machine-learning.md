@@ -217,7 +217,7 @@ phases:
 hireCtaTitle: "Hire a Dedicated Automated Machine Learning Developer"
 hireCtaSubTitle: "Hire Dedicated Expert"
 hireCtaDesc: "Hire expert AutoML developers to build AI-powered automated machine learning solutions that optimize workflows, reduce manual effort, and improve model accuracy. Our AutoML expertise enables businesses to deploy high-performing AI models efficiently."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 

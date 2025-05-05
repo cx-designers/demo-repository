@@ -3,7 +3,7 @@ layout: layouts/mobile-app-development.njk
 title: DevOps Automation Services | Accelerate Deployment & Growth
 metaDescription: Streamline workflows with DevOps automation services. Speed up deployments, improve collaboration & enhance efficiency with cutting-edge automation tools.
 bodyClass: "devops-automation"
-permalink: devops-automation.html
+permalink: devops-automation-services.html
 bannersubTitle: "Welcome"
 bannerTitle: "Effortless DevOps Automation for Seamless Operations"
 bannerdesc: "Modern businesses demand agility, efficiency, and reliability in software development. Our DevOps Automation Services streamline workflows, enhance collaboration, and accelerate deployments with automated CI/CD pipelines, infrastructure as code (IaC), and intelligent monitoring. By integrating cutting-edge automation tools, we optimize your development lifecycle, reduce errors, and ensure faster time-to-market."
@@ -25,6 +25,16 @@ bannerHTML: '<svg width="339" height="237" viewBox="0 0 339 237" fill="none" xml
 </defs>
 </svg>
 '
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: Cloud And DevOps Services
+    url: /cloud-and-devops-services.html
+  - title: DevOps Automation Services
+    url: javscript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -214,7 +224,7 @@ phases:
 hireCtaTitle: "Hire DevOps Automation Experts for Unmatched Efficiency"
 hireCtaSubTitle: "Hire Dedicated DevOps Developer"
 hireCtaDesc: "Looking to enhance your DevOps strategy? Our skilled engineers bring expertise in automating software delivery, infrastructure management, and cloud deployments. With advanced tools and agile methodologies, we ensure faster releases, reduced operational costs, and peak system performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

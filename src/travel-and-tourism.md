@@ -244,7 +244,7 @@ phases:
 hireCtaTitle: "Transform Travel and Tourism Software with Expert Developers"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Partner with our team of skilled developers to create innovative, scalable, and efficient software solutions tailored to your business needs. From booking platforms to mobile apps, we ensure seamless integration and exceptional performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

@@ -212,7 +212,7 @@ phases:
 hireCtaTitle: "Hire a Dedicated Reinforcement Learning Developer"
 hireCtaSubTitle: "Hire Dedicated Expert"
 hireCtaDesc: "Hire expert Reinforcement Learning developers to build AI models that learn and optimize through real-world interactions. Our RL solutions enhance automation, improve efficiency, and enable AI to make smarter decisions autonomously."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

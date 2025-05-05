@@ -81,7 +81,7 @@ servicesList:
 hireCtaTitle: "Future-Proof Your Business with a Modern Mobile App"
 hireCtaSubTitle: "Hire Experts"
 hireCtaDesc: "At Cypherox, we specialize in converting legacy Visual Basic applications into dynamic mobile solutions that enhance usability, scalability, and performance. Our expert team ensures a smooth transition with minimal downtime, so your business continues to thrive."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 featuresSecSubTitle: Why Cypherox?

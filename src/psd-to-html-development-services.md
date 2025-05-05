@@ -2,8 +2,8 @@
 layout: layouts/service-template/web-app-development-services.njk
 title: PSD to HTML Development | Pixel-Perfect, Responsive Code
 metaDescription: Convert your PSD designs into clean, fast, and SEO-friendly HTML with Cypherox. Get a responsive, pixel-perfect website for a seamless user experience.
-bodyClass: "psd-to-html-development"
-permalink: psd-to-html-development.html
+bodyClass: "psd-to-html-development-services"
+permalink: psd-to-html-development-services.html
 bannersubTitle: "UI UX Design Services"
 bannerTitle: "Pixel-Perfect PSD to HTML Conversion Services"
 bannerdesc: "Transform your creative designs into high-quality, hand-coded, responsive, and SEO-friendly HTML with our expert PSD to HTML conversion services. We ensure pixel-perfect precision, clean and W3C-validated code, and seamless integration for fast, high-performing websites. Our team leverages the latest front-end technologies to deliver cross-browser compatible, lightweight, and fully optimized HTML that enhances user experience."
@@ -48,6 +48,15 @@ bannerHTML: '<svg width="552" height="382" viewBox="0 0 552 382" fill="none" xml
 </defs>
 </svg>
 '
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: UX UI Design 
+    url: /ui-ux-design-services.html
+  - title: PSD To HTML Development Services
+    url: javscript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -116,8 +125,8 @@ devInformationList :
 - infoItem: We specialize in converting PSD, Figma, Sketch, and Adobe XD designs into clean, efficient, and pixel-perfect HTML code. Every conversion is optimized for performance, responsiveness, and SEO, ensuring an enhanced user experience.
 - infoItem: Our approach focuses on delivering mobile-first, high-speed, cross-browser-compatible HTML, ensuring your website functions smoothly across all platforms. With the right blend of CSS, JavaScript, and Bootstrap frameworks, we create a flexible and scalable structure that grows with your business.
 - infoItem: From simple landing pages to complex web applications, we ensure that every project meets the highest coding standards. Our agile development process ensures on-time delivery with meticulous attention to every detail.
-devBgImg: "/assets/img/bg-psd-to-html-development.png"
-devBgAlt : "bg-psd-to-html-development"
+devBgImg: "/assets/img/bg-psd-to-html-development-services.png"
+devBgAlt : "bg-psd-to-html-development-services"
 
     
 secTitle: " Complete PSD to HTML Development Services"
@@ -215,7 +224,7 @@ blogRelatedCtegory:
 hireCtaTitle: "Hire Expert PSD to HTML Developers"
 hireCtaSubTitle: "Hire a Dedicated Developer  "
 hireCtaDesc: "Looking for a skilled PSD to HTML developer to convert your designs into high-quality, pixel-perfect, and SEO-friendly code? Our expert developers ensure hand-coded, responsive, and W3C-compliant HTML for seamless performance. With experience in HTML, CSS, JavaScript, and modern frameworks, we create robust and scalable solutions tailored to your business needs. Get fast, reliable, and high-performance HTML conversion today!"
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "hire now"
 
 faqTitle: FAQs for PSD to HTML Development

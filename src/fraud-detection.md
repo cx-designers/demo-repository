@@ -218,7 +218,7 @@ phases:
 hireCtaTitle: "Hire a Dedicated AI-Powered Fraud Detection Developer"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire expert AI developers to build fraud detection systems that safeguard businesses from security breaches, financial fraud, and cyber threats. Our AI-powered fraud prevention models provide real-time threat detection, reducing risks effectively."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

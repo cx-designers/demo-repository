@@ -206,7 +206,7 @@ phases:
 hireCtaTitle: "Bring Your Business into the Metaverse with Expert Development"
 hireCtaSubTitle: "Hire Metaverse Developers"
 hireCtaDesc: "Our Metaverse specialists design and develop high-performance virtual environments, enabling seamless digital interactions, secure transactions, and immersive user experiences."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

@@ -8,7 +8,7 @@ bannersubTitle: "Service"
 bannerTitle: "Joomla Development Services"
 bannerdesc: "Enhance your online presence with our Joomla development services. As one of the most versatile and powerful CMS, Joomla is perfect for creating dynamic, feature-rich websites tailored to your unique business needs. Our Joomla developers specialize in creating custom solutions, from responsive website designs and complex web applications to seamless integrations and performance optimization."
 bannerbuttontext: Talk To Us
-buttonLink: "/contact-us.html"
+buttonLink: "/get-in-touch.html"
 bannerHTML: '<svg width="1234" height="645" viewBox="0 0 1234 645" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_874_17)">
 <path d="M1233.42 538.768C1233.42 538.768 1197.65 618.355 1109.95 568.758C1022.26 519.16 960.522 552.033 961.676 595.863C961.676 595.863 407.795 642.001 369.716 637.387C369.716 637.387 225.476 531.271 202.398 507.049C202.398 507.049 189.704 463.219 220.86 459.758C252.016 456.298 751.663 440.15 751.663 440.15C751.663 440.15 765.51 432.076 755.124 391.706L410.103 403.24L406.641 180.627L854.361 177.167C854.361 177.167 863.593 357.103 850.9 396.319C850.9 396.319 418.18 422.848 393.948 410.161C393.948 410.161 388.178 140.257 398.564 134.49C408.949 128.723 831.283 119.495 831.283 119.495C831.283 119.495 875.132 116.035 872.824 143.717C870.516 171.4 870.516 383.632 870.516 383.632C870.516 383.632 873.978 414.774 843.976 417.081C813.974 419.388 436.643 430.922 436.643 430.922C436.643 430.922 373.177 442.457 370.87 400.933C368.562 359.41 370.87 152.945 370.87 152.945C370.87 152.945 373.177 116.035 405.487 116.035C437.797 116.035 745.893 116.035 745.893 116.035C745.893 116.035 760.894 43.3687 723.969 24.9138L223.168 22.6069C223.168 22.6069 201.244 19.1466 200.09 52.5962C198.936 86.0458 208.167 443.61 208.167 443.61C208.167 443.61 344.329 455.144 345.483 443.61C345.483 443.61 219.706 449.377 218.552 428.616L217.399 38.755L723.969 39.9084C723.969 39.9084 737.816 45.6756 737.816 95.2732C737.816 95.2732 766.663 30.681 730.892 8.76572L207.013 0.691683C207.013 0.691683 173.55 -2.76862 173.55 43.3687C173.55 89.5061 178.165 424.002 178.165 424.002C178.165 424.002 183.935 474.753 216.245 474.753C248.554 474.753 756.278 455.144 756.278 455.144L857.823 526.657L346.637 563.567L238.169 477.06C238.169 477.06 228.938 470.139 272.787 468.986C316.635 467.832 758.586 449.377 758.586 449.377C758.586 449.377 970.907 571.641 974.369 578.562C977.83 585.482 980.138 609.705 963.983 610.858C947.829 612.011 421.642 644.308 421.642 644.308C421.642 644.308 305.096 647.768 255.478 625.853C205.859 603.937 141.24 591.25 120.469 575.102C99.6989 558.953 32.7716 568.181 0.461914 621.239" stroke="#F26E65" stroke-miterlimit="10"/>
@@ -86,7 +86,7 @@ servicesList:
 hireCtaTitle: "Hire Developer"
 hireCtaSubTitle: "Hire Joomla Developers"
 hireCtaDesc: "Grow your business with skilled Joomla developers who provide versatile, secure, and scalable web solutions tailored to your needs. Enhance your online presence and achieve measurable success for your projects. From custom extensions to responsive design and seamless integration, our experts ensure high performance and a user-friendly experience."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 featuresSecSubTitle: Why Cypherox

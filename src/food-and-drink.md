@@ -245,7 +245,7 @@ phases:
 hireCtaTitle: "Transform the Food and Drink Industry with Expert Developers"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Partner with our team of skilled developers to create innovative, scalable, and efficient software solutions tailored to your business needs. From restaurant management systems to online ordering platforms, we ensure seamless integration and exceptional performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

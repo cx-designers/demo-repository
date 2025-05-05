@@ -352,6 +352,6 @@ phases:
 hireCtaTitle: "Achieve IT Excellence with Our Expert Consulting Services"
 hireCtaSubTitle: "Hire Expert Consultants"
 hireCtaDesc: "At Cypherox, we provide expert IT consulting services tailored to your business needs. Whether you need strategic IT planning, digital transformation, or cybersecurity solutions, our team is ready to guide you."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"          
 ---

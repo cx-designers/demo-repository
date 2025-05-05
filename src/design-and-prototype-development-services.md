@@ -3,7 +3,7 @@ layout: layouts/service-template/web-app-development-services.njk
 title: Design & Prototype Development | From Vision to Reality
 metaDescription: Transform ideas into interactive prototypes! Get expert UI/UX design and prototype development for seamless, user-friendly, and high-performing digital product.
 bodyClass: "design-prototyping-development"
-permalink: design-prototyping-development.html
+permalink: design-and-prototype-development-services.html
 bannersubTitle: "UI UX Design Services"
 bannerTitle: "Design and Prototype Development"
 bannerdesc: "The foundation of successful product development is transforming concepts into intuitive, interactive, and high-fidelity prototypes. Our Design & Prototype Development service ensures a seamless transition from idea to execution, leveraging UI/UX best practices, wireframing, and prototyping to create user-centric experiences. By validating designs early, we help businesses reduce development risks, enhance usability, and accelerate time to market with precision and innovation."
@@ -11,6 +11,15 @@ bannerHTML: '<svg width="658" height="407" viewBox="0 0 658 407" fill="none" xml
 <path d="M657.14 406.251H73.2308C73.2308 406.251 42.6368 409.661 53.2584 385.824L123.374 287.933H519.027L543.675 335.182L211.344 338.167L202.84 388.386L446.354 387.537L83.8524 332.196L139.518 250.473H524.126L524.974 76.3894H514.352L514.775 209.603L354.083 206.618L510.54 163.627L358.401 160.641L511.811 207.026L350.744 207.45V158.961L510.963 160.445L511.175 125.759H312.917L512.658 75.3289H313.764L511.583 124.275H311.434L311.858 73.8442L525.56 72.4085V18.6171H132.089V84.3675H285.711L133.67 114.061H285.385L287.454 84.2207L286.672 115.171L131.617 85.3301L133.05 152.369H285.727L134.337 185.881H288.92L286.9 152.255L290.191 186.305L132.936 154.915L132.513 257.913L528.59 260.246L541.02 272.694V21.1623C541.02 21.1623 541.655 0.409294 504.692 1.04559H139.094C139.094 1.04559 116.564 -0.227 117.851 22.3207L118.698 275.566L540.694 280.673L603.169 379.624C603.169 379.624 618.89 402.825 581.063 401.536L0.769531 399.431" stroke="#F26E65" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 '
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: UX UI Design 
+    url: /ui-ux-design-services.html
+  - title: Design And Prototype Development Services
+    url: javscript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -249,6 +258,6 @@ faqBoxList:
 hireCtaTitle: " Hire UI UX Design and Developer"
 hireCtaSubTitle: "Hire Experienced Developer"
 hireCtaDesc: "Boost your digital presence with expert UI/UX design and prototyping that enhances user engagement and conversions. Our designers craft intuitive interfaces, wireframes, and interactive prototypes for seamless user experiences. Hire our dedicated experts today to bring your vision to life!"
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With us"
 ---

@@ -215,7 +215,7 @@ phases:
 hireCtaTitle: "Expert Guidance for Blockchain Adoption & Growth"
 hireCtaSubTitle: "Hire Blockchain Consultant"
 hireCtaDesc: "Hire blockchain strategy consultants to develop tailored blockchain solutions, ensure compliance, and optimize system architecture for your business. Our experts provide end-to-end consulting services for a smooth blockchain journey."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

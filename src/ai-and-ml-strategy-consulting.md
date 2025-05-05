@@ -217,7 +217,7 @@ phases:
 hireCtaTitle: "Hire A Dedicated AI & ML Strategy Consultant To Unlock Business"
 hireCtaSubTitle: "Hire Dedicated Expert"
 hireCtaDesc: "Hire experienced AI and ML strategy consultants to develop customized AI roadmaps that drive efficiency, innovation, and growth. Our experts help businesses navigate AI adoption and maximize ROI."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

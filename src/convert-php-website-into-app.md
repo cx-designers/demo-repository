@@ -75,7 +75,7 @@ servicesList:
 hireCtaTitle: "Hire Expert Developer"
 hireCtaSubTitle: "Get a Seamless, Scalable, and User-Friendly Mobile App"
 hireCtaDesc: "At Cypherox, we specialize in converting PHP websites into powerful mobile applications that enhance user experience, performance, and scalability. With a focus on customization, security, and usability, we ensure your app stands out in the competitive market."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 featuresSecSubTitle: Why Pick Cypherox

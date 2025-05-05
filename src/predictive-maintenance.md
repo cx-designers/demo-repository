@@ -218,7 +218,7 @@ phases:
 hireCtaTitle: "Hire a Dedicated Predictive Maintenance Developer"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire expert AI developers to build predictive maintenance solutions that help reduce downtime, cut repair costs, and improve asset efficiency. Our AI-driven approach ensures accurate failure predictions, allowing businesses to plan maintenance proactively."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

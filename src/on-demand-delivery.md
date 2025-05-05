@@ -230,7 +230,7 @@ phases:
 hireCtaTitle: "Empower Your Business with Custom Solutions"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire expert developers to build scalable and efficient on-demand delivery applications. Whether you need custom last-mile delivery solutions, AI-powered logistics, or multi-vendor delivery apps, our team ensures seamless execution and performance."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

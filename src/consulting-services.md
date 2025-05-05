@@ -194,7 +194,7 @@ phases:
 hireCtaTitle: "Partner with Industry Specialists for Future-Ready Solutions"
 hireCtaSubTitle: "Hire Consulting Experts"
 hireCtaDesc: "Cypherox provides strategic consulting services that help businesses adopt emerging technologies, improve efficiency, and accelerate digital transformation. Our experts offer tailored roadmaps, hands-on implementation, and continuous support to ensure success."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 

@@ -225,7 +225,7 @@ phases:
 hireCtaTitle: "Enhance Business Performance with Powerful BI & Warehousing"
 hireCtaSubTitle: "Hire Data Experts"
 hireCtaDesc: "Our dedicated data engineers and BI specialists help businesses streamline data storage, optimize reporting, and drive smarter decisions. Whether you need real-time dashboards, predictive analytics, or scalable warehousing solutions, we ensure seamless data management."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

@@ -231,7 +231,7 @@ phases:
 hireCtaTitle: "Empower Your Business with AI-Powered Virtual Assistants"
 hireCtaSubTitle: "Hire AI Developers"
 hireCtaDesc: "Our dedicated AI developers specialize in building, training, and deploying intelligent virtual assistants that enhance business efficiency. Whether you need an AI assistant for customer service, workflow automation, or voice-based interactions, we provide custom AI solutions that deliver real-time, intelligent support."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

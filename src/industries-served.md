@@ -160,7 +160,7 @@ blogRelatedCtegory:
 hireCtaTitle: "Build Scalable Industry-Specific Solutions with Expert"
 hireCtaSubTitle: "Hire Dedicated Developers"
 hireCtaDesc: "Hire dedicated developers to build, optimize, and maintain industry-specific applications tailored to your business needs. Our experts specialize in custom software, AI-driven automation, cloud integration, and enterprise solutions, ensuring efficiency, security, and innovation in every project."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team" 
 
 faqSubtitle : "FAQs"

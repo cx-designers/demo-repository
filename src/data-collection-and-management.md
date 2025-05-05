@@ -225,7 +225,7 @@ phases:
 hireCtaTitle: "Simplify Data Collection & Improve Efficiency with Our Experts"
 hireCtaSubTitle: "Hire Data Experts"
 hireCtaDesc: "Our dedicated data professionals help businesses streamline data collection, ensure accuracy, and maintain security for optimal decision-making. We provide custom data management solutions to meet industry-specific requirements and enhance operational efficiency."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

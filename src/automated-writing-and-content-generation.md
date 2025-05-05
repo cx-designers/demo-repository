@@ -223,7 +223,7 @@ phases:
 hireCtaTitle: "Enhance Content Creation with AI-Powered Writing Tools"
 hireCtaSubTitle: "Hire AI Developers"
 hireCtaDesc: "Our dedicated AI developers specialize in building intelligent content generation platforms that automate writing tasks for blogs, marketing, and business reports. Whether you need AI-generated SEO articles or personalized ad copy, we provide scalable AI writing solutions for your business."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

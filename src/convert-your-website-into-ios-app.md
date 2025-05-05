@@ -286,7 +286,7 @@ phases:
 hireCtaTitle: "Get a High-Quality iOS App for Your Business"
 hireCtaSubTitle: "Hire Experts"
 hireCtaDesc: "At Cypherox, we specialize in seamless website-to-iOS app conversion, ensuring a highly engaging, optimized, and user-friendly mobile experience. Whether it’s an eCommerce store, business platform, or content website, our skilled developers will help you create a robust iOS application."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team" 
 
 faqTitle : "Everything You Need to Know About Bringing Your Website to iOS"

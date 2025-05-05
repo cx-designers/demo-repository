@@ -223,7 +223,7 @@ phases:
 hireCtaTitle: "Create Powerful Voice-Enabled Experiences with AI"
 hireCtaSubTitle: "Hire VUI Developers"
 hireCtaDesc: "Our dedicated VUI developers specialize in building and integrating AI-powered voice interfaces that improve user experience across mobile apps, websites, smart devices, and enterprise platforms. Whether you need a voice-controlled app or an enterprise-level VUI solution, we deliver tailored AI-driven voice interactions for your business."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

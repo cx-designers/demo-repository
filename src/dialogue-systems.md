@@ -224,7 +224,7 @@ phases:
 hireCtaTitle: "Custom AI Dialogue Systems for Smarter Communication"
 hireCtaSubTitle: "Hire AI Developers"
 hireCtaDesc: "Our dedicated AI engineers develop intelligent dialogue systems that power chatbots, voice assistants, and automated communication platforms. Whether you need a business-specific AI system or a scalable NLP-based solution, we deliver tailored AI dialogue solutions to meet your needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

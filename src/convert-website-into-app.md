@@ -295,7 +295,7 @@ phases:
 hireCtaTitle: "Seamless Transition from Web to Mobile with Expert Developers"
 hireCtaSubTitle: "Hire Experts"
 hireCtaDesc: "At Cypherox, we ensure a hassle-free website-to-app conversion with a user-friendly interface, enhanced performance, and full mobile compatibility. Whether it's an eCommerce store, business website, or content platform, our skilled developers are ready to help you."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team" 
 
 

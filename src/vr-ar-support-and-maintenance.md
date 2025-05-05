@@ -220,7 +220,7 @@ phases:
 hireCtaTitle: "Ensure Long-Term Stability of Your AR & VR Applications"
 hireCtaSubTitle: "Hire AR/VR Experts"
 hireCtaDesc: "Hire our dedicated AR/VR support specialists to monitor, update, and optimize your applications for long-term success. Our experts ensure smooth operation, enhanced security, and timely updates, keeping your AR/VR solutions at their best."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

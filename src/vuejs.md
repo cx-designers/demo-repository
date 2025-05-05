@@ -9,7 +9,7 @@ bannerTitle: "VueJS Development Services"
 bannerdesc: "Looking to build fast, lightweight, and interactive web apps? Our VueJS development services leverage the power of Vue’s progressive framework. Hire skilled Vue.js developers today and transform your ideas into scalable solutions!"
 bannerbuttonlargeClass: "large-btn"
 bannerbuttontext: Talk To Our Developers
-buttonLink: "/contact-us.html"
+buttonLink: "/get-in-touch.html"
 bannerHTML: '<svg width="891" height="419" viewBox="0 0 891 419" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_893_6)">
 <path d="M368.996 70.0117H410.984L436.96 113.546L463.647 70.0117L505.458 69.834L437.138 186.401L368.996 70.0117Z" stroke="#F26E65" stroke-miterlimit="10"/>
@@ -128,7 +128,7 @@ servicesList:
 hireCtaTitle: "Hire Vue.js Developers"
 hireCtaSubTitle: "Hire experienced Vue.js developers to ensure the success of your projects."
 hireCtaDesc: "We offer flexible hiring models that connect you with skilled Vue.js developers who specialize in building lightweight, scalable, and interactive web applications. Whether you need a single developer or an entire team, we provide customized resources to meet your project goals. Partner with us to enhance your Vue.js development experience and achieve measurable results."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

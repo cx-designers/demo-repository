@@ -222,7 +222,7 @@ phases:
 hireCtaTitle: "Build Immersive AR & VR Apps with Experts"
 hireCtaSubTitle: "Hire AR/VR Developer"
 hireCtaDesc: "Hire our AR/VR app development specialists to create high-quality, interactive applications that enhance digital engagement. Our experts ensure seamless functionality, intuitive interfaces, and stunning visual experiences for all industries."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

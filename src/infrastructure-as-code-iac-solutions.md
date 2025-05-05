@@ -3,7 +3,7 @@ layout: layouts/mobile-app-development.njk
 title: Infrastructure as Code (IaC) | Automate & Scale Effortlessly
 metaDescription: Manage infrastructure with Infrastructure as Code (IaC). Automate deployments, reduce errors & scale efficiently with code-driven cloud management.
 bodyClass: "infrastructure-as-code"
-permalink: infrastructure-as-code.html
+permalink: infrastructure-as-code-iac-solutions.html
 bannersubTitle: "Cloud/DevOps Services"
 bannerTitle: "Efficient Infrastructure as Code (IaC) Solutions"
 bannerdesc: "At Cypherox Technologies, we streamline infrastructure management with Infrastructure as Code (IaC), automating provisioning, deployment, and configuration. Our solutions enhance scalability, consistency, and efficiency while eliminating manual errors. With seamless CI/CD integration, we help businesses achieve resilient, cost-effective, and future-proof infrastructure."
@@ -57,6 +57,16 @@ bannerHTML: '<svg width="304" height="286" viewBox="0 0 304 286" fill="none" xml
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html/
+  - title: Cloud And DevOps Services
+    url: /cloud-and-devops-services.html
+  - title: Infrastructure As Code (IaC) Solutions
+    url: javscript:void(0);
 
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
@@ -245,7 +255,7 @@ phases:
 hireCtaTitle: "Hire Infrastructure as Code (IaC) Experts"
 hireCtaSubTitle: "Hire Dedicated Developer"
 hireCtaDesc: "Empower your IT operations with expert IaC developers who specialize in cloud automation, configuration management, and CI/CD integration. Our team ensures scalable, secure, and cost-effective infrastructure tailored to your business needs."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---

@@ -8,7 +8,7 @@ bannersubTitle: "App Solutions"
 bannerTitle: "Event Planning App Development Company"
 bannerdesc: "Streamline event management with our Event Planning App Development services. We create apps that simplify scheduling, guest management, and task organization. Our dedication ensures your app radiates elegance and efficiency, making event planning effortless and stress-free for users."
 bannerbuttontext: Inquire Now
-buttonLink: "/contact-us.html"
+buttonLink: "/get-in-touch.html"
 bannerHTML: '<svg width="864" height="500" viewBox="0 0 864 500" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M863.18 309.3H599.067C599.067 309.3 641.857 318.722 637.148 239.042V38.5095C637.148 38.5095 641.243 1.84416 579.821 1.02483H282.744C282.744 1.02483 241.796 -6.96371 245.277 60.017H637.148V129.046H322.464C312.227 129.046 304.037 137.239 304.037 147.481C304.037 157.723 312.227 165.916 322.464 165.916H546.653C556.89 165.916 565.08 174.11 565.08 184.351V188.448C565.08 198.69 556.89 206.883 546.653 206.883H318.983C308.746 206.883 300.557 215.076 300.557 225.318V246.211H464.143H245.277V59.6074V280.009C245.277 280.009 243.025 309.095 282.335 312.987H145.978C145.978 312.987 -0.819622 293.733 0.818293 498.976" stroke="#F26E65" stroke-width="0.7946" stroke-miterlimit="3.1785" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 
@@ -76,7 +76,7 @@ servicesList:
 hireCtaTitle: "Hire Developers"
 hireCtaSubTitle: "Hire App Developers"
 hireCtaDesc: "Create innovative Event Planning apps to streamline businesses and user experiences. Offer tools for seamless event scheduling, guest management, and real-time updates for unforgettable occasions."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 featuresSecSubTitle: Why Cypherox

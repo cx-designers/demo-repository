@@ -110,7 +110,7 @@ servicesList:
 hireCtaTitle: "Hire Developer"
 hireCtaSubTitle: "Hire iOS Developer"
 hireCtaDesc: "Looking to build cutting-edge iOS applications for your business or project? Our expert iOS app developers specialize in crafting high-performance, user-friendly apps tailored to your unique needs. From ideation to deployment, we ensure seamless integration, innovative design, and robust functionality. Partner with us to transform your vision into a scalable, market-ready iOS solution."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 faqSubtitle : "FAQs"

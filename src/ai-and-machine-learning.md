@@ -216,7 +216,7 @@ phases:
 hireCtaTitle: "Accelerate Innovation with AI-Driven Intelligence"
 hireCtaSubTitle: "Hire AI & ML Experts"
 hireCtaDesc: "Our dedicated AI and ML developers help businesses integrate intelligent automation, advanced analytics, and self-learning algorithms for better efficiency. Whether it's AI-powered chatbots, predictive analytics, or deep learning models, we ensure seamless AI integration into your business."
-hireCtaButtonLink : "/contact-us.html"
+hireCtaButtonLink : "/get-in-touch.html"
 hireCtaButtonText: "Connect With Our Team"
 
 ---
