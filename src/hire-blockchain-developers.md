@@ -18,6 +18,16 @@ bannerHTML: '<svg width="797" height="757" viewBox="0 0 797 757" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Blockchain Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire Blockchain Developers to
 devTitlePart: Create Secure Decentralized Apps

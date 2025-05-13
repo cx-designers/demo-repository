@@ -3,7 +3,7 @@ layout: layouts/hire-templates/hireIosDevloper.njk
 title: Hire Expert Web Developers Today | Hire Web Experts
 metaDescription: Get high-performing websites and scalable web apps built by top front-end, back-end, and full stack developers—customized to your business goals.
 bodyClass: "hireDeveloper-page web-developer"
-permalink: hire-web-developer.html
+permalink: hire-web-developers.html
 bannersubTitle: "Hire Developers"
 bannerTitle: "Hire Web Developers"
 bannerdesc: "Find skilled web developers at Cypherox Technologies to design and build dynamic, responsive websites tailored to your business needs. Our team specializes in delivering high-quality web development services that drive growth, enhance user engagement, and ensure your online presence stands out in a competitive market."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="875" height="561" viewBox="0 0 875 561" fill="none" xml
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Web Developers
+    url: javscript:void(0);
 
 devSubTitle: What We Do
 devTitle: Hire Web Developers to Build

@@ -18,6 +18,16 @@ bannerHTML: '<svg width="934" height="757" viewBox="0 0 934 757" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire ML Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire ML Developers for Advanced
 devTitlePart: Machine Learning Applications

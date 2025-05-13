@@ -18,6 +18,16 @@ bannerHTML: '<svg width="978" height="503" viewBox="0 0 978 503" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire AngularJS Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire AngularJS Developers for
 devTitlePart: Dynamic Single-Page Applications

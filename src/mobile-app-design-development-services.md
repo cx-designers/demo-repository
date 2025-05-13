@@ -15,7 +15,7 @@ breadcrumbOverride:
   - title: Home
     url: /
   - title: Services
-    url: /services.html/
+    url: /services.html
   - title: UX UI Design 
     url: /ui-ux-design-services.html
   - title: Mobile App Design Development Services
@@ -93,11 +93,11 @@ servicesList:
     description: "Want an app that speaks both iOS and Android? Our heroes code in React Native and Flutter—giving you that magical native feel on both platforms. It’s like having two awesome apps in one go!"
   - count: "05."
     title: "Hire Dedicated App Developers"
-    pageLink: "/hire-mobile-app-developer.html"
+    pageLink: "/hire-mobile-app-developers.html"
     description: "Need a tech genius? Hire our dedicated app heroes! With 1000+ apps like Skyrise and WaveTech under their belts, they’ll turn your app dreams into jaw-dropping reality!"
   - count: "06."
     title: "App Development Consulting"
-    pageLink: "/mobile-app-development-consulting.html"
+    pageLink: "/mobile-app-development-consulting-services.html"
     description: "Building a giant app empire? Our app developers help you plan for success! We'll cook up a strategy that fits your business dreams and guides you to the treasure chest of ROI. Think of us as your app roadmap makers!"
 
 clientTitle: "Our Clients"

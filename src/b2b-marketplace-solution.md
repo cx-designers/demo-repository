@@ -20,6 +20,16 @@ bannerHTML: '<svg width="891" height="525" viewBox="0 0 891 525" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html
+  - title: B2B Mobile App Development Services
+    url: /b2b-mobile-app-development-services.html
+  - title: B2B Marketplace Solution
+    url: javscript:void(0);
+
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
 clients:

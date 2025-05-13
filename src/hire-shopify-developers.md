@@ -3,7 +3,7 @@ layout: layouts/hire-templates/hireIosDevloper.njk
 title: Hire Shopify Store Developers | Hire Shopify Experts
 metaDescription: Launch or scale your Shopify store with expert developers. Custom themes, integrations, and optimized checkout experiences that drive sales.
 bodyClass: "hireDeveloper-page hire-shopify-developer"
-permalink: hire-shopify-developer.html
+permalink: hire-shopify-developers.html
 bannersubTitle: "Hire Developers"
 bannerTitle: "Hire Shopify Developers"
 bannerdesc: "Partner with Shopify developers at Cypherox Technologies to design and develop high-converting e-commerce stores. Our Shopify web development services leverage robust tools and themes to deliver a seamless shopping experience that drives sales and customer loyalty."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="1417" height="727" viewBox="0 0 1417 727" fill="none" x
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Shopify Developers
+    url: javscript:void(0);
 
 devSubTitle: What We Do
 devTitle: Hire Shopify Developers to Create

@@ -18,6 +18,16 @@ bannerHTML: '<svg width="753" height="533" viewBox="0 0 753 533" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire A Front-End Web Developer
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire a Front-End Web Developer
 devTitlePart: for Stunning User Interfaces

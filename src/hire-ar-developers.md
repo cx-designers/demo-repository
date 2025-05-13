@@ -18,6 +18,16 @@ bannerHTML: '<svg width="755" height="598" viewBox="0 0 755 598" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire AR Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire AR Developers for Immersive
 devTitlePart: Augmented Reality Experiences

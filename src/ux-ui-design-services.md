@@ -17,9 +17,9 @@ breadcrumbOverride:
   - title: Home
     url: /
   - title: Services
-    url: /services.html/
+    url: /services.html
   - title: UX UI Design Services
-    url: /
+    url: javscript:void(0);
 
 
 clientTitle: "Our Clients"

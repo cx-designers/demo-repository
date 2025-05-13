@@ -3,7 +3,7 @@ layout: layouts/hire-templates/hireIosDevloper.njk
 title: Hire Expert Digital Marketers for Business Growth | Cypherox
 metaDescription: Scale your business with digital marketing experts skilled in SEO, PPC, content, email, and social media—results-driven campaigns that convert.
 bodyClass: "hireDeveloper-page hire-digital-marketers-developer"
-permalink: hire-digital-marketers-developer.html
+permalink: hire-digital-marketers.html
 bannersubTitle: "Hire Marketers"
 bannerTitle: "Hire Digital Marketers"
 bannerdesc: "Engage digital marketers at Cypherox Technologies to boost your online presence and drive measurable growth. Our digital marketing services include SEO, PPC, social media, and content marketing strategies tailored to achieve impactful results and elevate your brand’s visibility."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="849" height="708" viewBox="0 0 849 708" fill="none" xml
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Digital Marketers
+    url: javscript:void(0);
 
 devSubTitle: What We Do
 devTitle: Hire Digital Marketers to Drive

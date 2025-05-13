@@ -3,7 +3,7 @@ layout: layouts/hire-templates/hireIosDevloper.njk
 title: Hire ChatBot Developer | Hire Our ChatBot Experts | Cypherox
 metaDescription: Automate support and improve user engagement with AI-powered chatbots. Get custom conversational flows for web, mobile, and eCommerce.
 bodyClass: "hireDeveloper-page hire-chatbot-developer"
-permalink: hire-chatbot-developer.html
+permalink: hire-chatbot-developers.html
 bannersubTitle: "Hire Developers"
 bannerTitle: "Hire Chatbot Developers"
 bannerdesc: "Collaborate with chatbot developers at Cypherox Technologies to create AI-powered conversational interfaces. Our chatbot development services enhance customer support, automate tasks, and improve engagement on your platform, providing a smarter way to interact with your audience."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="599" height="740" viewBox="0 0 599 740" fill="none" xml
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Chatbot Developers
+    url: javscript:void(0);
 
 devSubTitle: What We Do
 devTitle: Hire Chatbot Developers to Enhance

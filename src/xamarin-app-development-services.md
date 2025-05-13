@@ -23,6 +23,18 @@ bannerHTML: '<svg width="1315" height="542" viewBox="0 0 1315 542" fill="none" x
 </svg>
 '
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html
+  - title: App Development
+    url: /application-development.html
+  - title: Cross Platform
+    url: /cross-platform-app-development-services.html
+  - title: Xamarin App Development Services
+    url: javscript:void(0);
+
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
 clients:

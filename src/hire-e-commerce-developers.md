@@ -18,6 +18,16 @@ bannerHTML: '<svg width="818" height="764" viewBox="0 0 818 764" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire E-Commerce Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire E-Commerce Developers to
 devTitlePart: Build Scalable Online Stores

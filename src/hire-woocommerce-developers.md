@@ -18,6 +18,16 @@ bannerHTML: '<svg width="927" height="571" viewBox="0 0 927 571" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire WooCommerce Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire WooCommerce Developers for
 devTitlePart: Flexible WordPress E-Commerce

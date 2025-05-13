@@ -3,7 +3,7 @@ layout: layouts/hire-templates/hireIosDevloper.njk
 title: Hire Skilled DevOps Developers for Automation | Cypherox
 metaDescription: Streamline your CI/CD pipeline and cloud infrastructure with expert DevOps developers. Enable faster deployments, automation, and scalability.
 bodyClass: "hire-devops"
-permalink: hire-devops-developer.html
+permalink: hire-devops-developers.html
 bannersubTitle: "Hire Developers"
 bannerTitle: "Hire DevOps Developers"
 bannerdesc: "Work with DevOps developers from Cypherox Technologies to streamline workflows and improve deployment efficiency. Our DevOps development services ensure automation, scalability, and seamless collaboration across your tech stack, empowering your team to deliver faster and more reliable solutions."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="1112" height="583" viewBox="0 0 1112 583" fill="none" x
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire DevOps Developers
+    url: javscript:void(0);
 
 devSubTitle: What We Do
 devTitle: Hire DevOps Developers for

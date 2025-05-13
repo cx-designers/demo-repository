@@ -19,6 +19,16 @@ bannerHTML: '<svg width="1542" height="555" viewBox="0 0 1542 555" fill="none" x
 </svg>
 '
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html
+  - title: Metaverse Development Services
+    url: /metaverse-development-services.html
+  - title: Virtual Education And Training Services
+    url: javscript:void(0);
+
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
 clients:

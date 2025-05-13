@@ -20,6 +20,14 @@ bannerHTML: '<svg width="662" height="624" viewBox="0 0 662 624" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html
+  - title: B2B Mobile App Development Services
+    url: javscript:void(0);
+
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
 clients:
@@ -50,32 +58,32 @@ secTitle: "Core Services of B2B Mobile App Development Services"
 servicesList:
   - count: "01."
     title: B2B Sales Enablement App
-    pageLink: "javascript:;"
+    pageLink: "/b2b-sales-enablement-app-solutions.html"
     description: Empower sales teams with apps that provide real-time insights, CRM integration, and resource management. Boost productivity and close deals faster with tailored tools. Elevate sales today.
 
   - count: "02."
     title: B2B eCommerce Platform
-    pageLink: "javascript:;"
+    pageLink: "/b2b-ecommerce-platform-solutions.html"
     description: Build robust eCommerce platforms for seamless B2B transactions. Include features like bulk ordering, payment gateways, and inventory management for a smooth buying experience. Transform commerce now.
 
   - count: "03."
     title: B2B Order Management App
-    pageLink: "javascript:;"
+    pageLink: "/b2b-order-management-app-solutions.html"
     description: Simplify order processing with apps that automate workflows, track orders, and integrate with ERP systems. Ensure accuracy, efficiency, and real-time updates for better customer satisfaction. Streamline now.
 
   - count: "04."
     title: B2B Logistics and Delivery App
-    pageLink: "javascript:;"
+    pageLink: "/b2b-logistics-and-delivery-app-solutions.html"
     description: Optimize supply chain operations with apps for route planning, shipment tracking, and delivery management. Enhance transparency and reduce costs for logistics providers. Modernize logistics today.
 
   - count: "05."
     title: B2B Marketplace Solution
-    pageLink: "javascript:;"
+    pageLink: "/b2b-marketplace-solution.html"
     description: Develop scalable marketplaces that connect buyers and suppliers seamlessly. Add features like catalogs, pricing tiers, and secure payments to facilitate B2B trade. Expand your reach now.
 
   - count: "06."
     title: B2B Communication and Collaboration App
-    pageLink: "javascript:;"
+    pageLink: "/b2b-communication-and-collaboration-app-solutions.html"
     description: Enhance teamwork with apps for secure messaging, file sharing, and project management. Foster collaboration across teams and departments for improved efficiency. Connect teams today.
 
 

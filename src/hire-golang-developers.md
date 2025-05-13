@@ -18,6 +18,16 @@ bannerHTML: '<svg width="593" height="626" viewBox="0 0 593 626" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Golang Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire Golang Developers for Backend  
 devTitlePart: and Mobile Integration

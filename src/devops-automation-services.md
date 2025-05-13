@@ -30,7 +30,7 @@ breadcrumbOverride:
   - title: Home
     url: /
   - title: Services
-    url: /services.html/
+    url: /services.html
   - title: Cloud And DevOps Services
     url: /cloud-and-devops-services.html
   - title: DevOps Automation Services

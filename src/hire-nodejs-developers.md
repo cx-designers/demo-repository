@@ -18,6 +18,16 @@ bannerHTML: '<svg width="762" height="592" viewBox="0 0 762 592" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire NodeJS Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire NodeJS Developers for 
 devTitlePart: High-Performance Backend Solutions

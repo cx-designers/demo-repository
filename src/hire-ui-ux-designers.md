@@ -18,6 +18,16 @@ bannerHTML: '<svg width="999" height="705" viewBox="0 0 999 705" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire UI/UX Designers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire UI/UX Designers to Craft
 devTitlePart: Intuitive and Engaging Interfaces

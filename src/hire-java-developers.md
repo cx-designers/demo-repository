@@ -18,6 +18,16 @@ bannerHTML: '<svg width="748" height="611" viewBox="0 0 748 611" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Java Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire Java Developers for Scalable
 devTitlePart: Android App Development

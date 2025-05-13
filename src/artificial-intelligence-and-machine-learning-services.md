@@ -15,7 +15,7 @@ breadcrumbOverride:
   - title: Home
     url: /
   - title: Services
-    url: /services.html/
+    url: /services.html
   - title: Artificial Intelligence And Machine Learning Services 
     url : javascript:void(0);
 
@@ -136,35 +136,35 @@ servicesList:
   - count: "02."
     title: "AI-Powered Recommendation System"
     description: "Enhance user experience with AI-based recommendation engines that analyze customer behavior and suggest relevant content or products."
-    pageLink: ""
+    pageLink: "/ai-powered-recommendation-system-solutions.html"
   - count: "03."
     title: "Predictive Maintenance"
     description: " Utilize AI-powered predictive analytics to detect potential failures, reduce downtime, and improve equipment reliability."
-    pageLink: ""
+    pageLink: "/predictive-maintenance-services.html"
   - count: "04."
     title: "Fraud Detection"
     description: "Implement AI-driven fraud detection systems that analyze patterns, identify anomalies, and prevent fraudulent activities."
-    pageLink: ""
+    pageLink: "/fraud-detection-solutions.html"
   - count: "05."
     title: "Automated Machine Learning"
     description: "Accelerate AI adoption with AutoML solutions that automate model selection, tuning, and deployment for efficiency."
-    pageLink: ""
+    pageLink: "/automated-machine-learning-services.html"
   - count: "06."
     title: "Reinforcement Learning"
     description: "Develop AI models that learn and improve through real-time decision-making and reward-based optimization."
-    pageLink: ""
+    pageLink: "/reinforcement-learning-solutions.html"
   - count: "07."
     title: "Model Interpretation and Explanation"
     description: "Ensure transparency in AI models with explainable AI techniques that provide insights into decision-making processes."
-    pageLink: ""
+    pageLink: "/model-interpretation-and-explanation-solutions.html"
   - count: "08."
     title: "AI and ML Strategy Consulting"
     description: "Get expert guidance on AI adoption, strategy, and implementation to drive business growth and innovation."
-    pageLink: ""
+    pageLink: "/ai-and-ml-strategy-consulting-services.html"
   - count: "09."
     title: "AI and ML Product Development"
     description: "Build scalable AI-powered products from concept to deployment, tailored to meet industry-specific needs."
-    pageLink: ""
+    pageLink: "/ai-and-ml-product-development-services.html"
 
 hasTechnologyStack: "no" 
 

@@ -9,37 +9,37 @@
       "img": "assets/img/entertainment.webp",
       "alt": "Entertainment",
       "title": "Entertainment",
-      "pageLink" : "/entertainment.html"
+      "pageLink" : "/entertainment-industry-services.html"
     },
     {
       "img": "assets/img/education.webp",
       "alt": "Education",
       "title": "Education",
-      "pageLink" : "/Education.html"
+      "pageLink" : "/education-industry-services.html"
     },
     {
       "img": "assets/img/health-care.webp",
       "alt": "Health Care",
       "title": "Health Care",
-      "pageLink" : "/healthcare.html"
+      "pageLink" : "/healthcare-industry-services.html"
     },
     {
       "img": "assets/img/transportation.webp",
       "alt": "Transportation",
       "title": "Transportation",
-      "pageLink" : "/transportation.html"
+      "pageLink" : "/transportation-industry-services.html"
     },
     {
       "img": "assets/img/real-estate.webp",
       "alt": "Real Estate",
       "title": "Real Estate",
-      "pageLink" : "/real-estate.html"
+      "pageLink" : "/real-estate-industry-services.html"
     },
     {
       "img": "assets/img/social-network.webp",
       "alt": "Social Network",
       "title": "Social Network",
-      "pageLink" : "/social-networking.html"
+      "pageLink" : "/social-networking-industry-services.html"
     }
   ]
 }

@@ -3,7 +3,7 @@ layout: layouts/hire-templates/hireIosDevloper.njk
 title: Hire Skilled WordPress Developers | Hire Dedicated Experts
 metaDescription: Get custom WordPress websites and themes with fast loading, SEO optimization, and easy CMS control—built by expert WordPress developers.
 bodyClass: "hireDeveloper-page hire-wordpress-developer"
-permalink: hire-wordpress-developer.html
+permalink: hire-wordpress-developers.html
 bannersubTitle: "Hire Developers"
 bannerTitle: "Hire WordPress Developers"
 bannerdesc: "Hire skilled WordPress developers from Cypherox Technologies to create custom, SEO-friendly websites. Our WordPress web development services ensure flexibility, security, and ease of use, making it the ideal solution for businesses of all sizes looking to establish a strong online presence."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="926" height="581" viewBox="0 0 926 581" fill="none" xml
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire WordPress Developers
+    url: javscript:void(0);
 
 devSubTitle: What We Do
 devTitle: Hire WordPress Developers for Custom

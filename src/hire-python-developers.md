@@ -18,6 +18,16 @@ bannerHTML: '<svg width="820" height="498" viewBox="0 0 820 498" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Python Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire Python Developers for Versatile
 devTitlePart: and Powerful Web Solutions

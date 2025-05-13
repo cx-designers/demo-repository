@@ -18,6 +18,16 @@ bannerHTML: '<svg width="695" height="683" viewBox="0 0 695 683" fill="none" xml
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire VueJS Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire VueJS Developers for Lightweight
 devTitlePart: and Scalable Web Apps

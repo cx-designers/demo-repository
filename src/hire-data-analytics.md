@@ -18,6 +18,16 @@ bannerHTML: '<svg width="1354" height="526" viewBox="0 0 1354 526" fill="none" x
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Data Analytics
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire Data Analytics Experts for
 devTitlePart: Insightful Business Decisions

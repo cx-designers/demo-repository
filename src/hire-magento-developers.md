@@ -12,6 +12,16 @@ bannerHTML: '<svg width="1535" height="788" viewBox="0 0 1535 788" fill="none" x
 <path d="M1534.47 341.043C1534.47 341.043 1484.15 126.921 1321.25 184.286C1321.25 184.286 1289.65 342.884 1277.07 402.396C1274.31 414.973 1262.35 423.563 1249.77 421.722" stroke="#F26E65" stroke-miterlimit="10"/>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Magento Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire Magento Developers for
 devTitlePart: Enterprise-Level E-Commerce Solutions

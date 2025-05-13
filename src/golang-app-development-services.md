@@ -15,6 +15,18 @@ bannerHTML: '
 </svg>
 '
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html
+  - title: App Development
+    url: /application-development.html
+  - title: Framework
+    url: /framework-app-development-services.html
+  - title: Golang App Development Services
+    url: javscript:void(0);
+
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
 clients:

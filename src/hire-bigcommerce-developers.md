@@ -18,6 +18,16 @@ bannerHTML: '<svg width="1140" height="659" viewBox="0 0 1140 659" fill="none" x
 </defs>
 </svg>'
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire BigCommerce Developers
+    url: javscript:void(0);
+
 devSubTitle: What We Do
 devTitle: Hire BigCommerce Developers to
 devTitlePart: Launch Robust Online Platforms

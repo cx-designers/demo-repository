@@ -15,7 +15,7 @@ breadcrumbOverride:
   - title: Home
     url: /
   - title: Services
-    url: /services.html/
+    url: /services.htm
   - title: Cloud And DevOps Services
     url: javscript:void(0);
 

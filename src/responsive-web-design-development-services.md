@@ -18,7 +18,7 @@ breadcrumbOverride:
   - title: Home
     url: /
   - title: Services
-    url: /services.html/
+    url: /services.html
   - title: UX UI Design 
     url: /ui-ux-design-services.html
   - title: Responsive Web Design Development Services

@@ -6,7 +6,7 @@
       "title": "Real Estate",
       "image": "/assets/img/real-estate.webp",
       "description": "We make property buying and selling easier with apps like Bada Property and Reposit, managing documents and property details.",
-      "catLink": "/real-estate.html"
+      "catLink": "/real-estate-industry-services.html"
     },
     {
       "title": "Food & Beverages",
@@ -18,7 +18,7 @@
       "title": "Social Networking",
       "image": "/assets/img/social-network.webp",
       "description": "We've built apps like Swype, Loop, and My Circle that connect people worldwide, helping them make new connections and plan events.",
-      "catLink": "/social-networking.html"
+      "catLink": "/social-networking-industry-services.html"
     },
     {
       "title": "E-commerce",
@@ -30,13 +30,13 @@
       "title": "Health and Fitness",
       "image": "/assets/img/health-care.webp",
       "description": "Stay fit with apps like Ryan Spiteri Fitness, Conduet Med for connecting patients and doctors, and Get Fit Buddy for tracking your fitness journey.",
-      "catLink": "/health-and-fitness.html"
+      "catLink": "/health-and-fitness-industry-services.html"
     },
     {
       "title": "Education",
       "image": "/assets/img/education.webp",
       "description": "Our apps, such as School Reviewer and Counting in Japanese, help in learning new things or connecting students, teachers, and parents.",
-      "catLink": "/education.html"
+      "catLink": "/education-industry-services.html"
     },
     {
       "title": "Hospitality",
@@ -48,7 +48,7 @@
       "title": "Finance",
       "image": "/assets/img/finance.webp",
       "description": "Manage your money smarter with apps like PayNow for Stripe and Pocket Wallet, keeping your financial documents secure.",
-      "catLink": "/finance.html"
+      "catLink": "/finance-industry-services.html"
     }
   ]
 }

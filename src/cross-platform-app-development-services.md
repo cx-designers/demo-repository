@@ -14,6 +14,16 @@ bannerHTML: '<svg width="800" height="800" viewBox="0 0 467 193" fill="none" xml
 </svg>
 '
 
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html
+  - title: App Development
+    url: /application-development.html
+  - title: Cross-Platform App Development Services
+    url: javscript:void(0);
+
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
 clients:

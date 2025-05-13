@@ -3,7 +3,7 @@ layout: layouts/hire-templates/hireIosDevloper.njk
 title: Hire Graphic Designer | Hire Our Graphics Experts | Cypherox
 metaDescription: Enhance your brand with stunning visuals crafted by expert designers. Logos, banners, packaging, social media assets, and marketing creatives.
 bodyClass: "hireDeveloper-page hire-graphic-designer"
-permalink: hire-graphic-designer.html
+permalink: hire-graphic-designers.html
 bannersubTitle: "Hire Designers"
 bannerTitle: "Hire Graphic Designers"
 bannerdesc: "Partner with graphic designers at Cypherox Technologies to craft visually appealing app designs. Our app designing services ensure creativity, usability, and brand consistency for your digital products, helping you stand out in a crowded marketplace and deliver exceptional user experiences."
@@ -17,6 +17,16 @@ bannerHTML: '<svg width="1217" height="571" viewBox="0 0 1217 571" fill="none" x
 </clipPath>
 </defs>
 </svg>'
+
+breadcrumbOverride:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services.html 
+  - title: Hire Dedicated Developers
+    url: /hire-dedicated-developers.html
+  - title: Hire Graphic Designers
+    url: javscript:void(0);
 
 devSubTitle: What We Do
 devTitle: Hire Graphic Designers for
