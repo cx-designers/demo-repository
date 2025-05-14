@@ -13,55 +13,55 @@
       "blogCategory": "App Development",
       "blogCategoryDesc": "The Ultimate Guide To Developing An On-Demand App",
       "blogCategoryImg": "/assets/img/blog-1-thumb.jpg",
-      "blogCategoryLink": "/blog/the-ultimate-guide-to-developing-an-on-demand-app"
+      "blogCategoryLink": "/blog/the-ultimate-guide-to-developing-an-on-demand-app.html"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Ultimate SEO Trends to Boost Your Website Ranking In 2022",
       "blogCategoryImg": "/assets/img/blog-2-thumb.jpg",
-      "blogCategoryLink": "/blog/ultimate--seo-trends-to-boost-your-website-ranking-in-2022"
+      "blogCategoryLink": "/blog/ultimate--seo-trends-to-boost-your-website-ranking-in-2022.html"
     },
     {
       "blogCategory": "Development",
       "blogCategoryDesc": "8 Latest Mobile App Development Trends to Follow in 2022",
       "blogCategoryImg": "/assets/img/blog-3-thumb.jpg",
-      "blogCategoryLink": "/blog/8-latest-mobile-app-development-trends-to-follow-in-2022"
+      "blogCategoryLink": "/blog/8-latest-mobile-app-development-trends-to-follow-in-2022.html"
     },
     {
       "blogCategory": "Seo",
       "blogCategoryDesc": "Awesome WordPress Web Development Tools You Can't-Miss in 2022",
       "blogCategoryImg": "/assets/img/blog-4-thumb.jpg",
-      "blogCategoryLink": "/blog/awesome-wordPress-web-development-tools-you-cant-miss-in-2022"
+      "blogCategoryLink": "/blog/awesome-wordPress-web-development-tools-you-cant-miss-in-2022.html"
     },
     {
       "blogCategory": "Design",
       "blogCategoryDesc": "Everything you need to know about the top 10 DevOps tools in 2022",
       "blogCategoryImg": "/assets/img/blog-5-thumb.jpg",
-      "blogCategoryLink": "/blog/everything-you-need-to-know-about-the-top-10-DevOps-tools-in-2022"
+      "blogCategoryLink": "/blog/everything-you-need-to-know-about-the-top-10-DevOps-tools-in-2022.html"
     },
     {
       "blogCategory": "Development",
       "blogCategoryDesc": "Web Development in 2022: Latest Trends, Mistakes, Misconceptions",
       "blogCategoryImg": "/assets/img/blog-6-thumb.jpg",
-      "blogCategoryLink": "/blog/web-development-in-2022-latest-trends-mistakes-misconceptions"
+      "blogCategoryLink": "/blog/web-development-in-2022-latest-trends-mistakes-misconceptions.html"
     },
     {
       "blogCategory": "App Development",
       "blogCategoryDesc": "Ways to Boost Mobile App Traffic & Increase Business Revenue",
       "blogCategoryImg": "/assets/img/blog-7-thumb.jpg",
-      "blogCategoryLink": "/blog/ways-to-boost-mobile-app-traffic-increase-business-revenue"
+      "blogCategoryLink": "/blog/ways-to-boost-mobile-app-traffic-increase-business-revenue.html"
     },
     {
       "blogCategory": "Web Development",
       "blogCategoryDesc": "8 Must-Have WordPress Development Tools For Business Website",
       "blogCategoryImg": "/assets/img/blog-9-thumb.png",
-      "blogCategoryLink": "/blog/8-must-Have-wordPress-development-tools-for-business-website"
+      "blogCategoryLink": "/blog/8-must-Have-wordPress-development-tools-for-business-website.html"
     },
     {
       "blogCategory": "Design",
       "blogCategoryDesc": "How Will Your Free App Make Money- 7 Proven Strategies for Your App",
       "blogCategoryImg": "/assets/img/blog-12-thumb.jpg",
-      "blogCategoryLink": "/blog/how-will-your-free-app-make-money-7-proven-strategies-for-your-app"
+      "blogCategoryLink": "/blog/how-will-your-free-app-make-money-7-proven-strategies-for-your-app.html"
     }
   ]
 }

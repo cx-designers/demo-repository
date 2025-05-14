@@ -30,7 +30,7 @@
   style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %}
   style="flex-direction: column;" {% endif %}>
   <div class="desktop-header">
-    {% include "layouts/" ~ (headerVersion or 'header') ~ ".njk" %}
+    {% include "layouts/new-header.njk" %}
   </div>
   <div class="mobile-header">
     {% include "layouts/header.njk" %}
