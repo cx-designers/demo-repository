@@ -8,7 +8,7 @@ permalink: retail-industry-services.html
 breadcrumbOverride:
   - title: Home
     url: /
-  - title: Industry
+  - title: Industries
     url: /service-industry.html
   - title: Retail Industry Services
     url: javscript:void(0);

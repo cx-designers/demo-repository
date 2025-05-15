@@ -1282,13 +1282,13 @@ header {
 /* Header Section Style end*/
 
 /* new versions header css start */
-.mobile-header {
-  display: none;
+// .mobile-header {
+//   display: none;
 
-  @include mdScreenLarge {
-    display: block;
-  }
-}
+//   @include mdScreenLarge {
+//     display: block;
+//   }
+// }
 
 .homepage.version-2 {
   .cust-header-v1 {

@@ -3,7 +3,7 @@ layout: layouts/service-template/ios-app-development-services.njk
 title: Custom ERP & CRM Development Services | ERP & CRM Solutions
 metaDescription: Streamline operations with tailored ERP & CRM solutions. Automate workflows, boost customer engagement & improve efficiency—start building your system today!
 bodyClass: "crm-and-erp-development"
-permalink: crm-and-erp-development.html
+permalink: /erp-and-crm-development-services.html
 bannersubTitle: "Service"
 bannerTitle: "Expert ERP & CRM Development Services"
 bannerdesc: "Looking to optimize operations and boost customer relationships? Our ERP & CRM development services deliver tailored, scalable solutions. Hire skilled ERP & CRM developers today and transform your business processes!"

@@ -8,7 +8,7 @@ permalink: health-and-fitness-industry-services.html
 breadcrumbOverride:
   - title: Home
     url: /
-  - title: Industry
+  - title: Industries
     url: /service-industry.html
   - title: Health And Fitness Industry Services
     url: javscript:void(0);

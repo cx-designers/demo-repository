@@ -8,7 +8,7 @@ permalink: e-learning-industry-services.html
 breadcrumbOverride:
   - title: Home
     url: /
-  - title: Industry
+  - title: Industries
     url: /service-industry.html
   - title: E-Learning Industry Services
     url: javscript:void(0);

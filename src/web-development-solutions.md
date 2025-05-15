@@ -81,7 +81,7 @@ servicesList:
 
   - count: "07."
     title: "ERP and CRM Development Services"
-    pageLink: "//crm-and-erp-development.html"
+    pageLink: "///erp-and-crm-development-services.html"
     description: Streamline operations with custom ERP systems and enhance customer relationships through intuitive CRM platforms. Automate workflows, analyze data, and improve efficiency. Transform your business processes today.
 
 

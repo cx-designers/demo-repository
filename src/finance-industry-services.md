@@ -8,7 +8,7 @@ permalink: finance-industry-services.html
 breadcrumbOverride:
   - title: Home
     url: /
-  - title: Industry
+  - title: Industries
     url: /service-industry.html
   - title: Finance Industry Services
     url: javscript:void(0);

@@ -8,7 +8,7 @@ permalink: banking-industry-services.html
 breadcrumbOverride:
   - title: Home
     url: /
-  - title: Industry
+  - title: Industries
     url: /service-industry.html
   - title: Banking Industry Services
     url: javscript:void(0);

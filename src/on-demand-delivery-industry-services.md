@@ -8,7 +8,7 @@ permalink: on-demand-delivery-industry-services.html
 breadcrumbOverride:
   - title: Home
     url: /
-  - title: Industry
+  - title: Industries
     url: /service-industry.html
   - title: On-Demand Delivery Industry Services
     url: javscript:void(0);

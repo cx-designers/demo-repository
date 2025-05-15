@@ -8,7 +8,7 @@ permalink: travel-and-tourism-industry-services.html
 breadcrumbOverride:
   - title: Home
     url: /
-  - title: Industry
+  - title: Industries
     url: /service-industry.html
   - title: Travel And Tourism Industry Services
     url: javscript:void(0);

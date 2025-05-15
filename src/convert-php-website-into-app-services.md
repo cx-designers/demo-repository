@@ -3,7 +3,7 @@ layout: layouts/mobile-app-development.njk
 title: Convert PHP Website Into an App | Mobile App Development
 metaDescription: Transform your PHP website into a mobile app for iOS & Android, ensuring better performance, user experience & wider reach on app stores.
 bodyClass: "convert-php-website-into-app"
-permalink: convert-php-website-into-app.html
+permalink: convert-php-website-into-app-services.html
 bannersubTitle: "PHP To App"
 bannerTitle: "Convert Your PHP Website into a High-Value Mobile App"
 bannerdesc: "Transform your PHP-based website into a fully functional mobile application to enhance user engagement, accessibility, and business growth. At Cypherox, we specialize in seamless PHP-to-app conversions, ensuring optimized performance, intuitive UI/UX, and cross-platform compatibility."

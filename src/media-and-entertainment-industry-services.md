@@ -8,7 +8,7 @@ permalink: media-and-entertainment-industry-services.html
 breadcrumbOverride:
   - title: Home
     url: /
-  - title: Industry
+  - title: Industries
     url: /service-industry.html
   - title: Media And Entertainment Industry Services
     url: javscript:void(0);
