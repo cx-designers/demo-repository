@@ -117,7 +117,7 @@ servicesList:
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Intuitive and Engaging UI/UX Design"
 phases:
   - title: "Tools"
     blocks:

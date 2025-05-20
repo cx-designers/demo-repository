@@ -109,12 +109,12 @@ servicesList:
 
   - count: "01."
     title: "Swift App Development Services"
-    pageLink: "javascript:;"
+    pageLink: "/swift-app-development-services.html"
     description: "Unlock the power of Swift to build fast, secure, and scalable iOS applications. Our expert developers craft cutting-edge solutions tailored to your business needs, ensuring seamless performance and an intuitive user experience."
 
   - count: "02."
     title: "Objective-C App Development Services"
-    pageLink: "javascript:;"
+    pageLink: "/objective-c-app-development-services.html"
     description: "Leverage the reliability of Objective-C for robust iOS app development. With years of expertise, we deliver high-quality apps that combine legacy system compatibility with modern functionality for optimal results."
 
 hireCtaTitle: "Hire Developer"
@@ -158,7 +158,8 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technologies We Use for iOS Excellence"
+
 
 phases:
   - title: "Programming"

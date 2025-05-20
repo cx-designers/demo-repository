@@ -119,6 +119,7 @@ servicesList:
     title: "Consistent Design System & Branding"
     description: "Developing consistent visual guidelines, typography, color schemes, and UI components to strengthen brand identity and recognition."
 
+awesomeFeaturesSubTitle: "Technology Stack for Interactive Design & Prototyping Solutions"
 phases:
   - title: " Design & Wireframing Tools"
     blocks:

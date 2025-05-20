@@ -121,7 +121,8 @@ servicesList:
     title: "Website Performance Optimization"
     pageLink: "javascript:;"
     description: "Speed is crucial for SEO and user retention, and we optimize loading time, caching, and code structure for lightning-fast performance. Our performance-focused approach ensures smooth navigation and reduced bounce rates."
-
+    
+awesomeFeaturesSubTitle: "Technology Stack for Scalable Responsive Design Solutions"
 phases:
   - title: "Platform"
     blocks:

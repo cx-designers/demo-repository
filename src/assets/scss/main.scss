@@ -15289,6 +15289,41 @@ html.hidden-y {
 section.cust-section-services {
   background: $white;
 
+  .service-info-box {
+    padding: 150px 0px;
+    @include desktopSmall {
+      padding: 100px 0px;
+    }
+
+    @include mdScreenLarge {
+      padding: 70px 0px;
+    }
+
+    @include mobileLarge {  
+      padding: 60px 0px;
+    }
+    h2{
+        color:$primaryColor;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 400;
+        margin: 0 0 40px 0;
+        @include desktopSmall {
+          font-size: 50px;
+          line-height: 60px;
+        }
+        @include mdScreenLarge {
+        font-size: 40px;
+        line-height:50px;
+        }
+        @include mobileLarge {
+          font-size: 30px;
+        line-height:40px;
+        margin-bottom: 20px;
+        }
+      }
+  }
+
   .service-list-item-wrapper {
     padding: 150px 0px;
     background: $white;
