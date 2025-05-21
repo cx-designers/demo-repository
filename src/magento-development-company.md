@@ -185,7 +185,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Powerful Magento eCommerce Solutions"
 phases:
   - title: "Programming"
     blocks:

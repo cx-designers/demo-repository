@@ -172,7 +172,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Interactive Education App Solutions"
 phases:
   - title: "Programming"
     blocks:

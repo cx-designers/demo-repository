@@ -15,6 +15,8 @@ ourProjectsSubTitle: Projects
 ourProjectsTitle: Our Projects
 
 
+awesomeFeaturesSubTitle: "Technology Stack" 
+
 phases:
   - title: "Platform"
     blocks:

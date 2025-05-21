@@ -174,7 +174,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Engaging Recipe App Solutions"
 phases:
   - title: "Programming"
     blocks:

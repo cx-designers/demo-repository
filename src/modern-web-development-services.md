@@ -158,7 +158,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Cutting-Edge Modern Web Development"
 phases:
   - title: "Programming"
     blocks:

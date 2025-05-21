@@ -196,7 +196,7 @@ faqBoxList :
  
 hasTechnologyStack: "no"
 hasTechnologyIconsList: "yes"
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Robust Xamarin Tech Stack for Native-Like Experiences"
  
 phases:
   - title: "Programming"

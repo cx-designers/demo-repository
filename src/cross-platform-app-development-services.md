@@ -157,7 +157,7 @@ faqBoxList :
  
 hasTechnologyStack: "no"
 hasTechnologyIconsList: "yes"
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Seamless Cross-Platform Performance"
  
 phases:
   - title: "Programming"

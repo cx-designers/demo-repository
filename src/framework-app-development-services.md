@@ -149,7 +149,7 @@ faqBoxList :
  
 hasTechnologyStack: "no"
 hasTechnologyIconsList: "yes"
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Framework-Centric Tech Stack for Scalable App Solutions"
  
 phases:
   - title: "Programming"

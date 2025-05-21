@@ -168,7 +168,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Efficient B2B Order Management"
 phases:
   - title: "Programming"
     blocks:

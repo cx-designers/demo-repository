@@ -162,6 +162,7 @@ servicesList:
     pageLink: "javascript:;"
     description: "Converting designs into CMS-ready HTML, seamlessly integrating with WordPress, Shopify, Magento, and more."
 
+awesomeFeaturesSubTitle: "Technology Stack for Pixel-Perfect PSD to HTML Conversion"
 phases:
   - title: "Front-End Development"
     blocks:

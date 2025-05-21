@@ -190,7 +190,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Efficient Tech Stack for High-Performance Golang Apps"
 phases:
   - title: "Programming"
     blocks:

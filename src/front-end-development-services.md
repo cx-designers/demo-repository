@@ -155,7 +155,8 @@ faqBoxList:
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Technology Stack for Dynamic Front-End Development"
 phases:
   - title: "Programming"
     blocks:

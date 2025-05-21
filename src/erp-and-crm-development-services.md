@@ -121,7 +121,7 @@ servicesList:
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Custom ERP & CRM Development Solutions"
 phases:
   - title: "Programming"
     blocks:

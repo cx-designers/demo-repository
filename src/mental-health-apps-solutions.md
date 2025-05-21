@@ -172,7 +172,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Supportive Mental Health Apps"
 phases:
   - title: "Programming"
     blocks:

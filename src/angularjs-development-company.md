@@ -181,7 +181,8 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Tech Stack for Enterprise-Grade Angular Development"
 phases:
   - title: "Programming"
     blocks:

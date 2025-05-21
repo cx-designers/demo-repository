@@ -179,7 +179,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Tailored Shopify Store Development"
 phases:
   - title: "Programming"
     blocks:

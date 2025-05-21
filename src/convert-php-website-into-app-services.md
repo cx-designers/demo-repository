@@ -168,7 +168,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for PHP to App Conversion"
 phases:
   - title: "Development Frameworks"
     blocks:

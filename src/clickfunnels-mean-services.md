@@ -180,7 +180,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Efficient MEAN Stack Development Solutions"
 phases:
   - title: "Programming"
     blocks:

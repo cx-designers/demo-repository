@@ -181,7 +181,8 @@ faqBoxList :
  
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Tech Stack for Responsive and Scalable Webflow Development"
 phases:
   - title: "Programming"
     blocks:

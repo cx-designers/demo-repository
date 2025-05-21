@@ -180,7 +180,8 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Technology Stack for Powerful Drupal Web Solutions"
 phases:
   - title: "Programming"
     blocks:

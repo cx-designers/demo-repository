@@ -192,7 +192,7 @@ faqBoxList :
  
 hasTechnologyStack: "no"
 hasTechnologyIconsList: "yes"
-awesomeFeaturesSubTitle: "Tech Stack"
+awesomeFeaturesSubTitle: "Tech Stack for Flutter App Development Services"
  
 phases:
   - title: "Programming"

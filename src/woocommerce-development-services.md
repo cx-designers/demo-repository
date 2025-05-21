@@ -181,7 +181,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Scalable WooCommerce Store Development"
 phases:
   - title: "Programming"
     blocks:

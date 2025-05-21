@@ -159,7 +159,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Seamless SaaS API Integrations"
 phases:
   - title: "Programming"
     blocks:

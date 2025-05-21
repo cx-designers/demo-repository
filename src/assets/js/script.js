@@ -2741,6 +2741,53 @@ document.getElementById("footer-year").textContent = new Date().getFullYear();
 /* Browser specific class JS End */
 
 
+/* custom js for phases slider items start */
+document.addEventListener("DOMContentLoaded", function () {
+  var slideCount = document.querySelectorAll('.phases-row .swiper-slide').length;
+   const prevArrow = document.querySelector('.phases-row .swiper-button-prev');
+  const nextArrow = document.querySelector('.phases-row .swiper-button-next');
+
+  const swiper = new Swiper('.phases-row', {
+    slidesPerView: 3,
+    slidesPerGroup: 1, // 👈 Needed for scrolling 1 slide per click
+    spaceBetween: 24,
+    loop: false,
+    navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+    breakpoints: {
+          1024: {
+            slidesPerView: 2,
+            slidesPerGroup: 2
+          },
+          641: {
+            slidesPerView: 1,
+            slidesPerGroup: 1
+          }
+    }
+  });
+
+  // Conditionally hide arrows only if screen is >1024px and slides ≤ 3
+  function updateArrowVisibility() {
+    const isDesktop = window.innerWidth > 1024;
+    if (isDesktop && slideCount <= 3) {
+      prevArrow.style.display = 'none';
+      nextArrow.style.display = 'none';
+    } else {
+      prevArrow.style.display = 'flex';
+      nextArrow.style.display = 'flex';
+    }
+  }
+
+  updateArrowVisibility();
+  window.addEventListener('resize', updateArrowVisibility);
+});
+
+
+
+/* custom js for phases slider items end */
+
 
 /* Disable Click JS Start */
 

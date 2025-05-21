@@ -181,7 +181,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Smart Virtual Assistant App Development"
 phases:
   - title: "Programming"
     blocks:

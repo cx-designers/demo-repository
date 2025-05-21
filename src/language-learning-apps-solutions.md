@@ -171,7 +171,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Dynamic Language Learning App Solutions"
 phases:
   - title: "Programming"
     blocks:

@@ -181,7 +181,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Scalable MERN Stack Web Applications"
 phases:
   - title: "Programming"
     blocks:

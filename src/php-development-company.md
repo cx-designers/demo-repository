@@ -218,7 +218,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Scalable PHP Development Services"
 phases:
   - title: "Programming"
     blocks:

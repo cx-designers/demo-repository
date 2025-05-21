@@ -13,9 +13,10 @@
             </div>
         {% endif %}
 
-        <div class="row phases-row">
+        <div class="phases-row swiper">
+            <div class="swiper-wrapper">
             {% for phase in phases %}
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 phases-item swiper-slide">
                 <div class="phases-on-demands-app-info-box">
                     <div class="card border-0 rounded-0 bg-transparent">
                         <div class="text-center">
@@ -43,6 +44,11 @@
                 </div>
             </div>
             {% endfor %}
+            </div>
+
+             <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+            
         </div>
     </div>
 </section>

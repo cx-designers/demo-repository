@@ -147,7 +147,7 @@ faqBoxList :
  
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Complete Full Stack Web Development"
 phases:
   - title: "Programming"
     blocks:

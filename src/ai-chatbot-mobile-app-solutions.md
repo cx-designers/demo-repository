@@ -170,7 +170,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Intelligent AI Chatbot Apps"
 phases:
   - title: "Programming"
     blocks:

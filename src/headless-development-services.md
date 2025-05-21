@@ -175,7 +175,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Flexible Headless CMS Development"
 phases:
   - title: "Programming"
     blocks:

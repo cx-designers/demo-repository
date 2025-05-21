@@ -178,7 +178,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Fast & Flexible VueJS Development"
 phases:
   - title: "Programming"
     blocks:

@@ -175,7 +175,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Custom BigCommerce Development"
 phases:
   - title: "Programming"
     blocks:

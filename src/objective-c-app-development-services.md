@@ -189,7 +189,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: "Tech Stack"
+awesomeFeaturesSubTitle: "Technology Stack For Objective-C App Solutions"
 
 phases:
   - title: "Programming"

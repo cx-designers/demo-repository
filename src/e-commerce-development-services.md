@@ -122,7 +122,8 @@ servicesList:
     pageLink: "/bigcommerce-development-services.html"
     pageAriaLabel: "Go to big commerce web development page"
     description: "Build enterprise-grade e-commerce solutions with BigCommerce’s powerful tools. Ensure scalability, security, and seamless integrations for a superior online shopping experience."
-
+    
+awesomeFeaturesSubTitle: "Technology Stack for End-to-End eCommerce Development"
 phases:
   - title: "Platform"
     blocks:

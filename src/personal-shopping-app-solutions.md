@@ -171,7 +171,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Smart Personal Shopping App Development"
 phases:
   - title: "Programming"
     blocks:

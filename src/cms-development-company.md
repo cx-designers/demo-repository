@@ -157,7 +157,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Scalable and Flexible CMS Solutions"
 phases:
   - title: "Programming"
     blocks:

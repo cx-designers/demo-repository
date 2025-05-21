@@ -171,7 +171,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Seamless Travel App Solutions"
 phases:
   - title: "Programming"
     blocks:

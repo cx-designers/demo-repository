@@ -171,7 +171,8 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Technology Stack for Scalable B2B Marketplace Development"
 phases:
   - title: "Programming"
     blocks:

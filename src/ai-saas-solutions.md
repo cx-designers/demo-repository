@@ -160,7 +160,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Cutting-Edge AI SaaS Solutions"
 phases:
   - title: "Programming"
     blocks:

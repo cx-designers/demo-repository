@@ -173,7 +173,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Reliable Transport App Development"
 phases:
   - title: "Programming"
     blocks:

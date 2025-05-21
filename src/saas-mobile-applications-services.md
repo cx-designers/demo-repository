@@ -161,7 +161,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for High-Performance SaaS Mobile Apps"
 phases:
   - title: "Programming"
     blocks:

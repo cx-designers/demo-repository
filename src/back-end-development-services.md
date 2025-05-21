@@ -161,7 +161,7 @@ faqBoxList:
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Powerful Back-End Web Development"
 phases:
   - title: "Programming"
     blocks:

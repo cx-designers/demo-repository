@@ -160,7 +160,8 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Technology Stack for Effective B2C Sales Enablement"
 phases:
   - title: "Programming"
     blocks:

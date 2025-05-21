@@ -175,7 +175,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Visual Basic App Conversion"
 phases:
   - title: "Development Frameworks"
     blocks:

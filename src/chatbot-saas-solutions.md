@@ -159,7 +159,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Smart Chatbot SaaS Development"
 phases:
   - title: "Programming"
     blocks:

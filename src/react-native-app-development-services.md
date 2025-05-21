@@ -192,7 +192,7 @@ faqBoxList :
  
 hasTechnologyStack: "no"
 hasTechnologyIconsList: "yes"
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "React Native Tech Stack for Fast & Flexible Apps"
  
 phases:
   - title: "Programming"

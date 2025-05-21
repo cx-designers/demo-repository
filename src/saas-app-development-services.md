@@ -172,7 +172,8 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Tech Stack for End-to-End SaaS App Development"
 phases:
   - title: "Programming"
     blocks:

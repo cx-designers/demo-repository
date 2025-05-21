@@ -156,7 +156,7 @@ ourProjectsTitle: Our Portfolio
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack and Platform Ecosystem We Work With"
 phases:
   - title: "Programming"
     blocks:

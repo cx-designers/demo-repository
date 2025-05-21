@@ -182,7 +182,7 @@ faqBoxList :
  
 hasTechnologyStack: "no"
 hasTechnologyIconsList: "yes"
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Powerful Technologies Behind Dart App Solutions"
  
 phases:
   - title: "Programming"

@@ -178,7 +178,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Modern React JS Web Applications"
 phases:
   - title: "Programming"
     blocks:

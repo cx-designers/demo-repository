@@ -158,7 +158,8 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Technology Stack for Streamlined B2C Order Management"
 phases:
   - title: "Programming"
     blocks:

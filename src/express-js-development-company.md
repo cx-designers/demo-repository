@@ -215,7 +215,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Lightweight ExpressJS Development"
 phases:
   - title: "Programming"
     blocks:

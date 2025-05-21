@@ -84,14 +84,14 @@ models:
       - "Access to advanced infrastructure for quality assurance"
       - "Shared responsibilities to mitigate risks effectively"
       - "Complete transparency and data security"
-awesomeFeaturesBlack: "awesome-features-bg-black"
 
-awesomeFeaturesTitle: "Awesome Features"
-awesomeFeaturesSubTitle: "Why Pick Us?"
+
 
 careerSubtitle : "Awesome Features"
 careerTitle : "Why Pick Us?"
-
+awesomeFeaturesBlack: "awesome-features-bg-black"
+awesomeFeaturesTitle: "Awesome Features"
+awesomeFeaturesSubTitle: "Why Pick Us?"
 
 phases:
   - title: "Platform"

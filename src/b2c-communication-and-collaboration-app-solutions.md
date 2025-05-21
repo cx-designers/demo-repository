@@ -170,7 +170,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Engaging B2C Communication & Collaboration"
 phases:
   - title: "Programming"
     blocks:

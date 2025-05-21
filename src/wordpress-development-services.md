@@ -188,7 +188,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Custom WordPress Development"
 phases:
   - title: "Programming"
     blocks:

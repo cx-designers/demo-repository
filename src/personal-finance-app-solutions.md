@@ -175,7 +175,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Secure Personal Finance App Development"
 phases:
   - title: "Programming"
     blocks:

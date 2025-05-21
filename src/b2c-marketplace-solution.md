@@ -164,7 +164,8 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Technology Stack for B2C Marketplace Development"
 phases:
   - title: "Programming"
     blocks:

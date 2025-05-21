@@ -169,7 +169,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Robust SaaS Web App Development"
 phases:
   - title: "Programming"
     blocks:

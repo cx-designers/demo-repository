@@ -182,7 +182,7 @@ faqBoxList :
  
 hasTechnologyStack: "no"
 hasTechnologyIconsList: "yes"
-awesomeFeaturesSubTitle: "Tech Stack"
+awesomeFeaturesSubTitle: "Technology Stack for Kotlin Application Solutions"
  
 phases:
   - title: "Programming"

@@ -185,7 +185,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Dynamic Joomla Website Development"
 phases:
   - title: "Programming"
     blocks:

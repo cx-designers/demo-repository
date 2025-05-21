@@ -171,7 +171,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Holistic Health & Wellness Apps"
 phases:
   - title: "Programming"
     blocks:

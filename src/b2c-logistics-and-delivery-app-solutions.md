@@ -163,7 +163,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Fast & Reliable B2C Delivery Solutions"
 phases:
   - title: "Programming"
     blocks:

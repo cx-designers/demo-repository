@@ -177,7 +177,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Immersive Entertainment App Development"
 phases:
   - title: "Programming"
     blocks:

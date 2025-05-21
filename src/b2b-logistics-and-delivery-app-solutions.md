@@ -162,7 +162,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Reliable B2B Logistics & Delivery Apps"
 phases:
   - title: "Programming"
     blocks:

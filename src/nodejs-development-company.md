@@ -217,7 +217,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for High-Performance NodeJS Development"
 phases:
   - title: "Programming"
     blocks:

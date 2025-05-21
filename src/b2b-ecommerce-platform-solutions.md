@@ -170,7 +170,8 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Tech Stack for Powerful B2B eCommerce Platforms"
 phases:
   - title: "Programming"
     blocks:

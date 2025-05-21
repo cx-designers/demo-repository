@@ -166,7 +166,8 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+
+awesomeFeaturesSubTitle: "Tech Stack for Custom B2C Mobile App Development"
 phases:
   - title: "Programming"
     blocks:

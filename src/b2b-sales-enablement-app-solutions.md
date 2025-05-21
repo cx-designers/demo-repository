@@ -165,7 +165,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for B2B Sales Enablement Apps"
 phases:
   - title: "Programming"
     blocks:

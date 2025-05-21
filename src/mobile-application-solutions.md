@@ -177,7 +177,7 @@ faqBoxList :
 
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Custom Mobile Application Development"
 phases:
   - title: "Programming"
     blocks:

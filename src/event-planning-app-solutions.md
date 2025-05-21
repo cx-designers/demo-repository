@@ -171,7 +171,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Tech Stack for Streamlined Event Planning App Solutions"
 phases:
   - title: "Programming"
     blocks:

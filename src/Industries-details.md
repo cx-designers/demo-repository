@@ -103,7 +103,7 @@ faqBoxList :
   faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation." 
 - faqTitle: "Do you handle e-commerce website development, and what platforms do you use for it?"
   faqDescription: "The timeline varies based on project scope and complexity. We assess your needs and provide a clear estimate during the initial consultation."
-
+ 
 phases:
   - title: "Platform"
     blocks:

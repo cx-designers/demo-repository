@@ -173,7 +173,7 @@ faqBoxList :
   
 hasTechnologyStack: "no" 
 hasTechnologyIconsList: "yes" 
-awesomeFeaturesSubTitle: ""
+awesomeFeaturesSubTitle: "Technology Stack for Feature-Rich Fitness App Development"
 phases:
   - title: "Programming"
     blocks:
