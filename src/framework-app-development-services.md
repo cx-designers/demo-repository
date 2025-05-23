@@ -54,12 +54,12 @@ secTitle: "Core Services of Framework App Development Services"
 servicesList:
   - count: "01."
     title: Golang App Development Services
-    pageLink: "javascript:;"
+    pageLink: "/golang-app-development-services.html"
     description: Harness the speed and efficiency of Golang to build scalable, high-performance applications. Our developers deliver robust backend solutions tailored for modern business demands and seamless scalability.
 
   - count: "02."
     title: Ruby on Rails App Development Services
-    pageLink: "javascript:;"
+    pageLink: "/ruby-on-rails-app-development-services.html"
     description: Leverage the flexibility of Ruby on Rails for rapid, feature-rich web app development. We create clean, maintainable, and secure applications that align with your business goals and user needs.
 
 hireCtaSubTitle: "Hire Developer"

@@ -109,34 +109,42 @@ servicesList:
   - count: "01."
     title: "Node.js Server Side Development"
     description: "Develop high-performance, event-driven server-side applications with Node.js. Ensure scalability and speed for seamless backend operations. Elevate your infrastructure today."
+    pageLink: "javascript:;"
 
   - count: "02."
     title: "Node.js API Development and Integration"
     description: "Create robust RESTful APIs and integrate third-party services using Node.js. Enable smooth communication between systems for enhanced functionality. Streamline workflows now."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "Node.js Plugin Development"
     description: "Extend the capabilities of your applications with custom Node.js plugins. Add unique features and optimize performance for tailored solutions. Innovate effortlessly."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "Node.js for UI/UX Development"
     description: "Leverage Node.js to build dynamic, real-time UI/UX components. Deliver interactive and responsive front-end experiences that captivate users and drive engagement."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "Node.js CMS Development"
     description: "Build lightweight, scalable content management systems (CMS) with Node.js. Customize themes, plugins, and workflows for easy content updates and management. Simplify processes today."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: "Back-End Dashboards Development"
     description: "Design intuitive, data-driven dashboards with Node.js for real-time analytics and reporting. Empower your team with actionable insights and streamlined workflows."
+    pageLink: "javascript:;"
 
   - count: "07."
     title: "Node.js API and Package Development"
     description: "Develop reusable packages and APIs to modularize your codebase. Enhance development efficiency and ensure consistency across projects with Node.js expertise."
+    pageLink: "javascript:;"
 
   - count: "08."
     title: "Node.js Integration Solutions"
     description: "Integrate Node.js with existing systems, databases, and third-party tools for seamless interoperability. Ensure secure, efficient, and scalable integration solutions. Transform your ecosystem now."
+    pageLink: "javascript:;"
 
 developmentPhasesSubTitle: "Phases"
 developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"

@@ -838,6 +838,17 @@ header {
     padding: 30px 0;
     border-bottom: 1px solid $borderColor;
     display: flex;
+      .brandLogo {
+        align-items: center;
+        display: flex;
+        max-width:272px;
+        a{
+          width: 100%;
+          img{
+            width: 100%;
+          }
+        }
+      }
 
     // justify-content: space-between;
     @include mdScreenLarge {
@@ -5166,10 +5177,9 @@ svg:not(:root) {
 
 
   .black-logo {
-    filter: invert(1);
     position: unset !important;
     width: auto;
-
+    max-width: 272px;
     @include ipadLarge {
       width: 100%;
     }
@@ -5567,9 +5577,11 @@ svg:not(:root) {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    min-height:900px;
 
     @include ipadLarge {
       height: 100%;
+      min-height:auto;
     }
 
     .container {
@@ -5582,7 +5594,7 @@ svg:not(:root) {
       height: 100%;
 
       .content-col {
-        padding-top: 120px !important;
+        padding-top: 190px !important;
 
         @include ipadLarge {
           padding-top: 0 !important;

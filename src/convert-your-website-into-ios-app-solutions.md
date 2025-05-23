@@ -101,34 +101,42 @@ servicesList:
   - count: "01."
     title: "Progressive Web App (PWA) to iOS Conversion"
     description: "Turn your PWA into a native iOS app with improved functionality and performance."
+    pageLink: "javascript:;"
 
   - count: "02."
     title: "Native iOS App Development"
     description: "Build a fully native iPhone and iPad app for top-notch performance and smooth experience."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "Cross-Platform iOS App Development"
     description: "Develop apps that work efficiently across multiple Apple devices."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "Optimized UI/UX for iOS Users"
     description: "Enhance your app’s interface, navigation, and usability for Apple users."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "Push Notifications & Offline Features"
     description: "Boost engagement with instant updates and enable offline accessibility."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: "E-Commerce Website to iOS App"
     description: "Convert your online store into an iOS shopping app with a secure and user-friendly interface."
+    pageLink: "javascript:;"
 
   - count: "07."
     title: "Custom Features & API Integration"
     description: "Integrate advanced functionalities, third-party APIs, and real-time data sync."
+    pageLink: "javascript:;"
 
   - count: "08."
     title: "App Store Submission & Deployment"
     description: "We handle the entire App Store publishing process to ensure compliance."
+    pageLink: "javascript:;"
 
 hasTechnologyStack: "no"
 stackSubHeading: "Lorem ipsum"

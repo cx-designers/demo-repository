@@ -64,34 +64,41 @@ servicesList:
   - count: "01."
     title: "Angular Mobile App Development"
     description: "Create high-performance, cross-platform mobile apps with AngularJS. Deliver seamless user experiences on iOS and Android devices. Start your project now. Explore Mobile Solutions."
-
+    pageLink: "javascript:;"
   - count: "02."
     title: "Angular Single-Page App Development"
     description: "Develop fast, responsive single-page applications (SPAs) with smooth navigation and real-time updates. Enhance user engagement effortlessly. Learn More About SPAs."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "Angular Software Development"
     description: "Build robust, enterprise-grade software solutions with AngularJS. Ensure scalability, modularity, and performance for complex workflows. Elevate your systems today. Discover Software Expertise."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "Angular Support & Maintenance"
     description: "Provide ongoing support, bug fixes, and performance optimization for your AngularJS applications. Keep your systems running smoothly and securely. Get Support Now."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "Custom Web Application Development"
     description: "Craft tailored web applications with AngularJS to meet your unique business needs. Add advanced features for maximum functionality. Transform your vision today. Explore Custom Apps."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: "E-Commerce Application Development"
     description: "Create dynamic, secure e-commerce platforms with AngularJS. Integrate payment gateways, shopping carts, and SEO tools for online success. Boost sales now. Discover E-Commerce Solutions."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: "Plugin Development"
     description: "Extend the functionality of your AngularJS applications with custom plugins. Add unique features and integrations to enhance usability and performance. Start innovating today. Learn About Plugins."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: " Social And Interactive Apps"
     description: "Build engaging social networking and interactive apps with AngularJS. Enable real-time communication, sharing, and collaboration for a connected audience. Connect users now. Explore Social Apps."
+    pageLink: "javascript:;"
 
 
 featuresSecSubTitle: Why Cypherox

@@ -115,34 +115,42 @@ servicesList:
   - count: "01."
     title: "Python Migration Services"
     description: "Upgrade legacy systems to Python for enhanced performance and scalability. Ensure a seamless transition with minimal downtime. Transform your tech stack today."
+    pageLink: "javascript:;"
 
   - count: "02."
     title: "Tailored Python API Development"
     description: "Design custom APIs using Python’s robust frameworks like Django and Flask. Enable seamless integration and real-time data exchange for your applications. Streamline workflows now."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "Python Machine Learning"
     description: "Leverage Python’s powerful libraries (TensorFlow, Scikit-learn) for AI-driven insights and predictive analytics. Build intelligent systems that adapt and grow with your business. Innovate today."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "Expert Python Game Development"
     description: "Create immersive, high-performance games with Python’s Pygame framework. Deliver engaging user experiences for desktop and mobile platforms. Elevate your gaming projects now."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "Mobile App Excellence in Python"
     description: "Develop cross-platform mobile apps using Python’s Kivy framework. Ensure responsive design and native-like performance for iOS and Android devices. Reach wider audiences today."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: "Python CMS Development"
     description: "Build flexible, scalable content management systems with Python’s Django CMS. Customize themes, plugins, and workflows for easy content updates. Simplify content management now."
+    pageLink: "javascript:;"
 
   - count: "07."
     title: "Agile Full Stack Python Solutions"
     description: "Deliver end-to-end solutions with Python’s full-stack capabilities. Combine frontend and backend expertise for dynamic, feature-rich applications. Accelerate your development process."
+    pageLink: "javascript:;"
 
   - count: "08."
     title: "Performance-driven Web Applications"
     description: "Craft fast, secure, and scalable web apps using Python frameworks like Django and Flask. Focus on speed, usability, and SEO to meet modern business demands. Boost performance today."      
+    pageLink: "javascript:;"
     
 hireCtaTitle: "Hire Our Python Developers"
 hireCtaSubTitle: "Let our Python development experts elevate your business to new heights"

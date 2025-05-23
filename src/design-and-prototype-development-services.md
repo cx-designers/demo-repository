@@ -102,22 +102,27 @@ servicesList:
   - count: "01."
     title: "Creative UI/UX Design"
     description: "Creating visually appealing and user-centric designs that enhance engagement, usability, and overall experience across all devices."
+    pageLink: "javascript:;"
 
   - count: "02."
     title: "Strategic Wireframing & Mockups"
     description: "Structuring clear and intuitive layouts that define user journeys, ensuring seamless navigation and functionality."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "Interactive Prototyping Development"
     description: "Building high-fidelity, clickable prototypes that simulate real interactions, allowing early testing and design validation."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "In-Depth User Research & Testing"
     description: "Conducting in-depth user analysis, A/B testing, and feedback-driven refinements to optimize designs for better performance."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "Consistent Design System & Branding"
     description: "Developing consistent visual guidelines, typography, color schemes, and UI components to strengthen brand identity and recognition."
+    pageLink: "javascript:;"
 
 awesomeFeaturesSubTitle: "Technology Stack for Interactive Design & Prototyping Solutions"
 phases:

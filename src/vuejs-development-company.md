@@ -111,30 +111,37 @@ servicesList:
 
   - count: "01."
     title: "Single Page Application Development"
+    pageLink: "javascript:;"
     description: "Build fast, responsive SPAs with VueJS for seamless navigation and real-time updates. Deliver a smooth, engaging user experience effortlessly."
 
   - count: "02."
     title: "VueJS eCommerce Development"
+    pageLink: "javascript:;"
     description: "Create dynamic, feature-rich eCommerce platforms with VueJS. Integrate secure payment gateways and optimize for higher conversions today."
 
   - count: "03."
     title: "VueJS Consulting Services"
+    pageLink: "javascript:;"
     description: "Leverage expert guidance to implement VueJS best practices, architecture design, and scalability strategies. Transform your vision into reality with confidence."
 
   - count: "04."
     title: "Third-Party Integration with Vue.JS"
+    pageLink: "javascript:;"
     description: "Seamlessly integrate APIs, tools, and third-party services with VueJS for enhanced functionality and streamlined workflows. Elevate your app’s capabilities now."
 
   - count: "05."
     title: " Real-Time Application Development"
+    pageLink: "javascript:;"
     description: "Develop real-time apps like chat platforms or dashboards using VueJS. Ensure instant data updates and interactive features for a superior user experience."
 
   - count: "06."
     title: "VueJS UI/UX Development"
+    pageLink: "javascript:;"
     description: "Design intuitive, visually appealing interfaces with VueJS components. Focus on usability and aesthetics to captivate users and boost engagement."
 
   - count: "07."
     title: "VueJS Maintenance and Support Service"
+    pageLink: "javascript:;"
     description: "Ensure long-term success with ongoing maintenance, bug fixes, and performance optimization for your VueJS applications. Keep your systems running smoothly."
          
 hireCtaTitle: "Hire Vue.js Developers"

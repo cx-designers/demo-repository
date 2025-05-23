@@ -104,34 +104,42 @@ servicesList:
   - count: "01."
     title: "Progressive Web App (PWA) to Android Conversion"
     description: "Convert your PWA into a high-performance Android app with added functionality."
+    pageLink: "javascript:;"
 
   - count: "02."
     title: "Native Android App Development"
     description: "Build a fully native Android app for a seamless user experience and high performance."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "Cross-Platform Android App Development"
     description: "Develop apps that work efficiently across multiple Android devices."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "UI/UX Optimization for Android Devices"
     description: "Enhance your app’s design, navigation, and usability for Android users."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "Push Notifications & Offline Mode Integration"
     description: "Boost user engagement with real-time notifications and offline access."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: "E-Commerce Website to Android App"
     description: "Convert your online store into a powerful Android shopping app with smooth transactions."
+    pageLink: "javascript:;"
 
   - count: "07."
     title: "Custom Features & API Integration"
     description: "Enhance your app with additional functionalities, third-party integrations, and advanced features."
+    pageLink: "javascript:;"
 
   - count: "08."
     title: "Google Play Store Deployment"
     description: "We manage the entire process of publishing your app on the Google Play Store."
+    pageLink: "javascript:;"
 
 hasTechnologyStack: "no"
 stackSubHeading: "Lorem ipsum"

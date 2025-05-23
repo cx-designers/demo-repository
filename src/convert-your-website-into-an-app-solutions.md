@@ -105,34 +105,42 @@ servicesList:
   - count: "01."
     title: "Progressive Web App (PWA) Conversion"
     description: "Convert your website into a fast, responsive PWA for better performance."
+    pageLink: "javascript:;"
 
   - count: "02."
     title: "Native App Development"
     description: "Get a fully native iOS or Android app for an optimized user experience."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "Cross-Platform App Conversion"
     description: "We build apps that work seamlessly on both iOS and Android devices."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "UI/UX Optimization"
     description: "Enhance your app’s design, navigation, and overall user experience."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "Push Notification & Offline Mode Integration"
     description: "Improve user engagement with real-time alerts and offline accessibility."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: "E-commerce Website to App Conversion"
     description: "Turn your online store into a high-performing mobile shopping app."
+    pageLink: "javascript:;"
 
   - count: "07."
     title: "Custom Features & API Integration"
     description: "Enhance your app with additional functionalities and third-party integrations."
+    pageLink: "javascript:;"
 
   - count: "08."
     title: "App Store & Play Store Deployment"
     description: "We handle the entire process of launching your app on both platforms."
+    pageLink: "javascript:;"
 
 hasTechnologyStack: "no"
 stackSubHeading: "Lorem ipsum"

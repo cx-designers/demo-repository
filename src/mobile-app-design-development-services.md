@@ -97,38 +97,47 @@ secSubTitle: "What We Offer"
 servicesList:
   - count: "01."
     title: "iOS App Development"
+    pageLink: "/ios-app-development-services.html"
     description: "Develop feature-rich, high-performance iOS applications tailored for iPhones and iPads using Swift and Objective-C."
 
   - count: "02."
     title: "Android App Development"
+    pageLink: "/android-app-development-services.html"
     description: "Create scalable, secure, and interactive Android applications optimized for a seamless user experience."
 
   - count: "03."
     title: "Hybrid App Development"
+    pageLink: "/cross-platform-app-development-services.html"
     description: "Build cost-effective hybrid apps using frameworks like React Native and Flutter for cross-platform compatibility."
 
   - count: "04."
     title: "UI/UX Design for Mobile Apps"
+    pageLink: "/android-app-development-services.html"
     description: "Craft intuitive and visually appealing mobile app designs that enhance usability and user engagement."
 
   - count: "05."
     title: "Custom Enterprise App Development"
+    pageLink: "javascript:;"
     description: "Develop powerful enterprise-grade mobile applications that streamline business processes and improve productivity."
   
   - count: "06."
     title: "Progressive Web Apps (PWA)"
+    pageLink: "j/saas-web-application-development-services.html"
     description: "Design and develop fast, reliable, and engaging web-based applications with a native app-like experience."
 
   - count: "07."
     title: "Mobile App Testing & QA"
+    pageLink: "javascript:;"
     description: "Ensure flawless performance with rigorous testing, debugging, and optimization for mobile apps."
   
   - count: "08."
     title: "App Maintenance & Support"
+    pageLink: "/mobile-app-development-consulting-services.html"
     description: "Provide ongoing updates, performance monitoring, and technical support to keep your app running smoothly."
 
   - count: "08."
     title: "Wearable App Development "
+    pageLink: "javascript:;"
     description: "Create innovative apps for smartwatches and wearable devices that enhance user convenience and seamless connectivity."
 
 awesomeFeaturesSubTitle : "Our Mobile App Development Technology Stack"

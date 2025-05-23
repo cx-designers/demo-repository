@@ -119,42 +119,52 @@ servicesList:
   - count: "01."
     title: "AI Customer Support Chatbots"
     description: "Automate customer service with AI-driven chatbots that provide instant, 24/7 support and resolve queries efficiently."
+    pageLink: "javascript:;"
 
   - count: "02."
     title: "E-commerce Virtual Assistants"
     description: "Improve online shopping experiences with AI-powered assistants that recommend products, assist with orders, and boost sales."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "Voice-Enabled AI Assistants"
     description: "Develop intelligent voice assistants that enable hands-free interaction for smart home devices, apps, and more."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "AI Chatbot for Healthcare"
     description: "Empower healthcare services with AI-driven bots that assist with appointment scheduling, symptom checking, and patient inquiries."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "Finance & Banking Chatbots"
     description: "Enhance financial services with AI chatbots that provide account insights, detect fraud, and assist customers with transactions."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: "HR & Recruitment Chatbots"
     description: "Streamline recruitment by automating resume screening, scheduling interviews, and assisting candidates with job applications."
+    pageLink: "javascript:;"
 
   - count: "07."
     title: "AI Chatbots for Travel & Hospitality"
     description: "Improve guest experiences with AI bots that offer personalized recommendations, automate bookings, and provide real-time updates."
+    pageLink: "javascript:;"
 
   - count: "08."
     title: "AI-Powered Educational Assistants"
     description: "Enhance learning experiences with AI tutoring assistants that help students with exam preparation and coursework guidance."
+    pageLink: "javascript:;"
 
   - count: "09."
     title: "Lead Generation & Sales Chatbots"
     description: "Boost sales by automating lead qualification, responding to inquiries, and offering personalized product suggestions."
+    pageLink: "javascript:;"
 
   - count: "10."
     title: "Social Media AI Chatbots"
     description: "Engage customers with AI-driven chatbots that handle queries, recommend content, and enhance social media interactions."
+    pageLink: "javascript:;"
 
 
 stackSubHeading: "Lorem ipsum"

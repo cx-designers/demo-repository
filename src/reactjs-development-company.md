@@ -112,30 +112,37 @@ servicesList:
   - count: "01."
     title: "ReactJS Front-End Development"
     description: "Craft responsive, interactive user interfaces with ReactJS for seamless navigation and enhanced user experience. Elevate your website’s performance today."
+    pageLink: "javascript:;"
 
   - count: "02."
     title: "Custom ReactJS Development"
     description: "Develop tailored ReactJS applications with reusable components and scalable architecture. Meet your unique business needs with precision and efficiency."
+    pageLink: "javascript:;"
 
   - count: "03."
     title: "React Native App Development"
     description: "Build cross-platform mobile apps using React Native for iOS and Android. Deliver native-like performance and engaging user experiences effortlessly."
+    pageLink: "javascript:;"
 
   - count: "04."
     title: "ReactJS Maintenance and Support"
     description: "Ensure smooth operation of your ReactJS apps with ongoing maintenance, bug fixes, and performance optimization. Keep your systems secure and reliable."
+    pageLink: "javascript:;"
 
   - count: "05."
     title: "ReactJS Migration"
     description: "Migrate legacy systems to ReactJS for improved scalability, speed, and maintainability. Upgrade your tech stack without disrupting workflows."
+    pageLink: "javascript:;"
 
   - count: "06."
     title: "ReactJS Plugins & Components Development"
     description: "Create custom plugins and reusable components to extend the functionality of your ReactJS applications. Enhance modularity and streamline development."
+    pageLink: "javascript:;"
 
   - count: "07."
     title: "ReactJS QA and Testing"
     description: "Conduct rigorous quality assurance and testing to ensure bug-free, high-performance ReactJS applications. Deliver error-free solutions with confidence."
+    pageLink: "javascript:;"
 
 hireCtaTitle: "Hire ReactJS Developers"
 hireCtaSubTitle: "Are you looking for Developers who can bring your ReactJS projects to life?"

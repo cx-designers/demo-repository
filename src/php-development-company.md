@@ -110,35 +110,43 @@ servicesList:
   - count: "01."
     title: "Seamless Integration"
     description: "Integrate third-party APIs, tools, and systems effortlessly using PHP. Ensure smooth workflows and enhanced functionality for your applications. Streamline operations today."
-
+    pageLink: "javascript:;"
+    
   - count: "02."
     title: "Responsive Web Design"
     description: "Craft mobile-friendly, visually appealing websites with PHP. Ensure a seamless user experience across all devices and screen sizes. Elevate your online presence now."
-
+    pageLink: "javascript:;"
+    
   - count: "03."
     title: "Flexible Engagement Models"
     description: "Choose from tailored engagement models—hourly, part-time, or full-time—to meet your project needs. Work with PHP experts on your terms for maximum flexibility. Partner today."
-
+    pageLink: "javascript:;"
+    
   - count: "04."
     title: "Seamless Multilingual Support"
     description: "Build multilingual websites and applications with PHP to reach global audiences. Ensure localization and cultural adaptability for broader market engagement. Expand globally now."
-
+    pageLink: "javascript:;"
+    
   - count: "05."
     title: "Quick Delivery"
     description: "Leverage PHP’s efficiency to deliver projects faster without compromising quality. Meet tight deadlines with agile development practices and expert execution. Accelerate your growth."
-
+    pageLink: "javascript:;"
+    
   - count: "06."
     title: "Expert of MVC Pattern"
     description: "Utilize PHP’s expertise in the MVC architecture for clean, maintainable code. Build scalable and modular applications with structured development practices. Innovate with confidence."
-
+    pageLink: "javascript:;"
+    
   - count: "07."
     title: "SEO-Friendly Development"
     description: "Develop search engine optimized websites with PHP. Implement clean URLs, meta tags, and structured data to improve rankings and drive organic traffic. Boost visibility today."
-
+    pageLink: "javascript:;"
+    
   - count: "08."
     title: "Secure Backup Solutions"
     description: "Ensure data security with automated, reliable backup systems using PHP. Protect sensitive information and minimize risks with robust backup strategies. Safeguard your assets now."
-
+    pageLink: "javascript:;"
+    
 developmentPhasesSubTitle: "Phases"
 developmentPhasesTitle: "Lorem ipsum dolor sit amet consectetur"
 developmentPhases:

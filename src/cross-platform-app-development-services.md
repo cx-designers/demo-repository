@@ -54,19 +54,19 @@ secTitle: "Core Services of Cross-Platform App Development Services"
 servicesList:
   - count: "01."
     title: Dart App Development Services
-    pageLink: "javascript:;"
+    pageLink: "/dart-app-development-services.html"
     description: Utilize the versatility of Dart to build dynamic, high-performance cross-platform apps. Our expertise ensures seamless functionality, faster development, and a consistent user experience across devices.
   - count: "02."
     title: Flutter App Development Services
-    pageLink: "javascript:;"
+    pageLink: "/flutter-app-development-services.html"
     description: Leverage Flutter’s robust framework for stunning, natively compiled apps. We deliver visually appealing, responsive solutions that work flawlessly on both iOS and Android platforms with minimal codebase.
   - count: "03."
     title: React Native App Development Services
-    pageLink: "javascript:;"
+    pageLink: "/react-native-app-development-services.html"
     description: Build scalable and interactive apps using React Native’s flexible framework. Our team creates feature-rich applications with a native feel, ensuring optimal performance and cross-platform compatibility.
   - count: "04."
     title: Xamarin App Development Services
-    pageLink: "javascript:;"
+    pageLink: "/xamarin-app-development-services.html"
     description: Rely on Xamarin’s power to create unified, high-quality apps for multiple platforms. We ensure seamless integration, native-like performance, and reduced development time for your business needs.
 
 
