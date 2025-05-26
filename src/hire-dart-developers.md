@@ -36,8 +36,8 @@ devInformationList:
   - infoItem: As a trusted Dart development company , we specialize in creating next-generation mobile apps using the Flutter framework and Dart programming language . Whether you’re looking to build interactive, feature-rich apps or scalable solutions that drive business growth, our team is here to help. Our top-tier Dart development services provide cutting-edge solutions with seamless native experiences, ensuring your app stands out in the competitive market.
   - infoItem: At Cypherox Technologies , our experienced Dart developers excel in crafting imaginative, well-designed, and innovative applications that are both cost-effective and impactful. We take pride in delivering customized, end-to-end app development services that cater to industry-specific needs. From concept to deployment, our experts ensure your project aligns perfectly with your business goals." 
   - infoItem: When you hire Dart engineers from us, you gain access to professionals proficient in advanced technologies and committed to delivering exceptional results. Choose Cypherox Technologies as your Dart development partner and unlock the potential of cross-platform app development. Let us help you create scalable, interactive, and future-ready applications that elevate your business to new heights. Connect with us today to hire Dart developers who are ready to transform your ideas into reality!
-devBgImg: "/assets/img/bg-Hire-Dart-Developers.png"
-devBgAlt: "bg-Hire-Dart-Developers"
+devBgImg: "/assets/img/hire-dart-developers.png"
+devBgAlt: "hire-dart-developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Dart Developers Aligned with Your Project Goals"

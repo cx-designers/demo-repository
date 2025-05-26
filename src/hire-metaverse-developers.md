@@ -30,7 +30,7 @@ devInformationList:
   - infoItem: Whether you’re looking to engage your target audience, create virtual storefronts, or build interactive 3D environments, our end-to-end Metaverse development services are tailored to meet your unique business needs. Our developers are highly proficient in programming languages like C# , Unreal Engine , and Unity , enabling them to create unique, high-quality Metaverse applications that stand out in this rapidly evolving space.
   - infoItem: At Cypherox Technologies , our team has a proven track record of delivering top-notch Metaverse solutions that align with specific business objectives. Partner with us to unlock the limitless potential of the Metaverse and position your brand at the forefront of innovation.
   - infoItem: Contact us today to hire our Metaverse experts and embark on a journey to redefine how users interact with your business in the virtual world!
-devBgImg: "/assets/img/bg-Hire-Metaverse-Developers.png"
+devBgImg: "/assets/img/hire-metaverse-developers.png"
 devBgAlt: "bg-Hire-Metaverse-Developers"
 
 processSubtitle : "Meet your Needs"

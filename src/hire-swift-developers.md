@@ -30,8 +30,8 @@ devInformationList:
   - infoItem: We believe in delivering exceptional experiences through creativity and technical excellence. Our team of expert iPhone developers combines deep knowledge and skills to ensure the best possible app solution for your business. Whether you’re building a new app or enhancing an existing one, we facilitate seamless integration with the latest hardware, software, and programming languages. Our focus is on merging efficiency with functionality, ensuring your app stands out in today’s competitive tech landscape. 
   - infoItem: A creative, UI/UX-driven mobile app not only engages users but also significantly boosts your overall user base. By hiring our Swift Developers, you gain access to sophisticated iOS app programming that delivers efficient, robust, and future-ready applications. These apps are designed to enhance your business processes and drive revenue growth.
   - infoItem: Elevate your business app with next-generation features by converting your existing app to Swift or building a new one from scratch. At Cypherox Technologies, we provide top-tier mobile app solutions that empower your business to thrive in the digital era. Let us help you transform your vision into a high-performing iOS application that sets new standards in user experience and functionality. Partner with us today!
-devBgImg: "/assets/img/bg-Hire-Swift-Developers.png"
-devBgAlt: "bg-Hire-Swift-Developers"
+devBgImg: "/assets/img/hire-swift-developers.png"
+devBgAlt: "hire-swift-developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Swift Developers For Your Evolving Project Development Needs"

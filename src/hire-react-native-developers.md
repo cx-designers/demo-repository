@@ -31,8 +31,8 @@ devInformationList:
   - infoItem: India is renowned as a talent-rich and cost-effective destination for hiring React Native developers, and Cypherox Technologies stands out as a leader in this space. Our team has a proven track record of solving complex mobile app development challenges using React Native, ensuring scalable, feature-rich, and performance-driven applications.
   - infoItem: By choosing us, you gain access to top-tier React Native experts who combine innovation, technical expertise, and industry best practices to craft cutting-edge solutions. Let us help you bring your ideas to life while optimizing costs and accelerating your time-to-market. Hire React Native developers from Cypherox Technologies today and embark on a journey to create impactful, cross-platform mobile apps that drive success.
 
-devBgImg: "/assets/img/bg-Hire-React-Native-Developers.png"
-devBgAlt: "bg-Hire-React-Native-Developers"
+devBgImg: "/assets/img/hire-react-native-developers.png"
+devBgAlt: "hire-react-native-developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire React Native Developers For Your Evolving Project Needs"

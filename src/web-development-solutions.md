@@ -50,7 +50,7 @@ secSubTitle: "What We Provide"
 secTitle: "Our Web Development Services"
 servicesList:
   - count: "01."
-    title: "/Front-End Development Services"
+    title: "Front-End Development Services"
     pageLink: "/front-end-development-services.html"
     description: Transform your vision into stunning, responsive, and user-friendly interfaces with seamless navigation. Our expertise in HTML, CSS, and JavaScript ensures pixel-perfect designs that engage users. Elevate your website today.
 
@@ -81,7 +81,7 @@ servicesList:
 
   - count: "07."
     title: "ERP and CRM Development Services"
-    pageLink: "///erp-and-crm-development-services.html"
+    pageLink: "/erp-and-crm-development-services.html"
     description: Streamline operations with custom ERP systems and enhance customer relationships through intuitive CRM platforms. Automate workflows, analyze data, and improve efficiency. Transform your business processes today.
 
 

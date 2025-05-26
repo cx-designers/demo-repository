@@ -29,8 +29,8 @@ devInformationList:
   - infoItem: Our skilled iPhone app developers excel in crafting stunning applications using Swift, Objective-C, and other cutting-edge technologies tailored for mobile, tablets, wearables, and more. They possess a deep understanding of what drives user engagement and how to deliver a richer, more intuitive user experience—essential elements for the success of any app. Prioritizing user needs and planning for future updates, we ensure your custom app achieves resounding success, backed by assured warranties and flexible maintenance contracts.
   - infoItem: At Cypherox Technologies, we take pride in delivering flawless user experiences, functional designs, and high-performance codebases. This is the essence of our full-stack iOS app development expertise. Whether it’s for iPhone, iPad, Apple TV, or Apple Watch, our tailor-made apps are meticulously crafted to meet the highest platform-specific standards.
   - infoItem: Looking to build your next iOS app? Inquire today to learn how our iOS app development services can be the perfect fit for your business. Whether you need to extend your existing team or build a dedicated iOS app development team from scratch, our flexible hiring models cater to your bespoke requirements. Let Cypherox Technologies empower your vision with innovative, user-centric iOS apps designed to thrive in today’s competitive digital landscape.
-devBgImg: "/assets/img/bg-Hire-IOS-Developer.png"
-devBgAlt: "bg-Hire-IOS-Developer"
+devBgImg: "/assets/img/hire-ios-developer.png"
+devBgAlt: "hire-ios-developer"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire IOS Developer For Your Evolving Project Needs"

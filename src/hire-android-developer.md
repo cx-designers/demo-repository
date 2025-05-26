@@ -30,8 +30,8 @@ devInformationList:
   - infoItem: We offer flexible hiring models designed to suit your specific needs—be it hiring a single developer or assembling an entire team for end-to-end mobile app development. By collaborating directly with clients, we ensure every project aligns with their objectives, timelines, and budgetary constraints. Our goal is to deliver scalable, feature-rich applications that exceed expectations while maintaining cost-efficiency.
   - infoItem: At Cypherox Technologies, we focus on creating standout apps equipped with advanced functionalities and intuitive designs. With deep insights into the latest industry trends, our skilled developers craft next-gen solutions that elevate your brand above competitors. From integrating wearable devices like IoT modules or health trackers to developing seamless user experiences, we do it all.
   - infoItem: Beyond development, our commitment extends to offering comprehensive post-launch support. This includes regular updates, performance checks, and ongoing maintenance to guarantee a top-notch user experience. By prioritizing long-term engagement, we ensure your app remains relevant, functional, and ahead of the curve.
-devBgImg: "/assets/img/bg-Hire-Android-Developer.png"
-devBgAlt: "bg-Hire-Android-Developer"
+devBgImg: "/assets/img/hire-android-developer.png"
+devBgAlt: "hire-android-developer"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Android Developers For Your Evolving Project Development Needs"
