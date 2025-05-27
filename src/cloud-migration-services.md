@@ -94,8 +94,8 @@ devInformationList :
 - infoItem: We specialize in end-to-end cloud migration, ensuring your workloads, applications, and data move seamlessly while maintaining optimal performance and security.
 - infoItem: Our approach includes migration strategy planning, automated deployment, real-time performance monitoring, and security-first integration to enhance your cloud ecosystem. Whether you need a full-scale migration, re-platforming, or hybrid cloud integration, our experts ensure a zero-disruption transition with maximum scalability and efficiency.
 - infoItem: By leveraging industry best practices and cutting-edge cloud tools, we help businesses modernize legacy systems, enhance agility, and optimize operational costs, making their cloud transformation smoother and future-ready.
-devBgImg: "/assets/img/bg-cloud-migration.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/cloud-migration.png"
+devBgAlt : "Cloud migration"
 
 secTitle: "End-to-End Cloud Migration Solutions for a Seamless Transition"
 secSubTitle: "Our Cloud Migration Services"  

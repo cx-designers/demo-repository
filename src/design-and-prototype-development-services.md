@@ -87,8 +87,8 @@ devInformationList :
 - infoItem: We specialize in transforming ideas into interactive prototypes, ensuring a user-centric and visually compelling experience. Our team creates wireframes, mockups, and high-fidelity designs, helping businesses visualize their digital products before development begins.
 - infoItem: Using cutting-edge design tools, UX research, and prototyping techniques, we craft intuitive and scalable interfaces. This process allows businesses to test functionality, gather valuable user feedback, and refine designs to achieve optimal usability and engagement.
 - infoItem: From concept to execution, we ensure smooth collaboration, faster design iterations, and reduced development risks. Our approach helps businesses create digital solutions that are not only aesthetically pleasing but also highly functional and future-ready.
-devBgImg: "/assets/img/bg-design-prototyping-development.png"
-devBgAlt : "bg-design-prototyping-development"
+devBgImg: "/assets/img/design-and-prototype-development.png"
+devBgAlt : "Design and prototype development"
 
 
 

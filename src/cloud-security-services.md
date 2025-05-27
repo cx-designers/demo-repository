@@ -125,8 +125,8 @@ devInformationList :
 - infoItem: At Cypherox, we provide end-to-end cloud security solutions that protect businesses from cyber threats and vulnerabilities. Our team of security specialists assesses, implements, and continuously monitors security measures to ensure your cloud environment remains resilient and compliant.
 - infoItem: We offer multi-layered security solutions, including firewall protection, advanced access controls, and automated threat response to prevent breaches and unauthorized access. Our experts help businesses comply with industry regulations like GDPR, HIPAA, and ISO standards to maintain data integrity.
 - infoItem: Beyond traditional security, we integrate AI-driven threat intelligence and real-time monitoring to detect and neutralize threats before they escalate. Our cloud security services ensure businesses operate with confidence, resilience, and compliance in a fast-evolving digital world.
-devBgImg: "/assets/img/bg-cloud-security.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/cloud-security.png"
+devBgAlt : "Cloud security"
 
 
 secTitle: "Our Cloud Security Excellence"

@@ -11,6 +11,7 @@ bannerHTML: '<svg width="944" height="950" viewBox="0 0 944 697" fill="none" xml
 </svg>'
 
 turningImgURL: "assets/img/app-ideas.webp"
+turningImgAltText: ""
 turningappideasSubtitle: "Lorem ipsum"
 turningappideasTitle : "Turning Your App Ideas into Reality"
 

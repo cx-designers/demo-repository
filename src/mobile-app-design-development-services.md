@@ -89,8 +89,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in designing and developing custom mobile applications that deliver seamless user experiences and robust functionality.
 - infoItem: We create feature-rich mobile apps tailored to specific business needs, ensuring high performance, intuitive navigation, and smooth functionality. Our design-first approach focuses on aesthetics and usability, making apps visually appealing and easy to use.
 - infoItem: From native and hybrid apps to cross-platform solutions, we leverage the latest technologies to build scalable, secure, and innovative mobile applications. Our expertise extends to crafting apps for various industries, ensuring that each solution aligns perfectly with business objectives and user expectations.
-devBgImg: "/assets/img/bg-mobile-app-design-development.png"
-devBgAlt : "bg-mobile-app-design-development"
+devBgImg: "/assets/img/mobile-app-design-development.png"
+devBgAlt : "Mobile app design development"
 
 secTitle: " Mobile App Design and Development Services We Offer"
 secSubTitle: "What We Offer"  

@@ -81,7 +81,7 @@ empTestimonials:
     tab-id: "emp-1-tab"
     data-bs-target: "#emp-1"
     aria-controls: "emp-1"
-    img: "/assets/img/emp-john-deo.webp"
+    img: "/assets/img/client-1-nme.webp"
     name: "John Deo"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elit ipsum, sodales vel mi sed, eleifend posuere nisl. Duis varius metus nec quam ornare, a volutpat lectus placerat. Duis et libero id nisl ornare fringilla. Morbi sollicitudin dolor eget molestie dignissim. Morbi fermentum justo vitae dignissim placerat. Vivamus malesuada, augue id malesuada scelerisque, mauris libero dignissim lacus, sed rutrum nisl tellus et purus."
     is_active: true
@@ -90,7 +90,7 @@ empTestimonials:
     tab-id: "emp-2-tab"
     data-bs-target: "#emp-2"
     aria-controls: "emp-2"
-    img: "/assets/img/emp-john-deo-2.webp"
+    img: "/assets/img/client-2-nme.webp"
     name: "John Deo"
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elit ipsum, sodales vel mi sed, eleifend posuere nisl. Duis varius metus nec quam ornare, a volutpat lectus placerat. Duis et libero id nisl ornare fringilla. Morbi sollicitudin dolor eget molestie dignissim. Morbi fermentum justo vitae dignissim placerat."
     is_active: false
@@ -99,7 +99,7 @@ empTestimonials:
     tab-id: "emp-3-tab"
     data-bs-target: "#emp-3"
     aria-controls: "emp-3"
-    img: "/assets/img/emp-john-deo-3.webp"
+    img: "/assets/img/client-3-nme.webp"
     name: "John Deo"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elit ipsum, sodales vel mi sed, eleifend posuere nisl. Duis varius metus nec quam ornare, a volutpat lectus placerat. Duis et libero id nisl ornare fringilla. Morbi sollicitudin dolor eget molestie dignissim. Morbi fermentum justo vitae dignissim placerat. Vivamus malesuada, augue id malesuada scelerisque, mauris libero dignissim lacus, sed rutrum nisl tellus et purus."
     is_active: false
@@ -108,7 +108,7 @@ empTestimonials:
     tab-id: "emp-4-tab"
     data-bs-target: "#emp-4"
     aria-controls: "emp-4"
-    img: "/assets/img/emp-john-deo-4.webp"
+    img: "/assets/img/client-4-nme.webp"
     name: "John Deo"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elit ipsum, sodales vel mi sed, eleifend posuere nisl. Duis varius metus nec quam ornare, a volutpat lectus placerat. Duis et libero id nisl ornare fringilla. Morbi sollicitudin dolor eget molestie dignissim."
     is_active: false

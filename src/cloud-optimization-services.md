@@ -93,8 +93,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in enhancing cloud efficiency, security, and scalability to help businesses achieve seamless digital transformation. Our expert cloud architects and engineers work closely with you to analyze your infrastructure, optimize resource allocation, and implement cost-effective, high-performance solutions tailored to your needs.
 - infoItem: We ensure maximum security and compliance by integrating advanced cloud governance, risk management, and data protection strategies. Whether you're using AWS, Azure, GCP, or a hybrid environment, our solutions safeguard your critical assets while maintaining operational agility.
 - infoItem: Beyond optimization, we automate processes, enhance monitoring, and future-proof your cloud ecosystem with AI-driven innovations. Our proactive approach ensures continuous performance improvements, allowing your business to scale effortlessly while keeping cloud costs under control.
-devBgImg: "/assets/img/bg-cloud-optimization.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/cloud-optimization.png"
+devBgAlt : "Cloud optimization"
 
 secTitle: "Comprehensive Cloud Performance & Optimization Services"
 secSubTitle: "Our Cloud Optimization Services"  

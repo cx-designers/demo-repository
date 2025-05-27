@@ -87,8 +87,8 @@ devInformationList :
 - infoItem: We design and implement optimized cloud architectures that ensure seamless integration, automation, and compliance. Our solutions enable better scalability, workload distribution, and security, providing a solid foundation for your business growth.
 - infoItem: Our approach focuses on efficiency, agility, and innovation, enabling businesses to reduce downtime, improve performance, and enhance cloud security. With our expertise, companies can shift from traditional IT models to a fully optimized cloud-based ecosystem, ensuring long-term success and sustainability.
 - infoItem: By adopting modern cloud practices, we eliminate complexities, reduce infrastructure costs, and enable rapid scalability, ensuring that your business remains future-ready and competitive.
-devBgImg: "/assets/img/bg-cloud-architecture-and-design.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/cloud-architecture-and-design.png"
+devBgAlt : "Cloud architecture and design"
 
 secTitle: "Optimized Cloud Architecture and Design Solutions for Performance"
 secSubTitle: "Our Cloud Architecture & Design Services"  

@@ -86,8 +86,8 @@ devInformationList :
 - infoItem: We specialize in modernizing IT infrastructure through cloud adoption and DevOps automation, ensuring businesses can scale efficiently.
 - infoItem: Our experts architect, deploy and manage cloud environments that enhance security, performance, and cost efficiency. By integrating CI/CD pipelines, containerization, and infrastructure as code (IaC), we streamline development cycles for faster and more reliable software delivery.
 - infoItem: From cloud migration and serverless computing to continuous monitoring and security optimization, our solutions align with your business goals, helping you stay ahead in the digital landscape.
-devBgImg: "/assets/img/bg-cloud-and-devops.png"
-devBgAlt : "bg-cloud-and-devops"
+devBgImg: "/assets/img/cloud-and-devops.png"
+devBgAlt : "Cloud and DevOps"
 
 
 

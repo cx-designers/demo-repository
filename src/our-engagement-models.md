@@ -14,7 +14,8 @@ bannerHTML: ' <svg width="882" height="804" viewBox="0 0 882 804" fill="none" xm
 turningappideasSubtitle: "Introduction to Our Engagement Models"
 turningappideasTitle : "Choose the Right Engagement Model to Drive Your Vision Forward."
 
-turningImgURL: "../../../assets/img/engagement-model.webp"
+turningImgURL: "../../../assets/img/choose-right-engagement-model.webp"
+turningImgAltText: "Choose the right engagement model for your Business"
 
 turningappideas:
   - description: "Are you searching for a reliable partner to drive your digital transformation? At Cypherox Technologies, we specialize in delivering world-class design, development, and technology services that empower businesses globally. Since 2014, we’ve been at the forefront of innovation, helping startups and enterprises alike achieve their goals through seamless collaboration and cutting-edge solutions."
