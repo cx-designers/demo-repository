@@ -2518,6 +2518,10 @@ header {
             font-size: 60px;
             line-height: 70px;
           }
+          @include mdScreenSmall {
+            font-size: 50px;
+            line-height: 60px;
+          }
 
           @include ipadLarge {
             font-size: 40px;
@@ -2626,6 +2630,10 @@ header {
       .svg-draw-sec {
         padding-right: 80px !important;
 
+        @include mdScreenSmall {
+          padding-right: 20px !important;
+        }
+
         @include mobileLarge {
           padding-right: 0px !important;
         }
@@ -2640,6 +2648,10 @@ header {
     &.e-commerce {
       .svg-draw-sec {
         padding-left: 80px !important;
+
+        @include mdScreenSmall {
+          padding-left: 20px !important;
+        }
 
         @include mobileLarge {
           padding-left: 0px !important;
@@ -3640,10 +3652,15 @@ div#lottie-animation {
         border-radius: 15px;
         height: 100%;
 
+        @include mdScreenSmall {
+          padding: 20px 10px;
+          margin: 0px 10px;
+        }
+        
         @include mobileLarge {
           margin: 0;
         }
-
+        
         .testimonial-item-icon-sec {
           svg {
             margin-bottom: 20px;
@@ -4348,7 +4365,7 @@ div#lottie-animation {
 
         .image-sec {
           img {
-            @include mobileLarge {
+            @include mdScreenSmall {
               width: 100%;
               max-height: 360px;
               object-fit: cover;
@@ -4434,7 +4451,7 @@ div#lottie-animation {
     }
   }
 
-  @include mdScreen {
+  @include mdScreenLarge {
     height: auto !important;
     padding-top: 60px !important;
     padding-bottom: 80px !important;
