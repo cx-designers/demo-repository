@@ -3,7 +3,7 @@ layout: layouts/service-template/ios-app-development-services.njk
 title: MEAN Stack Development Services | MEAN Stack Solutions
 metaDescription: Build dynamic, scalable web apps with MEAN stack development. Leverage MongoDB, Express.js, Angular & Node.js for full stack solutions—launch faster today!
 bodyClass: "clickfunnels"
-permalink: clickfunnels-mean-services.html
+permalink: mean-stack-development-services.html
 bannersubTitle: "Service"   
 bannerTitle: "MEAN Stack Development Services"
 bannerdesc: "Streamline your web application development with our MEAN Stack services. We ensure your apps are scalable, user-friendly, and optimized for maximum performance. Our team provides end-to-end solutions that drive growth and boost efficiency. Partner with us to transform your digital strategy and achieve unmatched success with cutting-edge MEAN Stack applications."

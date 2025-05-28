@@ -98,14 +98,14 @@ secSubTitle: "What We Provide"
 servicesList:
 
   - count: "01."
-    title: "Clickfunnels Web Development Services"
-    pageLink: "/clickfunnels-mean-services.html"
+    title: "MEAN Stack Development Services"
+    pageLink: "/mean-stack-development-services.html"
     pageAriaLabel: "Go to clickfunnels page"
     description: "Design high-converting sales funnels and landing pages with ClickFunnels’ intuitive tools. Optimize your marketing strategy and drive better results effortlessly. Boost conversions today."
 
   - count: "02."
-    title: "WordPress Development Services"
-    pageLink: "/wordpress-development-mern-services.html"
+    title: "MERN Stack Development Services"
+    pageLink: "/mern-stack-development-services.html"
     pageAriaLabel: "Go to wordpress page"
     description: "Create dynamic, SEO-friendly websites with WordPress’s flexible CMS. Customize themes, plugins, and functionalities to build scalable and user-friendly web solutions. Elevate your site now."
 
