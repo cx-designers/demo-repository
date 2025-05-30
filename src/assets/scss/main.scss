@@ -2213,12 +2213,14 @@ header {
 /*about us section css start */
 
 /* Service Section CSS Start */
-.service-page .gloabl-banner-inner-page {
-  .inner-page-wrapper {
-    .row {
-      .content-col {
-        @include desktopSmall {
-          padding-top:100px !important;  
+body.service-page {
+  .gloabl-banner-inner-page {
+    .inner-page-wrapper {
+      .row {
+        .content-col {
+          @include desktopSmall {
+            padding-top:100px !important;  
+          }
         }
       }
     }
