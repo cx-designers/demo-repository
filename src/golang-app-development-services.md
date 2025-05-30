@@ -30,16 +30,16 @@ breadcrumbOverride:
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
 clients:
-  - clientLogoImg: "../../../assets/img/our-client-1.svg"
-    clientLogoalt: "our-client-1"
-  - clientLogoImg: "../../../assets/img/our-clients-2.svg"
-    clientLogoalt: "our-client-2"
-  - clientLogoImg: "../../../assets/img/our-clients-3.svg"
-    clientLogoalt: "our-client-3"
-  - clientLogoImg: "../../../assets/img/our-clients-4.svg"
-    clientLogoalt: "our-client-4"
-  - clientLogoImg: "../../../assets/img/our-clients-5.svg"
-    clientLogoalt: "our-client-5"
+  - clientLogoImg: "../../../assets/img/dockyard-logo.svg"
+    clientLogoalt: "Dockyard Logo"
+  - clientLogoImg: "../../../assets/img/chopdawg-logo.svg"
+    clientLogoalt: "Chopdawg Logo"
+  - clientLogoImg: "../../../assets/img/xfive-logo.svg"
+    clientLogoalt: "Xfive Logo"
+  - clientLogoImg: "../../../assets/img/fingent-logo.svg"
+    clientLogoalt: "Fingent Logo"
+  - clientLogoImg: "../../../assets/img/viget-logo.svg"
+    clientLogoalt: "Viget Logo"
 
 devSubTitle : What We Do
 devTitle: Golang App Development Services

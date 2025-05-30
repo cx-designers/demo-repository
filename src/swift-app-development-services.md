@@ -28,16 +28,16 @@ breadcrumbOverride:
 clientTitle: "Our Clients"
 clientBgImage: "../../../assets/img/dots-bg.webp"
 clients:
-  - clientLogoImg: "../../../assets/img/technova-solutions-svg.svg"
-    clientLogoalt: "our-client-1"
-  - clientLogoImg: "../../../assets/img/bytewise-innovations.svg"
-    clientLogoalt: "our-client-2"
-  - clientLogoImg: "../../../assets/img/code-craft-labs.svg"
-    clientLogoalt: "our-client-3"
-  - clientLogoImg: "../../../assets/img/logic-leap-technologies.svg"
-    clientLogoalt: "our-client-4"
-  - clientLogoImg: "../../../assets/img/nexus-forge-systems.svg"
-    clientLogoalt: "our-client-5"
+  - clientLogoImg: "../../../assets/img/technova-logo.svg"
+    clientLogoalt: "Technova Logo"
+  - clientLogoImg: "../../../assets/img/bytewise-logo.svg"
+    clientLogoalt: "Bytewise Logo"
+  - clientLogoImg: "../../../assets/img/codecraft-logo.svg"
+    clientLogoalt: "Codecraft Logo"
+  - clientLogoImg: "../../../assets/img/logicleap-logo.svg"
+    clientLogoalt: "Logicleap Logo"
+  - clientLogoImg: "../../../assets/img/nexus-logo.svg"
+    clientLogoalt: "Nexus Logo"
 
 featuresSecSubTitle: Why Cypherox
 featuresSecTitle: Why Choose Cypherox for Swift App Development Services?
