@@ -1236,6 +1236,15 @@ header {
                   margin: 0px;
                 }
               }
+              &.five-column-list {
+               display: flex;
+                flex-wrap: wrap;
+
+                li.v3-inner-menu-item {
+                  width: calc(20% - 7px);
+                  margin: 0px;
+                }
+              }
 
               &.four-column-list {
                 display: flex;
@@ -2204,6 +2213,17 @@ header {
 /*about us section css start */
 
 /* Service Section CSS Start */
+.service-page .gloabl-banner-inner-page {
+  .inner-page-wrapper {
+    .row {
+      .content-col {
+        @include desktopSmall {
+          padding-top:100px !important;
+        }
+      }
+    }
+  }
+}
 
 .main-service-sec {
   position: relative;
@@ -4331,7 +4351,7 @@ div#lottie-animation {
     width: 490px;
     height: 100%;
     background-image: url(../img/industries-shap.svg);
-    bottom: 20%;
+    bottom: 0%;
     top: auto;
     background-size: 100%;
     background-repeat: no-repeat;
