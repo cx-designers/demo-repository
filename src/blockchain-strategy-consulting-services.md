@@ -133,8 +133,8 @@ devInformationList :
 - infoItem: At Cypherox, we offer strategic consulting services to help businesses understand, adopt, and integrate blockchain technology.
 - infoItem: Our experts analyze business objectives, assess feasibility, and develop tailored blockchain strategies that align with your industry needs.
 - infoItem: We guide enterprises through technology selection, system architecture, and regulatory compliance to ensure a seamless blockchain implementation.
-devBgImg: "/assets/img/bg-blockchain-strategy-consulting.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/blockchain-strategy-consulting.png"
+devBgAlt : "Blockchain strategy consulting"
 
 secTitle: "Blockchain Strategy Consulting Services We Offer"
 secSubTitle: "Our Work"  

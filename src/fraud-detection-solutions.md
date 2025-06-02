@@ -132,8 +132,8 @@ devInformationList :
 - infoItem: At Cypherox, we develop AI-powered fraud detection systems that identify suspicious activities and prevent fraud before it happens.
 - infoItem: Our machine learning algorithms analyze transactions, user behavior, and patterns to detect anomalies, ensuring enhanced security and fraud prevention. We build customized fraud detection models for industries like banking, e-commerce, insurance, and more.
 - infoItem: By utilizing real-time data monitoring, anomaly detection, and predictive analytics, we provide highly accurate fraud detection solutions that minimize risks and financial losses.
-devBgImg: "/assets/img/bg-fraud-detection.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/fraud-detection.png"
+devBgAlt : "Fraud detection"
 
 secTitle: "AI-Powered Fraud Detection Services We Offer"
 secSubTitle: "What We Offer"  

@@ -123,8 +123,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in providing innovative AI and ML solutions tailored to meet diverse business needs. Our expertise spans across multiple industries, ensuring businesses can harness AI-powered insights for smarter decision-making.
 - infoItem: We develop custom AI models that optimize operations, improve customer experiences, and enhance automation processes. Our data-driven approach ensures accurate predictions and actionable insights, helping businesses stay ahead of the competition.
 - infoItem: From chatbots and virtual assistants to deep learning and computer vision applications, we build AI-driven systems that enhance efficiency and drive measurable business growth.
-devBgImg: "/assets/img/bg-artificial-intelligence-and-machine-learning.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/artificial-intelligence-and-machine-learning.png"
+devBgAlt : "Artificial intelligence and machine learning"
 
 secTitle: "AI & ML Services We Offer"
 secSubTitle: "Top-Tier AI and ML Solutions To Enhance Automation"  

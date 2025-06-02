@@ -132,8 +132,8 @@ devTitlePart : with AI-Powered Writing Tools
 devInformationList :
 - infoItem: At Cypherox, we build AI-powered content generation tools that streamline the writing process for businesses, marketers, and content creators.
 - infoItem: With natural language processing (NLP) and deep learning algorithms, our solutions ensure grammatically correct, plagiarism-free, and contextually relevant content. Whether you need blog posts, marketing copy, or automated reports, our AI writing tools produce high-quality content at scale.
-devBgImg: "/assets/img/bg-AI-Content-Generator.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/ai-content-generator.png"
+devBgAlt : "AI content generator"
 
 
 

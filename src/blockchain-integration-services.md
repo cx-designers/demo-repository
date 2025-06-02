@@ -103,8 +103,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in blockchain integration, enabling businesses to adopt decentralized technology without disrupting existing workflows.
 - infoItem: We seamlessly connect blockchain networks, smart contracts, and decentralized applications (DApps) with traditional IT infrastructure. Our solutions improve security, transparency, and operational efficiency.
 - infoItem: By leveraging Ethereum, Hyperledger, Binance Smart Chain, and Polygon, we help businesses integrate blockchain into finance, supply chain, healthcare, and more.
-devBgImg: "/assets/img/bg-blockchain-integration.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/blockchain-integration.png"
+devBgAlt : "Blockchain integration"
 
 secTitle: "Blockchain Integration Services We Offer"
 secSubTitle: "Our Work"  

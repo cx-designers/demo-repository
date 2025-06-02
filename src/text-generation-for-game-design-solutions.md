@@ -125,8 +125,8 @@ devTitlePart : Engaging Game Narratives
 devInformationList :
 - infoItem: At Cypherox, we leverage natural language processing (NLP) and deep learning to create real-time, dynamic text for interactive gaming experiences.
 - infoItem: Our AI-powered systems generate compelling game dialogues, non-player character (NPC) interactions, and branching storylines that adapt to player choices and in-game scenarios. Whether you need automated quest generation, AI-driven storytelling, or dynamic world-building, our solutions ensure seamless and engaging gameplay.
-devBgImg: "/assets/img/bg-Text-Generation-for-Game Design.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/text-generation-for-game-design.png"
+devBgAlt : "Text generation for game design"
 
 
 

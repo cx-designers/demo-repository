@@ -38,7 +38,7 @@ clients:
     clientLogoalt: "Chopdawg Logo"
   - clientLogoImg: "../../../assets/img/xfive-logo.svg"
     clientLogoalt: "Xfive Logo"
-  - clientLogoImg: "../../../assets/img/fingent-logo.svg"
+  - clientLogoImg: "../../../assets/img/fingent-logo.svg"  
     clientLogoalt: "Fingent Logo"
   - clientLogoImg: "../../../assets/img/viget-logo.svg"
     clientLogoalt: "Viget Logo"
@@ -104,8 +104,8 @@ devInformationList :
 
 - infoItem: We leverage advanced AI, NLP, and machine learning technologies to build virtual assistants that understand user intent, personalize interactions, and continuously improve over time.
 
-devBgImg: "/assets/img/bg-ai-powered-chatbots-and-virtual-assistants.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/ai-powered-chatbots-and-virtual-assistants.png"
+devBgAlt : "AI powered chatbots and virtual assistants "
 
 
 

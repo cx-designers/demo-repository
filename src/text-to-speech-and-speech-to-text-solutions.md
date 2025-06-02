@@ -125,8 +125,8 @@ devTitlePart : AI-Driven TTS & STT Solutions
 devInformationList :
 - infoItem: At Cypherox, we develop cutting-edge TTS and STT systems that enable smooth text-to-audio and speech-to-text conversion.
 - infoItem: Our AI-driven solutions leverage deep learning and natural language processing (NLP) to deliver clear, expressive voice output and highly accurate speech recognition. Whether for virtual assistants, transcription services, accessibility tools, or AI-driven customer support, our systems ensure efficiency, precision, and seamless communication.
-devBgImg: "/assets/img/bg-Text-to-Speech-and-Speech-to-Text- Systems.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/text-to-speech-and-speech-to-text-systems.png"
+devBgAlt : "Text to speech and speech to text systems"
 
 
 

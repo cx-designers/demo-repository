@@ -124,8 +124,8 @@ devInformationList :
 - infoItem: At Cypherox, we design and develop advanced Virtual Reality and Augmented Reality solutions to bring digital innovation to life.
 - infoItem: We create interactive AR applications and immersive VR environments tailored to industries such as gaming, healthcare, real estate, education, and e-commerce.
 - infoItem: Our expertise spans across 3D modeling, spatial computing, and AR/VR app development, ensuring high-quality experiences for businesses and users worldwide.
-devBgImg: "/assets/img/bg-virtual-and-augmented-reality.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-and-augmented-reality.png"
+devBgAlt : "Virtual and augmented reality"
 
 secTitle: "Virtual Reality and Augmented Reality Development Services"
 secSubTitle: "What We Offer"  

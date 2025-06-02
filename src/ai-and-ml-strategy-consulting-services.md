@@ -133,8 +133,8 @@ devInformationList :
 - infoItem: At Cypherox, we provide AI and ML consulting services to help businesses design, implement, and scale AI-driven solutions.
 - infoItem: Our experts analyze business challenges, assess AI readiness, and develop customized AI strategies that align with organizational goals. We guide companies through AI adoption, ensuring successful implementation and measurable ROI.
 - infoItem: By leveraging cutting-edge AI and ML technologies, we help businesses unlock data-driven insights, automate processes, and improve decision-making.
-devBgImg: "/assets/img/bg-ai-and-ml-strategy-consulting.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/ai-and-ml-strategy-consulting.png"
+devBgAlt : "AI and ML strategy consulting"
 
 secTitle: "AI and ML Strategy Consulting Services We Offer"
 secSubTitle: "What We Offer"  

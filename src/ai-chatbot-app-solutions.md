@@ -126,8 +126,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in AI chatbot development that enables businesses to deliver instant, personalized responses to users.
 - infoItem: Our chatbot applications use natural language processing (NLP), machine learning, and AI automation to provide human-like conversations across websites, mobile apps, and messaging platforms.
 - infoItem: With seamless integrations, multilingual support, and AI-driven analytics, our chatbots help businesses enhance efficiency, reduce workload, and provide 24/7 customer assistance.
-devBgImg: "/assets/img/bg-AI-Chatbot-App.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/ai-chatbot-app.png"
+devBgAlt : "AI chatbot app"
 
 secTitle: "AI Chatbot App Development Services We Offer"
 secSubTitle: "Our Services"  

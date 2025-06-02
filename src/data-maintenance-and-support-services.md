@@ -132,8 +132,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in data maintenance and ongoing support to help businesses enhance data accuracy, prevent downtime, and optimize database performance.
 - infoItem: Our team ensures consistent data updates, error corrections, and system monitoring to maintain high-quality, reliable data. We also implement backup solutions, disaster recovery strategies, and security measures to keep your data safe and accessible at all times.
 - infoItem: With real-time data monitoring, automated updates, and AI-driven optimization, we help businesses streamline operations, prevent data corruption, and improve overall efficiency.
-devBgImg: "/assets/img/bg-data-maintenance-and-support.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/data-maintenance-and-support.png"
+devBgAlt : "Data maintenance and support"
 
 secTitle: "Comprehensive Data Maintenance & Support Services"
 secSubTitle: "Our Services"  

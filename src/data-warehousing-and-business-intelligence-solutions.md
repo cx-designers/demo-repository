@@ -134,8 +134,8 @@ devInformationList :
 - infoItem: Our business intelligence solutions provide real-time analytics, reports, and dashboards that empower businesses to make data-driven decisions with confidence.
 - infoItem: We integrate AI-driven analytics and predictive modeling to help organizations extract deep insights, track key metrics, and enhance operational efficiency.
 - infoItem: By streamlining data warehousing and BI processes, we enable businesses to gain a competitive edge and drive success.
-devBgImg: "/assets/img/bg-data-warehousing-and-business-intelligence.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/data-warehousing-and-business-intelligence.png"
+devBgAlt : "Data warehousing and business intelligence"
 
 secTitle: "Comprehensive Data Warehousing & BI Services"
 secSubTitle: "Our Services"  

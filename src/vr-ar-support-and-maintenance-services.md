@@ -138,8 +138,8 @@ devInformationList :
 - infoItem: Our team conducts regular system monitoring, troubleshooting, and bug fixes to prevent downtime and improve functionality.
 - infoItem: We offer performance tuning, feature enhancements, and compatibility updates to ensure your AR/VR solutions evolve with emerging technologies.
 - infoItem: With our proactive support and real-time issue resolution, we help businesses deliver flawless, immersive experiences to their users.
-devBgImg: "/assets/img/bg-vr-ar-support-and-maintenance.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/vr-ar-support-and-maintenance.png"
+devBgAlt : "VR AR support and maintenance"
 
 secTitle: "VR/AR Support and Maintenance Services We Offer"
 secSubTitle: "Our Work"  

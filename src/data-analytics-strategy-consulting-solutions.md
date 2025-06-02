@@ -126,8 +126,8 @@ devInformationList :
 - infoItem: Our team works closely with organizations to assess existing data infrastructure, identify opportunities, and create a roadmap for effective data utilization.
 - infoItem: With a strong focus on AI-driven insights, predictive analytics, and real-time data processing, we empower businesses to streamline operations, enhance efficiency, and maximize ROI.
 - infoItem: By integrating data governance, compliance, and security best practices, we ensure your data strategy is scalable, future-proof, and aligned with business growth.
-devBgImg: "/assets/img/bg-data-analytics-strategy-consulting.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/data-analytics-strategy-consulting.png"
+devBgAlt : "Data analytics strategy consulting"
 
 secTitle: "Expert Data Analytics Consulting Services"
 secSubTitle: "What We Offer"  

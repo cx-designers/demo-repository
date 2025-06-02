@@ -136,8 +136,8 @@ devInformationList :
 - infoItem: We connect AR/VR capabilities with existing software, IoT systems, and AI-driven platforms, ensuring smooth functionality and high performance.
 - infoItem: Our team enhances digital experiences with real-time data overlays, interactive 3D elements, and intuitive user controls, making applications more dynamic and engaging.
 - infoItem: Whether it’s enterprise applications, eCommerce, training simulations, or interactive marketing, we make AR/VR integration effortless and impactful.
-devBgImg: "/assets/img/bg-vr-ar-integration.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/vr-ar-integration.png"
+devBgAlt : "VR AR integration"
 
 secTitle: "AR/VR Integration Services We Offer"
 secSubTitle: "Our Services"  

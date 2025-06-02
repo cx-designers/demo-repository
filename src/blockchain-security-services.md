@@ -88,8 +88,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in blockchain security solutions, safeguarding businesses against cyber threats, hacking attempts, and smart contract vulnerabilities.
 - infoItem: We conduct security audits, penetration testing, and risk assessments to identify potential threats and strengthen blockchain defenses. Our expertise covers cryptographic security, private key protection, and consensus mechanism security.
 - infoItem: By leveraging Ethereum, Hyperledger, Binance Smart Chain, and Polygon, we provide robust blockchain security services tailored to business needs.
-devBgImg: "/assets/img/bg-blockchain-security.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/blockchain-security.png"
+devBgAlt : "Blockchain security"
 
 
 secTitle: "Blockchain Security Services We Offer"

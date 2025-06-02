@@ -124,8 +124,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in ChatGPT-based AI solutions to create highly interactive, context-aware, and personalized conversational experiences.
 - infoItem: Our team develops chatbots, virtual assistants, and AI-driven communication tools to help businesses automate support, enhance customer engagement, and improve workflow efficiency.
 - infoItem: With advanced natural language processing (NLP), machine learning, and AI-driven automation, we ensure seamless human-like interactions, real-time responses, and multilingual communication.
-devBgImg: "/assets/img/bg-chat-GPT.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/chat-gpt-solutions.png"
+devBgAlt : "Chat GPT Solutions"
 
 secTitle: "AI-Powered ChatGPT Services We Offer"
 secSubTitle: "Generative AI Platforms"  

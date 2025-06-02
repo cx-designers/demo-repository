@@ -120,8 +120,8 @@ devTitlePart : Smart AI Q&A Solutions
 devInformationList :
 - infoItem: At Cypherox, we build advanced AI Q&A systems that allow businesses to deliver accurate responses to customer queries in real-time.
 - infoItem: Using natural language processing (NLP) and deep learning, our solutions understand complex queries, analyze vast data sources, and provide relevant answers instantly. Whether for chatbots, customer support, or knowledge bases, our AI-powered Q&A systems ensure seamless user interaction and improved efficiency.
-devBgImg: "/assets/img/bg-Question-and-Answer-System.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/question-and-answer-system.png"
+devBgAlt : "Question and answer system"
 
 
 

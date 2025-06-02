@@ -134,8 +134,8 @@ devInformationList :
 - infoItem: Our approach focuses on end-to-end data encryption, access control, regulatory compliance, and risk mitigation to ensure your data is always secure and accessible only to authorized users.
 - infoItem: With AI-driven threat detection, real-time monitoring, and compliance-focused strategies, we help businesses maintain trust, prevent data leaks, and comply with industry regulations like GDPR, HIPAA, and ISO 27001.
 - infoItem: By integrating advanced security measures, cloud security solutions, and AI-powered risk assessments, we empower organizations to mitigate risks and maintain a strong security posture.
-devBgImg: "/assets/img/bg-data-security-and-privacy.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/data-security-and-privacy.png"
+devBgAlt : "Data security and privacy"
 
 secTitle: "Comprehensive Data Security & Privacy Services"
 secSubTitle: "What We Offer"  

@@ -152,8 +152,8 @@ devInformationList :
 - infoItem: Our data modeling solutions ensure information is structured efficiently, making it easier to identify trends, forecast outcomes, and improve decision-making.
 - infoItem: By integrating machine learning and AI-powered analytics, we provide businesses with real-time insights, accurate predictions, and data-backed strategies for success.
 - infoItem: Whether you need descriptive, diagnostic, or predictive analytics, our expertise ensures your business stays ahead of the competition.
-devBgImg: "/assets/img/bg-data-analysis-and-modeling.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/data-analysis-and-modeling.png"
+devBgAlt : "Data analysis and modeling"
 
 secTitle: "Comprehensive Data Analysis & Modeling Services"
 secSubTitle: "Our Services"  

@@ -134,8 +134,8 @@ devInformationList :
 - infoItem: Our machine-learning models analyze data patterns, predict outcomes, and improve efficiency through self-learning algorithms.
 - infoItem: We implement AI-driven automation, natural language processing (NLP), and deep learning techniques to build powerful, scalable, and adaptive AI systems for various industries.
 - infoItem: Integrating AI and ML technologies, we help businesses streamline workflows, enhance customer experiences, and gain a competitive edge.
-devBgImg: "/assets/img/bg-ai-and-machine-learning.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/ai-and-machine-learning.png"
+devBgAlt : "AI and machine learning"
 
 secTitle: "AI & Machine Learning Services We Offer"
 secSubTitle: "Our Services"  

@@ -101,8 +101,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in smart contract development, helping businesses automate and secure their transactions using blockchain technology.
 - infoItem: We design and develop custom smart contracts for various industries, ensuring trustless and tamper-proof agreements. Our expertise spans multiple  blockchain platforms, delivering optimized, gas-efficient, and high-performance contracts.
 - infoItem: By utilizing Ethereum, Binance Smart Chain, Hyperledger, and Polygon, we create smart contracts that streamline business processes and minimize risks.
-devBgImg: "/assets/img/bg-smart-contract-development.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/smart-contract-development.png"
+devBgAlt : "Smart contract development"
 
 
 secTitle: "Smart Contract Development Services We Offer "

@@ -132,8 +132,8 @@ devInformationList :
 - infoItem: At Cypherox, we develop AI-powered virtual assistants designed to handle routine tasks, customer interactions, and business operations with automation and intelligence.
 - infoItem: Our solutions utilize natural language processing (NLP), machine learning, and AI-driven automation to enhance productivity, improve response times, and provide real-time assistance across multiple platforms.
 - infoItem: Whether it’s customer support, appointment scheduling, or data management, our virtual assistants are built to learn, adapt, and provide efficient, human-like interactions.
-devBgImg: "/assets/img/bg-Virtual-Assistant-Services.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-assistant.png"
+devBgAlt : "Virtual assistant"
   
 secTitle: "AI Virtual Assistant Services We Offer"
 secSubTitle: "Our Services"  

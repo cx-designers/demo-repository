@@ -142,8 +142,8 @@ devInformationList :
 - infoItem: Our team leverages advanced visualization tools, AI-powered analytics, and real-time data processing to create intuitive reports and interactive dashboards for businesses.
 - infoItem: From graphs and heatmaps to interactive charts, we bring data to life, making it easier for businesses to spot opportunities, mitigate risks, and drive strategy.
 - infoItem: With real-time visual analytics, companies can streamline decision-making, improve forecasting, and enhance business efficiency.
-devBgImg: "/assets/img/bg-data-visualization.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/data-visualization.png"
+devBgAlt : "Data visualization"
 
 secTitle: "Comprehensive Data Visualization Services"
 secSubTitle: "Our Services"  

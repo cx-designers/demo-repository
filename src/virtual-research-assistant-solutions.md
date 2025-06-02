@@ -124,8 +124,8 @@ devTitlePart : AI-Powered Assistance
 devInformationList :
 - infoItem: At Cypherox, we leverage artificial intelligence and natural language processing (NLP) to create advanced virtual research assistants that automate information retrieval, summarization, and data analysis.
 - infoItem: Our AI-powered assistants can scan vast data sources, extract key insights, and provide structured reports, helping professionals save time and make informed decisions faster. Whether for academic research, business intelligence, or legal analysis, our solutions ensure precision, efficiency, and accuracy.
-devBgImg: "/assets/img/bg-Virtual-Research-Assistant.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-research-assistant.png"
+devBgAlt : "Virtual research assistant"
 
 
 

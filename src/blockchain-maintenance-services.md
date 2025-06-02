@@ -137,8 +137,8 @@ devInformationList :
 - infoItem: At Cypherox, we offer ongoing blockchain maintenance to enhance system performance, security, and scalability.
 - infoItem: We conduct regular monitoring, security patching, and performance tuning to prevent downtime and vulnerabilities. Our experts ensure that your blockchain network remains efficient, compliant, and fully functional.
 - infoItem: With expertise in Ethereum, Hyperledger, Binance Smart Chain, and Polygon, we provide custom maintenance solutions for businesses across industries.
-devBgImg: "/assets/img/bg-blockchain-support-and-maintenance.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/blockchain-maintenance.png"
+devBgAlt : "Blockchain maintenance"
 
 secTitle: "Blockchain Maintenance Services We Offer"
 secSubTitle: "What We Offer"  

@@ -126,8 +126,8 @@ devInformationList :
 - infoItem: At Cypherox, we create highly accurate AI-powered language translator apps that support real-time, text, speech, and document translations.
 - infoItem: Using Natural Language Processing (NLP), AI models, and machine learning, our solutions ensure precise translations across various industries, including business, healthcare, education, and travel.
 - infoItem: With our custom translation software, multilingual chatbots, and speech-to-text AI, we enable seamless cross-language communication for businesses and users worldwide.
-devBgImg: "/assets/img/bg-Language-Translator-App.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/language-translator-app.png"
+devBgAlt : "Language translator app"
 
 
 secTitle: "AI Language Translation Services We Offer"

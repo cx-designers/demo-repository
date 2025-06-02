@@ -127,8 +127,8 @@ devInformationList :
 - infoItem: At Cypherox, we develop Reinforcement Learning solutions that enable AI models to make intelligent decisions through trial and error.
 - infoItem: Using reward-based learning algorithms, we help businesses optimize processes, automate decision-making, and enhance system efficiency. Our RL solutions are used in robotics, gaming, finance, supply chain, and autonomous systems.
 - infoItem: By leveraging deep learning and neural networks, we create adaptive AI models that continuously improve, delivering smarter and more effective automation.
-devBgImg: "/assets/img/bg-reinforcement-learning.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/reinforcement-learning.png"
+devBgAlt : "Reinforcement learning"
 
 secTitle: "AI-Powered Reinforcement Learning Services We Offer"
 secSubTitle: "What We Offer"  

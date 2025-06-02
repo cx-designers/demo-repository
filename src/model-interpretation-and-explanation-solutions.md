@@ -124,8 +124,8 @@ devInformationList :
 - infoItem: At Cypherox, we build explainable AI (XAI) solutions that help businesses understand and trust AI-generated decisions.
 - infoItem: Our model interpretation techniques uncover how AI models process data and make predictions, improving transparency and reducing bias. We apply these solutions in industries like healthcare, finance, legal, and autonomous systems.
 - infoItem: Using advanced algorithms and visualization tools, we provide clear and interpretable AI insights, ensuring responsible AI adoption for businesses.
-devBgImg: "/assets/img/bg-model-interpretation-and-explanation.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/model-interpretation-and-explanation.png"
+devBgAlt : "Model interpretation and explanation"
 
 secTitle: "Model Interpretation and Explanation Services We Offer"
 secSubTitle: "What We Offer"  

@@ -132,8 +132,8 @@ devInformationList :
 - infoItem: At Cypherox, we develop AI-powered predictive maintenance systems that enhance equipment reliability and operational efficiency.
 - infoItem: Using machine learning, IoT sensors, and data analytics, we help businesses predict failures before they happen, reducing unplanned downtime and repair costs. Our solutions are designed for industries like manufacturing, energy, transportation, and healthcare, ensuring smooth operations.
 - infoItem: By analyzing historical data, sensor inputs, and real-time machine performance, we create highly accurate predictive maintenance models that extend asset lifespan and improve productivity.
-devBgImg: "/assets/img/bg-predictive-maintenance.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/predictive-maintenance.png"
+devBgAlt : "Predictive maintenance"
 
 secTitle: "AI-Powered Predictive Maintenance Services We Offer"
 secSubTitle: "What We Offer"  

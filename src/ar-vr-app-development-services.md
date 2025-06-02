@@ -140,8 +140,8 @@ devInformationList :
 - infoItem: We create interactive AR/VR apps for training, gaming, education, real estate, and retail, enhancing engagement and user experience.
 - infoItem: Our team integrates AI, spatial computing, and 3D modeling to develop high-performance, scalable AR/VR solutions that run seamlessly across devices.
 - infoItem: With expertise in gesture-based interactions, real-time rendering, and haptic feedback, we ensure that every application delivers a realistic and immersive user experience.
-devBgImg: "/assets/img/bg-vr-ar-app-development.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/vr-ar-app-development.png"
+devBgAlt : "VR AR app development"
 
 secTitle: "AR/VR App Development Services We Offer"
 secSubTitle: "Our Work"  

@@ -132,8 +132,8 @@ devTitlePart : Advanced Voice UI Solutions
 devInformationList :
 - infoItem: At Cypherox, we build AI-driven Voice User Interfaces that revolutionize user interaction with technology. Our VUI solutions leverage NLP, voice recognition, and machine learning to deliver seamless, real-time, and highly responsive voice interactions.
 - infoItem: From smart home devices and virtual assistants to enterprise applications and accessibility solutions, our custom VUI technology makes communication effortless, engaging, and efficient.
-devBgImg: "/assets/img/bg-Voice-User-Interface.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/voice-user-interface.png"
+devBgAlt : "Voice user interface"
 
 
 secTitle: "VUI Development Services We Offer"

@@ -133,8 +133,8 @@ devInformationList :
 - infoItem: At Cypherox, we design and develop advanced AI dialogue systems that understand, process, and respond to human conversations with high accuracy and efficiency.
 - infoItem: Using natural language understanding (NLU), contextual learning, and AI automation, we create dialogue systems that power virtual assistants, customer support bots, voice interfaces, and interactive AI applications.
 - infoItem: Whether it's customer service, real-time engagement, or automation, our AI-powered dialogue systems enhance communication and improve user experience across platforms.
-devBgImg: "/assets/img/bg-Dialogue-Systems.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/dialogue-systems.png"
+devBgAlt : "Dialogue systems"
 
 
 secTitle: "AI Dialogue System Development Services We Offer"

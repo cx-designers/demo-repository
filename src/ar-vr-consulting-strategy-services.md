@@ -133,7 +133,7 @@ devInformationList :
 - infoItem: We assist in concept validation, technology selection, and roadmap planning to ensure a seamless AR/VR implementation process.
 - infoItem: With a focus on business scalability, cost-effectiveness, and innovation, we guide you in making the right AR/VR investment decisions.
 devBgImg: "/assets/img/vr-ar-strategy-consulting.png"
-devBgAlt : "bg-img"
+devBgAlt : "VR AR strategy consulting"
 
 secTitle: "AR/VR Consulting Services We Offer"
 secSubTitle: "Our Services"  

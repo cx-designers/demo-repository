@@ -132,8 +132,8 @@ devInformationList :
 - infoItem: At Cypherox, we develop Automated Machine Learning solutions that simplify AI model creation, training, and deployment.
 - infoItem: Our AutoML platforms automate data preprocessing, feature engineering, model selection, and hyperparameter tuning, reducing the need for manual intervention. Businesses can build accurate AI models faster and with minimal expertise.
 - infoItem: Using AI-driven automation and optimization techniques, we help companies deploy highly efficient and scalable machine-learning models that drive business success.
-devBgImg: "/assets/img/bg-automated-machine-learning.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/automated-machine-learning.png"
+devBgAlt : "Automated machine learning"
 
 secTitle: "Automated Machine Learning Services We Offer"
 secSubTitle: "Our AI/ML Services"  

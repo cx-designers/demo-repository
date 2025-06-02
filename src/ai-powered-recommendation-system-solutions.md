@@ -31,7 +31,7 @@ clients:
     clientLogoalt: "Xfive Logo"
   - clientLogoImg: "../../../assets/img/fingent-logo.svg"
     clientLogoalt: "Fingent Logo"
-  - clientLogoImg: "../../../assets/img/viget-logo.svg"
+  - clientLogoImg: "../../../assets/img/viget-logo.svg"  
     clientLogoalt: "Viget Logo"
 
 featuresSecSubTitle: Expert AI-Driven Personalization Solutions
@@ -124,8 +124,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in building AI-driven recommendation systems that personalize user experiences and increase conversions.
 - infoItem: Our advanced machine learning algorithms analyze vast amounts of data to provide accurate and relevant recommendations, improving customer satisfaction. We develop solutions for e-commerce, media streaming, content platforms, and more, ensuring tailored suggestions for every user.
 - infoItem: By leveraging collaborative filtering, deep learning, and predictive analytics, we create highly adaptive recommendation engines that refine suggestions based on real-time interactions.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/ai-powered-recommendation-system.webp"
+devBgAlt : "AI powered recommendation system"
 
 
 secTitle: "AI-Powered Recommendation System Services We Offer"

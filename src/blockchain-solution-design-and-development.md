@@ -121,8 +121,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in blockchain solution design and development, helping businesses integrate decentralized technology for improved operations.
 - infoItem: We develop custom blockchain architectures, consensus mechanisms, and distributed applications that align with your business goals. Our solutions ensure seamless transactions, enhanced security, and improved traceability.
 - infoItem: Using Ethereum, Hyperledger, Binance Smart Chain, and Polygon, we deliver enterprise-grade blockchain systems for various industries.
-devBgImg: "/assets/img/bg-blockchain-solution-design-and-development.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/blockchain-solution-design-and-development.png"
+devBgAlt : "Blockchain solution design and development "
 
 secTitle: "Blockchain Design & Development Services We Offer"
 secSubTitle: "What We Offer"  

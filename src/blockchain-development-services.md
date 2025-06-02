@@ -85,8 +85,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in blockchain development that helps businesses adopt decentralized technology for improved security and transparency.
 - infoItem: We design and develop custom blockchain applications, smart contracts, and decentralized finance (DeFi) platforms to meet specific business needs. Our expertise spans multiple blockchain ecosystems, ensuring seamless integration and maximum efficiency.
 - infoItem: Using Ethereum, Hyperledger, Binance Smart Chain, and Polygon, we deliver secure, scalable, and high-performance blockchain solutions that drive digital transformation.
-devBgImg: "/assets/img/bg-blockchain-development.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img//blockchain-development.png"
+devBgAlt : "Blockchain development"
 
 secTitle: "What We Offer"
 secSubTitle: "Comprehensive Blockchain Development Services"  

@@ -124,8 +124,8 @@ devInformationList :
 - infoItem: We utilize advanced data processing, AI-driven analytics, and real-time reporting to enhance operational efficiency and strategic planning.
 - infoItem: Our tailored data analytics solutions help businesses uncover patterns, predict trends, and optimize performance for maximum growth and efficiency.
 - infoItem: With our expertise in big data, predictive modeling, and machine learning, we ensure businesses stay ahead in today’s data-driven world.
-devBgImg: "/assets/img/bg-data-analytics.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/data-analytics.png"
+devBgAlt : "Data analytics"
 
 secTitle: "Comprehensive Data Analytics Services We Provide"
 secSubTitle: "Services We Provide"  

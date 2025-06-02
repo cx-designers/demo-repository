@@ -129,8 +129,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in AI and ML product development, creating intelligent applications that harness the power of machine learning and artificial intelligence.
 - infoItem: We design and develop AI-driven software, predictive analytics tools, and intelligent automation solutions that help businesses enhance productivity and improve customer experiences. Our team ensures seamless integration of AI models into real-world applications.
 - infoItem: Using cutting-edge AI technologies, we build scalable, high-performance products tailored to industry-specific needs, ensuring long-term innovation and success.
-devBgImg: "/assets/img/bg-ai-and-ml-product-development.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/ai-and-ml-product-development.png"
+devBgAlt : "AI and ML product development"
 
 secTitle: "Comprehensive AI and ML Product Development Services"
 secSubTitle: "What We Offer"  
