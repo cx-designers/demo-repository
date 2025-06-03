@@ -100,8 +100,8 @@ devTitlePart : VR & AR
 devInformationList :
 - infoItem: We specialize in creating cutting-edge virtual education platforms that provide real-time, interactive learning experiences. Whether for corporate training, skill development, or academic institutions, our AR/VR-powered solutions make learning more engaging and effective.
 - infoItem: Through simulations, AI-driven content, and immersive storytelling, we enable organizations to train employees, students, and professionals in a risk-free, controlled virtual environment.
-devBgImg: "/assets/img/bg-Virtual-Education-and-Training-Services.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-education-and-training-services.png"
+devBgAlt : "Virtual education and training services"
     
 secTitle: "Virtual Education & Training Services We Offer"
 secSubTitle: "Our Services"  

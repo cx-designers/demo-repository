@@ -126,8 +126,8 @@ devInformationList :
 - infoItem: With AI-powered personalization and blockchain-backed security, we ensure that every digital identity is authentic, engaging, and secure. 
 - infoItem: Whether for gaming, professional networking, or virtual commerce, our avatar solutions bring immersive interactions to life.
 - infoItem: 
-devBgImg: "/assets/img/bg-Virtual-Identity-and-Avatar-Management.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-identity-and-avatar-management.png"
+devBgAlt : "Virtual identity and avatar management"
     
 secTitle: "Virtual Identity & Avatar Management Services We Offer"
 secSubTitle: "Our Services"  

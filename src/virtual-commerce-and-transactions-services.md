@@ -128,8 +128,8 @@ devInformationList :
 - infoItem: At Cypherox, we create AI-driven e-commerce assistants that provide personalized shopping experiences, automated support, and secure transactions.
 - infoItem: Our virtual assistants can handle customer inquiries, recommend products, manage orders, and process payments, ensuring a smooth and hassle-free shopping experience.
 - infoItem: By integrating AI, NLP, and real-time analytics, we help businesses increase conversion rates, improve customer satisfaction, and streamline e-commerce workflows for better efficiency and profitability.
-devBgImg: "/assets/img/bg-Virtual-Commerce-and-Transactions.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-commerce-and-transactions.png"
+devBgAlt : "Virtual commerce and transactions"
     
 secTitle: "AI-Powered Virtual Commerce Services We Offer"  
 secSubTitle: "Our Services"  

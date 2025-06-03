@@ -94,8 +94,8 @@ devInformationList :
 
 - infoItem: We create fast, responsive, and intuitive Android applications tailored to your brand’s needs, allowing you to reach more users and improve conversions.
 
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/convert-your-website-to-android-app.png"
+devBgAlt : "Convert your website to Android app"
 
    
 secTitle: "Website to Android App Conversion Services We Offer"

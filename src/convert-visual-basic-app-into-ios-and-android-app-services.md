@@ -40,8 +40,8 @@ devTitlePart : Basic to a Mobile-Ready App
 devInformationList :
 - infoItem: Visual Basic applications were once a staple for business processes, but with the shift to mobile-first experiences, they can feel outdated and restrictive. By converting your VB app into an iOS or Android application, we help you enhance functionality, improve accessibility, and future-proof your software.
 - infoItem: At Cypherox, our expert developers migrate your legacy VB applications to modern mobile platforms, ensuring intuitive design, optimized performance, and seamless user interaction. Whether you need a complete UI revamp, cloud integration, or enhanced security, we make the transition smooth and hassle-free.
-devBgImg: "/assets/img/bg-Convert-Visual-Basic-App-into-IOS-and-Android-App.png"
-devBgAlt : "bg-Convert-Visual-Basic-App-into-IOS-and-Android-App"
+devBgImg: "/assets/img/convert-visual-basic-app-into-ios-android-app.png"
+devBgAlt : "Convert Visual Basic app into iOS Android app"
 
 secSubTitle: "What We Offer"  
 secTitle: "Visual Basic to Mobile App Conversion Services"

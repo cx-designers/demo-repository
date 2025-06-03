@@ -127,8 +127,8 @@ devInformationList :
 - infoItem: At Cypherox, we create dynamic, immersive Metaverse experiences using AI, blockchain, and AR/VR technologies.
 - infoItem: Our expertise spans virtual real estate, commerce, events, and social engagement, delivering seamless digital interactions that redefine business operations.
 - infoItem: By integrating cutting-edge 3D modeling, AI-powered avatars, and secure blockchain transactions, we ensure scalability, efficiency, and user engagement. Whether you need a virtual showroom, a metaverse training hub, or a digital economy, we design solutions tailored to your vision.
-devBgImg: "/assets/img/bg-Metaverse-Development-Services.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/metaverse-development-services.png"
+devBgAlt : "Metaverse development services"
     
 secTitle: "Explore Our Comprehensive Metaverse Development Services"
 secSubTitle: "Metaverse Services"  

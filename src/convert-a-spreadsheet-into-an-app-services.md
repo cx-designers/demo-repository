@@ -88,8 +88,8 @@ devInformationList :
 
 - infoItem: With a dedicated team of developers, we ensure that your new application retains all essential spreadsheet functionalities while introducing enhanced automation, user accessibility, and real-time collaboration. Whether for internal operations or customer-facing apps, we create solutions that streamline workflows and optimize productivity.
 
-devBgImg: "/assets/img/bg-convert-a-spreadsheet-into-an-app.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/convert-spreadsheet-into-app.png"
+devBgAlt : "Convert spreadsheet into app"
 
 
 

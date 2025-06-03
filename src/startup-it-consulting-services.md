@@ -95,8 +95,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in guiding startups through their digital transformation journey. Our IT consulting services focus on technology selection, product development, security, and scalable IT infrastructure, ensuring your startup is built for long-term success.
 - infoItem: From developing an MVP to optimizing cloud solutions, our expertise enables startups to make informed tech decisions, reduce costs, and accelerate growth.
 
-devBgImg: "/assets/img/bg-Startup-IT-Consulting.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/startup-it-consulting.png"
+devBgAlt : "Startup IT consulting"
 
 secTitle: "Unlocking Your Startup’s Potential with the Right Tech Solutions"
 secSubTitle: "Expert IT Consulting Services"  

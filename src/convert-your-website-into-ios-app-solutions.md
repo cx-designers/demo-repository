@@ -92,8 +92,8 @@ devTitlePart : App Conversion
 devInformationList :
 - infoItem: In today’s mobile-first world, a dedicated iOS app ensures better performance, enhanced UI/UX, and improved customer retention. Our expert developers ensure that your website’s features, design, and data seamlessly transition into an iOS platform while integrating mobile-exclusive enhancements like push notifications, offline mode, and App Store compatibility.
 - infoItem: We craft smooth, responsive, and engaging iOS applications tailored to your brand’s needs, helping you reach Apple users and maximize conversions.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/convert-your-website-to-ios-app.png"
+devBgAlt : "Convert your website to iOS app"
     
 secTitle: "Website to iOS App Conversion Services We Offer"
 secSubTitle: "Our Services"  

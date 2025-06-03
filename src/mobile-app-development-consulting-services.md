@@ -94,8 +94,8 @@ devTitlePart : Apps From Idea to Execution
 devInformationList :
 - infoItem: At Cypherox, we offer end-to-end consulting services to help businesses develop robust, user-friendly, and scalable mobile applications. Whether you are launching a new app, optimizing an existing one, or integrating advanced features, our experts provide strategic guidance to ensure the success of your mobile project.
 - infoItem: We help businesses identify the right technology stack, define user experience strategies, streamline development processes, and ensure long-term performance optimization.
-devBgImg: "/assets/img/bg-Mobile-App-Development-Consulting.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/mobile-app-development-consulting.png"
+devBgAlt : "Mobile app development consulting"
 
 secTitle: "Mobile App Development Consulting Services We Offer"
 secSubTitle: "Our Services"  

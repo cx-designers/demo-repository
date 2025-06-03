@@ -126,8 +126,8 @@ devInformationList :
 - infoItem: We leverage AI-driven tools, social platforms, and interactive features to help brands connect deeply with their target audiences. Whether you are looking to launch a support forum, fan community, or industry-specific group, we provide solutions that grow with your business.
 - infoItem: With our tailored strategies, we ensure that your virtual community becomes a powerful asset that drives engagement, customer satisfaction, and brand loyalty.
 - infoItem: 
-devBgImg: "/assets/img/bg-Virtual-Community-Building.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-community-building.png"
+devBgAlt : "Virtual community building"
     
 secTitle: "Virtual Community Building Services We Offer"
 secSubTitle: "Our Services"  

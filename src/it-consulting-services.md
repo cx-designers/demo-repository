@@ -100,8 +100,8 @@ devTitlePart : Digital Success
 devInformationList :
 - infoItem: At Cypherox, we provide tailored IT consulting services that align technology with your business objectives. Our expertise covers IT strategy, software development, cloud computing, cybersecurity, and digital transformation, ensuring your business is built for long-term success.
 - infoItem: With a client-focused approach, we help companies streamline operations, reduce costs, and enhance productivity through smart IT solutions.
-devBgImg: "/assets/img/bg-IT-Consulting.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/it-consulting.png"
+devBgAlt : "IT consulting"
 
 secTitle: "Customized IT Consulting Service for Every Business Need"
 secSubTitle: "Our Services"  

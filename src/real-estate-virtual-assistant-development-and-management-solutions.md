@@ -128,8 +128,8 @@ devInformationList :
 - infoItem: At Cypherox, we design intelligent virtual assistants tailored for real estate businesses, enabling seamless communication, automated responses, and 24/7 customer support.
 - infoItem: Our AI-driven assistants can handle property inquiries, schedule viewings, assist with documentation, and provide personalized property recommendations, ensuring a smooth and efficient real estate experience for buyers, sellers, and agents.
 - infoItem: With advanced NLP, machine learning, and real-time data processing, our solutions reduce workload, increase efficiency, and improve customer satisfaction, helping real estate businesses thrive in both physical and virtual spaces.
-devBgImg: "/assets/img/bg-Real-Estate-Virtual-Assistant-Development-and-Management.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-assistant-development-and-management-real-estate.png"
+devBgAlt : "Virtual assistant development and management real estate"
     
 secTitle: "Real Estate Virtual Assistant Services We Offer"
 secSubTitle: "Our Services"  

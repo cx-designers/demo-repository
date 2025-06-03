@@ -128,8 +128,8 @@ devTitlePart : with Expert Event Management
 devInformationList :
 - infoItem: At Cypherox, we specialize in end-to-end virtual event hosting and management services. Whether you're planning a global conference, an intimate webinar, or a virtual trade show, our team handles all aspects to ensure your event is a success.
 - infoItem: We integrate AI-driven platforms, real-time interaction tools, and engagement features to provide an interactive and seamless experience for attendees. From managing registrations to organizing networking sessions and conducting live-streamed presentations, our virtual event solutions enable you to host events that are not only functional but memorable.
-devBgImg: "/assets/img/bg-Virtual-Event-Hosting-and-Management.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-event-hosting-and-management.png"
+devBgAlt : "Virtual event hosting and management"
     
 secTitle: "Virtual Event Hosting & Management Services We Offer"
 secSubTitle: "Our Services"  

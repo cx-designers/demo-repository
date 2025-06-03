@@ -84,8 +84,8 @@ devTitlePart : Insights and Tailored Solutions
 devInformationList :
 - infoItem: At Cypherox, we provide comprehensive consulting services designed to address business challenges, enhance efficiency, and foster digital transformation. Our team of industry experts and technology specialists offers strategic guidance in AI, blockchain, cloud computing, data analytics, and more.
 - infoItem: From process optimization to technology implementation, we work closely with organizations to develop customized strategies that align with their goals, market trends, and future ambitions.
-devBgImg: "/assets/img/bg-Consulting-Services.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/consulting-services.png"
+devBgAlt : "Consulting services"
 
 
 

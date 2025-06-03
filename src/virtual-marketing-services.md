@@ -99,8 +99,8 @@ devTitlePart : Virtual Experiences
 devInformationList :
 - infoItem: We create next-level virtual marketing campaigns that blend augmented reality, virtual reality, and AI-driven personalization. From interactive brand activations to virtual showrooms and NFT-based promotions, we help businesses stand out in the digital era.
 - infoItem: With 3D environments, immersive storytelling, and AI-powered marketing automation, we enable brands to engage customers like never before, increase retention, and drive meaningful interactions.
-devBgImg: "/assets/img/bg-Virtual-Marketing-Services.png"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/virtual-marketing-services.png"
+devBgAlt : "Virtual marketing services"
     
 secTitle: "Virtual Marketing Solutions We Offer"
 secSubTitle: "Our Services"  

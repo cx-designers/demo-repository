@@ -90,8 +90,8 @@ devTitlePart : Website into an App
 devInformationList :
 - infoItem: In today’s digital world, having a mobile presence is essential. Our expert developers convert your existing website into a fully functional mobile app while maintaining design consistency, improving speed, and adding app-exclusive features for better engagement.
 - infoItem: We ensure your new app is fast, responsive, and user-friendly, offering seamless integration with your website’s existing data, features, and functionalities.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/convert-your-website-to-app.png"
+devBgAlt : "Convert your website to app"
 
 
 
