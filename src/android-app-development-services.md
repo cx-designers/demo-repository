@@ -50,8 +50,8 @@ devInformationList :
 - infoItem: Beyond development, we ensure long-term success through continuous support and maintenance, staying ahead of Android advancements. Partner with us to experience Android app development where innovation meets expertise, and your vision becomes reality.
 
 
-devBgImg: "/assets/img/bg-Android-App-Development-Services.png"
-devBgAlt : "bg-Android-App-Development-Services"
+devBgImg: "/assets/img/android-app-development.png"
+devBgAlt : "Android app development"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Android App Development Services"

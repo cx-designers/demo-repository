@@ -98,8 +98,8 @@ devInformationList :
 - infoItem: At Cypherox Technologies, we specialize in delivering top-tier Webflow development services that empower businesses to create visually stunning, fully functional websites. As a trusted Webflow development company, we leverage Webflow’s intuitive no-code/low-code platform to build custom solutions tailored to your unique needs.
 - infoItem: Our team of expert Webflow developers combines creativity with technical expertise to deliver websites that are not only beautiful but also optimized for performance, scalability, and user experience. From pixel-perfect designs to seamless integrations with third-party tools like CRMs, eCommerce platforms, and analytics, we ensure your website is equipped to meet modern business demands.
 - infoItem: If you hire our Webflow developers, you'll gain access to professionals who know how to blend aesthetics with functionality. Whether you are launching a brand new website, creating a dynamic portfolio, or building an e-commerce store, we offer comprehensive solutions that promote growth. Our emphasis on clean code, mobile responsiveness, and SEO optimization ensures your website ranks higher, attracts more visitors, and effectively converts leads.
-devBgImg: "/assets/img/bg-Webflow-Development.png"
-devBgAlt : "bg-Webflow-Development"
+devBgImg: "/assets/img/webflow-development.png"
+devBgAlt : "Webflow development"
     
 secTitle: "Our Webflow Development Services"
 secSubTitle: "What We Provide"  

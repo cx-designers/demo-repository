@@ -98,8 +98,8 @@ devInformationList :
 - infoItem: At Cypherox Technologies, we specialize in delivering cutting-edge NodeJS development services that empower businesses to build fast, scalable, and robust applications. As a leading NodeJS web development company, we harness the versatility of Node.js to create solutions tailored to your unique needs.
 - infoItem: Our team of expert dedicated Node.js developers leverages Node’s event-driven architecture and non-blocking I/O model to deliver lightning-fast applications. Whether you’re building real-time chat apps, APIs, microservices, or enterprise-level platforms, our developers ensure your app is optimized for speed, scalability, and performance.
 - infoItem: With our dedicated Node.js developers, you gain access to professionals who know how to combine innovation with technical precision. We specialize in developing RESTful APIs and integrating databases such as MongoDB and PostgreSQL, providing end-to-end solutions that promote business growth. Our emphasis on clean code, modular architecture, and seamless integrations ensures that your application performs flawlessly across all environments. Let us help you create a future-proof digital presence that enhances user engagement and increases conversions.
-devBgImg: "/assets/img/bg-NodeJS-Development-Company.png"
-devBgAlt : "bg-NodeJS-Development-Company"
+devBgImg: "/assets/img/nodejs-development.png"
+devBgAlt : "NodeJS development"
 
     
 secTitle: "Our NodeJS Development Services"

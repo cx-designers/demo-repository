@@ -49,8 +49,8 @@ devInformationList :
 - infoItem: We take a strategic approach, starting with a deep understanding of your business goals, target audience, and market trends. Whether you’re building a consumer app, enterprise platform, or on-demand service, our team delivers projects of any scale. With clean code architecture, rigorous testing, and optimization, we guarantee polished, bug-free apps that perform flawlessly across all Android devices.
 
 - infoItem: Beyond development, we ensure long-term success through continuous support and maintenance, staying updated with Kotlin and Android advancements. Partner with us to experience Kotlin app development where innovation meets reliability, turning your vision into reality.
-devBgImg: "/assets/img/bg-Kotlin-App-Development-Services.png"
-devBgAlt : "bg-Kotlin-App-Development-Services"
+devBgImg: "/assets/img/kotlin-app-development.png"
+devBgAlt : "Kotlin app development"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Kotlin App Development Services"

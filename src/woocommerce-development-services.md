@@ -55,8 +55,8 @@ devInformationList :
 - infoItem: Our expert WordPress developers have successfully transformed countless WordPress websites into visually appealing, high-performing WooCommerce stores . By combining innovation with technical expertise, we stimulate new ideas that drive bottom-line results and deliver a breakthrough customer experience. From intuitive design to seamless functionality, we ensure your website stands out in the competitive eCommerce landscape.
 - infoItem: Whether you’re looking to migrate your existing store, enhance its features, or build a new WooCommerce website, our team delivers tailored solutions that align with your business goals. We focus on creating engaging, user-friendly platforms that not only attract customers but also convert them into loyal buyers.
 - infoItem: Partner with Cypherox Technologies to unlock the full potential of WooCommerce and elevate your online store. Let us help you craft an eCommerce solution that drives growth, enhances customer satisfaction, and boosts your revenue.
-devBgImg: "/assets/img/bg-WooCommerce-Development.png"
-devBgAlt : "bg-WooCommerce-Development"
+devBgImg: "/assets/img/woocommerce-development.png"
+devBgAlt : "WooCommerce development"
 
 secSubTitle: "What We Provide"  
 secTitle: "WooCommerce Development Services"

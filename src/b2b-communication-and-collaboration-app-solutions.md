@@ -45,8 +45,8 @@ devInformationList :
 - infoItem: Our apps provide a centralized platform for real-time communication, file sharing, task management, and project tracking. Leveraging cloud infrastructure, AI-driven analytics, and secure encryption, we ensure seamless interactions across teams. Features include instant messaging, video conferencing, document collaboration, calendar integration, and customizable workflows. Role-based access control ensures sensitive information remains secure while maintaining compliance with industry standards.
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your communication challenges and collaboration requirements. Whether building new apps, integrating with tools like Slack, Microsoft Teams, or Zoom, or adding advanced features like AI chatbots, sentiment analysis, or automated task assignments, our team handles projects of any scale. With clean code, rigorous testing, and user-centric design, we deliver polished apps that boost productivity and strengthen connections.
 - infoItem: Beyond development, we offer ongoing support, staying updated with communication tech advancements. Partner with us to experience B2B Communication and Collaboration Apps where connectivity meets efficiency, empowering unstoppable teams.
-devBgImg: "/assets/img/bg-B2B-Communication-and-Collaboration-App.png"
-devBgAlt : "bg-B2B-Communication-and-Collaboration-App"
+devBgImg: "/assets/img/b2b-communication-and-collaboration-app.png"
+devBgAlt : "B2B communication and collaboration app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2B Communication and Collaboration App"

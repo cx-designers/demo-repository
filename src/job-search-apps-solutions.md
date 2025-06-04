@@ -43,8 +43,8 @@ devInformationList :
 - infoItem: Job search apps have revolutionized recruitment, connecting job seekers with opportunities through AI-driven matching and resume builders. At Cypherox Technologies, we design apps that combine efficiency, personalization, and ease of use. 
 - infoItem: Our team ensures your app addresses common challenges such as irrelevant listings or complex interfaces. In a competitive market, we focus on delivering unique value through actionable insights and seamless integrations. 
 - infoItem: By leveraging cutting-edge technologies, we create apps that make job hunting stress-free and efficient. Partner with us to build a job search app that empowers users and drives career growth, transforming how talent meets opportunity in the digital age.
-devBgImg: "/assets/img/bg-Job-Search-Apps.png"
-devBgAlt : "bg-Job-Search-Apps"
+devBgImg: "/assets/img/job-search-apps.png"
+devBgAlt : "Job search apps"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Job Search App Solutions"

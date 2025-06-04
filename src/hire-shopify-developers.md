@@ -38,8 +38,8 @@ devInformationList:
   - infoItem: When you hire our dedicated Shopify developers , you’re not just hiring a team—you’re partnering with certified experts committed to the success of your eCommerce store. Whether you’re selling a single product, managing multiple categories, or handling multilingual and multi-currency stores, our developers can significantly boost your online business revenue.
   - infoItem: By hiring Shopify developers from Cypherox Technologies , you unlock the full potential of Shopify for your eCommerce needs. Our skilled team is dedicated to providing customized solutions that drive growth and success. Don’t miss the chance to elevate your eCommerce startup to new heights with our top-tier Shopify development services.
   - infoItem: Contact us today to discuss your project and let us help you build a high-performing, secure, and scalable online store that stands out in the digital marketplace!
-devBgImg: "/assets/img/bg-Hire-Shopify-Developers.png"
-devBgAlt: "bg-Hire-Shopify-Developers"
+devBgImg: "/assets/img/hire-shopify-developers.png"
+devBgAlt: "Hire Shopify Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Shopify Developers For Your Evolving Project Development Needs"

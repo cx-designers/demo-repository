@@ -37,8 +37,8 @@ devInformationList:
   - infoItem: By collaborating with our Python developers, you gain access to elite talent with years of expertise in custom Python scripting, automation, and enterprise-grade development. Our team has a proven track record of delivering profitable projects across diverse industries. Staying ahead of the curve, they continuously update their skills to incorporate the latest business trends and cutting-edge technologies, ensuring your application remains innovative and future-ready.
   - infoItem: Whether you need web development , AI/ML-based enterprise software , data science solutions , or desktop applications , our Python developers bring immense value to the table. They leverage their proficiency in Python programming to design intuitive user interfaces, robust backend systems, and smooth integrations with external APIs. Hiring Python developers from Cypherox Technologies ensures your vision for a mobile or web application is realized with precision and excellence.
   - infoItem: Our committed team is prepared to partner with you, share technological expertise, and deliver first-rate solutions that drive your business forward. Get in touch with us today to discuss your project requirements and embark on an exciting journey to create a cutting-edge application with our remote Python developers. Let Cypherox Technologies be your trusted ally in turning innovative ideas into reality!
-devBgImg: "/assets/img/bg-Hire-Python-Developers.png"
-devBgAlt: "bg-Hire-Python-Developers"
+devBgImg: "/assets/img/hire-python-developers.png"
+devBgAlt: "Hire Python Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Python Developers For Your Evolving Project Needs"

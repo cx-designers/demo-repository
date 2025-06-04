@@ -124,7 +124,7 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in building AI-driven recommendation systems that personalize user experiences and increase conversions.
 - infoItem: Our advanced machine learning algorithms analyze vast amounts of data to provide accurate and relevant recommendations, improving customer satisfaction. We develop solutions for e-commerce, media streaming, content platforms, and more, ensuring tailored suggestions for every user.
 - infoItem: By leveraging collaborative filtering, deep learning, and predictive analytics, we create highly adaptive recommendation engines that refine suggestions based on real-time interactions.
-devBgImg: "/assets/img/ai-powered-recommendation-system.webp"
+devBgImg: "/assets/img/ai-powered-recommendation-system.png"
 devBgAlt : "AI powered recommendation system"
 
 

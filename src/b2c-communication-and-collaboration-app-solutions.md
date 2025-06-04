@@ -51,8 +51,8 @@ devInformationList :
 - infoItem: In today’s fast-paced consumer environment, seamless communication and collaboration are vital for driving productivity and fostering innovation. At Cypherox Technologies, we specialize in developing cutting-edge B2C Communication and Collaboration Apps that empower businesses to streamline workflows, enhance teamwork, and improve decision-making.
 - infoItem: Our apps provide a centralized platform for real-time communication, file sharing, task management, and project tracking. Leveraging advanced technologies like cloud infrastructure, AI-driven analytics, and secure encryption, we ensure seamless interactions across teams and departments.
 - infoItem: Partner with us today to experience the transformative power of a B2C Communication and Collaboration App , where connectivity meets efficiency, empowering your teams to achieve unstoppable success.
-devBgImg: "/assets/img/bg-B2C-Communication-and-Collaboration-App.png"
-devBgAlt : "bg-B2C-Communication-and-Collaboration-App"
+devBgImg: "/assets/img/b2c-communication-and-collaboration-app.png"
+devBgAlt : "B2C communication and collaboration app "
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2C Communication and Collaboration App"

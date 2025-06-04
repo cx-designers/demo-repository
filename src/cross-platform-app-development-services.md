@@ -46,8 +46,8 @@ devInformationList :
 - infoItem: Our services deliver cost-effective, unified solutions, eliminating the need for separate native apps. We craft applications with a native-like experience, ensuring consistent performance, design, and functionality across devices. From intuitive UI/UX design to complex backend integrations, we align every aspect of your app with your brand and goals. Advanced features like real-time notifications, geolocation, secure payments, and cloud connectivity ensure your app stands out in competitive markets.
 - infoItem: We take a strategic approach, starting with a deep understanding of your business goals, audience, and trends. Whether building new apps, modernizing existing ones, or adding features, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that perform flawlessly across platforms.
 - infoItem: Beyond development, we offer post-development support and maintenance, staying updated with cross-platform advancements. Partner with us to bring your vision to life through versatile, innovative solutions that grow with your business.
-devBgImg: "/assets/img/bg-Cross-Platform-App-Development-Services.png"
-devBgAlt : "bg-Cross-Platform-App-Development-Services"
+devBgImg: "/assets/img/cross-platform-app-development.png"
+devBgAlt : "Cross platform app development"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Cross-Platform App Development Services"

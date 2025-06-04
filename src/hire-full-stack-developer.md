@@ -36,8 +36,8 @@ devInformationList:
   - infoItem: Get a custom web application built from scratch, incorporating the latest features through enterprise-grade solutions crafted by our skilled Full Stack developers. Whether you need front-end interactivity, back-end functionality, or seamless integrations, our team ensures every aspect of your project is meticulously executed. Hire our dedicated Full Stack developers on an hourly or full-time basis, depending on your budget and project requirements.
   - infoItem: At Cypherox Technologies , we specialize in building fully-functional, secure, and scalable Full Stack solutions that cater to businesses of all sizes. With over a decade of experience in turnkey Full Stack application development , we have empowered a myriad of businesses worldwide with cutting-edge technology and innovative strategies. Our team is equipped to handle complex requirements, ensuring high-quality outcomes that drive growth and efficiency.
   - infoItem: Partner with us to access top-tier talent and deliver exceptional results for your next project. Whether you’re building a dynamic web app, a robust enterprise platform, or a feature-rich mobile solution, our Full Stack developers are ready to take on the challenge. Contact Cypherox Technologies today to discuss your project needs and let us help you build a future-ready application that meets your business goals. With our expertise, your vision is in capable hands!
-devBgImg: "/assets/img/bg-Hire-full-Stack-Developer.png"
-devBgAlt: "bg-Hire-full-Stack-Developer"
+devBgImg: "/assets/img/hire-full-stack-developer.png"
+devBgAlt: "Hire Full Stack Developer"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire full Stack Developer For Your Evolving Project Development Needs"

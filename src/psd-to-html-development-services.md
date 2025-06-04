@@ -125,7 +125,7 @@ devInformationList :
 - infoItem: We specialize in converting PSD, Figma, Sketch, and Adobe XD designs into clean, efficient, and pixel-perfect HTML code. Every conversion is optimized for performance, responsiveness, and SEO, ensuring an enhanced user experience.
 - infoItem: Our approach focuses on delivering mobile-first, high-speed, cross-browser-compatible HTML, ensuring your website functions smoothly across all platforms. With the right blend of CSS, JavaScript, and Bootstrap frameworks, we create a flexible and scalable structure that grows with your business.
 - infoItem: From simple landing pages to complex web applications, we ensure that every project meets the highest coding standards. Our agile development process ensures on-time delivery with meticulous attention to every detail.
-devBgImg: "/assets/img/bg-psd-to-html-development-services.png"
+devBgImg: "/assets/img/bg-psd-to-html-development.png"
 devBgAlt : "bg-psd-to-html-development-services"
 
     

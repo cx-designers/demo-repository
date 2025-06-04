@@ -36,8 +36,8 @@ devInformationList:
   - infoItem: Our ML engineers specialize in transforming complex data into actionable insights, enabling smarter decision-making and streamlined operations. From automating repetitive tasks to building advanced recommendation engines and predictive models, we deliver innovative solutions that revolutionize how businesses operate and compete in today’s market.
   - infoItem: Skip the hassle of finding the right talent—hire your ideal ML engineer with just a click! At Cypherox Technologies , we make it seamless to access top-tier machine learning expertise, ensuring efficient collaboration and exceptional outcomes for your projects.
   - infoItem: Partner with us today to unlock the full potential of machine learning and drive innovation, efficiency, and growth for your business. Let our ML engineers help you stay ahead in the age of intelligent technologies. Contact us now and take the first step toward transforming your business with cutting-edge machine learning solutions!
-devBgImg: "/assets/img/bg-Hire-ML-Developers.png"
-devBgAlt: "bg-Hire-ML-Developers"
+devBgImg: "/assets/img/hire-ml-developers.png"
+devBgAlt: "Hire Ml Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire ML Developers For Your Evolving Project Needs"

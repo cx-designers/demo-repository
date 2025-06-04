@@ -42,8 +42,8 @@ devInformationList :
 - infoItem: From concept to deployment, our expert team combines innovation, technology, and user-centric design to craft apps that drive engagement, efficiency, and growth. Whether you’re looking to revolutionize customer experiences or streamline operations, our comprehensive solutions ensure your app stands out in today’s competitive digital landscape. At Cypherox Technologies, we specialize in delivering cutting-edge Mobile Application Solutions tailored to meet the unique needs of your business. Partner with us to unlock the full potential of mobile technology and achieve measurable success.
 - infoItem: Revolutionize industries with our mobile application solutions, offering apps for food delivery, transport, health, and more, all powered by AI-driven innovations like intelligent chatbots, virtual assistants, and personalized recommendations. Our cross-platform development ensures your app reaches wider audiences by being fully compatible across iOS, Android, and web, while custom features are tailored to address specific pain points and enhance usability. Additionally, we prioritize security and compliance, ensuring robust data protection and adherence to industry standards, so your app is not only innovative but also safe and reliable for users.
 - infoItem: Transform your business with our expert Mobile Application Solutions designed to deliver value, innovation, and impact. Whether you’re launching a new app or enhancing an existing one, our team is committed to helping you achieve your goals. Contact us today to discuss your vision and embark on a journey toward creating a mobile app that truly stands apart in the market.
-devBgImg: "/assets/img/bg-Mobile-Application-Solutions.png"
-devBgAlt : "bg-Mobile-Application-Solutions"
+devBgImg: "/assets/img/mobile-application-solutions.png"
+devBgAlt : "Mobile application solutions"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Mobile Application Solutions"

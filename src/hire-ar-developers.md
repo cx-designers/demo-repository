@@ -36,8 +36,8 @@ devInformationList:
   - infoItem: Augmented Reality (AR), the younger sibling of Virtual Reality (VR), has quickly become a sensation among tech-savvy audiences, captivating users through their mobile devices. AR is revolutionizing mobile app development by superimposing images, animations, or videos onto the real-world environment, creating immersive and lifelike experiences. Imagine students using an AR app to enhance their learning—when the app recognizes specific images from a textbook, animations explaining complex concepts come to life on the page itself.
   - infoItem: Through AR, the possibilities are endless. Picture exploring historical landmarks from the comfort of your home or visualizing three-dimensional models of objects, such as body parts, to understand their functionality. AR apps are reshaping how we interact with the world, blending digital innovation with reality. In today’s tech-driven era, integrating AR into mobile apps isn’t just an option—it’s a necessity for staying competitive.
   - infoItem: Cypherox empowers businesses by integrating Augmented Reality into their mobile apps, offering a distinct competitive edge. Whether it’s enhancing user engagement, providing interactive learning tools, or creating immersive gaming experiences, our AR solutions are designed to captivate audiences and drive results. Partner with Cypherox Technologies to unlock the potential of Augmented Reality and elevate your business to new heights. Let us help you craft innovative, future-ready AR applications that resonate with modern users and set your brand apart in this dynamic digital landscape.
-devBgImg: "/assets/img/bg-Hire-AR-Developers.png"
-devBgAlt: "bg-Hire-AR-Developers"
+devBgImg: "/assets/img/hire-ar-developers.png"
+devBgAlt: "Hire Ar Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire AR Developers Aligned With Your Specific Requirements"

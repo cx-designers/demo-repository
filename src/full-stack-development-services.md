@@ -90,8 +90,8 @@ devInformationList :
 - infoItem: Our team of talented full stack developers is proficient in cutting-edge technologies such as React, Angular, Vue.js, Node.js, Python, Ruby on Rails, PHP, and more. From designing intuitive user interfaces to building secure databases and APIs, we handle every aspect of your project with precision and expertise. Whether you’re launching a startup, scaling an existing platform, or building a custom enterprise solution, our developers ensure scalability, security, and performance at every stage.
 - infoItem: What sets us apart is our ability to streamline the development process by combining front-end and back-end expertise under one roof. This not only reduces costs but also accelerates time-to-market, giving you a competitive edge. Our developers focus on creating responsive designs, optimizing load times, and integrating advanced features like real-time updates, payment gateways, and third-party APIs to enhance functionality.
 - infoItem: By partnering with us, you gain access to a team that’s committed to helping your business grow. We work closely with you to understand your goals, target audience, and industry challenges, delivering tailored solutions that drive engagement, improve user experiences, and boost conversions. Let us help you build a powerful digital presence that aligns with your vision and objectives.
-devBgImg: "/assets/img/bg-Full-Stack-Development.png"
-devBgAlt : "bg-Full-Stack-Development"
+devBgImg: "/assets/img/full-stack-development.png"
+devBgAlt : "Full stack development"
 
 secTitle: "Our Full Stack Development Services"
 secSubTitle: "What We Provide"  

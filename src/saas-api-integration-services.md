@@ -45,8 +45,8 @@ devInformationList :
 - infoItem: Our SaaS API integration services deliver robust, scalable, and secure integrations that enhance functionality and improve user experiences. Using RESTful APIs, GraphQL, and other modern protocols, we enable seamless communication with external systems. Key features include real-time data synchronization, secure authentication, error handling, and scalability to manage high transaction volumes.
 - infoItem: We take a strategic approach, starting with a deep understanding of your business goals, existing systems, and integration needs. This ensures solutions that address current challenges while anticipating future requirements. With clean code, rigorous testing, and performance optimization, we guarantee flawless integration in production environments.
 - infoItem: Partner with us to experience the transformative power of SaaS API Integration, where connectivity meets efficiency, driving new levels of interoperability for your business.
-devBgImg: "/assets/img/bg-SAAS-API-Integration.png"
-devBgAlt : "bg-SAAS-API-Integration"
+devBgImg: "/assets/img/saas-api-integration.png"
+devBgAlt : "SaaS API integration"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of SAAS API Integration"

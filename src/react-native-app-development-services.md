@@ -55,8 +55,8 @@ devInformationList :
 - infoItem: Our React Native services provide cutting-edge solutions that combine efficiency, scalability, and exceptional user experiences. Leveraging its modular architecture and reusable components, we build fast, responsive, and customizable apps. From intuitive UI/UX design to advanced features like real-time notifications, secure authentication, geolocation, and third-party integrations, we ensure your app aligns with your brand and goals. Our expertise spans industries like e-commerce, healthcare, finance, and education, offering tailored solutions for diverse needs.
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your business goals, audience, and market trends. Whether building new apps, modernizing existing ones, or adding advanced features, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that perform flawlessly across devices.
 - infoItem: Beyond development, we offer comprehensive post-development support, staying updated with React Native advancements. Partner with us to experience React Native app development where versatility meets innovation, turning your vision into reality.
-devBgImg: "/assets/img/bg-React-Native-App-Development-Services.png"
-devBgAlt : "bg-React-Native-App-Development-Services"
+devBgImg: "/assets/img/react-native-app-development.png"
+devBgAlt : "React Native app development"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of React Native App Development Services"

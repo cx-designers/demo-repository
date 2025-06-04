@@ -43,8 +43,8 @@ devInformationList :
 - infoItem: Health and wellness apps have become essential tools for individuals seeking healthier lifestyles. At Cypherox Technologies, we create apps that inspire users through personalized fitness plans, mindfulness exercises, and nutrition tracking. Leveraging years of experience in on-demand app development, our team ensures your app is equipped with innovative features like wearable device integration, progress tracking, and motivational reminders.
 - infoItem: In a mature market, we focus on delivering unique value by addressing common challenges such as lack of motivation or generic content. By combining rich designs with user-centric functionalities, we craft apps that resonate deeply with users, encouraging consistent engagement. 
 - infoItem: Let us help you build a health and wellness app that transforms lives while standing out in a competitive landscape. Empower users to prioritize their well-being with an app that’s intuitive, engaging, and impactful.
-devBgImg: "/assets/img/bg-Health-and-wellness-apps.png"
-devBgAlt : "bg-Health-and-wellness-apps"
+devBgImg: "/assets/img/health-and-wellness-apps.png"
+devBgAlt : "Health and wellness apps"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Mobile Application Solutions"

@@ -38,8 +38,8 @@ devInformationList:
   - infoItem: Our developers are not only highly productive but also affordable, ensuring you receive maximum value for your investment. With our flexible hiring model, you can hire dedicated WooCommerce developers on a full-time, part-time, or hourly basis, depending on your project requirements. This flexibility allows you to scale your team up or down as needed, ensuring seamless execution within your budget.
   - infoItem: Whether you’re looking to build a new eCommerce store, optimize an existing one, or implement advanced customizations, our team is equipped to handle projects of any complexity. Partner with Cypherox Technologies to unlock the true potential of WooCommerce and create a high-performing, secure, and scalable eCommerce platform that drives growth and enhances customer satisfaction.
   - infoItem: Contact us today to hire our dedicated WooCommerce developers and embark on a journey toward transforming your eCommerce vision into reality!
-devBgImg: "/assets/img/bg-Hire-WooCommerce-Developers.png"
-devBgAlt: "bg-Hire-WooCommerce-Developers"
+devBgImg: "/assets/img/hire-woocommerce-developers.png"
+devBgAlt: "Hire Woocommerce Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire WooCommerce Developers For Your Evolving Project Needs"

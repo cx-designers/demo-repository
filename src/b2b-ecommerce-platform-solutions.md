@@ -46,8 +46,8 @@ devInformationList :
 - infoItem: Our B2B eCommerce services deliver comprehensive solutions for industries like manufacturing, wholesale, healthcare, and technology. We build platforms with intuitive interfaces, personalized experiences, and efficient workflows. Features include real-time inventory management, automated order processing, payment gateway integrations, multi-channel selling, and advanced analytics for actionable insights into buyer behavior and sales trends.
 - infoItem: We take a strategic approach, starting with a deep understanding of your audience, products, and workflows. Whether building a new platform, migrating from legacy systems, or enhancing existing solutions with AI-driven recommendations, subscription billing, or blockchain security, our team handles projects of any scale. With a focus on scalability, security, and user-centric design, we deliver polished platforms that drive measurable results.
 - infoItem: Beyond launch, we provide ongoing support and maintenance, staying updated with eCommerce advancements. Partner with us to experience B2B eCommerce where innovation meets efficiency, propelling your business to new heights of success.
-devBgImg: "/assets/img/bg-B2B-eCommerce-Platform.png"
-devBgAlt : "bg-B2B-eCommerce-Platform"
+devBgImg: "/assets/img/b2b-ecommerce-platform.png"
+devBgAlt : "B2B ecommerce platform"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2B eCommerce Platform"

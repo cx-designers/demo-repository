@@ -45,8 +45,8 @@ devInformationList :
 - infoItem: Our AI SaaS solutions combine advanced AI capabilities with seamless user experiences. Using tools like TensorFlow, PyTorch, and OpenAI, we build applications that automate processes, provide actionable insights, and enhance decision-making. Key features include real-time data analysis, predictive modeling, chatbot integration, and personalized recommendations.
 - infoItem: We take a client-centric approach, starting with a deep understanding of your business goals, audience, and technical needs. This ensures solutions that not only meet but exceed expectations. With clean code, rigorous testing, and performance optimization, we deliver polished products that perform flawlessly in production environments.
 - infoItem: Partner with us to experience the transformative power of AI SaaS Solutions, where intelligence meets innovation, turning your vision into reality.
-devBgImg: "/assets/img/bg-AI-SAAS-Solutions.png"
-devBgAlt : "bg-AI-SAAS-Solutions"
+devBgImg: "/assets/img/ai-saas-solutions.png"
+devBgAlt : "AI SaaS solutions"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of AI SAAS Solutions"

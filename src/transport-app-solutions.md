@@ -43,8 +43,8 @@ devInformationList :
 - infoItem: Transport apps have transformed commuting, offering tools for ride-sharing, route optimization, and real-time tracking. At Cypherox Technologies, we design apps that combine convenience, reliability, and innovation. 
 - infoItem: Our team focuses on features like fare estimation, driver ratings, and multi-language support to address user needs effectively. In a crowded market, we ensure your app stands out by delivering unique value through seamless usability and advanced functionalities. By eliminating common pitfalls like poor navigation or delayed updates, we create apps that simplify transportation and enhance user satisfaction. 
 - infoItem: Let us help you build a transport app that redefines mobility and sets new standards in the industry, making commutes smarter and stress-free.
-devBgImg: "/assets/img/bg-Transport-app.png"
-devBgAlt : "bg-Transport-app"
+devBgImg: "/assets/img/transport-app.png"
+devBgAlt : "Transport app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Transport App Solutions"

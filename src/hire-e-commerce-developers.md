@@ -38,8 +38,8 @@ devInformationList:
   - infoItem: Our developers understand the intricacies of e-commerce, from designing visually appealing interfaces to integrating advanced functionalities like payment gateways, inventory management, and personalized recommendations. We focus on creating websites that not only look great but also perform flawlessly, ensuring high conversion rates and customer satisfaction.
   - infoItem: Partner with us to leverage cutting-edge technologies and industry best practices that drive results. Whether you’re launching a new store, revamping an existing one, or scaling your operations, our result-oriented team is committed to delivering solutions tailored to your unique business needs.
   - infoItem: Let Cypherox Technologies be your trusted partner in navigating the dynamic world of e-commerce. Contact us today to deploy a dedicated team of e-commerce web developers and take the first step toward achieving unparalleled online success!
-devBgImg: "/assets/img/bg-Hire-E-Commerce-Developers.png"
-devBgAlt: "bg-Hire-E-Commerce-Developers"
+devBgImg: "/assets/img/hire-e-commerce-developers.png"
+devBgAlt: "Hire E Commerce Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire E-Commerce Developers Aligned with Your Project Goals"

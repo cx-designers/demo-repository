@@ -53,8 +53,8 @@ devInformationList :
 - infoItem: In today’s digital era, the success of your business hinges on the quality of your app and website. At Cypherox Technologies , our Shopify experts are well-versed in the latest trends and advanced features to craft exceptional eCommerce websites tailored to your unique requirements. Whether you’re starting from scratch or looking to enhance an existing store, we’ve got you covered.
 - infoItem: Our advanced Shopify development services empower you to create a feature-rich, visually appealing, and flawlessly functional online store. From designing custom themes to integrating cutting-edge functionalities, we ensure your eCommerce platform stands out in the competitive market. Additionally, we provide comprehensive support for maintaining and optimizing your existing Shopify store, ensuring it performs at its peak while delivering a seamless user experience.
 - infoItem: With a focus on scalability, security, and performance, our team ensures your eCommerce website not only meets but exceeds your expectations. Partner with Cypherox Technologies to leverage the full potential of Shopify and drive your business growth through innovative, high-performing eCommerce solutions.
-devBgImg: "/assets/img/bg-Shopify-Development-Company.png"
-devBgAlt : "bg-Shopify-Development-Company"
+devBgImg: "/assets/img/shopify-development.png"
+devBgAlt : "Shopify development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Shopify Development Services"

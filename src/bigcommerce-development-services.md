@@ -54,8 +54,8 @@ devInformationList :
 - infoItem: Whether you’re looking to build a new website from scratch or optimize an existing one, our developers deliver tailored solutions that align with your business goals. We focus on crafting visually appealing designs, seamless user experiences, and robust backend functionalities to ensure your website stands out in the competitive eCommerce landscape.
 - infoItem: From integrating advanced features to ensuring scalability and security, we set you up with a top-of-the-line BigCommerce website designed to meet your needs today—and adapt to tomorrow’s challenges. With a commitment to quality and innovation, we help you create a powerful online presence that attracts customers, boosts conversions, and supports sustainable business growth
 - infoItem: Partner with Cypherox Technologies to unlock the full potential of BigCommerce and elevate your eCommerce strategy. Let us help you build a website that drives results and sets the foundation for years of success.
-devBgImg: "/assets/img/top-development.webp"
-devBgAlt : "bg-img"
+devBgImg: "/assets/img/big-commerce-development.png"
+devBgAlt : "Big Commerce development"
 
 secSubTitle: "What We Provide"  
 secTitle: "BigCommerce Development Services"

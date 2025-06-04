@@ -36,8 +36,8 @@ devInformationList:
   - infoItem: Virtual reality simulates real-world or fictional environments using advanced computers and sensory devices like VR gloves , headsets , and other equipment. Beyond gaming and entertainment, VR is transforming sectors such as healthcare, aviation, and education. Surgeons and pilots use VR for training, while scientists leverage it to interpret complex molecular structures. Imagine students exploring the moon’s surface virtually or fans performing live on stage with their favorite artists in a sold-out stadium—VR makes it all possible.
   - infoItem: Despite its potential, many businesses have yet to tap into VR’s power for advertising and promotional strategies. By integrating VR into your mobile app, you can captivate audiences, enhance engagement, and lead your industry with innovative solutions.
   - infoItem: At Cypherox Technologies , we specialize in crafting immersive VR applications tailored to your business needs. Whether you’re looking to create interactive educational tools, realistic simulations, or cutting-edge marketing campaigns, our team delivers high-quality, future-ready solutions. Partner with us to unlock the limitless possibilities of virtual reality and set your brand apart in this dynamic digital age. Contact Cypherox Technologies today to hire our expert VR developers and bring your vision to life!
-devBgImg: "/assets/img/bg-Hire-VR-Developers.png"
-devBgAlt: "bg-Hire-VR-Developers"
+devBgImg: "/assets/img/hire-vr-developers.png"
+devBgAlt: "Hire Vr Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire VR Developers Aligned with Your Project Goals"

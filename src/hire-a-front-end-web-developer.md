@@ -37,8 +37,8 @@ devInformationList:
   - infoItem: Our front-end experts are proficient in cutting-edge technologies like Angular , React , Vue.js , Next.js , and more, enabling them to meet your business objectives efficiently and seamlessly. Partnering with our team means collaborating with professionals who understand the critical link between user engagement and business growth. Through meticulously designed, high-end user interfaces, we create exceptional user experiences that drive your business goals with unmatched efficiency.
   - infoItem: Guided by the latest trends and innovations, our frontend developers excel at building stable, modern, and high-performing digital assets. These solutions not only function flawlessly but also elevate your brand, delivering memorable experiences that resonate with users.
   - infoItem: Leverage our expertise in frontend development services to unlock the full potential of user-centric design, functionality, and performance. With our dedicated frontend developers, your project is set to achieve a standout digital presence that captivates audiences and drives success. Choose Cypherox Technologies as your trusted partner, and let us transform your ideas into impactful, future-ready digital experiences.
-devBgImg: "/assets/img/bg-Hire-Front-End-Web-Developer.png"
-devBgAlt: "bg-Hire-Front-End-Web-Developer"
+devBgImg: "/assets/img/hire-front-end-web-developer.png"
+devBgAlt: "Hire Front End Web Developer"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire a Front-End Web Developer For Your Evolving Project Development Needs"

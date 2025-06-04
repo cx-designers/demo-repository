@@ -98,8 +98,8 @@ devInformationList :
 - infoItem: Our Swift app development services focus on creating seamless, user-friendly experiences while maintaining top-tier quality and performance. Swift’s modern syntax and advanced features enable us to design fast, reliable, visually stunning, and interactive apps. From sleek interfaces to complex functionalities, we ensure every detail aligns with your brand and business goals. Our expertise spans industries like e-commerce, healthcare, education, and more, offering tailored solutions for diverse client needs.
 - infoItem: We take a holistic approach to ensure project success, starting with understanding your vision, target audience, and market dynamics. This allows us to create strategically aligned apps that stand out in competitive markets. We specialize in integrating advanced features such as real-time data sync, AI-driven recommendations, secure payment gateways, and cloud connectivity. With clean code architecture and rigorous testing, we deliver bug-free, polished apps that perform flawlessly across all Apple devices.
 - infoItem: At Cypherox Technologies, launching your app is just the beginning. We provide comprehensive post-development support and maintenance, staying ahead of iOS advancements to ensure long-term success. Partner with us to experience transformative Swift app development—where innovation meets excellence.
-devBgImg: "/assets/img/bg-Swift-App-Development-Services.png"
-devBgAlt : "bg-Swift-App-Development-Services"
+devBgImg: "/assets/img/swift-app-development.png"
+devBgAlt : "Swift app development"
     
 secTitle: "Core Services of iOS App Development Services"
 secSubTitle: "What We Provide"  

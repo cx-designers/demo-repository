@@ -100,7 +100,7 @@ devInformationList :
 - infoItem: With a focus on clean code, performance optimization, and timely delivery, we ensure your website or application not only meets but exceeds expectations. Whether you’re building an e-commerce platform, content management system (CMS), or custom enterprise solution, our developers ensure your project is optimized for performance, security, and scalability.
 - infoItem: By hiring our dedicated PHP developers, you gain access to professionals who understand how to blend innovation with functionality. From developing RESTful APIs to integrating third-party tools and ensuring seamless database management, we provide end-to-end solutions that drive business growth. Our focus on clean code, cross-browser compatibility, and SEO optimization ensures your application performs flawlessly across all devices.
 devBgImg: "/assets/img/bg-PHP-Development-Company.png"
-devBgAlt : "bg-PHP-Development-Company"
+devBgAlt : "PHP development"
 
     
 secTitle: "Our PHP Development Services"

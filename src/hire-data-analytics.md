@@ -36,8 +36,8 @@ devInformationList:
   - infoItem: Our skilled data analysts specialize in extracting meaningful information from complex datasets, enabling you to make informed decisions that propel your business forward. With expertise in advanced analytics, data visualization, predictive modeling, and trend forecasting, our team helps you uncover hidden opportunities, optimize processes, and enhance overall efficiency.
   - infoItem: Whether you’re looking to improve customer experiences, streamline operations, or identify new revenue streams, our data analysts deliver tailored solutions that align with your strategic goals. We leverage cutting-edge tools and methodologies to ensure your data is not just collected but transformed into a powerful asset for innovation and growth.
   - infoItem: Partner with Cypherox Technologies to harness the full potential of your data. Let us help you build a robust data-driven strategy that empowers your business to stay ahead in today’s competitive landscape. Contact us today to hire our expert data analysts and unlock the true value of your data!
-devBgImg: "/assets/img/bg-Hire-Data-Analytics.png"
-devBgAlt: "bg-Hire-Data-Analytics"
+devBgImg: "/assets/img/hire-data-analytics.png"
+devBgAlt: "Hire Data Analytics"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Data Analytics For Your Evolving Project Needs"

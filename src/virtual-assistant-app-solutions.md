@@ -44,8 +44,8 @@ devInformationList :
 - infoItem: In today’s fast-paced digital world, virtual assistant apps are transforming how individuals and businesses manage tasks, boost productivity, and enhance user experiences. At Cypherox Technologies, we specialize in crafting cutting-edge virtual assistant apps that combine AI, machine learning, and sleek designs to meet modern demands. With expertise in on-demand app development, we ensure your app stands out while delivering exceptional value.
 - infoItem: Our apps feature natural language processing, task automation, and real-time recommendations, ensuring seamless interactions and addressing pain points like personalization and accessibility. Rigorous testing guarantees performance across devices. Whether for e-commerce, healthcare, or finance, our solutions cater to diverse industries with tailored functionalities.
 - infoItem: Partner with us for innovation, scalability, and customer satisfaction. From ideation to deployment, we ensure your app is future-ready, integrating trends like voice recognition and IoT. Let us help you redefine efficiency—contact us today!
-devBgImg: "/assets/img/bg-Virtual-assistant-app.png"
-devBgAlt : "bg-Virtual-assistant-app"
+devBgImg: "/assets/img/virtual-assistant-app.png"
+devBgAlt : "Virtual assistant app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Virtual assistant AppSolutions"

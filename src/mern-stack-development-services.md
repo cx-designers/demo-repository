@@ -53,8 +53,8 @@ devInformationList :
 - infoItem: In today’s fast-paced digital landscape, businesses need efficient tools and strategies to deliver seamless user experiences while maintaining scalability. The MERN Stack—comprising MongoDB, Express.js, React, and Node.js—has emerged as a game-changing technology stack for building dynamic, high-performance web applications.
 - infoItem: However, leveraging its full potential often requires specialized expertise and experience. That’s where our MERN Stack Development Services come in—our team of expert developers is here to help you unlock the true power of MERN Stack and drive your business growth.
 - infoItem: Our MERN Stack developers specialize in crafting custom web applications tailored to your unique business needs. Whether you’re looking to build an e-commerce platform, a SaaS solution, or a real-time dashboard, we design architectures that align with your goals. From backend APIs to frontend interfaces, every component is strategically optimized for performance and scalability. By understanding your target audience and industry, we ensure your applications deliver measurable results.
-devBgImg: "/assets/img/bg-WordPress-Development.png"
-devBgAlt : "bg-WordPress-Development"
+devBgImg: "/assets/img/mern-stack-development.png"
+devBgAlt : "Mern Stack Development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our MERN Stack Services"

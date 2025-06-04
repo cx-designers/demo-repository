@@ -48,8 +48,8 @@ devInformationList :
 - infoItem: Our Ruby on Rails services provide cutting-edge solutions that combine speed, efficiency, and exceptional user experiences. Using Rails’ modular architecture and rich ecosystem of libraries (gems), we accelerate development timelines while ensuring clean, maintainable code. From intuitive UI design to advanced functionalities like real-time data processing, secure authentication, payment gateway integrations, and API connectivity, we align every aspect of your app with your brand and goals. Our expertise spans industries such as healthcare, finance, retail, and education, offering tailored solutions for diverse needs.
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your business goals, audience, and market trends. Whether building new apps, modernizing existing ones, or adding advanced features, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that perform flawlessly across devices and platforms.
 - infoItem: Beyond development, we offer comprehensive post-development support, staying updated with Ruby on Rails advancements. Partner with us to experience Ruby on Rails app development where simplicity meets innovation, turning your vision into reality.
-devBgImg: "/assets/img/bg-Ruby-on-Rails-App-Development-Services.png"
-devBgAlt : "bg-Ruby-on-Rails-App-Development-Services"
+devBgImg: "/assets/img/ruby-on-rails-app-development.png"
+devBgAlt : "Ruby On Rails App Development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Ruby on Rails App Development Services"

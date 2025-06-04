@@ -37,8 +37,8 @@ devInformationList:
   - infoItem: Through our flexible Hire PHP Developers model, you gain access to a vast pool of skilled professionals who can seamlessly integrate into your team and work on one or multiple projects based on your unique business requirements. Whether you need a dedicated developer or an entire team, we provide tailored solutions that align with your goals.
   - infoItem: By hiring PHP developers from Cypherox Technologies , you not only save time and money but also receive enterprise-grade PHP solutions at highly competitive rates. Our commitment to quality, efficiency, and affordability ensures that your project is delivered on time, within budget, and exceeds expectations.
   - infoItem: Partner with us today to unlock the full potential of PHP development. Let Cypherox Technologies empower your brand with a robust, user-centric web platform that drives engagement, enhances customer experiences, and boosts your bottom line. Get in touch now to discuss your vision and let us bring it to life!
-devBgImg: "/assets/img/bg-Hire-PHP-Developers.png"
-devBgAlt: "bg-Hire-PHP-Developers"
+devBgImg: "/assets/img/hire-php-developers.png"
+devBgAlt: "Hire Php Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire PHP Developers Aligned With Your Specific Requirements"

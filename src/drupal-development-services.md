@@ -56,8 +56,8 @@ devInformationList :
 - infoItem: We understand the complexities of modern digital ecosystems and work closely with you to navigate your unique requirements. Whether it’s building a scalable website, integrating advanced functionalities, or creating personalized user experiences, our team ensures tailored solutions that exceed your expectations.
 - infoItem: With a focus on innovation, performance, and security, we leverage Drupal’s flexibility to craft digital experiences that drive engagement and growth. From custom module development to seamless third-party integrations, we ensure your platform is optimized for success.
 - infoItem: Trust Cypherox Technologies to unlock the full potential of Drupal and transform your digital strategy into impactful results. Let us help you build a robust, feature-rich digital experience that aligns with your business goals and captivates your audience. Hire our Drupal experts and elevate your digital presence!
-devBgImg: "/assets/img/bg-Drupal-Development.png"
-devBgAlt : "bg-Drupal-Development"
+devBgImg: "/assets/img/drupal-development.png"
+devBgAlt : "Drupal development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Drupal Development Services"

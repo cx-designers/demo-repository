@@ -58,8 +58,8 @@ devInformationList :
 - infoItem: At Cypherox Technologies , our expert WordPress developers specialize in crafting bespoke, responsive websites tailored to your unique business needs. As a leading WordPress development company , we prioritize delivering seamless user experiences, robust security, and optimized performance to ensure your website stands out in the digital landscape.
 - infoItem: From designing custom themes to implementing advanced functionalities, we create solutions that not only enhance your online presence but also drive growth and engagement. Whether you’re looking to build a new website, revamp an existing one, or integrate cutting-edge features, our team ensures your platform aligns perfectly with your business goals.
 - infoItem: Partner with us to unlock the full potential of WordPress. While you focus on what you do best, we’ll bring your digital vision to life with innovative, high-performing solutions that deliver measurable results. Let Cypherox Technologies help you elevate your online presence and achieve long-term success. Hire our skilled WordPress developers and transform your ideas into reality!
-devBgImg: "/assets/img/bg-WordPress-Development-Services.png"
-devBgAlt : "bg-WordPress-Development-Services"
+devBgImg: "/assets/img/wordpress-development.png"
+devBgAlt : "WordPress development"
 
 secSubTitle: "What We Provide"  
 secTitle: "WordPress Development Services"

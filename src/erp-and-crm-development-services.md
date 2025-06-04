@@ -87,8 +87,8 @@ devInformationList :
 - infoItem: Our team of expert developers leverages industry-leading platforms such as Salesforce, Microsoft Dynamics, SAP, Odoo, and custom-built frameworks to design seamless, integrated systems. From automating repetitive tasks to providing real-time data analytics, our solutions empower you to make smarter, faster decisions.
 - infoItem: By partnering with us, you gain access to experienced ERP developers and CRM developers who expertly balance functionality, scalability, and security. Whether you need to implement a new ERP system, upgrade an existing CRM platform, or integrate third-party tools, we ensure your solution is future-proof and adaptable to evolving business needs.
 - infoItem: With a strong emphasis on user-friendly interfaces, advanced reporting, and seamless integrations, we help your teams work more efficiently while delivering exceptional customer experiences. Let us unlock the full potential of your business with tailored ERP and CRM solutions.
-devBgImg: "/assets/img/bg-ERP-and-CRM-Development.png"
-devBgAlt : "bg-ERP-and-CRM-Development"
+devBgImg: "/assets/img/erp-and-crm-development.png"
+devBgAlt : "ERP and CRM development"
     
 secTitle: "Our ERP and CRM development services"
 secSubTitle: "What We Provide"  

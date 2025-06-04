@@ -44,8 +44,8 @@ devInformationList :
 - infoItem: Our ChatBot SaaS solutions combine natural language processing (NLP), machine learning, and seamless integrations with existing systems. Key features include 24/7 customer support, multi-language capabilities, sentiment analysis, and CRM/helpdesk platform integration.
 - infoItem: We take a strategic approach, starting with a deep understanding of your business goals, audience, and workflows. This ensures chatbots that address current challenges while anticipating future needs. With clean code, rigorous testing, and performance optimization, we deliver polished solutions that perform flawlessly in production environments.
 - infoItem: Partner with us to experience the transformative power of ChatBot SaaS, where automation meets personalization, making customer interactions smarter and more efficient.
-devBgImg: "/assets/img/bg-ChatBot-SAAS.png"
-devBgAlt : "bg-ChatBot-SAAS"
+devBgImg: "/assets/img/chatbot-saas.png"
+devBgAlt : "Chatbot SaaS"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of ChatBot SAAS"

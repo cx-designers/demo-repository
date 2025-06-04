@@ -44,8 +44,8 @@ devInformationList :
 - infoItem: Efficient order management is essential for successful B2C operations. At Cypherox Technologies, we specialize in developing cutting-edge B2C Order Management Apps that streamline the entire order lifecycle—from placement and processing to fulfillment and tracking. Designed specifically for B2C businesses, our apps enhance operational efficiency, reduce errors, and deliver exceptional customer service.
 - infoItem: Our apps address the complexities of B2C transactions, which often involve intricate workflows, high data volumes, and multiple stakeholders. Leveraging advanced technologies like cloud integration, real-time analytics, and automation, we simplify processes and improve supply chain visibility. Key features include automated order routing, inventory synchronization, customizable dashboards, and seamless integration with ERP, CRM, and payment gateways.
 - infoItem: Partner with us to experience the transformative power of a B2C Order Management App , where efficiency meets innovation, empowering your operations to become unstoppable.
-devBgImg: "/assets/img/bg-B2C-Order-Management-App.png"
-devBgAlt : "bg-B2C-Order-Management-App"
+devBgImg: "/assets/img/b2c-order-management-app.png"
+devBgAlt : "B2C order management app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2C Order Management App"

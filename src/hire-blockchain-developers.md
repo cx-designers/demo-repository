@@ -37,8 +37,8 @@ devInformationList:
   - infoItem: By consulting and partnering with our blockchain experts, you can implement secure, scalable, and innovative blockchain applications that resonate with your audience. To turn your blockchain idea into reality, hire our dedicated blockchain programmers who focus on designing feature-rich applications with efficient delivery strategies and quick turnaround times.
   - infoItem: Our talented and skilled team specializes in creating blockchain solutions that drive business growth, enhance operational efficiency, and ensure long-term success. Partner with Cypherox Technologies today to unlock the full potential of blockchain technology and stay ahead in this rapidly evolving digital landscape. Let us help you build a secure, cutting-edge solution that sets your business apart.
   - infoItem: Contact us now to hire our blockchain developers and embark on a transformative journey toward innovation and success!
-devBgImg: "/assets/img/bg-Hire-Blockchain-Developers.png"
-devBgAlt: "bg-Hire-Blockchain-Developers"
+devBgImg: "/assets/img//hire-blockchain-developers.png"
+devBgAlt: "Hire Blockchain Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Blockchain Developers For Your Evolving Project Development Needs"

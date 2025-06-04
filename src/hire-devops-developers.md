@@ -37,8 +37,8 @@ devInformationList:
   - infoItem: By hiring our DevOps engineers , you gain access to professionals who can design and implement scalable, secure, and efficient infrastructure solutions tailored to your business needs. Whether it’s automating deployment pipelines, containerizing applications, or monitoring system performance, our team ensures your systems are resilient, agile, and future-ready.
   - infoItem: Partner with Cypherox Technologies to unlock the full potential of DevOps and transform your software development lifecycle. Let us help you achieve faster time-to-market, improved collaboration, and enhanced operational efficiency.
   - infoItem: Contact us today to hire our skilled DevOps engineers and take your development processes to the next level. Empower your business with a robust DevOps strategy that drives innovation and success!
-devBgImg: "/assets/img/bg-Hire-DevOps-Developers.png"
-devBgAlt: "bg-Hire-DevOps-Developers"
+devBgImg: "/assets/img/hire-devops-developers.png"
+devBgAlt: "Hire Devops Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire DevOps Developers For Your Evolving Project Development Needs"

@@ -104,8 +104,8 @@ devInformationList :
 - infoItem: With deep expertise in frameworks like Django, Flask, and FastAPI, we ensure clean, efficient, and maintainable codebases. Our collaborative approach means we work closely with you to understand your unique challenges and deliver tailored solutions that drive measurable growth. Partner with us to harness the power of Python and stay ahead in today’s competitive digital landscape.
 - infoItem: Our Python Developer Team combines technical expertise with creative problem-solving to deliver applications that drive growth. Whether you’re building machine learning models, automating workflows, developing web applications, or creating data analytics platforms, our developers ensure your project is optimized for performance, scalability, and security.
 - infoItem: From integrating AI/ML capabilities to ensuring seamless API integrations and database management, we provide end-to-end solutions that align with your business goals. Our focus on clean code, scalability, and future-proof architecture ensures your application performs flawlessly across all environments. Let us help you unlock the full potential of Python to enhance user experiences and boost operational efficiency.
-devBgImg: "/assets/img/bg-Python-Web-Development.png"
-devBgAlt : "bg-Python-Web-Development"
+devBgImg: "/assets/img/python-web-development.png"
+devBgAlt : "Python web development"
 
     
 secTitle: "Our Python Development Services"

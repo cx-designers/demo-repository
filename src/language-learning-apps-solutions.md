@@ -44,8 +44,8 @@ devInformationList :
 - infoItem: In today’s globalized world, language learning apps have revolutionized how individuals acquire new languages, breaking barriers and fostering communication. At Cypherox Technologies, we bring years of expertise in crafting on-demand mobile apps to the language learning space. Our dedicated team designs future-ready apps equipped with state-of-the-art features like AI-driven lessons, speech recognition, and gamification to deliver a unique learning experience.
 - infoItem: In a mature market filled with competitors, we ensure your app stands out by addressing typical customer needs—such as personalization, accessibility, and engaging content. By combining intuitive user interfaces with advanced functionalities, we create apps that not only meet but exceed expectations. 
 - infoItem: Partner with us to build a winning language learning app that adds value to users’ lives while overcoming common pitfalls like lack of motivation or repetitive content. Let us help you redefine how people learn languages with an app that inspires and empowers.
-devBgImg: "/assets/img/bg-Language-learning-apps.png"
-devBgAlt : "bg-Language-learning-apps"
+devBgImg: "/assets/img/language-learning-apps.png"
+devBgAlt : "Language learning apps"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Language learning App Solutions"

@@ -32,8 +32,8 @@ devInformationList:
   - infoItem: Skip the hassle of searching for the right talent—hire your ideal AI developer with just a click! At Cypherox Technologies , we make it simple to access top-tier AI expertise, ensuring seamless collaboration and exceptional results.
   
   - infoItem: Partner with us today to leverage the full potential of artificial intelligence and take your business to the next level. Let our AI developers help you innovate, optimize, and lead in this era of digital transformation. Contact us now and turn your AI vision into reality!
-devBgImg: "/assets/img/bg-Hire-AI-Developers.png"
-devBgAlt: "bg-Hire-AI-Developers"
+devBgImg: "/assets/img/hire-ai-developers.png"
+devBgAlt: "Hire Ai Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire AI Developers Aligned with Your Project Goals"

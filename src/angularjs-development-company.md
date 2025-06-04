@@ -54,8 +54,8 @@ devInformationList :
 - infoItem: At Cypherox Technologies, we specialize in delivering top Angular development services that empower businesses to build dynamic, responsive, and scalable web applications. As a leading AngularJS development company, we harness the full potential of Angular’s robust framework to create solutions tailored to your unique needs.
 - infoItem: Our team of expert Angular developers leverages Angular’s two-way data binding, dependency injection, and modular architecture to deliver seamless user experiences. Whether you’re building single-page applications (SPAs), enterprise dashboards, or e-commerce platforms, our developers ensure your app is optimized for speed, security, and scalability.
 - infoItem: By hiring our Angular developers, you gain access to professionals who understand how to blend innovation with technical expertise. From migrating legacy systems to Angular to integrating APIs, third-party tools, and real-time functionalities, we provide end-to-end solutions that drive business growth. Our focus on clean code, cross-browser compatibility, and mobile-first design ensures your application performs flawlessly across all devices. Let us help you build a cutting-edge Angular-powered web presence that sets you apart from the competition.
-devBgImg: "/assets/img/bg-angularjs-Development-Company.png"
-devBgAlt : "bg-angularjs-Development-Company"
+devBgImg: "/assets/img/angularjs-development.png"
+devBgAlt : "AngularJS development"
     
 secTitle: "Our Angular  Development Services"
 secSubTitle: "What We Provide"  

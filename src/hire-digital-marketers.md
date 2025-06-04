@@ -37,8 +37,8 @@ devInformationList:
   - infoItem: Whether you need a single expert or an entire team, our flexible hiring models ensure scalability and cost-effectiveness, allowing you to align resources with your specific needs. Our transparent communication, proven expertise, and focus on measurable outcomes make us the ideal partner for your digital marketing journey.
   - infoItem: Partner with Cypherox Technologies to benefit from innovative strategies, data-backed insights, and unparalleled execution that drive growth and success for your business. Let us help you achieve exceptional results and take your brand to new heights in the ever-evolving digital world.
   - infoItem: Contact us today to hire our Digital Marketing Experts and transform your vision into impactful, measurable success!
-devBgImg: "/assets/img/bg-Hire-Digital-Marketers.png"
-devBgAlt: "bg-Hire-Digital-Marketers"
+devBgImg: "/assets/img/hire-digital-marketers.png"
+devBgAlt: "Hire Digital Marketers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Digital Marketers For Your Evolving Project Needs"

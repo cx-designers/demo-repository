@@ -100,8 +100,8 @@ devInformationList :
 - infoItem: From startups to enterprises, we tailor our approach to meet your unique goals. With deep expertise in Node.js ecosystems, our developers ensure faster time-to-market, optimized performance, and future-ready codebases. By partnering with us, you gain access to "Our Dedicated ExpressJs Developers" who are committed to transforming your vision into reality.
 - infoItem: Our team of expert dedicated ExpressJS developers leverages Express’s minimalistic design and robust routing capabilities to deliver high-performance applications. Whether you’re building RESTful APIs, microservices, real-time dashboards, or enterprise-level platforms, our developers ensure your app is optimized for speed, scalability, and maintainability.
 - infoItem:  From integrating third-party APIs to optimizing database interactions and ensuring seamless performance, we provide end-to-end solutions that drive business growth. Our focus on clean code, modular architecture, and scalability ensures your application performs flawlessly across all environments.
-devBgImg: "/assets/img/bg-Express-JS-Development-Company.png"
-devBgAlt : "bg-Express-JS-Development-Company"
+devBgImg: "/assets/img/express-js-development.png"
+devBgAlt : "Express JS development"
 
     
 secTitle: "Our ExpressJS Development Services"

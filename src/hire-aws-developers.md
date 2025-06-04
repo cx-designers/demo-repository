@@ -30,8 +30,8 @@ devInformationList:
   - infoItem: By hiring AWS developers from India , you gain access to skilled professionals who can design and implement a reliable, resilient, and always-available cloud infrastructure. Our developers specialize in integrating AWS solutions with various systems, ensuring scalability, security, and high performance.
   - infoItem: Partner with Cypherox Technologies to unlock the true power of AWS. Our team is committed to delivering customized cloud solutions that drive efficiency, reduce costs, and support your long-term growth objectives.
   - infoItem: Contact us today to hire our AWS developers and build a cutting-edge cloud ecosystem that propels your business forward in the digital era. Let us help you achieve a secure, scalable, and future-ready cloud environment!
-devBgImg: "/assets/img/bg-Hire-AWS-Developers.png"
-devBgAlt: "bg-Hire-AWS-Developers"
+devBgImg: "/assets/img/hire-aws-developers.png"
+devBgAlt: "Hire Aws Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire AWS Developers Aligned With Your Specific Requirements"

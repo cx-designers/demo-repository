@@ -100,8 +100,8 @@ devInformationList :
 - infoItem: At Cypherox Technologies, we specialize in delivering cutting-edge React JS development services that empower businesses to build dynamic, responsive, and feature-rich web applications. As a trusted ReactJS development company, we leverage the flexibility and efficiency of React’s library to create solutions tailored to your unique needs.
 - infoItem: Our team of expert ReactJS developers utilizes React’s virtual DOM, reusable components, and state management tools like Redux to deliver seamless user experiences. Whether you’re building single-page applications (SPAs), progressive web apps (PWAs), or enterprise dashboards, our developers ensure your app is optimized for speed, scalability, and performance.
 - infoItem: By hiring our ReactJS developers, you gain access to professionals who understand how to blend innovation with technical expertise. From migrating legacy systems to ReactJS to integrating APIs, real-time features, and third-party libraries, we provide end-to-end solutions that drive business growth. Our focus on clean code, cross-browser compatibility, and mobile-first design ensures your application performs flawlessly across all devices. Let us help you build a modern, user-centric web presence that sets you apart from the competition.
-devBgImg: "/assets/img/bg-ReactJS-Development-Company.png"
-devBgAlt : "bg-ReactJS-Development-Company"
+devBgImg: "/assets/img/reactjs-development.png"
+devBgAlt : "ReactJS development"
 
 
     

@@ -31,7 +31,7 @@ devInformationList:
   - infoItem: At Cypherox Technologies , our team has a proven track record of delivering top-notch Metaverse solutions that align with specific business objectives. Partner with us to unlock the limitless potential of the Metaverse and position your brand at the forefront of innovation.
   - infoItem: Contact us today to hire our Metaverse experts and embark on a journey to redefine how users interact with your business in the virtual world!
 devBgImg: "/assets/img/hire-metaverse-developers.png"
-devBgAlt: "bg-Hire-Metaverse-Developers"
+devBgAlt: "Hire Metaverse Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Metaverse Developers For Your Evolving Project Development Needs"

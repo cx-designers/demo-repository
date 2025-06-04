@@ -91,8 +91,8 @@ devInformationList :
 - infoItem: At Cypherox Technologies, we specialize in delivering top-tier CMS development services that help businesses manage their content efficiently while maintaining a strong online presence. As a trusted CMS development company, we focus on creating scalable, secure, and customizable websites tailored to your unique needs.
 - infoItem: Our team of experienced CMS web developers leverages popular platforms like WordPress, Drupal, Joomla, and custom-built solutions to ensure your website is both functional and easy to manage. From intuitive admin dashboards to seamless integrations with third-party tools, we provide everything you need to keep your site updated without technical hassle.
 - infoItem: By hiring our CMS web developers, you gain access to professionals who understand the importance of balancing aesthetics, usability, and performance. Whether you’re launching a blog, corporate website, or e-commerce platform, we ensure your CMS is optimized for speed, SEO, and mobile responsiveness. Our focus on clean code, scalability, and security ensures your website remains future-proof and capable of handling growing traffic and content demands. Let us help you build a CMS-driven website that enhances your brand’s visibility and drives business growth.
-devBgImg: "/assets/img/bg-CMS-Development-Company.png"
-devBgAlt : "bg-CMS-Development-Company"
+devBgImg: "/assets/img/cms-development.png"
+devBgAlt : "CMS development"
     
 secTitle: "Our CMS Development Services"
 secSubTitle: "What We Provide"  

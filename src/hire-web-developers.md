@@ -37,7 +37,7 @@ devInformationList:
   - infoItem: Irrespective of the platform, our team follows a lean and agile approach , ensuring flexibility, efficiency, and timely delivery. We focus on creating websites that not only look stunning but also drive results by enhancing user engagement and boosting conversions.
   - infoItem: Hire our web developers to empower your business with a fully customized website that meticulously addresses your specific needs and objectives. Let us help you craft a digital asset that stands out in the competitive landscape, strengthens your brand identity, and fuels sustainable business growth. Partner with Cypherox Technologies today and transform your vision into a high-performing online reality.
 devBgImg: "/assets/img/hire-web-developers.png"
-devBgAlt: "bg-Hire-Web-Developers"
+devBgAlt: "Hire Web Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Web Developers For Your Evolving Project Needs"

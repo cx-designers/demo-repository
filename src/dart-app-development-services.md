@@ -46,8 +46,8 @@ devInformationList :
 - infoItem: Our Dart app development services empower businesses with cutting-edge solutions that combine speed, efficiency, and exceptional user experiences. Using Dart’s robust framework, we create fast, reliable, and customizable apps with visually appealing designs. From intuitive UI/UX to complex functionalities like real-time data sync, secure authentication, and cloud integration, we ensure your app aligns with your brand and goals. Our expertise spans industries like e-commerce, healthcare, finance, and education, offering tailored solutions for diverse requirements.
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your business goals, audience, and market trends. Whether building new apps, modernizing existing ones, or adding advanced features, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that perform flawlessly across platforms.
 - infoItem: Beyond development, we provide comprehensive post-development support, staying updated with Dart and Flutter advancements. Partner with us to experience Dart app development where innovation meets efficiency, turning your vision into reality.
-devBgImg: "/assets/img/bg-Dart-App-Development-Services.png"
-devBgAlt : "bg-Dart-App-Development-Services"
+devBgImg: "/assets/img/dart-app-development.png"
+devBgAlt : "Dart app development"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Dart App Development Services"

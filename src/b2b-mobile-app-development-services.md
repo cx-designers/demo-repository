@@ -50,8 +50,8 @@ devInformationList :
 - infoItem: Our B2B mobile app services address the specific challenges of the B2B space, focusing on robust security, seamless system integration, and scalability. Using cutting-edge technologies, we build apps with intuitive user experiences and actionable insights. Features like real-time analytics, secure authentication, API integrations, and cloud-based solutions ensure enhanced productivity and stronger business relationships. Our expertise spans industries such as logistics, manufacturing, finance, healthcare, and more, offering tailored solutions for diverse operational needs.
 - infoItem: We take a strategic, collaborative approach, starting with a deep understanding of your objectives, audience, and workflows. Whether building new apps, modernizing systems, or integrating advanced features like AI analytics, IoT, or blockchain security, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, reliable apps that perform flawlessly across devices.
 - infoItem: Beyond development, we provide comprehensive post-development support, staying updated with mobile tech advancements. Partner with us to experience B2B mobile app development where innovation meets efficiency, turning your vision into reality.
-devBgImg: "/assets/img/bg-B2B-Mobile-App-Development-Services.png"
-devBgAlt : "bg-B2B-Mobile-App-Development-Services"
+devBgImg: "/assets/img/b2b-mobile-app-development.png"
+devBgAlt : "B2B mobile app development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2B Mobile App Development Services"

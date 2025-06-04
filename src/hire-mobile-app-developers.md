@@ -30,7 +30,7 @@ devInformationList:
   - infoItem: At Cypherox Technologies, we bring over a decade of expertise to the table, having served global clients with turnkey mobile application development services. Backed by 14+ years of experience, we pride ourselves on being one of the best mobile app development companies. Our internal team comprises the top 1% of tech talent, proficient in Android, iOS, Xamarin, React Native, and more. We specialize in integrating emerging technologies to keep your app future-ready and competitive. 
   - infoItem: Choosing Cypherox Technologies means partnering with a company that prioritizes quality, innovation, and client satisfaction. Let’s collaborate to discuss your next mobile app development project and create top-notch applications that thrive in today’s digital era. With the expertise of our dedicated developers, we’ll help you build a user-friendly, profitable mobile app that takes your business to new heights. Connect with us today and let’s turn your vision into reality!
 devBgImg: "/assets/img/hire-mobile-app-developers.png"
-devBgAlt: "bg-Hire-Mobile-App-Developers"
+devBgAlt: "Hire Mobile App Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Mobile App Developers Aligned With Your Specific Requirements"

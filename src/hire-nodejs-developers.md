@@ -36,8 +36,8 @@ devInformationList:
   - infoItem: Our skilled Node.js developers dive deep into application architecture, industry best practices, and your unique business requirements to harness the full potential of Node.js . The result? A fast, scalable, and future-ready application tailored to your needs. Whether you’re looking to build instant messengers, live audio-video streaming apps, complex single-page applications (SPAs), or real-time solutions, our developers bring unmatched expertise and experience to the table. They leverage the efficiency of event-driven JavaScript to supercharge backend functionalities, ensuring rapid production and seamless performance.
   - infoItem: At Cypherox Technologies , we specialize in creating full-fledged, standalone server-side applications that deliver outstanding results. Our commitment to quality and innovation has made us a trusted partner for businesses seeking robust Node.js solutions. By hiring our Node.js developers in India , you gain access to top-tier talent capable of navigating today’s tech landscape while aligning with your business goals.
   - infoItem: Choose Cypherox Technologies as your ultimate go-to partner for backend Node.js services . Let us help you build scalable, high-performance applications that captivate users, drive engagement, and elevate your brand in this competitive digital age. Hire our Node.js developers today and take your business to new heights!
-devBgImg: "/assets/img/bg-Hire-NodeJS-Developers.png"
-devBgAlt: "bg-Hire-NodeJS-Developers"
+devBgImg: "/assets/img/hire-nodejs-developers.png"
+devBgAlt: "Hire Nodejs Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire NodeJS Developers Aligned With Your Specific Requirements"

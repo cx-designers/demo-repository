@@ -28,7 +28,7 @@ devInformationList:
   - infoItem: Looking for awesome people to make your project super cool? Our developers aren’t just tech experts; they’re like superheroes of the digital world! They take your ideas and turn them into amazing digital creations. They make the whole process fun, like going on a thrilling ride at a digital theme park. 
   - infoItem: When you hire our developers, you're not just getting tech pros—you're getting partners for your project. They’ll understand what you want and make it happen. They’re like your project's best friends, always ready to solve problems and make things easy. So, if you want your project to be fantastic, let’s team up and make it happen!
 devBgImg: "/assets/img/hire-dedicated-developers.png"
-devBgAlt: "bg-Dedicated-Developers"
+devBgAlt: "Hire Dedicated Developers"
 
 pertnershipSubtitle: "Our Hiring Models"
 pertnershipTitle : "Our Partnership"

@@ -49,8 +49,8 @@ devInformationList :
 - infoItem: As a leader in Objective-C app development, we take pride in offering end-to-end solutions that cater to diverse industries, including finance, healthcare, retail, and more. Our process begins with a thorough understanding of your requirements, target audience, and market trends, enabling us to design and develop applications that deliver tangible results. We specialize in integrating advanced functionalities such as real-time data processing, secure authentication, geolocation services, and third-party APIs, ensuring your app provides a seamless and engaging experience for users. With a strong focus on clean code architecture, rigorous testing, and optimization, we guarantee a polished, bug-free product that performs flawlessly across all Apple devices.
 
 - infoItem: At Cypherox Technologies, we understand that launching your app is just the beginning. To ensure its continued success, we offer comprehensive post-development support and maintenance services. Our team stays up-to-date with the latest advancements in Objective-C and iOS technologies, ensuring your app remains compatible with future updates and evolving industry standards. Whether you need performance enhancements, feature upgrades, or security patches, we are here to help your app grow alongside your business. Partner with us today and harness the power of Objective-C app development services—where reliability meets innovation, and your vision becomes reality.
-devBgImg: "/assets/img/bg-Objective-C-App-Development-Services.png"
-devBgAlt : "bg-Objective-C-App-Development-Services"
+devBgImg: "/assets/img/objective-c-app-development.png"
+devBgAlt : "Objective C app development"
 
 secTitle: "Core Services of Objective-C App Development Services"
 secSubTitle: "What We Provide"  

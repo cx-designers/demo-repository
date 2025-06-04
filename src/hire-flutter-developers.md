@@ -30,7 +30,7 @@ devInformationList:
   - infoItem: Our cross-platform app developers are among the most valued assets for our clients. By leveraging our full-spectrum Flutter app development services, you can build sophisticated native apps with captivating interfaces while benefiting from reduced development time and cost efficiency. Whether you need a feature-rich application or a sleek user-centric design, our experts are equipped to bring your vision to life.
   - infoItem: Hire Flutter developers from Cypherox Technologies today and harness the power of this cutting-edge platform. Together, let’s make the unimaginable possible and propel your business into the future of mobile technology. Partner with us to transform your ideas into impactful, scalable applications that captivate users and drive success.
 devBgImg: "/assets/img/hire-flutter-developers.png"
-devBgAlt: "bg-Hire-Flutter-Developers"
+devBgAlt: "Hire Flutter Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Flutter Developers Aligned with Your Project Goals"

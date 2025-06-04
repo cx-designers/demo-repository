@@ -37,8 +37,8 @@ devInformationList:
   - infoItem: To create a highly customized and business-oriented app, collaboration with an experienced team is essential. Our dedicated developers work tirelessly to ensure your project’s success. Vue.js is not only efficient but also ideal for crafting clutter-free, straightforward, and visually appealing applications. Renowned brands like Alibaba , GitLab , and Grammarly have chosen Vue.js for its effectiveness in building robust and scalable applications.
   - infoItem: We have empowered businesses to grow by leveraging Vue.js development to maximize ROI. Hire the best Vue.js developers from Cypherox Technologies , and gain access to top-tier technical expertise and ongoing support. We emphasize structuring components and following detailed development processes to ensure timely and successful delivery of your project.
   - infoItem: Partner with us to unlock the full potential of Vue.js and build applications that drive engagement, enhance user experience, and deliver measurable results. Let Cypherox Technologies be your trusted ally in transforming your vision into a high-performing digital solution. Hire our Vue.js developers today and embark on a journey toward innovation and success!
-devBgImg: "/assets/img/bg-Hire-VueJS-Developers.png"
-devBgAlt: "bg-Hire-VueJS-Developers"
+devBgImg: "/assets/img/hire-vuejs-developers.png"
+devBgAlt: "Hire Vuejs Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire VueJS Developers For Your Evolving Project Development Needs"

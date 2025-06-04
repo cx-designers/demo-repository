@@ -43,8 +43,8 @@ devInformationList :
 - infoItem: News apps have revolutionized how people stay informed, providing real-time updates and personalized content at their fingertips. At Cypherox Technologies, we design apps that blend dynamic storytelling with intuitive navigation, ensuring users stay engaged and informed. Our team leverages advanced technologies like AI-driven news aggregation, push notifications, and customizable feeds to address the needs of modern readers. 
 - infoItem: In a saturated market, we differentiate your app by focusing on speed, accuracy, and relevance. By eliminating common issues like cluttered interfaces or outdated content, we create apps that deliver a superior user experience. 
 - infoItem: Partner with us to build a news app that captivates audiences and keeps them connected to the world around them. Stay ahead in the digital age with an app that combines innovation, reliability, and user satisfaction seamlessly.
-devBgImg: "/assets/img/bg-News-app.png"
-devBgAlt : "bg-News-app"
+devBgImg: "/assets/img/news-app.png"
+devBgAlt : "News app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Mobile Application Solutions"

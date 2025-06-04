@@ -31,7 +31,7 @@ devInformationList:
   - infoItem: At Cypherox Technologies, we focus on creating standout apps equipped with advanced functionalities and intuitive designs. With deep insights into the latest industry trends, our skilled developers craft next-gen solutions that elevate your brand above competitors. From integrating wearable devices like IoT modules or health trackers to developing seamless user experiences, we do it all.
   - infoItem: Beyond development, our commitment extends to offering comprehensive post-launch support. This includes regular updates, performance checks, and ongoing maintenance to guarantee a top-notch user experience. By prioritizing long-term engagement, we ensure your app remains relevant, functional, and ahead of the curve.
 devBgImg: "/assets/img/hire-android-developer.png"
-devBgAlt: "hire-android-developer"
+devBgAlt: "Hire Android Developer"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire Android Developers For Your Evolving Project Development Needs"

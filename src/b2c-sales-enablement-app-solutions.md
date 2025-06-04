@@ -45,8 +45,8 @@ devInformationList :
 - infoItem: Our B2C Sales Enablement Apps are tailored to address the unique challenges of the B2C space. Modern consumers expect personalized experiences, instant access to information, and seamless purchasing workflows. Leveraging advanced technologies like AI-driven analytics, real-time notifications, and cloud integration, we build apps that provide actionable insights, automate tasks, and improve team collaboration. Key features include customer segmentation, personalized recommendations, loyalty program management, and performance dashboards.
 - infoItem: We take a strategic approach, starting with a deep understanding of your sales processes, audience, and pain points. This ensures the app aligns with your sales strategy and addresses specific challenges. Whether integrating with CRM systems, adding gamification, or implementing predictive analytics, our team handles projects of any scale with expertise.
 - infoItem: Partner with us to experience the transformative power of a B2C Sales Enablement App, where efficiency meets innovation, empowering your sales team to achieve unstoppable success.
-devBgImg: "/assets/img/bg-B2C-Sales-Enablement-App.png"
-devBgAlt : "bg-B2C-Sales-Enablement-App"
+devBgImg: "/assets/img/b2c-sales-enablement-app.png"
+devBgAlt : "B2C sales enablement app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2C Sales Enablement App"

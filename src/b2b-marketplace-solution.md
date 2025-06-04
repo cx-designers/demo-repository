@@ -52,8 +52,8 @@ devInformationList :
 - infoItem: Our B2B Marketplace Solutions address the complexities of B2B transactions, such as multiple stakeholders, custom pricing, bulk ordering, and intricate workflows. Using AI-driven analytics, cloud infrastructure, and robust API integrations, we build platforms with end-to-end functionality. Features include customizable catalogs, tiered pricing, real-time inventory management, secure payments, and multi-vendor support. Advanced tools like supplier onboarding, order tracking, performance analytics, and CRM integration ensure a seamless user experience.
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your audience, workflows, and market dynamics. Whether building new platforms, migrating systems, or adding AI recommendations, blockchain transparency, or multi-channel selling, our team handles projects of any scale. With scalability, security, and user-centric design, we deliver polished platforms that drive measurable results.
 - infoItem: Beyond launch, we provide ongoing support, staying updated with marketplace advancements. Partner with us to experience B2B Marketplace Solutions where innovation meets efficiency, turning your vision into reality.
-devBgImg: "/assets/img/bg-B2B-Marketplace-Solution.png"
-devBgAlt : "bg-B2B-Marketplace-Solution"
+devBgImg: "/assets/img/b2b-marketplace-solution.png"
+devBgAlt : "B2B marketplace solution"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2B Marketplace Solution"

@@ -46,8 +46,8 @@ devInformationList :
 - infoItem: Our services deliver cutting-edge applications combining functionality, scalability, and exceptional user experiences. Leveraging these frameworks, we create fast, reliable, and visually appealing apps. From intuitive UI/UX design to complex backend integrations, API connectivity, and cross-device performance, we ensure your app aligns with your brand and goals. Our expertise spans industries like e-commerce, healthcare, finance, and education, offering tailored solutions for diverse requirements.
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your business goals, audience, and market trends. This helps us select the best framework for optimal performance and cost-efficiency. Whether building new apps, modernizing existing ones, or adding advanced features, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that perform flawlessly across platforms.
 - infoItem: Beyond development, we offer comprehensive post-development support, staying updated with framework advancements. Partner with us to experience Framework App Development where adaptability meets innovation, turning your vision into reality.
-devBgImg: "/assets/img/bg-Framework-App-Development-Services.png"
-devBgAlt : "bg-Framework-App-Development-Services"
+devBgImg: "/assets/img/framework-app-development.png"
+devBgAlt : "Framework app development"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Framework App Development Services"

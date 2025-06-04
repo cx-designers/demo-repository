@@ -49,8 +49,8 @@ devInformationList :
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your business goals, audience, and market trends. Whether building new apps, modernizing existing ones, or adding advanced features, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that perform flawlessly across platforms.
 
 - infoItem: Beyond development, we provide comprehensive post-development support, staying updated with Flutter and Dart advancements. Partner with us to experience Flutter app development where innovation meets efficiency, turning your vision into reality.
-devBgImg: "/assets/img/bg-Flutter-App-Development-Services.png"
-devBgAlt : "bg-Flutter-App-Development-Services"
+devBgImg: "/assets/img/flutter-app-development.png"
+devBgAlt : "Flutter app development"
  
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Flutter App Development Services"

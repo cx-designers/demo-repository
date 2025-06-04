@@ -43,8 +43,8 @@ devInformationList :
 - infoItem: Fitness apps have become essential tools for achieving health goals, offering personalized workout plans and progress tracking. At Cypherox Technologies, we design apps that combine motivation, functionality, and innovation. 
 - infoItem: Our team ensures your app addresses common challenges such as lack of customization or repetitive routines. In a crowded market, we focus on delivering unique value through gamification and wearable integrations. By eliminating common pitfalls like poor usability or outdated content, we create apps that inspire users to lead healthier lifestyles. 
 - infoItem: Let us help you build a fitness app that motivates users and drives long-term engagement, empowering them to achieve their fitness goals with confidence.
-devBgImg: "/assets/img/bg-Fitness-app.png"
-devBgAlt : "bg-Fitness-app"
+devBgImg: "/assets/img/fitness-app.png"
+devBgAlt : "Fitness app"
 
 secSubTitle: "What We Provide"  
 secTitle: "Our Fitness App Solutions"

@@ -46,8 +46,8 @@ devInformationList :
 - infoItem: Our SaaS mobile application development services combine functionality, performance, and stunning design. Using frameworks like Flutter, React Native, and native tools, we craft apps with a native-like experience across iOS and Android. Key features include real-time notifications, secure authentication, offline functionality, and seamless cloud integration. Our expertise spans industries, ensuring tailored solutions for your specific needs.
 - infoItem: We take a strategic approach, starting with a deep understanding of your audience, market trends, and technical requirements. This ensures apps that not only meet but exceed expectations. With clean code, rigorous testing, and performance optimization, we deliver polished products that perform flawlessly on all devices.
 - infoItem: Beyond development, we provide comprehensive post-development support and maintenance. Partner with us to experience the transformative power of SaaS Mobile Applications, where accessibility meets innovation, turning your vision into reality.
-devBgImg: "/assets/img/bg-SAAS-Mobile-Applications.png"
-devBgAlt : "bg-SAAS-Mobile-Applications"
+devBgImg: "/assets/img/saas-mobile-applications.png"
+devBgAlt : "SaaS mobile applications"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of SAAS Mobile Applications"

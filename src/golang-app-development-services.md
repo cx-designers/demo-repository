@@ -52,8 +52,8 @@ devInformationList :
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your objectives, audience, and challenges. Whether building new apps, optimizing systems, or migrating to cloud-native architectures, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, bug-free apps that excel in production.
 
 - infoItem: Beyond development, we provide comprehensive post-development support, staying updated with Golang advancements. Partner with us to experience Golang app development where speed meets reliability, turning your vision into reality.
-devBgImg: "/assets/img/bg-Golang-App-Development-Services.png"
-devBgAlt : "bg-Golang-App-Development-Services"
+devBgImg: "/assets/img/golang-app-development.png"
+devBgAlt : "Golang app development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of Golang App Development Services"

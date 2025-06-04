@@ -55,8 +55,8 @@ devInformationList :
 - infoItem: Our certified Magento developers transform ideas into impactful solutions, going beyond the screen to optimize both digital and in-store processes. We specialize in creating tailored solutions that cater to your business needs, whether it’s building multi-store platforms, single-store applications, custom extensions, or seamless migration services.
 - infoItem: With expertise in leveraging Magento’s advanced features, we ensure your eCommerce platform is scalable, secure, and equipped with rich functionalities. Our team focuses on delivering high-performance websites that enhance user experience, drive conversions, and boost revenue.
 - infoItem: Partner with Cypherox Technologies to unlock the full potential of Magento and elevate your online presence. Let us help you craft an eCommerce solution that not only meets but exceeds your expectations, ensuring long-term success in the competitive digital landscape.
-devBgImg: "/assets/img/bg-Magento-Development-Company.png"
-devBgAlt : "bg-Magento-Development-Company"
+devBgImg: "/assets/img/magento-development.png"
+devBgAlt : "Magento development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Magento Development Services"

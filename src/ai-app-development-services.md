@@ -50,8 +50,8 @@ devInformationList :
 - infoItem: Our AI app development services empower businesses with innovative solutions that combine advanced AI capabilities with seamless usability. Using tools like TensorFlow, PyTorch, and OpenAI, we build scalable, secure, and future-ready apps. From intuitive interfaces to complex algorithms for data analysis, real-time decision-making, and automation, we align every aspect of your app with your goals and industry standards. Our expertise spans healthcare, finance, retail, education, logistics, and more, offering tailored solutions for diverse needs.
 - infoItem: We take a strategic, client-centric approach, starting with a deep understanding of your objectives, audience, and technical requirements. Whether building new AI-powered apps, integrating AI into existing systems, or optimizing workflows with machine learning, our team handles projects of any scale. With clean code, rigorous testing, and optimization, we deliver polished, reliable apps that drive measurable results.
 - infoItem: Beyond development, we provide comprehensive post-development support, staying updated with AI advancements. Partner with us to experience AI app development where intelligence meets innovation, turning your vision into reality.
-devBgImg: "/assets/img/bg-AI-App-Development-Services.png"
-devBgAlt : "bg-AI-App-Development-Services"
+devBgImg: "/assets/img/ai-app-development.png"
+devBgAlt : "AI app development"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of AI App Development Services"

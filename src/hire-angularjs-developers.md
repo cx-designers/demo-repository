@@ -36,8 +36,8 @@ devInformationList:
   - infoItem: When you hire Angular developers from us, you gain access to unmatched productivity and expertise. At Cypherox Technologies , we pride ourselves on being at the forefront of Angular development services, delivering top-tier talent to elevate your projects to new heights. Our team of Angular experts is well-versed in the latest frameworks, libraries, and best practices, ensuring your applications are both innovative and future-ready.
   - infoItem: Partner with us to experience the exceptional efficiency and competence of our Angular developers from India. Whether you’re building a complex enterprise application or a sleek user interface, our developers deliver outstanding results that align with your business goals. With a focus on quality, scalability, and performance, we transform your vision into reality while maintaining cost-effectiveness and timely delivery.
   - infoItem: Choose Cypherox Technologies as your trusted Angular development partner and witness the remarkable outcomes our talented team can achieve for your business. Let’s collaborate to create impactful, high-performance web applications that drive success in today’s competitive digital landscape. Hire our Angular developers today and take your projects to the next level!
-devBgImg: "/assets/img/bg-Hire-AngularJS-Developers.png"
-devBgAlt: "bg-Hire-AngularJS-Developers"
+devBgImg: "/assets/img/hire-angularjs-developers.png"
+devBgAlt: "Hire Angularjs Developers"
 
 processSubtitle : "Meet your Needs"
 processTitle : "Hire AngularJS Developers Aligned with Your Project Goals"

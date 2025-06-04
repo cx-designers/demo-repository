@@ -44,8 +44,8 @@ devInformationList :
 - infoItem: Our B2C eCommerce Platform development services provide comprehensive solutions for industries such as fashion, beauty, electronics, and grocery. We build platforms with intuitive interfaces, fast load times, and secure transactions. Features include real-time inventory management, automated order processing, payment gateway integrations, multi-channel selling, and advanced analytics for actionable insights into buyer behavior and sales trends.
 - infoItem: We take a strategic approach, ensuring your platform aligns with your business goals and industry needs. Whether building from scratch, migrating systems, or enhancing existing solutions, our team handles projects of any scale with expertise.
 - infoItem: Partner with us to experience the transformative power of a B2C eCommerce Platform , where innovation meets efficiency, propelling your business to new heights of success.
-devBgImg: "/assets/img/bg-B2C-eCommerce-Platform.png"
-devBgAlt : "bg-B2C-eCommerce-Platform"
+devBgImg: "/assets/img/b2c-ecommerce-platform.png"
+devBgAlt : "B2C ecommerce platform"
 
 secSubTitle: "What We Provide"  
 secTitle: "Core Services of B2C eCommerce Platform"

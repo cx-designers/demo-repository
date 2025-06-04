@@ -98,8 +98,8 @@ devInformationList :
 - infoItem: Our team of expert web developers utilizes advanced technologies such as React, Angular, Vue.js, Node.js, GraphQL, and cloud-based solutions to create websites that are both visually appealing and highly functional. From progressive web apps (PWAs) to AI-driven interfaces, we ensure your platform includes next-generation features that enhance user engagement and drive conversions.
 - infoItem: By hiring our developers, you gain access to professionals who combine creativity with technical expertise. Whether you are launching a new startup, revamping an existing website, or integrating APIs and third-party tools, we offer scalable solutions tailored to your business needs.
 - infoItem: Our commitment to clean code, cross-browser compatibility, and mobile-first design ensures that your website performs flawlessly across all devices. Let us help you establish a modern, user-centric web presence that sets you apart from the competition.
-devBgImg: "/assets/img/bg-Modern-Web-Development.png"
-devBgAlt : "bg-Modern-Web-Development"
+devBgImg: "/assets/img/modern-web-development.png"
+devBgAlt : "Modern web development"
     
 secTitle: "Our Modern Web Development Services"
 secSubTitle: "What We Provide"  
