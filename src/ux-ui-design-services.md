@@ -88,8 +88,8 @@ devInformationList :
 - infoItem: At Cypherox, we specialize in creating impactful digital solutions through our tailored UI/UX design services. As a leading UI/UX design company, we focus on understanding your audience’s needs, behaviors, and pain points to deliver designs that are aesthetically pleasing and highly functional. From wireframes to prototypes, every step is meticulously planned to ensure seamless navigation and optimal performance across devices.
 - infoItem: Our team of skilled UI/UX designers collaborates closely with you to align your brand identity with user expectations. Whether designing an engaging website or developing a mobile app, we prioritize usability testing, accessibility standards, and cutting-edge trends to create products that stand out in the market.
 - infoItem: By choosing us for your UI/UX design needs, you’re investing in a partner who understands how great design can elevate your brand, improve user retention, and ultimately grow your business. Let us turn your vision into reality!
-devBgImg: "/assets/img/bg-ux-ui-design-services.png"
-devBgAlt : "bg-ux-ui-design-services"
+devBgImg: "/assets/img/ux-ui-design-services.png"
+devBgAlt : "Ux Ui Design Services"
 
 
 secTitle: "Core UI/UX Design Services"

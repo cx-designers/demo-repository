@@ -179,7 +179,7 @@ phases:
           - icon: "../../../assets/img/icon-Aws.svg"
             alt: "aws"
             title: "AWS Security Hub"
-          - icon: "../../../assets/img/icon-microsoft-defender.svg"
+          - icon: "../../../assets/img/icon-microsoft-defender-for-cloud.svg"
             alt: "icon-microsoft-defender"
             title: "Microsoft Defender for Cloud"
           - icon: "../../../assets/img/icon-google-security-command-center.svg"
