@@ -6,38 +6,38 @@
   "industriesTitlePart": "Industries",
   "industriesData": [
     {
-      "img": "assets/img/entertainment.webp",
-      "alt": "Entertainment",
+      "img": "assets/img/entertainment-industry.webp",
+      "alt": "Entertainment industry",
       "title": "Entertainment",
       "pageLink" : "/entertainment-industry-services.html"
     },
     {
-      "img": "assets/img/education.webp",
-      "alt": "Education",
+      "img": "assets/img/education-industry.webp",
+      "alt": "Education industry",
       "title": "Education",
       "pageLink" : "/education-industry-services.html"
     },
     {
-      "img": "assets/img/health-care.webp",
-      "alt": "Health Care",
+      "img": "assets/img/healthcare-industry.webp",
+      "alt": "Healthcare industry",
       "title": "Health Care",
       "pageLink" : "/healthcare-industry-services.html"
     },
     {
-      "img": "assets/img/transportation.webp",
-      "alt": "Transportation",
+      "img": "assets/img/transportation-industry.webp",
+      "alt": "Transportation industry",
       "title": "Transportation",
       "pageLink" : "/transportation-industry-services.html"
     },
     {
-      "img": "assets/img/real-estate.webp",
-      "alt": "Real Estate",
+      "img": "assets/img/real-estate-industry.webp",
+      "alt": "Real estate industry",
       "title": "Real Estate",
       "pageLink" : "/real-estate-industry-services.html"
     },
     {
-      "img": "assets/img/social-network.webp",
-      "alt": "Social Network",
+      "img": "assets/img/social-networking-industry.webp",
+      "alt": "Social networking industry",
       "title": "Social Network",
       "pageLink" : "/social-networking-industry-services.html"
     }

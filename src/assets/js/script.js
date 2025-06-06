@@ -424,10 +424,10 @@ $(document).ready(function () {
               clickable: true
             },
             breakpoints: {
-              1024: {
+              1199: {
                 slidesPerView: 3,
               },
-              768: {
+              800: {
                 slidesPerView: 2,
               },
               520: {
@@ -470,12 +470,12 @@ $(document).ready(function () {
               delay: 2500,
               disableOnInteraction: false
             },
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
+             pagination: {
+              el: '.swiper-pagination',
+              clickable: true
             },
             breakpoints: {
-              768: {
+              800: {
                 slidesPerView: 2,
               },
               520: {
@@ -2239,14 +2239,14 @@ document.addEventListener("DOMContentLoaded", function () {
       const ul = cardInfoBlock.querySelector("ul");
       const heading = cardInfoBlock.querySelector("h4");
 
-      // Always show the first item regardless of heading value
-      if (index === 0 && ul) {
+      // Always show the first item or those with empty heading
+      if ((index === 0 || (heading && heading.textContent.trim() === "")) && ul) {
         ul.classList.add("show");
-        ul.style.height = `${ul.scrollHeight}px`;
-      } else if (ul && (!heading || heading.textContent.trim() === "")) {
-        // If heading is empty, show this item
-        ul.classList.add("show");
-        ul.style.height = `${ul.scrollHeight}px`;
+        // ul.style.height = `${ul.scrollHeight}px`;
+
+        if (heading) {
+          heading.classList.add("active"); // Add 'active' to h4
+        }
       }
     });
   });
@@ -2259,28 +2259,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (ul && ul.tagName === "UL") {
         if (ul.classList.contains("show")) {
-          return;
+          return; // Already open
         }
 
         const columnUls = cardBody.querySelectorAll(".card-info-block ul");
+        const columnH4s = cardBody.querySelectorAll(".card-info-block h4");
+
         columnUls.forEach(otherUl => {
           otherUl.classList.remove("show");
-          otherUl.style.height = "0";
+          // otherUl.style.height = "0";
           otherUl.style.opacity = "0";
         });
 
+        columnH4s.forEach(otherH4 => {
+          otherH4.classList.remove("active"); // Remove active class from all h4s
+        });
+
         ul.classList.add("show");
-        ul.style.height = `${ul.scrollHeight}px`;
+        // ul.style.height = `${ul.scrollHeight}px`;
         ul.style.opacity = "1";
+        this.classList.add("active"); // Add active class to clicked h4
 
         ul.addEventListener("transitionend", function () {
-          ul.style.height = "auto";
+          // ul.style.height = "auto";  
           ul.style.opacity = "1";
-        });
+        }, { once: true }); // Run only once
       }
     });
   });
 });
+
 
 
 /* Phases On Demands App Info Section JS Start */
@@ -2622,6 +2630,7 @@ if (teamMobile) {
     spaceBetween: 20,
     pagination: {
       el: ".swiper-pagination",
+       clickable: true
     },
   });
 

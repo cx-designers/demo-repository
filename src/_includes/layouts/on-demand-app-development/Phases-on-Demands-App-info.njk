@@ -25,7 +25,9 @@
                         <div class="card-body p-0">
                             {% for block in phase.blocks %}
                             <div class="card-info-block">
-                                <h4 class="small-heading">{{ block.heading }}</h4>
+                                {% if block.heading %}
+                                    <h4 class="small-heading">{{ block.heading }}</h4>
+                                {% endif %}
                                 <ul class="list-block">
                                     {% for item in block.items %}
                                     <li>
