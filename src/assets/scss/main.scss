@@ -704,7 +704,7 @@ h1 {
         }
 
         @include mobileLarge {
-          font-size: 40px !important;
+          font-size: 36px !important;
           line-height: 1.1;
         }
       }
@@ -2228,6 +2228,9 @@ body.service-page {
           @include desktopSmall {
             padding-top:100px !important;  
           }
+          @include ipadLarge {
+            padding-top:0px !important;  
+          }
         }
       }
     }
@@ -2310,6 +2313,11 @@ body.service-page {
 
   .svg-move-across {
     .first-svg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
       svg {
         width: 100%;
         height: 100%;
@@ -3942,6 +3950,14 @@ div#lottie-animation {
     padding-bottom: 45px;
   }
 
+  .container{
+    @include mdScreen {
+      padding:0px 20px;
+    }
+    @include ipadLarge {
+      max-width: none;
+    }
+  }
   .heading-main-sec {
     h2 {
       margin: 0 0 40px 0;
@@ -4007,7 +4023,7 @@ div#lottie-animation {
     }
 
     .team-col {
-      padding: 0 10px;
+      padding: 0 20px;
       width: 25%;
 
       @include mdScreenLarge {
@@ -4378,6 +4394,9 @@ div#lottie-animation {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
+    @include ipadLarge  {
+      width:290px;
+    }
   }
 
   .industries-slider-small {
@@ -6480,6 +6499,9 @@ svg:not(:root) {
       @include ipadLarge {
         width: 100%;
       }
+      @include mobileLarge {
+        margin-top: 30px;
+      }
     }
 
     .work-cultur-svgmain {
@@ -6517,7 +6539,8 @@ svg:not(:root) {
         width: 100%;
         height: 100%;
 
-        @include ipadLarge {
+
+        @include mdScreenLarge {
           opacity: 1 !important;
         }
       }
@@ -6697,6 +6720,9 @@ svg:not(:root) {
 
   .swiper-ourclient {
     min-height: 260px;
+    @include mobileLarge {
+      min-height:auto;
+    }
 
     .ourclient-gallery {
 
@@ -6713,6 +6739,9 @@ svg:not(:root) {
         z-index: 1;
         margin-top: 0;
         transition: all 0.5s ease;
+        @include mobileLarge {
+          max-width: none;
+        }
 
         @include mobileSmall {
           padding: 0 10px;
@@ -7471,8 +7500,9 @@ svg:not(:root) {
             transition: none !important;
             padding: 0 20px;
 
-            @include mdScreen {
+            @include desktopSmall {
               font-size: 30px;
+              line-height: 1.4;
             }
 
             @include ipadLarge {
@@ -7605,8 +7635,10 @@ svg:not(:root) {
     inset: 0;
     width: 100%;
 
-    @include mobileLarge {
-      height: 100vh;
+    @include ipadLarge {
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
     }
   }
 
@@ -7698,6 +7730,9 @@ svg:not(:root) {
         @include mdScreenLarge {
           border: 1px solid $secondaryColor;
           padding: 20px;
+          h3 , p {
+            opacity: 1 !important;
+          }
         }
 
         .rule-number {
@@ -13794,10 +13829,11 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
+        
         .project-content-top {
           display: flex;
           justify-content: space-between;
+          align-items: center;
           .back-button {
             order: 3;
             @include mobileLarge {
@@ -13839,6 +13875,7 @@ body {
 
           @include mobileLarge {
             flex-direction: column;
+            align-items: self-start;
           }
 
           .back-button a {
@@ -15562,6 +15599,10 @@ section.cust-section-services {
     }
 
     .left-content-col {
+      padding-right: 20px;
+      @include ipadLarge {
+        padding-right: 12px;
+      }
       h2{
         color:$primaryColor;
         font-size: 60px;
@@ -15593,6 +15634,11 @@ section.cust-section-services {
     }
 
     .circle-listing-sec {
+      margin-top: 30px;
+      padding-left: 20px;
+      @include ipadLarge {
+        padding-left: 12px;
+      }
       ul.cust-service-list {
         gap:20px 0;
         list-style: none;
@@ -15629,7 +15675,7 @@ section.cust-section-services {
           a.service-link {
             text-decoration: none;
             font-size: 18px;
-            line-height: 20px;
+            line-height: 26px;
             color: $secondaryColor;
             text-transform: capitalize;
             width: calc(100% - 40px);
@@ -15652,7 +15698,7 @@ section.cust-section-services {
             a.service-link {
               text-decoration: none;
               font-size: 18px;
-              line-height: 20px;
+              line-height: 26px;
               color: $white;
               text-transform: capitalize;
             }
@@ -15662,3 +15708,35 @@ section.cust-section-services {
     }
   }
 }
+
+.service-page {
+  .gloabl-banner-inner-page {
+    .inner-page-wrapper {
+      .container{
+        @include ipadLarge {
+          max-width:none;
+          margin: 0px 20px;
+          padding: 0px ;
+        }
+      } 
+    }
+  }
+  section.cust-section-services {
+      .container{
+        @include ipadLarge {
+          max-width:calc(100% - 40px);
+          margin: 0px 20px;
+          padding: 0px ;
+        }
+      }
+      .service-list-item-wrapper {
+        @include mdScreenSmall {
+          .left-content-col, 
+          .circle-listing-sec{
+            width: 100%;
+
+          }
+        }
+      }
+    }
+  }

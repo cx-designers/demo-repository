@@ -224,15 +224,15 @@ $(document).ready(function () {
     },
 
     breakpoints: {
-      767: {
-        slidesPerView: 2,
-        spaceBetween: 10,
+     1280: {
+        slidesPerView: 4,
       },
       991: {
         slidesPerView: 3,
       },
-      1280: {
-        slidesPerView: 4,
+       767: {
+        slidesPerView: 2,
+        spaceBetween: 10,
       }
     }
 
@@ -1348,8 +1348,6 @@ if (document.querySelector(".Process-main-sec")) {
             },
           },
         });
-
-        console.log("Swiper initialized");
 
       }
 
