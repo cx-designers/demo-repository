@@ -5718,14 +5718,14 @@ svg:not(:root) {
 
       .content-col {
         @include ipadLarge {
-          margin-top: 200px;
+          margin-top: 150px;
           width: 100%;
           max-height: max-content;
         }
 
-        @include mobileLarge {
-          margin-top: 150px;
-        }
+        // @include mobileLarge {
+        //   margin-top: 150px;
+        // }
 
         .heading-main-sec {
           text-align: left;
@@ -5847,7 +5847,7 @@ svg:not(:root) {
       &.for-mobile{
         display: none;
       }
-      @include mobileLarge{
+      @include ipadLarge {
         display: none;
         &.for-mobile{
           display: flex;

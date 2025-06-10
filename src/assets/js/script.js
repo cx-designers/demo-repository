@@ -921,7 +921,7 @@ if ($('.industries-section').length > 0) {
             clickable: true
           },
           breakpoints: {
-            640: {
+            991: {
               slidesPerView: 2,
             },
             520: {
