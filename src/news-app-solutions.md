@@ -53,31 +53,31 @@ servicesList:
     title: Real-Time News Alerts
     pageLink: "javascript:;"
     description: Stay updated with instant notifications on breaking news, ensuring you never miss critical updates from around the globe.
-  - count: "01."
+  - count: "02."
     title: Personalized Content Feed
     pageLink: "javascript:;"
     description: Receive tailored news stories based on your interests, offering a customized reading experience that matches your preferences.
-  - count: "01."
+  - count: "03."
     title: Global News Aggregator
     pageLink: "javascript:;"
     description: Access articles from thousands of trusted sources worldwide, providing diverse perspectives on current events in one centralized platform.
-  - count: "01."
+  - count: "04."
     title: Offline Reading Mode
     pageLink: "javascript:;"
     description: Download news articles for offline access, allowing you to stay informed even without an internet connection during travel or commutes.
-  - count: "01."
+  - count: "05."
     title: Fact-Checking Assistant
     pageLink: "javascript:;"
     description: Verify the authenticity of news stories with integrated fact-checking tools, helping combat misinformation and ensure reliable information.
-  - count: "01."
+  - count: "06."
     title: Multimedia Storytelling Hub
     pageLink: "javascript:;"
     description: Explore news through videos, podcasts, and interactive visuals, making complex stories engaging and easier to understand for all audiences.
-  - count: "01."
+  - count: "07."
     title: Topic-Based News Digest
     pageLink: "javascript:;"
     description: Get concise summaries on specific topics like tech, sports, or politics, delivering focused insights without overwhelming details.
-  - count: "01."
+  - count: "08."
     title: Push Notification Scheduler
     pageLink: "javascript:;"
     description: Customize when and how often you receive news alerts, balancing staying informed with avoiding notification overload throughout the day.
