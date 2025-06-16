@@ -1,0 +1,32 @@
+{% if hasDevelopmentPhases == "yes" %}
+
+<section class="phases-on-demands-app-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-full">
+                <div class="heading-main-sec text-start">
+                    <h3><span>{{developmentPhasesSubTitle}}</span></h3>
+                    <h4>{{developmentPhasesTitle}}</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="phases-on-demands-app-block">
+            {% for phase in developmentPhases %}
+            <div class="phases-on-demands-app-block-inner">
+                <h4>{{ phase.title }}</h4>    
+                <ul class="bullet-list">
+                    {% for point in phase.pointsList %}
+                    <li>{{ point.item }}</li>
+                    {% endfor %}
+                </ul>
+                <div class="phases-on-demands-app-block-inner-img">
+                    <img src="{{ phase.image }}" alt="{{ phase.title }}" title="{{ phase.title }}" class="img-fluid">
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endif %}

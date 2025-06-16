@@ -1,0 +1,30 @@
+<div class="Process-main-sec">
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="../../../assets/video/development-process-bg.mp4" type="video/mp4">
+  </video>
+  <div class="container">
+    <div class="row">
+      <div class="col-full">
+        <div class="heading-main-sec d-flex flex-column">
+          <h2 class="cust-center-text text-center order-1 seo-title">{{processTitle}}</h2>
+          <h3 class="text-center order-0"><span>{{processSubtitle}}</span></h3>
+          <img src="" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="custom-scroll">
+      <section class="animated-section">
+        <div class="animated-box-main">
+          {% for step in processBoxList %}
+          <div class="item">
+            <span class="rule-number">{{ step.stepSubTitle }}</span>
+            <h3>{{ step.stepTitle }}</h3>
+            <p>{{ step.stepDescription }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+  </div>
+</div>

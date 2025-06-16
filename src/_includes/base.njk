@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ metaDescription }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/swiper.min.css">
+  <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+<link rel="shortcut icon" href="/assets/img/favicon.ico" />
+<link rel="manifest" href="/assets/img/site.webmanifest">
+</head>
+
+<body class="{{ bodyClass }} before_load">
+  {% if "homepage" in bodyClass %}
+  {% include "layouts/loaderSection.njk" %}
+  {% endif %}
+  <div class="site_wrapper" {% if "homepage" in bodyClass %}
+  style="display: none; opacity: 0; transition: opacity 1s; flex-direction: column;" {% else %}
+  style="flex-direction: column;" {% endif %}>
+  <div class="desktop-header">
+    {% include "layouts/new-header.njk" %}
+  </div>
+    {% block content %}
+    {{ content | safe }}
+    {% endblock content %}
+    {% include "layouts/footer.njk" %}
+
+  </div>
+  {% if "homepage" in bodyClass %}
+  <script>
+
+    const div = document.querySelector('.site_wrapper');
+    const glowRotate = document.querySelector('.rotateGlow');
+    const drarLogo = document.querySelector('.drawlogo');
+    const drarLine1 = document.querySelector('.drawline1');
+    const drarLine2 = document.querySelector('.drawline2');
+    const pathLength = drarLogo.getTotalLength();
+    const movingDot = document.querySelector('.moving-dot');
+    const roundO = document.querySelector('.roundeO');
+    const moveX = document.querySelector('.moveX');
+    const pathLengthX = drarLine2.getTotalLength();
+    drarLogo.style.strokeDasharray = pathLength;
+    drarLogo.style.strokeDashoffset = pathLength;
+    drarLine1.style.strokeDasharray = pathLength;
+    drarLine1.style.strokeDashoffset = pathLength;
+    drarLine2.style.strokeDasharray = pathLength;
+    drarLine2.style.strokeDashoffset = pathLength;
+    moveX.style.opacity = 0;
+
+    const flyingObjects = document.querySelectorAll('.flying');
+    const cloudObjects = document.querySelectorAll('.cloud-img img');
+    document.body.classList.remove('before_load');
+    div.style.display = 'flex';
+    // Set flying objects to initial opacity 0
+    gsap.set(flyingObjects, { opacity: 0 });
+
+
+    const tl = gsap.timeline();
+
+    // Main Timeline
+    tl.fromTo(glowRotate, {
+      opacity: 0,
+      x: -100,
+      y: -100,
+      scale: 0,
+      rotation: -180
+    }, {
+      opacity: 1,
+      x: 0,
+      y: 0,
+      rotation: 0,
+      duration: 0.1,
+      scale: 1,
+      ease: "power1.inOut"
+    }, "-=0.01")
+
+
+
+    tl.to(div, {
+      opacity: 1,
+      duration: 0.1,
+      ease: "power1.inOut"
+    }, "-=0.1")
+      .from(".from-left", {
+        duration: 0,
+        x: "-120%",
+        ease: "power2.inOut"
+      })
+      .from(".from-right", {
+        duration: 0,
+        x: "120%",
+        ease: "power2.inOut"
+      })
+      .to(flyingObjects, {
+        opacity: 1,
+        duration: 0.1,
+        ease: "power1.inOut"
+      });
+    tl.add(() => {
+      gsap;
+      animateDot();
+
+      runSeparatedAnimations();
+
+      const flyingSection = document.querySelector('.hero-wrapper');
+      flyingSection.addEventListener('mousemove', (e) => {
+        const { clientX: mouseX, clientY: mouseY } = e;
+
+
+        flyingObjects.forEach((object, index) => {
+
+          const delay = index * 0.05;
+
+          gsap.to(object, {
+            x: (mouseX - window.innerWidth / 2) * 0.009 * (index + 1),
+            y: (mouseY - window.innerHeight / 2) * 0.009 * (index + 1),
+            duration: 0.3,
+            ease: "power1.out",
+            delay: delay
+          });
+        });
+      });
+    });
+
+    function runSeparatedAnimations() {
+      const tl2 = gsap.timeline();
+      tl2.to(drarLogo, {
+        strokeDashoffset: 0,
+        opacity: 1,
+        duration: 0.2,
+        ease: "power1.inOut"
+      }, "-=0.1")
+        .fromTo(".roundeO", {
+          strokeDasharray: 500,
+          strokeDashoffset: 500,
+          opacity: 1,
+          duration: 0,
+
+        }, {
+          strokeDashoffset: 0,
+          duration: 0,
+          ease: "power1.inOut"
+        }, "+=0")
+        .to([drarLine1, drarLine2], {
+          strokeDashoffset: 0,
+          opacity: 1,
+          duration: 0,
+          ease: "power1.inOut"
+        }).to(moveX, {
+          opacity: 1,
+          duration: 0,
+          ease: "power1.inOut"
+        });
+      const paths = document.querySelectorAll('.neon');
+      neonFlicker(paths);
+    }
+
+  </script>
+  {% else %}
+  <script>
+    const div = document.querySelector('.site_wrapper');
+    const glowRotate2 = document.querySelector('.rotateGlow');
+    const drarLine1 = document.querySelector('.drawline1');
+    const drarLine2 = document.querySelector('.drawline2');
+    const moveX = document.querySelector('.moveX');
+    const pathLengthXnew = drarLine2.getTotalLength();
+    div.style.opacity = 0;
+
+    document.body.classList.remove('before_load');
+
+
+    const tlnew = gsap.timeline();
+
+    // Main Timeline
+    tlnew.fromTo(glowRotate2, {
+      opacity: 0,
+      x: -100,
+      y: -100,
+      scale: 0,
+      rotation: -180
+    }, {
+      opacity: 1,
+      x: 0,
+      y: 0,
+      rotation: 0,
+      duration: 0.1,
+      scale: 1,
+      ease: "power1.inOut"
+    }, "-=0.01")
+
+
+
+    tlnew.to(div, {
+      opacity: 1,
+      duration: 0.1,
+      ease: "power1.inOut"
+    }, "-=0.1")
+    tlnew.add(() => {
+      gsap;
+
+      runSeparatedAnimations();
+    });
+
+    function runSeparatedAnimations() {
+      const tl2 = gsap.timeline();
+      tl2.to([drarLine1, drarLine2], {
+        strokeDashoffset: 0,
+        opacity: 1,
+        duration: 1,
+        ease: "power1.inOut"
+      }).to(moveX, {
+        opacity: 1,
+        duration: 0.5,
+        ease: "power1.inOut"
+      });
+    }
+
+  </script>
+  {% endif %}
+</body>
+
+</html>

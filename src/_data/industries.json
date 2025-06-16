@@ -1,0 +1,45 @@
+{
+  "industriesShapeImg": "/assets/img/industries-bg-shap.webp",
+  "industriesShapeImgAlt": "Industries Shape",
+  "industriesSubTitle": "Industries We Served",
+  "industriesTitle": "Empowering Diverse",
+  "industriesTitlePart": "Industries",
+  "industriesData": [
+    {
+      "img": "assets/img/entertainment-industry.webp",
+      "alt": "Entertainment industry",
+      "title": "Entertainment",
+      "pageLink" : "/entertainment-industry-services.html"
+    },
+    {
+      "img": "assets/img/education-industry.webp",
+      "alt": "Education industry",
+      "title": "Education",
+      "pageLink" : "/education-industry-services.html"
+    },
+    {
+      "img": "assets/img/healthcare-industry.webp",
+      "alt": "Healthcare industry",
+      "title": "Health Care",
+      "pageLink" : "/healthcare-industry-services.html"
+    },
+    {
+      "img": "assets/img/transportation-industry.webp",
+      "alt": "Transportation industry",
+      "title": "Transportation",
+      "pageLink" : "/transportation-industry-services.html"
+    },
+    {
+      "img": "assets/img/real-estate-industry.webp",
+      "alt": "Real estate industry",
+      "title": "Real Estate",
+      "pageLink" : "/real-estate-industry-services.html"
+    },
+    {
+      "img": "assets/img/social-networking-industry.webp",
+      "alt": "Social networking industry",
+      "title": "Social Network",
+      "pageLink" : "/social-networking-industry-services.html"
+    }
+  ]
+}

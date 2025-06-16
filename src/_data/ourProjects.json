@@ -1,0 +1,72 @@
+{
+  "ourProjectsSubTitle": "Projects",
+  "ourProjectsTitle": "Our Projects",
+  "ourProjectList": [
+    {
+      "projectImg": "assets/img/our-project-01.webp",
+      "alt": "our Project 01",
+      "projectLink": "/project-detail-page.html",
+      "category": "design & development"
+    },
+    {
+      "projectImg": "assets/img/our-project-02.webp",
+      "alt": "our Project 02",
+      "projectLink": "/project-detail-page.html",
+      "category": "Development"
+    },
+    {
+      "projectImg": "assets/img/our-project-03.webp",
+      "alt": "our Project 03",
+      "projectLink": "/project-detail-page.html",
+      "category": "Development"
+    },
+    {
+      "projectImg": "assets/img/our-project-04.webp",
+      "alt": "our Project 04",
+      "projectLink": "/project-detail-page.html",
+      "category": "App Development"
+    },
+    {
+      "projectImg": "assets/img/our-project-05.webp",
+      "alt": "our Project 05",
+      "projectLink": "/project-detail-page.html", 
+      "category": "App Development"
+    },
+    {
+      "projectImg": "assets/img/our-project-06.webp",
+      "alt": "our Project 06",
+      "projectLink": "/project-detail-page.html", 
+      "category": "Design"
+    },
+    {
+      "projectImg": "assets/img/our-project-07.webp",
+      "alt": "our Project 07",
+      "projectLink": "/project-detail-page.html", 
+      "category": "Design"
+    },
+    {
+      "projectImg": "assets/img/our-project-08.webp",
+      "alt": "our Project 08",
+      "projectLink": "/project-detail-page.html",
+      "category": "Web Development"
+    },
+    {
+      "projectImg": "assets/img/our-project-09.webp",
+      "alt": "our Project 09",
+      "projectLink": "/project-detail-page.html",
+      "category": "Web Development"
+    },
+    {
+      "projectImg": "assets/img/our-project-10.webp",
+      "alt": "our Project 10",
+      "projectLink": "/project-detail-page.html",
+      "category": "Seo"
+    },
+    {
+      "projectImg": "assets/img/our-project-11.webp",
+      "alt": "our Project 11",
+      "projectLink": "/project-detail-page.html",
+      "category": "Seo"
+    }
+  ]
+}

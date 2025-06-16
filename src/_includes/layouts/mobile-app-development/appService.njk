@@ -1,0 +1,27 @@
+<section class="development-service">
+  <div class="container">
+    <div class="heading-main-sec d-flex flex-column">
+      <h2  class="seo-title order-1">{{ secTitle }}</h2>
+      <h3 class="order-0">{{ secSubTitle }}</h3>
+    </div>
+  </div>
+
+  <div class="service-listing">
+    <div class="listion-container">
+      {% for service in servicesList %}
+      <div class="service-item">
+        <a href="{{ service.pageLink }}" aria-label="{{ service.pageAriaLabel }}">
+          <div class="service-item-inner">
+            <span class="count">{{ service.count }}</span>
+            <h3 class="development-service-title">
+              <span class="default">{{ service.title }}</span>
+              <span class="hover">{{ service.title }}</span>
+            </h3>
+            <p>{{ service.description }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

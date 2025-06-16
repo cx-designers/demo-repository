@@ -1,0 +1,46 @@
+{% if (devSubTitle and devSubTitle | trim != "") 
+    or (devTitle and devTitle | trim != "") 
+    or (devTitlePart and devTitlePart | trim != "") 
+    or (devInformationList and devInformationList | length > 0) 
+    or (devBgImg and devBgImg | trim != "") %}
+  
+  <section class="app-development-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-full">
+          <div class="heading-main-sec d-flex flex-wrap">
+            {% if devTitle and devTitle | trim != "" %}
+              <h2 class="seo-title w-100 order-1">{{ devTitle }}</h2>
+            {% endif %}
+            {% if devTitlePart and devTitlePart | trim != "" %}
+              <h2 class="development-heading seo-title w-100 order-2">{{ devTitlePart }}</h2>
+            {% endif %}
+            {% if devSubTitle and devSubTitle | trim != "" %}
+            <h3 class="order-0"><span>{{ devSubTitle }}</span></h3>
+          {% endif %}
+          </div>
+  
+          <div class="development-paragraph-main">
+            {% if devInformationList and devInformationList | length > 0 %}
+              {% for item in devInformationList %}
+                {% if item.infoItem and item.infoItem | trim != "" %}
+                  <div class="app-development-paragraph">
+                    <h3><span></span></h3>
+                    <h4></h4>   
+                    <p class="business-paragraph-second">{{ item.infoItem }}</p>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-development">
+      {% if devBgImg and devBgImg | trim != "" %}
+        <img src="{{ devBgImg }}" alt="{{ devBgAlt }}" class="img-fluid">
+      {% endif %}
+    </div>
+  </section>
+
+{% endif %}

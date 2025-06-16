@@ -1,0 +1,46 @@
+{% if (hireSectionTitle and hireSectionTitle | trim != "") 
+    or (hireSectionSubTitle and hireSectionSubTitle | trim != "") 
+    or (hireServicesList and hireServicesList | length > 0) 
+    or (hireButtonText and hireButtonText | trim != "") 
+    or (hireBgImage and hireBgImage | trim != "") %}
+
+  <section class="hire-main-sec">
+    <div class="container">
+      <div class="heading-main-sec">
+        {% if hireSectionSubTitle and hireSectionSubTitle | trim != "" %}
+          <h3><span>{{ hireSectionSubTitle }}</span></h3>
+        {% endif %}
+        {% if hireSectionTitle and hireSectionTitle | trim != "" %}
+          <h4>{{ hireSectionTitle }}</h4>
+        {% endif %}
+      </div>
+
+      <div class="hire-con-row">
+        {% if hireServicesList and hireServicesList | length > 0 %}
+          {% for service in hireServicesList %}
+            {% if service.title and service.title | trim != "" %}
+              <a href="{{ service.link }}" aria-label="{{ service.label }}">
+                <div class="hire-con-item">{{ service.title }}</div>
+              </a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+
+      {% if hireButtonText and hireButtonText | trim != "" %}
+        <div class="button-sec">
+          <a href="{{ hireButtonLink | default('javascript:;') }}" class="btn btn-primary rounded-pill">
+            <span>{{ hireButtonText }}</span>
+          </a>
+        </div>
+      {% endif %}
+    </div>
+
+    {% if hireBgImage and hireBgImage | trim != "" %}
+      <div class="background-shap">
+        <img src="{{ hireBgImage }}" alt="Background Shape">
+      </div>
+    {% endif %}
+  </section>
+
+{% endif %}

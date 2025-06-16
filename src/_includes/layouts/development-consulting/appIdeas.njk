@@ -1,0 +1,59 @@
+{% if (appIdeasSubTitle and appIdeasSubTitle | trim != "") 
+    or (appIdeasTitle and appIdeasTitle | trim != "") 
+    or (appIdeasList and appIdeasList | length > 0) %}
+
+<section class="app-ideas-sec overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-full">
+                <div class="heading-main-sec">
+                    {% if appIdeasSubTitle and appIdeasSubTitle | trim != "" %}
+                        <h3>{{ appIdeasSubTitle }}</h3>
+                    {% endif %}
+                    {% if appIdeasTitle and appIdeasTitle | trim != "" %}
+                        <h4 class="text-left">{{ appIdeasTitle }}</h4>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-lg-7 col-full content-col">
+                <div class="row gap">
+                    {% if appIdeasList and appIdeasList | length > 0 %}
+                        {% for idea in appIdeasList %}
+                            {% if idea.title and idea.title | trim != "" %}
+                                <div class="content-main">
+                                    <div class="app-ideas-content">
+                                        <div class="content-img">
+                                            <img src="{{ idea.icon | default('/assets/img/right-arrow.svg') }}" alt="">
+                                        </div>
+                                        <div class="content-heading">
+                                            <h3>{{ idea.title }}</h3>
+                                            {% if idea.description and idea.description | trim != "" %}
+                                                <p>{{ idea.description }}</p>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app-ideas-shap">
+        <svg width="1920" height="492" viewBox="0 0 1920 492" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.5" filter="url(#filter0_f_1064_324)">
+            <path d="M-175 284C-175 284 499.558 603.091 960 603.091C1420.44 603.091 2095 284 2095 284V960H-175V284Z" fill="#F26E65"/>
+            </g>
+            <defs>
+            <filter id="filter0_f_1064_324" x="-459" y="0" width="2838" height="1244" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="142" result="effect1_foregroundBlur_1064_324"/>
+            </filter>
+            </defs>
+        </svg>
+    </div>
+</section>
+
+{% endif %}

@@ -1,0 +1,40 @@
+{% if (featuresSecSubTitle and featuresSecSubTitle | trim != "") 
+    or (featuresSecTitle and featuresSecTitle | trim != "") 
+    or (featuresBoxList and featuresBoxList | length > 0) %}
+
+  <div class="features-main-sec {{ featureSecWhiteBg }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-full">
+          <div class="heading-main-sec">
+            {% if featuresSecTitle and featuresSecTitle | trim != "" %}
+              <h2 class="seo-title">{{ featuresSecTitle }}</h2>
+            {% endif %}
+            {% if featuresSecSubTitle and featuresSecSubTitle | trim != "" %}
+              <h3><span>{{ featuresSecSubTitle }}</span></h3>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="row cust-row">
+        {% if featuresBoxList and featuresBoxList | length > 0 %}
+          {% for feature in featuresBoxList | batch(2) %}
+            <div class="cust-column">
+              {% for item in feature %}
+                {% if item.title and item.title | trim != "" %}
+                  <div class="col-md-4">
+                    <h3 class="cust-inner-title text-white">{{ item.title }}</h3>
+                    {% if item.description and item.description | trim != "" %}
+                      <p>{{ item.description }}</p>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+{% endif %}

@@ -1,0 +1,60 @@
+{% if hasTechnologyStack != "no" %}
+<section class="technology-stack-sec bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-full">
+        <div class="heading-main-sec">
+          <h3>{{ stackSubHeading }}</h3>
+          <h4 class="text-black">{{ stackMainHeading }}</h4>
+          <p>{{ stackContent }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-sec">
+      <div class="tab-sec-inner">
+        <div class="tab-button-col">
+          <div class="buttons">
+            {% for tab in tabs %}
+            <div class="tab-buttons {% if loop.first %}active{% endif %}" data-tab="{{ tab.dataTab }}">
+              <a href="javascript:;" class="button-inner">
+                <span class="count">{{ tab.tabCount }}</span>
+                <span>{{ tab.tabTitle }}</span>
+              </a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="tab-content-col">
+          {% for tab in tabs %}
+          <div class="tab-contents {% if loop.first %}active{% endif %}" id="{{ tab.tabId }}">
+            <div class="content-inner">
+              <div class="image-sec">
+                <img src="{{ tab.tabImage }}" alt="{{ tabImageAlt }}">
+              </div>
+              <div class="content-sec">
+                <ul>
+                  {% for item in tab.additionalContent %}
+                  <li>
+                    <div class="icon">
+                      <img src="{{ item.icon }}">
+                    </div>
+                    <span>{{ item.text }}</span>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="animated-img-sec">
+      <img src="{{ animatedImage }}" alt="{{ animatedImageAlt }}">
+    </div>
+  </div>
+</section>
+{% endif %}

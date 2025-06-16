@@ -1,0 +1,72 @@
+{% if (faqSubtitle and faqSubtitle | trim != "") 
+    or (faqTitle and faqTitle | trim != "") 
+    or (faqBoxList and faqBoxList | length > 0) 
+    or (faq.faqSubtitle and faq.faqSubtitle | trim != "") 
+    or (faq.faqTitle and faq.faqTitle | trim != "") 
+    or (faq.faqBoxList and faq.faqBoxList | length > 0) %}
+
+  <section class="faq-area overflow-hidden position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-full">
+          <div class="heading-main-sec d-flex flex-column">
+            {% if faqSubtitle and faqSubtitle | trim != "" %}
+              <h3 class="order-0"><span>{{ faqSubtitle }}</span></h3>
+            {% elseif faq.faqSubtitle and faq.faqSubtitle | trim != "" %}
+              <h3 class="order-0"><span>{{ faq.faqSubtitle }}</span></h3>
+            {% endif %}
+            
+            {% if faqTitle and faqTitle | trim != "" %}
+              <h2 class="order-1 seo-title">{{ faqTitle }}</h2>
+            {% elseif faq.faqTitle and faq.faqTitle | trim != "" %}
+              <h2 class="order-1 seo-title">{{ faq.faqTitle }}</h2>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-area-block">
+        {% if faqBoxList and faqBoxList | length > 0 %}
+          {% for step in faqBoxList %}
+            {% if step.faqTitle and step.faqTitle | trim != "" %}
+              <div class="faq-area-block-wrap">
+                <div class="faq-area-block-top">
+                  <h3 class="text-white card-title at-title">{{ step.faqTitle }}</h3>
+                  <div class="faq-icon">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.9397 6.9397H1.0603" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M6.99876 12.8782L7 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                </div>
+                {% if step.faqDescription and step.faqDescription | trim != "" %}
+                  <p class="text-white card-text mb-0 at-tab">{{ step.faqDescription }}</p>
+                {% endif %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% elseif faq.faqBoxList and faq.faqBoxList | length > 0 %}
+          {% for step in faq.faqBoxList %}
+            {% if step.faqTitle and step.faqTitle | trim != "" %}
+              <div class="faq-area-block-wrap">
+                <div class="faq-area-block-top">
+                  <h3 class="text-white card-title at-title">{{ step.faqTitle }}</h3>
+                  <div class="faq-icon">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.9397 6.9397H1.0603" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M6.99876 12.8782L7 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                </div>
+                {% if step.faqDescription and step.faqDescription | trim != "" %}
+                  <p class="text-white card-text mb-0 at-tab">{{ step.faqDescription }}</p>
+                {% endif %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+{% endif %}

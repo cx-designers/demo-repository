@@ -1,0 +1,85 @@
+{% set relatedBlog = news %}
+<section class="blog-post-sec related-blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-full">
+        <div class="heading-main-sec">
+          <h3><span>Blog</span></h3>
+          <h4>Related Blog</h4>
+        </div>
+      </div>
+    </div>
+    <div class="cust-blog-row related-blog-row">
+
+      {% set matchingPosts = [] %}
+      {% set reversedBlogs = relatedBlog.blogsPostList | reverse %} {# Reverse the order to get the latest blogs first
+      #}
+
+      {# Find matching category blogs first #}
+      {% for post in reversedBlogs %}
+      {% set postCategoryLower = post.blogCategory | lower %}
+      {% set isMatching = false %}
+
+      {% if blogRelatedCtegory is defined %}
+      {% if blogRelatedCtegory is string %}
+      {% if postCategoryLower == blogRelatedCtegory | lower %}
+      {% set isMatching = true %}
+      {% endif %}
+      {% elif blogRelatedCtegory is iterable %}
+      {% for category in blogRelatedCtegory %}
+      {% if postCategoryLower == category | lower %}
+      {% set isMatching = true %}
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      {% endif %}
+
+      {% if isMatching and matchingPosts.length < 3 %} {% set matchingPosts=matchingPosts.concat(post) %} {% endif %} {%
+        endfor %} {# If there are not enough matching posts, add default latest blogs #} {% for post in reversedBlogs %}
+        {% if matchingPosts.length < 3 and post not in matchingPosts %} {% set matchingPosts=matchingPosts.concat(post)
+        %} {% endif %} {% endfor %} {# Display the selected blog posts #} {% for post in matchingPosts %} <div
+        class="col-12 col-md-6 col-lg-4 col-xl-4 grid-item blog-item element-item">
+        <div class="Our-Blogs-gallery-outer-block-box">
+          <a href="{{ post.blogCategoryLink }}" class="blog-link">
+            <div class="card h-100">
+              <div class="card-img">
+                <img src="{{ post.blogCategoryImg }}" class="card-img-top" alt="{{ post.blogCategory }}">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">{{ post.blogCategory }}</h5>
+                <p class="card-text">{{ post.blogCategoryDesc }}</p>
+              </div>
+            </div>
+            <div class="card-readmore">
+              <span class="card-arrow d-flex align-items-center justify-content-center">
+                <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_3495_5971)">
+                    <path d="M14.3876 7.11042L5.90234 15.5957" stroke="#F26E65" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M6.60938 6.40332L15.1006 6.40927L15.0947 14.8886" stroke="#F26E65" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_3495_5971">
+                      <rect width="15" height="14" fill="white" transform="translate(0.246094 11.3535) rotate(-45)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </div>
+    </div>
+    {% endfor %}
+
+
+  </div>
+  <div class="col-12 d-flex justify-content-center">
+    <a href="/blog.html" class="primary-btn" aria-label="Blogs">
+      <span class="glow"></span>
+      <span class="stock red-outline"></span>
+      <span class="btn-text">Read more</span>
+    </a>
+  </div>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+<section class="purpose-main-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-full">
+        <div class="heading-main-sec">
+          <h2><span>{{purposeSecSubTitle}}</span></h2>
+          <h4>{{purpoesSecTitle}}</h4>
+          <p class="purpose-desc">{{purposeSecDesc}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row cust-row">
+      {% for item in purposeList %}
+          <div class="col-md-4 cust-col">
+            <div class="image-sec">
+              <img src="{{ item.purposeImage }}" alt="">
+            </div>
+            <h3 class="cust-inner-title text-white">{{ item.purposeTitle }}</h3>
+            <p class="cust-desc m-0 text-center">{{ item.purposeDesc }}</p>
+          </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

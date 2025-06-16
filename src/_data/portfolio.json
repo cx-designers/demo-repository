@@ -1,0 +1,51 @@
+{
+  "portfolioSubTitle": "Projects",
+  "portfolioMainTitle": "Portfolio",
+  "portfolioSlides": [
+    {
+      "sliderImg": "../../../assets/img/portfolio-1.webp",
+      "sliderImgAlt": "portfolio-img-1",
+      "content1": "Year",
+      "content2": "2023",
+      "content3": "Role",
+      "content4": "Mobile App Development",
+      "content5": "Description",
+      "content6": "SkyRise is a revolutionary app designed to redefine urban living...",
+      "buttonText": "All Projects",
+      "buttonAreaLabel": "Go to all projects page",
+      "thumbImg": "../../../assets/img/portfolio-1.webp",
+      "thumbImgAlt": "portfolio-thumb-img-1",
+      "thumbContent": "Skyrise"
+    },
+    {
+      "sliderImg": "../../../assets/img/portfolio-1.webp",
+      "sliderImgAlt": "portfolio-img-2",
+      "content1": "Year",
+      "content2": "2022",
+      "content3": "Role",
+      "content4": "Web App Development",
+      "content5": "Description",
+      "content6": "A modern web application designed for seamless e-commerce solutions...",
+      "buttonText": "All Projects",
+      "buttonAreaLabel": "Go to all projects page",
+      "thumbImg": "../../../assets/img/portfolio-1.webp",
+      "thumbImgAlt": "portfolio-thumb-img-2",
+      "thumbContent": "Skyrise 2"
+    },
+    {
+      "sliderImg": "../../../assets/img/portfolio-1.webp",
+      "sliderImgAlt": "portfolio-img-3",
+      "content1": "Year",
+      "content2": "2021",
+      "content3": "Role",
+      "content4": "UX/UI Design",
+      "content5": "Description",
+      "content6": "An intuitive user experience design for an online collaboration tool...",
+      "buttonText": "All Projects",
+      "buttonAreaLabel": "Go to all projects page",
+      "thumbImg": "../../../assets/img/portfolio-1.webp",
+      "thumbImgAlt": "portfolio-thumb-img-3",
+      "thumbContent": "Skyrise 3"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{% if dedicatedteamSubtitle %}
+<section class="our-dedicated-team">
+    <img src="../../../assets/img/hiring-process-for-developer.webp" alt="hiring-process-for-developer" class="img-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-full">
+                <div class="heading-main-sec">
+                    <h3>{{ dedicatedteamSubtitle }}</h3>
+                    <strong>
+                        <h2>{{ dedicatedteamTitle }}</h2>
+                    </strong>        
+                    <h2>{{ dedicatedteamTitletwo }}</h2>
+                    <p>{{ dedicatedteamTitledescription }}</p>   
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div class="dedicated-slider-bar">
+                    <div class="swiper-container dedicated-slider">
+                        <div class="swiper-wrapper">
+                          {% for step in steps %}
+                          <div class="swiper-slide">
+                            <div class="step-card">
+                              <h3>{{ step.title }}</h3>
+                              <p>{{ step.description }}</p>
+                              <span class="step-number">{{ step.stepNumber }}</span>
+                            </div>
+                          </div>
+                          {% endfor %}
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}

@@ -1,0 +1,71 @@
+
+
+
+{% set ProjectData = ourProjects %}
+{% set selectedProjects = [] %}
+
+{% if ProjectData.ourProjectList %}
+  {% set reversedProjects = ProjectData.ourProjectList | reverse %}
+  
+  {# Step 1: Match by category (string or array) #}
+  {% for project in reversedProjects %}
+    {% set projectCat = project.category | lower %}
+    {% set isMatching = false %}
+
+    {% if blogRelatedCtegory is defined %}
+      {% if blogRelatedCtegory is string %}
+        {% if projectCat == blogRelatedCtegory | lower %}
+          {% set isMatching = true %}
+        {% endif %}
+      {% elif blogRelatedCtegory is iterable %}
+        {% for cat in blogRelatedCtegory %}
+          {% if projectCat == cat | lower %}
+            {% set isMatching = true %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+
+    {% if isMatching and selectedProjects.length < 4 %}
+      {% set selectedProjects = selectedProjects.concat(project) %}
+    {% endif %}
+  {% endfor %}
+
+  {# Step 2: If not enough matches, fill in latest projects from bottom up #}
+  {% for project in reversedProjects %}
+    {% if selectedProjects.length < 4 and project not in selectedProjects %}
+      {% set selectedProjects = selectedProjects.concat(project) %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+
+{% if selectedProjects.length > 0 %}
+  <div class="projects-main-sec overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-full">
+          <div class="heading-main-sec text-start">
+            {% if ProjectData.ourProjectsSubTitle %}
+              <h3><span>{{ ProjectData.ourProjectsSubTitle }}</span></h3>
+            {% endif %}
+            {% if ProjectData.ourProjectsTitle %}
+              <h4 class="font-100">{{ ProjectData.ourProjectsTitle }}</h4>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-full projects-list">
+          {% for item in selectedProjects %}
+            {% if item.projectImg %}
+              <div class="projects-item {{ item.category | lower | replace(" ", "") }}">
+                <a href="{{ item.projectLink }}">
+                  <img src="{{ item.projectImg }}" alt="{{ item.alt | default('Project Image') }}">
+                </a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

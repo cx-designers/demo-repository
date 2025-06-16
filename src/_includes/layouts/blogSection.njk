@@ -1,0 +1,62 @@
+{% set sliderBlog = blogs %}
+{% set sliderPosts = [] %}
+{% set reversedBlogs = sliderBlog.blogsPostList | reverse %}  {# Reverse the order to get the latest blogs first #}
+
+{# Get the latest 6 matching blogs #}
+{% for post in reversedBlogs %}
+  {% if sliderPosts.length < 6 %}
+    {% set sliderPosts = sliderPosts.concat(post) %}
+  {% endif %}
+{% endfor %}
+
+
+<section class="blog-post-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-full">
+        <div class="heading-main-sec">
+          <h3><span>Latest News</span></h3>
+          <h4>Blog Post</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="swiper myblog-post">
+    <div class="swiper-wrapper">
+      {% for blog in sliderPosts %}
+        <div class="swiper-slide" aria-label="Go to blog page">
+          <div class="blog-post-slide">
+            <a href="{{ blog.blogCategoryLink }}">
+            <div class="blog-img">
+              <img src="{{ blog.blogCategoryImg }}" alt="{{ blog.blogCategory }}">
+            </div>
+            <div class="bottom-text">
+              <p>{{ blog.blogCategory }}</p>
+              <h3>{{ blog.blogCategoryDesc }}</h3>
+            </div>
+          </div>
+          <div class="blog-swiper-bottom-arrow">
+            <span > 
+              <img src="../../../assets/img/post-arrow.svg" alt="arrow-icon">
+            </span>
+          </div>
+          <span class="btn-text"></span>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-button-prev-main">
+      <span class="glow"></span>
+      <div class="swiper-button-prev"></div>
+      <span class="btn-text"></span>
+    </div>
+    <div class="swiper-button-next-main">
+      <span class="glow"></span>
+      <div class="swiper-button-next"></div>
+      <span class="btn-text"></span>
+    </div>
+    <div class="autoplay-progress-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+</section>

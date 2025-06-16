@@ -1,0 +1,56 @@
+
+<section class="project-detail-banner">
+    <img src="{{ imagePath }}" alt="{{ projectdetailbannerTitle }}" class="img-fluid">
+    <div class="project-detail-banner-content">
+        <div class="container">
+            <div class="project-content-box">
+                <div class="project-content-top">
+                    {% if breadcrumbOverride %}
+                    <div class="breadcurmb">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              {% for item in breadcrumbOverride %}
+                                {% if loop.last %}
+                                  <li class="breadcrumb-item active" aria-current="page">{{ item.title }}</li>
+                                {% else %}
+                                  <li class="breadcrumb-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+                                {% endif %}
+                              {% endfor %}
+                            </ol>
+                          </nav>
+                    </div>
+                    {% endif %}
+                    <div class="back-button">
+                        <a href="/our-work.html">
+                          <span>
+                            <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23 9L2.65719 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.46153 0.999913L1.00004 8.99989L9.46164 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                          </span>
+                        </a>
+                    </div>
+                    <div class="project-content-bar">
+                        <div class="project-year">
+                            <div class="heading-main-sec">
+                                <strong>{{yearText}}</strong>
+                                <h4>{{year}}</h4>
+                            </div>
+                        </div>
+                        <div class="project-role">
+                            <div class="heading-main-sec">
+                                <strong>{{roleText}}</strong>
+                                <h4>{{role}}</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content-title">
+                    <div class="heading-main-sec">
+                        <h4>{{projectdetailbannerTitle}}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
